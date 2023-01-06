@@ -3,7 +3,7 @@ unique-page-id: 42762648
 description: 'Documentación del tablero Recorrido de cohorte: [!DNL Marketo Measure] - Documentación del producto'
 title: Documentación del panel Recorrido de cohorte
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
+source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Cada tablero tiene dos mosaicos:
 >
 >En todos los tableros de Discover, solo se puede informar de un objeto de persona, ya sea posible Cliente o Contacto. Esto se configura en [!UICONTROL Configuración] > [!UICONTROL Informes] > [!UICONTROL Configuración de atribución] > [!UICONTROL Objeto de tablero predeterminado].
 
-Este tablero admite los siguientes filtros:
+Los tableros admiten los siguientes filtros:
 
 * Etapa de cohorte: seleccione la etapa de cohorte de inicio. Los registros de todas las etapas siguientes evolucionan a partir de los registros de la etapa de cohorte.
 * Intervalo de fechas de cohorte: seleccione el lapso de tiempo para la etapa de cohorte seleccionada. Junto con Fase de cohorte, define el conjunto de datos de inicio.
@@ -53,8 +53,6 @@ En todos los filtros se utiliza la lógica &quot;Y&quot;.
 >[!NOTE]
 >
 >Los filtros de segmento solo se aplican al escenario LC y después. Si la etapa de cohorte es Desconocida o Conocida y uno de los filtros de segmento tiene un valor, el panel no devolverá ningún resultado.
-
-![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Los escenarios incluyen Desconocido, Conocido, LC, etapas de Embudo seleccionadas en Fases de Cliente/Contacto Abiertos (Configuración > CRM > Asignación de Fases), OC, etapas de Embudo seleccionadas en Fases de Oportunidad Abierta (Configuración > CRM > Asignación de Fases) y Ofertas (Oportunidades Ganadas Cerradas).
 
