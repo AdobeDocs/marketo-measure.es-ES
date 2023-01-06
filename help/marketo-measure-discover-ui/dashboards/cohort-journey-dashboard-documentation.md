@@ -3,18 +3,32 @@ unique-page-id: 42762648
 description: 'Documentación del tablero Recorrido de cohorte: [!DNL Marketo Measure] - Documentación del producto'
 title: Documentación del panel Recorrido de cohorte
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Documentación del panel Recorrido de cohorte {#cohort-journey-dashboard-documentation}
 
-El panel Recorrido de cohorte permite a los especialistas en marketing ver el progreso desde una etapa de cohorte de inicio durante un lapso de tiempo seleccionado y medir la tasa de conversión.
+Los paneles Impacto de cohorte y Canal permiten a los especialistas en marketing ver la progresión desde una etapa de cohorte de inicio durante un lapso de tiempo seleccionado y medir la tasa de conversión.
 
-Este tablero tiene dos mosaicos:
+La principal diferencia es cómo contamos cada entidad desde la fase de cohorte.
+
+* Canal de cohorte: El resultado de cada etapa se deriva directamente de la etapa anterior.
+
+   * Solo se cuentan los registros que han pasado por cada fase del canal después de la hora de inicio de la cohorte establecida.
+
+![](assets/cohort-journey-dashboard-documentation-1.png)
+
+* Impacto de cohorte: El resultado de cada etapa se deriva de la etapa de cohorte, no de la anterior.
+
+   * Todos los registros de cada etapa se cuentan siempre que se hayan producido después de la hora de inicio de la cohorte establecida. Naturalmente, este tablero tendrá más registros que el tablero Embudo, ya que estamos viendo cómo las entidades se vieron afectadas desde la etapa de cohorte, no solo el movimiento a través del canal.
+
+![](assets/cohort-journey-dashboard-documentation-2.png)
+
+Cada tablero tiene dos mosaicos:
 
 * Ingresos de cohorte: Cantidad total de oportunidades de todas las oportunidades de la fase Ofertas del mosaico Recorrido de cohorte.
 * Recorrido de cohorte: La progresión a cada fase de recorrido desde la fase de cohorte de inicio para un lapso de tiempo seleccionado.
@@ -40,7 +54,7 @@ En todos los filtros se utiliza la lógica &quot;Y&quot;.
 >
 >Los filtros de segmento solo se aplican al escenario LC y después. Si la etapa de cohorte es Desconocida o Conocida y uno de los filtros de segmento tiene un valor, el panel no devolverá ningún resultado.
 
-![](assets/one-2.png)
+![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Los escenarios incluyen Desconocido, Conocido, LC, etapas de Embudo seleccionadas en Fases de Cliente/Contacto Abiertos (Configuración > CRM > Asignación de Fases), OC, etapas de Embudo seleccionadas en Fases de Oportunidad Abierta (Configuración > CRM > Asignación de Fases) y Ofertas (Oportunidades Ganadas Cerradas).
 
