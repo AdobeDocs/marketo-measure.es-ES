@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Plantilla de informe - Tableau - [!DNL Marketo Measure] - Documentación del producto"
 title: "[!DNL Marketo Measure] Plantilla de informe - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 1b0d043e9015f2f8e2f6a3a2a49849bb792c7f21
 workflow-type: tm+mt
-source-wordcount: '2324'
+source-wordcount: '2323'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Puede acceder al [!DNL Tableau] plantilla de informe [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
-Abra el [!DNL Adobe Marketo] Medir el archivo del libro Tableau de la plantilla de informes.
+Abra el [!DNL Adobe Marketo Measure] Plantilla de informes Archivo Tableau de libro.
 
 Deberá actualizar los datos de conexión existentes a la información de conexión específica del Snowflake. Haga clic en el [!UICONTROL Editar conexión] y siga los pasos descritos en la sección [[!UICONTROL Conexión de datos]](#data-connection) de esta documentación.
 
