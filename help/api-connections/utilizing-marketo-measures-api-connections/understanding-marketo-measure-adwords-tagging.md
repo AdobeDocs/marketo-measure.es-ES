@@ -5,7 +5,7 @@ title: Explicación [!DNL Marketo Measure] Etiquetado de AdWords
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sin embargo, la misma dirección URL proporcionará datos granulares debido al [
 **If [!DNL Marketo Measure] encuentra una plantilla de seguimiento:**
 
 * [!DNL Marketo Measure] agregará sus parámetros a la plantilla de seguimiento.
-* Si se encuentra un redireccionamiento de terceros en una plantilla de seguimiento como Kenshoo o Marin, [!DNL Marketo Measure] no tomará ninguna acción. En su lugar, debe [add [!DNL Marketo Measure] parámetros de la herramienta de terceros de su cuenta](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* Si se encuentra un redireccionamiento de terceros en una plantilla de seguimiento como Kenshoo o Marin, [!DNL Marketo Measure] no tomará ninguna acción. En su lugar, debe [add [!DNL Marketo Measure] parámetros de la herramienta de terceros de su cuenta](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 Sin embargo, si no se encuentra ninguna plantilla de seguimiento, [!DNL Marketo Measure] será:
 
@@ -40,7 +40,7 @@ Sin embargo, si no se encuentra ninguna plantilla de seguimiento, [!DNL Marketo 
 
 ## Plantillas de seguimiento {#tracking-templates}
 
-Como se explica en [!DNL Google AdWords], una plantilla de seguimiento es la dirección URL que se utiliza para llegar a una página de aterrizaje. La información de seguimiento recopilada se utiliza para comprender el tráfico de la publicidad. [Haga clic aquí](https://support.google.com/adwords/answer/7197008?hl=en){target=&quot;_blank&quot;} para obtener más información de Google.
+Como se explica en [!DNL Google AdWords], una plantilla de seguimiento es la dirección URL que se utiliza para llegar a una página de aterrizaje. La información de seguimiento recopilada se utiliza para comprender el tráfico de la publicidad. [Haga clic aquí](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} para obtener más información de Google.
 
 [!DNL Marketo Measure] recomienda utilizar una plantilla de seguimiento de nivel de cuenta, nivel de campaña o nivel de grupo de anuncios , ya que permite añadir y restar parámetros para todos los anuncios sin riesgo de interrupciones o eliminación del historial de anuncios.
 
@@ -108,6 +108,6 @@ A: 4 horas
 
 >[!NOTE]
 >
->Una vez realizados los cambios, ya ha finalizado. No dude en ponerse en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} si hay alguna pregunta durante la configuración.
+>Una vez realizados los cambios, ya ha finalizado. No dude en ponerse en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} si hay alguna pregunta durante la configuración.
 
-[Haga clic aquí](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;} para obtener instrucciones de Google sobre la creación de plantillas de seguimiento de nivel de cuenta.
+[Haga clic aquí](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} para obtener instrucciones de Google sobre la creación de plantillas de seguimiento de nivel de cuenta.

@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] Plantilla de informe - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2324'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Introducción {#getting-started}
 
-Puede acceder al [!DNL Tableau] plantilla de informe [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+Puede acceder al [!DNL Tableau] plantilla de informe [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Abra el [!DNL Adobe Marketo] Medir el archivo del libro Tableau de la plantilla de informes.
 
@@ -23,7 +23,7 @@ Deberá actualizar los datos de conexión existentes a la información de conexi
 
 ## Conexión de datos {#data-connection}
 
-Deberá configurar una conexión de datos en la instancia de Snowflake. Para ello, necesitará el nombre del servidor junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar esta información y restablecer su contraseña, si es necesario, están documentados [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Deberá configurar una conexión de datos en la instancia de Snowflake. Para ello, necesitará el nombre del servidor junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar esta información y restablecer su contraseña, si es necesario, están documentados [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -109,7 +109,7 @@ La otra opción es cambiar el nombre de las columnas directamente en la [!DNL Ta
 
 Haga clic en la imagen siguiente para su versión de tamaño completo.
 
-[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
 
 ### Relaciones y flujo de datos {#relationships-and-data-flow}
 
@@ -152,7 +152,7 @@ Se han añadido definiciones al [!DNL Tableau model] para parámetros, columnas 
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-Para ver las definiciones de las columnas que provienen directamente de [!DNL Snowflake], consulte la [documentación del almacén de datos](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}.
+Para ver las definiciones de las columnas que provienen directamente de [!DNL Snowflake], consulte la [documentación del almacén de datos](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Discrepancias entre las plantillas y Discover {#discrepancies-between-templates-and-discover}
 

@@ -5,7 +5,7 @@ title: Uso de un campo de importe de ingresos personalizado
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,4 @@ A partir de aquí, empezaremos a crear el flujo de trabajo.
 
    Esto se puede lograr ejecutando las oportunidades a través del cargador de datos dentro de SFDC. Encontrará detalles sobre el uso de Data Loader en [este artículo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Si hay alguna pregunta en el camino, no dude en ponerse en contacto con su gestor de éxito de clientes o [[!DNL Marketo] Asistencia](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Si hay alguna pregunta en el camino, no dude en ponerse en contacto con su gestor de éxito de clientes o [[!DNL Marketo] Asistencia](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

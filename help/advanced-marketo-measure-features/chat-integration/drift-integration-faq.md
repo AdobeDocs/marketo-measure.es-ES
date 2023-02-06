@@ -5,14 +5,14 @@ title: Preguntas frecuentes sobre la integración de Drift
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Preguntas frecuentes sobre la integración de Drift {#drift-integration-faq}
 
-Como parte del [!DNL Marketo Measure] integración con Drift, hemos esbozado algunas de las preguntas más frecuentes. Si tiene alguna pregunta que no se describe a continuación, póngase en contacto con el administrador de éxito del cliente o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Como parte del [!DNL Marketo Measure] integración con Drift, hemos esbozado algunas de las preguntas más frecuentes. Si tiene alguna pregunta que no se describe a continuación, póngase en contacto con el administrador de éxito del cliente o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **¿Cómo se habilita la integración?**
 

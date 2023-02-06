@@ -5,14 +5,14 @@ title: Configuración de escenarios de Boomerang
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # Configuración de escenarios de Boomerang {#setting-up-boomerang-stages}
 
-Para habilitar [!UICONTROL Boomerang] Etapas de la cuenta, debe ser administrador de cuentas. O bien, se puede habilitar si se llega a [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}. Una vez habilitada la función, siga estas instrucciones para configurarla.
+Para habilitar [!UICONTROL Boomerang] Etapas de la cuenta, debe ser administrador de cuentas. O bien, se puede habilitar si se llega a [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Una vez habilitada la función, siga estas instrucciones para configurarla.
 
 ## Configuración del escenario de Boomerang {#boomerang-stage-setup}
 

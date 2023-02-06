@@ -1,11 +1,11 @@
 ---
 unique-page-id: 18874562
-description: Puntos de contacto y participación de posibles clientes PostLC - Medida de Marketo - Documentación del producto
+description: 'Puntos de contacto y participación de posibles clientes PostLC: Marketo Measure: documentación del producto'
 title: Puntos de contacto de PostLC y participación de posible cliente
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Para ajustar la configuración del punto de contacto de PostLC para sus posibles
 
 **Leads**
 
-1. Inicie sesión en su [!DNL Marketo Measure] cuenta en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} y vaya a [!UICONTROL Configuración].
+1. Inicie sesión en su [!DNL Marketo Measure] cuenta en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} y vaya a [!UICONTROL Configuración].
 
 1. En CRM, seleccione **[!UICONTROL Posibles clientes]**.
 
@@ -46,7 +46,7 @@ Para ajustar la configuración del punto de contacto de PostLC para sus posibles
 
 **Contactos**
 
-1. Inicie sesión en su [!DNL Marketo Measure] cuenta en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} y vaya a [!UICONTROL Configuración].
+1. Inicie sesión en su [!DNL Marketo Measure] cuenta en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} y vaya a [!UICONTROL Configuración].
 
 1. En CRM, seleccione **[!UICONTROL Contactos]**.
 

@@ -26,7 +26,7 @@ Cosas que hay que tener en cuenta:
 * Seleccione el campo de ingresos que sea preciso y utilizado para todas las oportunidades
    * ARR o valor total del contrato que se recomienda
 * No utilizar un campo de fórmula
-* Si utiliza un importe de ingresos personalizado para conversiones de moneda, la variable [!UICONTROL Marketo mide varias monedas] en su lugar, la funcionalidad es el método preferido.
+* Si utiliza un importe de ingresos personalizado para conversiones de moneda, la variable [!UICONTROL Múltiples monedas de Marketo Measure] en su lugar, la funcionalidad es el método preferido.
    * La variable [!DNL Marketo Measure] La funcionalidad Monedas múltiples hace referencia a las tasas de conversión establecidas en [!DNL Salesforce] para garantizar de la mejor manera la alineación entre las conversiones de moneda. Esto le permite seguir utilizando la cantidad estándar (predeterminada de SFDC) o cualquier otro campo de cantidad personalizado relacionado con la variable [!DNL Salesforce] tasas de conversión.
 * Si actualiza el campo Importe que desea [!DNL Marketo Measure] para hacer referencia a , utilice el cargador de datos para actualizar las oportunidades anteriores y garantizar que los datos de ingresos sean coherentes y que el campo adecuado se rellene mediante el flujo de trabajo
 

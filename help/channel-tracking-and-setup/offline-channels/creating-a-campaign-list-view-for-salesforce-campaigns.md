@@ -5,7 +5,7 @@ title: Creación de una vista de lista de campañas para [!DNL Salesforce] Campa
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ La vista de lista de campañas que se puede crear le permite tener una ubicació
 1. Asigne un nombre a la vista &quot;Campañas para sincronizar con [!DNL Marketo Measure].&quot;
 1. Queremos que esta lista solo muestre las campañas con las que queremos sincronizar [!DNL Marketo Measure] necesitamos un par de filtros:
 
-   * **Tipo** [IGUAL A] &quot;Todos los tipos de campaña que hemos asignado a sus canales sin conexión&quot;. Consulte el plan de implementación o la pestaña Canales sin conexión en [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} -> Mi cuenta -> Configuración -> Canales sin conexión). Puede seleccionar los tipos que desee (los que están asignados a un canal de marketing sin conexión) mediante el icono de lupa.
+   * **Tipo** [IGUAL A] &quot;Todos los tipos de campaña que hemos asignado a sus canales sin conexión&quot;. Consulte el plan de implementación o la pestaña Canales sin conexión en [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mi cuenta -> Configuración -> Canales sin conexión). Puede seleccionar los tipos que desee (los que están asignados a un canal de marketing sin conexión) mediante el icono de lupa.
 
       * Elija un máximo de 3 tipos para cada filtro. Puede tener un límite de caracteres en un campo de filtro. Comience con 3 tipos por filtro y añada filas adicionales de filtros &quot;Tipo&quot; si es necesario.
    * **Fecha de creación** [BUENO O IGUAL] your [!DNL Marketo Measure] fecha de inicio. Puede encontrar la fecha de inicio en el panel de ROI dentro del [!DNL Marketo Measure] Aplicación. Simplemente seleccione &quot;Desde fecha de creación&quot; en el intervalo de fechas del guión y mostrará la fecha de inicio.
@@ -39,4 +39,4 @@ La vista de lista de campañas que se puede crear le permite tener una ubicació
 
 >[!MORELIKETHIS]
 >
->[Solución de problemas comunes con la edición en línea de la vista de lista](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target=&quot;_blank&quot;}
+>[Solución de problemas comunes con la edición en línea de la vista de lista](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}

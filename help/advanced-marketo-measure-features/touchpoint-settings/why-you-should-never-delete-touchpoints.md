@@ -5,7 +5,7 @@ title: Por qué nunca se deben eliminar los puntos de contacto
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Cuando se elimina un punto de contacto, se crea un agujero en los datos de atrib
 
 ![](assets/1.png)
 
-Si se han eliminado puntos de contacto de su SFDC, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} para solicitar una reimportación de sus datos.
+Si se han eliminado puntos de contacto de su SFDC, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para solicitar una nueva importación de los datos.

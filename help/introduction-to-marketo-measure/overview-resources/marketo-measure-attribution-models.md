@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874568
-description: Modelos de atribución de medida de Marketo - Medida de Marketo - Documentación del producto
-title: Modelos de atribución de medida de Marketo
+description: 'Modelos de atribución de Marketo Measure: Marketo Measure: Documentación del producto'
+title: Modelos de atribución de Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 2%
 
 ---
 
-# Modelos de atribución de medida de Marketo {#marketo-measure-attribution-models}
+# Modelos de atribución de Marketo Measure {#marketo-measure-attribution-models}
 
 Marketo Measure ofrece seis tipos de modelos de atribución:
 
@@ -21,7 +21,7 @@ Marketo Measure ofrece seis tipos de modelos de atribución:
 * Ruta completa
 * Modelo personalizado
 
-Estos modelos varían en complejidad. El primer toque y la creación de posibles clientes son nuestros sencillos modelos de un solo toque. Los otros cuatro son nuestros modelos más complejos y multitáctiles. La estructura de los modelos de atribución de la medida de Marketo refleja los cuatro puntos de contacto principales que se producen en el recorrido del cliente:
+Estos modelos varían en complejidad. El primer toque y la creación de posibles clientes son nuestros sencillos modelos de un solo toque. Los otros cuatro son nuestros modelos más complejos y multitáctiles. La estructura de los modelos de atribución de Marketo Measure refleja los cuatro puntos de contacto principales que se producen en el recorrido del cliente:
 
 * Primera instancia de interacción (FT)
 * Creación de cliente potencial (LC)

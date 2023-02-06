@@ -5,7 +5,7 @@ title: Prácticas recomendadas para configurar parámetros de UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Los parámetros de UTM son la buena forma de cortar y fragmentar los datos de marketing. [!DNL Marketo Measure] utiliza y captura todos los parámetros de la UTM para rellenar campos en Salesforce y en la variable [!DNL Marketo Measure] aplicación. Con esta información, podrá comprender de dónde provienen sus posibles clientes, oportunidades y ofertas cerradas/ganadas.
 
-Puede utilizar el [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;} para configurar los parámetros de la UTM y agregarlos a los vínculos dentro de los esfuerzos de marketing. Utilice esta [Hoja de cálculo de Google](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;} si desea una forma más sencilla de realizar un seguimiento de todos los vínculos de la UTM.
+Puede utilizar el [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si desea una forma más sencilla de realizar un seguimiento de todos los vínculos de la UTM.
 
 ## Valores de alto nivel para cada parámetro {#high-level-values-for-each-parameter}
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 Observe que los términos/canal no están duplicados y utm_term no se utiliza en este caso.
 
-Si tiene alguna pregunta, póngase en contacto con el gestor de éxito del cliente o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Si tiene alguna pregunta, póngase en contacto con el gestor de éxito del cliente o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

@@ -5,7 +5,7 @@ title: Recomendado [!DNL Salesforce] Permisos para [!DNL Marketo Measure] Usuari
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ Si el usuario dedicado no tiene acceso a posibles clientes en colas, no puede mo
 
 La seguridad a nivel de campo y la accesibilidad de los campos están relacionadas, pero tienen algunas diferencias clave. Seguridad de nivel de campo define la visibilidad de campo para un perfil determinado, mientras que Accesibilidad de campo determina si un campo es editable en función de la seguridad de nivel de campo y la configuración de la presentación de página. Al usar la variable [!DNL Marketo Measure] conjuntos de permisos del paquete recibirá la configuración de seguridad necesaria para los objetos de campo. En algunos casos, para tener la accesibilidad del campo correcta, el usuario conectado deberá tener la variable [!DNL Marketo Measure] en los diseños de página. [!DNL Marketo Measure] los campos de la presentación permiten el [!DNL Marketo Measure] datos a asignar [!DNL Salesforce]. Esto dependerá de su [!DNL Salesforce] entorno.
 
-Todas las organizaciones [!DNL Salesforce] tiene necesidades individuales, pero le proporcionamos nuestros requisitos para equilibrar el [!DNL Marketo Measure] acceda a las necesidades con sus protocolos de seguridad. No dude en ponerse en contacto con [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Todas las organizaciones [!DNL Salesforce] tiene necesidades individuales, pero le proporcionamos nuestros requisitos para equilibrar el [!DNL Marketo Measure] acceda a las necesidades con sus protocolos de seguridad. No dude en ponerse en contacto con [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

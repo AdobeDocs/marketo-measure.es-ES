@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] Mantenimiento"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Actualice la memoria sobre cómo cargar la información de costes leyendo [este 
 
 **Actualizar lista de dominios para rastrear (1x/mes)**
 
-Marketo Measure rastrea todas las páginas y subdominios donde nuestro Javascript está activo, pero solo para los dominios que conocemos. Si acaba de depurar un nuevo dominio, se ha expandido internacionalmente o ha cambiado su dominio principal, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} para asegurarnos de actualizar su cuenta en consecuencia.
+Marketo Measure realiza el seguimiento de todas las páginas y subdominios donde Javascript está activo, pero solo de los dominios que conocemos. Si acaba de depurar un nuevo dominio, se ha expandido internacionalmente o ha cambiado su dominio principal, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para asegurarse de que actualizamos su cuenta en consecuencia.
 
 **Revisar la precisión de la asignación de canales personalizada (1x/mes)**
 
-Durante la incorporación, se configura la asignación de canales personalizada para los esfuerzos de marketing en línea y sin conexión. A medida que evolucionen su estrategia de marketing y el uso de la medida de Marketo, debe prestar atención a esa lógica de asignación para garantizar que todos los puntos de contacto se clasifiquen adecuadamente.
+Durante la incorporación, se configura la asignación de canales personalizada para los esfuerzos de marketing en línea y sin conexión. A medida que evolucionen su estrategia de marketing y el uso de Marketo Measure, tendrá que prestar atención a esa lógica de asignación para asegurarse de que todos sus puntos de contacto se clasifiquen adecuadamente.
 
 Recuerde: [!DNL Marketo Measure] vuelve a procesar los datos al editar la lógica de asignación, por lo que no podrá cambiar estas reglas más de una vez cada 7 días.
 

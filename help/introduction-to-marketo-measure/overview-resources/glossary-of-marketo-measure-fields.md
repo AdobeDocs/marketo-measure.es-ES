@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874586
-description: Glosario de campos de medida de Marketo - Medida de Marketo - Documentación del producto
-title: Glosario de campos de medida de Marketo
+description: Glosario de campos de Marketo Measure - Marketo Measure - Documentación del producto
+title: Glosario de campos de Marketo Measure
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Glosario de campos de medida de Marketo {#glossary-of-marketo-measure-fields}
+# Glosario de campos de Marketo Measure {#glossary-of-marketo-measure-fields}
 
-Este artículo proporciona un glosario de todos los campos de medida de Marketo que se agregan a Salesforce desde el paquete base de medidas de Marketo. También encontrará información sobre en qué objeto se puede encontrar el campo y cómo se rellena cada campo con información.
+Este artículo contiene un glosario de todos los campos de Marketo Measure que se agregan a Salesforce desde el paquete base de Marketo Measure. También encontrará información sobre en qué objeto se puede encontrar el campo y cómo se rellena cada campo con información.
 
-Para obtener un mapa del objeto con el que se relaciona cada campo de medida de Marketo, [haga clic aquí](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Para obtener un mapa del objeto con el que se relaciona cada campo de Marketo Measure, [haga clic aquí](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ [K](#k) ・ [L](#l) ・ [M](#m) ・ N [O](#o) ・ [P](#p) ・ P ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
@@ -48,7 +48,7 @@ Si no se encuentra ninguno de los anteriores, este campo estará en blanco.
 
 `3)` Si el punto de contacto procede de una campaña de Salesforce, el nombre de la campaña de Salesforce se muestra aquí.
 
-`4)` Esto se rellenará con el Nombre de campaña definido para los touchpoints generados a partir de las actividades creadas dentro de la cuenta de medida de Marketo.
+`4)` Esto se rellenará con el Nombre de campaña definido para los touchpoints generados a partir de las actividades creadas dentro de la cuenta de Marketo Measure.
 
 Si no se encuentra ninguno de los anteriores, este campo estará en blanco.
 
@@ -126,9 +126,9 @@ Este campo muestra el porcentaje de ingresos atribuido a un punto de contacto se
 
 ## B {#b}
 
-**Cantidad de oportunidad de medición de Marketo** | Oportunidad de Salesforce
+**Cantidad de oportunidad de Marketo Measure** | Oportunidad de Salesforce
 
-Si utiliza un campo Importe personalizado para informar de los ingresos de oportunidad, Marketo Measure no puede leer estos campos personalizados de cantidad. La cantidad de oportunidad de medida de Marketo es un campo oculto que se utiliza para crear un flujo de trabajo que permite que la medida de Marketo lea los campos de cantidad personalizados en la oportunidad.
+Si utiliza un campo Importe personalizado para informar de los ingresos de oportunidad, Marketo Measure no puede leer estos campos de cantidad personalizados. La cantidad de oportunidad de Marketo Measure es un campo oculto que se utiliza para crear un flujo de trabajo que permite a Marketo Measure leer campos de cantidad personalizados en la oportunidad.
 
 **Navegador** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
 
@@ -196,21 +196,21 @@ Este campo muestra, en forma decimal, el porcentaje de crédito dado a un punto 
 
 ## D {#d}
 
-Fecha de informe | Marketo Measure ABTest, Marketo Measure Event
+Fecha de informe | Marketo Measure ABTest, Evento de Marketo Measure
 
-Evento de medición de Marketo: la fecha en la que un usuario realizó una acción específica en el sitio web, activando un evento.
+Evento de Marketo Measure: la fecha en la que un usuario realizó una acción específica en el sitio web, al activar un Evento
 
-Marketo Measure ABTest - la fecha en la que un usuario participó en una prueba A/B en su sitio web
+Marketo Measure ABTest : la fecha en la que un usuario participó en una prueba A/B en su sitio web.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 ## E {#e}
 
-**Nombre del evento** | Evento de medida de Marketo
+**Nombre del evento** | Evento de Marketo Measure
 
 Este campo muestra el nombre de la acción que activó el evento (es decir, vista de página).
 
-**Valor de evento** | Evento de medida de Marketo
+**Valor de evento** | Evento de Marketo Measure
 
 La descripción del evento (es decir, la página principal)
 
@@ -218,7 +218,7 @@ La descripción del evento (es decir, la página principal)
 
 Este campo muestra el nombre del experimento (por ejemplo, Botón de prueba)
 
-**ID del experimento** |Prueba AB de la medida Marketo
+**ID del experimento** |Prueba Marketo Measure AB
 
 El código de identificación único para cada experimento
 
@@ -288,7 +288,7 @@ Este campo muestra la versión abreviada de la URL (sin parámetros de UTM) de l
 
 Este campo muestra la dirección URL completa (incluidos los parámetros de UTM) de la primera página web visitada durante una sesión web.
 
-**Posible cliente** | Punto de contacto del comprador, Persona de medida de Marketo
+**Posible cliente** | Punto de contacto del comprador, persona de Marketo Measure
 
 Este campo muestra el nombre del posible cliente al que pertenece un punto de contacto.
 
@@ -298,7 +298,7 @@ Este campo muestra el nombre del posible cliente al que pertenece un punto de co
 
 **Canal de marketing** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
 
-Este campo muestra el grupo general de actividad de marketing o el canal de marketing al que pertenece el punto de contacto (por ejemplo, búsqueda de pago, directa, social, etc.). Los puntos de contacto se agrupan según la configuración de sus canales en la aplicación de medida de Marketo. Para obtener más información sobre canales de marketing o cómo configurarlos, [haga clic aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Este campo muestra el grupo general de actividad de marketing o el canal de marketing al que pertenece el punto de contacto (por ejemplo, búsqueda de pago, directa, social, etc.). Los puntos de contacto se agrupan según la configuración de sus canales en la aplicación Marketo Measure. Para obtener más información sobre canales de marketing o cómo configurarlos, [haga clic aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Canal de marketing: ruta** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
 
@@ -316,7 +316,7 @@ Este campo muestra el canal de marketing y el subcanal al que pertenece un punto
 
 `4)` Esto se rellenará con el valor Tipo de actividad de la actividad relacionada que generó el Touchpoint.
 
-Si no se encuentra ninguno de los anteriores, la medida de Marketo establece automáticamente un valor medio.
+Si ninguno de los anteriores, Marketo Measure establece automáticamente un valor Medio.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 

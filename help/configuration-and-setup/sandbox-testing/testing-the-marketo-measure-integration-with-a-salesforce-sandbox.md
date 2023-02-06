@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874765
-description: 'Prueba de la integración de medidas de Marketo con un Simulador para pruebas de Salesforce: [!DNL Marketo Measure] - Documentación del producto'
-title: Prueba de la integración de medidas de Marketo con un Simulador para pruebas de Salesforce
+description: Prueba de la integración de Marketo Measure con un Simulador para pruebas de Salesforce [!DNL Marketo Measure] - Documentación del producto
+title: Prueba de la integración de Marketo Measure con un Simulador para pruebas de Salesforce
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Prueba de la integración de medidas de Marketo con un Simulador para pruebas de Salesforce {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
+# Prueba de la integración de Marketo Measure con un Simulador para pruebas de Salesforce {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
 >

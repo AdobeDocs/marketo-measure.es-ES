@@ -25,7 +25,7 @@ Para [!DNL Marketo Measure] para configurar un recurso compartido directo en el 
 
 ## Especifique el ID de cuenta del Snowflake {#enter-snowflake-account-id}
 
-Abra el **Configuración** en la aplicación Medida de Marketo y vaya a la sección **Data Warehouse** página. En el **Uso compartido directo** , introduzca su [ID de cuenta de Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} en el cuadro proporcionado y haga clic en **Connect**.
+Abra el **Configuración** en la aplicación de Marketo Measure y vaya a la sección **Data Warehouse** página. En el **Uso compartido directo** , introduzca su [ID de cuenta de Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} en el cuadro proporcionado y haga clic en **Connect**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 

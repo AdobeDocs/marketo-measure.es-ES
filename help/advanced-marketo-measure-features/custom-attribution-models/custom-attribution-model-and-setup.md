@@ -5,7 +5,7 @@ title: Modelo de atribución personalizado y configuración
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ La variable [!DNL Marketo Measure] El modelo de atribución personalizada permit
 
    Para empezar a crear el modelo de atribución personalizado, deberá seleccionar qué etapas son importantes para su equipo de Marketing. Además del [!DNL Marketo Measure] etapas de hitos (FT, LC, OC, Cerrado) puede agregar hasta seis estados de posible cliente o contacto adicionales o etapas de oportunidad en su modelo personalizado. Por ejemplo, es común que el escenario de MQL se incluya en el modelo personalizado. Los equipos de marketing suelen querer saber qué esfuerzos o canales están impulsando transiciones al escenario de MQL.
 
-   Iniciar sesión en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. Vaya a [!UICONTROL Mi cuenta] > [!UICONTROL Configuración] > y en la sección CRM , seleccione **[!UICONTROL Asignación de fases]**.
+   Iniciar sesión en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Vaya a [!UICONTROL Mi cuenta] > [!UICONTROL Configuración] > y en la sección CRM , seleccione **[!UICONTROL Asignación de fases]**.
 
    Una vez aquí, tendrá que seleccionar qué etapas de posibles clientes/contactos y oportunidad incluir seleccionando la **[!UICONTROL Incluir en modelo]** en la ventana
 

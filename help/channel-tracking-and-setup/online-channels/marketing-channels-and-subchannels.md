@@ -72,7 +72,7 @@ Más ejemplos...
 * Doble clic
 * Capterra
 * Profundizar campañas
-* Publicidades de linkedIn
+* LinkedIn Ads
 
 **Contenido (Documentos técnicos, URL de la página, Publicaciones de blog)**
 

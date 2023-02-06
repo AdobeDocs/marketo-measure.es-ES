@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874566
-description: Atribución de marketing - Medida de Marketo - Documentación del producto
+description: Atribución de marketing - Marketo Measure - Documentación del producto
 title: Atribución de marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
@@ -12,9 +12,9 @@ ht-degree: 7%
 
 # Atribución de marketing {#marketing-attribution}
 
-## Bienvenido a la medida de Marketo {#welcome-to-marketo-measure}
+## Bienvenido a Marketo Measure {#welcome-to-marketo-measure}
 
-Marketo Measure ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía. Marketo Measure es una solución de atribución de marketing que realiza automáticamente un seguimiento del rendimiento del canal y genera informes al respecto, lo que proporciona visibilidad sobre qué canales están generando la mayor participación de los clientes y le permite optimizar el gasto de marketing en consecuencia.
+Marketo Measure ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía. Marketo Measure es una solución de atribución de marketing que realiza automáticamente un seguimiento del rendimiento del canal y genera informes al respecto, lo que proporciona visibilidad sobre los canales que generan la mayor participación de los clientes y le permite optimizar el gasto de marketing en consecuencia.
 
 ## Atribución de marketing {#marketing-attribution-1}
 
@@ -24,7 +24,7 @@ Marketo Measure ofrece a los expertos en marketing un conocimiento detallado de 
 
 ![](assets/1.png)
 
-Estos hitos son la base de la **modelos de atribución**. Marketo Measure ofrece seis modelos de atribución. Cada modelo se centra en diferentes etapas del recorrido del cliente y ofrece una estructura general para atribuir crédito por ingresos a los puntos de contacto de marketing. El modelo que utilice dependerá de qué etapas del recorrido le interesen más medir y de la cantidad de datos de la que desee informar. Los modelos de atribución que ofrece Marketo Measure son:
+Estos hitos son la base de Marketo Measure **modelos de atribución**. Marketo Measure ofrece seis modelos de atribución. Cada modelo se centra en diferentes etapas del recorrido del cliente y ofrece una estructura general para atribuir crédito por ingresos a los puntos de contacto de marketing. El modelo que utilice dependerá de qué etapas del recorrido le interesen más medir y de la cantidad de datos de la que desee informar. Los modelos de atribución que ofrece Marketo Measure son:
 
 * Primera instancia de interacción
 * Creación de cliente potencial

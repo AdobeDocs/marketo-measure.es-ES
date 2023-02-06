@@ -5,7 +5,7 @@ title: Costes de campaña de CRM
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Cualquier cambio en el coste o la distribución debe realizarse en el CRM para q
 
 **Tengo la fecha de inicio, la fecha de finalización y el coste completado, pero ¿por qué mis costes aún no aparecen en [!DNL Marketo Measure]?**
 
-Compruebe que tiene el valor Habilitar punto de contacto de comprador establecido en &quot;Incluir todos los miembros de campaña&quot; o al menos en &quot;Incluir miembros de campaña &#39;respondidos&#39;, o que ha creado una regla de sincronización de campaña personalizada que incluya esta campaña. Si lo ha confirmado y aún no ve la campaña, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} para que podamos comprobar que las campañas se importan correctamente.
+Compruebe que tiene el valor Habilitar punto de contacto de comprador establecido en &quot;Incluir todos los miembros de campaña&quot; o al menos en &quot;Incluir miembros de campaña &#39;respondidos&#39;, o que ha creado una regla de sincronización de campaña personalizada que incluya esta campaña. Si lo ha confirmado y aún no ve la campaña, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} de este modo, podemos comprobar que las campañas se importan correctamente.
 
 **Necesito cambiar la distribución de mi campaña para que pueda pesarla más en ciertos meses. ¿Cómo lo hago?**
 

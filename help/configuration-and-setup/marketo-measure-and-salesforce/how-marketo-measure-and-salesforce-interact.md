@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874672
-description: Cómo [!DNL Marketo Measure] y [!DNL Salesforce] Interact - Medida de Marketo - Documentación del producto
+description: 'Cómo [!DNL Marketo Measure] y [!DNL Salesforce] Interact: Marketo Measure: documentación del producto'
 title: Cómo [!DNL Marketo Measure] y [!DNL Salesforce] Interact
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9

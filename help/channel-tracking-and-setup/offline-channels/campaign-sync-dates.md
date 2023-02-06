@@ -5,7 +5,7 @@ title: Fechas de sincronización de campañas
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Puede haber ocasiones en las que un equipo de marketing puede perder la adición
 
 Si eres un nuevo [!DNL Marketo Measure] cliente, es posible que esté interesado en traer algunos de los datos de marketing que ha estado rastreando a través de campañas SFDC. Sin embargo, si tuviera que habilitar Touchpoints en las campañas de SFDC en línea, podría tener el problema de la atribución de recuento doble ya que [!DNL Marketo Measure] crea automáticamente Touchpoints para sus campañas de marketing en línea. Para evitar los datos de recuento doble, puede utilizar Fechas de finalización de puntos de contacto de Campaign para establecer un límite en las fechas de punto de contacto creadas por [!DNL Marketo Measure] en la campaña SFDC. Por ejemplo, si desea agregar conversiones retroactivas para una campaña de Social que ha estado rastreando en SFDC, pero comprende que ha agregado la variable [!DNL Marketo Measure] JavaScript (que crea Touchpoints en línea) el 1 de julio, permite editar la campaña de Social SFDC para que contenga una fecha de finalización de Touchpoint igual al 1 de julio y habilitar Touchpoints para esa campaña.
 
-Puede haber muchos otros casos de uso para las fechas de finalización de Touchpoint. Si necesita ayuda para averiguar una situación específica, no dude en ponerse en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Puede haber muchos otros casos de uso para las fechas de finalización de Touchpoint. Si necesita ayuda para averiguar una situación específica, no dude en ponerse en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

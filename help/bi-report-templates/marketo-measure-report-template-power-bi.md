@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] Plantilla de informe: Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2571'
 ht-degree: 1%
 
 ---
@@ -13,19 +13,19 @@ ht-degree: 1%
 
 ## Introducción {#getting-started}
 
-Puede acceder a la plantilla de informe de Power BI [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+Puede acceder a la plantilla de informe de Power BI [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Abra el Adobe [!DNL Marketo Measure] Archivo de Power BI de plantilla de informes.
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-Puede encontrar la información específica de servidor, almacén y esquema en la [!DNL Marketo Measure] La interfaz de usuario de [!DNL Data Warehouse] página de información. Las instrucciones para localizar esta página se detallan [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Puede encontrar la información específica de servidor, almacén y esquema en la [!DNL Marketo Measure] La interfaz de usuario de [!DNL Data Warehouse] página de información. Las instrucciones para localizar esta página se detallan [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 Los parámetros QueryFilterStartDate y QueryFilterEndDate se utilizan para limitar la cantidad de datos importados. Estos parámetros deben tener el formato SQL tal como se utilizan en las consultas enviadas a [!DNL Snowflake]. Por ejemplo, si desea limitar los datos a los dos últimos años, QueryFilterStartDate se agregaría a la fecha (año, -2,fecha_actual()). Estos parámetros se comparan con los tipos de datos datetime, por lo que se recomienda utilizar dateadd (day,1,current_date()) para que QueryFilterEndDate devuelva todos los datos a la hora actual.
 
 ## Conexión de datos {#data-connection}
 
-Los parámetros introducidos al abrir el archivo se utilizan para estructurar consultas nativas que importan tablas desde el almacén de datos. Aún tendrá que configurar una conexión de datos en su [!DNL Snowflake] instancia. Para ello, necesitará los mismos nombres de Servidor y Almacén junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar el nombre de usuario y restablecer la contraseña, si es necesario, están documentados [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Los parámetros introducidos al abrir el archivo se utilizan para estructurar consultas nativas que importan tablas desde el almacén de datos. Aún tendrá que configurar una conexión de datos en su [!DNL Snowflake] instancia. Para ello, necesitará los mismos nombres de Servidor y Almacén junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar el nombre de usuario y restablecer la contraseña, si es necesario, están documentados [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Importación de datos {#data-import}
 
@@ -68,7 +68,7 @@ Las tablas siguientes se tratan como tablas de dimensión: no se establecen lím
 * Tasa de conversión
 * Oportunidad
 * Cliente potencial
-* Etapa
+* Fase
 * Canal
 
 ## Transformaciones de datos {#data-transformations}
@@ -105,7 +105,7 @@ Dado que los nombres de segmentos se pueden personalizar, tienen nombres de colu
 
 ### Conversión de ID con distinción de mayúsculas y minúsculas {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] Los datos de tienen un par de tablas en las que los valores de clave principal (ID) distinguen entre mayúsculas y minúsculas, concretamente Touchpoint y Campaign. El motor de datos que impulsa la capa de modelado de Power BI no distingue entre mayúsculas y minúsculas, lo que resulta en valores de identificación &quot;duplicados&quot;. Para preservar la distinción entre mayúsculas y minúsculas de estos valores clave, hemos implementado pasos de transformación que adjuntan caracteres invisibles a caracteres en minúsculas, preservando la exclusividad del ID cuando se evalúa en la capa del motor de datos. Encontrará más detalles sobre el tema y los pasos detallados sobre el método que hemos empleado [here] (https://blog.crossjoin.co.uk/2019 /10/06/power-bi-and-case-distinct/){target=&quot;_blank&quot;}. Estos valores de ID que distinguen entre mayúsculas y minúsculas se etiquetan como &quot;ID de unión&quot; y se utilizan como claves de unión en la capa de relación. Hemos ocultado los ID de combinación de la capa de informes, manteniendo los valores de ID originales visibles para usarlos en los informes, ya que los caracteres invisibles pueden interferir con las funciones cortar/pegar y el filtrado.
+[!DNL Marketo Measure] Los datos de tienen un par de tablas en las que los valores de clave principal (ID) distinguen entre mayúsculas y minúsculas, concretamente Touchpoint y Campaign. El motor de datos que impulsa la capa de modelado de Power BI no distingue entre mayúsculas y minúsculas, lo que resulta en valores de identificación &quot;duplicados&quot;. Para preservar la distinción entre mayúsculas y minúsculas de estos valores clave, hemos implementado pasos de transformación que adjuntan caracteres invisibles a caracteres en minúsculas, preservando la exclusividad del ID cuando se evalúa en la capa del motor de datos. Encontrará más detalles sobre el tema y los pasos detallados sobre el método que hemos empleado [here] (https://blog.crossjoin.co.uk/2019){target="_blank"}. Estos valores de ID que distinguen entre mayúsculas y minúsculas se etiquetan como &quot;ID de unión&quot; y se utilizan como claves de unión en la capa de relación. Hemos ocultado los ID de combinación de la capa de informes, manteniendo los valores de ID originales visibles para usarlos en los informes, ya que los caracteres invisibles pueden interferir con las funciones cortar/pegar y el filtrado.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -125,7 +125,7 @@ La tabla de tasa de conversión almacenada en [!DNL Snowflake] contiene un inter
 
 Haga clic en la imagen siguiente para su versión de tamaño completo.
 
-[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
 
 ### Relaciones y flujo de datos {#relationships-and-data-flow}
 
@@ -178,7 +178,7 @@ Se han añadido definiciones al modelo de Power BI para tablas, columnas persona
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-Para ver las definiciones de las columnas que provienen directamente de [!DNL Snowflake], consulte la [documentación del almacén de datos](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}
+Para ver las definiciones de las columnas que provienen directamente de [!DNL Snowflake], consulte la [documentación del almacén de datos](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Discrepancias entre las plantillas y Discover {#discrepancies-between-templates-and-discover}
 

@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] [!DNL Salesforce] Instalación y configuración d
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ La variable [!DNL Marketo Measure] El paquete base contiene:
 
 Siga los pasos a continuación para instalar el [!DNL Marketo Measure Salesforce] paquete base.
 
-1. Con un navegador de incógnito, vaya a la [Appexchange de Salesforce](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;} e inicie sesión.
+1. Con un navegador de incógnito, vaya a la [Appexchange de Salesforce](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} e inicie sesión.
 
 1. Instale en el [!DNL Marketo Measure] paquete en entorno limitado o producción.
 
@@ -41,17 +41,17 @@ Siga los pasos a continuación para instalar el [!DNL Marketo Measure Salesforce
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-Una vez finalizada la instalación, puede actualizar su [[!DNL Salesforce] diseños de página](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target=&quot;_blank&quot;} con la variable [!DNL Marketo Measure] si lo desea.
+Una vez finalizada la instalación, puede actualizar su [[!DNL Salesforce] diseños de página](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} con la variable [!DNL Marketo Measure] si lo desea.
 
 >[!NOTE]
 >
->Obtenga información sobre [!DNL Marketo Measure] Conjuntos de permisos creados y [cómo se utilizarán](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target=&quot;_blank&quot;}.
+>Obtenga información sobre [!DNL Marketo Measure] Conjuntos de permisos creados y [cómo se utilizarán](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
 ## Instalar [!DNL Marketo Measure] Paquete de tablero {#install-marketo-measure-dashboard-package}
 
 La variable [!UICONTROL Panel] El paquete de extensión contiene tres paneles creados previamente. Se recomienda instalar [!UICONTROL en] Producción para todos los usuarios.
 
-1. Instale el paquete desde el [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}.
+1. Instale el paquete desde el [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
 
 1. Select **[!UICONTROL Instalar para todos los usuarios]**.
 

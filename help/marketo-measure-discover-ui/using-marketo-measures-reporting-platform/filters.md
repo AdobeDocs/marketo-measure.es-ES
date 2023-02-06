@@ -154,7 +154,7 @@ En los paneles Tráfico web, Medios pagados y Marketing de contenido, hay una li
 * Vistas de páginas
 * Formularios
 
-**Etapa**
+**Fase**
 
 _Se utiliza en: Velocity_
 

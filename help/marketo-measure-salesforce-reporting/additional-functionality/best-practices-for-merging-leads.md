@@ -5,7 +5,7 @@ title: Prácticas recomendadas para combinar posibles clientes
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Si hay varios registros con [!DNL Marketo Measure] , asegúrese de que el regist
 
 A partir de ahí, debe ser libre de combinar los posibles clientes y [!DNL Marketo Measure] se transferirán al nuevo registro.
 
-Si tiene alguna pregunta, no dude en ponerse en contacto con el gestor de éxito de los clientes o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Si tiene alguna pregunta, no dude en ponerse en contacto con el gestor de éxito de los clientes o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)

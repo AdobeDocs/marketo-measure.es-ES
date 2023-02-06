@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Cookies de medida de Marketo {#marketo-measure-cookies}
+# Cookies de Marketo Measure {#marketo-measure-cookies}
 
 Obtenga información sobre las distintas [!DNL Marketo Measure] Las cookies que se cargan en el sitio al aplicar la variable [!DNL Marketo Measure] JavaScript a las páginas de aterrizaje. Esta información puede ser útil para el equipo de desarrollo web durante la implementación.
 

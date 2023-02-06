@@ -5,7 +5,7 @@ title: Parámetros de UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Etiquetar direcciones URL es una forma sencilla y eficaz de capturar datos sobre los esfuerzos de marketing digital. Es el proceso de agregar parámetros al final de las direcciones URL que recopilan y registran datos. Los parámetros más utilizados son los módulos de seguimiento de URL (UTM), que son compatibles con Google. Hay cinco parámetros principales de UTM disponibles: Medio, Origen, Campaña, Contenido y Término. Estos se tratan con más detalle en la siguiente sección.
 
-Los parámetros de UTM se pueden agregar manualmente a las direcciones URL o anexar mediante el etiquetado automático con determinadas plataformas, como AdWords . El etiquetado automático automatiza el proceso de adición de parámetros a las direcciones URL. También existe la opción de [Generadores de URL](https://ga-dev-tools.appspot.com/campaign-url-builder/){target=&quot;_blank&quot;} para acelerar el etiquetado de direcciones URL manualmente. Con un generador de direcciones URL, simplemente debe especificar los valores que se utilizarán para cada parámetro y el generador dará formato a la dirección URL.
+Los parámetros de UTM se pueden agregar manualmente a las direcciones URL o anexar mediante el etiquetado automático con determinadas plataformas, como AdWords . El etiquetado automático automatiza el proceso de adición de parámetros a las direcciones URL. También existe la opción de [Generadores de URL](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} para acelerar el etiquetado de direcciones URL manualmente. Con un generador de direcciones URL, simplemente debe especificar los valores que se utilizarán para cada parámetro y el generador dará formato a la dirección URL.
 
 ## ¿Qué son los parámetros de UTM? {#what-are-utm-parameters}
 

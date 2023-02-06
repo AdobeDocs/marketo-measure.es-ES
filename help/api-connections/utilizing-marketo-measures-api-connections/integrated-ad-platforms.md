@@ -5,7 +5,7 @@ title: Plataformas de publicidad integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ La plantilla de seguimiento es una herramienta que Google proporciona para añad
 [!DNL Marketo Measure] Busca plantillas de seguimiento en su [!DNL AdWords] cuenta:
 
 * *Opción A*: Se encuentra la plantilla de seguimiento. [!DNL Marketo Measure] añade sus parámetros a la plantilla .
-* *Opción B*: Se encuentra el redireccionamiento de terceros. Si se encuentra un redireccionamiento de terceros en la plantilla de seguimiento, [!DNL Marketo Measure] no puede realizar ninguna acción. Deberá agregar manualmente la variable [!DNL Marketo Measure] al sistema de terceros. Un ejemplo de redirección de terceros sería una herramienta de gestión de ofertas como Kenshoo o Marin. Obtenga más información sobre cómo [las herramientas de administración de ofertas afectan a [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* *Opción B*: Se encuentra el redireccionamiento de terceros. Si se encuentra un redireccionamiento de terceros en la plantilla de seguimiento, [!DNL Marketo Measure] no puede realizar ninguna acción. Deberá agregar manualmente la variable [!DNL Marketo Measure] al sistema de terceros. Un ejemplo de redirección de terceros sería una herramienta de gestión de ofertas como Kenshoo o Marin. Obtenga más información sobre cómo [las herramientas de administración de ofertas afectan a [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Opción C*: No se encuentra ninguna plantilla de seguimiento. [!DNL Marketo Measure] analizará todas las direcciones URL de destino de publicidad para [!DNL Marketo Measure] parámetros. En función del análisis, si:
    * Se encuentran parámetros: la configuración ha finalizado.
    * No se encuentran los parámetros: [!DNL Marketo Measure] adjuntará sus parámetros al final de las direcciones URL de destino de anuncio. [!DNL Marketo Measure] anexa nuevos anuncios en un plazo de dos horas tras su creación. Tenga en cuenta que los parámetros no se agregan a una plantilla.
 
-Obtenga más información sobre nuestra [[!DNL AdWords] funcionalidad de etiquetado automático](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target=&quot;_blank&quot;}.
+Obtenga más información sobre nuestra [[!DNL AdWords] funcionalidad de etiquetado automático](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## Cómo activar [!DNL Marketo Measure] Etiquetado automático para palabras publicitarias {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -51,7 +51,7 @@ Antes de activar [!DNL Marketo Measure] etiquetado automático, **asegúrese de 
 
 Una vez que haya configurado una plantilla de seguimiento, siga las instrucciones que se indican a continuación para habilitar [!DNL Marketo Measure] Etiquetado automático. Nota: [!DNL Marketo Measure] también etiquetará automáticamente cualquier publicidad pausada en su cuenta.
 
-1. Inicie sesión en su [!DNL Marketo Measure] cuenta en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+1. Inicie sesión en su [!DNL Marketo Measure] cuenta en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 1. Vaya a [!UICONTROL Mi cuenta] > [!UICONTROL Configuración] > [!UICONTROL Integraciones] > [!UICONTROL Conexiones].
 
@@ -67,7 +67,7 @@ Una vez que haya configurado una plantilla de seguimiento, siga las instruccione
 
 ## Cómo configurar una plantilla de seguimiento en AdWords con [!DNL Marketo Measure] Parámetros {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-Tenga en cuenta que debe agregar plantillas de seguimiento en la variable [!UICONTROL Cuenta], [!UICONTROL Campaign] o Nivel de grupo de publicidad en AdWords. Si agrega plantillas de seguimiento al nivel de palabra clave, vínculo de sitio o anuncio, su publicidad deberá pasar por el proceso de revisión y aprobación y se arriesgará a reiniciar el historial de rendimiento de sus publicidades. Más información sobre [creación de plantillas de seguimiento](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;}.
+Tenga en cuenta que debe agregar plantillas de seguimiento en la variable [!UICONTROL Cuenta], [!UICONTROL Campaign] o Nivel de grupo de publicidad en AdWords. Si agrega plantillas de seguimiento al nivel de palabra clave, vínculo de sitio o anuncio, su publicidad deberá pasar por el proceso de revisión y aprobación y se arriesgará a reiniciar el historial de rendimiento de sus publicidades. Más información sobre [creación de plantillas de seguimiento](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Inicie sesión en su [!DNL Google AdWords] Cuenta.
 1. Vaya a su [!UICONTROL Campañas] vista desde la barra de navegación izquierda
@@ -96,21 +96,21 @@ Las etiquetas de UTM pueden parecer difíciles de crear al principio, pero hay m
 
 **[!DNL Google URL]Generador**
 
-El Generador de URL de Google es una herramienta estándar para crear direcciones URL con formato correcto mediante etiquetas UTM. Simplemente introduzca la dirección URL y el valor deseado de cada parámetro y haga clic en[!UICONTROL Generar URL]&quot;. Esta es una herramienta ideal si solo tiene un puñado de direcciones URL para etiquetar. Acceder a la herramienta [here](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;}.
+El Generador de URL de Google es una herramienta estándar para crear direcciones URL con formato correcto mediante etiquetas UTM. Simplemente introduzca la dirección URL y el valor deseado de cada parámetro y haga clic en[!UICONTROL Generar URL]&quot;. Esta es una herramienta ideal si solo tiene un puñado de direcciones URL para etiquetar. Acceder a la herramienta [here](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
 
 **Hoja de cálculo de Google generada por EpikOne**
 
-Esta hoja de cálculo tiene una fórmula que generará automáticamente direcciones URL de destino etiquetadas. Se trata de una buena herramienta que se puede utilizar si es necesario etiquetar un gran número de vínculos. Acceso a la hoja de cálculo [here](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target=&quot;_blank&quot;}.
+Esta hoja de cálculo tiene una fórmula que generará automáticamente direcciones URL de destino etiquetadas. Se trata de una buena herramienta que se puede utilizar si es necesario etiquetar un gran número de vínculos. Acceso a la hoja de cálculo [here](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
 
 **Herramienta de etiquetado de vínculos de Rafflecopter**
 
 La hoja de cálculo creada por Rafflecopter es una versión modificada de [!DNL EpikOne's] hoja de cálculo. También contiene una fórmula que genera automáticamente vínculos de destino etiquetados para que los use.
 
-Cada una de estas herramientas tiene instrucciones detalladas sobre cómo utilizarla y modificarla para adaptarla a sus necesidades. La herramienta está disponible [here](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;}.
+Cada una de estas herramientas tiene instrucciones detalladas sobre cómo utilizarla y modificarla para adaptarla a sus necesidades. La herramienta está disponible [here](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}.
 
 **Generador de UTM asombroso de Effin**
 
-Esta herramienta es una extensión de Chrome que le permite generar rápidamente etiquetas de UTM. Encuéntralo [here](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target=&quot;_blank&quot;}.
+Esta herramienta es una extensión de Chrome que le permite generar rápidamente etiquetas de UTM. Encuéntralo [here](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"}.
 
 ## Anuncios de Bing {#bing-ads}
 
@@ -136,17 +136,17 @@ Se puede utilizar una plantilla de seguimiento si se desea, pero no es necesario
 
 El etiquetado automático debe habilitarse mediante [!DNL Marketo Measure] para que el [!DNL Marketo Measure] se pueden anexar automáticamente. No existe riesgo de perder el historial de rendimiento de anuncios anteriores con Bing Ads.
 
-Visite la [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls)Sitio web de {target=&quot;_blank&quot;} para obtener más información sobre cómo añadir etiquetas en su plataforma.
+Visite la [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} sitio web para obtener más información sobre cómo añadir etiquetas en su plataforma.
 
 ## Anuncios publicitarios de Facebook {#facebook-ads}
 
-La variable [!DNL Marketo Measure] integración con [!DNL Facebook] permite descargar automáticamente la información de la publicidad y etiquetar la URL con sus parámetros. [!DNL Marketo Measure] extraerá la información de campaña y conjunto de anuncios mediante nuestro etiquetado automático. El conjunto de anuncios rellenará el campo Nombre del grupo de anuncios . Para obtener más información sobre la configuración de etiquetas URL en la [!DNL Facebook] , visite [!DNL Facebook] [negocio](https://www.facebook.com/business/help/1016122818401732/?ref=u2u)página {target=&quot;_blank&quot;}.
+La variable [!DNL Marketo Measure] integración con [!DNL Facebook] permite descargar automáticamente la información de la publicidad y etiquetar la URL con sus parámetros. [!DNL Marketo Measure] extraerá la información de campaña y conjunto de anuncios mediante nuestro etiquetado automático. El conjunto de anuncios rellenará el campo Nombre del grupo de anuncios . Para obtener más información sobre la configuración de etiquetas URL en la [!DNL Facebook] , visite [!DNL Facebook] [negocio](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} página.
 
 Antes de activar el etiquetado automático con [!DNL Facebook Ads], es importante exportar el historial de rendimiento anterior como CSV. En este punto, cuando [!DNL Marketo Measure] etiquetas [!DNL Facebook Ads] con su parámetro _bf, [!DNL Facebook] lee los anuncios como nuevos y borra el historial de rendimiento. Por lo tanto, es importante exportar un registro del rendimiento anterior si es algo de valor para usted y su organización.
 
 Tenga en cuenta que puede conectar su [!DNL Facebook] en cualquier momento para [!DNL Marketo Measure] aplicación y no se perderán datos; solo cuando el etiquetado automático esté habilitado se borrará el historial de rendimiento.
 
-[Consulte este artículo](https://www.facebook.com/business/help/393890194130036){target=&quot;_blank&quot;} de Facebook para obtener más información sobre la exportación [!DNL Facebook] Informes de publicidad.
+[Consulte este artículo](https://www.facebook.com/business/help/393890194130036){target="_blank"} de Facebook para obtener más información sobre la exportación [!DNL Facebook] Informes de publicidad.
 
 ## Contenido patrocinado por linkedIn {#linkedin-sponsored-content}
 

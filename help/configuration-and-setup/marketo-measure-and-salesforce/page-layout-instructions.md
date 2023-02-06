@@ -66,13 +66,13 @@ Se recomienda añadir la variable [!DNL Marketo Measure] a la campaña de SFDC s
    >
    >Seleccione el formato &quot;una columna&quot; para cada una de estas secciones.
 
-1. Arrastre el **[!UICONTROL Lista relacionada con los posibles clientes de medida de Marketo]** Página de VisualForce en la sección de diseño de página.
+1. Arrastre el **[!UICONTROL Lista de posibles clientes relacionados con Marketo Measure]** Página de VisualForce en la sección de diseño de página.
 
    ![](assets/5-1.png)
 
 1. Haga clic en la llave inglesa dentro de la [!DNL VisualForce] y cambie la altura a 100 y habilite las barras de desplazamiento.
 
-1. En el menú, seleccione la opción [!UICONTROL Aplicaciones de lienzo] y cree una nueva sección denominada &quot;Marketo Measure Insights&quot; (Perspectivas de medida de) debajo de Touchpoints [!DNL VisualForce] que acaba de crear.
+1. En el menú, seleccione la opción [!UICONTROL Aplicaciones de lienzo] y cree una nueva sección denominada &quot;Marketo Measure Insights&quot; debajo de Touchpoints [!DNL VisualForce] que acaba de crear.
 
    >[!NOTE]
    >

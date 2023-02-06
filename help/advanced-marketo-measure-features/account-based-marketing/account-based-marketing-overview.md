@@ -5,16 +5,16 @@ title: Información general sobre marketing basado en cuentas
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
 
 # Información general sobre marketing basado en cuentas {#account-based-marketing-overview}
 
-A continuación se presenta una breve descripción de ABM, los componentes de la [!DNL Marketo Measure] función ABM y cómo agregarla a su [!DNL Salesforce] diseño de página. Para leer más sobre ABM, consulte [esta página](https://www.marketo.com/account-based-marketing/){target=&quot;_blank&quot;}.
+A continuación se presenta una breve descripción de ABM, los componentes de la [!DNL Marketo Measure] función ABM y cómo agregarla a su [!DNL Salesforce] diseño de página. Para leer más sobre ABM, consulte [esta página](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
-Para navegar directamente a las instrucciones para configurar ABM dentro de su [!DNL Salesforce] instancia, por favor [haga clic aquí](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target=&quot;_blank&quot;}.
+Para navegar directamente a las instrucciones para configurar ABM dentro de su [!DNL Salesforce] instancia, por favor [haga clic aquí](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## ¿Qué es ABM? {#what-is-abm}
 

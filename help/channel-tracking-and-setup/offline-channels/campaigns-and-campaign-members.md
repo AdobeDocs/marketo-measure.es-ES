@@ -5,7 +5,7 @@ title: Campañas y miembros de campañas
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ La fecha del punto de contacto de actualización masiva se incluye en la [!DNL M
 
 Si es necesario actualizar un gran número de registros de miembros de Campaign, puede utilizar la variable [!UICONTROL Fecha de punto de contacto de actualización masiva] para editar en masa.
 
-Si hay casos de uso únicos que esta interfaz no cubre, también puede usar la variable [Cargador de datos](https://dataloader.io/){target=&quot;_blank&quot;} para exportar los registros, realizar el cambio y volver a cargar los registros.
+Si hay casos de uso únicos que esta interfaz no cubre, también puede usar la variable [Cargador de datos](https://dataloader.io/){target="_blank"} para exportar los registros, realice el cambio y vuelva a cargar los registros.
 
 Comience por buscar los registros y filtrar los que desea establecer como Fecha de punto de contacto del comprador.
 
@@ -117,7 +117,7 @@ Para evitar este problema, [!DNL Marketo Measure] creado un [!DNL Marketo Measur
 
 >[!CAUTION]
 >
->Tenga en cuenta que este déclencheur no rastrea ningún miembro de la campaña que se haya eliminado en el pasado, por lo que esto solo funciona para avanzar. Si necesita eliminar un gran número de puntos de contacto de miembros de campañas anteriores, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+>Tenga en cuenta que este déclencheur no rastrea ningún miembro de la campaña que se haya eliminado en el pasado, por lo que esto solo funciona para avanzar. Si necesita eliminar un gran número de puntos de contacto de miembros de campañas anteriores, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

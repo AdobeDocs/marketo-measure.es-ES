@@ -5,7 +5,7 @@ title: Salesforce Sandbox to Production Migration
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Si elige probar [!DNL Marketo Measure] en un [!DNL Salesforce] Entorno de espaci
 
 * Instale los dos [!DNL Marketo Measure] en Producción con el[!UICONTROL Todos los usuarios]&quot;
 
-   * [Paquete base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;}
-   * [Paquete de extensión del panel](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}
+   * [Paquete base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [Paquete de extensión del panel](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Para obtener más información sobre la variable [!DNL Marketo Measure] relación con [!DNL Salesforce], eche un vistazo a [este artículo](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Un poco de [!DNL Salesforce] es necesaria. Los elementos de acción específicos se describen a continuación en [Paso 4 a continuación](#salesforce-configuration)
@@ -51,7 +51,7 @@ Si elige probar [!DNL Marketo Measure] en un [!DNL Salesforce] Entorno de espaci
 
 [Conjuntos de permisos](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Uso compartido de informes](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target=&quot;_blank&quot;}
+[Uso compartido de informes](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
 [Ocultar tipos de informes innecesarios](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

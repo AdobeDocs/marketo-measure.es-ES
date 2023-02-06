@@ -112,7 +112,7 @@ ht-degree: 7%
       + [Prácticas recomendadas para la configuración de Touchpoint](advanced-marketo-measure-features/touchpoint-settings/best-practices-for-touchpoint-settings.md)
       + [Eliminación de puntos de contacto y supresión de puntos de contacto](advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
       + [Por qué nunca se deben eliminar los puntos de contacto](advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
-   + Segmentos {#segmentation}
+   + Segmentación {#segmentation}
       + [Prácticas recomendadas para la segmentación](advanced-marketo-measure-features/segmentation/best-practices-for-segmentation.md)
       + [Segmentación personalizada](advanced-marketo-measure-features/segmentation/custom-segmentation.md)
    + Atribución de actividades {#activities-attribution}

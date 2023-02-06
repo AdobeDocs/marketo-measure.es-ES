@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874771
 description: Uso del cargador de datos para actualizar [!DNL Marketo Measure] Campo Importe personalizado - [!DNL Marketo Measure] - Documentación del producto
-title: Uso del cargador de datos para actualizar el campo Cantidad personalizada de medida de Marketo
+title: Uso del cargador de datos para actualizar el campo Cantidad personalizada de Marketo Measure
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt

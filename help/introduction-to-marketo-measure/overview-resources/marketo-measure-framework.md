@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874570
-description: Marketo Measure Framework - Medida de Marketo - Documentación del producto
-title: Marco de medidas de Marketo
+description: 'Marketo Measure Framework: Marketo Measure: Documentación del producto'
+title: Marketo Measure Framework
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 source-git-commit: 7eb5ef616e3ae77d53056496f9a1b301ce59d6ee
 workflow-type: tm+mt
@@ -10,24 +10,24 @@ ht-degree: 0%
 
 ---
 
-# Marco de medidas de Marketo {#marketo-measure-framework}
+# Marketo Measure Framework {#marketo-measure-framework}
 
-Obtenga más información sobre los cuatro componentes principales que conforman el marco de medidas de Marketo. Marketo Measure depende de estas aplicaciones para realizar el seguimiento, la organización y la ubicación de los datos, así como para proporcionar capacidades de creación de informes. Los cuatro componentes que componen el marco de Marketo Measure son:
+Obtenga más información sobre los cuatro componentes principales que componen el marco de Marketo Measure. Marketo Measure depende de estas aplicaciones para realizar el seguimiento, la organización y la ubicación de los datos, así como para proporcionar capacidades de creación de informes. Los cuatro componentes que componen el marco de Marketo Measure son:
 
 * JavaScript de Marketo Measure
 * Integraciones de CRM
 * Aplicaciones/sistemas de terceros
-* Aplicación de medida Marketo
+* Aplicación Marketo Measure
 
-## Marketo Measure JavaScript {#marketo-measure-javascript}
+## JavaScript de Marketo Measure {#marketo-measure-javascript}
 
-Marketo Measure JavaScript rastrea todas las interacciones de marketing en línea, también denominadas touchpoints, que los posibles clientes o posibles clientes tienen con su organización. Se trata de un script personalizado que se agrega antes del cierre `</head>` en todas las páginas del sitio web.
+El JavaScript de Marketo Measure rastrea todas las interacciones de marketing en línea, también denominadas touchpoints, que los posibles clientes o posibles clientes tienen con su organización. Se trata de un script personalizado que se agrega antes del cierre `</head>` en todas las páginas del sitio web.
 
 `<script type="text/javascript" src="//[cdn.bizible.com/scripts/bizible.js](http://cdn.bizible.com/scripts/bizible.js)" async=""></script>`
 
 >[!NOTE]
 >
->Para obtener instrucciones sobre cómo añadir la medida de Marketo JS, [haga clic aquí](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>Para obtener instrucciones sobre cómo añadir el JS de Marketo Measure, [haga clic aquí](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
 El JS de Marketo Measure captura datos de visitas web (incluidas visitas web anónimas), tráfico general/navegación por páginas, descargas de contenido y envíos de formularios. Estos datos se insertan en su CRM y cada interacción de marketing se muestra como un punto de contacto.
 
@@ -37,7 +37,7 @@ Marketo Measure se integra con CRM para alojar y organizar todos los datos captu
 
 ![](assets/1-2.png)
 
-Al incluir datos de medición de Marketo en su CRM, podrá ver la información granular relacionada con cada punto de contacto y generar informes para comprender el rendimiento de sus canales.
+Al incluir datos de Marketo Measure en su CRM, podrá ver la información granular relacionada con cada punto de contacto y generar informes para comprender el rendimiento de sus canales.
 
 ## Aplicaciones de terceros {#third-party-applications}
 
@@ -45,11 +45,11 @@ La mayoría de los especialistas en marketing utilizan distintas aplicaciones pa
 
 ![](assets/2-1.png)
 
-Si está ejecutando cualquier esfuerzo de marketing mediante las aplicaciones anteriores, puede vincular esas cuentas a su cuenta de medida de Marketo. Esto permite realizar un seguimiento y transferir fácilmente los datos a la cuenta de Marketo Measure.
+Si está ejecutando cualquier esfuerzo de marketing mediante las aplicaciones anteriores, puede vincular esas cuentas a su cuenta de Marketo Measure. Esto permite realizar un seguimiento y transferir fácilmente los datos a su cuenta de Marketo Measure.
 
-## Aplicación de medida Marketo {#marketo-measure-application}
+## Aplicación Marketo Measure {#marketo-measure-application}
 
-La aplicación Medida de Marketo se utiliza para ver los datos de atribución y elaborar informes al respecto, configurar los ajustes de la cuenta y actualizar la información de la cuenta. Los elementos de menú principales de la aplicación Medida de Marketo incluyen:
+La aplicación de Marketo Measure se utiliza para ver los datos de atribución y elaborar informes al respecto, configurar los ajustes de la cuenta y actualizar la información de la cuenta. Los elementos de menú principales de la aplicación Marketo Measure incluyen:
 
 **Configuración de la cuenta**
 
@@ -57,7 +57,7 @@ Aquí es donde puede actualizar la información general de su empresa y acceder 
 
 **Configuración**
 
-Este elemento de menú le permite configurar la configuración de asignación de canales y atribuciones, administrar integraciones con CRM y aplicaciones de terceros, ver/agregar usuarios de cuentas de Marketo Measure y actualizar información de facturación.
+Este elemento de menú le permite configurar la configuración de asignación de canales y atribuciones, administrar integraciones con CRM y aplicaciones de terceros, ver/agregar usuarios de cuentas de Marketo Measure y actualizar la información de facturación.
 
 **Tablero de ROI de marketing**
 
