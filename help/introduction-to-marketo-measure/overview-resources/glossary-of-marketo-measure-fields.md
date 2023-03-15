@@ -4,9 +4,9 @@ description: Glosario de campos de Marketo Measure - Marketo Measure - Documenta
 title: Glosario de campos de Marketo Measure
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3211'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -16,121 +16,121 @@ Este artículo contiene un glosario de todos los campos de Marketo Measure que s
 
 Para obtener un mapa del objeto con el que se relaciona cada campo de Marketo Measure, [haga clic aquí](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
-[A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ [K](#k) ・ [L](#l) ・ [M](#m) ・ N [O](#o) ・ [P](#p) ・ P ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · W · X · Y · Z
 
 ## A {#a}
 
-**Cuenta** | Encontrado en el punto de contacto de atribución del comprador
+**Cuenta** | Se encuentra en el punto de contacto de atribución de comprador
 
-Este campo se rellena con el nombre Cuenta asociado a la MTD.
+Este campo se rellena con el nombre de la cuenta asociada al BAT.
 
-**ID de campaña de publicidad** | Encontrado en Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Id. de campaña de anuncios** | Se encuentra en el punto de contacto de comprador, punto de contacto de atribución de comprador
 
 Existen tres formas de rellenar este campo:
 
-`1)` Si el punto de contacto proviene de un esfuerzo de búsqueda de pago (ya sea AdWords o BingAds), el ID de campaña de publicidad de la plataforma de publicidad se mostrará aquí.
+`1)` Si el punto de contacto proviene de un esfuerzo de búsqueda de pago (ya sea AdWords o Bing Ads), el id. de campaña de anuncios de la plataforma de anuncios se mostrará aquí.
 
-`2)` Si el punto de contacto no proviene de la búsqueda de pago, el campo se rellenará con el valor utm_campaign de la dirección URL de la página de aterrizaje.
+`2)` Si el punto de contacto no proviene de una búsqueda de pago, el campo se rellenará con el valor utm_campaign en la dirección URL de la página de destino.
 
-p. ej., `http://info.marketomeasure.com/adwords-for-lead-generation?utm_source=Event&utm_medium=booth&utm_campaign=Marketo%20Virtual%20Event%20sep2014`
+P. ej.: `http://info.marketomeasure.com/adwords-for-lead-generation?utm_source=Event&utm_medium=booth&utm_campaign=Marketo%20Virtual%20Event%20sep2014`
 
-En este ejemplo, se mostraría el ID de campaña de publicidad: __GAId__ Evento virtual de marketing, septiembre de 2014
+En este ejemplo, el id. de campaña de anuncios mostraría: __GAId__ Evento virtual de marketing, septiembre de 2014
 
-`3)` Si el punto de contacto proviene de una campaña sin conexión de Salesforce (una conferencia, cena, etc.), el ID de campaña de anuncio mostrará el ID de campaña de Salesforce
-
-Si no se encuentra ninguno de los anteriores, este campo estará en blanco.
-
-**Nombre de campaña de publicidad** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
-
-`1)` Si el punto de contacto proviene de la búsqueda de pago (AdWords/Bing Ads), el nombre de la campaña de publicidad de la plataforma de publicidad se mostrará aquí.
-
-`2)` Si el punto de contacto no proviene de una búsqueda de pago y la dirección URL de la página de aterrizaje contiene un valor para utm_campaign, ese valor se rellenará aquí.
-
-`3)` Si el punto de contacto procede de una campaña de Salesforce, el nombre de la campaña de Salesforce se muestra aquí.
-
-`4)` Esto se rellenará con el Nombre de campaña definido para los touchpoints generados a partir de las actividades creadas dentro de la cuenta de Marketo Measure.
+`3)` Si el punto de contacto proviene de una campaña sin conexión de Salesforce (una conferencia, una cena, etc.), el id. de campaña de anuncios mostrará el id. de campaña de Salesforce
 
 Si no se encuentra ninguno de los anteriores, este campo estará en blanco.
 
-**Nombre de campaña de publicidad (FT)** | Punto de contacto del comprador
+**Nombre de campaña de anuncios** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Este campo se rellena del mismo modo que el Nombre de campaña de publicidad. Sin embargo, este campo muestra específicamente el nombre de la campaña de publicidad que generó el punto de contacto de primer toque.
+`1)` Si el punto de contacto proviene de una búsqueda de pago (AdWords/Bing Ads), el nombre de la campaña de anuncios de la plataforma de anuncios se mostrará aquí.
 
-**Nombre de campaña de publicidad (LC)** | Punto de contacto del comprador
+`2)` Si el punto de contacto no proviene de una búsqueda de pago y la dirección URL de la página de destino contiene el valor utm_campaign, ese valor se rellenará aquí.
 
-Este campo se rellena del mismo modo que el Nombre de campaña de publicidad. Sin embargo, este campo muestra específicamente el nombre de la campaña de publicidad que generó el punto de contacto de Creación de posibles clientes.
+`3)` Si el punto de contacto proviene de una campaña de Salesforce, el nombre de la campaña de Salesforce se mostrará aquí.
 
-**Contenido de la publicidad** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+`4)` Esto se rellenará con el nombre de la campaña definido para los puntos de contacto generados a partir de las actividades creadas en su cuenta de Marketo Measure.
 
-`1)` Si el punto de contacto es de búsqueda de pago (AdWords/Bing Ads), el campo mostrará la copia de publicidad completa desde la plataforma de publicidad.
+Si no se encuentra ninguno de los anteriores, este campo estará en blanco.
 
-`2)` Si el punto de contacto no es de búsqueda de pago, este campo mostrará el valor utm_content en la dirección URL de la página de aterrizaje.
+**Nombre de campaña de anuncios (FT)** | Punto de contacto de comprador
 
-`3)` Esto se rellenará con el valor Asunto de la actividad relacionada que generó el Touchpoint.
+Este campo se rellena del mismo modo que el nombre de campaña de anuncios. Sin embargo, este campo muestra específicamente el nombre de la campaña de anuncios que generó el punto de contacto de primer contacto.
 
-Si ninguno de los anteriores, este campo estará en blanco.
+**Nombre de campaña de anuncios (LC)** | Punto de contacto de comprador
 
-**Dirección URL del destino de la publicidad** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+Este campo se rellena del mismo modo que el nombre de campaña de anuncios. Sin embargo, este campo muestra específicamente el nombre de la campaña de anuncios que generó el punto de contacto de creación de posibles clientes.
 
-`1)` Si el punto de contacto es de búsqueda de pago, este campo mostrará el destino URL al que se dirige después de hacer clic en la publicidad desde el motor de búsqueda.
+**Contenido de anuncios** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Si el punto de contacto no es de búsqueda de pago, el campo estará en blanco.
+`1)` Si el punto de contacto proviene de una búsqueda de pago (AdWords/Bing Ads), el campo mostrará la copia de anuncios completa en la plataforma de anuncios.
 
-**ID del grupo de publicidad** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+`2)` Si el punto de contacto no proviene de una búsqueda de pago, este campo mostrará el valor utm_content en la dirección URL de la página de destino.
 
-`1)` Si el punto de contacto proviene de una búsqueda de pago, el ID del grupo de publicidad de AdWords/Bing Ads se mostrará aquí.
+`3)` Esto se rellenará con el valor Asunto de la actividad relacionada que generó el punto de contacto.
 
-Si el punto de contacto no proviene de una búsqueda de pago, el campo estará en blanco.
+Si no se encuentra ninguno de los anteriores, este campo estará en blanco.
 
-**Nombre del grupo de publicidad** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Dirección URL de destino de anuncios** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-`1)` Si el punto de contacto proviene de una búsqueda de pago, el nombre del grupo de publicidad de AdWords/Bing Ads se mostrará aquí.
-
-Si el punto de contacto no proviene de una búsqueda de pago, el campo estará en blanco.
-
-**ID de anuncio** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
-
-`1)` Si el punto de contacto proviene de una búsqueda de pago, el ID de anuncio de AdWords/Bing Ads se mostrará aquí.
-
-`2)` Esto se rellenará con el ID externo de la actividad si el Touchpoint se genera a partir de una actividad de CRM.
+`1)` Si el punto de contacto proviene de una búsqueda de pago, este campo mostrará la URL de destino a la que se dirige después de hacer clic en el anuncio del motor de búsqueda.
 
 Si el punto de contacto no proviene de una búsqueda de pago, el campo estará en blanco.
 
-**Modelo personalizado de atribución %** | Punto de contacto de atribución del comprador
+**Id. del grupo de anuncios** | Punto de contacto de comprador, punto de contacto de atribución de comprador
+
+`1)` Si el punto de contacto proviene de una búsqueda de pago, el id. del grupo de anuncios de AdWords/Bing Ads se mostrará aquí.
+
+Si el punto de contacto no proviene de una búsqueda de pago, el campo estará en blanco.
+
+**Nombre del grupo de anuncios** | Punto de contacto de comprador, punto de contacto de atribución de comprador
+
+`1)` Si el punto de contacto proviene de una búsqueda de pago, el nombre del grupo de anuncios de AdWords/Bing Ads se mostrará aquí.
+
+Si el punto de contacto no proviene de una búsqueda de pago, el campo estará en blanco.
+
+**Id. de anuncios** | Punto de contacto de comprador, punto de contacto de atribución de comprador
+
+`1)` Si el punto de contacto proviene de una búsqueda de pago, el id. de anuncios de AdWords/Bing Ads se mostrará aquí.
+
+`2)` Esto se rellenará con el id. externo de la actividad si el punto de contacto se genera a partir de una actividad de CRM.
+
+Si el punto de contacto no proviene de una búsqueda de pago, el campo estará en blanco.
+
+**% atribución según modelo personalizado** | Punto de contacto de atribución de comprador
 
 Si utiliza un modelo de atribución personalizado, este campo muestra el porcentaje de ingresos atribuido a un punto de contacto según los valores establecidos en el modelo personalizado.
 
 Si no utiliza un modelo personalizado, este campo estará en blanco.
 
-**Atribución % Primer toque** | Punto de contacto de atribución del comprador
+**% atribución según modelo de primer contacto** | Punto de contacto de atribución de comprador
 
 Este campo muestra el porcentaje de ingresos atribuido a un punto de contacto según un modelo de primer contacto.
 
-**Atribución % completa** | Punto de contacto de atribución del comprador
+**% atribución según modelo de ruta completa** | Punto de contacto de atribución de comprador
 
 Este campo muestra el porcentaje de ingresos atribuido a un punto de contacto según un modelo de ruta completa.
 
-**Creación de posible cliente de atribución %** | Punto de contacto de atribución del comprador
+**% atribución según modelo de creación de posibles clientes** | Punto de contacto de atribución de comprador
 
-Este campo muestra el porcentaje de ingresos atribuido a un punto de contacto, según un modelo de creación de posibles clientes.
+Este campo muestra el porcentaje de ingresos atribuido a un punto de contacto según un modelo de creación de posibles clientes.
 
-**Atribución % Forma de U** | Punto de contacto de atribución del comprador
+**% atribución según modelo en forma de U** | Punto de contacto de atribución de comprador
 
 Este campo muestra el porcentaje de ingresos atribuido a un punto de contacto según un modelo en forma de U.
 
-**Atribución % Forma W** | Punto de contacto de atribución del comprador
+**% atribución según modelo en forma de W** | Punto de contacto de atribución de comprador
 
-Este campo muestra el porcentaje de ingresos atribuido a un punto de contacto según un modelo con forma de W.
+Este campo muestra el porcentaje de ingresos atribuido a un punto de contacto según un modelo en forma de W.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 ## B {#b}
 
-**Cantidad de oportunidad de Marketo Measure** | Oportunidad de Salesforce
+**Importe de oportunidad de Marketo Measure** | Oportunidad de Salesforce
 
-Si utiliza un campo Importe personalizado para informar de los ingresos de oportunidad, Marketo Measure no puede leer estos campos de cantidad personalizados. La cantidad de oportunidad de Marketo Measure es un campo oculto que se utiliza para crear un flujo de trabajo que permite a Marketo Measure leer campos de cantidad personalizados en la oportunidad.
+Si utiliza el campo de importe personalizado para informar de los ingresos de oportunidad, Marketo Measure no podrá leer estos campos de importe personalizados. El importe de oportunidad de Marketo Measure es un campo oculto que se utiliza para crear un flujo de trabajo que permite a Marketo Measure leer campos de importe personalizados en la oportunidad.
 
-**Navegador** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Navegador** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
 Este campo muestra el tipo de explorador web utilizado durante la sesión web (Chrome, Safari, Firefox, etc.).
 
@@ -138,69 +138,69 @@ Este campo muestra el tipo de explorador web utilizado durante la sesión web (C
 
 ## C {#c}
 
-**Contacto** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Contacto** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
 El campo muestra el contacto al que pertenece el punto de contacto.
 
-**Recuento: Modelo personalizado** | Punto de contacto de atribución del comprador
+**Recuento: modelo personalizado** | Punto de contacto de atribución de comprador
 
-Si utiliza un Modelo de atribución personalizado, este campo muestra, en forma decimal, el porcentaje de crédito de ingresos dado a un punto de contacto según los valores establecidos en el Modelo personalizado.
-
-Si no utiliza un modelo personalizado, este campo estará en blanco.
-
-**Recuento: Modelo personalizado** | Punto de contacto del comprador
-
-Si utiliza un Modelo de atribución personalizado, este campo muestra, en forma decimal, el porcentaje de crédito de atribución dado a un punto de contacto según los valores establecidos en el Modelo personalizado. Dado que este campo está relacionado con el objeto Touchpoint de Comprador, no es un reflejo del crédito de los ingresos, sino solo de la atribución de crédito.
+Si utiliza un modelo de atribución personalizado, este campo muestra, en forma decimal, el porcentaje de crédito de ingresos proporcionado a un punto de contacto según los valores establecidos en el modelo personalizado.
 
 Si no utiliza un modelo personalizado, este campo estará en blanco.
 
-**Recuento: primer toque** | Punto de contacto de atribución del comprador
+**Recuento: modelo personalizado** | Punto de contacto de comprador
 
-Este campo muestra, en forma decimal, el porcentaje de crédito de ingresos dado a un punto de contacto según un modelo de primer toque.
+Si utiliza un modelo de atribución personalizado, este campo muestra, en forma decimal, el porcentaje de crédito de atribución proporcionado a un punto de contacto según los valores establecidos en el modelo personalizado. Dado que este campo está relacionado con el objeto de punto de contacto de comprador, no es un reflejo del crédito de ingresos, sino solo de la atribución de crédito.
 
-**Recuento: primer toque** | Punto de contacto del comprador
+Si no utiliza un modelo personalizado, este campo estará en blanco.
 
-Este campo muestra, en forma decimal, el porcentaje de crédito de atribución dado a un punto de contacto según un modelo de primer toque. Si el punto de contacto es el primer contacto, este campo siempre será 1,0 (lo que indica un 100% de crédito de atribución). Si el punto de contacto no es el primer contacto, este campo siempre será 0 (indicando un crédito de atribución del 0 %).
+**Recuento: primer contacto** | Punto de contacto de atribución de comprador
 
-Dado que este campo está relacionado con el objeto Touchpoint de Comprador, no es un reflejo del crédito de los ingresos, sino solo de la atribución de crédito.
+Este campo muestra, en forma decimal, el porcentaje de crédito de ingresos proporcionado a un punto de contacto según un modelo de primer contacto.
 
-**Recuento: ruta completa** | Punto de contacto de atribución del comprador
+**Recuento: primer contacto** | Punto de contacto de comprador
 
-Este campo muestra, en forma decimal, el porcentaje de ingresos dado a un punto de contacto según un modelo de ruta completa.
+Este campo muestra, en forma decimal, el porcentaje de crédito de atribución proporcionado a un punto de contacto según un modelo de primer contacto. Si el punto de contacto es el primer contacto, este campo siempre será 1,0 (lo que indica un crédito de atribución del 100 %). Si el punto de contacto no es el primer contacto, este campo siempre será 0 (lo que indica un crédito de atribución del 0 %).
 
-**Recuento: toque de creación de posibles clientes** | Punto de contacto de atribución del comprador
+Dado que este campo está relacionado con el objeto de punto de contacto de comprador, no es un reflejo del crédito de ingresos, sino solo de la atribución de crédito.
 
-Este campo muestra, en forma decimal, el porcentaje de crédito por ingresos dado a un punto de contacto según un Modelo de creación de posibles clientes.
+**Recuento: ruta completa** | Punto de contacto de atribución de comprador
 
-**Recuento: toque de creación de posibles clientes** | Punto de contacto del comprador
+Este campo muestra, en forma decimal, el porcentaje de ingresos proporcionado a un punto de contacto según un modelo de ruta completa.
 
-Este campo muestra, en forma decimal, el porcentaje de crédito de atribución dado a un punto de contacto según un Modelo de creación de posibles clientes. Si el punto de contacto es el contacto Creación de posibles clientes, este campo siempre será 1,0 (indicando un crédito de atribución del 100%). Si el punto de contacto no es el contacto Creación de posibles clientes, este campo siempre será 0 (indicando un crédito de atribución del 0 %).
+**Recuento: contacto de creación de posibles clientes** | Punto de contacto de atribución de comprador
 
-Dado que este campo está relacionado con el objeto Touchpoint de Comprador, no es un reflejo del crédito de los ingresos, sino solo de la atribución de crédito.
+Este campo muestra, en forma decimal, el porcentaje de crédito de ingresos proporcionado a un punto de contacto según un modelo de creación de posibles clientes.
 
-**Recuento: Forma de U** | Punto de contacto de atribución del comprador
+**Recuento: contacto de creación de posibles clientes** | Punto de contacto de comprador
 
-Este campo muestra, en forma decimal, el porcentaje de crédito de ingresos dado a un punto de contacto según un modelo en forma de U.
+Este campo muestra, en forma decimal, el porcentaje de crédito de atribución proporcionado a un punto de contacto según un modelo de creación de posibles clientes. Si el punto de contacto es el contacto de creación de posibles clientes, este campo siempre será 1,0 (lo que indica un crédito de atribución del 100 %). Si el punto de contacto no es el contacto de creación de posibles clientes, este campo siempre será 0 (lo que indica un crédito de atribución del 0 %).
 
-**Recuento: Forma de U** | Punto de contacto del comprador
+Dado que este campo está relacionado con el objeto de punto de contacto de comprador, no es un reflejo del crédito de ingresos, sino solo de la atribución de crédito.
 
-Este campo muestra, en forma decimal, el porcentaje de crédito de atribución dado a un punto de contacto según un modelo en forma de U. En el modelo en forma de U, el crédito se divide entre el primer contacto, el contacto de creación de posibles clientes y cualquier envío de formulario intermedio que se produzca entre el primer contacto y el contacto de creación de posibles clientes.
+**Recuento: en forma de U** | Punto de contacto de atribución de comprador
 
-Dado que este campo está relacionado con el objeto Touchpoint de Comprador, no es un reflejo del crédito de los ingresos, sino solo de la atribución de crédito.
+Este campo muestra, en forma decimal, el porcentaje de crédito de ingresos proporcionado a un punto de contacto según un modelo en forma de U.
 
-**Recuento: Forma de W** | Punto de contacto de atribución del comprador
+**Recuento: en forma de U** | Punto de contacto de comprador
 
-Este campo muestra, en forma decimal, el porcentaje de crédito dado a un punto de contacto según un modelo con forma de W.
+Este campo muestra, en forma decimal, el porcentaje de crédito de atribución proporcionado a un punto de contacto según un modelo en forma de U. En el modelo en forma de U, el crédito se divide entre el primer contacto, el contacto de creación de posibles clientes y cualquier envío de formulario intermedio que se produzca entre el primer contacto y el contacto de creación de posibles clientes.
+
+Dado que este campo está relacionado con el objeto de punto de contacto de comprador, no es un reflejo del crédito de ingresos, sino solo de la atribución de crédito.
+
+**Recuento: en forma de W** | Punto de contacto de atribución de comprador
+
+Este campo muestra, en forma decimal, el porcentaje de crédito proporcionado a un punto de contacto según un modelo en forma de W.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 ## D {#d}
 
-Fecha de informe | Marketo Measure ABTest, Evento de Marketo Measure
+Fecha de notificación | Prueba A/B de Marketo Measure, Evento de Marketo Measure
 
-Evento de Marketo Measure: la fecha en la que un usuario realizó una acción específica en el sitio web, al activar un Evento
+Evento de Marketo Measure: la fecha en la que un usuario realizó una acción específica en el sitio web al activar un evento
 
-Marketo Measure ABTest : la fecha en la que un usuario participó en una prueba A/B en su sitio web.
+Prueba A/B de Marketo Measure: la fecha en la que un usuario participó en una prueba A/B en el sitio web
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
@@ -208,17 +208,17 @@ Marketo Measure ABTest : la fecha en la que un usuario participó en una prueba 
 
 **Nombre del evento** | Evento de Marketo Measure
 
-Este campo muestra el nombre de la acción que activó el evento (es decir, vista de página).
+Este campo muestra el nombre de la acción que activó el evento (por ejemplo, vista de página).
 
 **Valor de evento** | Evento de Marketo Measure
 
-La descripción del evento (es decir, la página principal)
+La descripción del evento (por ejemplo, la página principal)
 
-**Nombre del experimento** | Marketo Measure ABTest
+**Nombre del experimento** | Prueba A/B de Marketo Measure
 
-Este campo muestra el nombre del experimento (por ejemplo, Botón de prueba)
+Este campo muestra el nombre del experimento (por ejemplo, botón de prueba)
 
-**ID del experimento** |Prueba Marketo Measure AB
+**Id. del experimento** | Prueba A/B de Marketo Measure
 
 El código de identificación único para cada experimento
 
@@ -226,69 +226,69 @@ El código de identificación único para cada experimento
 
 ## F {#f}
 
-URL del formulario | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+URL del formulario | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Este campo muestra una versión abreviada de la dirección URL de una página donde se ha completado el formulario (sin parámetros de UTM)
+Este campo muestra una versión abreviada de la dirección URL de una página donde se completó el formulario (sin parámetros UTM)
 
-URL del formulario: sin procesar | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+URL del formulario: sin procesar | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Este campo muestra la dirección URL de toda la página donde se completó el formulario, incluidos los parámetros de la UTM
+Este campo muestra la dirección URL de página completa donde se completó el formulario, incluidos los parámetros UTM
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 ## G {#g}
 
-Ciudad geográfica | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+Ciudad geográfica | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
 Este campo muestra el nombre de la ciudad donde el posible cliente o contacto visitó su sitio web. Esto se realiza mediante la búsqueda inversa de IP.
 
-País geográfico | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+País geográfico | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
-Este campo muestra el país donde el posible cliente o contacto visitó el sitio web. Esto se realiza mediante la búsqueda inversa de IP.
+Este campo muestra el país donde el posible cliente o contacto visitó su sitio web. Esto se realiza mediante la búsqueda inversa de IP.
 
-Región geográfica | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+Región geográfica | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
-Este campo muestra la región o el estado en el que el posible cliente o contacto visitó el sitio web. Esto se realiza mediante la búsqueda inversa de IP.
+Este campo muestra la región o el estado donde el posible cliente o contacto visitó su sitio web. Esto se realiza mediante la búsqueda inversa de IP.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 ## K {#k}
 
-**Id De Palabra Clave** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Id. de palabra clave** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Si el punto de contacto proviene de la búsqueda de pago, este campo mostrará el ID de palabra clave de la plataforma de publicidad (AdWords/BingAds).
+Si el punto de contacto proviene de una búsqueda de pago, este campo mostrará el id. de palabra clave en la plataforma de anuncios (AdWords/Bing Ads).
 
 Si este punto de contacto no proviene de una búsqueda de pago, este campo estará en blanco.
 
-**Tipo de coincidencia de palabra clave** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Tipo de coincidencia de palabra clave** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Si el punto de contacto proviene de la búsqueda de pago, este campo mostrará el tipo de coincidencia de la plataforma de publicidad (AdWords/Bing).
+Si el punto de contacto proviene de una búsqueda de pago, este campo mostrará el tipo de coincidencia en la plataforma de anuncios (AdWords/Bing).
 
-**Texto de palabra clave** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Texto de palabra clave** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-`1)` Si el punto de contacto proviene de la búsqueda de pago, este campo mostrará el texto de la palabra clave desde la plataforma de publicidad (AdWords/BingAds) O el valor del parámetro _bk en la dirección URL de la página de aterrizaje.
+`1)` Si el punto de contacto proviene de una búsqueda de pago, este campo mostrará el texto de la palabra clave en la plataforma de anuncios (AdWords/Bing Ads) O el valor del parámetro _bk en la dirección URL de la página de destino.
 
-p. ej., `http://info.marketomeasure.com/intro-guide-b2b-marketing-attribution?_bt=12345678&_bk=marketing%20attribution&_bm=p&gclid=ABc123def456ghi789jkl`
+P. ej.: `http://info.marketomeasure.com/intro-guide-b2b-marketing-attribution?_bt=12345678&_bk=marketing%20attribution&_bm=p&gclid=ABc123def456ghi789jkl`
 
-`2)` Si el punto de contacto no proviene de la búsqueda de pago, este campo mostrará el valor utm_term de la dirección URL de la página de aterrizaje.
+`2)` Si el punto de contacto no proviene de una búsqueda de pago, este campo mostrará el valor utm_term en la dirección URL de la página de destino.
 
 `http://www.marketomeasure.com/blog/lead-generation?utm_source=linkedin&utm_medium=Social&utm_campaign=ABC%20Blog&utm_content=Lead%20Gen&utm_term=lead%20gen`.
 
-Si el punto de contacto no proviene de una búsqueda de pago o no hay ningún valor utm_term, este campo estará en blanco.
+Si el punto de contacto no proviene de una búsqueda de pago, o no hay un valor utm_term, este campo estará en blanco.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 ## L {#l}
 
-**Página de aterrizaje** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Página de destino** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Este campo muestra la versión abreviada de la URL (sin parámetros de UTM) de la primera página web visitada durante una sesión web.
+Este campo muestra la versión abreviada de la URL (sin parámetros UTM) de la primera página web visitada durante una sesión web.
 
-**Página de aterrizaje: sin procesar** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Página de destino: sin procesar** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Este campo muestra la dirección URL completa (incluidos los parámetros de UTM) de la primera página web visitada durante una sesión web.
+Este campo muestra la dirección URL completa (incluidos los parámetros UTM) de la primera página web visitada durante una sesión web.
 
-**Posible cliente** | Punto de contacto del comprador, persona de Marketo Measure
+**Posible cliente** | Punto de contacto de comprador, persona de Marketo Measure
 
 Este campo muestra el nombre del posible cliente al que pertenece un punto de contacto.
 
@@ -296,41 +296,41 @@ Este campo muestra el nombre del posible cliente al que pertenece un punto de co
 
 ## M {#m}
 
-**Canal de marketing** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Canal de marketing** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
-Este campo muestra el grupo general de actividad de marketing o el canal de marketing al que pertenece el punto de contacto (por ejemplo, búsqueda de pago, directa, social, etc.). Los puntos de contacto se agrupan según la configuración de sus canales en la aplicación Marketo Measure. Para obtener más información sobre canales de marketing o cómo configurarlos, [haga clic aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Este campo muestra el grupo general de actividad de marketing o el canal de marketing al que pertenece el punto de contacto (por ejemplo, Búsqueda de pago, Directo, Social, etc.). Los puntos de contacto se agrupan según la configuración de sus canales en la aplicación Marketo Measure. Para obtener más información sobre canales de marketing o cómo configurarlos, [haga clic aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
-**Canal de marketing: ruta** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Canal de marketing: ruta** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
-Este campo muestra el canal de marketing y el subcanal al que pertenece un punto de contacto. En el ejemplo siguiente, Canal de marketing: la ruta es Social.Linkedin, donde el canal de marketing es Social y el subcanal es LinkedIn.
+Este campo muestra el canal de marketing y el subcanal al que pertenece un punto de contacto. En el ejemplo siguiente, el “Canal de marketing: ruta” es Social.Linkedin, donde el canal de marketing es Social y el subcanal es LinkedIn.
 
 ![](assets/1-3.png)
 
-**Medio** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Medio** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
-`1)` Si el punto de contacto proviene de una búsqueda de pago, el medio de Adwords/BingAds se mostrará aquí (es decir, CPC).
+`1)` Si el punto de contacto proviene de una búsqueda de pago, el medio de AdWords/Bing Ads se mostrará aquí (es decir, CPC).
 
-`2)` Si el punto de contacto no proviene de la búsqueda de pago, este campo muestra el valor utm_medium de la dirección URL de la página de aterrizaje.
+`2)` Si el punto de contacto no proviene de una búsqueda de pago, este campo muestra el valor utm_medium en la dirección URL de la página de destino.
 
-`3)` Si el punto de contacto proviene de una campaña sin conexión, este campo mostrará el campo &quot;Tipo&quot; en la campaña de Salesforce.
+`3)` Si el punto de contacto proviene de una campaña sin conexión, este campo mostrará el campo “Tipo” en la campaña de Salesforce.
 
-`4)` Esto se rellenará con el valor Tipo de actividad de la actividad relacionada que generó el Touchpoint.
+`4)` Esto se rellenará con el valor Tipo de actividad de la actividad relacionada que generó el punto de contacto.
 
-Si ninguno de los anteriores, Marketo Measure establece automáticamente un valor Medio.
+Si no se encuentra ninguno de los anteriores, Marketo Measure establece automáticamente un valor Medio.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 O
 
-**Oportunidad** | Punto de contacto de atribución del comprador
+**Oportunidad** | Punto de contacto de atribución de comprador
 
-Este campo muestra la oportunidad a la que pertenece la MTD.
+Este campo muestra la oportunidad a la que pertenece el BAT.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 P
 
-**Plataforma** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Plataforma** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
 Este campo muestra el tipo de equipo o teléfono y el tipo de sistema operativo que se utilizó durante la sesión web.
 
@@ -338,59 +338,59 @@ Este campo muestra el tipo de equipo o teléfono y el tipo de sistema operativo 
 
 R
 
-**Página Referente** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Página del referente** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Este campo muestra la dirección URL (sin parámetros de UTM) de la última página web en la que se encontraba el posible cliente o contacto que los dirige a su sitio web.
+Este campo muestra la dirección URL (sin parámetros UTM) de la última página web en la que se encontraba el posible cliente o contacto que los dirigió a su sitio web.
 
 Por ejemplo:
 
-- Si el punto de contacto proviene de la búsqueda de pago/orgánica, el campo mostrará la dirección URL del motor de búsqueda
+- Si el punto de contacto proviene de una búsqueda de pago/orgánica, el campo mostrará la dirección URL del motor de búsqueda
 
 - Si el punto de contacto proviene de Social, el campo mostrará la dirección URL del sitio web social (por ejemplo, LinkedIn)
 
-**Página Referente - Sin procesar** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Página del referente: sin procesar** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
-Este campo muestra la misma información que la página de referente, excepto que este campo muestra la dirección URL de referencia completa (incluidos los parámetros de UTM).
+Este campo muestra la misma información que la página del referente, con la excepción de que mostrará la dirección URL de referencia completa (incluidos los parámetros UTM).
 
-**Ingresos: Modelo personalizado** | Punto de contacto de atribución del comprador
+**Ingresos: modelo personalizado** | Punto de contacto de atribución de comprador
 
-Si utiliza un modelo de atribución personalizado, este campo muestra la cantidad de ingresos en dólares atribuida a un punto de contacto según el porcentaje de atribución establecido en el modelo personalizado.
+Si utiliza un modelo de atribución personalizado, este campo muestra el importe de ingresos en dólares atribuido a un punto de contacto según el porcentaje de atribución establecido en el modelo personalizado.
 
-Si no utiliza un modelo personalizado, la cantidad en dólares será 0.
+Si no utiliza un modelo personalizado, el importe en dólares será 0.
 
-**Ingresos: primer toque** | Punto de contacto de atribución del comprador
+**Ingresos: primer contacto** | Punto de contacto de atribución de comprador
 
-Este campo muestra la cantidad de ingresos en dólares atribuida a un punto de contacto según el porcentaje de atribución del Modelo de primer toque.
+Este campo muestra el importe de ingresos en dólares atribuido a un punto de contacto según el porcentaje de atribución del modelo de primer contacto.
 
-**Ingresos: ruta completa** | Punto de contacto de atribución del comprador
+**Ingresos: ruta completa** | Punto de contacto de atribución de comprador
 
-Este campo muestra la cantidad de ingresos en dólares atribuida a un punto de contacto según el porcentaje de atribución del Modelo de ruta completa.
+Este campo muestra el importe de ingresos en dólares atribuido a un punto de contacto según el porcentaje de atribución del modelo de ruta completa.
 
-**Ingresos: contacto para la creación de posibles clientes** | Punto de contacto de atribución del comprador
+**Ingresos: contacto de creación de posibles clientes** | Punto de contacto de atribución de comprador
 
-Este campo muestra la cantidad de ingresos en dólares atribuida a un punto de contacto según el porcentaje de atribución del Modelo de creación de posibles clientes.
+Este campo muestra el importe de ingresos en dólares atribuido a un punto de contacto según el porcentaje de atribución del modelo de creación de posibles clientes.
 
-**Ingresos: Forma de U** | Punto de contacto de atribución del comprador
+**Ingresos: en forma de U** | Punto de contacto de atribución de comprador
 
-Este campo muestra la cantidad de ingresos en dólares atribuida a un punto de contacto según el porcentaje de atribución del Modelo en Forma de U.
+Este campo muestra el importe de ingresos en dólares atribuido a un punto de contacto según el porcentaje de atribución del modelo en forma de U.
 
-**Ingresos: Forma de W** | Punto de contacto de atribución del comprador
+**Ingresos: en forma de W** | Punto de contacto de atribución de comprador
 
-Este campo muestra la cantidad de ingresos en dólares atribuida a un punto de contacto según el porcentaje de atribución del modelo en forma de W.
+Este campo muestra el importe de ingresos en dólares atribuido a un punto de contacto según el porcentaje de atribución del modelo en forma de W.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 S
 
-**Campaña de Salesforce** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Campaña de Salesforce** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
 Este campo muestra la campaña de Salesforce a la que pertenece el punto de contacto.
 
-**Frase de búsqueda** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Frase de búsqueda** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
 Si el punto de contacto proviene de una búsqueda orgánica o de pago, este campo mostrará la frase de búsqueda escrita en el motor de búsqueda. Sin embargo, por motivos de privacidad, esta información no suele estar disponible.
 
-**Segmento** | Punto de contacto de atribución del comprador
+**Segmento** | Punto de contacto de atribución de comprador
 
 Este campo muestra los segmentos a los que pertenece el punto de contacto. Esto dependerá de cómo haya configurado las reglas de segmentación en la aplicación Marketo Measure.
 
@@ -398,83 +398,83 @@ Este campo muestra los segmentos a los que pertenece el punto de contacto. Esto 
 
 T
 
-**Fecha de Touchpoint** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Fecha de punto de contacto** | Punto de contacto de comprador, punto de contacto de atribución de comprador
 
 `1)` Si el punto de contacto proviene de una fuente en línea, este campo mostrará la fecha y la hora en que se produjo el punto de contacto.
 
-`2)` Si el punto de contacto proviene de un evento sin conexión, este campo mostrará la fecha y la hora establecidas en la campaña de Salesforce o desde el campo de fecha seleccionado en las reglas de sincronización de campañas.
+`2)` Si el punto de contacto proviene de un evento sin conexión, este campo mostrará la fecha y la hora establecidas en la campaña de Salesforce o en el campo de fecha seleccionado en las reglas de sincronización de campañas.
 
-`3)` Si el punto de contacto proviene de una actividad, este campo mostrará la fecha y la hora del campo seleccionado como Fecha de punto de contacto en las reglas de actividad.
+`3)` Si el punto de contacto proviene de una actividad, este campo mostrará la fecha y la hora del campo seleccionado como la fecha de punto de contacto en las reglas de actividad.
 
-**Fecha de punto de contacto (FT)** | Punto de contacto del comprador
+**Fecha de punto de contacto (FT)** | Punto de contacto de comprador
 
 Este campo es el mismo que Fecha de punto de contacto; sin embargo, este campo muestra específicamente la fecha y la hora en que se produjo el punto de contacto del primer contacto.
 
-**Fecha Touchpoint (LC)** | Punto de contacto del comprador
+**Fecha de punto de contacto (LC)** | Punto de contacto de comprador
 
-Este campo es el mismo que Fecha de punto de contacto; sin embargo, este campo muestra específicamente la fecha y la hora en que se produjo el punto de contacto Creación de posibles clientes.
+Este campo es el mismo que Fecha de punto de contacto; sin embargo, este campo muestra específicamente la fecha y la hora en que se produjo el punto de contacto de la creación de posibles clientes.
 
-**Posición del punto de contacto** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Posición del punto de contacto** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
-Este campo muestra la posición del punto de contacto. La posición del punto de contacto refleja los principales puntos de contacto del hito en el recorrido del cliente (es decir, FT, Form, LC, OC, Closed). La posición del punto de contacto depende de cuándo se produjo en el recorrido del cliente y un solo punto de contacto puede tener más de una posición. Las diferentes posiciones de los puntos de contacto son las siguientes:
+Este campo muestra la posición del punto de contacto. La posición del punto de contacto refleja los principales puntos de contacto de hito en el recorrido del cliente (es decir, FT, Formulario, LC, OC, Cerrado). La posición del punto de contacto depende de cuándo se produjo en el recorrido del cliente y un solo punto de contacto puede tener más de una posición. Las diferentes posiciones de los puntos de contacto son las siguientes:
 
-Primer toque (FT): la primera interacción de marketing que alguien tiene con su marca
+Primer contacto (FT): la primera interacción de marketing que alguien tiene con su marca
 
-Creación de posibles clientes (LC): la primera interacción de marketing conocida (normalmente un envío de formulario o una inclusión de Salesforce Campaign)
+Creación de posibles clientes (LC): la primera interacción de marketing conocida (normalmente un envío de formulario o una inclusión de campaña de Salesforce)
 
 Formulario: cuando un visitante rellena un formulario en línea
 
-Creación de oportunidades (OC): la interacción de marketing más cercana a cuando se crea la opción Opp
+Creación de oportunidades (OC): la interacción de marketing más cercana a cuando se crea la oportunidad
 
-Cerrado: la interacción de marketing más cercana a cuando se cierra la opción Opp (Ganada o Perdida)
+Cerrada: la interacción de marketing más cercana a cuando se cierra la oportunidad (ganada o perdida)
 
-**Origen de touchpoint** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Origen del punto de contacto** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
-`1)` Si el punto de contacto proviene de la búsqueda de pago, este campo mostrará el nombre de la plataforma de publicidad (AdWords/BingAds)
+`1)` Si el punto de contacto proviene de una búsqueda de pago, este campo mostrará el nombre de la plataforma de anuncios (AdWords/Bing Ads)
 
 `2)` Si el punto de contacto proviene de una búsqueda orgánica, este campo mostrará el nombre del motor de búsqueda
 
-`3)` Si no es #1 o #2, y el valor utm_source está presente en la dirección URL de la página de aterrizaje para el punto de contacto, ese valor se mostrará aquí
+`3)` Si no es #1 o #2, y el valor utm_source está presente en la dirección URL de la página de destino para el punto de contacto, ese valor se mostrará aquí
 
-`4)` Esto se rellenará como Campaña de CRM si el Touchpoint se genera a partir de una campaña de CRM.
+`4)` Esto se rellenará como campaña de CRM si el punto de contacto se genera a partir de una campaña de CRM.
 
-`5)` Esto se rellenará como actividad de CRM si el Touchpoint se genera a partir de una actividad de CRM.
+`5)` Esto se rellenará como actividad de CRM si el punto de contacto se genera a partir de una actividad de CRM.
 
-Si no se encuentra ninguno de los anteriores, este campo se rellenará como &#39;Web Direct&#39; o &#39;Web&#39;.
+Si no se encuentra ninguno de los anteriores, este campo se rellenará como “Directo web” o “Web”.
 
-**Origen de punto de contacto (FT)** | Punto de contacto del comprador
+**Origen del punto de contacto (FT)** | Punto de contacto de comprador
 
-Se trata del mismo campo que el origen de punto de contacto, pero este campo muestra específicamente el origen del punto de contacto de primer contacto.
+Este campo es el mismo que Origen del punto de contacto; sin embargo, este campo muestra específicamente el origen del punto de contacto del primer contacto.
 
-**Fuente de Touchpoint (LC)** | Punto de contacto del comprador
+**Origen del punto de contacto (LC)** | Punto de contacto de comprador
 
-Se trata del mismo campo que el origen de punto de contacto, pero este campo muestra específicamente el origen del punto de contacto de creación de posibles clientes.
+Este campo es el mismo que Origen del punto de contacto; sin embargo, este campo muestra específicamente el origen del punto de contacto de la creación de posibles clientes.
 
-**Tipo de punto de contacto** | Se encuentra en el punto de contacto de atribución del comprador y el punto de contacto de atribución del comprador.
+**Tipo de punto de contacto** | Se encuentra en el punto de contacto de comprador y el punto de contacto de atribución de comprador.
 
-Este campo muestra el tipo de interacción del Touchpoint. Se mostrará como: Visita web, formulario web o chat web para puntos de contacto de JavaScript. Para los puntos de contacto de CRM Campaign, se mostrará como CRM. Se rellenará con la tarea o el tipo de evento para los puntos de contacto de la actividad.
+Este campo mostrará el tipo de interacción del punto de contacto. Se mostrará como: visita web, formulario web o chat en web para puntos de contacto de JavaScript. Para los puntos de contacto de campaña de CRM, se mostrará como CRM. Se rellenará con el tipo de tarea o evento para puntos de contacto de la actividad.
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 U
 
-**UniqueId** | Punto de contacto del comprador, Punto de contacto de atribución del comprador
+**Id. único** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
-El identificador único asociado a cada punto de contacto
+El id. único asociado a cada punto de contacto
 
-**ID de usuario** | Marketo Measure ABTest
+**Id. de usuario** | Prueba A/B de Marketo Measure
 
-Código de identificación único de Optimize para cada uso
+El código de identificación único de Optimizely para cada uso
 
 [Haga clic aquí para volver a la parte superior de la página](#top)
 
 ## V {#v}
 
-**Variación** | Marketo Measure ABTest
+**Variación** | Prueba A/B de Marketo Measure
 
-Nombre de la variación de la prueba A/B
+El nombre de la variación de la prueba A/B
 
-**ID de variación** | Marketo Measure ABTest
+**Id. de variación** | Prueba A/B de Marketo Measure
 
 El código de identificación único para cada variación de prueba A/B.
 
