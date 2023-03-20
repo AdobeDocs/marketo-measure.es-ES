@@ -1,13 +1,11 @@
 ---
 description: '''[!DNL Marketo Measure] Información general definitiva: [!DNL Marketo Measure] - Documentación del producto'
 title: '''[!DNL Marketo Measure] Información general definitiva'
-hide: true
-hidefromtoc: true
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 604db0227cc48e09743db317cc72488755586a48
+source-git-commit: 59d42e5065ec0db7143208743fd053f5e6c1af7b
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 1%
 
 ---
 
@@ -28,29 +26,29 @@ ht-degree: 0%
 
 * Integración con RTCDP (B2B o B2P Edition), proporcionando una solución de atribución integrada B2B para clientes RTCDP como RTCDP y [!DNL Marketo Measure] ambos funcionan a partir de datos centralizados de Adobe Experience Platform (AEP).
 
-**Marketo Measure Tiers 1-3**
+**[!DNL Marketo Measure]Neumáticos 1-3**
 
 ![](assets/marketo-measure-ultimate-overview-1.png)
 
-**Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]**
 
 ![](assets/marketo-measure-ultimate-overview-2.png)
 
 ## Novedades de [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
-**TÍTULO DEL ENCABEZADO: Importación de datos B2B a través de AEP**
+**Importar datos B2B a través de AEP**
 
 Se espera que los especialistas en marketing aporten sus datos B2B (por ejemplo, cuenta, oportunidad, contacto, posible cliente, campaña, miembro de campaña, actividad) a través de AEP. Las conexiones directas de CRM y Marketo Engage ya no están disponibles para Ultimate. Los especialistas en marketing seguirán aportando datos de la plataforma de publicidad a través de conexiones directas y rastreando actividades web a través de [!DNL Marketo Measure] javascript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**TÍTULO DEL ENCABEZADO: Configuración de moneda predeterminada**
+**Configuración de moneda predeterminada**
 
-¿¿¿BRIEF INTRO???
+[!DNL Marketo Measure Ultimate] establecerá la moneda predeterminada en USD hasta que el usuario la cambie. Si se establece una nueva moneda predeterminada, se actualizarán los datos sin necesidad de volver a procesarlos. Siempre que la moneda seleccionada esté presente como código ISO de destino, no es necesario enviar tasas de conversión.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
-**TÍTULO DEL ENCABEZADO: Simulador para pruebas Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]Sandbox**
 
 [!DNL Marketo Measure Ultimate] La instancia de debe asignarse a un entorno limitado de AEP antes de crear el [!DNL Marketo Measure] flujos de datos de destino en AEP.
 
@@ -64,7 +62,7 @@ Los datos de una entidad determinada (por ejemplo, Cuenta) de una fuente de dato
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**TÍTULO DEL ENCABEZADO - Asignación de etapas**
+**Asignación de etapa**
 
 Todo [!DNL Marketo Measure Ultimate] las reglas son específicas del conjunto de datos. Se deben crear reglas de asignación de etapas para todos los conjuntos de datos y todas las etapas seleccionadas.
 
