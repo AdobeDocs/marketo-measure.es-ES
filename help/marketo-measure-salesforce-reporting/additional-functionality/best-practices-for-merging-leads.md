@@ -3,10 +3,10 @@ unique-page-id: 18874734
 description: 'Prácticas recomendadas para combinar posibles clientes: [!DNL Marketo Measure] - Documentación del producto'
 title: Prácticas recomendadas para combinar posibles clientes
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 4%
 
 ---
 
@@ -22,6 +22,6 @@ Si hay varios registros con [!DNL Marketo Measure] , asegúrese de que el regist
 
 A partir de ahí, debe ser libre de combinar los posibles clientes y [!DNL Marketo Measure] se transferirán al nuevo registro.
 
-Si tiene alguna pregunta, no dude en ponerse en contacto con el gestor de éxito de los clientes o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Si tiene alguna pregunta, no dude en ponerse en contacto con el equipo de cuentas de Adobe (su administrador de cuentas) o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)

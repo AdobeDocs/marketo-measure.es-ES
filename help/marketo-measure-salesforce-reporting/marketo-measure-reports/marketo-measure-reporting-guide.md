@@ -2,14 +2,14 @@
 description: "[!DNL Marketo Measure] Guía de informes - [!DNL Marketo Measure] - Documentación del producto"
 title: "[!DNL Marketo Measure] Guía de informes"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '6392'
+source-wordcount: '6395'
 ht-degree: 1%
 
 ---
 
-# [!DNL Marketo Measure] Guía de informes {#marketo-measure-reporting-guide}
+# Guía de informes de [!DNL Marketo Measure] {#marketo-measure-reporting-guide}
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ En el nivel más alto, hay dos categorías de informes basadas en los dos objeto
 
 Artículo de soporte: [Diferencia entre puntos de contacto del comprador y puntos de contacto de atribución del comprador](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
-## Punto de contacto del comprador (BT) {#buyer-touchpoint-bt}
+## Punto de contacto de comprador (BT) {#buyer-touchpoint-bt}
 
 El punto de contacto del comprador (BT) es el objeto que se utiliza para rastrear cada interacción de marketing que alguien tiene con sus materiales de marketing. Cada individuo (posible cliente/contacto/[!DNL Marketo Measure] Persona) El recorrido estaría representado por sus OE conexos. En [!DNL Marketo Measure], el recorrido de una persona consiste en:
 
@@ -203,8 +203,8 @@ Para obtener información más detallada sobre los datos resumidos en el informe
 
 El nivel de granularidad puede variar según el canal. El enfoque recomendado sería preguntarse: &quot;¿qué hay del canal X que estoy buscando entender con más detalle?&quot;. Los administradores de búsqueda pagada también pueden estar interesados en dimensiones adicionales como:
 
-* Nombre de campaña de publicidad
-* Contenido de la publicidad
+* Nombre de campaña de anuncios
+* Contenido de anuncios
 * Grupo de anuncio
 
 Sin embargo, los administradores de eventos pueden estar más interesados en saber qué eventos específicos o qué tipos de eventos influyeron más en los posibles clientes en la creación:
@@ -497,8 +497,8 @@ La clave de este informe es que los datos de punto de contacto del comprador tam
 
 Si se considera la variable [!DNL Marketo Measure] Persona nos permite informar sobre todos los puntos de contacto en un solo informe; es el tipo de informe ideal para usar al buscar validar sus datos. Queremos asegurarnos de que no se pasa por alto ningún punto de contacto que pueda revelar dónde, por ejemplo, hay un problema en la configuración de sus canales de marketing (consulte los artículos de soporte vinculados a continuación para obtener más información sobre la configuración de sus canales de marketing).
 
-* [Configuración de canal personalizado en línea](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
-* [Configuración de canal personalizado sin conexión](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+* [Configuración de canales personalizados en línea](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+* [Configuración de canales personalizados sin conexión](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 
 Esencialmente, los datos de puntos de contacto reflejarán el seguimiento realizado por [!DNL Marketo Measure] y se pueden auditar para garantizar que la configuración coincida con las entradas en función de cosas como: Valores de parámetro UTM, Páginas de referencia o Tipos de campaña. Si los datos de punto de contacto no coinciden con su configuración, es muy probable que haya que ajustar algo. Más allá de la configuración &quot;Canal de marketing&quot;, puede consultar los datos de puntos de contacto para determinar qué puntos de contacto pueden necesitar [suprimido](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) o [segmentado](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). Se recomienda auditar los datos de puntos de contacto en un[!DNL Marketo Measure] Informe de personas y puntos de contacto del comprador al final de cada mes o trimestre, si es posible. Esto garantizará que la atribución sea lo más precisa posible. El[!DNL Marketo Measure] 101 | El informe de posibles clientes/contactos por canal disponible de forma predeterminada es un bueno lugar para empezar. Incluya los siguientes campos si no están incluidos para revisar algunos de los elementos de configuración más importantes:
 
@@ -523,7 +523,7 @@ Teniendo en cuenta que la relación principal de las MTD es con la Oportunidad, 
 
 La variable [modelos de atribución](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) para obtener información más detallada sobre las métricas basadas en oportunidades, consulte:
 
-**Forma de W** - El _Modelo de canalización_&#39;. En el modelo con forma de W se incluyen tres puntos de contacto de hito. En este modelo, los puntos de contacto FT, LC y OC se atribuyen cada uno al 30% del crédito de atribución. El 10 % restante se atribuye de forma equitativa a cualquier punto de contacto intermedio que se produzca entre los tres puntos de contacto de hitos.
+**Forma de W** - El _Modelo de canalización_&#39;. En el modelo con forma de W se incluyen tres puntos de contacto de hito. En este modelo, los puntos de contacto FT, LC y OC se atribuyen cada uno el 30 % del crédito de atribución. El 10 % restante se atribuye de forma equitativa a cualquier punto de contacto intermedio que se produzca entre los tres puntos de contacto de hitos.
 
 <table> 
  <tbody>
@@ -557,7 +557,7 @@ Cuando se busca medir el impacto del marketing en los acuerdos ganados cerrados 
 
 >[!NOTE]
 >
->El Modelo de atribución personalizado es una característica adicional que no está disponible para todos los clientes. Póngase en contacto con el gestor de éxito del cliente para obtener más información sobre cómo añadir esta función a su cuenta.
+>El Modelo de atribución personalizado es una característica adicional que no está disponible para todos los clientes. Póngase en contacto con el equipo de cuentas de Adobe (su administrador de cuentas) para obtener más información sobre cómo agregar esta característica a su cuenta.
 
 Normalmente, los especialistas en marketing necesitan saber, &quot;¿de dónde vienen mis oportunidades?&quot;. De forma similar a los informes de nivel de posible cliente, esta pregunta se ha respondido históricamente con un solo valor unidimensional (por ejemplo, la fuente de campaña principal). Sin embargo, sabemos que mucho más se destina al desarrollo de una oportunidad que un solo punto de contacto de un solo contacto. Normalmente, existen varios puntos de contacto de varios canales y de múltiples partes interesadas que influyen en una oportunidad en la creación. con [!DNL Marketo Measure], podemos mostrar todos los puntos de contacto de una cuenta para comprender mejor de dónde proviene una oportunidad. Sin embargo, más allá de eso, podemos seguir mostrando cualquier punto de contacto que haya ocurrido después de la creación de la oportunidad y hasta el momento la oportunidad está cerrada. Esto nos permite no solo tomar un enfoque de múltiples contactos para comprender de dónde vino una oportunidad, sino también qué lo influyó para cerrarla y, en última instancia, para representar ingresos ganados cerrados. Esto proporciona una perspectiva de diferentes preguntas, como &quot;¿cuál es el impacto del marketing en la influencia que influye en el cierre de las ofertas?&quot;, &quot;¿qué marketing está impulsando el cierre de los ingresos ganados?&quot; y finalmente, &quot;¿cuáles son mis esfuerzos de marketing que están viendo el retorno de la inversión bueno?&quot;
 
