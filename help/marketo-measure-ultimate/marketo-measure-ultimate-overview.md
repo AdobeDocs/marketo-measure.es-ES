@@ -2,9 +2,9 @@
 description: '''[!DNL Marketo Measure] Información general definitiva: [!DNL Marketo Measure] - Documentación del producto'
 title: '''[!DNL Marketo Measure] Información general definitiva'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 59d42e5065ec0db7143208743fd053f5e6c1af7b
+source-git-commit: 4a5e720a91e8b229ad2f2889dbf87f5c43767411
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
@@ -110,4 +110,4 @@ Los puntos de contacto de atribución no se escriben en CRM porque Ultimate no t
 
 >[!MORELIKETHIS]
 >
->[Conexión de destino](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md){target="_blank"}
+>[Destino de Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
