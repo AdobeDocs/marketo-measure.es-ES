@@ -1,24 +1,26 @@
 ---
 unique-page-id: 27656735
 description: 'Información general: [!DNL Marketo Measure] - Documentación del producto'
-title: Resumen
+title: Información general
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: bf047695c4ea82c4fbf1e9079b7443a5c9821e42
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Resumen {#overview}
+# Información general {#overview}
 
-Hoy, la variable [!DNL Marketo Measure] La aplicación solo admite una moneda única (se supone que es USD), mientras que sabemos y somos conscientes de que tenemos clientes en todo el mundo que necesitan informar sobre sus propias monedas corporativas y de usuario. Esta función desarrolla la capacidad de los usuarios de cambiar entre distintas monedas cuando están viendo los ingresos de gastos o ventas notificados.
+Hoy, la variable [!DNL Marketo Measure] La aplicación solo admite una moneda única (se supone que es USD), mientras que sabemos y somos conscientes de que tenemos clientes en todo el mundo que necesitan informar sobre sus propias monedas corporativas y de usuario. Esta función permite a los usuarios cambiar entre las mismas monedas utilizadas en su CRM al ver los ingresos de gastos o ventas registrados en [!DNL Marketo Measure].
 
 ## Disponibilidad {#availability}
 
 Nivel 2 y superior.
 
 ## Requisitos {#requirements}
+
+[!DNL Marketo Measure] extraerá automáticamente la configuración de moneda del CRM del cliente. Configuración manual en [!DNL Marketo Measure] para que coincida con CRM ya no es necesario. La configuración de moneda se encuentra en la página &quot;General&quot; en &quot;CRM&quot;.
 
 En [!DNL Salesforce], el cliente debe tener habilitado &quot;Activar varias monedas&quot;. De forma opcional, el cliente también puede seleccionar &quot;Sí, deseo habilitar la Gestión Avanzada de Divisas&quot;.
 
