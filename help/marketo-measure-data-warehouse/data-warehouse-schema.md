@@ -3,9 +3,9 @@ unique-page-id: 35586140
 description: Esquema de Data Warehouse - Marketo Measure - Documentación del producto
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: d1f1a3d1d0dd3111b984fbe9d0a8e8d3ed9289d2
+source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
 workflow-type: tm+mt
-source-wordcount: '22622'
+source-wordcount: '22610'
 ht-degree: 99%
 
 ---
@@ -4331,10 +4331,10 @@ Contactos importados desde el sistema de origen.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>El algoritmo de estimación de [!DNL Marketo Measure] que indica si un contacto ayudará a cerrar una oportunidad en función de la edad y la fase</p>
+        <p>Esta función está en desuso. No utilice esta columna.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>N/A</p>
       </td>
     </tr>
     <tr>
@@ -9557,10 +9557,10 @@ Posibles clientes importados desde el sistema de origen.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>El algoritmo de estimación de [!DNL Marketo Measure] que indica si un posible cliente se convertirá en función de la edad y la fase</p>
+        <p>Esta función está en desuso. No utilice esta columna.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>N/A</p>
       </td>
     </tr>
     <tr>
@@ -10175,10 +10175,10 @@ Oportunidades importadas desde el sistema de origen.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>El algoritmo de estimación de [!DNL Marketo Measure] que indica si una oportunidad se cerrará en función de la edad y la fase</p>
+        <p>Esta función está en desuso. No utilice esta columna.</p>
       </td>
       <td>
-        <p>0.8225108385086060000</p>
+        <p>N/A</p>
       </td>
     </tr>
     <tr>
