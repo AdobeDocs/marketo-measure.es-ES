@@ -3,10 +3,10 @@ unique-page-id: 18874554
 description: 'Generación y asignación de puntos de contacto: [!DNL Marketo Measure] - Documentación del producto'
 title: Generación y asignación de puntos de contacto
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 950dbfacf48cbb81acad9c40033c25a765287bee
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,10 @@ Para que usted pueda sacar el máximo partido de [!DNL Marketo Measure], debe tr
 Métodos de generación de touchpoint
 
 El proceso de generación de puntos de contacto responde a la pregunta: &quot;¿Cómo es [!DNL Marketo Measure] ¿va a saber que esto ocurrió?&quot; Según el conjunto de funciones y los tipos de interacciones que puedan tener los clientes potenciales, hay hasta tres formas: [!DNL Marketo Measure] puede elegir una interacción y crear un punto de contacto para representarla.
+
+>[!IMPORTANT]
+>
+>[!DNL Marketo Measure] solo genera un punto de contacto por sesión. Si se ha rellenado más de un formulario, solo se capturará el primer relleno del formulario.
 
 | **Tipo de interacción** | **Ejemplo** | **Método de generación de touchpoint** |
 |---|---|---|
