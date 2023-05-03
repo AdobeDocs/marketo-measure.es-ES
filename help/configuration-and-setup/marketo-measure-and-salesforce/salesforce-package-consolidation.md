@@ -1,7 +1,7 @@
 ---
 description: "[!DNL Salesforce] Consolidación de paquetes - [!DNL Marketo Measure] - Documentación del producto"
 title: "[!DNL Salesforce] Consolidación de paquetes"
-source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
+source-git-commit: e0a471a8e74cdba23a01bea02054c82ede82de9b
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Entendemos que este cambio puede requerir ajustes, y nos comprometemos a apoyarl
       * Consulta V2_EXT:
          * bizible2_ext_Ad_Content_FT_c contiene Extensión
 
-![](assets/salesforce-package-consolidation-1.png)
+![](assets/package-consolidation-1.png)
 
 * Consulta correspondiente en el paquete consolidado:
    * bizible2__Touchpoint_Position__c contiene FT Y
