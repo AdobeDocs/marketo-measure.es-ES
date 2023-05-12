@@ -1,21 +1,19 @@
 ---
-description: 'Descripción general del shell unificado: [!DNL Marketo Measure] - Documentación del producto'
-title: Información general sobre Shell unificado
+description: 'Interfaz de Adobe Experience Cloud: [!DNL Marketo Measure] - Documentación del producto'
+title: Interfaz de Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: f0ad2b309172bf44ccea033e57d9aae3616532fc
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 3%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
-# Información general sobre Shell unificado {#unified-shell-overview}
+# Interfaz de Adobe Experience Cloud {#unified-shell-overview}
 
-Unified Shell alinea el aspecto &quot;shell&quot; de las aplicaciones y servicios de Adobe Experience Cloud. Pero, es más que un nuevo diseño. Es una aplicación de una sola página que ofrece experiencia de usuario en una sola instancia.
+La interfaz de Adobe Experience Cloud alinea el aspecto &quot;shell&quot; de las aplicaciones y servicios de Adobe Experience Cloud. Pero, es más que un nuevo diseño. Es una aplicación de una sola página que ofrece experiencia de usuario en una sola instancia.
 
 ## Flujo de usuario {#user-flow}
-
-**Flujo de shell unificado**
 
 Si ya ha iniciado sesión en un producto de Adobe Experience Cloud, haga clic en el icono de menú y seleccione **[!DNL Marketo Measure]**.
 
@@ -69,7 +67,7 @@ Haga clic en el icono de perfil para cambiar el idioma u otras preferencias de t
 
 Se redirigirán los marcadores. Por ejemplo, si tuviera que navegar a https://apps.marketo-measure.com/Discover/391, se le redirigiría a https://experience.adobe.com/marketo-measure/Discover/391 después de completar la autenticación.
 
-**No puedo iniciar sesión en [!DNL Marketo Measure] a través del shell unificado. ¿Cuál podría ser el problema?**
+**No puedo iniciar sesión en [!DNL Marketo Measure] a través de la interfaz del Experience Cloud. ¿Cuál podría ser el problema?**
 
 Si puede iniciar sesión en Adobe Experience Cloud, pero ve la página como se muestra a continuación, el problema podría estar en la sección [!DNL Marketo Measure] lado:
 
