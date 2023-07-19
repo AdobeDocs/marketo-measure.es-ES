@@ -3,74 +3,78 @@ unique-page-id: 18874604
 description: Segmentación personalizada - [!DNL Marketo Measure] - Documentación del producto
 title: Segmentación personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
 # Segmentación personalizada {#custom-segmentation}
 
-Los segmentos proporcionan la capacidad de filtrar datos en la variable [!DNL Marketo Measure] Tablero de ROI para explorar más en profundidad un conjunto de datos específico. Por ejemplo, un segmento se puede definir por territorio geográfico o por sistema de clasificación.
+Los segmentos permiten filtrar datos en la variable [!DNL Marketo Measure] ROI Dashboard para explorar en profundidad un conjunto de datos específico. Por ejemplo, un segmento podría definirse por territorio geográfico o por sistema de clasificación.
 
 **¿Por qué la segmentación personalizada?**
 
-La función Segmentación personalizada le permite filtrar los puntos de contacto por una categoría y hasta por cinco segmentos. Según el objeto al que se dirija el guión de retorno de la inversión (posible cliente o contacto), puede crear segmentos basados en los campos encontrados en el objeto posible cliente/contacto. Además, podrá crear segmentos basados en cualquier campo que se encuentre en el objeto de oportunidad.
+La función Segmentación personalizada permite filtrar los puntos de contacto por una categoría y por hasta cinco segmentos. Según el objeto al que apunte el guión de ROI (cliente potencial o contacto), puede crear segmentos basados en los campos que se encuentran en el objeto de cliente potencial/contacto. Además, podrá crear segmentos basados en cualquier campo que se encuentre en el objeto de oportunidad.
 
-**¿Cuándo es útil la función Segmentación personalizada?**
+>[!NOTE]
+>
+>La segmentación personalizada permite filtrar los puntos de contacto por categorías (nombre del filtro) y reglas (valores del filtro). El nivel 1 obtiene un segmento, los niveles 2 y superiores obtienen diez.
 
-La segmentación personalizada se puede utilizar para ver datos de un tipo de registro en particular. Una vez que asigne la lógica del filtro, debería poder ver en la [!DNL Marketo Measure] vista de cascada de demanda del tablero: los mismos datos que vería en su CRM.
+**¿Cuándo resulta útil la función Segmentación personalizada?**
+
+La segmentación personalizada se puede utilizar para ver los datos de un tipo de registro concreto. Una vez asignada la lógica de filtro, debería poder ver en la variable [!DNL Marketo Measure] Vista de cascada de demanda del panel de control: los mismos datos que vería en su CRM.
 
 **¿Cómo lo configuro?**
 
 Paso 1: Determine qué información desea ver.
 
-Antes de usar esta función, determine por qué información de puntos de contacto desea filtrar. Recuerde usar los valores exactos en su CRM para sus tipos de registro. La configuración filtrará los puntos de contacto de arriba a abajo del canal de marketing.
+Antes de usar esta función, averigüe por qué información de punto de contacto desea filtrar. Recuerde utilizar los valores exactos en su CRM para los tipos de registro. La configuración filtrará los puntos de contacto de la parte superior a la parte inferior del canal de marketing.
 
-Paso 2: Inicie sesión y busque la función Segmentos .
+Paso 2: Inicio de sesión y localización de la función Segmentos.
 
-* Vaya a [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} e inicie sesión
-* En el [!UICONTROL Mi cuenta] , seleccione [!UICONTROL Configuración]
-* Select [!UICONTROL Segmentos] desde las opciones de la barra lateral a la izquierda, debajo de la [!UICONTROL Informes] sección
+* Ir a [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} e iniciar sesión
+* En el [!UICONTROL Mi cuenta] pestaña, seleccione [!UICONTROL Configuración]
+* Seleccionar [!UICONTROL Segmentos] en las opciones de la barra lateral a la izquierda, debajo de [!UICONTROL Informes] sección
 
 Paso 3: Comprender los componentes.
 
-* Utilice esta leyenda para comprender los distintos iconos que se encuentran en esta página
+* Utilice esta leyenda para comprender los distintos iconos de esta página
 
 ![](assets/1.png)
 
-Paso 4: Agregar reglas de filtro.
+Paso 4: Adición De Reglas De Filtro.
 
-* Primero, introduzca el nombre de la categoría. Tipo de negocio es un ejemplo. Haga clic en la marca de verificación cuando haya terminado. Debe introducir un nombre de categoría para poder añadir segmentos
+* En primer lugar, introduzca el nombre de la categoría. Tipo de negocio es un ejemplo. Haga clic en la marca de verificación cuando haya terminado. Debe introducir un nombre de categoría para poder añadir segmentos
 * Haga clic en el signo más para agregar un segmento
-* Introduzca un nombre de segmento. Por ejemplo, puede tener un segmento para Nuevas operaciones, Socios, Renovación o Ventas adicionales
+* Introduzca un nombre de segmento. Por ejemplo: puede tener un segmento para Nuevos negocios, Socios, Renovación o Ampliación de venta
 
 ![](assets/2.png)
 
-* Haga clic en el icono de signo más para mostrar los campos de entrada de la regla. Las opciones de la lista de selección de campos extraen los campos directamente de su CRM
+* Haga clic en el icono &quot;+&quot; para mostrar los campos de entrada de la regla. Las opciones de la lista desplegable Campo extrae campos directamente de su CRM
 
 ![](assets/3.png)
 
 >[!NOTE]
 >
->Los campos de fórmula no se pueden usar dentro de las reglas y no aparecerán en la lista de selección. Dado que las fórmulas calculan en segundo plano y no modifican un registro, [!DNL Marketo Measure] no puede detectar si un registro se ajusta a una regla o no.
+>Los campos de fórmula no se pueden utilizar dentro de las reglas y no aparecerán en la lista de selección. Como las fórmulas calculan en segundo plano y no modifican un registro, [!DNL Marketo Measure] no puede detectar si un registro se ajusta o no a una regla.
 
 * La opción Value no es una lista desplegable y su valor debe introducirse manualmente. Asegúrese de comprobar los valores en su organización de Salesforce
 * Repita este proceso para las reglas del segmento Oportunidades
-* La categoría &quot;Otro&quot; es un segmento predeterminado que captura cualquier punto de contacto no definido. Puede cambiar el nombre predeterminado del segmento
-* Haga clic en el icono de la papelera para eliminar una categoría completa o una regla individual de una categoría. También puede hacer clic en el icono de lápiz para editar la categoría o regla
-* Verá que tiene un botón &quot;Guardar&quot; y un botón &quot;Guardar y procesar&quot;. Utilice el botón Guardar para guardar el trabajo y los cambios a lo largo del tiempo. Utilice el botón Guardar y procesar SOLO una vez que se haya asegurado de que:
+* La categoría &quot;Otros&quot; es un segmento predeterminado que capturará cualquier punto de contacto indefinido. Puede cambiar el nombre del segmento predeterminado
+* Haga clic en el icono de la papelera para eliminar una categoría completa o una regla individual dentro de una categoría. También puede hacer clic en el icono de lápiz para editar la categoría o la regla
+* Verá que tiene un botón &quot;Guardar&quot; y un botón &quot;Guardar y procesar&quot;. Utilice el botón Guardar para guardar el trabajo y los cambios con el tiempo. Utilice el botón Guardar y procesar SOLO una vez que se haya asegurado de que:
 
    * La asignación es precisa
    * Ha añadido todos los segmentos que desea rastrear dentro de una categoría
-   * Los déclencheur del botón Guardar y procesar [!DNL Marketo Measure] para sincronizar todos los puntos de contacto y aplicar la nueva información añadida. Este proceso tarda 7 días y las reglas no se pueden cambiar durante este periodo
+   * Déclencheur del botón Guardar y procesar [!DNL Marketo Measure] para sincronizar todos los puntos de contacto y aplicar la nueva información añadida. Este proceso tarda 7 días y las reglas no se pueden cambiar durante este periodo
 
 **_Notas adicionales:_**
 
-Si las reglas no están configuradas tanto para posibles clientes/contactos como para oportunidades, solo verá una parte de sus datos. Para obtener más información, si no configura las reglas de Oportunidades, solo verá los datos de posible cliente/contacto sin las Oportunidades asociadas a ellos. Lo mismo ocurre si no se configuran reglas para posibles clientes o contactos; solo se verán oportunidades sin los posibles clientes o contactos asociados.
+Si las reglas no están configuradas tanto para posibles clientes/contactos como para oportunidades, solo verá una parte de los datos. Para obtener más información, si no configura las reglas de Oportunidades, solo verá datos de cliente potencial/contacto sin las oportunidades asociadas a ellos. Lo mismo ocurre si no configura reglas para posibles clientes o contactos, solo verá oportunidades sin los posibles clientes o contactos asociados.
 
-Cuando haya terminado, haga clic en [!UICONTROL Guardar] primero, compruebe todo y, a continuación, haga clic en [!UICONTROL Guardar y procesar]. Recuerde que no podrá editar la configuración durante siete días al guardar y procesar, como [!DNL Marketo Measure] cambia el formato de los datos durante este tiempo.
+Cuando haya terminado, haga clic en [!UICONTROL Guardar] primero, compruebe todo y, a continuación, haga clic en [!UICONTROL Guardar y procesar]. Recuerde que no podrá editar la configuración durante siete días cuando guarde y procese, como [!DNL Marketo Measure] está volviendo a dar formato a los datos durante este tiempo.
 
 **¿Cómo se guardan los informes generados?**
 

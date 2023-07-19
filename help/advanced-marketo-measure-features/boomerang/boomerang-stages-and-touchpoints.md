@@ -1,82 +1,86 @@
 ---
 unique-page-id: 18874558
-description: Etapas y puntos de contacto de Boomerang - [!DNL Marketo Measure] - Documentación del producto
-title: Etapas y puntos de contacto de Boomerang
+description: 'Etapas y puntos de contacto de Boomerang: [!DNL Marketo Measure] - Documentación del producto'
+title: Fases y puntos de contacto de Boomerang
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 0%
+source-wordcount: '729'
+ht-degree: 1%
 
 ---
 
-# Etapas y puntos de contacto de Boomerang {#boomerang-stages-and-touchpoints}
+# Fases y puntos de contacto de Boomerang {#boomerang-stages-and-touchpoints}
 
-[!DNL Marketo Measure] ha lanzado nuestra función Boomerang Stage! La función Boomerang Stage se creó para proporcionar buena visibilidad del recorrido del cliente para [!DNL Marketo Measure] clientes con largos ciclos de ventas. Esta función permite a los especialistas en marketing crear puntos de contacto para todas las transiciones de fase que se producen en el recorrido de oportunidad, como cuando un MQL de contacto, luego se mueve a SAL y, a continuación, vuelve al escenario de MQL. Cuando los contactos &quot;entran de nuevo a la etapa de MQL&quot; o &quot;vuelven a MQL&quot;, consideramos que MQL es una etapa de boomerang. La función Boomerang Stage funciona junto con la función [!DNL Marketo Measure] Etapas personalizadas.
+>[!AVAILABILITY]
+>
+>La función Boomerang solo está habilitada para clientes de nivel 3. Para solicitar un nivel de cuenta superior, póngase en contacto con el equipo de cuenta de Adobe (su administrador de cuentas).
+
+[!DNL Marketo Measure] ha lanzado nuestra función Boomerang Stage! La función Boomerang Stage se ha creado para proporcionar una buena visibilidad del recorrido del cliente para [!DNL Marketo Measure] clientes con ciclos de ventas largos. Esta función permite a los especialistas en marketing crear puntos de contacto para todas las transiciones de etapa que se producen en el recorrido de oportunidad, como cuando un contacto usa MQL, luego se mueve a SAL y luego vuelve al escenario de MQL. Cuando los contactos &quot;vuelven a entrar en la etapa de MQL&quot; o &quot;re-MQL&quot;, consideramos que el MQL es una etapa de boomerang. La función Boomerang Stage funciona junto con el [!DNL Marketo Measure] Fases personalizadas.
 
 ## Qué hace esta función {#what-this-feature-does}
 
-* Crea un punto de contacto &quot;boomerang&quot; para todas las transiciones de etapa que se producen en el recorrido de una oportunidad
-* Rastrea transiciones repetidas entre cualquier escenario personalizado (por ejemplo, cuando un MQL de contacto, se mueve a SAL y, a continuación, vuelve al escenario de MQL)
-* Permite especificar cuántas transiciones de escenario y qué conjunto de transiciones de escenario desea incluir en la oportunidad (por ejemplo, Los primeros 10 MQL (o los últimos 5 MQL)
-* Si es un usuario de Modelo personalizado, puede determinar la ponderación de atribución y el crédito porcentual que desea asignar a cada una de estas etapas (por ejemplo, designar el peso de la atribución para la primera o última incidencia de MQL, o distribuir la ponderación de la atribución uniformemente entre todas las ocurrencias)
+* Crea un punto de contacto &quot;bumerán&quot; para todas las transiciones de fase que se producen en el recorrido de una oportunidad
+* Rastrea transiciones repetidas entre cualquier fase personalizada (por ejemplo, cuando un MQL de contacto, se mueve a SAL y luego vuelve a la fase MQL)
+* Permite especificar cuántas transiciones de fase y qué conjunto de transiciones desea incluir en la oportunidad (por ejemplo, Los primeros 10 MQL O los últimos 5 MQL
+* Si es usuario de un modelo personalizado, puede determinar la ponderación de atribución y el porcentaje de crédito que desea asignar a cada una de estas fases (por ejemplo, designar la ponderación de atribución a la primera o la última incidencia de MQL, o distribuir la ponderación de atribución equitativamente entre todas las incidencias)
 
 >[!NOTE]
 >
 >[Instrucciones sobre cómo configurar las etapas de Boomerang](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md).
 
-## Aspecto de los escenarios y puntos de contacto de Boomerang en su CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
+## Aspecto de las etapas y los puntos de contacto de Boomerang en su CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
-Sin etapas de Boomerang (el &quot;antes&quot;), solo verá el punto de contacto MQL más reciente o SQL más reciente asociado a un registro de posible cliente/contacto.
+Sin las fases de Boomerang (el &quot;antes&quot;), solo verá el punto de contacto de SQL más reciente o el MQL más reciente asociado a un registro de posible cliente/contacto.
 
 ![](assets/1.png)
 
-Con las etapas y los puntos de contacto de Boomerang, verá los puntos de contacto que se producen en cada transición de fase. La convención de nomenclatura para estos puntos de contacto boomerang será la siguiente:
+Con las etapas de Boomerang y los puntos de contacto, verá los puntos de contacto que se producen para cada transición de etapa. La convención de nombres para estos puntos de contacto boomerang es la siguiente:
 
-**[Nombre de la fase]-00.**
+**[Nombre del escenario]-00.**
 
-Si utilizamos el ejemplo siguiente, [!DNL Marketo Measure] La cuenta ha incluido MQL y SQL en sus etapas boomerang, y ha elegido mostrar 2 puntos de contacto boomerang por fase.
+Utilizando el ejemplo siguiente, esto [!DNL Marketo Measure] La cuenta de ha incluido MQL y SQL en sus etapas de bumerang y ha elegido mostrar 2 puntos de contacto de bumerang por etapa.
 
 ![](assets/2.png)
 
-**MQL-01** es la primera transición de etapa de MQL.
+**MQL-01** es la primera transición de fase MQL.
 
-El valor numérico en la posición del punto de contacto indica el orden en que se produjo la transición de la fase. El último punto de contacto de boomerang debe marcarse como:
+El valor numérico en la posición del punto de contacto denotará el orden en que se produjo la transición de fase. El último punto de contacto boomerang debe marcarse como:
 
 MQL-02 **(Último)**
 
-## Cómo cambian las etapas de Boomerang los datos existentes {#how-boomerang-stages-change-your-existing-data}
+## Cómo cambian las etapas de boomerang los datos existentes {#how-boomerang-stages-change-your-existing-data}
 
-Los escenarios de boomerang afectarán:
+Las etapas del boomerang afectarán a:
 
 **Atribución por canal**
 
-* Since [!DNL Boomerang Stages] creará más touchpoints, lo que cambiará la forma en que se distribuye la atribución entre los touchpoints que existen actualmente en sus datos. Como resultado, esto puede significar que los valores de ingresos cambiarán entre canales de marketing. Tenga esto en cuenta antes de implementar [!DNL Boomerang stages]o póngase en contacto con su administrador de cuentas para obtener más información.
+* Desde [!DNL Boomerang Stages] creará más puntos de contacto, lo que cambiará la forma en que se distribuye la atribución entre los puntos de contacto que existen actualmente en los datos. Como resultado, esto puede significar que los valores de ingresos cambiarán entre canales de marketing. Tenga esto en cuenta antes de implementar [!DNL Boomerang stages]o póngase en contacto con su administrador de cuentas para obtener más información.
 
-**Cualquier informe que utilice &quot;es igual que [Posición del punto de contacto]&quot;**
+**Cualquier informe que utilice &quot;es igual que&quot; [Posición del punto de contacto]&quot;**
 
-* Las etapas de Boomerang introducirán nuevas posiciones de puntos de contacto en sus datos. [!DNL Marketo Measure] está cambiando el formato de la posición del punto de contacto para incluir la aparición del escenario, como &quot;MQL-01&quot; o &quot;MQL-05 (Last)&quot;. Con este ejemplo, los escenarios de Boomerang afectarán a los informes que utilicen &quot;La posición del punto de contacto es igual a MQL&quot;. Para ajustar estos informes, el filtro debe utilizar el operador &quot;contiene&quot; en su lugar.
+* Las fases de boomerang introducen nuevas posiciones de puntos de contacto en los datos. [!DNL Marketo Measure] está cambiando el formato de la posición del punto de contacto para incluir la aparición del escenario, como &quot;MQL-01&quot; o &quot;MQL-05 (último)&quot;. Con este ejemplo, las fases de boomerang afectarán a cualquier informe que utilice &quot;La posición del punto de contacto es igual a MQL&quot;. Para ajustar estos informes, el filtro debe utilizar el operador &quot;contains&quot; en su lugar.
 
 ## Preguntas frecuentes {#faq}
 
-**¿Cuántas etapas del boomerang puedo incluir en mi modelo de atribución?**
+**¿Cuántas etapas de bumerán puedo incluir en mi modelo de atribución?**
 
 Puede seleccionar hasta 15 etapas.
 
-**P: ¿Cuántos puntos de contacto &quot;boomerang&quot; puedo tener por escenario?**
+**P: ¿Cuántos puntos de contacto &quot;boomerang&quot; puedo tener por etapa?**
 
-Puede seleccionar hasta 10 puntos de contacto de boomerang por escenario.
+Puede seleccionar hasta 10 puntos de contacto boomerang por fase.
 
-**P: ¿Por qué solo estamos limitados a 10 boomerang por fase?**
+**P: ¿Por qué solo estamos limitados a 10 boomerangs por etapa?**
 
-[!DNL Marketo Measure] debe establecer un límite en el número de etapas para mantener los tiempos de procesamiento bajo control. Si decide incluir las 15 etapas de Boomerang en su modelo de atribución y los 10 puntos de contacto de boomerang por fase, podría tener más de 150 puntos de contacto por registro de posible cliente/contacto.
+[!DNL Marketo Measure] debe establecer un límite en el número de etapas para mantener los tiempos de procesamiento bajo control. Si elige incluir las 15 etapas de boomerang en el modelo de atribución y 10 puntos de contacto de boomerang por etapa, podría tener más de 150 puntos de contacto por registro de posible cliente/contacto.
 
-**P: Tengo Data Warehouse. ¿Obtengo todos los datos o el límite de las etapas de Boomerang también se aplica a mí?**
+**P: Tengo Data Warehouse. ¿Obtengo todos los datos o también se me aplica el límite de etapas boomerang?**
 
-El límite se aplicará a la Data Warehouse y a los CRM debido a los límites de procesamiento que [!DNL Marketo Measure] tiene lugar. La Data Warehouse también verá el límite de 10 puntos de contacto por fase.
+El límite se aplicará a las Datas Warehouse y CRM debido a los límites de procesamiento que [!DNL Marketo Measure] tiene en su lugar. Data Warehouse también verá el límite de 10 puntos de contacto por fase.
 
-**P: ¿Cuál es la ventaja de utilizar escenarios de Boomerang con modelos personalizados?**
+**P: ¿Cuál es el beneficio de utilizar las fases de boomerang con el modelado personalizado?**
 
-Uso [!UICONTROL Boomerang] Los pasos con el modelado personalizado le permitirán asignar la ponderación de atribución a [!UICONTROL Boomerang] touchpoints, que asignarán crédito por ingresos a estas etapas.
+Uso de [!UICONTROL Bumerán] Las fases con modelado personalizado le permitirán asignar una ponderación de atribución a [!UICONTROL Bumerán] puntos de contacto, que asignarán crédito de ingresos a estas fases.
 
-Sin modelado personalizado, [!DNL Marketo Measure] creará puntos de contacto para cada boomerang y transición de etapa, pero no asignará crédito de atribución a estos puntos de contacto. Los únicos puntos de contacto de boomerang que recibirán créditos de atribución son los puntos de contacto de envío de formularios. Sin modelo personalizado, [!DNL Boomerang] los puntos de contacto se consideran el mismo que un &quot;contacto medio&quot; y reciben el crédito de atribución en consecuencia.
+Sin modelado personalizado, [!DNL Marketo Measure] creará puntos de contacto para cada búmeran y transición de fase, pero no asignará ningún crédito de atribución a estos puntos de contacto. Los únicos puntos de contacto de boomerang que recibirán créditos de atribución son los puntos de contacto de envío de formularios. Sin modelo personalizado, [!DNL Boomerang] los puntos de contacto se consideran lo mismo que un &quot;contacto intermedio&quot; y reciben crédito de atribución en consecuencia.

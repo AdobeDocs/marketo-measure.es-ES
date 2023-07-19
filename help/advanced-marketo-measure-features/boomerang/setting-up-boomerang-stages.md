@@ -1,57 +1,61 @@
 ---
 unique-page-id: 18874767
-description: 'Configuración de escenarios de Boomerang: [!DNL Marketo Measure] - Documentación del producto'
-title: Configuración de escenarios de Boomerang
+description: 'Configuración de etapas de boomerang: [!DNL Marketo Measure] - Documentación del producto'
+title: Configuración de fases de Boomerang
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 0%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
-# Configuración de escenarios de Boomerang {#setting-up-boomerang-stages}
+# Configuración de fases de Boomerang {#setting-up-boomerang-stages}
 
-Para habilitar [!UICONTROL Boomerang] Etapas de la cuenta, debe ser administrador de cuentas. O bien, se puede habilitar si se llega a [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Una vez habilitada la función, siga estas instrucciones para configurarla.
+>[!AVAILABILITY]
+>
+>La función Boomerang solo está habilitada para clientes de nivel 3. Para solicitar un nivel de cuenta superior, póngase en contacto con el equipo de cuenta de Adobe (su administrador de cuentas).
 
-## Configuración del escenario de Boomerang {#boomerang-stage-setup}
+Para habilitar [!UICONTROL Bumerán] Para acceder a las fases de su cuenta, debe ser administrador de cuentas. O bien, se puede habilitar si se pone en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Una vez habilitada la función, siga estas instrucciones para configurarlas.
 
-1. Vaya a [!UICONTROL Asignación de fases]. En la columna titulada &quot;[!UICONTROL Boomerang],&quot; seleccione las casillas situadas junto a las etapas que desee rastrear.
+## Configuración de escenario boomerang {#boomerang-stage-setup}
+
+1. Ir a [!UICONTROL Asignación de etapas]. En la columna titulada &quot;[!UICONTROL Bumerán],&quot; seleccione las casillas situadas junto a las fases que desee rastrear.
 
    ![](assets/1-2.png)
 
-1. Vaya a la [!UICONTROL Configuración de atribución] y escriba el número de puntos de contacto para cada etapa que desee ver. Permitimos un máximo de 10. El valor predeterminado es 1.
+1. Vaya a la [!UICONTROL Configuración de atribución] e introduzca el número de puntos de contacto para cada fase que desee ver. Permitimos un máximo de 10. El valor predeterminado es 1.
 
    ![](assets/2-2.png)
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Clic **[!UICONTROL Guardar]**.
 
    >[!NOTE]
    >
-   >Espere entre 24 y 48 horas para que los datos se reprocesen según estos cambios.
+   >Conceda un margen de 24 a 48 horas para que sus datos se vuelvan a procesar según estos cambios.
 
-## Configuración del escenario de Boomerang con atribución de modelo personalizada {#boomerang-stage-setup-with-custom-model-attribution}
+## Configuración de escenario boomerang con atribución de modelo personalizado {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. Vaya a [!UICONTROL Asignación de fases]. En la columna titulada &quot;[!UICONTROL Boomerang],&quot; seleccione las casillas situadas junto a las etapas que desee rastrear.
+1. Ir a [!UICONTROL Asignación de etapas]. En la columna titulada &quot;[!UICONTROL Bumerán],&quot; seleccione las casillas situadas junto a las fases que desee rastrear.
 
    ![](assets/3-1.png)
 
-1. Si también desea que estas etapas de Boomerang se incluyan en el modelo personalizado y reciban crédito de atribución, asegúrese de seleccionar también el cuadro debajo de la casilla &quot;[!UICONTROL Modelo personalizado]&quot;.
+1. Si también desea que estas fases de Boomerang se incluyan en el modelo personalizado y reciban crédito de atribución, asegúrese de seleccionar también la casilla debajo de la opción &quot;[!UICONTROL Modelo personalizado]&quot; columna.
 
    ![](assets/4-1.png)
 
-1. Vaya a la [!UICONTROL Configuración de atribución] pestaña . Determine cómo le gustaría ponderar la atribución para sus etapas de boomerang. Las opciones son ponderar la atribución en la primera incidencia, la última incidencia o dividirla uniformemente entre todas las ocurrencias.
+1. Vaya a la [!UICONTROL Configuración de atribución] pestaña. Determine cómo le gustaría ponderar la atribución para las etapas de boomerang. Las opciones son ponderar la atribución en la primera incidencia, la última o dividirla uniformemente en todas las incidencias.
 
    ![](assets/5-1.png)
 
-1. Introduzca el número de apariciones de cada etapa que desee ver. Podemos permitir un máximo de 10. El valor predeterminado es 1.
+1. Introduzca el número de incidencias de cada fase que desee ver. Podemos permitir un máximo de diez. El valor predeterminado es 1.
 
    ![](assets/6-1.png)
 
-1. Establezca el porcentaje de atribución que desea asignar a los escenarios de Boomerang que ha incluido en el modelo personalizado. Asegúrese de que la atribución total para todas las etapas sume el 100%. Haga clic en **[!UICONTROL Guardar y procesar]**.
+1. Establezca el porcentaje de atribución que desee asignar a las etapas de boomerang que ha incluido en el modelo personalizado. Asegúrese de que la atribución total de todas las etapas sume el 100 %. Clic **[!UICONTROL Guardar y procesar]**.
 
    ![](assets/7-1.png)
 
    >[!NOTE]
    >
-   >Espere entre 24 y 48 horas para que los datos se reprocesen según estos cambios.
+   >Conceda un margen de 24 a 48 horas para que sus datos se vuelvan a procesar según estos cambios.
