@@ -3,18 +3,18 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Parámetros - [!DNL Marketo Measure] - Documentación del producto"
 title: "[!DNL Marketo Measure] Parámetros"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Parámetros {#marketo-measure-parameters}
+# Parámetros de [!DNL Marketo Measure] {#marketo-measure-parameters}
 
 ## [!DNL Marketo Measure] Parámetros explicados {#marketo-measure-parameters-explained}
 
-Para obtener más información sobre el uso de UTM, [!DNL Marketo Measure] añade parámetros personalizados a sus publicidades en [!DNL Google] AdWords, Bing Ads y [!DNL Facebook] Anuncios. [!DNL Marketo Measure] se integra con estas plataformas para automatizar la mayor parte del proceso de configuración. Si selecciona utilizar el etiquetado automático, [!DNL Marketo Measure] adjuntará automáticamente sus parámetros a las direcciones URL de sus publicidades. [!DNL Marketo Measure] también descargará automáticamente sus costes de marketing desde las plataformas y los cargará en la variable [!DNL Marketo Measure] aplicación.
+Para obtener más información del uso de UTM, [!DNL Marketo Measure] añade parámetros personalizados a sus anuncios en [!DNL Google] AdWords, Bing Ads y [!DNL Facebook] Anuncios. [!DNL Marketo Measure] se integra con estas plataformas para automatizar la mayor parte del proceso de configuración. Si decide utilizar el etiquetado automático, [!DNL Marketo Measure] adjuntará automáticamente sus parámetros a las direcciones URL de sus anuncios. [!DNL Marketo Measure] también descargará automáticamente los costes de marketing de las plataformas y los cargará en [!DNL Marketo Measure] aplicación.
 
 Ejemplo de una dirección URL sin parámetros:
 
@@ -28,27 +28,31 @@ Ejemplo de una dirección URL con [!DNL Marketo Measure] parámetros:
 
 * `_bk={keyword}`
    * Representa la palabra clave que la persona utilizó en el motor de búsqueda.
-   * Es similar al parámetro de término UTM.
+   * Es similar al parámetro de término de UTM.
 
 * `_bt={creative}`
-   * Representa el ID o nombre creativo.
-   * Es similar al parámetro de contenido UTM.
+   * Representa el nombre o el ID de creatividad.
+   * Es similar al parámetro de contenido de UTM.
 
 * `_bm={matchtype}`
-   * Representa la proximidad con la que se encontró la palabra clave.
-   * Los tipos de coincidencia de palabra clave ayudan a controlar las búsquedas en déclencheur de la publicidad. Por ejemplo, podría usar una coincidencia amplia para mostrar su publicidad a una audiencia amplia o podría usar la coincidencia exacta para ponerse en contacto con grupos específicos de clientes.
-   * Los tres tipos de coincidencias son: amplio, borroso y exacto.
+   * Representa la coincidencia de la palabra clave.
+   * Los tipos de coincidencia de palabras clave ayudan a controlar qué búsquedas almacenan en déclencheur su anuncio. Por ejemplo, puede utilizar la coincidencia amplia para mostrar su anuncio a una audiencia amplia o puede utilizar la coincidencia exacta para centrarse en grupos específicos de clientes.
+   * Los tres tipos de coincidencia son: amplia, difusa y exacta.
 
->[!NOTE]
+>[!TIP]
 >
->Para obtener más información sobre los tipos de coincidencia, [este es un artículo relevante de AdWords](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
+>Para obtener más información sobre los tipos de coincidencia, consulte [Este es un artículo relevante de AdWords](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
 * `_bn={network}`
    * Representa el tipo de red de publicidad - [visualización o búsqueda](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
-   * Esto es similar al parámetro de origen de la UTM.
+   * Esto es similar al parámetro de origen de UTM.
 
 * `_bg={adgroupID}`
    * Representa el ID del grupo de publicidad al que pertenece el anuncio
+
+>[!NOTE]
+>
+>No se admiten parámetros de URL de redireccionamiento.
 
 ## Parámetros de Bing Ads {#bing-ads-parameters}
 
@@ -60,4 +64,4 @@ Ejemplo de una dirección URL con [!DNL Marketo Measure] parámetros:
 ## Parámetros de facebook {#facebook-parameters}
 
 * `_bf ={creative}`
-   * Representa el ID o nombre creativo
+   * Representa el nombre o el ID de creatividad
