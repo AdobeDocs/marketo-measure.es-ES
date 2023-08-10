@@ -3,10 +3,10 @@ description: 'Prácticas recomendadas para canales sin conexión: [!DNL Marketo 
 title: Prácticas recomendadas para canales sin conexión
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -72,9 +72,9 @@ Si su equipo ha experimentado recientemente cualquiera de las situaciones anteri
 >
 >* [Configuración de canal sin conexión](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Sincronización de campaña personalizada: sincronización de aplicación](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Sincronización de campañas sin conexión: sincronización CRM](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
->* [Campaign y miembros de Campaign sin conexión: sincronización de CRM](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
->* [Fechas de sincronización de Campaign: sincronización de CRM](/help/channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
+>* [Sincronización de campañas sin conexión: sincronización CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [Campaign y miembros de Campaign sin conexión: sincronización de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+>* [Fechas de sincronización de Campaign: sincronización de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
 >* [Configuraciones para varios tipos de registros de campaña](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Creación de una vista de lista de campaña](/help/channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Sincronización de datos históricos](/help/channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
+>* [Creación de una vista de lista de campaña](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Sincronización de datos históricos](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
