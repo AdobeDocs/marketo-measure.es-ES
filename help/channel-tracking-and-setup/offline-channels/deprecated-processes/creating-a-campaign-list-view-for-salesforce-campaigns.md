@@ -4,9 +4,9 @@ description: Creación de una vista de lista de campaña para [!DNL Salesforce C
 title: Creación de una vista de lista de campañas para campañas de  [!DNL Salesforce]
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '440'
 ht-degree: 3%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 3%
 # Creación de una vista de lista de campañas para campañas de [!DNL Salesforce] {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Aprenda a crear una vista de lista para las campañas que desee sincronizar con los puntos de contacto del comprador.
+
+>[!NOTE]
+>
+>Este artículo trata sobre un proceso obsoleto. Recomendamos a los usuarios que utilicen [proceso en la aplicación nuevo y mejorado](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 La vista de lista de campañas que se puede crear le permite tener una ubicación de &quot;acceso&quot; para ver y administrar los campos &quot;Tipo&quot; y &quot;Habilitar puntos de contacto del comprador&quot; para garantizar que cada uno de sus [!DNL Salesforce] las campañas que informan a sus canales de marketing sin conexión se han configurado correctamente.
 

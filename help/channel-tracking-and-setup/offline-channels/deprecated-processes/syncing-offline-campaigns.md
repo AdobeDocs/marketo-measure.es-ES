@@ -4,9 +4,9 @@ description: 'Sincronización de campañas sin conexión: [!DNL Marketo Measure]
 title: Sincronización de campañas sin conexión
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Sincronización de campañas sin conexión {#syncing-offline-campaigns}
 
 Puede resultar difícil rastrear con precisión las campañas sin conexión y comprender cómo se comparan con sus esfuerzos de marketing digital. [!DNL Marketo Measure] le permite rastrear y atribuir puntos de contacto a sus campañas sin conexión en [!DNL Salesforce], incluso en situaciones en las que [!DNL Salesforce] la campaña no se crea hasta unas semanas después del evento.
+
+>[!NOTE]
+>
+>Este artículo trata sobre un proceso obsoleto. Recomendamos a los usuarios que utilicen [proceso en la aplicación nuevo y mejorado](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Antes de sincronizar {#before-you-sync}
 

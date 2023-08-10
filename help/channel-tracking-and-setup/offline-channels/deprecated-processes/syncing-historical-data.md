@@ -4,9 +4,9 @@ description: 'Sincronización de datos históricos: [!DNL Marketo Measure] - Doc
 title: Sincronización de datos históricos
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1512'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # Sincronización de datos históricos {#syncing-historical-data}
 
 [!DNL Marketo Measure] es una solución que proporciona los datos más granulares y procesables. Sin embargo, entendemos que es posible que tenga datos existentes para los que le gustaría tener atribución. Es posible generar puntos de contacto para datos históricos, pero es importante tener en cuenta algunos factores antes de continuar con este proceso.
+
+>[!NOTE]
+>
+>Este artículo trata sobre un proceso obsoleto. Recomendamos a los usuarios que utilicen [proceso en la aplicación nuevo y mejorado](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Factores a considerar {#factors-to-consider}
 
