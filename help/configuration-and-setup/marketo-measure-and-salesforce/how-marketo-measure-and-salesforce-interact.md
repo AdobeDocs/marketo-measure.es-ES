@@ -4,9 +4,9 @@ description: Cómo [!DNL Marketo Measure] y [!DNL Salesforce] Interact - Marketo
 title: Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1719'
 ht-degree: 16%
 
 ---
@@ -619,7 +619,7 @@ Esta sección enumera las [!DNL Salesforce] Objetos estándar que [!DNL Marketo 
  </tbody> 
 </table>
 
-**Membresía de la campaña**
+**Abonado de la campaña**
 
 <table> 
  <tbody> 
@@ -721,6 +721,20 @@ Esta sección enumera las [!DNL Salesforce] Objetos estándar que [!DNL Marketo 
   </tr> 
  </tbody> 
 </table>
+
+>[!NOTE]
+>
+>Para garantizar la precisión de Marketo Measure al capturar eventos de eliminación en su cuenta de Salesforce, se requieren permisos replicables para los objetos siguientes. Los permisos replicables vienen de serie con los siguientes objetos:
+>
+>* Cuenta
+>* Campaña
+>* Abonado de la campaña
+>* Contacto
+>* Evento
+>* Cliente potencial
+>* Oportunidad
+>* Tarea
+
 
 ## [!DNL Marketo Measure] Objetos personalizados en [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
