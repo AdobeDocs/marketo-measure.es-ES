@@ -1,101 +1,102 @@
 ---
 unique-page-id: 18874688
 description: Costes de campaña de CRM - [!DNL Marketo Measure] - Documentación del producto
-title: Costes de campaña de CRM
+title: Costes de campañas de CRM
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Spend Management
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
 
 ---
 
-# Costes de campaña de CRM {#crm-campaign-costs}
+# Costes de campañas de CRM {#crm-campaign-costs}
 
-Más [!DNL Marketo Measure] los clientes de utilizan campañas CRM para realizar el seguimiento de actividades de marketing sin conexión. Los especialistas en marketing que utilizan estas campañas también supervisarán los costes dentro de CRM, por lo que esta función facilita a los especialistas en marketing al permitir [!DNL Marketo Measure] para leer esos costes y aplicarlos al gasto de marketing registrado en [!DNL Marketo Measure]. Hasta la fecha, los clientes han tenido que introducir manualmente los costes de cada campaña por mes, pero con la información necesaria que se nos ha proporcionado, [!DNL Marketo Measure] puede automatizar este proceso para que los especialistas en marketing puedan invertir más tiempo analizando su gasto y su ROI.
+Más [!DNL Marketo Measure] Los clientes de utilizan campañas CRM para rastrear actividades de marketing sin conexión. Los especialistas en marketing que utilicen estas campañas también monitorizarán los costes dentro de CRM, por lo que esta función les facilita las cosas al permitir lo siguiente [!DNL Marketo Measure] para leer esos costes y aplicarlos al gasto de marketing notificado en [!DNL Marketo Measure]. Hasta la fecha, los clientes han tenido que introducir manualmente los costes de cada campaña al mes, pero con la información necesaria proporcionada a nosotros, [!DNL Marketo Measure] puede automatizar este proceso para que los especialistas en marketing puedan dedicar más tiempo a analizar su gasto y el ROI.
 
 ## Disponibilidad {#availability}
 
-Esta función está disponible para todas las [!DNL Salesforce] y clientes de Dynamics.
+Esta función está disponible para todos los [!DNL Salesforce] y clientes de Dynamics.
 
 ## Cómo funciona {#how-it-works}
 
-[!DNL Marketo Measure] primero busca campañas que se hayan &quot;habilitado&quot; para puntos de contacto, por lo que se ha creado una regla de sincronización de campaña coincidente o el valor Habilitar puntos de contacto de comprador es &quot;Incluir todos los miembros de campaña&quot; o &quot;Incluir miembros de campaña &#39;respondidos&#39;&quot;. Además, [!DNL Marketo Measure] debe importar los valores correctos y saber distribuir los costes, por lo que es necesario que los campos siguientes contengan un valor:
+[!DNL Marketo Measure] busca primero las campañas que se han &quot;habilitado&quot; para los puntos de contacto, por lo que se ha creado una regla de sincronización de campañas que coincida o el valor de Habilitar los puntos de contacto del comprador es &quot;Incluir todos los miembros de la campaña&quot; o &quot;Incluir los miembros de la campaña &quot;Respondidos&quot;&quot;. Además, [!DNL Marketo Measure] Necesita importar los valores correctos y saber cómo distribuir los costes, por lo que es necesario que los siguientes campos contengan un valor:
 
 **[!DNL Salesforce]**: ActualCost, StartDate, EndDate
 
-**[!DNL Microsoft Dynamics]**: coste total actualcost, real start, real-end
+**[!DNL Microsoft Dynamics]**: totalactualcost, actualstart, real end
 
-Si falta un valor en alguno de los 3 campos, [!DNL Marketo Measure] no importa los costes. Puede corregirlo actualizando el registro de campaña en CRM. También es importante tener en cuenta que no importaremos los costes si se establece explícitamente en $0 porque [!DNL Salesforce] trata blank y $0 como lo mismo.
+Si a alguno de los 3 campos le falta un valor, [!DNL Marketo Measure] no importará los costes. Puede corregir esto actualizando el registro de campaña en CRM. También es importante tener en cuenta que no importaremos los costes si se establece explícitamente en 0 $ porque [!DNL Salesforce] trata en blanco y 0 $ como lo mismo.
 
-Para [!DNL Marketo Measure] para determinar la distribución de una campaña entre meses, utilizamos la fecha de inicio y finalización de la campaña y distribuimos la cantidad uniformemente por día.
+Para que [!DNL Marketo Measure] para determinar la distribución de una campaña por meses, se utilizan las fechas de inicio y finalización de la campaña y la cantidad se distribuye uniformemente por día.
 
 ![](assets/1.jpg)
 
-En este ejemplo, tenemos una campaña que dura 109 días, por lo que con un costo total de 18.000 dólares, el gasto diario llega a ~$165,14.
+En este ejemplo, tenemos una campaña que dura 109 días, así que con un costo total de 18 000 dólares, el gasto por día llega a ~ 165,14 dólares.
 
-Según la cantidad de días por mes, obtenemos estos totales mensuales, como puede ver en la tabla:
+En función del número de días por mes, obtenemos estos totales mensuales, como puede ver en la tabla:
 
-Julio de 2018: (18.000/109 dólares) x 31 = 5.119,27 dólares
+Jul de 2018: (18.000 $/109) x 31 = 5.119,27 $
 
-Ago de 2018: (18.000/109 dólares) x 31 = 5.119,27 dólares
+Ago 2018: (18.000 $/109) x 31 = 5.119,27 $
 
-Septiembre de 2018: (18.000/109 dólares) x 30 = 4.954,13 dólares
+Sep 2018: (18.000/109 $) x 30 = 4.954,13 $
 
-Octubre de 2018: (18.000/109 dólares) x 17 = 2.807,34 dólares
+Oct 2018: (18 000/109 USD) x 17 = 2 807,34 USD
 
-## Gasto registrado históricamente {#historical-reported-spend}
+## Gasto notificado histórico {#historical-reported-spend}
 
-¡No te preocupes! Si ha introducido gastos para campañas de las que hemos hecho un seguimiento en el pasado y que estaban asignados a una campaña de CRM, no anularemos ninguno de los costes que ha introducido. Si se modifica la misma campaña en CRM, todavía la ignoraremos y daremos prioridad a los cambios que haya realizado anteriormente en la carga CSV.
+¡No te preocupes! Si ha introducido gasto para campañas que hemos rastreado en el pasado y que se asignaron a una campaña de CRM, no anularemos ninguno de los costes introducidos. Si se modifica la misma campaña en CRM, se seguirá ignorando y dando prioridad a los cambios realizados anteriormente en la carga CSV.
 
-Si prefiere que el coste de la campaña de CRM avance, lo que puede hacer es cambiar el valor en el CSV a $0, lo que anulará la entrada. Luego, la próxima vez que ejecutemos nuestros trabajos para importar los costos, analizaremos los registros que hayan sido editados anteriormente y los incorporaremos.
+Si prefiere que sigamos adelante con el coste de la campaña de CRM, lo que puede hacer es cambiar el valor del CSV a 0 $, lo que anula la entrada. A continuación, la próxima vez que ejecutemos nuestros trabajos para importar los costes, analizaremos los registros que se hayan editado anteriormente y los extraeremos.
 
 ## Campañas sin puntos de contacto {#campaigns-with-no-touchpoints}
 
-Muchos especialistas en marketing eligen informar de los gastos de marketing en campañas CRM que no generaron ningún punto de contacto o que, a sabiendas, no tienen miembros de campaña para los fines de rastrear los gastos. Siempre y cuando se rellenen los 3 campos (fecha de inicio, fecha de finalización, coste) y la campaña esté habilitada para los puntos de contacto, [!DNL Marketo Measure] seguirá incluyendo ese coste independientemente de si hay o no puntos de contacto asociados a él.
+Muchos especialistas en marketing eligen informar sobre el gasto en marketing en campañas CRM que no generaron puntos de contacto o que, a sabiendas, no tienen miembros de campaña para los fines del seguimiento del gasto. Siempre que se rellenen los 3 campos (fecha de inicio, fecha de finalización, coste) y la campaña esté habilitada para puntos de contacto, [!DNL Marketo Measure] seguirá tirando de ese coste independientemente de si hay puntos de contacto asociados a él o no.
 
-Esto podría ser útil para rastrear el gasto en costos o herramientas de marketing excesivos para resumir eso en los cálculos de ROI.
+Esto podría resultar útil para rastrear el gasto en costes de marketing excesivos o herramientas para resumirlo en los cálculos de ROI.
 
-## Sincronización del programa de Marketo {#marketo-program-sync}
+## Sincronización del programa Marketo {#marketo-program-sync}
 
-Si introduce programas de Marketo en CRM como campañas, debe asegurarse de que la asignación Fecha de inicio, Fecha de finalización y Coste de período esté configurada en los campos CRM requeridos. Dado que no hay ninguna asignación al campo Habilitar puntos de contacto de comprador , tendrá que habilitar estas campañas para que sepamos que se obtienen los costes correspondientes.
+Si introduce programas de Marketo en CRM como campañas, debe asegurarse de que ha configurado la asignación de fecha de inicio, fecha de finalización y coste de período en los campos de CRM necesarios. Dado que no hay ninguna asignación para el campo Habilitar puntos de contacto del comprador, aún debe habilitar estas campañas para que sepamos cuáles son los costes.
 
-## Edición de los costes {#editing-the-costs}
+## Edición de los Costes {#editing-the-costs}
 
-Una vez importada una campaña desde CRM, se tratará de forma similar a un proveedor de anuncios de API y no aparecerá en el CSV para realizar ningún cambio en los costes.
+Una vez importada una campaña desde CRM, se tratará de manera similar a un proveedor de anuncios de API y no aparecerá en el CSV para realizar cambios de costes.
 
-Cualquier cambio en el coste o la distribución debe realizarse en el CRM para que podamos señalar a un solo punto de verdad.
+Cualquier cambio en el coste o la distribución debe realizarse en CRM para que podamos señalar un único punto de verdad.
 
 ## Preguntas frecuentes {#faq}
 
-**He realizado un cambio en mi campaña: ¿cuándo debo esperar ver los cambios en la tabla Gastos de marketing o en mis informes?**
+**He hecho un cambio en mi campaña: ¿cuándo debo esperar ver los cambios en la tabla de gastos de marketing o en mis informes?**
 
 3 a 4 horas
 
-**Tengo la fecha de inicio, la fecha de finalización y el coste completado, pero ¿por qué mis costes aún no aparecen en [!DNL Marketo Measure]?**
+**Tengo la fecha de inicio, la fecha de finalización y el coste rellenados, pero ¿por qué mis costes siguen sin aparecer en? [!DNL Marketo Measure]?**
 
-Compruebe que tiene el valor Habilitar punto de contacto de comprador establecido en &quot;Incluir todos los miembros de campaña&quot; o al menos en &quot;Incluir miembros de campaña &#39;respondidos&#39;, o que ha creado una regla de sincronización de campaña personalizada que incluya esta campaña. Si lo ha confirmado y aún no ve la campaña, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} de este modo, podemos comprobar que las campañas se importan correctamente.
+Comprueba que el valor de Habilitar el punto de contacto del comprador está establecido en &quot;Incluir todos los miembros de la campaña&quot; o al menos en &quot;Incluir miembros de la campaña &quot;Respondidos&quot;, o que has creado una regla de sincronización de campañas personalizada que incluye esta campaña. Si ha confirmado esto y aún no ve la campaña, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para que podamos comprobar que sus campañas se están importando correctamente.
 
-**Necesito cambiar la distribución de mi campaña para que pueda pesarla más en ciertos meses. ¿Cómo lo hago?**
+**Necesito cambiar la distribución de mi campaña para poder pesarla más en ciertos meses. ¿Cómo lo hago?**
 
-La distribución de los costes se basa exclusivamente en una distribución uniforme desde la fecha de inicio hasta la de finalización. Desafortunadamente, no podemos cambiarlo para que sus costos tengan una ponderación diferente a la establecida. Puede controlar esto ajustando la fecha de inicio y finalización de la campaña, ya que cada día del mes importa.
+La distribución de los costes se basa exclusivamente en una distribución uniforme desde la fecha de inicio hasta la fecha de finalización. Desafortunadamente, no podemos cambiarlo para que sus costos tengan una ponderación diferente aparte de las fechas establecidas. Puede controlar esto ajustando las fechas de inicio y finalización de la campaña, ya que cada día del mes importa.
 
-**Tengo los costes configurados en mi Campaña principal. ¿Cómo se asigna el coste de la Campaña principal a las Campañas secundarias?**
+**Tengo los costes configurados en mi campaña principal. ¿Cómo se asignan los costes de la campaña principal a las campañas secundarias?**
 
-En realidad, la forma en que se extraerán los costes será directamente desde una sola campaña, independientemente de cualquier relación con el padre o el hijo. Se recomienda que el coste se destine a las Campañas infantiles, junto con las fechas de la campaña, y que luego se utilice el elemento principal como campaña general donde la campaña principal no se habilite para los puntos de contacto.
+En realidad, la forma en que se recuperarán los costes será directamente desde una sola campaña, independientemente de cualquier relación con los padres o los hijos. Se recomienda que el coste se cargue en las Campañas para niños, junto con las fechas de la campaña, y que luego se use la Campaña principal como campaña general en la que la Campaña principal no se habilitaría para puntos de contacto.
 
-**¿Cómo puedo cambiar el coste de un mes en [!DNL Marketo Measure]?**
+**¿Cómo puedo cambiar el coste de un mes en? [!DNL Marketo Measure]?**
 
-Dado que confiamos en CRM como la única fuente de verdad, todos los cambios deben realizarse en CRM. Una vez que la campaña ha sido importada por [!DNL Marketo Measure], los valores de Campaña no se pueden editar en [!DNL Marketo Measure] o en el archivo CSV.
+Como dependemos del CRM como única fuente fiable, todos los cambios deben realizarse en el CRM. Una vez importada la campaña por [!DNL Marketo Measure], los valores de Campaign no se pueden editar en [!DNL Marketo Measure] o en el archivo CSV.
 
-**¿En qué escenario aparecería una campaña en la tabla Gastos de marketing, y luego ya no aparecerá?**
+**¿En qué escenario aparecería una campaña en la tabla Gasto en marketing y, a continuación, dejaría de aparecer?**
 
-Seguiremos requiriendo que los tres campos clave tengan un valor: Fecha de inicio, Fecha de finalización y Coste. Nuestro comportamiento predeterminado es que solo importamos campañas con un valor bueno a más de $0. Idealmente, importaríamos campañas en las que haya un valor explícito de 0 $ y no importaríamos las que se queden en blanco, pero la API de Salesforce las importa como 0 $ independientemente del valor. Además, si el valor Habilitar punto de contacto de comprador cambia de &quot;Incluir todo&quot; o &quot;Incluir &quot;Respondido&quot; a &quot;Excluir todo&quot;, se eliminará la campaña y el coste de la tabla Gastos de marketing.
+Seguiremos exigiendo que los tres campos clave tengan un valor: Fecha de inicio, Fecha de finalización y Coste. De forma predeterminada, importamos solo las campañas con un valor bueno a 0 $. Lo ideal sería importar campañas donde haya un $0 explícito y no importar las que se queden en blanco, pero la API de Salesforce las importa como $0 independientemente del valor. Además, si el valor de Habilitar el punto de contacto del comprador cambia de &quot;Incluir todo&quot; o &quot;Incluir &quot;Respondido&quot; a &quot;Excluir todo&quot;, se eliminan la campaña y el coste de la tabla Gastos de marketing.
 
-**¿Qué coste tendría prioridad si ya se hubiera descargado una fila de CRM y yo ingresara otra fila en el CSV con el mismo ID de campaña?**
+**¿Qué coste tendría prioridad si ya se ha descargado una fila del CRM y he introducido otra fila en el CSV con el mismo ID de campaña?**
 
-Aunque es posible que pueda cargar el archivo correctamente, [!DNL Marketo Measure] no usará esa fila porque ya tenemos un ID de campaña con el mismo valor que se extrajo automáticamente de la integración.
+Aunque es posible que pueda cargar correctamente el archivo, [!DNL Marketo Measure] no usará esa fila porque ya tenemos un ID de campaña con el mismo valor que se extrajo automáticamente de la integración.
 
-**¿Cómo sugeriríamos que los costes de nuestras campañas digitales que configuramos en CRM?**
+**¿Cómo sugeriría que le suministremos los costes de nuestras Campañas digitales que configuramos en CRM?**
 
-Porque [!DNL Marketo Measure] javascript ya está realizando un seguimiento de la actividad web desde su sitio, recomendamos que no sincronice ninguna campaña que rastree a los miembros de la campaña desde formularios web u otras actividades del sitio, ya que contará dos veces los toques. Por ello, es posible que desee seguir utilizando la opción Carga de CSV en Gastos de marketing para realizar un seguimiento de esos costes en línea/digitales si no estamos integrados con esa plataforma (es decir, Twitter, Adroll).
+Porque nuestro [!DNL Marketo Measure] javascript ya está realizando un seguimiento de la actividad web desde su sitio. Le recomendamos que no sincronice ninguna campaña que realice un seguimiento de los miembros de la campaña desde formularios web u otras actividades del sitio, ya que contará dos veces los toques. Por ello, es posible que quiera seguir utilizando la opción de carga de CSV en Gastos de marketing para realizar un seguimiento de los costes digitales/en línea si aún no estamos integrados con esa plataforma (por ejemplo, Twitter, Adroll).

@@ -1,68 +1,69 @@
 ---
 unique-page-id: 42762648
-description: 'Documentación del tablero Recorrido de cohorte: [!DNL Marketo Measure] - Documentación del producto'
-title: Documentación del panel Recorrido de cohorte
+description: 'Documentación del panel de Recorrido de cohorte: [!DNL Marketo Measure] - Documentación del producto'
+title: Documentación del tablero de recorrido de cohorte
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Documentación del panel Recorrido de cohorte {#cohort-journey-dashboard-documentation}
+# Documentación del tablero de recorrido de cohorte {#cohort-journey-dashboard-documentation}
 
-Los paneles Impacto de cohorte y Canal permiten a los especialistas en marketing ver la progresión desde una etapa de cohorte de inicio durante un lapso de tiempo seleccionado y medir la tasa de conversión.
+Los paneles Impacto de cohorte y Embudo permiten a los especialistas en marketing ver la progresión desde una fase de cohorte de inicio durante un periodo seleccionado y medir la tasa de conversión.
 
 La principal diferencia es cómo contamos cada entidad desde la fase de cohorte.
 
-* Canal de cohorte: El resultado de cada etapa se deriva directamente de la etapa anterior.
+* Canal de cohorte: el resultado de cada fase se deriva directamente de la fase anterior.
 
    * Solo se cuentan los registros que han pasado por cada fase del canal después de la hora de inicio de la cohorte establecida.
 
 ![](assets/cohort-journey-dashboard-documentation-1.png)
 
-* Impacto de cohorte: El resultado de cada etapa se deriva de la etapa de cohorte, no de la anterior.
+* Impacto de cohorte: el resultado de cada fase se deriva de la fase de cohorte, no de la fase anterior.
 
-   * Todos los registros de cada etapa se cuentan siempre que se hayan producido después de la hora de inicio de la cohorte establecida. Naturalmente, este tablero tendrá más registros que el tablero Embudo, ya que estamos viendo cómo las entidades se vieron afectadas desde la etapa de cohorte, no solo el movimiento a través del canal.
+   * Todos los registros de cada fase se cuentan siempre y cuando se produjeron después de la hora de inicio de la cohorte establecida. Naturalmente, este panel tendrá más registros que el panel Embudo, ya que estamos viendo cómo se vieron afectadas las entidades desde la fase de cohorte, no solo el movimiento a través del canal.
 
 ![](assets/cohort-journey-dashboard-documentation-2.png)
 
 Cada tablero tiene dos mosaicos:
 
-* Ingresos de cohorte: Cantidad total de oportunidades de todas las oportunidades de la fase Ofertas del mosaico Recorrido de cohorte.
-* Recorrido de cohorte: La progresión a cada fase de recorrido desde la fase de cohorte de inicio para un lapso de tiempo seleccionado.
+* Ingresos de cohorte: cantidad de oportunidad total de todas las oportunidades en la fase Acuerdos del mosaico Recorrido de cohorte.
+* Recorrido de cohorte: la progresión a cada fase de recorrido desde la fase de cohorte de inicio durante un periodo de tiempo seleccionado.
 
 >[!NOTE]
 >
->En todos los tableros de Discover, solo se puede informar de un objeto de persona, ya sea posible Cliente o Contacto. Esto se configura en [!UICONTROL Configuración] > [!UICONTROL Informes] > [!UICONTROL Configuración de atribución] > [!UICONTROL Objeto de tablero predeterminado].
+>En todos los paneles de Discover, solo se puede crear un informe de un objeto de persona, ya sea un posible cliente o un contacto. Esto se establece en [!UICONTROL Configuración] > [!UICONTROL Informes] > [!UICONTROL Configuración de atribución] > [!UICONTROL Objeto de panel predeterminado].
 
-Los tableros admiten los siguientes filtros:
+Los paneles admiten los siguientes filtros:
 
-* Etapa de cohorte: seleccione la etapa de cohorte de inicio. Los registros de todas las etapas siguientes evolucionan a partir de los registros de la etapa de cohorte.
-* Intervalo de fechas de cohorte: seleccione el lapso de tiempo para la etapa de cohorte seleccionada. Junto con Fase de cohorte, define el conjunto de datos de inicio.
-* Fecha de corte: seleccione la fecha en la que debe producirse la progresión del registro en todas las etapas siguientes. El valor predeterminado es hoy. Tenga en cuenta que esto se aplica a todas las etapas que no sean la fase de cohorte.
-* Canal: filtre los registros por canales. Un registro está asociado a un canal si alguno de sus puntos de contacto está asociado al canal.
-* Subcanal: filtre los registros por subcanales. Un registro está asociado a un subcanal si alguno de sus puntos de contacto está asociado al subcanal.
-* Campaña: filtrar los registros por campañas. Un registro está asociado a una campaña si alguno de sus puntos de contacto está asociado a ella.
-* Fuente de campaña: filtre los registros por fuentes de campaña. Ejemplo de fuentes de campaña: [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Un registro está asociado a un origen de campaña si alguno de sus puntos de contacto está asociado al origen de la campaña.
-* Filtros de segmento: filtre los registros por segmentos personalizados. Un registro está asociado a un segmento si alguno de sus puntos de contacto está asociado a él.
+* Fase de cohorte: seleccione la fase de cohorte inicial. Los registros de todas las fases siguientes evolucionan a partir de los registros de la fase de cohorte.
+* Intervalo de fecha de cohorte: seleccione el lapso de tiempo para la etapa de cohorte seleccionada. Junto con la fase de cohorte, define el conjunto de datos inicial.
+* Fecha de Corte: seleccione la fecha en la que debe producirse la progresión del registro en todas las fases siguientes. El valor predeterminado es hoy. Tenga en cuenta que esto se aplica a todas las etapas que no sean la de cohorte.
+* Channel: filtre los registros por canales. Un registro se asocia a un canal si alguno de sus puntos de contacto está asociado al canal.
+* Subchannel: filtre los registros por subcanales. Un registro se asocia a un subcanal si alguno de sus puntos de contacto está asociado al subcanal.
+* Campaign: filtre los registros por campañas. Un registro se asocia a una campaña si alguno de sus puntos de contacto está asociado a la campaña.
+* Fuente de campaña: filtre los registros por fuentes de campaña. Las fuentes de campaña de ejemplo son [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Un registro está asociado a una fuente de campaña si alguno de sus puntos de contacto está asociado a la fuente de campaña.
+* Filtros de segmentos: filtre los registros por segmentos personalizados. Un registro se asocia a un segmento si alguno de sus puntos de contacto está asociado al segmento.
 
 En todos los filtros se utiliza la lógica &quot;Y&quot;.
 
 >[!NOTE]
 >
->Los filtros de segmento solo se aplican al escenario LC y después. Si la etapa de cohorte es Desconocida o Conocida y uno de los filtros de segmento tiene un valor, el panel no devolverá ningún resultado.
+>Los filtros de segmento solo se aplican a la fase LC y después. Si la fase de cohorte es Desconocida o Conocida y uno de los filtros de segmento tiene un valor, el panel no devolverá ningún resultado.
 
-Los escenarios incluyen Desconocido, Conocido, LC, etapas de Embudo seleccionadas en Fases de Cliente/Contacto Abiertos (Configuración > CRM > Asignación de Fases), OC, etapas de Embudo seleccionadas en Fases de Oportunidad Abierta (Configuración > CRM > Asignación de Fases) y Ofertas (Oportunidades Ganadas Cerradas).
+Las etapas incluyen Desconocido, Conocido, LC, etapas de canal seleccionadas en las etapas de cliente potencial/contacto abiertas (Configuración > CRM > Asignación de etapas), OC, etapas de canal seleccionadas en las etapas de oportunidad abiertas (Configuración > CRM > Asignación de etapas) y ofertas (oportunidades ganadas cerradas).
 
 >[!NOTE]
 >
->El recuento de los registros de una fase de recorrido, definida como cualquier fase distinta de la fase de cohorte, incluye todos los registros nuevos, relacionados con los registros de cohorte, que se crean después de la fecha de inicio del lapso de tiempo seleccionado y antes de la fecha de corte. Esto es causalidad inferida.
+>El recuento de registros de una etapa de recorrido, definido como cualquier etapa distinta de la etapa de cohorte, incluye todos los registros nuevos, relacionados con los registros de cohorte, que se crean después de la fecha de inicio del lapso de tiempo seleccionado y antes de la fecha de corte. Esto es causalidad inferida.
 
-Puede explorar en profundidad desde cada barra para ver los registros de cada etapa.
+Puede explorar en profundidad cada barra para ver los registros de cada etapa.
 
-* Para Desconocido, muestra detalles de visitantes anónimos.
-* Para Conocido, muestra los detalles conocidos del visitante.
-* Para las fases LC y Abrir posible cliente/contacto, muestra los detalles de posible cliente/contacto.
-* Para OC, etapas de Oportunidad Abierta y Ofertas, muestra detalles de Oportunidad.
+* Para Desconocido, muestra detalles anónimos del visitante.
+* Si se selecciona Conocido, muestra los detalles conocidos del visitante.
+* Para las fases LC y Abrir cliente potencial/contacto, muestra los detalles del cliente potencial/contacto.
+* Para las fases de oportunidad abierta y las ofertas, muestra detalles de oportunidad.

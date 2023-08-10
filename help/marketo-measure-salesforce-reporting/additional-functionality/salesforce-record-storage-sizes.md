@@ -1,9 +1,10 @@
 ---
 unique-page-id: 18874576
 description: "[!DNL Salesforce] Tamaños de almacenamiento de registros - [!DNL Marketo Measure] - Documentación del producto"
-title: '"[!DNL Salesforce] Registrar tamaños de almacenamiento'
+title: "[!DNL Salesforce] Tamaños de almacenamiento de registro"
 exl-id: d72499a9-3678-4db0-9993-98c3af33b5a3
-source-git-commit: 8a630cb1f9accb8b3cd5e1b6c0d19d748d765e4c
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Salesforce] Tamaños de almacenamiento de registros {#salesforce-record-storage-sizes}
 
-[!DNL Marketo Measure] crea registros en el [!DNL Salesforce] para que sea útil comprender el tamaño de almacenamiento de estos registros.
+[!DNL Marketo Measure] crea registros en su [!DNL Salesforce] por lo que es útil comprender el tamaño de almacenamiento de estos registros.
 
 ## Tamaños de almacenamiento {#storage-sizes}
 

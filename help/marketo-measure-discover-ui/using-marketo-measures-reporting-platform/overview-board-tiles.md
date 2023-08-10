@@ -1,18 +1,19 @@
 ---
 unique-page-id: 34406468
-description: Información general sobre los mosaicos de la placa [!DNL Marketo Measure] - Documentación del producto
+description: Mosaicos del tablero de información general - [!DNL Marketo Measure] - Documentación del producto
 title: Información general sobre los mosaicos del tablero
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
-source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # Información general sobre los mosaicos del tablero {#overview-board-tiles}
 
-El tablero Información general proporciona la vista más completa del rendimiento de su marketing, lo que ayuda a los equipos de marketing a tomar las decisiones adecuadas a la hora de aumentar su equipo, presupuesto o ingresos.
+El panel de información general proporciona la vista más completa del rendimiento de marketing, lo que ayuda a los equipos de marketing a tomar las decisiones correctas al aumentar el equipo, el presupuesto o los ingresos.
 
 <table> 
  <colgroup> 
@@ -56,7 +57,7 @@ El tablero Información general proporciona la vista más completa del rendimien
    <td><strong>X</strong></td> 
   </tr> 
   <tr> 
-   <td><p><strong>Resumen</strong></p></td> 
+   <td><p><strong>Información general</strong></p></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
@@ -218,110 +219,110 @@ El tablero Información general proporciona la vista más completa del rendimien
 
 ![](assets/one.png)
 
-Total de ingresos atribuidos por oportunidades de Closed Won basadas en el modelo de atribución.
+Ingresos atribuidos totales de oportunidades ganadas cerradas según el modelo de atribución.
 
--Detalles de oportunidad: Muestra un desglose de los ID de oportunidad, la fecha de creación, la fecha de cierre, el código ISO y la atribución de ingresos relacionados.\
--Mostrar detalles: Un desglose por mes.
+Detalles de oportunidad: muestra un desglose de los ID de oportunidad, la fecha de creación, la fecha de cierre, el código ISO y la atribución de ingresos relacionados.\
+-Mostrar detalles: desglose por mes.
 
-## Mosaico Información general (gráfico) {#overview-chart-tile}
+## Mosaico de información general (gráfico) {#overview-chart-tile}
 
 ![](assets/two.png)
 
 El gráfico mostrará los ingresos atribuidos a cada canal, mostrados a lo largo del tiempo.
 
--Detalles de oportunidad: Muestra un desglose de los ID de oportunidad, la fecha de creación, la fecha de cierre, el código ISO y la atribución de ingresos relacionados.\
--Muestra un desglose de los Opp ID de contribución:
+Detalles de oportunidad: muestra un desglose de los ID de oportunidad, la fecha de creación, la fecha de cierre, el código ISO y la atribución de ingresos relacionados.\
+-Muestra un desglose de los ID de Opp de contribución:
 
 * Por semana de ROI
 * Por datos de ROI
-* Por hora de retorno de la inversión
-* Por minuto de retorno de la inversión
-* Por tiempo de retorno de la inversión
+* Por hora de ROI
+* Por minuto de ROI
+* Por tiempo de ROI
 
 ## Mosaico de gasto {#spend-tile}
 
 ![](assets/three.png)
 
-La cantidad total de gasto, tanto de costes de API como de costes informados por sí mismos, durante un período de tiempo determinado.
+La cantidad total de gasto tanto de los costes de la API como de los costes autonotificados para el periodo determinado.
 
 >[!NOTE]
 >
->Al profundizar en menos de un mes, [!DNL Marketo Measure] calculará el promedio del gasto de ese mes y asignará ese promedio a cada día.
+>Al profundizar en menos de un mes, [!DNL Marketo Measure] calculará la media del gasto de ese mes y asignará esa media a cada día.
 
--Detalles del gasto: Muestra un desglose del ID único de la campaña de gastos, el nombre de la campaña, el canal, el subcanal, la fecha, la moneda original y los gastos relacionados.  -Mostrar detalles: Un desglose por mes.
+-Detalles del gasto: Muestra un desglose del ID único de campaña de gasto, el nombre de la campaña, el canal, el subcanal, la fecha, la moneda original y el gasto relacionados.  -Mostrar detalles: desglose por mes.
 
-## Mosaico de ROI {#roi-tile}
+## Mosaico ROI {#roi-tile}
 
 ![](assets/four.png)
 
-El ROI calculado (retorno de la inversión) a partir de los ingresos totales (del modelo de atribución seleccionado) y el gasto total (Niveles de ingresos ÷ Mosaico de gasto = Mosaico de ROI).
+El ROI calculado (retorno de la inversión) a partir de los ingresos totales (del modelo de atribución seleccionado) y el gasto total (Título de ingresos ÷ Título de gasto = Título de retorno de la inversión).
 
 ## Mosaico de ofertas {#deals-tile}
 
 ![](assets/five.png)
 
-Muestra el número total de ofertas atribuidas (Ofertas es un recuento de oportunidades de ganadas cerradas).
+Muestra el número total de ofertas atribuidas (las ofertas son un recuento de las oportunidades ganadas cerradas).
 
 >[!NOTE]
 >
->Si se selecciona el tipo de fecha &quot;Fecha de punto de contacto&quot;, es posible realizar recuentos parciales porque puede haber ciertos puntos de contacto que no se encuentran dentro del intervalo de tiempo.
+>Si se selecciona el tipo de fecha &quot;Fecha de punto de contacto&quot;, es posible realizar recuentos parciales porque puede haber ciertos puntos de contacto que no se incluyan en el intervalo de tiempo.
 
--Detalles de oportunidad: Muestra un desglose de los ID de oportunidad relacionados, Fecha de creación, Fecha de cierre y Atribución (recuento).  -Mostrar detalles: Un desglose por mes.
+-Detalles de oportunidad: Muestra un desglose de los ID de oportunidad, la fecha de creación, la fecha de cierre y la atribución relacionados (recuento).  -Mostrar detalles: desglose por mes.
 
-## Mosaico Costo por acuerdo {#cost-per-deal-tile}
+## Mosaico de coste por acuerdo {#cost-per-deal-tile}
 
 ![](assets/six.png)
 
-Costo promedio que se necesita para adquirir una oportunidad cerrada ganada. El gasto total dividido por el número total de ofertas (Título de gasto ÷ Mosaico de ofertas = Costo por mosaico de oferta).
+Coste medio que se necesita para adquirir una oportunidad ganada cerrada. El gasto total dividido por el número total de ofertas (mosaico de gasto ÷ mosaico de ofertas = coste por mosaico de oferta).
 
 ## Mosaico de ingresos de canalización {#pipeline-revenue-tile}
 
 ![](assets/seven.png)
 
-El total de ingresos atribuidos a las oportunidades de apertura
+El total de ingresos atribuidos potenciales para las oportunidades abiertas
 
 >[!NOTE]
 >
 >Los ingresos se reflejarán para el modelo de atribución especificado.
 
--Detalles de oportunidad: Muestra un desglose de los ID de oportunidad, la fecha de creación, la fecha de cierre, el código ISO y la atribución de ingresos relacionados.  -Mostrar detalles: Un desglose por mes.
+Detalles de oportunidad: muestra un desglose de los ID de oportunidad, la fecha de creación, la fecha de cierre, el código ISO y la atribución de ingresos relacionados.  -Mostrar detalles: desglose por mes.
 
 ## Mosaico de tamaño de oferta {#deal-size-tile}
 
 ![](assets/eight.png)
 
-El ingreso promedio de las oportunidades de Closed Won (Ingresos Tile ÷ Deals Tile = Deal Size Tile).
+Ingresos promedio de oportunidades ganadas cerradas (mosaico de ingresos ÷ mosaico de ofertas = mosaico de tamaño de oferta).
 
-## Mosaico Resumen del canal {#channel-summary-tile}
+## Mosaico de resumen de canal {#channel-summary-tile}
 
 ![](assets/nine.png)
 
-Muestre una lista de canales en función de la métrica seleccionada (ingresos, ingresos de canalización, gastos, ofertas, oportunidades, posibles clientes, contactos).
+Mostrar una lista de canales en función de la métrica seleccionada (ingresos, ingresos de canalización, gastos, ofertas, oportunidades, posibles clientes, contactos).
 
-## Mosaico Resumen De Subcanales {#subchannel-summary-tile}
+## Mosaico de resumen de subcanal {#subchannel-summary-tile}
 
 ![](assets/ten.png)
 
-Muestre una lista de subcanales en función de la métrica seleccionada (ingresos, ingresos de canalización, gastos, ofertas, oportunidades, posibles clientes, contactos).
+Mostrar una lista de subcanales en función de la métrica seleccionada (ingresos, ingresos de canalización, gastos, ofertas, oportunidades, posibles clientes, contactos).
 
-## Mosaico de resumen de la campaña {#campaign-summary-tile}
+## Mosaico de resumen de campaña {#campaign-summary-tile}
 
 ![](assets/eleven.png)
 
-Muestre una lista de campañas en función de la métrica seleccionada (ingresos, ingresos de la canalización, gastos, ofertas, oportunidades, posibles clientes, contactos).
+Mostrar una lista de campañas en función de la métrica seleccionada (ingresos, ingresos de canalización, gastos, ofertas, oportunidades, posibles clientes, contactos).
 
 ## Mosaico de ROI (gráfico) {#roi-chart-tile}
 
 ![](assets/twelve.png)
 
-Muestra el ROI que se atribuyó a la métrica seleccionada (canal, subcanal, campaña, cuenta, grupo de anuncios, anuncio, anunciante, creativo, palabra clave, ubicación, sitio) en función del modelo de atribución seleccionado.
+Muestra el retorno de la inversión atribuido a la métrica seleccionada (canal, subcanal, campaña, cuenta, grupo de anuncios, anuncio, anunciante, creativo, palabra clave, ubicación, sitio) en función del modelo de atribución seleccionado.
 
-## Mosaico Resumen de ROI {#roi-summary-tile}
+## Mosaico de resumen de ROI {#roi-summary-tile}
 
 ![](assets/thirteen.png)
 
-Muestra el ROI que se atribuyó a la métrica seleccionada (canal, subcanal, campaña, cuenta, grupo de anuncios, anuncio, anunciante, creativo, palabra clave, ubicación, sitio) en función del modelo de atribución seleccionado.
+Muestra el retorno de la inversión atribuido a la métrica seleccionada (canal, subcanal, campaña, cuenta, grupo de anuncios, anuncio, anunciante, creativo, palabra clave, ubicación, sitio) en función del modelo de atribución seleccionado.
 
--Detalles de oportunidad: Muestra un desglose de los ID de oportunidad relacionados, Fecha de creación, Fecha de cierre y Atribución (recuento).
+-Detalles de oportunidad: Muestra un desglose de los ID de oportunidad, la fecha de creación, la fecha de cierre y la atribución relacionados (recuento).
 
--Mostrar detalles: Un desglose por mes.
+-Mostrar detalles: desglose por mes.

@@ -1,7 +1,9 @@
 ---
 description: Notas de la versión actual - [!DNL Marketo Measure] - Documentación del producto
 title: Notas de la versión actual
-source-git-commit: 8e8ddd80d69102455fa678a32f31a9fe8319822c
+exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
+feature: Release Notes
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Notas de la versión: 2023 {#release-notes-2023}
 
-A continuación encontrará todas las funciones nuevas y actualizadas de nuestras versiones de 2023.
+A continuación, encontrará todas las funciones nuevas y actualizadas de nuestras versiones de 2023.
 
 ## Versión del segundo trimestre {#q2-release}
 
@@ -18,20 +20,20 @@ A continuación encontrará todas las funciones nuevas y actualizadas de nuestra
 
 **Consolidación de paquetes de Salesforce**
 
-* Estamos combinando todos los paquetes de Salesforce en un único paquete completo para mejorar la experiencia del usuario y simplificar el uso. Los paquetes V1, V2_EXT y Reporting se retirarán el próximo trimestre. El nuevo paquete combina todas las funciones anteriores, lo que permite un seguimiento más eficaz y perspectivas más profundas para los clientes.
+* Estamos combinando todos los paquetes de Salesforce en un único paquete completo para mejorar la experiencia del usuario y simplificar el uso. Los paquetes V1, V2_EXT e Informes se retirarán el próximo trimestre. El nuevo paquete combina todas las funciones anteriores, lo que permite un seguimiento más eficiente y perspectivas de cliente más profundas.
 * Los clientes que ya tengan instalado el paquete V2 deben actualizarlo a la nueva versión consolidada.
-* Hemos agregado dos campos nuevos para mejorar sus capacidades de creación de informes:
-   * form_name: Ahora disponible en objetos BT/BAT, este campo permite a los usuarios crear informes basados en nombres de formulario.
-   * user_touchpoint_id: Este campo permite a los usuarios crear informes con recuentos de puntos de contacto de usuario únicos.
-* [Este artículo](/help/configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md){target="_blank"} incluye guías para recrear informes y tableros de los paquetes de informes heredados.
+* Se han añadido dos campos nuevos para mejorar las funciones de creación de informes:
+   * form_name: ahora disponible en objetos BT/BAT, este campo permite a los usuarios crear informes basados en nombres de formulario.
+   * user_touchpoint_id: este campo permite a los usuarios crear informes con recuentos de puntos de contacto de usuario únicos.
+* [Este artículo](/help/configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md){target="_blank"} incluye guías sobre cómo volver a crear informes y paneles a partir de los paquetes de informes heredados.
 
-**Actualizaciones de la versión de la API de Salesforce**
+**Actualizaciones de versión de API de Salesforce**
 
-* Todas las versiones de API de Salesforce de las clases Apex, incluida la clase UserActivityContext, se actualizan a versiones compatibles. (31.0 a 57.0)
+* Todas las versiones de la API de Salesforce de las clases Apex, incluida la clase UserActivityContext, se actualizan a versiones compatibles. (de 31.0 a 57.0)
 
-**Nueva instalación del paquete**
+**Nueva instalación de paquetes**
 
-* El nuevo enlace de instalación del paquete consolidado [se puede encontrar aquí](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1P000000VY6Z){target="_blank"}
+* El nuevo vínculo de instalación del paquete consolidado [se puede encontrar aquí](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1P000000VY6Z){target="_blank"}
 
 ### ¿Qué viene? {#whats-coming}
 
@@ -39,4 +41,4 @@ A continuación encontrará todas las funciones nuevas y actualizadas de nuestra
 
 **Cambios en el almacenamiento de direcciones IP**
 
-* Ya no almacenaremos direcciones IP en nuestro sistema por consideraciones de privacidad. Seguiremos identificando y almacenando la ubicación geográfica de la dirección IP, pero el formato cambiará (por ejemplo, &quot;Estados Unidos&quot; a &quot;EE.UU.&quot;).
+* Ya no almacenaremos direcciones IP en nuestro sistema por motivos de privacidad. Seguiremos identificando y almacenando la geolocalización de la dirección IP, pero el formato cambiará (por ejemplo, &quot;Estados Unidos&quot; a &quot;Estados Unidos&quot;).

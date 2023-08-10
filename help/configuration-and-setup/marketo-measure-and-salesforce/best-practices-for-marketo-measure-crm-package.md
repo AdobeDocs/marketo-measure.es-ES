@@ -1,60 +1,60 @@
 ---
-description: 'Prácticas recomendadas para [!DNL Marketo Measure] Paquete CRM: [!DNL Marketo Measure] - Documentación del producto'
-title: Prácticas recomendadas para [!DNL Marketo Measure] Paquete CRM
+description: Prácticas recomendadas para [!DNL Marketo Measure] Paquete CRM - [!DNL Marketo Measure] - Documentación del producto
+title: Prácticas recomendadas para el paquete CRM de  [!DNL Marketo Measure]
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
-source-git-commit: 00268f49ff6e5dfc105fa7ea21837375eae49647
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Prácticas recomendadas para [!DNL Marketo Measure] Paquete CRM {#best-practices-for-marketo-measure-crm-package}
+# Prácticas recomendadas para el paquete CRM de [!DNL Marketo Measure] {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero aún así ver &quot;Bizible&quot; en su CRM. Estamos trabajando para que esto se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-## Resumen {#overview}
+## Información general {#overview}
 
-[!DNL Marketo Measure] se integra con ambos [!DNL Salesforce] y [!DNL Microsoft Dynamics], este documento se centrará en la variable [!DNL Marketo Measure] prácticas recomendadas para los paquetes CRM diseñados para [!DNL Salesforce].
+[!DNL Marketo Measure] se integra con ambos [!DNL Salesforce] y [!DNL Microsoft Dynamics], este documento se centrará en [!DNL Marketo Measure] prácticas recomendadas para los paquetes CRM diseñados para [!DNL Salesforce].
 
-Durante la implementación, los dos paquetes siguientes se habrían instalado en su [!DNL Salesforce] instancia.
+Durante la implementación, se habrían instalado los dos paquetes siguientes en su [!DNL Salesforce] ejemplo.
 
-Paquete base: Este es nuestro paquete base que incluye nuestros objetos y campos personalizados. Se recomienda instalar en Producción para todos los usuarios.
-Paquete de extensión del panel: Este es nuestro paquete de extensión de tablero, que contiene 3 tableros pregenerados. Se recomienda instalar en Producción para todos los usuarios. Esto es opcional, pero recomendamos a los clientes que lo instalen.
+Paquete base: Este es nuestro paquete base que incluye nuestros objetos y campos personalizados. Se recomienda instalar en producción para todos los usuarios.
+Paquete de extensión de panel: este es nuestro paquete de extensión de panel, que contiene 3 paneles creados previamente. Se recomienda instalar en producción para todos los usuarios. Es opcional, pero se recomienda a los clientes que instalen.
 
-Estos paquetes habilitan su [!DNL Marketo Measure] usuarios para acceder fácilmente a los datos de touchpoint en todas sus [!DNL Salesforce] instancia. Confirmación de que estos paquetes están correctamente configurados será clave para verificar que los diseños de página, los conjuntos de permisos y los informes y tableros se presenten a su [!DNL Marketo Measure] usuarios como se esperaba.
+Estos paquetes permiten que su [!DNL Marketo Measure] para acceder fácilmente a los datos de puntos de contacto a través de su [!DNL Salesforce] ejemplo. La confirmación de que estos paquetes están correctamente configurados será fundamental para verificar que los diseños de página, los conjuntos de permisos, los informes y los paneles se presentan a su [!DNL Marketo Measure] usuarios según lo esperado.
 
 ## Práctica recomendada {#best-practice}
 
-A la hora de implementar y administrar su [!DNL Marketo Measure] [!DNL Salesforce] Paquete, tenga en cuenta las siguientes prácticas recomendadas.
+Cuando se trata de implementar y administrar su [!DNL Marketo Measure] [!DNL Salesforce] Paquete, tenga en cuenta las siguientes prácticas recomendadas.
 
-* Confirme que todos los miembros del equipo necesarios tienen acceso a la variable [!DNL Marketo Measure] carpetas de informes. Debe haber 1-3 [!DNL Marketo Measure] carpetas (se explican a continuación). Para abrir el acceso, la persona que instaló los paquetes debe compartir las carpetas de informes con los usuarios o las funciones correspondientes.
-   * **Informes de puntos de contacto del comprador** - disponible para todos
-   * **[!DNL Marketo Measure]Informes de marketing basados en cuentas** - los informes solo se rellenarán a los clientes de nivel 2 y superior
-   * **Tableros de puntos de contacto del comprador** - disponible para todos, aunque este paquete es opcional.
+* Confirme que todos los integrantes del equipo necesarios tengan acceso a. [!DNL Marketo Measure] carpetas de informes. Debe haber una resistencia de 1-3 [!DNL Marketo Measure] carpetas (se explican a continuación). Para abrir el acceso, la persona que instaló los paquetes debe compartir las carpetas del informe con los usuarios o las funciones correspondientes.
+   * **Informes Touchpoint del comprador** - disponible para todo el mundo
+   * **[!DNL Marketo Measure]Informes de marketing basado en cuentas** : los informes solo se rellenarán para clientes de nivel 2 o superior
+   * **Paneles de Touchpoint del comprador** - disponible para todos, aunque este paquete es opcional.
 
-## Práctica recomendada para mantenimiento {#best-practice-for-maintenance}
+## Práctica recomendada para el mantenimiento {#best-practice-for-maintenance}
 
-Aunque la configuración de su paquete CRM se cubre durante la implementación inicial, le recomendamos que revise la configuración de su paquete CRM una vez al año. Esta revisión confirmará que todos los diseños de página están correctamente configurados y que todos los integrantes del equipo adecuado tienen acceso a [!DNL Marketo Measure] informes y tableros.
+Aunque la configuración del paquete CRM se cubre durante la implementación inicial, le recomendamos que revise la configuración de su paquete CRM una vez al año. Esta revisión confirmará que todos los diseños de página están correctamente configurados y que todos los integrantes del equipo correspondientes tienen acceso a [!DNL Marketo Measure] informes y paneles.
 
-Otras razones para ello podrían déclencheur una revisión...
+Otras razones que podrían déclencheur una revisión...
 
 * Adición de nuevos integrantes del equipo
-* Actualizaciones [!DNL Salesforce] diseños de página
-* Migración para [!DNL Salesforce] Classic a Lighing
-* Actualizaciones a su [!DNL Marketo Measure] contrato
-* Compruebe que tiene instalada la versión más reciente de nuestro Paquete de puntos de contacto de comprador en [!DNL Salesforce]
+* Actualizaciones para usted [!DNL Salesforce] diseños de página
+* Migración para [!DNL Salesforce] Clásico a Iluminación
+* Actualizaciones en su [!DNL Marketo Measure] contraer
+* Comprueba que tienes instalada la última versión de nuestro Paquete de puntos de contacto para compradores en [!DNL Salesforce]
 
 >[!NOTE]
 >
->Al desactivar la exportación de datos de Marketo Measure a Salesforce, no se elimina ningún dato existente. Para eliminarlo, siga los pasos indicados en [este artículo de ayuda de Salesforce](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
+>Cuando deshabilita la exportación de datos de Marketo Measure a Salesforce, no se eliminan los datos existentes. Para eliminarlo, siga los pasos que se detallan en [este artículo de ayuda de Salesforce](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
->* [Actualizar paquete de puntos de contacto del comprador](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure] Conjuntos de permisos](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [Uso compartido de informes y tableros](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
+>* [Actualizar el paquete Touchpoint del comprador](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
+>* Conjuntos de permisos de [[!DNL Marketo Measure] ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+>* [Compartir la carpeta de informes y paneles](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
 >* [Conectar Marketo Measure a Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
-

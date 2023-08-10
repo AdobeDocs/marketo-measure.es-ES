@@ -1,68 +1,69 @@
 ---
 unique-page-id: 42762600
-description: 'Documentación del tablero de instantáneas: [!DNL Marketo Measure] - Documentación del producto'
+description: Documentación del tablero de instantáneas - [!DNL Marketo Measure] - Documentación del producto
 title: Documentación del tablero de instantáneas
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Documentación del tablero de instantáneas {#snapshot-dashboard-documentation}
 
-El tablero de instantáneas le permite ver el estado de su CRM en cualquier momento, con la distribución de registros en las etapas de posible cliente/contacto y oportunidad.
+El tablero de instantáneas le permite ver el estado de su CRM en cualquier momento dado, con la distribución de registros en las fases de cliente potencial/contacto y oportunidad.
 
 Este tablero tiene dos mosaicos:
 
-* **Instantánea de posible cliente/contacto:** Número de registros de posible cliente o contacto en cada etapa de la fecha seleccionada.
+* **Instantánea de cliente potencial/contacto:** El número de registros de contacto o posible cliente de cada fase en la fecha seleccionada.
 
 >[!NOTE]
 >
->En todos los tableros de Discover, solo se puede informar de un objeto de persona, ya sea posible Cliente o Contacto. Esto se configura en [!UICONTROL Configuración] > [!UICONTROL Informes] > [!UICONTROL Configuración de atribución] > [!UICONTROL Objeto de tablero predeterminado].
+>En todos los paneles de Discover, solo se puede crear un informe de un objeto de persona, ya sea un posible cliente o un contacto. Esto se establece en [!UICONTROL Configuración] > [!UICONTROL Informes] > [!UICONTROL Configuración de atribución] > [!UICONTROL Objeto de panel predeterminado].
 
-* **Instantánea de oportunidad:** Número de registros de oportunidad en cada etapa de la fecha seleccionada.
+* **Instantánea de oportunidad:** El número de registros de oportunidad en cada etapa de la fecha seleccionada.
 
-Este tablero admite los siguientes filtros (todos los filtros se aplican a ambos mosaicos):
+Este panel admite los siguientes filtros (todos los filtros se aplican a ambos mosaicos):
 
-* Fecha de instantánea: seleccione la fecha de la instantánea.
-* Nombre/ID de cuenta de CRM: filtre los registros por ID de cuenta de CRM o nombres.
+* Fecha de Instantánea: seleccione la fecha de instantánea.
+* CRM Account ID/Name: filtre los registros por nombres o ID de cuenta de CRM.
 
 >[!NOTE]
 >
 >Las sugerencias solo muestran nombres.
 
-* Canal: filtre los registros por canales. Un registro está asociado a un canal si alguno de sus puntos de contacto está asociado al canal.
-* Subcanal: filtre los registros por subcanales. Un registro está asociado a un subcanal si alguno de sus puntos de contacto está asociado al subcanal.
-* Campaña: filtrar los registros por campañas. Un registro está asociado a una campaña si alguno de sus puntos de contacto está asociado a ella.
-* Fuente de campaña: filtre los registros por fuentes de campaña. Ejemplo de fuentes de campaña: [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Un registro está asociado a un origen de campaña si alguno de sus puntos de contacto está asociado al origen de la campaña.
-* Nombre/ID de la cuenta del anuncio: filtre los registros por ID de cuenta de publicidad o nombres. Un registro está asociado a una cuenta de publicidad si alguno de sus puntos de contacto está asociado a una campaña de las cuentas de publicidad seleccionadas.
+* Channel: filtre los registros por canales. Un registro se asocia a un canal si alguno de sus puntos de contacto está asociado al canal.
+* Subchannel: filtre los registros por subcanales. Un registro se asocia a un subcanal si alguno de sus puntos de contacto está asociado al subcanal.
+* Campaign: filtre los registros por campañas. Un registro se asocia a una campaña si alguno de sus puntos de contacto está asociado a la campaña.
+* Fuente de campaña: filtre los registros por fuentes de campaña. Las fuentes de campaña de ejemplo son [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Un registro está asociado a una fuente de campaña si alguno de sus puntos de contacto está asociado a la fuente de campaña.
+* ID/nombre de cuenta de publicidad: filtre los registros por ID o nombres de cuenta de publicidad. Un registro está asociado a una cuenta de publicidad si alguno de sus puntos de contacto está asociado a una campaña desde las cuentas de publicidad seleccionadas.
 
 >[!NOTE]
 >
->La sugerencia solo muestra nombres.
+>Las sugerencias solo muestran nombres.
 
-* Filtros de segmento: filtre los registros por segmentos personalizados. Un registro está asociado a un segmento si alguno de sus puntos de contacto está asociado a él.
+* Filtros de segmentos: filtre los registros por segmentos personalizados. Un registro se asocia a un segmento si alguno de sus puntos de contacto está asociado al segmento.
 
 En todos los filtros se utiliza la lógica &quot;Y&quot;.
 
 >[!NOTE]
 >
->Si un registro cambia de etapa en la fecha seleccionada, el registro se contabilizará para las etapas de y a y todas las etapas de paso.
+>Si un registro cambia de fase en la fecha seleccionada, se contará el registro para las fases desde y hasta, y todas las fases de paso a través.
 
 ## Cliente potencial/Instantánea de contacto {#lead-contact-snapshot}
 
 ![](assets/one.png)
 
-Las etapas incluyen las fases FT, LC y Embudo seleccionado en las fases de apertura de posible cliente/contacto ([!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL Asignación de fases]).
+Las fases incluyen las fases FT, LC y las fases de canal seleccionadas en las fases de cliente potencial/contacto abiertas ([!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL Asignación de etapas]).
 
-Puede explorar en profundidad desde cada barra para ver los registros de posible cliente/contacto de cada etapa.
+Puede explorar en profundidad cada barra para ver los registros del posible cliente/contacto de cada etapa.
 
 ## Instantánea de oportunidad {#opportunity-snapshot}
 
 ![](assets/two.png)
 
-Las etapas incluyen FT, LC, etapas de canal seleccionadas en las etapas de posible cliente/contacto abiertos ([!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL Asignación de fases]). Y OC y etapas de canal seleccionadas en las fases de oportunidad abierta ([!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL Asignación de fases]).
+Las fases incluyen FT, LC, fases de canal seleccionadas en las fases de cliente potencial/contacto abiertas ([!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL Asignación de etapas]). Y CO y las fases de canal seleccionadas en las fases de oportunidad abierta ([!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL Asignación de etapas]).
 
-Puede explorar en profundidad desde cada barra para ver los registros de oportunidad de cada etapa.
+Puede explorar en profundidad cada barra para ver los registros de oportunidad de cada etapa.

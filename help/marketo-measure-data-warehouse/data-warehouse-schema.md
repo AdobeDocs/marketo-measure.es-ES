@@ -3,7 +3,8 @@ unique-page-id: 35586140
 description: Esquema de Data Warehouse - Marketo Measure - Documentación del producto
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '22610'
 ht-degree: 99%
@@ -17,8 +18,7 @@ Data Warehouse le permite rastrear todo lo que desee, informar sobre los datos d
 >[!IMPORTANT]
 >
 >* Las filas con un valor para _DELETED_DATE se conservarán durante 7 días y, a continuación, se eliminarán de Snowflake.
->* Los husos horarios utilizados en el Snowflake se adhieren a la Hora Universal Coordinada (UTC).
-
+>* Los husos horarios utilizados en Snowflake se adhieren a la hora universal coordinada (UTC).
 
 >[!NOTE]
 >
@@ -4331,7 +4331,7 @@ Contactos importados desde el sistema de origen.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Esta función está en desuso. No utilice esta columna.</p>
+        <p>Esta función se ha desaprobado. No utilice esta columna.</p>
       </td>
       <td>
         <p>N/A</p>
@@ -9557,7 +9557,7 @@ Posibles clientes importados desde el sistema de origen.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Esta función está en desuso. No utilice esta columna.</p>
+        <p>Esta función se ha desaprobado. No utilice esta columna.</p>
       </td>
       <td>
         <p>N/A</p>
@@ -10175,7 +10175,7 @@ Oportunidades importadas desde el sistema de origen.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Esta función está en desuso. No utilice esta columna.</p>
+        <p>Esta función se ha desaprobado. No utilice esta columna.</p>
       </td>
       <td>
         <p>N/A</p>
@@ -15558,7 +15558,7 @@ order by 1
 
 >[!NOTE]
 >
->Esta consulta devuelve los ingresos atribuidos para el modelo de forma w. Cambie el modelo actualizando el campo en el cálculo de ingresos atribuidos.
+>Esta consulta devuelve los ingresos atribuidos para el modelo de formas w. Cambie el modelo actualizando el campo en el cálculo de ingresos atribuidos.
 
 ```
 select bat.id

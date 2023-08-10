@@ -1,40 +1,41 @@
 ---
 unique-page-id: 18874672
-description: 'Cómo [!DNL Marketo Measure] y [!DNL Salesforce] Interact: Marketo Measure: documentación del producto'
-title: Cómo [!DNL Marketo Measure] y [!DNL Salesforce] Interact
+description: Cómo [!DNL Marketo Measure] y [!DNL Salesforce] Interact - Marketo Measure - Documentación del producto
+title: Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1680'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
-# Cómo [!DNL Marketo Measure] y [!DNL Salesforce] Interact {#how-marketo-measure-and-salesforce-interact}
+# Cómo interactúan [!DNL Marketo Measure] y [!DNL Salesforce] {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero aún así ver &quot;Bizible&quot; en su CRM. Estamos trabajando para que esto se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-Veamos de alto nivel la relación entre [!DNL Marketo Measure] y Salesforce.
+Vamos a echar un vistazo de alto nivel a la relación entre [!DNL Marketo Measure] y Salesforce.
 
 ## Salesforce y [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-Una vez que la variable [!DNL Marketo Measure] se crea la cuenta y [!DNL Salesforce] está conectado, [!DNL Marketo Measure] empezará a insertar datos de marketing en la instancia de CRM siempre y cuando el [!DNL Marketo Measure] el paquete administrado está instalado y la variable [!DNL Marketo Measure] El usuario de Salesforce tiene permisos de edición.
+Una vez que [!DNL Marketo Measure] Se crea una cuenta de y [!DNL Salesforce] está conectado, [!DNL Marketo Measure] empezará a insertar datos de marketing en la instancia de CRM, siempre y cuando el [!DNL Marketo Measure] el paquete administrado está instalado y el [!DNL Marketo Measure] El usuario de Salesforce tiene permisos de edición.
 
-Si no instaló el [!DNL Marketo Measure] Paquete Salesforce, [!DNL Marketo Measure] no escribirá ningún dato en su instancia de Salesforce.
+Si no ha instalado el [!DNL Marketo Measure] Paquete de Salesforce, [!DNL Marketo Measure] no escribirá ningún dato en la instancia de Salesforce.
 
 ![](assets/1-3.png)
 
-De forma predeterminada, [!DNL Marketo Measure] exporta 200 registros por crédito de API cada vez que un trabajo envía datos a su CRM. Para la mayoría de los clientes, esto proporciona el equilibrio óptimo entre los créditos de API que consume [!DNL Marketo Measure] y requisitos de recursos de CPU en CRM. Sin embargo, para los clientes con configuraciones de CRM complejas, como flujos de trabajo y déclencheur, un tamaño de lote más pequeño puede ser útil para mejorar el rendimiento de CRM. Con este fin, [!DNL Marketo Measure] permite a los clientes configurar el tamaño del lote de exportación de CRM. Esta configuración está disponible en el [!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL General] en el [!DNL Marketo Measure] la aplicación web y los clientes pueden elegir entre tamaños de lote de 200 (predeterminado), 100, 50 o 25.
+De forma predeterminada, [!DNL Marketo Measure] exporta 200 registros por crédito de API cada vez que un trabajo envía datos a su CRM. Para la mayoría de los clientes, esto proporciona el equilibrio óptimo entre los créditos de API consumidos por [!DNL Marketo Measure] y requisitos de recursos de CPU en CRM. Sin embargo, para los clientes con configuraciones de CRM complejas, como flujos de trabajo y déclencheur, un tamaño de lote más pequeño podría ser útil para mejorar el rendimiento de CRM. Con este fin, [!DNL Marketo Measure] permite a los clientes configurar el tamaño del lote de exportación de CRM. Esta configuración está disponible en la [!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL General] página en la [!DNL Marketo Measure] la aplicación web y los clientes pueden elegir entre tamaños de lote de 200 (predeterminado), 100, 50 o 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-Al modificar esta configuración, tenga en cuenta que los tamaños de lote más pequeños consumirán más créditos API de su CRM. Es aconsejable reducir el tamaño del lote solo si está experimentando un tiempo de espera de CPU o una carga de CPU alta en su CRM.
+Al modificar esta configuración, tenga en cuenta que los tamaños de lote más pequeños consumirán más créditos de API de su CRM. Es aconsejable reducir el tamaño del lote solo si está experimentando un tiempo de espera de CPU o una carga de CPU alta en su CRM.
 
-## Acceso y objetos estándar de Salesforce {#salesforce-standard-objects-and-access}
+## Objetos y acceso de Salesforce Standard {#salesforce-standard-objects-and-access}
 
-En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!DNL Marketo Measure] interactúa con, así como con los campos personalizados que agregamos a estos objetos una vez establecida la conexión y [!DNL Marketo Measure] está instalado. Fuera de la caja, [!DNL Marketo Measure] NO se escribirá en ningún estándar [!DNL Salesforce] Campos de objeto.
+Esta sección enumera las [!DNL Salesforce] Objetos estándar que [!DNL Marketo Measure] interactúa con, así como con los campos personalizados que agregamos a estos objetos una vez establecida la conexión y [!DNL Marketo Measure] El paquete está instalado. De serie, [!DNL Marketo Measure] NO escribirá en ningún estándar [!DNL Salesforce] Campos de objeto.
 
 **Cliente potencial**
 
@@ -53,7 +54,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Email</p></td> 
+   <td><p>Correo electrónico</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -89,7 +90,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOportunityId</p></td> 
+   <td><p>ConvertedOpportunityId</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -125,7 +126,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -137,7 +138,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_FT_c</p></td> 
+   <td><p>bizible2__Landing_Page_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -149,7 +150,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -161,7 +162,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -173,7 +174,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -210,7 +211,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Email</p></td> 
+   <td><p>Correo electrónico</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -234,7 +235,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -246,7 +247,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_FT_c</p></td> 
+   <td><p>bizible2__Landing_Page_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -258,7 +259,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -270,7 +271,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -282,7 +283,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -337,7 +338,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -349,7 +350,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_FT_c</p></td> 
+   <td><p>bizible2__Landing_Page_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -361,7 +362,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -373,7 +374,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -385,7 +386,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -513,7 +514,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Bizible_Oportunity_Amount__c</p></td> 
+   <td><p>bizible2__Bizible_Opportunity_Amount__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -544,7 +545,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Email</p></td> 
+   <td><p>Correo electrónico</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -580,7 +581,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOportunityId</p></td> 
+   <td><p>ConvertedOpportunityId</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -713,7 +714,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Oportunity__c</p></td> 
+   <td><p>bizible2__Touchpoint_Status_Opportunity__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -723,7 +724,7 @@ En esta lista se muestra la variable [!DNL Salesforce] Objetos estándar que [!D
 
 ## [!DNL Marketo Measure] Objetos personalizados en [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Además de crear campos personalizados en los objetos estándar de SFDC, una vez que se define la variable [!DNL Marketo Measure] está instalado, creará un par de objetos personalizados. A continuación se muestra una lista de estos objetos personalizados junto con una tabla que indica los campos que [!DNL Marketo Measure] escribirá en.
+Aparte de crear campos personalizados en los objetos estándar de SFDC, una vez que [!DNL Marketo Measure] está instalado, creará un par de objetos personalizados. A continuación se muestra una lista de estos objetos personalizados junto con una tabla que indica los campos que [!DNL Marketo Measure] escribirá en.
 
 **Punto de contacto del comprador**
 
@@ -762,7 +763,7 @@ El punto de contacto del comprador es un [!DNL Marketo Measure] Objeto personali
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_Path_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -906,13 +907,13 @@ El punto de contacto del comprador es un [!DNL Marketo Measure] Objeto personali
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_Raw_c</p></td> 
+   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
+   <td><p>bizible2__medio__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -930,7 +931,7 @@ El punto de contacto del comprador es un [!DNL Marketo Measure] Objeto personali
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Search_Phrase_c</p></td> 
+   <td><p>bizible2__Search_Phrase__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -966,7 +967,7 @@ El punto de contacto del comprador es un [!DNL Marketo Measure] Objeto personali
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_U_Shaped__c</p></td> 
+   <td><p>bizible2__Count_U_Shape__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -994,7 +995,7 @@ El punto de contacto del comprador es un [!DNL Marketo Measure] Objeto personali
 
 **[!DNL Marketo Measure]Persona**
 
-La variable [!DNL Marketo Measure] La persona es un [!DNL Marketo Measure] Objeto personalizado relacionado con los objetos Posible cliente, Contacto y Caso.
+El [!DNL Marketo Measure] La persona es un [!DNL Marketo Measure] Objeto personalizado relacionado con los objetos de posible cliente, contacto y caso.
 
 <table> 
  <tbody> 
@@ -1011,7 +1012,7 @@ La variable [!DNL Marketo Measure] La persona es un [!DNL Marketo Measure] Objet
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Lead__c</p></td> 
+   <td><p>bizible2__plomo__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1033,7 +1034,7 @@ La variable [!DNL Marketo Measure] La persona es un [!DNL Marketo Measure] Objet
 
 ## Punto de contacto de atribución del comprador {#buyer-attribution-touchpoint}
 
-El punto de contacto de atribución de comprador es un [!DNL Marketo Measure] Objeto personalizado para encapsular la influencia del marketing en Oportunidades.
+El punto de contacto de atribución del comprador es un [!DNL Marketo Measure] Objeto personalizado para encapsular la influencia del marketing en Oportunidades.
 
 **Punto de contacto de atribución del comprador**
 
@@ -1064,7 +1065,7 @@ El punto de contacto de atribución de comprador es un [!DNL Marketo Measure] Ob
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Oportunity__c</p></td> 
+   <td><p>bizible2__Opportunity__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1082,7 +1083,7 @@ El punto de contacto de atribución de comprador es un [!DNL Marketo Measure] Ob
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_Path_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1226,13 +1227,13 @@ El punto de contacto de atribución de comprador es un [!DNL Marketo Measure] Ob
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_Raw_c</p></td> 
+   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
+   <td><p>bizible2__medio__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1250,7 +1251,7 @@ El punto de contacto de atribución de comprador es un [!DNL Marketo Measure] Ob
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Search_Phrase_c</p></td> 
+   <td><p>bizible2__Search_Phrase__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1322,7 +1323,7 @@ El punto de contacto de atribución de comprador es un [!DNL Marketo Measure] Ob
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_U_Shaped__c</p></td> 
+   <td><p>bizible2__Count_U_Shape__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 

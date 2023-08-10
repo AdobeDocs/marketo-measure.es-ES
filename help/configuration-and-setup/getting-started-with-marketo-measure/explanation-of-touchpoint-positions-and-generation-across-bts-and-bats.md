@@ -1,30 +1,31 @@
 ---
-description: Explicación de las posiciones de los puntos de contacto y de la generación entre los BT y las MTD - [!DNL Marketo Measure] - Documentación del producto
-title: Explicación de las posiciones de Touchpoint y de la generación entre BT y [!DNL BATs]
+description: Explicación de las posiciones de los puntos de contacto y la generación entre BT y MTD - [!DNL Marketo Measure] - Documentación del producto
+title: Explicación de las posiciones y la generación de puntos de contacto entre BT y  [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Explicación de las posiciones de Touchpoint y de la generación entre BT y [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
+# Explicación de las posiciones y la generación de puntos de contacto entre BT y [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
-**Generación de posiciones y flujos de Touchpoint a través del Recorrido de Compradores**
+**Generación de posiciones de Touchpoint y Flujo a través del Recorrido de Compradores**
 
-Comprender las posiciones de los puntos de contacto del comprador y cómo se activan es crucial para generar informes correctamente con [!DNL Marketo Measure] datos. Usted querrá tener una clara comprensión de lo que sus prospectos hicieron a medida que avanzaban por el recorrido del comprador y a su vez cómo se verá en los datos de Touchpoint. Para obtener más contexto sobre este tema, le recomendamos que revise la [[!UICONTROL Generación y asignación de puntos de contacto]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) artículo.
+Entender las posiciones de Touchpoint del comprador y cómo se activan es crucial para informar correctamente sobre con [!DNL Marketo Measure] datos. Usted querrá tener una comprensión clara de lo que sus clientes potenciales hicieron a medida que se movieron a través del recorrido del comprador y, a su vez, cómo se verá en los datos de Touchpoint. Para obtener más información contextual sobre este tema, se recomienda revisar la [[!UICONTROL Generación y asignación de puntos de contacto]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) artículo.
 
-[!DNL Marketo Measure] tiene una variedad de posiciones de Touchpoint activadas por varios pasos en el recorrido del comprador. Al informar sobre [!DNL Marketo Measure] existen dos conjuntos de datos de Touchpoint: puntos de contacto de comprador (BT) y puntos de contacto de atribución de comprador (BAT). Puede observar que estos conjuntos de datos tienen posiciones ligeramente diferentes, ya que están relacionados con distintos objetos. Para obtener más contexto sobre este tema, le recomendamos que revise la [Diferencia entre puntos de contacto de comprador (BT) y puntos de contacto de atribución de comprador (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) artículo.
+[!DNL Marketo Measure] tiene una variedad de posiciones de Touchpoint que se activan por varios pasos en el recorrido del comprador. Al informar sobre [!DNL Marketo Measure] Existen dos conjuntos de datos de Touchpoint: puntos de contacto del comprador (BT) y puntos de contacto de atribución del comprador (BAT). Puede observar que estos conjuntos de datos tienen posiciones ligeramente diferentes en relación con diferentes objetos. Para obtener más información contextual sobre este tema, se recomienda revisar la [Diferencia entre los puntos de contacto del comprador (BT) y los puntos de contacto de atribución del comprador (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) artículo.
 
-**Puntos de contacto del comprador (BT)**: Estos son los puntos de contacto asociados a una persona individual y su recorrido y serán exclusivos de esa persona. Los siguientes informes predeterminados están creados a partir de datos de puntos de contacto del comprador.
+**Puntos de contacto del comprador (BT)**: estos son los puntos de contacto asociados a una persona individual y su recorrido, y serán únicos para esa persona. Los siguientes informes predeterminados están basados en los datos de Buyer Touchpoint.
 
-* [!DNL Marketo Measure] 101: Posibles clientes por ID
-* [!DNL Marketo Measure] 101: Posibles Clientes Por Canal
-* [!DNL Marketo Measure] 101: Posible cliente/contacto por ID
-* [!DNL Marketo Measure] 101: Posible Cliente/Contacto Por Canal
+* [!DNL Marketo Measure] 101: Posibles clientes por identificador
+* [!DNL Marketo Measure] 101: Posibles clientes por canal
+* [!DNL Marketo Measure] 101: Posible cliente/Contacto por ID
+* [!DNL Marketo Measure] 101: Posible cliente/Contacto Por Canal
 
-A continuación se describen las posiciones de Punto de contacto del comprador que describen dónde se encuentra un individuo en su recorrido y qué acciones tomó para obtener ese puesto.
+A continuación, se describen las posiciones de los puntos de contacto del comprador, que describen dónde se encuentra una persona en su recorrido y qué acciones ha llevado a cabo para conseguir esa posición.
 
 <table> 
  <tbody>
@@ -34,86 +35,86 @@ A continuación se describen las posiciones de Punto de contacto del comprador q
    <th>Descripción de Touchpoint</th> 
   </tr>
   <tr>
-   <td>Primera instancia de interacción (FT)</td> 
+   <td>Primer contacto (FT)</td> 
    <td>Visita web</td> 
    <td>La primera interacción de marketing que un individuo tiene con su marca</td> 
   </tr>
   <tr>
-   <td>Creación de cliente potencial (LC)</td> 
-   <td>Relleno de formulario <strong>O</strong> Inclusión de campaña/programa</td> 
-   <td>El primer relleno de formulario que tiene un individuo (normalmente un envío de formulario, pero también podría ser una inclusión de campaña/programa)</td> 
+   <td>Creación de posibles clientes (LC)</td> 
+   <td>Relleno de formulario <strong>O</strong> Inclusión de campañas/programas</td> 
+   <td>El primer relleno de formulario que tiene una persona (normalmente un envío de formulario, pero también podría ser una inclusión de campaña/programa)</td> 
   </tr>
   <tr>
-   <td>Post LC</td> 
-   <td>Relleno de formulario <strong>O</strong> Inclusión de campaña/programa</td> 
-   <td>Cualquier formulario que un individuo complete después de su LC (o una inclusión posterior de Campaign/Program)</td> 
+   <td>Publicar LC</td> 
+   <td>Relleno de formulario <strong>O</strong> Inclusión de campañas/programas</td> 
+   <td>Cualquier formulario que complete una persona después de su LC (o una inclusión posterior de campaña/programa).</td> 
   </tr>
  </tbody>
 </table>
 
-**Puntos de contacto de atribución de comprador (BATS)**: Estos son los puntos de contacto asociados a una Oportunidad y su recorrido. Estos puntos de contacto estarán conectados a los ingresos ya que están conectados a la oportunidad y a sus contactos. Los siguientes informes predeterminados están creados a partir de datos de puntos de contacto de atribución de comprador.
+**Puntos de contacto de atribución del comprador (BATS)**: estos son los puntos de contacto asociados a una oportunidad y su recorrido. Estos puntos de contacto se conectarán a los ingresos a medida que se conecten a la oportunidad y a sus contactos. Los siguientes informes predeterminados están basados en los datos de puntos de contacto de Atribución del comprador.
 
-* [!DNL Marketo Measure] 101: Oportunidades por ID
+* [!DNL Marketo Measure] 101: Oportunidades por identificador
 * [!DNL Marketo Measure] 101: Oportunidades por canal de ID
 
 <table> 
  <tbody>
   <tr>
-   <th>Posición del punto de contacto de atribución de comprador (BAT)</th> 
+   <th>Posición del punto de contacto de atribución del comprador (BAT)</th> 
    <th>Tipo de punto de contacto (acción que puede almacenar en déclencheur el punto de contacto)</th> 
    <th>Descripción de Touchpoint</th> 
   </tr>
   <tr>
-   <td>Primera instancia de interacción (FT)</td> 
+   <td>Primer contacto (FT)</td> 
    <td>Visita web</td> 
    <td>La primera interacción de marketing que un contacto tuvo con su marca</td> 
   </tr>
   <tr>
-   <td>Creación de cliente potencial (LC)</td> 
-   <td>Relleno de formulario <strong>O</strong> Inclusión de campaña/programa</td> 
-   <td>El primer relleno de formulario que tenía un contacto (normalmente un envío de formulario, pero también podría ser una inclusión de campaña/programa)</td> 
+   <td>Creación de posibles clientes (LC)</td> 
+   <td>Relleno de formulario <strong>O</strong> Inclusión de campañas/programas</td> 
+   <td>El primer formulario que rellena un contacto tiene (normalmente un envío de formulario, pero también puede ser una inclusión de campaña/programa)</td> 
   </tr>
   <tr>
-   <td>Creación de oportunidades</td> 
-   <td>Relleno de formulario <strong>O</strong> Visita web <strong>O</strong> Inclusión de campaña/programa</td> 
-   <td>La interacción de marketing más cercana a cuando se crea la opción</td> 
+   <td>Creación de oportunidad</td> 
+   <td>Relleno de formulario <strong>O</strong> Visita web <strong>O</strong> Inclusión de campañas/programas</td> 
+   <td>La interacción de marketing más cercana a cuando se crea la Opp</td> 
   </tr> 
   <tr>
-   <td>Ganados/perdidos cerrados</td> 
-   <td>Relleno de formulario <strong>O</strong> Visita web <strong>O</strong> Inclusión de campaña/programa</td> 
-   <td>La interacción de marketing más cercana a cuando se cierra la opción Opp (Ganada o Perdida)</td> 
+   <td>Ganados/Perdidos cerrados</td> 
+   <td>Relleno de formulario <strong>O</strong> Visita web <strong>O</strong> Inclusión de campañas/programas</td> 
+   <td>La interacción de marketing más cercana a cuando la opción está cerrada (ganada o perdida)</td> 
   </tr>
   <tr>
    <td>Contactos medios</td> 
-   <td>Relleno de formulario <strong>O</strong> Inclusión de campaña/programa</td> 
-   <td>Cuando un contacto rellena un formulario en línea y no coincide con un punto de contacto de hito</td> 
+   <td>Relleno de formulario <strong>O</strong> Inclusión de campañas/programas</td> 
+   <td>Cuando un contacto rellena un formulario en línea y no coincide con un punto de contacto de Milestone</td> 
   </tr>
  </tbody>
 </table>
 
-[!DNL Marketo Measure] tiene estos dos conjuntos de datos de Touchpoint para crear una comprensión clara del recorrido de una persona y de las Oportunidades. Estos dos conjuntos de datos de Touchpoint le proporcionan un mapa claro de lo que ha sucedido desde la parte superior del canal hasta la parte inferior del canal.
+[!DNL Marketo Measure] tiene estos dos conjuntos de datos de Touchpoint para crear una comprensión clara del recorrido de una persona individual, así como las oportunidades. Estos dos conjuntos de datos de Touchpoint le proporcionan un mapa claro de lo que ha sucedido desde la parte superior del embudo hasta la parte inferior del mismo.
 
-En el siguiente ejemplo se muestra el flujo de datos de puntos de contacto de comprador (BT) a puntos de contacto de atribución de comprador (BAT). En este ejemplo, Persona A y Persona B forman parte de la misma oportunidad que tiene una fecha de creación del 7/3/2020 y una fecha de cierre del 6/5/2020.
+El siguiente ejemplo muestra el flujo de datos desde los puntos de contacto del comprador (BT) hasta los puntos de contacto de atribución del comprador (BAT). En este ejemplo, la persona A y la persona B forman parte de la misma oportunidad que tiene una fecha de creación del 7/3/2020 y una fecha de cierre del 6/5/2020.
 
-**Persona A** Conjunto de datos de punto de contacto del comprador
+**Persona A** Conjunto de datos Touchpoint del comprador
 
-* Primer toque (FT) - Búsqueda paga.AdWords - 1/9/2019
-* Creación de posibles clientes (LC) - Búsqueda orgánica.Google - 20/11/2019
-* Post LC (rellenado de formularios) - Seminario web - 04/03/2020
+* Primer contacto (FT) - Búsqueda de pago.AdWords - 1/9/2019
+* Creación de clientes potenciales (LC) - Búsqueda orgánica.Google - 20/11/2019
+* Post LC (rellenado de formulario) - Seminario web - 4/3/2020
 
-**Persona B** Conjunto de datos de punto de contacto del comprador
+**Persona B** Conjunto de datos Touchpoint del comprador
 
-* Primer toque (FT) - Social de pago.Facebook - 26/8/2019
-* Creación de posibles clientes (LC) - Búsqueda orgánica.Yahoo - 20/2/2020
-* Post LC (rellenado de formularios) - Correo electrónico - 1/5/2020
+* Primer contacto (FT) - Social de pago.Facebook - 26/8/2019
+* Creación de clientes potenciales (LC) - Búsqueda orgánica.Yahoo - 20/2/2020
+* Post LC (rellenado de formulario) - Correo electrónico - 1/5/2020
 
-**Oportunidades** Los datos de Touchpoint de atribución del comprador serían los siguientes:
+**Oportunidades** Los datos del punto de contacto de atribución del comprador serían los siguientes:...
 
-* Primer toque (FT) - Social de pago.Facebook - 26/8/2019
-   * (de **Persona B** porque tienen la verdad _Primer toque_ para la cuenta/Opp)
-* Creación de posibles clientes (LC) - Búsqueda orgánica.Google - 20/11/2019
-   * (de **Persona A** porque tienen la verdad _Creación de posibles clientes_ para la cuenta/Opp)
-* Creación de oportunidades (OC) - Seminario web - 04/03/2020
-   * (punto de contacto de Post LC desde **Persona A** sería el _Punto de contacto OC_ porque fue la interacción más reciente que tenemos con la oportunidad que estamos creando el 7/3/2020)
+* Primer contacto (FT) - Social de pago.Facebook - 26/8/2019
+   * (desde **Persona B** porque tienen la verdad _Primer contacto_ para la Cuenta/Opp)
+* Creación de clientes potenciales (LC) - Búsqueda orgánica.Google - 20/11/2019
+   * (desde **Persona A** porque tienen la verdad _Creación de posibles clientes_ para la Cuenta/Opp)
+* Creación de oportunidades (OC) - Seminario web - 4/3/2020
+   * (el punto de contacto Post LC desde **Persona A** sería el _OC Touchpoint_ porque fue la interacción más reciente que tenemos con la oportunidad que se está creando el 7/3/2020)
 * Cerrado Won - Correo electrónico - 1/5/2020
-   * (punto de contacto de Post LC desde **Persona B** sería el _Punto de contacto con Won cerrado_ porque fue la interacción más reciente que tenemos con la oportunidad que cerramos el 5/6/2020)
+   * (el punto de contacto Post LC desde **Persona B** sería el _Punto de contacto Won cerrado_ porque fue la interacción más reciente que tuvimos con la oportunidad que se cerró el 6/5/2020)

@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874730
 description: 'Resumen de marketing basado en cuentas: [!DNL Marketo Measure] - Documentación del producto'
-title: Resumen de marketing basado en cuentas
+title: Información general sobre el marketing basado en cuentas
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
+feature: Account-based Marketing
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Resumen de marketing basado en cuentas {#account-based-marketing-overview}
+# Información general sobre el marketing basado en cuentas {#account-based-marketing-overview}
 
 A continuación se ofrece una breve descripción general de ABM, los componentes de la [!DNL Marketo Measure] Función ABM y cómo añadirla a su [!DNL Salesforce] diseño de página. Para obtener más información sobre ABM, consulte [esta página](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
@@ -84,5 +85,5 @@ Para empezar a utilizar PES, simplemente debe añadir el campo PES y la lista re
 
    ![](assets/3.png)
 
-¡Ya está todo listo!
+Ya está todo listo!
 

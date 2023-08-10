@@ -1,26 +1,27 @@
 ---
 unique-page-id: 18874747
-description: Adición [!DNL Marketo Measure] Secuencia de comandos para páginas de SiteCatalyst - [!DNL Marketo Measure] - Documentación del producto
-title: Adición [!DNL Marketo Measure] Secuencia de comandos para páginas de SiteCatalyst
+description: Agregando [!DNL Marketo Measure] Script para páginas de Sitecore - [!DNL Marketo Measure] - Documentación del producto
+title: Adición del script de  [!DNL Marketo Measure]  a páginas de Sitecore
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Adición [!DNL Marketo Measure] Secuencia de comandos para páginas de SiteCatalyst {#adding-marketo-measure-script-to-sitecore-pages}
+# Adición del script de [!DNL Marketo Measure] a páginas de Sitecore {#adding-marketo-measure-script-to-sitecore-pages}
 
-Los sistemas de administración de contenido pueden requerir pasos adicionales más allá de la implementación de scripts estándar para [!DNL Marketo Measure] para reconocer los envíos de formularios. El proceso siguiente describe cómo agregar la variable [!DNL Marketo Measure] javascript a su [!DNL Sitecore] páginas.
+Los sistemas de administración de contenido pueden requerir pasos adicionales más allá de la implementación de scripts estándar para [!DNL Marketo Measure] para reconocer los envíos de formularios. El siguiente proceso describe cómo añadir los [!DNL Marketo Measure] javascript a su [!DNL Sitecore] páginas.
 
-Para sitios con páginas de SiteCatalyst :
+Para sitios con páginas de Sitecore:
 
-1. Inicie sesión en SiteCatalyst y navegue hasta su sitio web. Busque la variable [!UICONTROL Configuración] carpeta que reside en el mismo nivel que su [!UICONTROL Página principal] elemento y [!UICONTROL Metadatos] carpeta.
-1. Haga clic en el **[!UICONTROL +]** junto a la variable [!UICONTROL Configuración] carpeta.
-1. Haga clic en el **[!UICONTROL +]** junto a la variable [!UICONTROL Herramientas] carpeta.
+1. Inicie sesión en Sitecore y navegue hasta su sitio web. Busque el [!UICONTROL Configuración] que reside en el mismo nivel que su [!UICONTROL Inicio] elemento y [!UICONTROL Metadatos] carpeta.
+1. Haga clic en **[!UICONTROL +]** junto al [!UICONTROL Configuración] carpeta.
+1. Haga clic en **[!UICONTROL +]** junto al [!UICONTROL Herramientas] carpeta.
 1. Seleccione el [!UICONTROL Javascript] elemento.
-1. En el [!UICONTROL Contenido] , haga clic en la pestaña **[!UICONTROL Bloquear y editar]** para desbloquear el elemento y editarlo.
-1. Busque la [!UICONTROL &quot;JavaScript&quot;] para obtener más información. Si aún no está expandido, haga clic en el botón **[!UICONTROL +]**.
-1. Introduzca nuestro script: `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js"async=""></script>`
-1. Haga clic en **[!UICONTROL Guardar]** en la esquina superior izquierda.
+1. En el [!UICONTROL Contenido] , haga clic en **[!UICONTROL Bloquear y editar]** para desbloquear el elemento y editarlo.
+1. Busque el [!UICONTROL &#39;JavaScript&#39;] sección. Si aún no está expandido, haga clic en el icono **[!UICONTROL +]**.
+1. Introduzca el script: `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js"async=""></script>`
+1. Clic **[!UICONTROL Guardar]** en la esquina superior izquierda.

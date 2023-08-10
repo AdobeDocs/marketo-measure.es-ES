@@ -3,8 +3,9 @@ unique-page-id: 18874566
 description: Atribución de marketing - Marketo Measure - Documentación del producto
 title: Atribución de marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
-source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
-workflow-type: ht
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
 

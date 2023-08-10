@@ -2,7 +2,8 @@
 description: 'Prácticas recomendadas para la asignación de etapas: [!DNL Marketo Measure] - Documentación del producto'
 title: Prácticas recomendadas para la asignación de fases
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
+feature: Tracking, Custom Models
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 ## Información general {#overview}
 
-La sección Asignación de etapas de su [!DNL Marketo Measure] cuenta describe las etapas que [!DNL Marketo Measure] extrae automáticamente de su CRM y de cualquier fase personalizada que haya definido si utiliza el modelo de atribución personalizado. La validez de su [!DNL Marketo Measure] Los datos de dependen de que estas fases se ordenen correctamente para que [!DNL Marketo Measure] puede comprender con precisión su canal y la progresión de los registros a lo largo de dicho canal.
+La sección Asignación de etapas de su [!DNL Marketo Measure] cuenta describe las etapas que [!DNL Marketo Measure] extrae automáticamente de su CRM y de cualquier fase personalizada que haya definido si utiliza el modelo de atribución personalizado. La validez de su [!DNL Marketo Measure] Los datos dependen de que estas fases se ordenen correctamente para que [!DNL Marketo Measure] puede comprender con precisión su canal y la progresión de los registros a lo largo de dicho canal.
 
 En la sección Asignación de etapas de su [!DNL Marketo Measure] Por ejemplo, verá las etapas activas e inactivas desde su CRM. Ordene todas las etapas lo mejor posible de acuerdo con la situación actual de su canal.
 

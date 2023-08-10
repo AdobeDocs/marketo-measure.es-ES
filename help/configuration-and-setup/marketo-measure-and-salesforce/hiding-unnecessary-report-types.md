@@ -3,22 +3,23 @@ unique-page-id: 18874785
 description: Ocultar tipos de informes innecesarios - [!DNL Marketo Measure] - Documentación del producto
 title: Ocultar tipos de informes innecesarios
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Ocultar tipos de informes innecesarios {#hiding-unnecessary-report-types}
 
-Después de completar la instalación y empezar a usar los informes, a menudo no todos los informes incluyen la variable [!DNL Marketo Measure] viene con será utilizado por su organización. Por lo tanto, es útil ocultar los tipos de informes que no utilice para eliminar cualquier confusión y permitir un aspecto más limpio. Puede ocultar cualquier informe que desee, pero los informes identificados en la siguiente imagen generalmente están ocultos.
+Después de completar la instalación y de empezar a utilizar los informes, a menudo ocurre que no todos los informes de [!DNL Marketo Measure] El paquete viene con se utilizará en su organización. Por lo tanto, es útil ocultar los tipos de informes que no esté utilizando para eliminar cualquier confusión y permitir una apariencia más limpia. Puede ocultar cualquier informe que desee, pero los informes identificados en la siguiente imagen suelen estar ocultos.
 
-1. Vaya a la **[!UICONTROL Informes]** pestaña .
+1. Vaya a **[!UICONTROL Informes]** pestaña.
 
-1. Haga clic en el **[!UICONTROL Crear nuevo informe]** en la parte superior de la pantalla.
+1. Haga clic en **[!UICONTROL Crear nuevo informe]** en la parte superior de la pantalla.
 
-1. Escriba la palabra &quot;Punto de contacto&quot; para rellenar todos los informes.
+1. Escriba la palabra &quot;Touchpoint&quot; para rellenar todos los informes.
 
 1. Seleccione el **[!UICONTROL Seleccionar tipos de informes para ocultar]** en la parte superior izquierda.
 
@@ -28,4 +29,4 @@ Después de completar la instalación y empezar a usar los informes, a menudo no
 
 >[!MORELIKETHIS]
 >
->[Salesforce: ocultar tipos de informes no utilizados](https://releasenotes.docs.salesforce.com/en-us/spring14/release-notes/rn_analytics_hide_report_types.htm)
+>[Salesforce: Ocultar Tipos De Informes No Utilizados](https://releasenotes.docs.salesforce.com/en-us/spring14/release-notes/rn_analytics_hide_report_types.htm)

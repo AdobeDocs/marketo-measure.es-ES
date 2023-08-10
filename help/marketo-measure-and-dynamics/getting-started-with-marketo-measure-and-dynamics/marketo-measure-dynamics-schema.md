@@ -1,28 +1,29 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Esquema de Dynamics [!DNL Marketo Measure] - Documentación del producto"
+description: "[!DNL Marketo Measure] Esquema de Dynamics - [!DNL Marketo Measure] - Documentación del producto"
 title: "[!DNL Marketo Measure] Esquema de Dynamics"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1408'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
-# [!DNL Marketo Measure] Esquema de Dynamics {#marketo-measure-dynamics-schema}
+# Esquema de Dynamics [!DNL Marketo Measure] {#marketo-measure-dynamics-schema}
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero aún así ver &quot;Bizible&quot; en su CRM. Estamos trabajando para que esto se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-A continuación encontrará el esquema de Dynamics necesario para empezar a usar [!DNL Marketo Measure]. Se muestran todas las entidades y campos, junto con el acceso de lectura o escritura requerido.
+A continuación, encontrará el esquema de Dynamics necesario para comenzar a usar [!DNL Marketo Measure]. Se muestran todas las entidades y campos, junto con el acceso de lectura o escritura requerido.
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
-El punto de contacto del comprador es un [!DNL Marketo Measure] entidad personalizada para encapsular las interacciones de marketing para Contactos y Posibles clientes.
+El punto de contacto del comprador es un [!DNL Marketo Measure] entidad personalizada para encapsular las interacciones de marketing de contactos y posibles clientes.
 
-## Relaciones entre puntos de contacto del comprador {#buyer-touchpoint-relationships}
+## Relaciones de Touchpoint del comprador {#buyer-touchpoint-relationships}
 
 Este diagrama es una visualización de alto nivel de las relaciones entre las entidades de Dynamics Stock y el punto de contacto del comprador.
 
@@ -139,13 +140,13 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Country</p></td> 
+   <td><p>bizible2_País_geográfico</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Region</p></td> 
+   <td><p>bizible2_Región_geográfica</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -199,7 +200,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Medio</p></td> 
+   <td><p>bizible2_Medium</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -247,7 +248,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Segment</p></td> 
+   <td><p>bizible2_Segmento</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -305,9 +306,9 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
 
 ## Punto de contacto de atribución del comprador {#buyer-attribution-touchpoint}
 
-El punto de contacto de atribución de comprador es un [!DNL Marketo Measure] entidad personalizada para encapsular la influencia del marketing en Oportunidades.
+El punto de contacto de atribución del comprador es un [!DNL Marketo Measure] entidad personalizada para encapsular la influencia del marketing en Oportunidades.
 
-## Relaciones de puntos de contacto de atribución de comprador {#buyer-attribution-touchpoint-relationships}
+## Relaciones de Touchpoint de Atribución del Comprador {#buyer-attribution-touchpoint-relationships}
 
 Este diagrama es una visualización de alto nivel de las relaciones entre las entidades de Dynamics Stock y el punto de contacto de atribución del comprador.
 
@@ -376,13 +377,13 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model_2</p></td> 
+   <td><p>bizible2_Atribución_Modelo_Personalizado_2</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_First_Touch</p></td> 
+   <td><p>bizible2_Atribución_Primer_toque</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -394,13 +395,13 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_U_Shaped</p></td> 
+   <td><p>bizible2_Atribución_Forma_U</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_W_Shaped</p></td> 
+   <td><p>bizible2_Atribución_W_Shape</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -484,13 +485,13 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Country</p></td> 
+   <td><p>bizible2_País_geográfico</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Region</p></td> 
+   <td><p>bizible2_Región_geográfica</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -538,7 +539,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Medio</p></td> 
+   <td><p>bizible2_Medium</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -550,7 +551,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_oportunityId</p></td> 
+   <td><p>bizible2_OpportunityId</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -664,7 +665,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Segment</p></td> 
+   <td><p>bizible2_Segmento</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -773,7 +774,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_oportunityId</p></td> 
+   <td><p>bizible2_OpportunityId</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -858,7 +859,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_oportunityId</p></td> 
+   <td><p>bizible2_OpportunityId</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -909,9 +910,9 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
  </tbody> 
 </table>
 
-## Entidades de Dynamics Standard {#dynamics-standard-entities}
+## Entidades estándar de Dynamics {#dynamics-standard-entities}
 
-Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Measure] interactúa con, así como con los campos personalizados que agregamos a estas entidades.
+Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Measure] interactúa con, así como con los campos personalizados que añadimos a estas entidades.
 
 **Cliente potencial**
 
@@ -924,7 +925,7 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <th><p>Escritura</p></th> 
   </tr> 
   <tr> 
-   <td><p>Leadid</p></td> 
+   <td><p>plomizo</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -936,25 +937,25 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>statcode</p></td> 
+   <td><p>código de estado</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>statuscode</p></td> 
+   <td><p>código de estado</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>creado</p></td> 
+   <td><p>creado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -966,7 +967,7 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>califyingoportunityid</p></td> 
+   <td><p>calificaciónoportunityid</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1027,13 +1028,13 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>creado</p></td> 
+   <td><p>creado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1070,13 +1071,13 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>creado</p></td> 
+   <td><p>creado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1113,19 +1114,19 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>creado</p></td> 
+   <td><p>creado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>statcode</p></td> 
+   <td><p>código de estado</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1137,7 +1138,7 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>salesstage</p></td> 
+   <td><p>etapa de ventas</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1149,25 +1150,25 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>estimmatedclosedate</p></td> 
+   <td><p>estimatedclosedate</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>actualvalue</p></td> 
+   <td><p>valor real</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_Oportunity_Amount</p></td> 
+   <td><p>bizible2_Bizible_Opportunity_Amount</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_oportunidad_cantidad_base</p></td> 
+   <td><p>bizible2_bizible_Opportunity_amount_Base</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1186,7 +1187,7 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <th><p>Escritura</p></th> 
   </tr> 
   <tr> 
-   <td><p>campaign</p></td> 
+   <td><p>campaignid</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1204,13 +1205,13 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>creado</p></td> 
+   <td><p>creado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1277,19 +1278,19 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>creado</p></td> 
+   <td><p>creado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>responsecode</p></td> 
+   <td><p>código de respuesta</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1307,7 +1308,7 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>sobreobjectid</p></td> 
+   <td><p>con respecto a objectid</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1337,7 +1338,7 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Oportunity</p></td> 
+   <td><p>bizible2_Touchpoint_Status_Opportunity</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1374,13 +1375,13 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>creado</p></td> 
+   <td><p>creado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1423,13 +1424,13 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>creado</p></td> 
+   <td><p>creado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1466,13 +1467,13 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>creado</p></td> 
+   <td><p>creado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado el</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1484,7 +1485,7 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>sobreobjectid</p></td> 
+   <td><p>con respecto a objectid</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 

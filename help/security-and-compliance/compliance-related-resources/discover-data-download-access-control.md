@@ -1,19 +1,20 @@
 ---
-description: "[!UICONTROL Descarga de datos de Discover] Control de acceso - Marketo Measure - Documentación del producto"
-title: "[!UICONTROL Descarga de datos de Discover] Control de acceso"
+description: '"[!UICONTROL Descarga de datos de Discover] Control de acceso: Marketo Measure, documentación del producto'
+title: '"[!UICONTROL Control de acceso de descarga de datos de Discover"]'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
-source-git-commit: 3d2d250933d16e3e8ab14f4863a76559b4349dbf
+feature: Discover
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# [!UICONTROL Descarga de datos de Discover] Control de acceso {#discover-data-download-access-control}
+# [!UICONTROL Control de acceso de descarga de datos de Discover] {#discover-data-download-access-control}
 
-[!UICONTROL Descarga de datos de Discover] control habilita [!DNL Marketo Measure] Los administradores configuran las políticas de descarga de datos para los tableros de Discover en función de las funciones de los usuarios. El control abarca todas las acciones de descarga de datos en tableros de Discover .
+[!UICONTROL Descarga de datos de Discover] el control habilita [!DNL Marketo Measure] Los administradores deben establecer las políticas de descarga de datos para los paneles de Discover en función de las funciones de los usuarios. El control cubre todas las acciones de descarga de datos en los paneles de Discover.
 
-1. Haga clic en **[!UICONTROL Acceso a datos]** under [!UICONTROL Seguridad].
+1. Clic **[!UICONTROL Acceso a datos]** bajo [!UICONTROL Seguridad].
 
    ![](assets/discover-data-download-access-control-1.png)
 
@@ -36,10 +37,10 @@ ht-degree: 0%
     </tr>
    </table>
 
-1. Haga clic en **[!UICONTROL Guardar]** cuando haya terminado.
+1. Clic **[!UICONTROL Guardar]** cuando termine.
 
    ![](assets/discover-data-download-access-control-3.png)
 
 >[!NOTE]
 >
->Es posible que la configuración no surta efecto hasta que los usuarios hayan cerrado la sesión y hayan vuelto a iniciarla.
+>Es posible que la configuración no surta efecto hasta que los usuarios hayan cerrado sesión y vuelto a iniciarla.

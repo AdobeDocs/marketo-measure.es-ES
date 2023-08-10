@@ -1,37 +1,38 @@
 ---
 unique-page-id: 18874628
-description: 'Oportunidades por canal de mercadotecnia: [!DNL Marketo Measure] - Documentación del producto'
-title: Oportunidades por canal de mercadotecnia
+description: Oportunidades por canal de marketing - [!DNL Marketo Measure] - Documentación del producto
+title: Oportunidades por canal de marketing
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Channels, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Oportunidades por canal de mercadotecnia {#opportunities-by-marketing-channel}
+# Oportunidades por canal de marketing {#opportunities-by-marketing-channel}
 
-Este informe muestra la cantidad de oportunidades generadas por los canales de mercadotecnia; incluye todas tus oportunidades. Sin embargo, puede filtrar este informe para analizar tipos específicos de oportunidades.
+Este informe muestra el número de oportunidades que generan sus canales de marketing; incluye todas las oportunidades. Sin embargo, puede filtrar este informe para analizar tipos específicos de oportunidades.
 
-1. Haga clic en el **[!UICONTROL Informes]** en Salesforce y seleccione **[!UICONTROL Nuevo informe]**.
+1. Haga clic en **[!UICONTROL Informes]** en Salesforce y seleccione **[!UICONTROL Nuevo informe]**.
 
-1. En Buscar rápidamente, escriba &quot;Atribución Bizible&quot; y seleccione la opción **[!UICONTROL Punto de contacto de atribución Bizible con Oportunidad]** tipo de informe y seleccione **[!UICONTROL Crear]**.
+1. En la búsqueda rápida escriba en &quot;Atribución Bizible&quot; y seleccione la **[!UICONTROL Punto de contacto de atribución Bizible con oportunidad]** Tipo de informe y seleccione **[!UICONTROL Crear]**.
 
    ![](assets/1-2.jpg)
 
-1. Comenzando por la parte superior del informe, se muestra **[!UICONTROL Todos los puntos de contacto de atribución Bizible]** y ajuste el campo de fecha según el intervalo de tiempo sobre el que desee crear el informe. En nuestro ejemplo, estamos viendo Todo el tiempo. Además, cambie el formato del informe de [!UICONTROL Tabular] a **[!UICONTROL Resumen]**.
+1. Desde la parte superior del informe, mostrar **[!UICONTROL Todos los puntos de contacto de atribución Bizible]** y ajuste el campo de fecha según el periodo de tiempo sobre el que desee informar. En nuestro ejemplo, estamos mirando Todo el tiempo. Además, cambie el formato del informe de [!UICONTROL Tabular] hasta **[!UICONTROL Resumen]**.
 
    ![](assets/2-2.jpg)
 
-1. Ahora, agregaremos campos al informe. En la búsqueda rápida de la izquierda, escriba &quot;Canal de marketing&quot; y agréguelo a la agrupación de resumen del informe.
+1. Ahora, se agregarán campos al informe. En la búsqueda rápida de la izquierda, escriba &quot;Canal de marketing&quot; y agréguelo a la agrupación Resumen del informe.
 
    ![](assets/3-2.jpg)
 
-1. Ahora, ejecute el informe y analice!
+1. Ahora, ejecute el informe y analice.
 
-   Este es un informe de oportunidades resumido por el Canal de mercadotecnia. Este informe se centra en todas las Opps, pero puede filtrarse según el escenario o el tipo de oportunidad. Además, no dude en agregar cualquier campo sobre el que desee informar.
+   Este es un informe de oportunidades resumido por canal de marketing. Este informe se centra en todas las aplicaciones, pero no dude en filtrar según la fase o el tipo de oportunidad. Además, no dude en agregar cualquier campo del que desee informar.
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universidad: Informes de SFDC de existencias](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] Universidad: Informes SFDC de Stock](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
