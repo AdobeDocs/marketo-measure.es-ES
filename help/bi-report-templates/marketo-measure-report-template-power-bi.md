@@ -4,7 +4,7 @@ title: '“Plantilla de informe de [!DNL Marketo Measure]: Power BI”'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2571'
 ht-degree: 100%
 
