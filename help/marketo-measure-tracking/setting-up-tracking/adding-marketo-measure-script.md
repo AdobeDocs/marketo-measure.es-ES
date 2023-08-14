@@ -5,7 +5,7 @@ title: Adición del script de  [!DNL Marketo Measure]
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
 ht-degree: 100%
 
