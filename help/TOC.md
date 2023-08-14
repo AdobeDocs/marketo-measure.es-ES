@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
-source-git-commit: faa04b417c5f0512d294bf2483aef3061b10d621
+source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '781'
 ht-degree: 99%
 
 ---
@@ -225,5 +225,6 @@ ht-degree: 99%
       + [Solicitud de privacidad](miscellaneous/other-related-resources/privacy-requests.md)
       + [Eliminar parámetros de seguimiento de  [!DNL Marketo Measure]  de la dirección URL de la página de destino en Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Transición a  [!DNL Marketo Measure]  desde “Full Circle”](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
+   + [Prueba](miscellaneous/test.md)
 + Notas de la versión {#release-notes}
    + [Notas de la versión actual](release-notes/current.md)
