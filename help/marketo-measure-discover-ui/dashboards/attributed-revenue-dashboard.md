@@ -4,11 +4,67 @@ title: Tablero de ingresos atribuidos
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
-source-wordcount: '10'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 8%
 
 ---
 
 # Tablero de ingresos atribuidos {#attributed-revenue-dashboard}
+
+El panel de control de ingresos atribuidos ofrece una perspectiva centrada en los ingresos directamente vinculados a sus iniciativas de marketing. Explore en profundidad cómo sus estrategias de marketing han sido fundamentales para sellar acuerdos.
+
+Preguntas que el tablero responde:
+
+¿Qué canales, subcanales o campañas tienen la clasificación más alta en términos de ingresos atribuidos?
+¿Cuál es la cantidad total de nuestros ingresos atribuidos y el recuento de nuestras ofertas cerradas atribuidas?
+
+<table style="table-layout:auto"> 
+<tbody>
+  <tr> 
+   <th>Componente</th> 
+   <th>Descripción</th>
+   <th>Explorar los campos</th>
+   <th>Tipo de datos</th>
+   <th>Filtros</th>
+  </tr>
+  <tr>
+    <td>Mosaico de ingresos totales</td>
+    <td>Ingresos totales procedentes de CRM, incluidos los ingresos atribuidos.</td>
+    <td rowspan="6"><li>Identificación de oportunidad</li>
+<li>Nombre de la oportunidad</li>
+<li>Fecha de creación de la oportunidad</li>
+<li>Fecha de cierre de oportunidad</li>
+<li>Está cerrado (S/N)</li>
+<li>Está ganado (S/N)</li>
+<li>Etapa actual</li>
+<li>Ingresos</li></td>
+    <td rowspan="6">Fecha de cierre</td>
+    <td rowspan="6">Fecha</td>
+  </tr>
+  <tr>
+    <td>Mosaico de ofertas totales</td>
+    <td>Número total de ofertas marcadas como "Cerradas ganadas" en CRM.</td>
+  </tr>
+  <tr>
+    <td>Mosaico de ingresos atribuidos</td>
+    <td>Ingresos totales atribuibles a las oportunidades "Cerradas ganadas" con puntos de contacto registrados.</td>
+  </tr>
+  <tr>
+    <td>Mosaico de ofertas atribuible</td>
+    <td>Número total de ofertas "Ganadas cerradas" de oportunidades atribuibles.</td>
+  </tr>
+  <tr>
+    <td>Gráfico de ingresos y de ingresos atribuidos</td>
+    <td>Este gráfico de barras de series temporales en paralelo proporciona una vista completa de la cobertura de atribución al yuxtaponer los ingresos totales con los ingresos atribuidos.
+    <br/>PICC</td>
+  </tr>
+  <tr>
+    <td>Gráfico de cobertura de atribución</td>
+    <td>Este gráfico circular proporciona una clara comparación visual entre los ingresos atribuidos y los no atribuidos. El pastel cubre los ingresos totales.
+    <br/>
+    PICC</td>
+  </tr>
+</tbody>
+</table>

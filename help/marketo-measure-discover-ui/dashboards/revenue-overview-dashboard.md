@@ -4,7 +4,7 @@ title: Panel de información general de ingresos
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -20,8 +20,8 @@ Preguntas que el tablero responde:
 * ¿Qué porcentaje de nuestros ingresos se puede atribuir a nuestros esfuerzos de marketing?
 * ¿Qué porcentaje de nuestros acuerdos &quot;Cerrados ganados&quot; se ha visto influido por nuestros esfuerzos de marketing?
 
-<table>
-<tbody> 
+<table style="table-layout:auto"> 
+<tbody>
   <tr> 
    <th>Componente</th> 
    <th>Descripción</th>
@@ -58,13 +58,13 @@ Preguntas que el tablero responde:
   <tr>
     <td>Gráfico de ingresos y de ingresos atribuidos</td>
     <td>Este gráfico de barras de series temporales en paralelo proporciona una vista completa de la cobertura de atribución al yuxtaponer los ingresos totales con los ingresos atribuidos.
-    <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
+    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
     <td>Gráfico de cobertura de atribución</td>
     <td>Este gráfico circular proporciona una clara comparación visual entre los ingresos atribuidos y los no atribuidos. El pastel cubre los ingresos totales.
     <br/>
-    <img src="assets/revenue-overview-dashboard-2.png"></td>
+    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
   </tr>
 </tbody>
 </table>
