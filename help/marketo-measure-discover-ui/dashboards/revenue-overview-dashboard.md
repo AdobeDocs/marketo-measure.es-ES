@@ -1,10 +1,8 @@
 ---
 description: Panel de información general de ingresos - [!DNL Marketo Measure] - Producto
 title: Panel de información general de ingresos
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -26,7 +24,7 @@ Preguntas que el tablero responde:
    <th>Componente</th> 
    <th>Descripción</th>
    <th>Explorar los campos</th>
-   <th>Tipo de datos</th>
+   <th>Tipo de fecha</th>
    <th>Filtros</th>
   </tr>
   <tr>

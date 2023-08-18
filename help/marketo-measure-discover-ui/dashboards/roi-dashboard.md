@@ -1,10 +1,8 @@
 ---
 description: Tablero de ROI - [!DNL Marketo Measure] - Producto
 title: Tablero de ROI
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 17%
@@ -26,8 +24,8 @@ Preguntas que el tablero responde:
  <tr> 
    <th>Componente</th> 
    <th>Descripción</th>
+   <th>Tipo de fecha</th>
    <th>Explorar los campos</th>
-   <th>Tipo de datos</th>
    <th>Filtros</th>
   </tr>
   <tr>
