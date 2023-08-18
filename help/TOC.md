@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
-source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
+source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 99%
+source-wordcount: '796'
+ht-degree: 97%
 
 ---
 
@@ -150,9 +150,15 @@ ht-degree: 99%
       + [Preguntas frecuentes (multidivisa)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + Interfaz de usuario de Discover de [!DNL Marketo Measure] {#marketo-measure-discover-ui}
    + Tableros {#dashboards}
-      + [Documentación del tablero de recorrido de cohorte](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
-      + [Documentación del tablero de pasaporte](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
-      + [Documentación del tablero de instantáneas](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
+      + [Descubra los conceptos básicos del panel](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Panel de información general de ingresos](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Tablero de ingresos atribuidos](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Tablero de ROI](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Panel de Passport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+   + Tableros preexistentes {#legacy-dashboards}
+      + [Documentación del tablero de recorrido de cohorte](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
+      + [Documentación del tablero de pasaporte](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
+      + [Documentación del tablero de instantáneas](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
    + Uso de la plataforma de generación de informes de [!DNL Marketo Measure] {#using-marketo-measures-reporting-platform}
       + [Casos de uso comunes](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
       + [Definiciones y enciclopedia](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
