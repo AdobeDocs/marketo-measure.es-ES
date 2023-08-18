@@ -4,10 +4,10 @@ title: Tablero de ingresos atribuidos
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
+source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 8%
+source-wordcount: '180'
+ht-degree: 14%
 
 ---
 
@@ -30,8 +30,8 @@ Preguntas que el tablero responde:
    <th>Filtros</th>
   </tr>
   <tr>
-    <td>Mosaico de ingresos totales</td>
-    <td>Ingresos totales procedentes de CRM, incluidos los ingresos atribuidos.</td>
+    <td>Mosaico de ingresos atribuidos</td>
+    <td>Ingresos totales atribuibles a las oportunidades "Cerradas ganadas" con puntos de contacto registrados.</td>
     <td rowspan="6"><li>Identificación de oportunidad</li>
 <li>Nombre de la oportunidad</li>
 <li>Fecha de creación de la oportunidad</li>
@@ -39,32 +39,32 @@ Preguntas que el tablero responde:
 <li>Está cerrado (S/N)</li>
 <li>Está ganado (S/N)</li>
 <li>Etapa actual</li>
-<li>Ingresos</li></td>
+<li>Modelo de atribución</li>
+<li>Ingresos atribuidos</li>
+<li>Ingresos realizados</li></td>
     <td rowspan="6">Fecha de cierre</td>
-    <td rowspan="6">Fecha</td>
-  </tr>
-  <tr>
-    <td>Mosaico de ofertas totales</td>
-    <td>Número total de ofertas marcadas como "Cerradas ganadas" en CRM.</td>
-  </tr>
-  <tr>
-    <td>Mosaico de ingresos atribuidos</td>
-    <td>Ingresos totales atribuibles a las oportunidades "Cerradas ganadas" con puntos de contacto registrados.</td>
+    <td rowspan="6"><li>Fecha</li>
+<li>Modelo de atribución</li>
+<li>Canal</li>
+<li>Subcanal</li>
+<li>Campaña</li>
+<li>Segmentos</li></td>
   </tr>
   <tr>
     <td>Mosaico de ofertas atribuible</td>
     <td>Número total de ofertas "Ganadas cerradas" de oportunidades atribuibles.</td>
   </tr>
   <tr>
-    <td>Gráfico de ingresos y de ingresos atribuidos</td>
-    <td>Este gráfico de barras de series temporales en paralelo proporciona una vista completa de la cobertura de atribución al yuxtaponer los ingresos totales con los ingresos atribuidos.
-    <br/>PICC</td>
+    <td>Ingresos atribuidos por canal a lo largo del tiempo</td>
+    <td>Gráfico de barras apiladas que muestra los ingresos totales atribuidos, segmentados por canal asociado, para cada trimestre/mes.
+    <br/><img src="assets/attributed-revenue-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
-    <td>Gráfico de cobertura de atribución</td>
-    <td>Este gráfico circular proporciona una clara comparación visual entre los ingresos atribuidos y los no atribuidos. El pastel cubre los ingresos totales.
-    <br/>
-    PICC</td>
+    <td>Tabla de ingresos atribuidos</td>
+    <td>Ingresos atribuidos totales segmentados por canal, subcanal y campaña, presentados en formato de tabla y árbol.
+    <br/><img src="assets/attributed-revenue-dashboard-2.png" width="600">
+    <br/><img src="assets/attributed-revenue-dashboard-3.png" width="600"></td>
+  </tr>
   </tr>
 </tbody>
 </table>
