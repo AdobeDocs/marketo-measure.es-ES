@@ -4,9 +4,9 @@ title: Nueva guía del tablero de Discover
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
+source-git-commit: b75d9c7dae8886646d2df9613634c260d2d7b281
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1069'
 ht-degree: 9%
 
 ---
@@ -503,6 +503,4 @@ Las nuevas funciones se encuentran en [Descubra los conceptos básicos del panel
 
 ## Comentarios {#feedback}
 
-Como nos esforzamos continuamente por mejorar su experiencia, le agradeceríamos enormemente sus comentarios sobre esta última actualización. Sus pensamientos influirán directamente en futuros refinamientos, asegurando que nuestra plataforma siempre se ajuste a sus necesidades.
-
-Proporcione instrucciones sobre cómo pueden compartir sus comentarios (por ejemplo, formulario de comentarios en la aplicación, correo electrónico, etc.)
+Como nos esforzamos continuamente por mejorar su experiencia, le agradeceríamos enormemente sus comentarios sobre esta última actualización. Sus pensamientos influirán directamente en futuros refinamientos, asegurando que nuestra plataforma siempre se ajuste a sus necesidades. Esté atento a un formulario de comentarios en Marketo Measure.
