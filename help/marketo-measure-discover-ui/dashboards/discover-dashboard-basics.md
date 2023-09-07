@@ -4,16 +4,20 @@ title: Descubra los conceptos básicos del panel
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 1%
+source-wordcount: '404'
+ht-degree: 0%
 
 ---
 
 # Descubra los conceptos básicos del panel {#discover-dashboard-basics}
 
 Este artículo le guiará a través de las funcionalidades básicas de la interfaz rediseñada, lo que garantiza que pueda acceder e interpretar sus datos sin esfuerzo. Explore la dinámica del panel de filtros y descubra las complejidades de nuestras funcionalidades de creación de informes mejoradas, como las funciones de taladro, el filtrado cruzado y la información sobre herramientas.
+
+>[!NOTE]
+>
+>Este tablero está actualmente en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto una vez que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
 
 ## Panel de filtro {#filter-pane}
 
@@ -23,26 +27,36 @@ Cada panel tiene una amplia gama de filtros, acompañados de los siguientes cont
  <tbody> 
   <tr> 
    <th>Nombre</th> 
-   <th>Icono</th>
    <th>Descripción</th>
   </tr> 
   <tr> 
-   <td>Botón Hamburguesa</td> 
-   <td><img src="assets/discover-dashboard-basics-1.png"></td>
-   <td>Cambie el panel de filtro a abierto o cerrado.</td>
+   <td>Botón de alternancia de filtro</td>
+   <td>Cambie el panel de filtro a abierto o cerrado.
+   <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Restablecer</td> 
-   <td><img src="assets/discover-dashboard-basics-2.png"></td>
-   <td>Devolver filtros a la configuración predeterminada.</td>
+   <td>Botón Restablecer</td>
+   <td>Devolver filtros a la configuración predeterminada.
+   <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Filtros en Visual Studio</td> 
-   <td><img src="assets/discover-dashboard-basics-3.png"></td>
-   <td>Pase el ratón sobre la esquina superior derecha de un elemento visual y haga clic en el botón para ver sus filtros activos.</td>
+   <td>Botón Aplicar</td>
+   <td>Haga clic en para confirmar e implementar los cambios de filtro en el panel.
+   <p><img src="assets/discover-dashboard-basics-3.png"></td>
+  </tr>
+  <tr> 
+   <td>Botón de segmento</td>
+   <td>En paneles con filtros de segmento, haga clic en el botón Segmento en la parte inferior del panel de filtros para pasar a Segmentos.
+   <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
+
+## Filtros en Visual Studio {#filters-on-visual}
+
+Pase el ratón por encima de la esquina superior derecha de una imagen para ver una lista de solo lectura de los filtros aplicados.
+
+![](assets/discover-dashboard-basics-3b.png)
 
 ## Capacidades de informes {#report-capabilities}
 
@@ -70,21 +84,24 @@ Utilice el icono de bifurcación para agregar un nivel de jerarquía adicional e
 
 ### Explorar en profundidad {#drill-through}
 
-* Para explorar los datos detrás del elemento visual, haga clic con el botón derecho en el elemento visual y seleccione la opción &quot;obtención de detalles&quot;.
+Para explorar los datos detrás del elemento visual, haga clic con el botón derecho en el elemento visual y seleccione la opción &quot;obtención de detalles&quot;.
 
-![](assets/discover-dashboard-basics-9.png)
+![](assets/discover-dashboard-basics-9.gif)
 
-* Para exportar los datos subyacentes, pase el ratón sobre la esquina superior derecha de la página de obtención de detalles, haga clic en el botón &quot;más opciones&quot; y seleccione &quot;exportar datos&quot;.
+### Exportar datos {#export-data}
 
-![](assets/discover-dashboard-basics-10.png)
+Para exportar los datos subyacentes de una imagen, pase el ratón sobre su esquina superior derecha. Haga clic en el botón &quot;más opciones&quot;, seleccione &quot;exportar datos&quot;, seleccione el formato que prefiera y haga clic en &quot;exportar&quot;.
+![](assets/discover-dashboard-basics-10.gif)
 
-* Para acercar una imagen o un mosaico específico, pase el ratón sobre la esquina superior derecha y seleccione el botón de &quot;enfoque&quot;.
+### Modo de enfoque {#focus-mode}
 
-![](assets/discover-dashboard-basics-11.png)
+Para acercar una imagen o un mosaico específico, pase el ratón sobre la esquina superior derecha y seleccione el botón de &quot;enfoque&quot;.
+
+![](assets/discover-dashboard-basics-11.gif)
 
 ### Filtrado cruzado {#cross-filtering}
 
-De forma predeterminada, al seleccionar un valor o una etiqueta de eje en una visualización, se filtrarán otros elementos visuales en la página del informe, lo que garantiza que solo se muestren los datos filtrados relevantes.
+Si se selecciona un valor o una etiqueta de eje en una visualización, se filtrarán otros elementos visuales en la página del informe, lo que garantiza que solo se muestren los datos filtrados relevantes.
 
 ![](assets/discover-dashboard-basics-12.gif)
 
