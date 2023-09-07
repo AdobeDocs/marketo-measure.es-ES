@@ -4,10 +4,10 @@ title: Tablero de ROI
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 17%
+source-wordcount: '754'
+ht-degree: 1%
 
 ---
 
@@ -15,210 +15,133 @@ ht-degree: 17%
 
 El panel ROI proporciona a los especialistas en marketing una vista granular de la rentabilidad de la inversión en canales, subcanales y campañas. Desglosa meticulosamente los patrones de coste e ingresos, a la vez que destaca métricas como coste por cliente potencial, acuerdo y oportunidad, lo que garantiza una comprensión integral de la atribución de marketing.
 
-Preguntas que el tablero responde:
+>[!NOTE]
+>
+>Este tablero está actualmente en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto una vez que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
+
+**Preguntas que el tablero responde:**
 
 * ¿Cuáles fueron los valores de ROI de cada canal, subcanal y campaña?
 * ¿Cómo se distribuyeron los costes y los ingresos en cada canal, subcanal y campaña?
 * ¿Cuál era el coste por posible cliente, el coste por acuerdo y el coste por oportunidad?
 
-<table style="table-layout:auto"> 
-<tbody>
- <tr> 
-   <th>Componente</th> 
-   <th>Descripción</th>
-   <th>Tipo de fecha</th>
-   <th>Explorar los campos</th>
-   <th>Filtros</th>
-  </tr>
-  <tr>
-    <td>Mosaico de coste</td>
-    <td>Costo total incurrido</td>
-    <td>Fecha de coste incurrido</td>
-    <td><li>Identificación de la campaña</li>
-<li>Nombre de la campaña</li>
-<li>Canal</li>
-<li>Subcanal</li>
-<li>Fecha</li>
-<li>Gastos</li></td>
-    <td rowspan="15"><li>Fecha</li>
-<li>Modelo de atribución (configuración)</li>
-<li>Canal</li>
-<li>Subcanal</li>
-<li>Campaña</li></td>
-  </tr>
-  <tr>
-    <td>Mosaico de ingresos atribuidos</td>
-    <td>Ingresos atribuidos totales</td>
-    <td>Fecha de cierre</td>
-    <td><li>Identificación de oportunidad</li>
-<li>Nombre de la oportunidad</li>
-<li>Fecha de creación de la oportunidad</li>
-<li>Fecha de cierre de oportunidad</li>
-<li>Está cerrado (S/N)</li>
-<li>Está ganado (S/N)</li>
-<li>Modelo de atribución</li>
-<li>Ingresos atribuidos</li>
-<li>Ingresos realizados</li></td>
-  </tr>
-  <tr>
-    <td>Mosaico de ROI simple</td>
-    <td>ROI heredado: ingresos divididos por costes en un periodo de tiempo determinado. 
-    <li>Coste: Coste incurrido en el período de fecha filtrado.</li>
-    <li>Ingresos: Ingresos procedentes de oportunidades "ganadas cerradas" en ese periodo de tiempo.</li></td>
-    <td>Fecha de cierre</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Mosaico de ROI realizado</td>
-    <td>ROI realizado: representa los resultados tangibles de los puntos de contacto generados por las campañas en un lapso de tiempo especificado.
-    <li>Coste: Coste incurrido en el período de fecha filtrado.</li>
-    <li>Ingresos: ingresos obtenidos a partir de todos los acuerdos "Cerrados ganados", específicamente aquellos influidos por puntos de contacto dentro del periodo de tiempo establecido.</li>
-    <br/><img src="assets/roi-dashboard-1.png" width="600"></td>
-    <td>Fecha de coste incurrido</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Mosaico de nuevos posibles clientes totales</td>
-    <td>Número total de posibles clientes nuevos (recuento completo) generados en un período especificado, incluidos los posibles clientes tocados y no tocados.</td>
-    <td>Fecha de creación</td>
-    <td rowspan="2">
-    <li>Identificación del lead</li>
-    <li>Email de cliente potencial</li>
-    <li>Fecha LC</li></td>
-  </tr>
-  <tr>
-    <td>Costo por nuevo mosaico de posibles clientes</td>
-    <td>Número total de posibles clientes nuevos (recuento completo) dividido por costes.</td>
-    <td>Fecha de creación</td>
-  </tr>
-  <tr>
-    <td>Mosaico Total De Nuevas Oportunidades</td>
-    <td>Número total de nuevas oportunidades (recuento completo) generadas en un período especificado, incluidos los posibles clientes tocados y no tocados.</td>
-    <td>Fecha de creación</td>
-    <td rowspan="2">
-    <li>Identificación de oportunidad</li>
-    <li>Nombre de la oportunidad</li>
-    <li>Fecha de creación de la oportunidad</li>
-    <li>Fecha de cierre de oportunidad</li>
-    <li>Está cerrado (S/N)</li>
-    <li>Está ganado (S/N)</li>
-    <li>Etapa actual</li></td>
-  </tr>
-  <tr>
-    <td>Costo por nuevo mosaico de oportunidad</td>
-    <td>Número total de nuevas oportunidades (recuento completo) dividido por costes.</td>
-    <td>Fecha de creación</td>
-  </tr>
-  <tr>
-    <td>Mosaico de ofertas totales</td>
-    <td>Número total de operaciones cerradas en un periodo especificado, incluidas las que no tienen puntos de contacto asociados.</td>
-    <td>Fecha de cierre</td>
-    <td><li>Identificación de oportunidad</li>
-<li>Nombre de la oportunidad</li>
-<li>Fecha de creación de la oportunidad</li>
-<li>Fecha de cierre de oportunidad</li>
-<li>Está cerrado (S/N)</li>
-<li>Está ganado (S/N)</li>
-<li>Etapa actual</li>
-<li>Moneda</li>
-<li>Modelo de atribución</li>
-<li>Ingresos atribuidos</li>
-<li>Ingresos realizados</li></td>
-  </tr>
-  <tr>
-    <td>Gráfico de costes e ingresos por canal</td>
-    <td>Gráfico de barras que ilustra el coste y los ingresos, diseñado para ofrecer una perspectiva comparativa de su magnitud en relación con varios canales, subcanales y campañas.
-    <br/><img src="assets/roi-dashboard-2.png" width="600"></td>
-    <td>Fecha de cierre</td>
-    <td>Coste:
-<br/>
-<li>Identificación de la campaña</li>
-<li>Nombre de la campaña</li>
-<li>Canal</li>
-<li>Subcanal</li>
-<li>Fecha de coste incurrido</li>
-<li>Moneda</li>
-<li>Gastos</li>
-<p>
-Ingresos:
-<br/>
-<li>Identificación de oportunidad</li>
-<li>Nombre de la oportunidad</li>
-<li>Fecha de creación de la oportunidad</li>
-<li>Fecha de cierre de oportunidad</li>
-<li>Está cerrado (S/N)</li>
-<li>Está ganado (S/N)</li>
-<li>Ingresos atribuidos</li>
-<li>Modelo de atribución</li>
-<li>Ingresos atribuidos</li>
-<li>Ingresos realizados</li></td>
-  </tr>
-  <tr>
-    <td>Rendimiento de la inversión realizado frente a simple con el tiempo</td>
-    <td>Gráfico de líneas de series temporales que muestra la comparación entre el ROI realizado y el simple, rastreando su progresión a lo largo del tiempo.
-    <br/><img src="assets/roi-dashboard-3.png" width="600"></td>
-    <td>ROI sencillo: fecha de coste incurrido y fecha de cierre
-    <p>ROI realizado: fecha de coste incurrido y fecha de punto de contacto</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Gráfico de coste con el tiempo</td>
-    <td>Gráfico de barras apiladas que muestra los costes totales trimestrales/mensuales, segmentados por canales individuales para obtener un desglose detallado.
-    <br/><img src="assets/roi-dashboard-4.png" width="600"></td>
-    <td>Fecha de coste incurrido</td>
-    <td rowspan="2"><li>Identificación de la campaña</li>
-<li>Nombre de la campaña</li>
-<li>Canal</li>
-<li>Subcanal</li>
-<li>Fecha de coste incurrido</li>
-<li>Moneda</li>
-<li>Gastos</li></td>
-  </tr>
-  <tr>
-    <td>Gráfico de coste por canal</td>
-    <td>Gráfico de barras que muestra el gasto de marketing segmentado por canales.
-    <br/><img src="assets/roi-dashboard-5.png" width="600"></td>
-    <td>Fecha de coste incurrido</td>
-  </tr>
-  <tr>
-    <td>Tabla de resumen de ROI</td>
-    <td>Tabla que muestra los ingresos atribuidos, los costes y el ROI segmentados por canales individuales para obtener un desglose detallado.
-<p>
-<b>Columnas:</b>
-<p>
-<li>Canal/Subcanal/Campaña</li>
-<li>Coste</li>
-<li>Ingresos atribuidos</li>
-<li>ROI sencillo</li>
-<li>ROI realizado</li>
-<li>Canalización sin realizar</li>
-<ul style="padding-left: 30px;"><li>Canalización desde puntos de contacto (oportunidades abiertas) asociados a campañas en un periodo de tiempo determinado</li></ul></td>
-    <td>ROI sencillo: fecha de coste incurrido y fecha de cierre
-    <p>ROI realizado: fecha de coste incurrido y fecha de punto de contacto</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Tabla de gasto de marketing</td>
-    <td>Tabla que muestra los costes, los nuevos posibles clientes, las oportunidades y las ofertas cerradas segmentadas por canales individuales para obtener un desglose detallado.
-<p>
-<b>Columnas:</b>
-<p>
-<li>Canal/Subcanal/Campaña</li>
-<li>Coste</li>
-<li>Nuevos posibles clientes</li>
-<li>Coste por nuevo posible cliente</li>
-<li>Nuevas oportunidades</li>
-<li>Costo por nueva oportunidad</li>
-<li>Acuerdos cerrados</li>
-<li>Coste por acuerdo cerrado</li></td>
-    <td><li>Coste: Fecha de coste incurrido</li>
-<li>Nuevos posibles clientes: Fecha de creación</li>
-<li>Nuevas oportunidades: Fecha de creación</li>
-<li>Ofertas Cerradas: Fecha de cierre</li></td>
-    <td>N/A</td>
-  </tr>
-</tbody>
-</table>
+## Componentes del panel {#dashboard-components}
+
+### Mosaicos KPI {#kpi-tiles}
+
+* **Coste**: Costes totales de fuentes de datos conectadas y costes cargados manualmente.
+* **Ingresos atribuidos**: Contribución de ingresos total, basada en el modelo de atribución elegido, de Oportunidades con puntos de contacto que se cerraron dentro del período de fecha filtrado
+* **Ingresos atribuidos realizados**: Contribución de ingresos total, basada en el modelo de atribución elegido, desde Oportunidades con puntos de contacto dentro del período de fecha filtrado, independientemente del momento en que se cerraron.
+* **Total de nuevos posibles clientes**: Número total de nuevos posibles clientes generados, incluidos los posibles clientes tocados y no tocados.
+* **Coste por nuevo posible cliente**: el coste medio por nuevo posible cliente, derivado del coste total dividido por el número total de nuevos posibles clientes.
+* **Total de nuevas oportunidades**: Número total de nuevas oportunidades generadas, incluidas las oportunidades tocadas y no tocadas.
+* **Costo por nueva oportunidad**: el coste medio por nueva oportunidad, derivado del coste total dividido por el número total de nuevas oportunidades.
+* **Ofertas totales**: el número de oportunidades &quot;ganadas cerradas&quot;, incluidas las oportunidades sin puntos de contacto.
+* **ROI sencillo**: Ingresos atribuidos divididos por costes en el periodo de fecha filtrado.
+* **ROI realizado**: Ingresos atribuidos realizados divididos por los costes en el periodo de fecha filtrado.
+
+![](assets/roi-dashboard-1.png)
+
+### Gráfico de costes e ingresos por canal {#cost-and-revenue-by-channel-graph}
+
+Gráfico de barras que ilustra el coste y los ingresos, diseñado para ofrecer una perspectiva comparativa de su magnitud en relación con varios canales, subcanales y campañas.
+
+* Aproveche las funcionalidades de desglose y aumento para categorizar los datos por subcanal y campaña.
+* Pase el ratón sobre cada barra para ver los ROI simples y reales.
+
+**Preguntas que responde el gráfico:**
+
+* ¿Cuáles fueron los valores de ROI de cada canal, subcanal y campaña?
+* ¿Existen canales o subcanales periféricos con costes inusualmente altos o bajos en relación con sus ingresos?
+
+![](assets/roi-dashboard-2.png)
+
+### ROI realizado frente a simple con el tiempo {#realized-vs-simple-roi-over-time}
+
+Gráfico de líneas de series temporales que muestra la comparación entre el ROI realizado y el simple, rastreando su progresión a lo largo del tiempo.
+
+* Pase el ratón sobre una sección del gráfico para ver los ROI simples y realizados.
+
+**Preguntas que responde el gráfico:**
+
+* ¿Cómo se compara el ROI realizado con el ROI simple en periodos de tiempo específicos?
+* ¿Cómo se relaciona la tendencia del ROI realizado con cualquier evento de marketing significativo durante el mismo periodo?
+
+![](assets/roi-dashboard-3.png)
+
+### Gráfico de coste con el tiempo {#cost-over-time-graph}
+
+Gráfico de barras apiladas que muestra los costos totales, segmentados por canales asociados para cada mes/trimestre/año.
+
+* Aproveche las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
+* Pase el ratón sobre un segmento de barra o el espacio entre barras para ver información detallada.
+
+**Preguntas que responde el gráfico:**
+
+* ¿En qué se diferencia el coste combinado de todos los canales de un trimestre/mes al siguiente?
+* ¿Cómo han evolucionado los costes de un canal específico con el paso del tiempo?
+
+![](assets/roi-dashboard-4.png)
+
+### Gráfico de coste por canal {#cost-by-channel-graph}
+
+Gráfico de barras que muestra el gasto de marketing segmentado por canal, subcanal o campaña.
+
+* Aproveche las funcionalidades de desglose y aumento para categorizar los datos por canal, subcanal o campaña.
+
+**Preguntas que responde el gráfico:**
+
+* ¿Qué subcanales o campañas dentro de un canal principal tienen la asignación más alta?
+* ¿Qué vías de marketing (canal, subcanal o campaña) parecen no tener fondos suficientes en comparación con otras?
+
+![](assets/roi-dashboard-5.png)
+
+### Tabla de resumen de ROI {#roi-summary-table}
+
+Tabla que muestra los ingresos atribuidos, los costes y el ROI segmentados por canales individuales para obtener un desglose detallado.
+
+* Haga clic en el icono &quot;+&quot; junto a cada canal para mostrar el desglose por subcanal y campaña.
+
+**Columnas:**
+
+* Canal/Subcanal/Campaña
+* Coste
+* Ingresos atribuidos
+* Ingresos atribuidos realizados
+* ROI sencillo
+* ROI realizado
+* Ingresos de canalización atribuidos no realizados: Ingresos de canalización vinculados a puntos de contacto (oportunidades abiertas) creados dentro del período de fecha filtrado.
+
+### Tabla de gasto de marketing {#marketing-spend-table}
+
+Tabla con costes, nuevos posibles clientes, oportunidades y ofertas cerrados segmentados por canales individuales para obtener un desglose detallado.
+
+* Haga clic en el icono &quot;+&quot; junto a cada canal para mostrar el desglose por subcanal y campaña.
+
+**Columnas:**
+
+* Canal/Subcanal/Campaña
+* Coste
+* Nuevos posibles clientes
+* Coste por nuevo posible cliente
+* Nuevas oportunidades
+* Costo por nueva oportunidad
+* Tratos
+* Costo por trato
+
+## Panel de filtro {#filter-pane}
+
+Este tablero está equipado con los siguientes ajustes y filtros:
+
+* Fecha
+   * Basado en:
+      * Fecha de creación: Posibles clientes, nuevas oportunidades
+      * Fecha de coste incurrido: coste
+      * Fecha de cierre: ingresos atribuidos (ROI simple), ofertas
+      * Touchpoint date: puntos de contacto de los ingresos atribuidos realizados (ROI realizado)
+* Modelo de atribución
+* Canal, Subcanal
+* Campaña
 
 >[!MORELIKETHIS]
 >
