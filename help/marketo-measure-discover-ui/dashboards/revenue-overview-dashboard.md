@@ -4,10 +4,10 @@ title: Panel de información general de ingresos
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: 09748b8ba76a89b2d955c8384ae926bb995c2171
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 7%
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
@@ -15,59 +15,54 @@ ht-degree: 7%
 
 El panel Información general de ingresos proporciona información sobre los ingresos totales derivados de su CRM, lo que arroja luz sobre el papel de las estrategias de marketing. Ofrece una visión general de cómo el marketing influye en los ingresos generales y contribuye al cierre exitoso de las ofertas.
 
-Preguntas que el tablero responde:
+>[!NOTE]
+>
+>Este tablero está actualmente en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto una vez que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
 
-* ¿Qué porcentaje de nuestros ingresos se puede atribuir a nuestros esfuerzos de marketing?
-* ¿Qué porcentaje de nuestros acuerdos &quot;Cerrados ganados&quot; se ha visto influido por nuestros esfuerzos de marketing?
+**Preguntas que el tablero responde:**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Componente</th> 
-   <th>Descripción</th>
-   <th>Explorar los campos</th>
-   <th>Tipo de fecha</th>
-   <th>Filtros</th>
-  </tr>
-  <tr>
-    <td>Mosaico de ingresos totales</td>
-    <td>Ingresos totales procedentes de CRM, incluidos los ingresos atribuidos.</td>
-    <td rowspan="6"><li>Identificación de oportunidad</li>
-<li>Nombre de la oportunidad</li>
-<li>Fecha de creación de la oportunidad</li>
-<li>Fecha de cierre de oportunidad</li>
-<li>Está cerrado (S/N)</li>
-<li>Está ganado (S/N)</li>
-<li>Etapa actual</li>
-<li>Ingresos</li></td>
-    <td rowspan="6">Fecha de cierre</td>
-    <td rowspan="6">Fecha</td>
-  </tr>
-  <tr>
-    <td>Mosaico de ofertas totales</td>
-    <td>Número total de ofertas marcadas como "Cerradas ganadas" en CRM.</td>
-  </tr>
-  <tr>
-    <td>Mosaico de ingresos atribuidos</td>
-    <td>Ingresos totales atribuibles a las oportunidades "Cerradas ganadas" con puntos de contacto registrados.</td>
-  </tr>
-  <tr>
-    <td>Mosaico de ofertas atribuible</td>
-    <td>Número total de ofertas "Ganadas cerradas" de oportunidades atribuibles.</td>
-  </tr>
-  <tr>
-    <td>Gráfico de ingresos y de ingresos atribuidos</td>
-    <td>Este gráfico de barras de series temporales en paralelo proporciona una vista completa de la cobertura de atribución al yuxtaponer los ingresos totales con los ingresos atribuidos.
-    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Gráfico de cobertura de atribución</td>
-    <td>Este gráfico circular proporciona una clara comparación visual entre los ingresos atribuidos y los no atribuidos. El pastel cubre los ingresos totales.
-    <br/>
-    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
-  </tr>
-</tbody>
-</table>
+* ¿Qué % de nuestros ingresos se puede atribuir a nuestros esfuerzos de marketing?
+* ¿Qué % de nuestros acuerdos &quot;Cerrados ganados&quot; se han visto influidos por nuestros esfuerzos de marketing?
+
+## Componentes del panel {#dashboard-components}
+
+### Mosaicos KPI {#kpi-tiles}
+
+* Ingresos totales: Ingresos totales de oportunidades &quot;ganadas cerradas&quot;, incluidas oportunidades sin puntos de contacto.
+* Ofertas totales: número de oportunidades &quot;ganadas cerradas&quot;, incluidas las oportunidades sin puntos de contacto.
+* Ingresos atribuidos: Ingresos totales de oportunidades &quot;ganadas cerradas&quot; con puntos de contacto.
+* Ofertas atribuidas: Número de oportunidades &quot;ganadas cerradas&quot; que tienen puntos de contacto.
+
+### Gráfico de ingresos y de ingresos atribuidos {#revenue-and-attributed-revenue-chart}
+
+Este gráfico de barras de series temporales en paralelo contrasta los ingresos totales con los ingresos atribuidos, lo que visualiza claramente su impacto de marketing en los ingresos generales.
+
+* Aproveche las funcionalidades de desglose y aumento para categorizar los datos por trimestre y año.
+* Pase el ratón sobre una sección del gráfico de barras para ver su información detallada.
+
+**Preguntas que responde el gráfico:**
+
+* ¿Qué % de nuestros ingresos de agosto de 2022 se puede atribuir a nuestras iniciativas de marketing?
+* ¿En qué se parecen los ingresos atribuidos en el tercer trimestre del año pasado y los del cuarto trimestre?
+
+![](assets/revenue-overview-dashboard-1.png)
+
+### Gráfico de cobertura de atribución {#attribution-coverage-chart}
+
+Este gráfico circular visualiza de forma distintiva la cobertura de atribución segmentando los ingresos totales en ingresos atribuidos y no atribuidos, destacando el porcentaje preciso de ingresos influenciado por los esfuerzos de marketing.
+
+**Preguntas que responde el gráfico:**
+
+* ¿Cuál fue el % de cobertura de ingresos atribuido a nuestros esfuerzos de marketing el año pasado?
+
+![](assets/revenue-overview-dashboard-2.png)
+
+## Panel de filtro {#filter-pane}
+
+Este tablero está equipado con los siguientes ajustes y filtros:
+
+* Modelo de atribución
+* Fecha (basada en la fecha de cierre)
 
 >[!MORELIKETHIS]
 >
