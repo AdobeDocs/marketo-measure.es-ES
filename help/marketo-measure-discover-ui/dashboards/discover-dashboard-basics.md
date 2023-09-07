@@ -4,9 +4,9 @@ title: Descubra los conceptos básicos del panel
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
+source-git-commit: db435a669ca9a24a0661191bef9e14a8f8c78eb6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,23 @@ Cada panel tiene una amplia gama de filtros, acompañados de los siguientes cont
    <th>Descripción</th>
   </tr> 
   <tr> 
-   <td>Botón de alternancia de filtro</td>
+   <td><b>Botón de alternancia de filtro</b></td>
    <td>Cambie el panel de filtro a abierto o cerrado.
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Botón Restablecer</td>
-   <td>Devolver filtros a la configuración predeterminada.
+   <td><b>Barra de búsqueda</b></td>
+   <td>Utilice la búsqueda de la parte superior del panel de filtros para buscar un filtro específico. Cada filtro también tiene su propia barra de búsqueda.
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Botón Aplicar</td>
-   <td>Haga clic en para confirmar e implementar los cambios de filtro en el panel.
+   <td><b>Botón Borrar filtro</b></td>
+   <td>Para borrar un filtro, haga clic en el icono de borrador situado en la esquina superior derecha de cada filtro.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td>Botón de segmento</td>
-   <td>En paneles con filtros de segmento, haga clic en el botón Segmento en la parte inferior del panel de filtros para pasar a Segmentos.
+   <td><b>Botón Aplicar</b></td>
+   <td>Haga clic en para confirmar e implementar los cambios de filtro en el panel.
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
