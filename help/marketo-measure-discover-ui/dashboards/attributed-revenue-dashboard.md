@@ -4,9 +4,9 @@ title: Tablero de ingresos atribuidos
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ El panel de control de ingresos atribuidos ofrece una perspectiva centrada en lo
 
 ### Mosaicos KPI {#kpi-tiles}
 
-* **Ingresos atribuidos**: Contribución de ingresos total, basada en el modelo de atribución elegido, de Oportunidades con puntos de contacto que se cerraron dentro del período de fecha filtrado
+* **Ingresos atribuidos**: Contribución de ingresos total, basada en el modelo de atribución elegido, de Oportunidades con puntos de contacto.
 * **Ofertas atribuidas**: El número de oportunidades &quot;ganadas cerradas&quot; que tienen puntos de contacto.
 
 ### Gráfico de ingresos atribuidos por canal a lo largo del tiempo {#attributed-revenue-by-channel-over-time-chart}
