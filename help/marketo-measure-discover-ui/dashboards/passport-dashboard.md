@@ -4,9 +4,9 @@ title: Panel de Passport
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ El panel Passport ofrece a los especialistas en marketing una vista dinámica de
 
 ![](assets/passport-dashboard-1.png)
 
-### Contactos en fase por nombre de fase {#contacts-in-stage-by-stage-name}
+### Posibles clientes o contactos en la fase por nombre de fase {#leads-or-contacts-in-stage-by-stage-name}
 
 * Cada fase muestra el número de posibles clientes o contactos con puntos de contacto que han pasado a través de ellos en un periodo de tiempo determinado.
    * La preferencia establecida en Configuración > Configuración de atribución > Objeto de panel predeterminado determina si se mostrará &quot;Posible cliente&quot; o &quot;Contacto&quot;.

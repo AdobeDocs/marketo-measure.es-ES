@@ -4,9 +4,9 @@ title: Tablero de ROI
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ El panel ROI proporciona a los especialistas en marketing una vista granular de 
 ### Mosaicos KPI {#kpi-tiles}
 
 * **Coste**: Costes totales de fuentes de datos conectadas y costes cargados manualmente.
-* **Ingresos atribuidos**: Contribución de ingresos total, basada en el modelo de atribución elegido, de Oportunidades con puntos de contacto que se cerraron dentro del período de fecha filtrado
+* **Ingresos atribuidos**: Ingresos totales de oportunidades &quot;ganadas cerradas&quot; con puntos de contacto.
 * **Ingresos atribuidos realizados**: Contribución de ingresos total, basada en el modelo de atribución elegido, desde Oportunidades con puntos de contacto dentro del período de fecha filtrado, independientemente del momento en que se cerraron.
 * **Total de nuevos posibles clientes**: Número total de nuevos posibles clientes generados, incluidos los posibles clientes tocados y no tocados.
 * **Coste por nuevo posible cliente**: el coste medio por nuevo posible cliente, derivado del coste total dividido por el número total de nuevos posibles clientes.

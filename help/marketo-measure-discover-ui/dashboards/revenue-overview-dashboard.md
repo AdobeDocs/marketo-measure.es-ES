@@ -4,7 +4,7 @@ title: Panel de información general de ingresos
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -28,10 +28,10 @@ El panel Información general de ingresos proporciona información sobre los ing
 
 ### Mosaicos KPI {#kpi-tiles}
 
-* Ingresos totales: Ingresos totales de oportunidades &quot;ganadas cerradas&quot;, incluidas oportunidades sin puntos de contacto.
-* Ofertas totales: número de oportunidades &quot;ganadas cerradas&quot;, incluidas las oportunidades sin puntos de contacto.
-* Ingresos atribuidos: Ingresos totales de oportunidades &quot;ganadas cerradas&quot; con puntos de contacto.
-* Ofertas atribuidas: Número de oportunidades &quot;ganadas cerradas&quot; que tienen puntos de contacto.
+* **Ingresos totales**: Ingresos totales de oportunidades &quot;ganadas cerradas&quot;, incluidas oportunidades sin puntos de contacto.
+* **Ofertas totales**: el número de oportunidades &quot;ganadas cerradas&quot;, incluidas las oportunidades sin puntos de contacto.
+* **Ingresos atribuidos**: Ingresos totales de oportunidades &quot;ganadas cerradas&quot; con puntos de contacto.
+* **Ofertas atribuidas**: El número de oportunidades &quot;ganadas cerradas&quot; que tienen puntos de contacto.
 
 ### Gráfico de ingresos y de ingresos atribuidos {#revenue-and-attributed-revenue-chart}
 
