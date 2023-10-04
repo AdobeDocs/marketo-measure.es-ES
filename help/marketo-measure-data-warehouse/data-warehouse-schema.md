@@ -5,9 +5,9 @@ title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '22610'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -4331,7 +4331,7 @@ Contactos importados desde el sistema de origen.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Esta función se ha desaprobado. No utilice esta columna.</p>
+        <p>Esta función está obsoleta. No utilice esta columna.</p>
       </td>
       <td>
         <p>N/A</p>
@@ -9557,7 +9557,7 @@ Posibles clientes importados desde el sistema de origen.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Esta función se ha desaprobado. No utilice esta columna.</p>
+        <p>Esta función está obsoleta. No utilice esta columna.</p>
       </td>
       <td>
         <p>N/A</p>
@@ -10175,7 +10175,7 @@ Oportunidades importadas desde el sistema de origen.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Esta función se ha desaprobado. No utilice esta columna.</p>
+        <p>Esta función está obsoleta. No utilice esta columna.</p>
       </td>
       <td>
         <p>N/A</p>
