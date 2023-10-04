@@ -1,12 +1,12 @@
 ---
 description: Documentación del producto  [!DNL Marketo Measure] , notas de la versión actual
 title: Notas de la versión actual
-exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
+exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 22f8cedf401a28444026d7b63384ce3cbabe0305
+source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 43%
+ht-degree: 46%
 
 ---
 
@@ -24,11 +24,11 @@ Todos los usuarios de Marketo Measure experimentarán nuestros paneles en la apl
 
 Está previsto que el nuevo conjunto de paneles pregenerados se introduzca en olas, desde la primera semana de octubre hasta finales de año. Estos nuevos paneles aparecerán automáticamente en las instancias, junto con información interna del producto y vínculos a la documentación.
 
-* [Nueva guía del tablero de Discover](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
+* [Nueva guía del panel Discover](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
 * [Descubra los conceptos básicos del panel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
-* [Panel de información general de ingresos](/help/marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md){target="_blank"}
-* [Tablero de ingresos atribuidos](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
-* [Tablero de ROI](/help/marketo-measure-discover-ui/dashboards/roi-dashboard.md){target="_blank"}
+* [Panel de información general sobre ingresos](/help/marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md){target="_blank"}
+* [Panel de ingresos atribuidos](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
+* [Panel de ROI ](/help/marketo-measure-discover-ui/dashboards/roi-dashboard.md){target="_blank"}
 * [Panel de Passport](/help/marketo-measure-discover-ui/dashboards/passport-dashboard.md){target="_blank"}
 
 >[!NOTE]
