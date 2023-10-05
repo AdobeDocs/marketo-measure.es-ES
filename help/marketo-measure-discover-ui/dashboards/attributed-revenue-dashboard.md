@@ -1,15 +1,16 @@
 ---
 description: Tablero de ingresos atribuidos - [!DNL Marketo Measure] - Producto
-title: Tablero de ingresos atribuidos
+title: Panel de ingresos atribuidos
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 1%
+source-wordcount: '388'
+ht-degree: 3%
 
 ---
 
-# Tablero de ingresos atribuidos {#attributed-revenue-dashboard}
+# Panel de ingresos atribuidos {#attributed-revenue-dashboard}
 
 El panel de control de ingresos atribuidos ofrece una perspectiva centrada en los ingresos directamente vinculados a sus iniciativas de marketing. Explore cómo sus estrategias de marketing han sido fundamentales para sellar acuerdos.
 
@@ -78,4 +79,6 @@ Este tablero está equipado con los siguientes ajustes y filtros:
 
 >[!MORELIKETHIS]
 >
->[Descubra los conceptos básicos del panel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Descubra los conceptos básicos del panel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+

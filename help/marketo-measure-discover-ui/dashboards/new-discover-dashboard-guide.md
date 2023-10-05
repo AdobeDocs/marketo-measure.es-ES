@@ -1,15 +1,16 @@
 ---
 description: 'Nueva guía del panel de Discover: [!DNL Marketo Measure] - Producto'
-title: Nueva guía del tablero de Discover
+title: Nueva guía del panel Discover
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 9%
+source-wordcount: '1076'
+ht-degree: 10%
 
 ---
 
-# Nueva guía del tablero de Discover {#new-discover-dashboard-guide}
+# Nueva guía del panel Discover {#new-discover-dashboard-guide}
 
 Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuestro objetivo principal es ofrecerle una experiencia más ágil e intuitiva. Con imágenes más limpias y una navegación más sencilla, esta renovación no solo conserva la mayoría de las métricas existentes, sino que también introduce perspectivas nuevas. Sumérjase y descubra la claridad mejorada y el valor añadido.
 
@@ -502,3 +503,9 @@ Las nuevas funciones se encuentran en [Descubra los conceptos básicos del panel
 ## Comentarios {#feedback}
 
 Como nos esforzamos continuamente por mejorar su experiencia, le agradeceríamos enormemente sus comentarios sobre esta última actualización. Sus pensamientos influirán directamente en futuros refinamientos, asegurando que nuestra plataforma siempre se ajuste a sus necesidades. Esté atento a un formulario de comentarios en Marketo Measure.
+
+>[!MORELIKETHIS]
+>
+>* [Descubra los conceptos básicos del panel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+

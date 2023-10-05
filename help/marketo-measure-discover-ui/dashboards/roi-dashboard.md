@@ -1,15 +1,16 @@
 ---
 description: Tablero de ROI - [!DNL Marketo Measure] - Producto
-title: Tablero de ROI
+title: Panel de ROI
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 1%
+source-wordcount: '758'
+ht-degree: 2%
 
 ---
 
-# Tablero de ROI {#roi-dashboard}
+# Panel de ROI  {#roi-dashboard}
 
 El panel ROI proporciona a los especialistas en marketing una vista granular de la rentabilidad de la inversión en canales, subcanales y campañas. Desglosa meticulosamente los patrones de coste e ingresos, a la vez que destaca métricas como coste por cliente potencial, acuerdo y oportunidad, lo que garantiza una comprensión integral de la atribución de marketing.
 
@@ -143,4 +144,6 @@ Este tablero está equipado con los siguientes ajustes y filtros:
 
 >[!MORELIKETHIS]
 >
->[Descubra los conceptos básicos del panel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Descubra los conceptos básicos del panel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+
