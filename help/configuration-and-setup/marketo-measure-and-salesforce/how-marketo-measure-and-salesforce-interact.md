@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874672
-description: Cómo [!DNL Marketo Measure] y [!DNL Salesforce] Interact - Marketo Measure - Documentación del producto
+description: 'Cómo [!DNL Marketo Measure] y [!DNL Salesforce] interactúan: Marketo Measure, documentación del producto'
 title: Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1719'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
@@ -15,29 +15,29 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-Vamos a echar un vistazo de alto nivel a la relación entre [!DNL Marketo Measure] y Salesforce.
+Echemos un vistazo de alto nivel a la relación entre [!DNL Marketo Measure] y Salesforce.
 
 ## Salesforce y [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-Una vez que [!DNL Marketo Measure] Se crea una cuenta de y [!DNL Salesforce] está conectado, [!DNL Marketo Measure] empezará a insertar datos de marketing en la instancia de CRM, siempre y cuando el [!DNL Marketo Measure] el paquete administrado está instalado y el [!DNL Marketo Measure] El usuario de Salesforce tiene permisos de edición.
+Una vez que se haya creado una cuenta de [!DNL Marketo Measure] y [!DNL Salesforce] está conectado, [!DNL Marketo Measure] empezará a insertar datos de marketing en la instancia de CRM, siempre y cuando el paquete administrado de [!DNL Marketo Measure] esté instalado y el usuario de Salesforce de [!DNL Marketo Measure] tenga permisos de edición.
 
-Si no ha instalado el [!DNL Marketo Measure] Paquete de Salesforce, [!DNL Marketo Measure] no escribirá ningún dato en la instancia de Salesforce.
+Si no ha instalado el paquete de Salesforce de [!DNL Marketo Measure], [!DNL Marketo Measure] no escribirá ningún dato en la instancia de Salesforce.
 
 ![](assets/1-3.png)
 
-De forma predeterminada, [!DNL Marketo Measure] exporta 200 registros por crédito de API cada vez que un trabajo envía datos a su CRM. Para la mayoría de los clientes, esto proporciona el equilibrio óptimo entre los créditos de API consumidos por [!DNL Marketo Measure] y requisitos de recursos de CPU en CRM. Sin embargo, para los clientes con configuraciones de CRM complejas, como flujos de trabajo y déclencheur, un tamaño de lote más pequeño podría ser útil para mejorar el rendimiento de CRM. Con este fin, [!DNL Marketo Measure] permite a los clientes configurar el tamaño del lote de exportación de CRM. Esta configuración está disponible en la [!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL General] página en la [!DNL Marketo Measure] la aplicación web y los clientes pueden elegir entre tamaños de lote de 200 (predeterminado), 100, 50 o 25.
+De forma predeterminada, [!DNL Marketo Measure] exporta 200 registros por crédito de API cada vez que un trabajo envía datos a su CRM. Para la mayoría de los clientes, esto proporciona el equilibrio óptimo entre los créditos de API consumidos por [!DNL Marketo Measure] y los requisitos de recursos de CPU en CRM. Sin embargo, para los clientes con configuraciones de CRM complejas, como flujos de trabajo y activadores, un tamaño de lote más pequeño podría ser útil para mejorar el rendimiento de CRM. Con este fin, [!DNL Marketo Measure] permite a los clientes configurar el tamaño del lote de exportación de CRM. Esta configuración está disponible en la página [!UICONTROL Configuración] > [!UICONTROL CRM] > [!UICONTROL General] en la aplicación web de [!DNL Marketo Measure] y los clientes pueden elegir entre tamaños de lote de 200 (predeterminado), 100, 50 o 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
 Al modificar esta configuración, tenga en cuenta que los tamaños de lote más pequeños consumirán más créditos de API de su CRM. Es aconsejable reducir el tamaño del lote solo si está experimentando un tiempo de espera de CPU o una carga de CPU alta en su CRM.
 
-## Objetos y acceso de Salesforce Standard {#salesforce-standard-objects-and-access}
+## Objetos y acceso estándar de Salesforce {#salesforce-standard-objects-and-access}
 
-Esta sección enumera las [!DNL Salesforce] Objetos estándar que [!DNL Marketo Measure] interactúa con, así como con los campos personalizados que agregamos a estos objetos una vez establecida la conexión y [!DNL Marketo Measure] El paquete está instalado. De serie, [!DNL Marketo Measure] NO escribirá en ningún estándar [!DNL Salesforce] Campos de objeto.
+Esta sección enumera los objetos estándar de [!DNL Salesforce] con los que [!DNL Marketo Measure] interactúa, así como los campos personalizados que añadimos a estos objetos una vez que esté establecida la conexión y que esté instalado el paquete de [!DNL Marketo Measure]. De forma predeterminada, [!DNL Marketo Measure] NO se escribirá en ningún campo de objeto de [!DNL Salesforce] estándar.
 
-**Cliente potencial**
+**Posible cliente**
 
 <table> 
  <tbody> 
@@ -666,7 +666,7 @@ Esta sección enumera las [!DNL Salesforce] Objetos estándar que [!DNL Marketo 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ContactId</p></td> 
+   <td><p>Contactid</p></td> 
    <td><p>Estándar</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -724,25 +724,25 @@ Esta sección enumera las [!DNL Salesforce] Objetos estándar que [!DNL Marketo 
 
 >[!NOTE]
 >
->Para garantizar la precisión de Marketo Measure al capturar eventos de eliminación en su cuenta de Salesforce, se requieren permisos replicables para los objetos siguientes. Los permisos replicables vienen de serie con los siguientes objetos:
+>Para garantizar la precisión de Marketo Measure al capturar eventos de eliminación en su cuenta de Salesforce, se requieren permisos replicables para los objetos siguientes. Los permisos replicables están incluidos de serie con los objetos siguientes:
 >
 >* Cuenta
 >* Campaña
 >* Abonado de la campaña
 >* Contacto
 >* Evento
->* Cliente potencial
+>* Posible cliente
 >* Oportunidad
 >* Tarea
 
 
 ## [!DNL Marketo Measure] Objetos personalizados en [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Aparte de crear campos personalizados en los objetos estándar de SFDC, una vez que [!DNL Marketo Measure] está instalado, creará un par de objetos personalizados. A continuación se muestra una lista de estos objetos personalizados junto con una tabla que indica los campos que [!DNL Marketo Measure] escribirá en.
+Además de crear campos personalizados en los objetos estándar de SFDC, una vez que [!DNL Marketo Measure] está instalado, creará un par de objetos personalizados. A continuación se muestra una lista de estos objetos personalizados junto con una tabla que indica los campos en los que [!DNL Marketo Measure] escribirá.
 
-**Punto de contacto del comprador**
+**Buyer Touchpoint**
 
-El punto de contacto del comprador es un [!DNL Marketo Measure] Objeto personalizado para encapsular las interacciones de marketing para contactos, posibles clientes y casos.
+Buyer Touchpoint es un objeto personalizado de [!DNL Marketo Measure] para encapsular las interacciones de marketing para contactos, posibles clientes y casos.
 
 <table> 
  <tbody> 
@@ -927,7 +927,7 @@ El punto de contacto del comprador es un [!DNL Marketo Measure] Objeto personali
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__medio__c</p></td> 
+   <td><p>bizible2__Medium__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1009,7 +1009,7 @@ El punto de contacto del comprador es un [!DNL Marketo Measure] Objeto personali
 
 **[!DNL Marketo Measure]Persona**
 
-El [!DNL Marketo Measure] La persona es un [!DNL Marketo Measure] Objeto personalizado relacionado con los objetos de posible cliente, contacto y caso.
+La persona de [!DNL Marketo Measure] es un objeto personalizado de [!DNL Marketo Measure] relacionado con los objetos Posible cliente, Contacto y Caso.
 
 <table> 
  <tbody> 
@@ -1026,7 +1026,7 @@ El [!DNL Marketo Measure] La persona es un [!DNL Marketo Measure] Objeto persona
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__plomo__c</p></td> 
+   <td><p>bizible2__Lead__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1046,11 +1046,11 @@ El [!DNL Marketo Measure] La persona es un [!DNL Marketo Measure] Objeto persona
  </tbody> 
 </table>
 
-## Punto de contacto de atribución del comprador {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-El punto de contacto de atribución del comprador es un [!DNL Marketo Measure] Objeto personalizado para encapsular la influencia del marketing en Oportunidades.
+Buyer Attribution Touchpoint es un objeto personalizado de [!DNL Marketo Measure] para encapsular la influencia del marketing en las oportunidades.
 
-**Punto de contacto de atribución del comprador**
+**Buyer Attribution Touchpoint**
 
 <table> 
  <tbody> 
@@ -1247,7 +1247,7 @@ El punto de contacto de atribución del comprador es un [!DNL Marketo Measure] O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__medio__c</p></td> 
+   <td><p>bizible2__Medium__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
