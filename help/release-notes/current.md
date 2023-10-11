@@ -4,9 +4,9 @@ title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ A continuación, encontrará todas las funciones nuevas y actualizadas de nuestr
 
 <p>
 
-**Descubrir rediseño de tableros**
+**Descubrir el rediseño de paneles**
 
-Todos los usuarios de Marketo Measure experimentarán nuestros paneles en la aplicación rediseñados que combinan una mayor facilidad de uso con un valor añadido. También estamos introduciendo nuevas métricas, como &quot;ROI realizado&quot;, que tiene en cuenta el retraso típico entre las inversiones de marketing y las compras en los mercados de lanzamiento de B2B.
+Todos los usuarios de Marketo Measure experimentarán nuestros paneles en la aplicación rediseñados que combinan una mayor facilidad de uso con un valor añadido. También estamos introduciendo nuevas métricas, como &quot;ROI realizado&quot;, que tiene en cuenta el retraso típico entre las inversiones de marketing y las compras en los mercados de lanzamiento B2B.
 
-Está previsto que el nuevo conjunto de paneles pregenerados se introduzca en olas, desde la primera semana de octubre hasta finales de año. Estos nuevos paneles aparecerán automáticamente en las instancias, junto con información interna del producto y vínculos a la documentación.
+Está previsto que el nuevo conjunto de paneles generados previamente se introduzca por olas, a partir de la primera semana de octubre hasta finales de año. Estos nuevos paneles aparecerán automáticamente en las instancias, junto con información interna del producto y vínculos a la documentación.
 
 * [Nueva guía del panel Discover](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
 * [Descubra los conceptos básicos del panel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
@@ -35,25 +35,25 @@ Está previsto que el nuevo conjunto de paneles pregenerados se introduzca en ol
 >
 >Aunque los paneles actuales quedarán obsoletos a mediados de enero de 2024, puede utilizar ambas versiones hasta entonces, lo que garantiza una transición sin problemas.
 
-### Degradaciones {#deprecations}
+### En desuso {#deprecations}
 
 <p>
 
 * **Campo &quot;custom_properties&quot;**
 
-En nuestro almacén de datos, el campo &quot;custom_properties&quot; ha servido como almacenamiento para puntos de datos adicionales no cubiertos por nuestro esquema fijo. Almacenado en formato JSON, el uso de este campo es limitado y su integración con consultas SQL puede ser complicada, lo que afecta al rendimiento. Dados estos factores, hemos decidido dejar este campo sin efecto. Este cambio afectará principalmente a la capa de procesamiento de datos dentro de nuestro almacenamiento de tablas de Azure y a los datos exportados a nuestro almacén de datos.
+En nuestro almacén de datos, el campo &quot;custom_properties&quot; ha servido como almacenamiento para puntos de datos adicionales que no están cubiertos por nuestro esquema fijo. Almacenado en formato JSON, el uso de este campo es limitado y su integración con consultas SQL puede ser complicada, lo que afecta al rendimiento. Dados estos factores, hemos decidido dejar este campo sin efecto. Este cambio afectará principalmente a la capa de procesamiento de datos dentro de nuestro almacenamiento de tablas de Azure y a los datos exportados a nuestro almacén de datos.
 
 * **Paquete de Dynamics relacionado**
 
-   * Para mantenerse conectado a Dynamics, instale la última versión del paquete, la 6.12. Versiones antiguas `(<v6.12)` ya no será compatible. Esta actualización optimiza la creación de registros históricos para reducir el uso del almacenamiento.
+   * Para mantenerse conectado a Dynamics, instale la última versión del paquete, 6.12. Versiones antiguas `(<v6.12)` ya no serán compatibles. Esta actualización optimiza la creación de registros históricos para reducir el uso del almacenamiento.
 
-   * El método obsoleto de OAuth con un RefreshToken quedará obsoleto. Consulte la [esta guía](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} para actualizar sus credenciales de modo que se ajusten a las prácticas recomendadas de Microsoft para utilizar ClientSecret.
+   * El método obsoleto de OAuth con un RefreshToken quedará obsoleto. Consulte [esta guía](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} para actualizar sus credenciales de modo que se ajusten a las prácticas recomendadas de Microsoft para utilizar ClientSecret.
 
 ### ¿Qué nos espera? {#q4-whats-coming}
 
 <p>
 
-**Informes personalizados en la aplicación**
+**Creación de informes personalizados en la aplicación**
 
 Los clientes de Marketo Measure, por primera vez, podrán crear y guardar sus propios informes directamente en la aplicación. Esto seguirá a la publicación de los paneles generados previamente a principios de 2024.
 
