@@ -4,9 +4,9 @@ description: Uso de un campo Importe de ingresos personalizado - [!DNL Marketo M
 title: Uso de un campo de importe de ingresos personalizado
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '681'
 ht-degree: 3%
 
 ---
@@ -26,29 +26,81 @@ Para empezar, necesitaremos la siguiente información:
 
 A partir de aquí, empezaremos a crear el flujo de trabajo.
 
+## Creación del flujo de trabajo en Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
+
+Los siguientes pasos están destinados a los usuarios de Salesforce Lightning. Si sigue utilizando Salesforce Classic, siga estos pasos [se enumeran a continuación](#create-the-workflow-in-salesforce-classic).
+
+1. En Configuración, escriba &quot;Flujos&quot; en el Cuadro de búsqueda rápida y seleccione **[!UICONTROL Flujos]** para iniciar el Generador de flujo. Haga clic en el panel derecho **[!UICONTROL Nuevo flujo]** botón.
+
+   ![](assets/using-a-custom-revenue-amount-field-1.png)
+
+1. Seleccionar **[!UICONTROL Flujo activado por registros]** y haga clic en **[!UICONTROL Crear]** en la parte inferior derecha.
+
+   ![](assets/using-a-custom-revenue-amount-field-2.png)
+
+1. En la ventana Configurar inicio, seleccione el objeto Oportunidad. Desde el [!UICONTROL Configuración del Déclencheur] , seleccione **[!UICONTROL Se crea o actualiza un registro]**.
+
+   ![](assets/using-a-custom-revenue-amount-field-3.png)
+
+1. En la sección Definir condiciones de entrada, en [!UICONTROL Requisitos de condición], seleccione **[!UICONTROL Se Cumple La Lógica De Condición Personalizada]**.
+   * En el campo de búsqueda, seleccione el campo Importe personalizado.
+   * Establecer el operador como **Es nulo** y el valor como **[!UICONTROL Falso]**.
+   * Defina los criterios de evaluación en **[!UICONTROL Cada vez que se actualiza un registro y se cumplen los requisitos de condición]**.
+
+   ![](assets/using-a-custom-revenue-amount-field-4.png)
+
+1. En la sección &quot;Optimizar el flujo para&quot;, seleccione **[!UICONTROL Actualizaciones rápidas de campos]**. Clic **[!UICONTROL Listo]** en la parte inferior derecha.
+
+   ![](assets/using-a-custom-revenue-amount-field-5.png)
+
+1. Para añadir el elemento, haga clic en el icono más (+) y seleccione **[!UICONTROL Actualizar registro de activación]**.
+
+   ![](assets/using-a-custom-revenue-amount-field-6.png)
+
+1. En la ventana Nuevos registros de actualización, introduzca lo siguiente:
+
+   * Introduzca una etiqueta: el nombre de la API se generará automáticamente
+   * En &quot;Cómo buscar registros para actualizar y establecer sus valores&quot;, seleccione **[!UICONTROL Usar el registro de oportunidad que activó el flujo]**.
+   * En el campo &quot;[!UICONTROL Establecer condiciones de filtro]&quot;, seleccione **[!UICONTROL Actualizar siempre el registro]** como requisito para actualizar el registro.
+   * En &quot;[!UICONTROL Definición de valores de campo para el registro de campaña],&quot; en el campo, seleccione el importe de la oportunidad de Marketo Measure y en el valor. A continuación, seleccione el campo Importe personalizado.
+   * Clic **[!UICONTROL Listo]**.
+
+   ![](assets/using-a-custom-revenue-amount-field-7.png)
+
+1. Haga clic en **[!UICONTROL Guardar]**. Aparecerá una ventana emergente. Escriba &quot;Flow Label&quot; en la ventana Save the Flow (el nombre de la API de flujo se generará automáticamente). Clic **[!UICONTROL Guardar]** otra vez.
+
+   ![](assets/using-a-custom-revenue-amount-field-8.png)
+
+1. Haga clic en **[!UICONTROL Activar]** para activar el flujo.
+
+   ![](assets/using-a-custom-revenue-amount-field-9.png)
+
+## Creación del flujo de trabajo en Salesforce Classic {#create-the-workflow-in-salesforce-classic}
+
+Los siguientes pasos están destinados a los usuarios de Salesforce Classic. Si ha realizado el cambio a Salesforce Lightning, siga estos pasos [se puede encontrar arriba](#create-the-workflow-in-salesforce-lightning).
+
 1. Vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Crear]** > **[!UICONTROL Flujo de trabajo y aprobaciones]** > **[!UICONTROL Reglas de flujo de trabajo]**.
 
-   ![](assets/1.jpg)
+   ![](assets/using-a-custom-revenue-amount-field-10.png)
 
 1. Seleccionar **[!UICONTROL Nueva regla]**, establezca el objeto como &quot;Oportunidad&quot; y haga clic en **[!UICONTROL Siguiente]**.
 
-   ![](assets/2.jpg)
+   ![](assets/using-a-custom-revenue-amount-field-11.png)
 
-   ![](assets/3.jpg)
+   ![](assets/using-a-custom-revenue-amount-field-12.png)
 
 1. Configure el flujo de trabajo. Establezca el nombre de la regla como &quot;Actualizar&quot; [!DNL Marketo Measure] Importe de oportunidad&quot;. Defina los Criterios de evaluación en &quot;Creado&quot; y cada vez que se edite. En Criterios de regla, seleccione el campo Importe personalizado y seleccione el Operador [!UICONTROL como &quot;No es igual a&quot;] y deje el campo &quot;Valor&quot; en blanco.
 
-   ![](assets/4.jpg)
+   ![](assets/using-a-custom-revenue-amount-field-13.png)
 
 1. Añada una acción de flujo de trabajo. Establecer esta lista desplegable en &quot;[!UICONTROL Nueva actualización de campo].&quot;
+   ![](assets/using-a-custom-revenue-amount-field-14.png)
 
-   ![](assets/5.jpg)
+1. Aquí rellenará la información de campo. En el campo &quot;Nombre&quot;, se recomienda utilizar este nombre:[!DNL Marketo Measure] Importe de Opp.&quot; El &quot;Nombre único&quot; se rellenará automáticamente en función del campo &quot;Nombre&quot;. En la lista de selección &quot;Campo para actualizar&quot;, seleccione &quot;[!DNL Marketo Measure] Importe de oportunidad&quot;. Después de seleccionar el campo, seleccione la casilla &quot;Volver a evaluar las reglas de flujo de trabajo después de cambiar el campo&quot;. En &quot;Especificar nuevo valor de campo&quot;, seleccione &quot;Usar una fórmula para establecer el nuevo valor&quot;. En el cuadro vacío, suelte el nombre de API del campo Cantidad personalizado. Haga clic en **[!UICONTROL Guardar]**.
 
-1. Aquí rellenará la información de campo. En el campo &quot;Nombre&quot;, se recomienda utilizar este nombre:[!DNL Marketo Measure] Importe de Opp.&quot; El &quot;Nombre único&quot; se rellenará automáticamente en función del campo &quot;Nombre&quot;. En la lista de selección &quot;Campo para actualizar&quot;, seleccione &quot;[!DNL Marketo Measure] Importe de oportunidad&quot;. Después de seleccionar el campo, seleccione la casilla &quot;Volver a evaluar las reglas de flujo de trabajo después de cambiar el campo&quot;. En &quot;Especificar nuevo valor de campo&quot;, seleccione &quot;Usar una fórmula para establecer el nuevo valor&quot;. En el cuadro vacío, suelte el nombre de API del campo Cantidad personalizado. Clic **[!UICONTROL Guardar]**.
+   ![](assets/using-a-custom-revenue-amount-field-15.png)
 
-   ![](assets/6.png)
-
-1. Se le volverá a una página de resumen para su flujo de trabajo, asegúrese de &quot;Activar&quot; y ya está listo para comenzar. Para activarlo, haga clic en **Editar** junto al nuevo flujo de trabajo y haga clic en **Activar**.
+1. Se le volverá a una página de resumen para su flujo de trabajo, asegúrese de &quot;Activar&quot; y ya está listo para comenzar. Para activarlo, haga clic en **[!UICONTROL Editar]** junto al nuevo flujo de trabajo y haga clic en **[!UICONTROL Activar]**.
 
    Una vez que haya completado estos pasos, las oportunidades deberán actualizarse para almacenar en déclencheur el flujo de trabajo y obtener el nuevo valor de la variable [!UICONTROL oportunidad personalizada] field.
 

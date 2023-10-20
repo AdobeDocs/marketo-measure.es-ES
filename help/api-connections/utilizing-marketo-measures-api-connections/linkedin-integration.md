@@ -4,9 +4,9 @@ description: 'Integración de linkedIn: [!DNL Marketo Measure] - Documentación 
 title: Integración de linkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2653'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Forms de generación de clientes potenciales: a través de la integración con F
 
 ## Disponibilidad {#availability}
 
-Disponible para todos los clientes.
+Disponible para todos los usuarios.
 
 ## Requisitos {#requirements}
 
@@ -127,6 +127,12 @@ Creative ID : Compartir 234
 
 ## Cómo funciona: Forms de generación de clientes potenciales {#how-it-works-lead-gen-forms}
 
+**[!DNL LinkedIn's]Requisitos exclusivos de etiquetado automático**
+
+[!DNL Marketo Measure] puede ayudarle a realizar el seguimiento de [!DNL LinkedIn] rendimiento de la campaña mediante el etiquetado automático de sus páginas de aterrizaje.
+
+[!DNL Marketo Measure] buscará elementos creativos con un recurso compartido de LinkedIn único y agregará un `?_bl={creativeId}` al final del mismo.
+
 **El proceso**
 
 Pasante [!DNL LinkedIn's] La API de formularios de publicidad y la API de respuesta de formularios de publicidad permiten recopilar datos de envío de formularios para una cuenta de publicidad y asociar la dirección de correo electrónico a un posible cliente de CRM o Marketo.
@@ -162,95 +168,99 @@ Una [!DNL Marketo Measure] ha etiquetado correctamente su página de aterrizaje 
  </colgroup> 
  <tbody> 
   <tr> 
-   <th>Campo Touchpoint</th> 
+   <th style="width:30%">Campo Touchpoint</th> 
    <th>Valor de muestra</th> 
   </tr> 
   <tr> 
-   <td><p>ID de anuncio </p></td> 
-   <td><p>84186224 </p></td> 
+   <td>ID de anuncio</td>
+   <td>84186224</td>
   </tr> 
   <tr> 
-   <td><p>Contenido de anuncios </p></td> 
-   <td><p>copy-1-image-2-man El 95 % de los especialistas en marketing #B2B consideran que la estrategia de creación de demanda es exitosa. Más información: [!DNL https]://lnkd.in/jgdi50vKrgv</p></td> 
+   <td>Contenido de anuncios</td>
+   <td>copy-1-image-2-man El 95 % de los especialistas en marketing #B2B consideran que la estrategia de creación de demanda es exitosa. Más información: [!DNL https]://lnkd.in/jgdi50vKrgv</td>
   </tr> 
   <tr> 
-   <td><p>ID de grupo de publicidad </p></td> 
-   <td><p>(en blanco) </p></td> 
+   <td>ID de grupo de publicidad</td>
+   <td>(en blanco)</td>
   </tr> 
   <tr> 
-   <td><p>Nombre del grupo de anuncios </p></td> 
-   <td><p>(en blanco) </p></td> 
+   <td>Nombre del grupo de anuncios</td>
+   <td>(en blanco)</td>
   </tr> 
   <tr> 
-   <td><p>ID de campaña de publicidad </p></td> 
-   <td><p>138949954 </p></td> 
+   <td>ID de campaña de publicidad</td>
+   <td>138949954</td>
   </tr> 
   <tr> 
-   <td><p>Nombre de campaña de anuncios </p></td> 
-   <td><p>SU - Cuentas COM - Capacidades de demanda </p></td> 
+   <td>Nombre de campaña de anuncios</td>
+   <td>SU - Cuentas COM - Capacidades de demanda</td>
   </tr> 
   <tr> 
-   <td><p>URL de destino del anuncio </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>URL de destino del anuncio <b>*</b></td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Formulario/URL </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>Formulario/URL</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>URL del formulario: sin procesar </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>URL del formulario: sin procesar</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>ID de palabra clave </p></td> 
-   <td><p>(en blanco) </p></td> 
+   <td>ID de palabra clave</td> 
+   <td>(en blanco)</td> 
   </tr> 
   <tr> 
-   <td><p>Tipo de coincidencia de palabra clave </p></td> 
-   <td><p>(en blanco) </p></td> 
+   <td>Tipo de coincidencia de palabra clave</td> 
+   <td>(en blanco)</td> 
   </tr> 
   <tr> 
-   <td><p>Página de aterrizaje </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders </p></td> 
+   <td>Página de aterrizaje</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
   </tr> 
   <tr> 
-   <td><p>Página de aterrizaje: sin procesar </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Página de aterrizaje: sin procesar</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Canal de marketing </p></td> 
-   <td><p>Social de pago </p></td> 
+   <td>Canal de marketing</td> 
+   <td>Social de pago</td> 
   </tr> 
   <tr> 
-   <td><p>Canal de marketing: ruta </p></td> 
-   <td><p>Social de pago.LinkedIn </p></td> 
+   <td>Canal de marketing: ruta</td> 
+   <td>Social de pago.LinkedIn</td> 
   </tr> 
   <tr> 
-   <td><p>Medio </p></td> 
-   <td><p>"cpc" o "Formulario de generación de clientes potenciales"</p></td> 
+   <td>Medio</td> 
+   <td>"cpc" o "Formulario de generación de clientes potenciales"</td> 
   </tr> 
   <tr> 
-   <td><p>Página del referenciador </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Página del referenciador</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Página de referente: sin procesar </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Página de referente: sin procesar</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Frase de búsqueda </p></td> 
-   <td><p>(en blanco) </p></td> 
+   <td>Frase de búsqueda</td> 
+   <td>(en blanco)</td> 
   </tr> 
   <tr> 
-   <td><p>Tipo de Touchpoint </p></td> 
-   <td><p>Formulario web </p></td> 
+   <td>Tipo de Touchpoint</td> 
+   <td>Formulario web</td>
   </tr> 
   <tr> 
-   <td><p>Origen del punto de contacto </p></td> 
-   <td><p>LinkedIn </p></td> 
+   <td>Origen del Touchpoint</td>
+   <td>LinkedIn</td>
   </tr> 
  </tbody> 
 </table>
+
+**&#42;** _El campo &quot;URL de destino de anuncio&quot; solo se rellena para el contenido patrocinado. No se rellena para Forms de generación de posibles clientes._
+
+<br>
 
 ## Costos {#costs}
 
@@ -344,7 +354,7 @@ Los datos de formulario están disponibles mediante [!DNL Marketo Measure] Descu
 
 **¿Qué le pasa a cualquiera? [!DNL LinkedIn] ¿Los posibles clientes que se han sincronizado anteriormente con programas de Marketo o campañas CRM?**
 
-Se recomienda ajustar cualquier [!DNL Marketo Measure] reglas para generar puntos de contacto a partir de esos programas o campañas específicos para evitar duplicaciones. La API de LinkedIn tiene una limitación retrospectiva de 90 días, por lo que si utiliza reglas de Marketo o CRM, se recomienda establecer la fecha de finalización de la regla en 90 días antes de la fecha en la que habilitó la integración en [!DNL Marketo Measure]. A partir de este momento, [!DNL Marketo Measure] Puede descargar estos posibles clientes para usted con buenos conocimientos y detalles.
+Se recomienda ajustar cualquier [!DNL Marketo Measure] reglas para generar puntos de contacto a partir de esos programas o campañas específicos para evitar duplicaciones. La API de LinkedIn tiene una limitación retrospectiva de 90 días, por lo que si utiliza reglas de Marketo o CRM, se recomienda establecer la fecha de finalización de la regla en 90 días antes de la fecha en la que habilitó la integración en [!DNL Marketo Measure]. A partir de este momento, [!DNL Marketo Measure] Puede descargar estos posibles clientes con más información y detalles.
 
 **¿Hay algún etiquetado automático o seguimiento relacionado?**
 
