@@ -5,9 +5,9 @@ title: “Cookies de [!DNL Marketo Measure]”
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que s
     <th>Vencimiento</th>
     <th>¿Tiene establecido el indicador seguro?<br></th>
     <th>¿Tiene establecido el indicador solo HTTP?</th>
-    <th>Establecedor de cookies</th>
+    <th>Configurador de cookies</th>
   </tr>
 </thead>
 <tbody>
@@ -67,7 +67,7 @@ Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que s
   <tr>
     <td>_biz_ABTestA</td>
     <td>Origen</td>
-    <td>Lista de sumas de comprobación de datos ABT de Optimizely y Visual Web Optimizer que ya se han notificado, lo que impide que bizible.js vuelva a enviar los datos recopilados.</td>
+    <td>Lista de sumas de comprobación de datos ABTests de Optimizely y Visual Web Optimizer que ya se han notificado, lo que impide que bizible.js vuelva a enviar los datos recopilados.</td>
     <td>1 año</td>
     <td>No</td>
     <td>No</td>
