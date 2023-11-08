@@ -3,10 +3,10 @@ description: 'Prácticas recomendadas para canales sin conexión: [!DNL Marketo 
 title: Prácticas recomendadas para canales sin conexión
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ El valor &quot;Canal de marketing&quot; para estos puntos de contacto se basa en
 Tanto si asigna los canales sin conexión por primera vez como si solo los revisa para comprobar su precisión, tenga en cuenta las siguientes prácticas recomendadas.
 
 * Crear un marco de trabajo deliberado para los canales sin conexión
-   * Dedique un tiempo a pensar en la organización de sus campañas de marketing y en cómo encajan en la [!DNL Marketo Measure] marco. Determine qué canales y subcanales deben representarse en sus canales sin conexión, así como qué tipos de campañas de CRM diferencian esos canales entre sí
+   * Dedique un tiempo a pensar en la organización de sus campañas de marketing y en cómo encajan en el marco de trabajo de [!DNL Marketo Measure]. Determine qué canales y subcanales deben representarse en sus canales sin conexión, así como qué tipos de campañas de CRM diferencian esos canales entre sí
 * Trabaje para utilizar primero los valores &quot;Type&quot; de la campaña de CRM actual
    * Los canales sin conexión se definen mediante la campaña de CRM &quot;Tipo&quot;; sin embargo, es posible que sea necesario crear un valor &quot;Tipo&quot; de campaña de CRM personalizado para dar cabida a los valores ideales de canal sin conexión y subcanal. Los valores &quot;Tipo&quot; de campaña de CRM personalizada ideal deben llevar la convención de nombres que se muestra a continuación:
       * CANAL: SUBCANAL
@@ -72,9 +72,9 @@ Si su equipo ha experimentado recientemente cualquiera de las situaciones anteri
 >
 >* [Configuración de canal sin conexión](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Sincronización de campaña personalizada: sincronización de aplicación](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Sincronización de campañas sin conexión: sincronización CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
->* [Campaign y miembros de Campaign sin conexión: sincronización de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
->* [Fechas de sincronización de Campaign: sincronización de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+>* [Sincronización de campañas sin conexión: sincronización CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [Campaign y miembros de Campaign sin conexión: sincronización de CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [Fechas de sincronización de Campaign: sincronización de CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
 >* [Configuraciones para varios tipos de registros de campaña](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Creación de una vista de lista de campaña](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Sincronización de datos históricos](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+>* [Creación de una vista de lista de campaña](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Sincronización de datos históricos](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

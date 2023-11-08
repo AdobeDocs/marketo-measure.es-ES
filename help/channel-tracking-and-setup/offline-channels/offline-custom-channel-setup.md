@@ -4,7 +4,7 @@ description: Configuración de canal personalizado sin conexión - [!DNL Marketo
 title: Configuración de canales personalizados sin conexión
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Cualquier tipo de campaña existente debe incluirse en el mapa de canal y se deb
 
 Tómese tiempo para entrar en [!DNL Salesforce] para determinar el número y la naturaleza de los tipos de registro existentes, que desea incluir, y si necesita crear campañas adicionales basadas en la información anterior. Una vez que haya rellenado toda la información necesaria, estará listo para cargar.
 
-Más información sobre [sincronización sin conexión [!DNL Salesforce] Campañas con [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
+Más información sobre [sincronización sin conexión [!DNL Salesforce] Campañas con [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
 
 ## Gestión de campañas de SFDC para esfuerzos de marketing en línea {#handling-sfdc-campaigns-for-online-marketing-efforts}
 

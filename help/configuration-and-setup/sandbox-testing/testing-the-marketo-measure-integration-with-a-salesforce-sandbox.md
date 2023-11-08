@@ -4,10 +4,10 @@ description: 'Prueba de la integración de Marketo Measure con una zona protegid
 title: Prueba de la integración de Marketo Measure con una zona protegida de Salesforce
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Uno de los [!DNL Marketo Measure] Las funcionalidades principales son su capacidad para rastrear los esfuerzos de marketing digital a través de acciones en el sitio web y luego transferir esos datos a la producción [!DNL Salesforce org] mediante posibles clientes y contactos. Sin embargo, normalmente no hay posibles clientes entrantes creados desde el sitio web dentro de una integración de zona protegida, por lo que el enfoque en los datos se centrará en ellos desde un punto de vista puramente sin conexión.
 
-Estas son las dos fuentes a las que se hace referencia en ambas fases de la prueba. [Pasos 1-4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) y [Pasos 5-6](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md). Se recomienda revisar estos documentos, ya que proporcionan más detalles en algunas áreas.
+Estas son las dos fuentes a las que se hace referencia en ambas fases de la prueba. [Pasos 1-4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) y [Pasos 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Se recomienda revisar estos documentos, ya que proporcionan más detalles en algunas áreas.
 
 1. Debe crear algunos posibles clientes en un CSV para poder cargarlos en una campaña. La manera de hacerlo es exportar algunos posibles clientes a través de un informe en el Salesforce de producción. De lo contrario, puede crear manualmente posibles clientes en un archivo de Excel y, a continuación, guardarlo como CSV para su importación. Sólo necesita unos 20 registros. El archivo debe tener las siguientes columnas:
 

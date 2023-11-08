@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 100%
+source-wordcount: '805'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 100%
    + Introducción a [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Generación y asignación de puntos de contacto](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [Metodología de asignación de atribuciones](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
+      + [Configuración de Adobe Admin Console](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Diferencia entre Buyer Touchpoints y Buyer Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
       + [Explicación de las posiciones y la generación de puntos de contacto entre BT y  [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [Integración sin paquetes CRM de [!DNL Marketo Measure]](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
@@ -80,13 +81,13 @@ ht-degree: 100%
       + [Configuración de canales personalizados sin conexión](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Sincronización de campañas personalizadas](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
       + [Configuraciones para varios tipos de registros de campaña](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-      + Procesos obsoletos {#deprecated-processes}
-         + [[!UICONTROL Campañas y miembros de campañas]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
-         + [Fechas de sincronización de campañas](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
-         + [Creación de una vista de lista de campañas para campañas de  [!DNL Salesforce] ](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-         + [Listas de marketing y campañas de Dynamics](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
-         + [Sincronización de datos históricos](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
-         + [Sincronización de campañas sin conexión](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+      + Procesos heredados {#legacy-processes}
+         + [[!UICONTROL Campañas y miembros de campañas]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+         + [Fechas de sincronización de campañas](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+         + [Creación de una vista de lista de campañas para campañas de  [!DNL Salesforce] ](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Listas de marketing y campañas de Dynamics](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
+         + [Sincronización de datos históricos](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+         + [Sincronización de campañas sin conexión](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 + Conexiones de API {#api-connections}
    + Uso conexiones de API de [!DNL Marketo Measure] {#utilizing-marketo-measures-api-connections}
       + [Plataformas de anuncios integradas](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)

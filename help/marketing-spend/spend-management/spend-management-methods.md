@@ -3,7 +3,7 @@ description: Métodos de administración de gastos - [!DNL Marketo Measure] - Do
 title: Métodos de administración de gastos
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Cada [!DNL Marketo Measure] tiene acceso a una función llamada [Sincronizar cos
 
 Una vez habilitada, esta función extraerá automáticamente el gasto de cualquier campaña o programa de CRM que cumpla los siguientes criterios
 
-i. [!DNL Marketo Measure] busca primero si la campaña o el programa está creando puntos de contacto, ya sea a partir de una [Regla de sincronización de Campaign](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) que se ha creado o una coincidencia [Regla de sincronización de programas](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) que se ha creado, o el [Activar valor de Touchpoints del comprador](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) es &quot;Incluir todos los miembros de la campaña&quot; o &quot;Incluir miembros de la campaña &quot;Respondidos&quot;&quot;.&quot;
+i. [!DNL Marketo Measure] busca primero si la campaña o el programa está creando puntos de contacto, ya sea a partir de una [Regla de sincronización de Campaign](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) que se ha creado o una coincidencia [Regla de sincronización de programas](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) que se ha creado, o el [Activar valor de Touchpoints del comprador](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) es &quot;Incluir todos los miembros de la campaña&quot; o &quot;Incluir miembros de la campaña &quot;Respondidos&quot;&quot;.&quot;
 
 ii. Se debe completar una Fecha de inicio en la campaña o programa
 
@@ -38,6 +38,6 @@ iv. Por último, se debe especificar un coste real (para campañas en SFDC) o un
 
 **3) Carga manual de costes**
 
-Este método le permite [carga manual de datos de gasto](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs) para los canales y subcanales que no están cubiertos por las cuentas conectadas a la API o la sincronización de costes de la campaña de CRM. Navegando a la sección Gasto en marketing de su [!DNL Marketo Measure] Con esta configuración, puede cargar los datos de gasto a través de un archivo CSV para cualquiera de sus canales.
+Este método le permite [carga manual de datos de gasto](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs) para los canales y subcanales que no están cubiertos por las cuentas conectadas a la API o la sincronización de costes de la campaña de CRM. Si navega hasta la sección Gasto en marketing en su [!DNL Marketo Measure] Con esta configuración, puede cargar los datos de gasto a través de un archivo CSV para cualquiera de sus canales.
 
 Los clientes pueden utilizar una combinación de estos tres métodos para administrar su gasto y dependerá de la configuración específica del [!DNL Marketo Measure]. Porque existen tres métodos para importar el gasto en [!DNL Marketo Measure], le recomendamos encarecidamente que utilice su panel Gasto en marketing ubicado en Discover para obtener una vista completa de todos los datos de gasto. Este tablero es el único lugar en el que podrá ver todos sus canales y su gasto asociado. El panel Gasto en marketing puede ayudarle a identificar rápidamente dónde pueden existir lagunas en los datos de gasto y cómo puede mejorar la creación de informes de ROI.

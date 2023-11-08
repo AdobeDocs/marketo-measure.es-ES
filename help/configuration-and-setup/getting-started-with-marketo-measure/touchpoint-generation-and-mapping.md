@@ -4,8 +4,8 @@ description: 'Generación y asignación de puntos de contacto: documentación de
 title: Generación y asignación de puntos de contacto
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
-workflow-type: ht
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ El proceso de asignación de puntos de contacto responde a la pregunta: “Una v
 >[!MORELIKETHIS]
 >
 >* [Asignación de puntos de contacto en línea a [!DNL Marketo Measure] Canales/Subcanales](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [Sincronización de Campañas de CRM desde SFDC](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [Sincronización de Campañas de CRM desde SFDC](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 >* [Sincronización de Campañas CRM desde [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [Asignación de Campañas CRM a [!DNL Marketo Measure] Canales/Subcanales](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Creación de puntos de contacto a partir de actividades de ventas](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
