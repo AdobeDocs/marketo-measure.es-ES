@@ -3,10 +3,10 @@ description: “Instalación y configuración del paquete de Salesforce de [!DNL
 title: “[!DNL Marketo Measure] [!DNL Salesforce] Instalación y configuración del paquete”
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: ht
-source-wordcount: '543'
-ht-degree: 100%
+source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 99%
 
 ---
 
@@ -48,16 +48,6 @@ Una vez finalizada la instalación, podrá actualizar sus [[!DNL Salesforce] dis
 >
 >Obtenga información sobre los conjuntos de permisos creados de [!DNL Marketo Measure] y [cómo se utilizarán](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
-## Instalación del paquete de tablero de [!DNL Marketo Measure] {#install-marketo-measure-dashboard-package}
-
-El paquete de extensión de [!UICONTROL tablero] contiene tres tableros creados previamente. Se recomienda instalar [!UICONTROL en] producción para todos los usuarios.
-
-1. Instale el paquete desde [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
-
-1. Seleccione **[!UICONTROL Instalar para todos los usuarios]**.
-
-   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-3.png)
-
 ## Creación de un perfil y un usuario de [!DNL Marketo Measure] {#creating-a-marketo-measure-profile-and-user}
 
 [!DNL Marketo Measure] envía y recibe datos a través de un usuario conectado de [!DNL Salesforce] dentro de la aplicación [!DNL Marketo Measure].
@@ -98,3 +88,7 @@ Paso 4: inicie sesión en su cuenta de [!DNL Marketo Measure] y vuelva a autoriz
 1. Seleccione **[!UICONTROL Conexiones]** en la agrupación **[!UICONTROL Integraciones]**.
 
 1. Haga clic en el icono de clave a la derecha de la conexión actual de [!DNL Salesforce] y seleccione **Volver a autorizar con producción**. Inicie sesión de nuevo con las nuevas credenciales de usuario (si se le solicita).
+
+>[!MORELIKETHIS]
+>
+>[Configuración de Adobe Admin Console](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
