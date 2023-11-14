@@ -4,10 +4,10 @@ description: Migración de zona protegida de Salesforce a producción - [!DNL Ma
 title: Migración de zona protegida de Salesforce a producción
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 8%
+source-wordcount: '331'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,6 @@ Si eligió realizar la prueba [!DNL Marketo Measure] en un [!DNL Salesforce] Ent
 * Instale los dos [!DNL Marketo Measure] en Producción con el complemento &quot;[!UICONTROL Todos los usuarios]&quot; configuración
 
    * [Paquete base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
-   * [Paquete de extensión de panel](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Para obtener más información sobre [!DNL Marketo Measure] relación con [!DNL Salesforce], eche un vistazo a [este artículo](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Un poco de [!DNL Salesforce] es necesaria la configuración de. Los elementos de acción específicos se describen a continuación en [Paso 4 siguiente](#salesforce-configuration)
