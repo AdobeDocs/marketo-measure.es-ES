@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
-workflow-type: ht
-source-wordcount: '805'
-ht-degree: 100%
+source-git-commit: bae0246c655d1778658da0845f31de599ea6263f
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 99%
 
 ---
 
@@ -222,6 +222,7 @@ ht-degree: 100%
       + [Restricciones de sesión de seguridad: Direcciones IP a lista de permitidos](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
    + [Información general sobre [!DNL Marketo Measure] Ultimate](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
+   + [Requisito de integridad de datos](marketo-measure-ultimate/data-integrity-requirement.md)
 + Varios {#miscellaneous}
    + Otros recursos relacionados {#other-related-resources}
       + [Mantenimiento de [!DNL Marketo Measure]](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
