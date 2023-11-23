@@ -6,8 +6,8 @@ user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
 source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 99%
       + [Restricciones de sesión de seguridad: Direcciones IP a lista de permitidos](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
    + [Información general sobre [!DNL Marketo Measure] Ultimate](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
-   + [Requisito de integridad de datos](marketo-measure-ultimate/data-integrity-requirement.md)
+   + [Requisito sobre la integridad de datos](marketo-measure-ultimate/data-integrity-requirement.md)
 + Varios {#miscellaneous}
    + Otros recursos relacionados {#other-related-resources}
       + [Mantenimiento de [!DNL Marketo Measure]](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
