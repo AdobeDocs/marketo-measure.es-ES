@@ -1,35 +1,36 @@
 ---
-description: '[!DNL Marketo Measure] Requisito definitivo de integridad de datos: [!DNL Marketo Measure] - Documentación del producto'
-title: '''[!DNL Marketo Measure] Requisito de integridad de datos definitivo"'
+description: '“[!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate [!DNL Marketo Measure] : Documentación del producto”'
+title: '''[!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
-workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 22%
+exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
+source-git-commit: 4d4dd1817547dc9fff0dd1f1b5e8bb88f5809120
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] Requisito de integridad de datos definitivo {#marketo-measure-ultimate-data-integrity-requirement}
+# [!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valida los conjuntos de datos de AEP entrantes para asegurarse de que los datos sean suficientes y coherentes para los fines de atribución. Si no se cumple el requisito de integridad de datos, el conjunto de datos será rechazado por el [!DNL Marketo Measure] sistema. Este documento detalla el requisito de integridad de los datos, proporciona ejemplos de consultas para la inspección de datos y recomienda una solución para los campos obligatorios con un valor nulo.
+[!DNL Marketo Measure] valida los conjuntos de datos de AEP entrantes para asegurarse de que los datos sean suficientes y coherentes para la atribución. Si no se cumple el requisito de integridad de datos, el conjunto de datos será rechazado por el sistema [!DNL Marketo Measure]. Este documento detalla el requisito de integridad de los datos, proporciona ejemplos de consultas para la inspección de datos y recomienda una solución para los campos obligatorios con un valor nulo.
 
-## Objeto Entity {#entity-object}
+## Objeto de entidad {#entity-object}
 
 <table style="table-layout:auto">
   <tr>
     <th>Clase XDM</th>
     <th>Grupo de campos XDM</th>
-    <th>Ruta de XDM</th>
+    <th>Ruta XDM</th>
     <th>Tipo de XDM</th>
     <th>Campo de fuente de datos</th>
-    <th>Obligatorio?</th>
+    <th>¿Es esto obligatorio?</th>
     <th>Notas</th>
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>Cuenta</strong> (Cuenta de Salesforce, compañía o cuenta con nombre para Marketo)</td>
+      <td colspan="7"><strong>Cuenta</strong> (cuenta de Salesforce, compañía y/o cuenta con nombre para Marketo)</td>
     </tr>
     <tr>
       <td rowspan="6">Cuenta empresarial de XDM</td>
@@ -46,7 +47,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td>ID</td>
       <td>Sí</td>
-      <td>Por ejemplo: - 123</td>
+      <td>P. ej., 123</td>
     </tr>
     <tr>
       <td></td>
@@ -90,7 +91,7 @@ ht-degree: 22%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Campaign</strong> (Campaña para Salesforce, Programa para Marketo)</td>
+      <td colspan="7"><strong>Campaña</strong> (campaña para Salesforce, programa para Marketo)</td>
     </tr>
     <tr>
       <td rowspan="8">Campaña empresarial de XDM</td>
@@ -107,7 +108,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td>ID</td>
       <td>Sí</td>
-      <td>Por ejemplo: - 55555</td>
+      <td>P. ej., 55555</td>
     </tr>
     <tr>
       <td></td>
@@ -185,7 +186,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>actualCost.amount</td>
-      <td>number</td>
+      <td>número</td>
       <td>Coste</td>
       <td>No</td>
       <td>Para el coste de campaña</td>
@@ -202,10 +203,10 @@ ht-degree: 22%
       <td>Para el coste de campaña</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Miembro de campaña</strong> (Miembro de la campaña para Salesforce, Pertenencias al programa para Marketo)</td>
+      <td colspan="7"><strong>Miembro de campaña</strong> (miembro de la campaña para Salesforce, miembros del programa para Marketo)</td>
     </tr>
     <tr>
-      <td rowspan="14">Miembros de campaña empresarial de XDM</td>
+      <td rowspan="14">Miembros de la campaña empresarial de XDM</td>
       <td></td>
       <td>campaignMemberKey.sourceKey</td>
       <td>cadena</td>
@@ -219,7 +220,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td>ID</td>
       <td>Sí</td>
-      <td>Por ejemplo: - 987654321</td>
+      <td>P. ej., 987654321</td>
     </tr>
     <tr>
       <td></td>
@@ -268,7 +269,7 @@ ht-degree: 22%
       <td>ID de posible cliente o ID de contacto</td>
       <td>Sí</td>
       <td>
-        <p>Por ejemplo: 333, según la tabla de fuente de datos, es el ID del posible cliente o el ID del contacto.</p>
+        <p>Por ejemplo: 333, según la tabla de fuente de datos, es el ID de posible cliente o el ID de contacto.</p>
         <p>Clave externa del posible cliente o contacto</p>
       </td>
     </tr>
@@ -300,11 +301,11 @@ ht-degree: 22%
       <td></td>
       <td>campaignKey.sourceID</td>
       <td>cadena</td>
-      <td>Identificación de la campaña</td>
+      <td>ID de campaña</td>
       <td>Sí</td>
       <td>
-        <p>Por ejemplo, 55555.</p>
-        <p>Clave externa de Campaign</p>
+        <p>P. ej., 55555.</p>
+        <p>Clave externa de la campaña</p>
       </td>
     </tr>
     <tr>
@@ -330,7 +331,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td>"Posible cliente" o "Contacto"</td>
       <td>Sí</td>
-      <td>Según la tabla de fuente de datos, se debe configurar como "Posible cliente" o "Contacto". Se recomienda configurarlo como "Contacto" para la mayoría de los casos de uso</td>
+      <td>Según la tabla de fuente de datos, se debe configurar como “Posible cliente” o “Contacto”. Se recomienda configurarlo como "Contacto" en la mayoría de los casos de uso</td>
     </tr>
     <tr>
       <td></td>
@@ -342,31 +343,31 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>hasResponded</td>
-      <td>boolean</td>
+      <td>HasResponded</td>
+      <td>booleano</td>
       <td>HasResponded</td>
       <td>Sí</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td>firstRespondedDate</td>
+      <td>FirstRespondedDate</td>
       <td>fecha-hora</td>
       <td>FirstRespondedDate</td>
       <td>No</td>
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Persona</strong> (Contacto o posible cliente de Salesforce, Personas para Marketo)</td>
+      <td colspan="7"><strong>Persona</strong> (contacto o posible cliente de Salesforce, personas para Marketo)</td>
     </tr>
     <tr>
       <td>Perfil individual de XDM</td>
-      <td rowspan="11">Detalles de persona de negocios de XDM</td>
+      <td rowspan="11">Detalles de la persona empresaria de XDM</td>
       <td>b2b.personKey.sourceKey</td>
       <td>cadena</td>
       <td></td>
       <td>Sí</td>
-      <td>p. ej.: 333@999-abc-888.Marketo</td>
+      <td>Por ejemplo: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -374,7 +375,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td>ID</td>
       <td>Sí</td>
-      <td>p. ej.: 333, según la tabla de fuente de datos, es el ID del posible cliente o el ID del contacto</td>
+      <td>P. ej.: 333, según la tabla de fuente de datos, es el ID de posible cliente o el ID de contacto</td>
     </tr>
     <tr>
       <td></td>
@@ -397,7 +398,7 @@ ht-degree: 22%
       <td>workEmail.address</td>
       <td>
         <p>cadena</p>
-        <p>email</p>
+        <p>correo electrónico</p>
       </td>
       <td>Correo electrónico</td>
       <td>Sí</td>
@@ -408,7 +409,7 @@ ht-degree: 22%
       <td>b2b.personStatus</td>
       <td>cadena</td>
       <td>Estado</td>
-      <td>Sí solo para Lead personType</td>
+      <td>Sí, solo para la personType del posible cliente</td>
       <td>Solo es necesario si b2b.personType es "Posible cliente"</td>
     </tr>
     <tr>
@@ -430,9 +431,9 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>b2b.isConverted</td>
-      <td>boolean</td>
+      <td>booleano</td>
       <td>IsConverted</td>
-      <td>Sí solo para Lead personType</td>
+      <td>Sí, solo para la personType del posible cliente</td>
       <td>Solo es necesario si b2b.personType es "Posible cliente"</td>
     </tr>
     <tr>
@@ -441,7 +442,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td>"Posible cliente" o "Contacto"</td>
       <td>Sí</td>
-      <td>Según la tabla de fuente de datos, se debe configurar como "Posible cliente" o "Contacto". Se recomienda configurarlo como "Contacto" para la mayoría de los casos de uso</td>
+      <td>Según la tabla de fuente de datos, se debe configurar como “Posible cliente” o “Contacto”. Se recomienda configurarlo como "Contacto" en la mayoría de los casos de uso</td>
     </tr>
     <tr>
       <td></td>
@@ -453,14 +454,14 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="4">Componentes de persona empresarial de XDM</td>
+      <td rowspan="4">Componentes de la persona empresaria de XDM</td>
       <td>personComponents.sourceAccountKey.sourceKey</td>
       <td>cadena</td>
       <td></td>
       <td>No</td>
       <td>
         <p>Por ejemplo: 123@999-abc-888.Marketo.</p>
-        <p>El conjunto de campos sourceAccountKey solo es "obligatorio" para registros de contacto verdaderos, definidos como registros de persona vinculados a Account. Si no lo hace, el conjunto de datos no se rechazará, pero los resultados de atribución estarán desactivados.</p>
+        <p>El conjunto de campos sourceAccountKey solo es “obligatorio” para registros de contacto verdaderos, definidos como registros de persona vinculados a la cuenta. S se omite, el conjunto de datos no se rechaza, pero los resultados de atribución se desactivan.</p>
         <p>personComponents es una matriz, pero Marketo Measure solo toma el primer elemento personComponents[0]</p>
       </td>
     </tr>
@@ -471,7 +472,7 @@ ht-degree: 22%
       <td>ID de cuenta</td>
       <td>No</td>
       <td>
-        <p>Por ejemplo, 123.</p>
+        <p>P. ej., 123.</p>
         <p>Clave externa de la cuenta</p>
       </td>
     </tr>
@@ -481,7 +482,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td></td>
       <td>No</td>
-      <td>p.ej.: 999-abc-888</td>
+      <td>Por ejemplo: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -492,12 +493,12 @@ ht-degree: 22%
       <td>Por ejemplo: Marketo</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Oportunidad</strong> (Oportunidad para Salesforce, Oportunidades para Marketo)</td>
+      <td colspan="7"><strong>Oportunidad</strong> (oportunidad para Salesforce, oportunidades para Marketo)</td>
     </tr>
     <tr>
-      <td rowspan="13">Oportunidad empresarial de XDM</td>
+      <td rowspan="13">Oportunidad de negocio de XDM</td>
       <td></td>
-      <td>opportunityKey.sourceKey</td>
+      <td>oportunidadKey.sourceKey</td>
       <td>cadena</td>
       <td></td>
       <td>Sí</td>
@@ -509,7 +510,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td>ID</td>
       <td>Sí</td>
-      <td>Por ejemplo: - 77777</td>
+      <td>P. ej., 77777</td>
     </tr>
     <tr>
       <td></td>
@@ -549,7 +550,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td></td>
       <td>Sí</td>
-      <td>p. ej.: 123@999-abc-888.Marketo</td>
+      <td>Por ejemplo: 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -558,7 +559,7 @@ ht-degree: 22%
       <td>ID de cuenta</td>
       <td>Sí</td>
       <td>
-        <p>Por ejemplo, 123.</p>
+        <p>P. ej., 123.</p>
         <p>Clave externa de la cuenta</p>
       </td>
     </tr>
@@ -580,7 +581,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>oportunidadName</td>
+      <td>opportunityName</td>
       <td>cadena</td>
       <td>Nombre</td>
       <td>Sí</td>
@@ -588,7 +589,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>oportunidadStage</td>
+      <td>opportunityStage</td>
       <td>cadena</td>
       <td>Fase</td>
       <td>Sí</td>
@@ -596,7 +597,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>oportunidadType</td>
+      <td>opportunityType</td>
       <td>cadena</td>
       <td></td>
       <td>No</td>
@@ -604,9 +605,9 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">Detalles de oportunidad empresarial de XDM</td>
+      <td rowspan="5">Detalles de oportunidad de negocio de XDM</td>
       <td>isWon</td>
-      <td>boolean</td>
+      <td>booleano</td>
       <td>IsWon</td>
       <td>Sí</td>
       <td></td>
@@ -614,7 +615,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>isClosed</td>
-      <td>boolean</td>
+      <td>booleano</td>
       <td>IsClosed</td>
       <td>Sí</td>
       <td></td>
@@ -630,7 +631,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>opportunityAmount.amount</td>
-      <td>number</td>
+      <td>número</td>
       <td>Monto</td>
       <td>Sí</td>
       <td></td>
@@ -647,16 +648,16 @@ ht-degree: 22%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Rol de contacto de oportunidad (necesario solo si planea utilizar el rol de contacto de oportunidad como grupo comprador para la atribución)</strong></td>
+      <td colspan="7"><strong>Función de contacto de oportunidad (solo es necesario si piensa utilizar la función de contacto de oportunidad como grupo comprador para la atribución)</strong></td>
     </tr>
     <tr>
-      <td rowspan="16">Relación de persona de oportunidad empresarial de XDM</td>
+      <td rowspan="16">Relación de persona de oportunidad de negocio de XDM</td>
       <td></td>
       <td>personKey.sourceKey</td>
       <td>cadena</td>
       <td></td>
       <td>Sí</td>
-      <td>p. ej.: 333@999-abc-888.Marketo</td>
+      <td>Por ejemplo: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -665,7 +666,7 @@ ht-degree: 22%
       <td>Identificación del contacto</td>
       <td>Sí</td>
       <td>
-        <p>Por ejemplo, 333.</p>
+        <p>p. ej., 333.</p>
         <p>Clave externa del contacto</p>
       </td>
     </tr>
@@ -688,14 +689,14 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>isPrimary</td>
-      <td>boolean</td>
+      <td>booleano</td>
       <td>IsPrimary</td>
       <td>Sí</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceKey</td>
+      <td>oportunidadKey.sourceKey</td>
       <td>cadena</td>
       <td></td>
       <td>Sí</td>
@@ -708,7 +709,7 @@ ht-degree: 22%
       <td>Identificación de oportunidad</td>
       <td>Sí</td>
       <td>
-        <p>Por ejemplo, 77777.</p>
+        <p>p. ej., 77777.</p>
         <p>Clave externa de oportunidad</p>
       </td>
     </tr>
@@ -742,7 +743,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td>ID</td>
       <td>Sí</td>
-      <td>p. ej.: 222222</td>
+      <td>p. ej., 222222</td>
     </tr>
     <tr>
       <td></td>
@@ -785,7 +786,7 @@ ht-degree: 22%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Tasa de conversión (solo es necesario si utiliza varias monedas; solo se puede activar un conjunto de datos de tasa de conversión en Marketo Measure)</strong></td>
+      <td colspan="7"><strong>Tasa de conversión (solo es necesaria si utiliza varias monedas; solo se puede activar un conjunto de datos de tasa de conversión en Marketo Measure)</strong></td>
     </tr>
     <tr>
       <td rowspan="7">Conversión</td>
@@ -802,7 +803,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td>ID</td>
       <td>Sí</td>
-      <td>p.ej. - 8888</td>
+      <td>p. ej., 8888</td>
     </tr>
     <tr>
       <td></td>
@@ -810,7 +811,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td></td>
       <td>Sí</td>
-      <td>Por ejemplo: - 0x012345</td>
+      <td>Por ejemplo: 0x012345</td>
     </tr>
     <tr>
       <td></td>
@@ -838,17 +839,17 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>isDeleted</td>
-      <td>boolean</td>
+      <td>IsDeleted</td>
+      <td>booleano</td>
       <td></td>
       <td>Sí</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">Detalles de tipo de cambio de divisa</td>
+      <td rowspan="5">Detalles de la tasa de conversión de moneda</td>
       <td>conversionRate</td>
-      <td>number</td>
+      <td>número</td>
       <td>ConversionRate</td>
       <td>Sí</td>
       <td></td>
@@ -873,7 +874,7 @@ ht-degree: 22%
       <td></td>
       <td>sourceISOCode</td>
       <td>cadena</td>
-      <td>Código ISOC</td>
+      <td>ISOCode</td>
       <td>Sí</td>
       <td>Por ejemplo, EUR</td>
     </tr>
@@ -883,7 +884,7 @@ ht-degree: 22%
       <td>cadena</td>
       <td></td>
       <td>Sí</td>
-      <td>El código de moneda predeterminado establecido en Marketo Measure, por ejemplo USD.</td>
+      <td>El código de moneda predeterminado establecido en Marketo Measure, por ejemplo, está en USD.</td>
     </tr>
   </tbody>
 </table>
@@ -894,10 +895,10 @@ ht-degree: 22%
   <tr>
     <th>Clase XDM</th>
     <th>Grupo de campos XDM</th>
-    <th>Ruta de XDM</th>
+    <th>Ruta XDM</th>
     <th>Tipo de XDM</th>
     <th>Campo de fuente de datos</th>
-    <th>Obligatorio?</th>
+    <th>¿Es esto obligatorio?</th>
     <th>Notas</th>
   </tr>
   <tbody>
@@ -907,7 +908,7 @@ ht-degree: 22%
     <tr>
       <td rowspan="3">ExperienceEvent de XDM</td>
       <td></td>
-      <td>_Identificación</td>
+      <td>_id</td>
       <td>cadena</td>
       <td>ID</td>
       <td>Sí</td>
@@ -923,7 +924,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>timestamp</td>
+      <td>marca de tiempo</td>
       <td>fecha-hora</td>
       <td>Fecha de la actividad</td>
       <td>Sí</td>
@@ -946,7 +947,7 @@ ht-degree: 22%
       <td>ID de posible cliente o ID de contacto</td>
       <td>Sí</td>
       <td>
-        <p>Por ejemplo: 333, según la tabla de fuente de datos, es el ID del posible cliente o el ID del contacto.</p>
+        <p>Por ejemplo: 333, según la tabla de fuente de datos, es el ID de posible cliente o el ID de contacto.</p>
         <p>Clave externa del posible cliente o contacto</p>
       </td>
     </tr>
@@ -970,11 +971,11 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>Añadir a campaña</td>
+      <td>Añadir a la campaña</td>
       <td>leadOperation.addToCampaign.campaignKey.sourceKey</td>
       <td>cadena</td>
       <td></td>
-      <td>Sí solo para el tipo leadOperation.addToCampaign</td>
+      <td>Sí, solo para el tipo leadOperation.addToCampaign</td>
       <td>Por ejemplo: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -982,11 +983,11 @@ ht-degree: 22%
       <td></td>
       <td>leadOperation.addToCampaign.campaignKey.sourceId</td>
       <td>cadena</td>
-      <td>Identificación de la campaña</td>
-      <td>Sí solo para el tipo leadOperation.addToCampaign</td>
+      <td>ID de campaña</td>
+      <td>Sí, solo para el tipo leadOperation.addToCampaign</td>
       <td>
-        <p>Por ejemplo, 55555.</p>
-        <p>Clave externa de Campaign</p>
+        <p>P. ej., 55555.</p>
+        <p>Clave externa de la campaña</p>
       </td>
     </tr>
     <tr>
@@ -995,7 +996,7 @@ ht-degree: 22%
       <td>leadOperation.addToCampaign.campaignKey.sourceInstanceId</td>
       <td>cadena</td>
       <td></td>
-      <td>Sí solo para el tipo leadOperation.addToCampaign</td>
+      <td>Sí, solo para el tipo leadOperation.addToCampaign</td>
       <td>Por ejemplo: 999-abc-888</td>
     </tr>
     <tr>
@@ -1004,16 +1005,16 @@ ht-degree: 22%
       <td>leadOperation.addToCampaign.campaignKey.sourceType</td>
       <td>cadena</td>
       <td></td>
-      <td>Sí solo para el tipo leadOperation.addToCampaign</td>
+      <td>Sí, solo para el tipo leadOperation.addToCampaign</td>
       <td>Por ejemplo: Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>Estado en progresión de campaña cambiado</td>
+      <td>El estado en progresión de la campaña ha cambiado</td>
       <td>leadOperation.campaignProgression.campaignKey.sourceKey</td>
       <td>cadena</td>
       <td></td>
-      <td>Sí solo para el tipo leadOperation.campaignProgression</td>
+      <td>Sí, solo para el tipo leadOperation.campaignProgression</td>
       <td>Por ejemplo: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -1021,11 +1022,11 @@ ht-degree: 22%
       <td></td>
       <td>leadOperation.campaignProgression.campaignKey.sourceId</td>
       <td>cadena</td>
-      <td>Identificación de la campaña</td>
-      <td>Sí solo para el tipo leadOperation.campaignProgression</td>
+      <td>ID de campaña</td>
+      <td>Sí, solo para el tipo leadOperation.campaignProgression</td>
       <td>
-        <p>Por ejemplo, 55555.</p>
-        <p>Clave externa de Campaign</p>
+        <p>P. ej., 55555.</p>
+        <p>Clave externa de la campaña</p>
       </td>
     </tr>
     <tr>
@@ -1034,7 +1035,7 @@ ht-degree: 22%
       <td>leadOperation.campaignProgression.campaignKey.sourceInstanceId</td>
       <td>cadena</td>
       <td></td>
-      <td>Sí solo para el tipo leadOperation.campaignProgression</td>
+      <td>Sí, solo para el tipo leadOperation.campaignProgression</td>
       <td>Por ejemplo: 999-abc-888</td>
     </tr>
     <tr>
@@ -1043,7 +1044,7 @@ ht-degree: 22%
       <td>leadOperation.campaignProgression.campaignKey.sourceType</td>
       <td>cadena</td>
       <td></td>
-      <td>Sí solo para el tipo leadOperation.campaignProgression</td>
+      <td>Sí, solo para el tipo leadOperation.campaignProgression</td>
       <td>Por ejemplo: Marketo</td>
     </tr>
   </tbody>
@@ -1059,66 +1060,66 @@ ht-degree: 22%
   </tr>
   <tbody>
     <tr>
-      <td>Nuevo lead</td>
+      <td>Nuevo posible cliente</td>
       <td>leadOperation.newLead</td>
       <td>Se utiliza para registrar la creación y los detalles de un nuevo posible cliente de marketing</td>
     </tr>
     <tr>
-      <td>Convertir lead</td>
+      <td>Convertir posible cliente</td>
       <td>leadOperation.convertLead</td>
       <td>Se utiliza cuando un posible cliente de marketing se convierte en un contacto calificado de ventas que se asigna a un usuario de ventas</td>
     </tr>
     <tr>
       <td>Momento interesante</td>
-      <td>leadOperation.interestingMoment</td>
-      <td>Se utiliza para rastrear actividades de alto valor de clientes potenciales</td>
+      <td>leadOperation.interestMoment</td>
+      <td>Se utiliza para realizar el seguimiento de actividades de alto valor de clientes potenciales</td>
     </tr>
     <tr>
       <td>Completar formulario</td>
       <td>web.formFilledOut</td>
-      <td>Se utiliza para recopilar datos cuando una persona rellena un formulario de una página web</td>
+      <td>Se utiliza para capturar datos cuando una persona rellena un formulario en una página web</td>
     </tr>
     <tr>
-      <td>Cancelar suscripción a emails</td>
-      <td>directMarketing.emailUnsubscribed</td>
-      <td>Se utiliza para recopilar datos cuando una persona cancela la suscripción de un correo electrónico</td>
+      <td>Cancelar suscripción a los correos electrónicos</td>
+      <td>directMarketing.emailUnsuscribed</td>
+      <td>Se utiliza para capturar datos cuando una persona cancela la suscripción de un correo electrónico</td>
     </tr>
     <tr>
-      <td>Abrir email</td>
+      <td>Abrir correo electrónico</td>
       <td>directMarketing.emailOpened</td>
-      <td>Se utiliza para recopilar datos cuando una persona abre un correo electrónico de marketing</td>
+      <td>Se utiliza para capturar datos cuando una persona abre un correo electrónico de marketing</td>
     </tr>
     <tr>
-      <td>Hacer clic en el email</td>
+      <td>Hacer clic en el correo electrónico</td>
       <td>directMarketing.emailClicked</td>
-      <td>Se utiliza para recopilar datos cuando una persona hace clic en un vínculo en un correo electrónico de marketing</td>
+      <td>Se utiliza para capturar datos cuando una persona hace clic en un vínculo en un correo electrónico de marketing</td>
     </tr>
     <tr>
-      <td>Cambiar estado en progresión</td>
-      <td>leadOperation.statusInCampaignProgressionChanged</td>
-      <td>Se utiliza para recopilar detalles cuando cambia el estado de un posible cliente en una campaña</td>
+      <td>Cambio de estado en progreso</td>
+      <td>leadOperation.statusInCampaignProgressChanged</td>
+      <td>Se utiliza para capturar datos cuando cambia el estado de un posible cliente en una campaña</td>
     </tr>
     <tr>
-      <td>Agregar a Programa de Participación (Agregar a Nutrir)</td>
+      <td>Añadir al programa de participación (añadir a Nurture)</td>
       <td>leadOperation.addToCampaign</td>
       <td>Se utiliza para añadir una persona a la campaña específica.</td>
     </tr>
   </tbody>
 </table>
 
-Utilice el tipo de evento &quot;Momento interesante&quot; para los tipos de evento no admitidos en la tabla anterior. Añada un campo personalizado para indicar el subtipo &quot;Momento interesante&quot;.
+Utilice el tipo de evento &quot;Momento interesante&quot; para los tipos de evento no admitidos en la tabla anterior. Añada un campo personalizado para indicar el subtipo “Momento interesante”.
 
-## Ejemplos de consultas para inspección de datos {#query-examples-for-data-inspection}
+## Ejemplos de consultas para la inspección de datos {#query-examples-for-data-inspection}
 
-A continuación se muestra una lista de ejemplos de consultas para inspeccionar conjuntos de datos ingeridos en el lago de datos de AEP. Para utilizarlos con sus conjuntos de datos, reemplace el nombre de tabla de los ejemplos de consulta siguientes por el nombre real de la tabla del conjunto de datos.
+A continuación, se muestra una lista de ejemplos de consultas para inspeccionar conjuntos de datos ingeridos en el lago de datos de AEP. Para utilizarlos con sus conjuntos de datos, reemplace el nombre de tabla de los ejemplos de consulta siguientes por el nombre real de la tabla del conjunto de datos.
 
 Esperamos que todos los recuentos sean 0.
 
-Para el campo personType, esperamos que solo haya valores &quot;Posible cliente&quot; o &quot;Contacto&quot; y que no haya ningún valor nulo.
+Para el campo personType, se espera que solo haya valores “Posible cliente” o “Contacto” y que no haya ningún valor nulo.
 
-Para todos los registros de personas de &quot;Contacto&quot;, se espera que haya una clave externa de Cuenta.
+Para todos los registros de personas de &quot;Contacto&quot;, se espera que haya una clave externa de cuenta.
 
-Para los registros de personas &quot;posibles clientes&quot;, no existe una clave externa de cuenta y no es necesaria. Si elige introducir registros de persona &quot;posible cliente&quot; como registros de persona de &quot;contacto&quot; (lo que se recomienda), no se requiere una clave externa de cuenta en esos registros de persona.
+Para los registros de personas “Posibles clientes”, no existe una clave externa de cuenta y tampoco es necesaria. Si decide introducir registros de persona &quot;Posible cliente&quot; como registros de persona de &quot;contacto&quot; (se recomienda), no se requiere una clave externa de cuenta en esos registros de persona.
 
 ### Cuenta empresarial de XDM {#xdm-business-account}
 
@@ -1194,7 +1195,7 @@ union all
 select 'last updated date', count(*) from salesforce_campaign_member where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### Persona empresarial de XDM {#xdm-business-person}
+### Persona empresaria de XDM {#xdm-business-person}
 
 ```
 select 'person source id', count(*) from marketo_person where b2b.personKey.sourceId is null
@@ -1248,7 +1249,7 @@ union all
 select 'last updated date', count(*) from salesforce_contact where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### Oportunidad empresarial de XDM {#xdm-business-opportunity}
+### Oportunidad de negocio de XDM {#xdm-business-opportunity}
 
 ```
 select 'opportunity source id', count(*) from salesforce_opportunity where opportunityKey.sourceId is null
@@ -1362,13 +1363,12 @@ union all
 select 'last updated date', count(*) from salesforce_contact where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-## Solución recomendada para campos obligatorios con un valor nulo {#recommended-solution-for-required-fields-with-a-null-value}
+## Solución recomendada para los campos obligatorios con valor NULL {#recommended-solution-for-required-fields-with-a-null-value}
 
-Se recomienda utilizar un campo calculado en la asignación de campos para establecer el campo de forma predeterminada en un valor no NULL. Los siguientes son dos ejemplos:
+Se recomienda utilizar un campo calculado en la asignación de campos para establecer el campo de forma predeterminada en un valor no NULL. A continuación, se muestran dos ejemplos:
 
 * Si el OpportunityName de algunos registros de oportunidad es nulo, cree y utilice el siguiente campo calculado en la asignación de campos
    * `iif(name != null && name != "", name, "Unknown")`
 
-* Si leadOperation.campaignProgression.campaignID de algunos registros experienceevent es nulo, cree y utilice el siguiente campo calculado en la asignación de campos
+* Si el leadOperation.campaignProgression.campaignID de algunos registros experienceevent es nulo, cree y utilice el siguiente campo calculado en la asignación de campos
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
-
