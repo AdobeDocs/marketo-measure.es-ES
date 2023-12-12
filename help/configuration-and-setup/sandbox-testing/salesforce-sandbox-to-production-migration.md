@@ -4,10 +4,10 @@ description: Migración de zona protegida de Salesforce a producción - [!DNL Ma
 title: Migración de zona protegida de Salesforce a producción
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: ad658a513b01dc7a51299abcb7313ff1877e49f3
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 6%
+source-wordcount: '322'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 Si eligió realizar la prueba [!DNL Marketo Measure] en un [!DNL Salesforce] Entorno de zona protegida, siga estas instrucciones para migrar al entorno de producción una vez que esté listo. Las siguientes instrucciones suponen que ya ha descargado el [!DNL Marketo Measure] en su organización de espacio aislado, ha realizado las pruebas necesarias y está listo para publicar [!DNL Marketo Measure] en Producción.
 
-## Paso 1: Instalación [!DNL Marketo Measure] Paquetes en su producción [!DNL Salesforce] Instancia {#install-marketo-measure-packages-into-your-production-salesforce-instance}
+## Paso 1: Instalar el [!DNL Marketo Measure] Empaquetar en su producción [!DNL Salesforce] Instancia
 
-* Instale los dos [!DNL Marketo Measure] en Producción con el complemento &quot;[!UICONTROL Todos los usuarios]&quot; configuración
+* Instale el [!DNL Marketo Measure] paquete en Producción con el complemento &quot;[!UICONTROL Todos los usuarios]&quot; configuración
 
    * [Paquete base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
@@ -49,7 +49,7 @@ Si eligió realizar la prueba [!DNL Marketo Measure] en un [!DNL Salesforce] Ent
 
 [Diseños de páginas](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
 
-[Conjuntos de permisos de ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+[Conjuntos de permisos](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
 [Uso compartido de informes](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
