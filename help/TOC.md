@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
-source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 99%
 
 ---
 
@@ -152,13 +152,16 @@ ht-degree: 100%
    + Tableros {#dashboards}
       + [Descubra los conceptos básicos del panel](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Nueva guía del panel Discover](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Panel de información general sobre ingresos](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Panel de ingresos atribuidos](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-        [Panel de Participación](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [Panel de ROI ](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Panel de Passport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Panel de tráfico web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [Directiva de visibilidad de datos del panel](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Panel de ingresos atribuidos](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Tablero de participación](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Tablero de velocidad del posible cliente](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Tablero de velocidad de oportunidad](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Panel de Passport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Panel de información general sobre ingresos](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Panel de ROI ](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Panel de tráfico web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+
    + Paneles heredados {#legacy-dashboards}
       + [Documentación del tablero de recorrido de cohorte](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Documentación del tablero de pasaporte](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
