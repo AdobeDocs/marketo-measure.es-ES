@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
-source-git-commit: 4d91899f6126a83b29170c7c5bbe146ed49ad9b0
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 98%
 
 ---
@@ -92,6 +92,7 @@ ht-degree: 98%
 + Conexiones de API {#api-connections}
    + Uso conexiones de API de [!DNL Marketo Measure] {#utilizing-marketo-measures-api-connections}
       + [Plataformas de anuncios integradas](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+      + [Información general sobre permisos de integración](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [Prácticas recomendadas para conexiones de API](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [Cómo afectan a  [!DNL Marketo Measure] las herramientas de administración de ofertas](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [Parámetros de [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
