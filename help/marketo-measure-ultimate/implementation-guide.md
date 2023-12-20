@@ -1,19 +1,17 @@
 ---
 description: '[!DNL Marketo Measure] Guía de implementación definitiva: [!DNL Marketo Measure] - Documentación del producto'
 title: '[!DNL Marketo Measure] Guía de implementación definitiva'
-hide: true
-hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
+source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '966'
 ht-degree: 6%
 
 ---
 
 # [!DNL Marketo Measure] Guía de implementación de Ultimate {#marketo-measure-ultimate-implementation-guide}
 
-FRASE INTRODUCTORIA
+Este artículo sirve como guía de implementación para Marketo Measure Ultimate, y proporciona pasos y perspectivas claros para garantizar una integración y utilización exitosas.
 
 ## Diferencias principales al utilizar Ultimate con respecto a los niveles estándar {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -84,7 +82,7 @@ Para los que tengan un _**Derechos de CDP**_: Cree esquemas en la página Oríge
    >* Si asigna un tipo de esquema a otro idéntico, se realiza automáticamente.
    >* También puede importar la asignación desde otro flujo del sistema.
    >* Puede asignar un campo de origen a varios campos de destino, pero no puede hacer lo contrario.
-   >* Puede crear campos calculados (por ejemplo, funciones de asignación de preparación de datos).
+   >* Puede crear campos calculados ([Funciones de asignación de preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Página Orígenes > Flujos de datos para comprobar el estado de los flujos de da
 * Para ver los errores de flujo de datos, seleccione un flujo de datos, elija una ejecución de flujo de datos y haga clic en &quot;Previsualización de diagnósticos de error&quot;.
 
 ## Inspección de datos {#data-inspection}
-
-Ejemplo: Requisito de integridad de datos de Marketo Measure Ultimate Este documento incluye campos obligatorios para cada XDM, así como consultas de inspección. Se publicará en ExL. - YA ESTÁ ETIQUETADO ARRIBA - POST DE NUEVO???
 
 Opción 1: para ejecutar consultas directamente desde la interfaz de usuario, acceda a la pestaña Consultas en Administración de datos.
 
