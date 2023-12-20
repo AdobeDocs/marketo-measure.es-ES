@@ -4,7 +4,7 @@ title: Información general sobre permisos de integración
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 4%
@@ -18,13 +18,13 @@ Esta guía describe los permisos necesarios para una integración perfecta con M
 <table>
 <thead>
   <tr>
-    <th>Integración</th>
-    <th>Tipo de datos
+    <th style="width:10%">Integración</th>
+    <th style="width:20%">Tipo de datos
     <li>Datos de interacción web</li>
     <li>Datos del sistema B2B</li>
     <li>Datos de plataforma de publicidad</li></th>
-    <th>Qué rastreamos</th>
-    <th>Requisitos de permisos</th>
+    <th style="width:30%">Qué rastreamos</th>
+    <th style="width:40%">Requisitos de permisos</th>
   </tr>
 </thead>
 <tbody>
