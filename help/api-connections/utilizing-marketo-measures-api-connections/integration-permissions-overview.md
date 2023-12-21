@@ -4,9 +4,9 @@ title: Información general sobre permisos de integración
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
+source-git-commit: d7ded9075f7f5831314d59294327f1e4928baf8a
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '636'
 ht-degree: 4%
 
 ---
@@ -68,55 +68,118 @@ Los puntos de contacto creados y otros datos se escriben en campos bidimensional
     </td>
   </tr>
   <tr>
-    <td></td>
+    <td>Dynamics</td>
+    <td>Datos del sistema B2B</td>
+    <td>Marketo Measure está realizando un seguimiento:
+    <p>
+    <li>Cuenta
+<li>ActivityParty
+<li>ActivityPointer
+<li>Campaña
+<li>CampaignItem (CampaignList en nuestro sistema)
+<li>CampaignResponse (miembro de Campaign en nuestro sistema)
+<li>Contacto
+<li>Posible cliente
+<li>Lista (MarketingList en nuestro sistema)
+<li>ListMember (MarketingListMember en nuestro sistema)
+<li>Oportunidad
+<li>Organización
+<li>TransactionCurrency (CurrencyConversionRange y CurrencyStatus en nuestro sistema)
+<li>Cita, Actividad de campaña, Correo electrónico, Fax, Resolución de incidentes, Carta, Llamada de teléfono, Cita recurrente, Maestro, Cita de servicio, Tarea
+<li>bizible2_bizible_abtest
+<li>bizible2_bizible_attribution_touchpoint
+<li>bizible2_bizible_event
+<li>bizible2_bizible_history
+<li>bizible2_bizible_touchpoint
+<p>
+Los puntos de contacto creados y otros datos se escriben en campos bizbibles personalizados en Account, Campaign, CampaignResponse, Contact, Lead, List, Opportunity y PhoneCall</td>
+    <td><b>Permisos de usuario de Marketo Measure</b>
+<p>
+Se recomienda crear un usuario de Marketo Measure específico dentro de Dynamics para exportar e importar datos a través de a fin de evitar problemas con otros usuarios en su CRM. Tome nota del nombre de usuario y la contraseña, así como de la dirección URL del extremo, ya que este se utilizará al crear la cuenta de Marketo Measure.
+<p>
+<b>Funciones de seguridad</b>
+<p>
+Si su organización utiliza funciones de seguridad de Dynamics, asegúrese de que el usuario conectado o el usuario de Marketo Measure específico tenga suficientes permisos de lectura y escritura para las entidades requeridas.
+<br>
+Aquí se encuentran las funciones de seguridad: Configuración &gt; Seguridad &gt; Funciones de seguridad
+<br>
+Para las entidades personalizadas de Marketo Measure, necesitaremos permisos completos en todas nuestras entidades.
+<p>
+<b>Permisos de campo de Dynamics Standard</b>
+<br>
+<a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Esquema de Marketo Measure Dynamics</a>
+<p>
+<b>Permisos de campo personalizado de Dynamics</b>
+<br>
+Necesitamos acceso de LECTURA para cualquier campo de la entidad de posible cliente o contacto que el cliente desee utilizar para las reglas personalizadas de Suprimir/Eliminar configuración de punto de contacto.
+<br>
+Necesitamos acceso de LECTURA para cualquier campo de la entidad de cliente potencial u oportunidad que el cliente desee utilizar para las reglas de segmentos o la asignación de etapas.
+<br>
+Necesitamos acceso de LECTURA para cualquier campo de las entidades Campaign, CampaignResponse y List que el cliente desee utilizar para sincronizar miembros de Campaign/MarketingList.
+</td>
+  </tr>
+  <tr>
+    <td>Facebook</td>
+    <td>Datos de plataforma de publicidad</td>
+    <td>Nos integramos con Facebook para lo siguiente:
+<p>
+<li>Importar datos de anuncios de clientes</li>
+<li>Importar datos de coste de anuncios de clientes</li>
+<li>Actualizar los anuncios del cliente añadiendo parámetros de URL</li>
+<p>
+Marketo Measure realiza un seguimiento de cuentas, campañas, grupos de publicidad, anuncios, ID de filtro y direcciones URL.</td>
+    <td><li>El permiso ads_management es necesario para crear campañas, gestionar anuncios o recuperar métricas de publicidad.</li>
+<li>Se requiere el permiso de correo electrónico para permitir que los usuarios inicien sesión en su correo electrónico de Facebook.</li>
+<p>
+<b>Ámbitos</b>
+<p>
+<a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
+<br>
+<li>Cree campañas mediante programación, administre anuncios y recupere métricas.</li>
+<li>Cree herramientas de administración de anuncios que proporcionen soluciones innovadoras y un valor diferenciado para los anunciantes.</li>
+<p>
+<a href="https://developers.facebook.com/docs/permissions/reference/email">email</a>
+<br>
+<li>Comunicarse con las personas y permitirles iniciar sesión en la aplicación con la dirección de correo electrónico asociada a su perfil de Facebook.</li></td>
+  </tr>
+  <tr>
+    <td>LinkedIn</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>DoubleClick</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>AdWords</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>Bing</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>Marketo Engage</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
+    <td>Adobe Analytics</td>
     <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bizible Javascript</td>
     <td></td>
     <td></td>
     <td></td>
