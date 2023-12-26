@@ -4,9 +4,9 @@ title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ A continuación, encontrará todas las funciones nuevas y actualizadas de nuestr
 
 <p>
 
-**Tablero de tráfico web**
+**Panel de tráfico web**
 
-El recién rediseñado [Panel de tráfico web](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} ahora es accesible para todos los clientes. Este tablero ofrece una descripción general completa de las interacciones del visitante del sitio web. Puede analizar métricas como los recuentos de visitantes únicos por URL, las visitas generales, las vistas de página y los envíos de formularios desde direcciones URL de formularios o páginas de aterrizaje específicos. También puede realizar un seguimiento de las tendencias de tráfico mensuales e identificar medios de pago de alto rendimiento, lo que le ayudará a refinar sus estrategias para una óptima generación de ingresos.
+El recién rediseñado [Panel de tráfico web](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} ahora es accesible para todos los clientes. Este panel ofrece una descripción general completa de las interacciones del visitante del sitio web. Puede analizar métricas como los recuentos de visitantes únicos por URL, las visitas generales, las vistas de página y los envíos de formularios desde direcciones URL de formularios o páginas de destino específicos. También puede realizar un seguimiento de las tendencias de tráfico mensuales e identificar medios de pago de alto rendimiento, lo que le ayudará a refinar sus estrategias para una óptima generación de ingresos.
 
-Está previsto que el nuevo conjunto de paneles pregenerados se introduzca en olas y finalice antes de finales de año.
+Está previsto que el nuevo conjunto de paneles generados previamente se introduzca por olas, a partir de la primera semana de octubre hasta finales de año.
 
 >[!NOTE]
 >
@@ -61,11 +61,11 @@ Estamos eliminando los datos de direcciones IP de nuestro almacenamiento a largo
     <td>BIZ_PAGE_VIEWS</td>
   </tr>
   <tr>
-    <td>SESIONES</td>
+    <td>SESSIONS</td>
     <td>BIZ_SESSIONS</td>
   </tr>
   <tr>
-    <td>ASIGNACIONES_HOST_WEB</td>
+    <td>HOST_WEB_MAPPINGS</td>
     <td>BIZ_WEB_HOST_MAPPINGS</td>
   </tr>
 </tbody>
