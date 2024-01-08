@@ -5,9 +5,9 @@ title: Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -528,7 +528,7 @@ Esta sección enumera los objetos estándar de [!DNL Salesforce] con los que [!D
  </tbody> 
 </table>
 
-**Rol de contacto de oportunidad**
+**Función de contacto de oportunidad**
 
 <table> 
  <tbody> 
