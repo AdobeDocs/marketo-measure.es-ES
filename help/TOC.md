@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
 source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -156,9 +156,9 @@ ht-degree: 98%
       + [Nueva guía del panel Discover](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Directiva de visibilidad de datos del panel](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
       + [Panel de ingresos atribuidos](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-      + [Tablero de participación](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [Tablero de velocidad del posible cliente](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
-      + [Tablero de velocidad de oportunidad](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Panel de participación](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Panel de velocidad del posible cliente](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Panel de velocidad de oportunidad](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
       + [Panel de Passport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
       + [Panel de información general sobre ingresos](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Panel de ROI ](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
