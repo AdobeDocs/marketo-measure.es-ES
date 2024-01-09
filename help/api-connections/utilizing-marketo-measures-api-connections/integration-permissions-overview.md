@@ -4,10 +4,10 @@ title: Información general sobre permisos de integración
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: d7ded9075f7f5831314d59294327f1e4928baf8a
+source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 4%
+source-wordcount: '840'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ Esta guía describe los permisos necesarios para una integración perfecta con M
 <thead>
   <tr>
     <th style="width:10%">Integración</th>
-    <th style="width:20%">Tipo de datos
+    <th style="width:25%">Tipo de datos
     <li>Datos de interacción web</li>
     <li>Datos del sistema B2B</li>
     <li>Datos de plataforma de publicidad</li></th>
-    <th style="width:30%">Qué rastreamos</th>
+    <th style="width:25%">Qué rastreamos</th>
     <th style="width:40%">Requisitos de permisos</th>
   </tr>
 </thead>
@@ -60,6 +60,7 @@ Los puntos de contacto creados y otros datos se escriben en campos bidimensional
     <b>Usuario estándar de Marketo Measure:</b> Permite al usuario leer registros de objetos de Marketo Measure.
     <p>
     <b>Permisos de campo estándar de Salesforce</b>
+    <br>
     <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Objetos y acceso estándar de Salesforce</a>
     <p>
     <b>Permisos de campo personalizado de Salesforce</b>
@@ -94,11 +95,11 @@ Los puntos de contacto creados y otros datos se escriben en campos bidimensional
 <p>
 Los puntos de contacto creados y otros datos se escriben en campos bizbibles personalizados en Account, Campaign, CampaignResponse, Contact, Lead, List, Opportunity y PhoneCall</td>
     <td><b>Permisos de usuario de Marketo Measure</b>
-<p>
+<br>
 Se recomienda crear un usuario de Marketo Measure específico dentro de Dynamics para exportar e importar datos a través de a fin de evitar problemas con otros usuarios en su CRM. Tome nota del nombre de usuario y la contraseña, así como de la dirección URL del extremo, ya que este se utilizará al crear la cuenta de Marketo Measure.
 <p>
 <b>Funciones de seguridad</b>
-<p>
+<br>
 Si su organización utiliza funciones de seguridad de Dynamics, asegúrese de que el usuario conectado o el usuario de Marketo Measure específico tenga suficientes permisos de lectura y escritura para las entidades requeridas.
 <br>
 Aquí se encuentran las funciones de seguridad: Configuración &gt; Seguridad &gt; Funciones de seguridad
@@ -132,21 +133,36 @@ Marketo Measure realiza un seguimiento de cuentas, campañas, grupos de publicid
 <li>Se requiere el permiso de correo electrónico para permitir que los usuarios inicien sesión en su correo electrónico de Facebook.</li>
 <p>
 <b>Ámbitos</b>
-<p>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
 <br>
 <li>Cree campañas mediante programación, administre anuncios y recupere métricas.</li>
 <li>Cree herramientas de administración de anuncios que proporcionen soluciones innovadoras y un valor diferenciado para los anunciantes.</li>
-<p>
+<br>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/email">email</a>
 <br>
 <li>Comunicarse con las personas y permitirles iniciar sesión en la aplicación con la dirección de correo electrónico asociada a su perfil de Facebook.</li></td>
   </tr>
   <tr>
     <td>LinkedIn</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Datos de plataforma de publicidad
+    <p>
+    Datos del sistema B2B (datos del formulario de generación de clientes potenciales, incluidos formularios y envíos, que se clasifican como actividad de CRM).</td>
+    <td>Marketo Measure está realizando un seguimiento de las campañas de LinkedIn Ads, los elementos creativos y los datos de costes, así como de los Forms de generación de clientes potenciales y las respuestas de. En función de los datos importados, podemos generar puntos de contacto de LinkedIn y asociar respuestas de formularios de posibles clientes a posibles clientes.</td>
+    <td><li>Se requiere la función Administrador de campañas o Administrador de cuentas para que Marketo Measure descargue los datos de costes. (Fila de ámbito 1)</li>
+    <br>
+    <li>Se requiere Super Admin (Función de administrador de página, Fila de ámbitos 2) o Forms Manager de generación de posibles clientes (Función de administrador de medios de pago, Fila de ámbitos 3) para que Marketo Measure acceda a los datos de los formularios de generación de posibles clientes</li>
+    <br>
+    <li>Se requiere un superadministrador (función Administrador de página, fila 2 de ámbitos) o un póster de contenido patrocinado (función de administrador de medios de pago, fila 3 de ámbitos) para que Marketo Measure manipule el etiquetado automático</li>
+    <p>
+    <b>Ámbitos</b>
+    <br>
+    <a href="https://www.linkedin.com/campaignmanager/accounts">Configurar la función del usuario en el portal (requiere el inicio de sesión en la cuenta de LinkedIn)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Resumen de funciones de usuario</a>: función de usuario, ver y administrar permisos de usuario, asignar funciones como administrador de cuentas o administrador de campañas
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Configurar el rol de administrador de página - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Definiciones de rol de administrador de página</a>: función de administrador de página, en la página de administración deseada
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Configurar el rol de administrador de medios de pago (busque Administrador de medios de pago) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Definiciones de administración de medios de pago</a>: funciones de administrador de medios de pago</td>
   </tr>
   <tr>
     <td>DoubleClick</td>
