@@ -2,7 +2,7 @@
 description: Tablero de participación - [!DNL Marketo Measure] - Producto
 title: Panel de participación
 feature: Reporting
-source-git-commit: 96a10a202e72f43c45041a4cb37a244d1722db17
+source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Preguntas que responde el panel:
 * Personas tocadas: número total de personas que tienen puntos de contacto.
 * Touchpoints per Person: Cantidad promedio de puntos de contacto por persona que se han tocado.
 
-## Puntos de contacto y personas tocadas a lo largo del tiempo {#touchpoints-and-people-touched-over-time}
+### Puntos de contacto y personas tocadas a lo largo del tiempo {#touchpoints-and-people-touched-over-time}
 
 El gráfico de barras de series temporales muestra el número de puntos de contacto, personas tocadas y puntos de contacto por persona para cada mes, trimestre y año.
 
@@ -46,7 +46,7 @@ Preguntas que responde el gráfico:
 
 ![](assets/engagement-dashboard-1.png)
 
-## Puntos de contacto/Personas tocadas por canal {#touchpoints-people-touched-by-channel}
+### Puntos de contacto/Personas tocadas por canal {#touchpoints-people-touched-by-channel}
 
 Gráfico de barras que muestra los puntos de contacto o las personas tocadas segmentadas por canal, subcanal o campaña.
 
