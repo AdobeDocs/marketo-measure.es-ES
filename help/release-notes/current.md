@@ -3,10 +3,10 @@ description: Documentación del producto  [!DNL Marketo Measure] , notas de la v
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
-workflow-type: ht
+source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
+workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Está previsto que el nuevo conjunto de paneles generados previamente se introdu
 
 >[!NOTE]
 >
->Aunque los paneles actuales quedarán obsoletos a mediados de enero de 2024, puede utilizar ambas versiones hasta entonces, lo que garantiza una transición sin problemas.
+>Aunque los paneles actuales quedarán obsoletos en marzo de 2024, puede utilizar ambas versiones hasta entonces, lo que garantiza una transición sin problemas.
 
 **Eliminación de datos de direcciones IP**
 
@@ -96,7 +96,7 @@ Está previsto que el nuevo conjunto de paneles generados previamente se introdu
 
 >[!NOTE]
 >
->Aunque los paneles actuales quedarán obsoletos a mediados de enero de 2024, puede utilizar ambas versiones hasta entonces, lo que garantiza una transición sin problemas.
+>Aunque los paneles actuales quedarán obsoletos en marzo de 2024, puede utilizar ambas versiones hasta entonces, lo que garantiza una transición sin problemas.
 
 ### En desuso {#deprecations}
 
