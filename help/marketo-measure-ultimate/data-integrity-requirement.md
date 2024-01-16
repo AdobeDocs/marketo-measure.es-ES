@@ -3,7 +3,7 @@ description: '“[!DNL Marketo Measure] Requisito sobre la integridad de datos d
 title: '''[!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
+source-git-commit: e1c401ae41b5aeedf0c3c8b75a82f680a0dcbefb
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
@@ -407,7 +407,7 @@ ht-degree: 100%
       <td>b2b.personStatus</td>
       <td>cadena</td>
       <td>Estado</td>
-      <td><mark>Sí, solo para la personType del posible cliente</mark></td>
+      <td><font color="red">Sí, solo para la personType del posible cliente</font></td>
       <td>Solo es necesario si b2b.personType es "Posible cliente"</td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ ht-degree: 100%
       <td>b2b.isConverted</td>
       <td>booleano</td>
       <td>IsConverted</td>
-      <td><mark>Sí, solo para la personType del posible cliente</mark></td>
+      <td><font color="red">Sí, solo para la personType del posible cliente</font></td>
       <td>Solo es necesario si b2b.personType es "Posible cliente"</td>
     </tr>
     <tr>
