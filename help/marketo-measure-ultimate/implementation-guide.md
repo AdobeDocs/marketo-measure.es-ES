@@ -2,10 +2,10 @@
 description: '[!DNL Marketo Measure] Guía de implementación de Ultimate - [!DNL Marketo Measure] - Documentación del producto'
 title: '[!DNL Marketo Measure] Guía de implementación de Ultimate'
 feature: Integration, Tracking, Attribution
-source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
-workflow-type: ht
-source-wordcount: '966'
-ht-degree: 100%
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+workflow-type: tm+mt
+source-wordcount: '997'
+ht-degree: 97%
 
 ---
 
@@ -145,6 +145,11 @@ No importamos automáticamente las fases de los datos de usuario, por lo que tod
 ![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 Si las fases no están asignadas, el sistema no funcionará porque no habrá ningún lugar adónde puedan ir los datos.
+
+Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+
+* b2b.personStatus
+* b2b.isConverted
 
 **Reglas de los miembros de la campaña:**
 

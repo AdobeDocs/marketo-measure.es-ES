@@ -3,10 +3,10 @@ description: Documentación del producto  [!DNL Marketo Measure] . Prácticas re
 title: Prácticas recomendadas para la segmentación
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,9 @@ Tanto si define la segmentación por primera vez como si simplemente revisa la s
 * Alinee el nombre del segmento con la nomenclatura de la organización, es decir, la categoría = nombre del filtro, segmento = valor del filtro
 * No utilice campos de fórmula en las reglas
 * Siempre que sea posible, genere la segmentación tanto en el posible cliente/contacto como en la oportunidad para que se pueda utilizarla en todo el canal
+   * Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+      * b2b.personStatus
+      * b2b.isConverted
    * No todas las categorías de segmentos se alinearán en todo el canal
       * Una categoría de segmento de “Tipo de oportunidad” no se relacionará con posibles clientes, por ejemplo; sin embargo, un segmento relacionado con “Región” es probablemente una categoría que se puede definir a lo largo del canal
 * Piense en las formas en que le gusta dividir los datos actualmente, ya sea en la herramienta CRM o en una de BI, y considere la posibilidad de crear esto como un segmento en [!DNL Marketo Measure] para que pueda tener los mismos informes en Discover
