@@ -4,9 +4,9 @@ title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Está previsto que el nuevo conjunto de paneles generados previamente se introdu
 
 >[!NOTE]
 >
->Aunque los paneles actuales quedarán obsoletos en marzo de 2024, puede utilizar ambas versiones hasta entonces, lo que garantiza una transición sin problemas.
+>Aunque los paneles actuales quedarán obsoletos para marzo de 2024, puede utilizar ambas versiones hasta entonces, lo que garantiza una transición sin problemas.
 
 **Eliminación de datos de direcciones IP**
 
@@ -96,7 +96,7 @@ Está previsto que el nuevo conjunto de paneles generados previamente se introdu
 
 >[!NOTE]
 >
->Aunque los paneles actuales quedarán obsoletos en marzo de 2024, puede utilizar ambas versiones hasta entonces, lo que garantiza una transición sin problemas.
+>Aunque los paneles actuales quedarán obsoletos para marzo de 2024, puede utilizar ambas versiones hasta entonces, lo que garantiza una transición sin problemas.
 
 ### En desuso {#deprecations}
 
