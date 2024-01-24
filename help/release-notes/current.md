@@ -3,7 +3,7 @@ description: Documentación del producto  [!DNL Marketo Measure] , notas de la v
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
+source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 88%
@@ -102,7 +102,7 @@ Está previsto que el nuevo conjunto de paneles generados previamente se introdu
 
 <p>
 
-#### Degradaciones de campo de Salesforce {#salesforce-field-deprecations}
+#### Degradaciones de campo de Salesforce
 
 Eliminaremos gradualmente nuestros trabajos de exportación a objetos de contacto/posible cliente para simplificar nuestra integración y eliminar la necesidad de exportar a objetos estándar de Salesforce. Los campos desnormalizados que se enumeran a continuación también quedarán obsoletos, ya que los clientes pueden obtener los mismos datos de sus objetos Touchpoint. _**El plazo para dejar de utilizar es junio de 2024.**_
 
@@ -175,13 +175,13 @@ Los campos que contienen la misma información en los objetos Touchpoint y Attri
 
 <p>
 
-* **Paquete de Dynamics relacionado**
+#### Paquete de Dynamics relacionado
 
-   * Para mantenerse conectado a Dynamics, instale la última versión del paquete, 6.12. Versiones antiguas `(<v6.12)` ya no serán compatibles. Esta actualización optimiza la creación de registros históricos para reducir el uso del almacenamiento.
+* Para mantenerse conectado a Dynamics, instale la última versión del paquete, 6.12. Versiones antiguas `(<v6.12)` ya no serán compatibles. Esta actualización optimiza la creación de registros históricos para reducir el uso del almacenamiento.
 
-   * El método obsoleto de OAuth con un RefreshToken quedará obsoleto. Consulte [esta guía](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} para actualizar sus credenciales de modo que se ajusten a las prácticas recomendadas de Microsoft para utilizar ClientSecret.
+* El método obsoleto de OAuth con un RefreshToken quedará obsoleto. Consulte [esta guía](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} para actualizar sus credenciales de modo que se ajusten a las prácticas recomendadas de Microsoft para utilizar ClientSecret.
 
-* **Campo &quot;custom_properties&quot;**
+#### Campo &quot;custom_properties&quot;
 
 En nuestro almacén de datos, el campo &quot;custom_properties&quot; ha servido como almacenamiento para puntos de datos adicionales que no están cubiertos por nuestro esquema fijo. Almacenado en formato JSON, el uso de este campo es limitado y su integración con consultas SQL puede ser complicada, lo que afecta al rendimiento. Dados estos factores, hemos decidido dejar este campo sin efecto. Este cambio afectará principalmente a la capa de procesamiento de datos dentro de nuestro almacenamiento de tablas de Azure y a los datos exportados a nuestro almacén de datos.
 
