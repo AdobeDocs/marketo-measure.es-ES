@@ -3,10 +3,10 @@ description: Documentación del producto  [!DNL Marketo Measure] , notas de la v
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -102,7 +102,7 @@ Está previsto que el nuevo conjunto de paneles generados previamente se introdu
 
 <p>
 
-* **Degradaciones de campo de Salesforce**
+#### Degradaciones de campo de Salesforce {#salesforce-field-deprecations}
 
 Eliminaremos gradualmente nuestros trabajos de exportación a objetos de contacto/posible cliente para simplificar nuestra integración y eliminar la necesidad de exportar a objetos estándar de Salesforce. Los campos desnormalizados que se enumeran a continuación también quedarán obsoletos, ya que los clientes pueden obtener los mismos datos de sus objetos Touchpoint. _**El plazo para dejar de utilizar es junio de 2024.**_
 
