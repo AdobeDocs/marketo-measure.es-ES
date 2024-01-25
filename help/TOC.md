@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: 969cb2b4fb85aeb5c3a3aa21ead3eb5f4ff15ad9
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 99%
 
 ---
 
@@ -48,6 +48,7 @@ ht-degree: 100%
       + [Metodología de asignación de atribuciones](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
       + [Configuración de Adobe Admin Console](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Diferencia entre Buyer Touchpoints y Buyer Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+      + [Notificaciones de error](configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
       + [Explicación de las posiciones y la generación de puntos de contacto entre BT y  [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [Integración sin paquetes CRM de [!DNL Marketo Measure]](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] y Salesforce {#marketo-measure-and-salesforce}
