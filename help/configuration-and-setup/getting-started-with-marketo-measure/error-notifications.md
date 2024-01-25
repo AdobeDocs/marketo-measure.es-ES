@@ -4,7 +4,7 @@ title: Notificaciones de error
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
+source-git-commit: b4fadc6519761975736ce7a0e4f99a30c589c9af
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -18,10 +18,10 @@ A continuación se muestra una lista de errores que puede recibir mediante una n
 <table>
   <tbody>
     <tr>
-      <th>Código de error</th>
-      <th>Ejemplo de notificación</th>
-      <th>Descripción</th>
-      <th>Pasos para solucionar problemas</th>
+      <th style="width:31%">Código de error</th>
+      <th style="width:23%">Ejemplo de notificación</th>
+      <th style="width:23%">Descripción</th>
+      <th style="width:23%">Pasos para solucionar problemas</th>
     </tr>
     <tr>
       <td>API_DISABLED</td>
