@@ -4,9 +4,9 @@ description: 'Conectar Marketo Measure a Salesforce: [!DNL Marketo Measure] - Do
 title: Conectar Marketo Measure a Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: 5b1511395aff958f20f74c8a52c2701c4a64329d
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,7 @@ Puede acceder a este límite en Marketo Measure mediante: **Mi cuenta** > **Conf
 >[!NOTE]
 >
 >Para aumentar los créditos de API de Salesforce disponibles para su solución conectada, póngase en contacto con su administrador de Salesforce y consulte [este documento de Salesforce](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
+
+>[!MORELIKETHIS]
+>
+>[Notificaciones de error](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

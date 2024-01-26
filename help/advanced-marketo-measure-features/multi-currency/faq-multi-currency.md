@@ -4,9 +4,9 @@ description: Preguntas más frecuentes (multimoneda) - [!DNL Marketo Measure] - 
 title: Preguntas frecuentes (multidivisa)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,7 @@ Para el lector interesado, he aquí la razón por la que funciona de esta manera
 **Si mi cliente ha utilizado un flujo de trabajo para rellenar un campo convertido, ¿cómo debe utilizar este campo a partir de ahora?**
 
 Dado que nuestra oferta ahora gestiona las conversiones para el cliente, recomendamos que elimine los flujos de trabajo y el campo personalizado y nos permita importar su valor de cantidad sin procesar.
+
+>[!MORELIKETHIS]
+>
+>[Notificaciones de error](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
