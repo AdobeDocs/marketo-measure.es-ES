@@ -5,9 +5,9 @@ title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -151,13 +151,13 @@ Cuentas importadas desde el sistema de origen.
       <td><b>∗</b> INDUSTRIA</td>
       <td>varchar</td>
       <td>Actividad principal de la cuenta.</td>
-      <td>Venta minorista, Telecomunicaciones</td>
+      <td>Venta minorista, telecomunicaciones</td>
     </tr>
     <tr>
       <td><b>∗</b> PAÍS</td>
       <td>varchar</td>
-      <td>Parte de país de la dirección de la cuenta.</td>
-      <td>EE.UU., Canadá</td>
+      <td>País de la dirección de la cuenta.</td>
+      <td>EE. UU., Canadá</td>
     </tr>
   </tbody>
 </table>
@@ -4361,7 +4361,7 @@ Contactos importados desde el sistema de origen.
       <td><b>∗</b> JOB_TITLE</td>
       <td>varchar</td>
       <td>Cargo del contacto.</td>
-      <td>CEO, Vicepresidente</td>
+      <td>Dirección ejecutiva, vicepresidencia</td>
     </tr>
   </tbody>
 </table>
@@ -10221,8 +10221,8 @@ Oportunidades importadas desde el sistema de origen.
     <tr>
       <td><b>∗</b> OPPORTUNITY_TYPE</td>
       <td>varchar</td>
-      <td>Tipo de oportunidad, como nuevo negocio, renovación, etc.</td>
-      <td>Renovación, posible cliente</td>
+      <td>Tipo de oportunidad, como nueva empresa, renovación, etc.</td>
+      <td>Renovación, cliente potencial</td>
     </tr>
   </tbody>
 </table>
