@@ -4,9 +4,9 @@ title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Está previsto que el nuevo conjunto de paneles generados previamente se introdu
 
 <p>
 
-#### Degradaciones de campo de Salesforce
+#### Campos obsoletos de Salesforce
 
 Eliminaremos gradualmente nuestros trabajos de exportación a objetos de contacto/posible cliente para simplificar nuestra integración y eliminar la necesidad de exportar a objetos estándar de Salesforce. Los campos desnormalizados que se enumeran a continuación también quedarán obsoletos, ya que los clientes pueden obtener los mismos datos de sus objetos Touchpoint. _**El plazo para dejar de utilizar es junio de 2024.**_
 
@@ -141,7 +141,7 @@ Eliminaremos gradualmente nuestros trabajos de exportación a objetos de contact
 </tbody>
 </table>
 
-Los campos que contienen la misma información en los objetos Touchpoint y Attribution Touchpoint son los siguientes:
+Los campos que contienen la misma información en los objetos de Touchpoint y Attribution Touchpoint son los siguientes:
 
 * bizible2__Ad_Campaign_Name__c
 * bizible2__Landing_Page__c
@@ -149,23 +149,23 @@ Los campos que contienen la misma información en los objetos Touchpoint y Attri
 * bizible2__Touchpoint_Date__c
 * bizible2__Touchpoint_Source__c
 
-**Acciones requeridas**
+**Acciones necesarias**
 
-* Cree nuevos tipos de informes para posibles clientes y contactos con o sin puntos de contacto.
+* Cree nuevos tipos de informes para posibles clientes y contactos con o sin Touchpoints.
 
 ![](assets/release-notes-2023-1.png)
 
 * Cree informes que capturen la funcionalidad de cualquier informe existente que utilice los campos eliminados. Como parte de este proceso, deseará cambiar los campos del informe como se especifica a continuación:
 
-   * Eliminar campos de cliente potencial/contacto FT/LC:
+   * Quitar campos FT/LC de posible cliente/contacto:
 
 ![](assets/release-notes-2023-2.png)
 
-* Agregar campos de Touchpoint:
+* Añadir campos de Touchpoint:
 
 ![](assets/release-notes-2023-3.png)
 
-* El filtro de posición del punto de contacto y cualquier filtro que utilice los campos FT/LC, incluido el campo de fecha, deben actualizarse de la siguiente manera:
+* El filtro de posición de Touchpoint y cualquier filtro que utilice los campos FT/LC, incluido el campo de fecha, deben actualizarse de la siguiente manera:
 
 ![](assets/release-notes-2023-4.png)
 
