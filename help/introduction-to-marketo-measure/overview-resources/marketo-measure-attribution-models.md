@@ -5,9 +5,9 @@ title: Modelos de atribución de Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
 source-git-commit: aa12df4d0c77cdc677f78bcab19497806927ec2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Estos modelos varían en complejidad. El primer contacto y la creación de posib
 
 ![](assets/1-1.png)
 
-En el **modelos de un solo toque**Sin embargo, el crédito de atribución solo se atribuye a un punto de contacto de hito, por lo que se denomina &quot;contacto único&quot;.
+En **modelos de un solo contacto**, el crédito de atribución solo se atribuye a un punto de contacto como hito; de ahí el nombre de “un solo contacto”.
 En **modelos multicontacto**, la mayor parte del crédito de atribución se asigna a dos o más puntos de contacto de hito. El crédito restante se atribuye a los puntos de contacto que se producen entre los puntos de contacto de hito.
 
 Las siguientes secciones tratan sobre cada modelo de atribución y cómo se asigna el crédito de atribución.
@@ -42,7 +42,7 @@ Las siguientes secciones tratan sobre cada modelo de atribución y cómo se asig
 
 El modelo de primer contacto solo se centra en la primera interacción que un posible cliente tiene con su organización. Este modelo atribuye el 100 % del crédito de atribución a la primera vez que el posible cliente conoció su empresa, el primer contacto (FT).
 
-Decir que Kate visita `www.adobe.com` por primera vez a través de un anuncio de Adwords y visualiza un documento técnico. El canal AdWords recibirá el 100 % del crédito de atribución de esa oportunidad.
+Supongamos que Kate visita `www.adobe.com` por primera vez a través de un anuncio de AdWords y ve un documento técnico. El canal AdWords recibirá el 100 % del crédito de atribución de esa oportunidad.
 
 ![](assets/2.png)
 
@@ -50,7 +50,7 @@ Decir que Kate visita `www.adobe.com` por primera vez a través de un anuncio de
 
 El modelo de creación de posibles clientes atribuye el 100 % del crédito de atribución al punto de contacto LC, cuando un cliente potencial proporciona su información de contacto y se convierte en un posible cliente.
 
-Continuando con el ejemplo anterior, después de la primera visita de Kate a `www.adobe.com` A través de Adwords, Austin visita el sitio web a través de una publicación en Linkedin. Austin rellena un formulario y se convierte en un posible cliente. En este modelo, LinkedIn recibirá el 100 % del crédito de atribución.
+Continuando con el ejemplo anterior, después de la primera visita de Kate a `www.adobe.com` a través de AdWords, Austin visita el sitio web a través de una publicación de LinkedIn. Austin rellena un formulario y se convierte en un posible cliente. En este modelo, LinkedIn recibirá el 100 % del crédito de atribución.
 
 ![](assets/3.png)
 
@@ -62,7 +62,7 @@ Los modelos multicontacto se utilizan para ciclos de ventas más largos y compli
 
 El modelo en forma de U se centra en los puntos de contacto FT y LC. En este modelo, los puntos de contacto FT y LC reciben cada uno el 50 % del crédito de ingresos.
 
-La primera visita de Kate a `www.adobe.com` mediante un anuncio de AdWords recibiría el 50 % del crédito de atribución. El 50 % restante se atribuirá a la publicación de LinkedIn que llevó a Austin a rellenar un formulario y convertirse en un posible cliente.
+La primera visita de Kate a `www.adobe.com` a través de un anuncio de AdWords recibirá el 50 % del crédito de atribución. El 50 % restante se atribuirá a la publicación de LinkedIn que llevó a Austin a rellenar un formulario y convertirse en un posible cliente.
 
 ![](assets/4.png)
 
