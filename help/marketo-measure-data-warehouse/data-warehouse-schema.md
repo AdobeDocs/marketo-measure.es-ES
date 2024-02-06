@@ -4,10 +4,10 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentación del pr
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: ht
-source-wordcount: '20757'
-ht-degree: 100%
+source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+workflow-type: tm+mt
+source-wordcount: '20781'
+ht-degree: 99%
 
 ---
 
@@ -6740,6 +6740,10 @@ La tabla de asignación para direcciones de correo electrónico e id. de visitan
 ### BIZ_FACTS {#biz-facts}
 
 Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos de contacto del usuario, Punto de contacto (BT), Puntos de contacto de atribución (BAT) y Datos de costes. Se utiliza internamente para admitir informes de [!DNL Marketo Measure].
+
+>[!IMPORTANT]
+>
+>Marketo Measure dejará de utilizar esta tabla a mediados de 2024. Si desea crearlo de su lado, ejecute [esta consulta SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
