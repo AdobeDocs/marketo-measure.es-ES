@@ -4,9 +4,9 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentación del pr
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
 workflow-type: tm+mt
-source-wordcount: '20781'
+source-wordcount: '20777'
 ht-degree: 99%
 
 ---
@@ -8120,9 +8120,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>El nombre del proveedor de servicios de Internet, que utilizan los clientes con seguimiento de IP geográfica avanzado.</p>
-      </td>
+      <td>Se espera que sea nulo porque el campo está obsoleto.</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
@@ -12037,9 +12035,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>El proveedor de servicios de Internet del usuario</p>
-      </td>
+      <td>Se espera que sea nulo porque el campo está obsoleto.</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
