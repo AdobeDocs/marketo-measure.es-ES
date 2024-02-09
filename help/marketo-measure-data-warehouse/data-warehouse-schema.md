@@ -4,9 +4,9 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentación del pr
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
+source-git-commit: 999758c34b0264b8dac06fd0675e26b312fa58d6
 workflow-type: tm+mt
-source-wordcount: '20777'
+source-wordcount: '20775'
 ht-degree: 99%
 
 ---
@@ -729,18 +729,10 @@ Anunciantes importados desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -1043,18 +1035,10 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -1487,18 +1471,10 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -2092,18 +2068,10 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -2466,18 +2434,10 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -2548,18 +2508,10 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -3748,18 +3700,10 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -4061,18 +4005,10 @@ Canales de marketing, tal como se crearon en la aplicación [!DNL Marketo Measur
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -4144,18 +4080,10 @@ Contactos importados desde el sistema de origen.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -5026,18 +4954,10 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -5527,18 +5447,10 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -5740,18 +5652,10 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -6042,15 +5946,9 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
       <th>Datos de muestra</th>
     </tr>
     <tr>
@@ -6205,15 +6103,9 @@ Eventos web que se han registrado utilizando eventos personalizados en el JavaSc
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
       <th>Datos de muestra</th>
     </tr>
     <tr>
@@ -6334,15 +6226,9 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
       <th>Datos de muestra</th>
     </tr>
     <tr>
@@ -6619,18 +6505,10 @@ La tabla de asignación para direcciones de correo electrónico e id. de visitan
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -7540,17 +7418,11 @@ Envíos de formulario capturados.
   <tbody>
     <tr>
       <th>
-        <p>Columna</p>
+        Columna
       </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -7852,18 +7724,10 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -8121,9 +7985,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
         <p>varchar</p>
       </td>
       <td>Se espera que sea nulo porque el campo está obsoleto.</td>
-      <td>
-        <p>AT&amp;T U-verse</p>
-      </td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8601,18 +8463,10 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -9026,15 +8880,9 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
       <th>Datos de muestra</th>
     </tr>
     <tr>
@@ -9293,18 +9141,10 @@ Posibles clientes importados desde el sistema de origen.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -9632,18 +9472,10 @@ Transiciones de fase para posibles clientes o contactos.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -9909,18 +9741,10 @@ Oportunidades importadas desde el sistema de origen.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -10239,18 +10063,10 @@ Transiciones de fase para oportunidades.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -10528,18 +10344,10 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -10853,15 +10661,9 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
       <th>Datos de muestra</th>
     </tr>
     <tr>
@@ -11131,18 +10933,10 @@ Los valores de los segmentos tal como se define en la aplicación [!DNL Marketo 
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -11214,18 +11008,10 @@ Asigna el nombre del segmento personalizado a su valor de categoría. (Esto asig
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -11309,18 +11095,10 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -12037,7 +11815,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       </td>
       <td>Se espera que sea nulo porque el campo está obsoleto.</td>
       <td>
-        <p>AT&amp;T U-verse</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>
@@ -12176,18 +11954,10 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -12462,18 +12232,10 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -12801,18 +12563,10 @@ La lista de fases tal como se importan o definen en la aplicación [!DNL Marketo
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -14277,18 +14031,10 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
@@ -15178,18 +14924,10 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Columna</p>
-      </th>
-      <th>
-        <p>Tipo de datos</p>
-      </th>
-      <th>
-        <p>Descripción</p>
-      </th>
-      <th>
-        <p>Datos de muestra</p>
-      </th>
+      <th>Columna</th>
+      <th>Tipo de datos</th>
+      <th>Descripción</th>
+      <th>Datos de muestra</th>
     </tr>
     <tr>
       <td>
