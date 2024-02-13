@@ -4,10 +4,10 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentación del pr
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 6cc1c20c2fa0e801b2c245a5a0473f0546b15da4
+source-git-commit: 79ac3c82c1b67cebc26fedb5e698e531537cce7f
 workflow-type: tm+mt
-source-wordcount: '20775'
-ht-degree: 99%
+source-wordcount: '21115'
+ht-degree: 98%
 
 ---
 
@@ -705,12 +705,8 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la cuenta de anuncios.</p>
       </td>
@@ -722,9 +718,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de cuenta de anuncios, desde el sistema de origen.</td>
       <td>
         <p>6601259029</p>
@@ -734,9 +728,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Se espera que sea nulo, ya que este es el registro de las cuentas de anuncios en la jerarquía de anuncios.</td>
       <td>nulo</td>
     </tr>
@@ -744,9 +736,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Se espera que sea nulo, ya que este es el registro de las cuentas de anuncios en la jerarquía de anuncios.</td>
       <td>nulo</td>
     </tr>
@@ -754,9 +744,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún anunciante por encima de las cuentas de anuncios en ninguna jerarquía de anuncios.</p>
       </td>
@@ -766,9 +754,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún anunciante por encima de las cuentas de anuncios en ninguna jerarquía de anuncios.</p>
       </td>
@@ -778,9 +764,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios por encima de las cuentas de anuncios en ninguna jerarquía de anuncios.</p>
       </td>
@@ -790,9 +774,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios por encima de las cuentas de anuncios en ninguna jerarquía de anuncios.</p>
       </td>
@@ -802,9 +784,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ninguna campaña de anuncios por encima de las cuentas de anuncios en ninguna jerarquía de anuncios.</p>
       </td>
@@ -814,9 +794,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ninguna campaña de anuncios por encima de las cuentas de anuncios en ninguna jerarquía de anuncios.</p>
       </td>
@@ -851,12 +829,8 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -868,9 +842,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
@@ -882,9 +854,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El nombre de la cuenta de anuncios, desde el sistema de origen.</td>
       <td>
         <p>[!DNL Marketo Measure] Cuenta de anuncios</p>
@@ -909,9 +879,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, utilizado para el procesamiento interno.</td>
       <td></td>
     </tr>
@@ -919,9 +887,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El objeto o entidad principal de esta tabla. En este caso, “Cuenta”.</p>
       </td>
@@ -933,9 +899,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios para la cuenta de anuncios.</p>
       </td>
@@ -947,9 +911,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ACCOUNT_CURRENCY_UNIT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El código de divisa utilizado para la cuenta de anuncios, desde el sistema de origen.</p>
       </td>
@@ -961,9 +923,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>COMPANY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Se utiliza para el procesamiento interno.</td>
       <td>1933789</td>
     </tr>
@@ -971,9 +931,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Analizado desde la dirección URL de utm_source.</td>
       <td>
         <p>Social</p>
@@ -983,9 +941,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Analizado desde la dirección URL de utm_medium.</td>
       <td>
         <p>lisu07261601</p>
@@ -1051,9 +1007,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -1063,9 +1017,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -1073,9 +1025,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -1083,9 +1033,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La plantilla de seguimiento agregada en el nivel de cuenta de anuncios para AdWords o Bing para etiquetar páginas de destino.</p>
       </td>
@@ -1141,12 +1089,8 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Id. único para la campaña.</p>
       </td>
@@ -1158,9 +1102,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de campaña, desde el sistema de origen.</td>
       <td>
         <p>285114995</p>
@@ -1170,9 +1112,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se importó la campaña.</p>
       </td>
@@ -1184,9 +1124,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se importó la campaña.</p>
       </td>
@@ -1198,9 +1136,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante para la campaña, específicamente para DoubleClick.</p>
       </td>
@@ -1212,9 +1148,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante para la campaña, específicamente para DoubleClick.</p>
       </td>
@@ -1226,9 +1160,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios por encima de la campaña en ninguna jerarquía de anuncios.</p>
       </td>
@@ -1240,9 +1172,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios por encima de la campaña en ninguna jerarquía de anuncios.</p>
       </td>
@@ -1252,9 +1182,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id. único para la campaña, utilice el campo Id. en su lugar.</p>
       </td>
@@ -1264,9 +1192,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña, utilice el campo Nombre en su lugar.</p>
       </td>
@@ -1301,12 +1227,8 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -1318,9 +1240,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
@@ -1332,9 +1252,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña.</p>
       </td>
@@ -1361,9 +1279,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, utilizado para el procesamiento interno.</td>
       <td></td>
     </tr>
@@ -1371,9 +1287,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El objeto o entidad principal de esta tabla. En este caso, “Campaña”.</p>
       </td>
@@ -1385,9 +1299,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios para la campaña.</p>
       </td>
@@ -1413,9 +1325,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -1423,9 +1333,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -1433,9 +1341,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -1443,9 +1349,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La plantilla de seguimiento agregada en el nivel de campaña para AdWords o Bing para etiquetar páginas de destino.</p>
       </td>
@@ -1509,12 +1413,8 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
   </tr>
   <tbody>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el formulario de anuncios.</p>
       </td>
@@ -1526,9 +1426,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se importó el formulario de anuncios.</p>
       </td>
@@ -1540,9 +1438,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se importó el formulario de nuncios.</p>
       </td>
@@ -1565,12 +1461,8 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -1582,9 +1474,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
@@ -1596,9 +1486,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del formulario de anuncios.</p>
       </td>
@@ -1610,9 +1498,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El objeto o entidad principal de esta tabla. En este caso, “AdForm”.</p>
       </td>
@@ -1624,9 +1510,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios para el formulario de anuncios.</p>
       </td>
@@ -1638,9 +1522,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DESCRIPTION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La descripción del formulario de anuncios.</p>
       </td>
@@ -1652,9 +1534,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>HEADLINE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El encabezado del formulario de anuncios.</td>
       <td>
         <p>Es hora de automatizar el proceso de solicitud de refinanciación</p>
@@ -1664,9 +1544,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>LANDING_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>La dirección URL de la página de destino del formulario de anuncios.</td>
       <td>
         <p>https://adobe.com/blog/refinancing-application-process/</p>
@@ -1676,9 +1554,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>QUESTIONS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>La lista de preguntas para el formulario de anuncios.</td>
       <td>
         <p>Nombre:Apellido:Dirección de correo electrónico:País/Región:Puesto de trabajo:Nombre de la empresa</p>
@@ -1688,9 +1564,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El estado del formulario de anuncios.</p>
       </td>
@@ -1738,12 +1612,8 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el grupo de anuncios.</p>
       </td>
@@ -1755,9 +1625,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de grupo de anuncios, desde el sistema de origen.</td>
       <td>
         <p>23105326115</p>
@@ -1767,9 +1635,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se importó el grupo de anuncios.</p>
       </td>
@@ -1781,9 +1647,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se importó el grupo de anuncios.</p>
       </td>
@@ -1795,9 +1659,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios en la jerarquía de anuncios de DoubleClick.</p>
       </td>
@@ -1809,9 +1671,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios en la jerarquía de anuncios de DoubleClick.</p>
       </td>
@@ -1823,9 +1683,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que este es el registro del grupo de anuncios en la jerarquía.</p>
       </td>
@@ -1837,9 +1695,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que este es el registro del grupo de anuncios en la jerarquía.</p>
       </td>
@@ -1851,9 +1707,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña para el grupo de anuncios.</p>
       </td>
@@ -1865,9 +1719,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña para el grupo de anuncios.</p>
       </td>
@@ -1904,12 +1756,8 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -1921,9 +1769,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
@@ -1935,9 +1781,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios.</p>
       </td>
@@ -1964,9 +1808,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, utilizado para el procesamiento interno.</td>
       <td></td>
     </tr>
@@ -1974,9 +1816,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El objeto o entidad principal de esta tabla. En este caso, “AdGroup”.</p>
       </td>
@@ -1988,9 +1828,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios para el grupo de anuncios.</p>
       </td>
@@ -2002,9 +1840,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_NETWORK_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Los medios en los que se ejecuta el grupo de anuncios.</p>
       </td>
@@ -2016,9 +1852,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -2026,9 +1860,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -2036,9 +1868,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -2046,9 +1876,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La plantilla de seguimiento agregada en el nivel de cuenta de anuncios para AdWords o Bing para etiquetar páginas de destino.</p>
       </td>
@@ -2104,12 +1932,8 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el proveedor de anuncios.</p>
       </td>
@@ -2121,9 +1945,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios.</p>
       </td>
@@ -2178,12 +2000,8 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el punto de contacto de atribución de comprador (BAT).</p>
       </td>
@@ -2193,12 +2011,8 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -2210,9 +2024,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la oportunidad a la que se atribuye el BAT.</p>
       </td>
@@ -2221,12 +2033,8 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. del contacto asociado al BAT.</p>
       </td>
@@ -2244,9 +2052,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta a la que se atribuye el BAT.</p>
       </td>
@@ -2258,9 +2064,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del punto de contacto del usuario que generó el BAT.</p>
       </td>
@@ -2272,9 +2076,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha del punto de contacto.</p>
       </td>
@@ -2292,9 +2094,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo de actividad, visita web, formulario web, chat en web, llamada telefónica, campaña [CRM] o actividad [CRM]. En CRM, se denomina “Tipo de punto de contacto”.</p>
       </td>
@@ -2306,9 +2106,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CHANNEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El canal al que corresponde el punto de contacto, tal como se especifica en las definiciones de canales personalizados en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Canal de marketing - Ruta”.</p>
       </td>
@@ -2320,9 +2118,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la primera categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -2334,9 +2130,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la segunda categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -2348,9 +2142,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la tercera categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -2362,9 +2154,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la cuarta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td>
         <p>Nuevo negocio</p>
@@ -2374,9 +2164,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la quinta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2384,9 +2172,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la sexta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2394,9 +2180,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la séptima categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2404,9 +2188,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la octava categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2414,9 +2196,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la novena categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2424,9 +2204,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la décima categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2434,9 +2212,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la undécima categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2444,9 +2220,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la duodécima categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2454,9 +2228,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la decimotercera categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2464,9 +2236,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la decimocuarta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2474,9 +2244,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CATEGORY15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la decimoquinta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -2484,9 +2252,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, el explorador detectado en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -2498,9 +2264,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la versión detectada del explorador en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -2512,9 +2276,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la plataforma detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -2526,9 +2288,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la versión detectada de la plataforma en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -2540,9 +2300,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera página de destino de la sesión que dio como resultado un punto de contacto. En CRM, se denomina “Página de destino”.</p>
       </td>
@@ -2554,9 +2312,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera página de destino de la sesión que dio como resultado un punto de contacto. Una página de destino sin procesar contendrá todos los parámetros de consulta en la dirección URL. En CRM, se denomina “Página de destino - Sin procesar”.</p>
       </td>
@@ -2568,9 +2324,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Por lo general, la página de destino externa inmediatamente antes de que el usuario acceda al sitio web. En CRM, se denomina “Página del referente”.</p>
       </td>
@@ -2582,9 +2336,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Por lo general, la página de destino externa inmediatamente antes de que el usuario acceda al sitio web. Una página de referente sin procesar puede contener parámetros de consulta en la dirección URL. En CRM, se denomina “Página de referente - Sin procesar”.</p>
       </td>
@@ -2596,9 +2348,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El primer formulario registrado en una sesión que dio como resultado un punto de contacto. Los envíos de formularios posteriores no aparecerán en la tabla Attribution_Touchpoints, sino en la tabla Form_Submits. En CRM, se denomina “URL del formulario”.</p>
       </td>
@@ -2610,9 +2360,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El primer formulario registrado en una sesión que dio como resultado un punto de contacto. Los envíos de formularios posteriores no aparecerán en la tabla Attribution_Touchpoints, sino en la tabla Form_Submits. Una página de formulario sin procesar puede contener parámetros de consulta en la dirección URL. En CRM, se denomina “URL del formulario - Sin procesar”.</p>
       </td>
@@ -2624,9 +2372,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se realizó el envío del formulario.</p>
       </td>
@@ -2638,9 +2384,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la ciudad detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -2652,9 +2396,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la región detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -2666,9 +2408,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, el país detectado en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -2680,9 +2420,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se utiliza para definir el medio que dio como resultado el punto de contacto. Esto se puede analizar desde la dirección URL de utm_medium. O bien, si [!DNL Marketo Measure] puede resolver un anuncio, pueden ser valores como “cpc” o “visualización”.</p>
       </td>
@@ -2694,9 +2432,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se utiliza para definir el origen que dio como resultado el punto de contacto. Esto se puede analizar desde la dirección URL de utm_source, establecida genéricamente como “Campaña de CRM” si se sincronizó desde CRM, o si [!DNL Marketo Measure] puede resolver un anuncio, pueden ser valores como “Google AdWords” o “Facebook”. En CRM, se denomina “Origen del punto de contacto”.</p>
       </td>
@@ -2708,9 +2444,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor que el usuario introdujo en el explorador para su búsqueda y acabó en el sitio web. Dependiendo de las compras de palabras clave, esto puede o no coincidir con las palabras clave compradas en la plataforma Búsqueda de pago.</p>
       </td>
@@ -2722,9 +2456,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La plataforma de anuncios [!DNL Marketo Measure] pudo resolverlo, por lo general, uno de nuestros socios de integración.</p>
       </td>
@@ -2736,9 +2468,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -2750,9 +2480,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -2764,9 +2492,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -2778,9 +2504,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -2792,9 +2516,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del sitio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -2806,9 +2528,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del sitio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -2820,9 +2540,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la ubicación de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -2834,9 +2552,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la ubicación de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -2848,9 +2564,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -2862,9 +2576,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -2876,9 +2588,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del grupo de anuncios de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica a Google AdWords.</p>
       </td>
@@ -2890,9 +2600,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica a Google AdWords.</p>
       </td>
@@ -2904,9 +2612,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anuncio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -2918,9 +2624,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anuncio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -2932,9 +2636,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del creativo de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -2946,9 +2648,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del creativo de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -2960,9 +2660,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera línea del creativo del anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -2974,9 +2672,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La segunda línea del creativo del anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -2988,9 +2684,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La página de destino en la que se hace clic desde el anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -3002,9 +2696,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre descriptivo de la dirección URL que se muestra en el anuncio de búsqueda, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -3016,9 +2708,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la palabra clave adquirida en la compra de Búsqueda de pago, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -3030,9 +2720,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la palabra clave adquirida en la compra de Búsqueda de pago, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda)</p>
       </td>
@@ -3044,9 +2732,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo de coincidencia encontrada entre la frase de búsqueda y la palabra clave comprada.</p>
       </td>
@@ -3357,6 +3043,163 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
   </tbody>
 </table>
 
+## BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
+
+Datos generados a partir de la integración de Attribution AI. Estos campos solo se rellenan para los clientes de Marketo Measure Ultimate.
+
+<table>
+<thead>
+  <tr>
+    <th>Columna</th>
+    <th>Tipo de datos</th>
+    <th>Descripción</th>
+    <th>Datos de muestra</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>CONVERSION_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>fecha de la conversión</td>
+    <td>01/01/2020 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_NAME</td>
+    <td>varchar</td>
+    <td>nombre del evento de conversión (tal como lo especifique el cliente en la configuración de la interfaz de usuario)</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ID</td>
+    <td>varchar</td>
+    <td>id para el evento de conversión (es el valor de id único original enviado con el registro de datos de evento en el conjunto de datos de origen)</td>
+    <td>0013100001b44aGAAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_ID</td>
+    <td>varchar</td>
+    <td>ID de evento MM original para el evento de conversión 
+    <br>se asigna a un punto de contacto del usuario o a una transición de fase</td>
+    <td>00U0Z00000pCZmyUAG</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>id de cuenta original de MM para el evento de conversión</td>
+    <td>0013100001kpAZxAAM</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>ID de oportunidad original de MM para el evento de conversión</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_LEAD_ID</td>
+    <td>varchar</td>
+    <td>ID de posible cliente original de MM para el evento de conversión <br>probablemente sea nulo la mayor parte del tiempo</td>
+    <td>00Q0Z000013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>ID de contacto MM original para el evento de conversión
+    <br>probablemente sea nulo la mayor parte del tiempo</td>
+    <td>00331000032hMxRAAU</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_TYPE</td>
+    <td>varchar</td>
+    <td>tipo de evento de conversión (b2b = conversión de posible cliente, b2c = conversión de oportunidad)</td>
+    <td>b2b</td>
+  </tr>
+  <tr>
+    <td>SCORE_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>fecha en la que se anotaron los puntos de contacto por última vez</td>
+    <td>01/01/2020 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>INFLUENCED_PERCENT</td>
+    <td>number(38,35)</td>
+    <td>la fracción de conversión de la que es responsable cada punto de contacto</td>
+    <td>0,10</td>
+  </tr>
+  <tr>
+    <td>INCREMENTAL_PERCENT</td>
+    <td>number(38,35)</td>
+    <td>la cantidad de impacto marginal causado directamente por un punto de contacto</td>
+    <td>0,25</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>la fecha de transición del punto de contacto o la fase</td>
+    <td>01/01/2020 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_EVENT_ID</td>
+    <td>varchar</td>
+    <td>id del evento que generó el punto de contacto</td>
+    <td>00U3100000VLUnEEAX</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>id de la oportunidad asociada al punto de contacto</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>id de la cuenta asociada al punto de contacto</td>
+    <td>0013100001kpAZxAAM</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_LEAD_ID</td>
+    <td>varchar</td>
+    <td>id del posible cliente asociado al punto de contacto</td>
+    <td>00Q0Z000013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>id del contacto asociado con el punto de contacto</td>
+    <td>00331000032hMxRAAU</td>
+  </tr>
+  <tr>
+    <td>COUNT_TO_CONVERSION</td>
+    <td>number(38,0)</td>
+    <td>el valor ordinal o de rango del punto de contacto en la cadena que lleva al evento de conversión</td>
+    <td>10000</td>
+  </tr>
+  <tr>
+    <td>AAI_SOURCE_ID</td>
+    <td>varchar</td>
+    <td>clave externa de la tabla de fuentes de inteligencia artificial aplicada a la atribución</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>_CREATED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>fecha de creación del registro en Snowflake</td>
+    <td>01/01/2020 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>_MODIFIED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>fecha de la última modificación del registro en Snowflake</td>
+    <td>01/01/2020 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>_DELETED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>fecha en la que se eliminó el registro en Snowflake</td>
+    <td>01/01/2020 01:01:00,000</td>
+  </tr>
+</tbody>
+</table>
+
 ### BIZ_CAMPAIGN_MEMBERS {#biz-campaign-members}
 
 Miembros de campaña importados desde el sistema de origen. Esta tabla estará vacía si la sincronización de campaña está deshabilitada.
@@ -3370,26 +3213,14 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>El id. de miembro de campaña, desde el sistema de origen.</p>
-      </td>
-      <td>
-        <p>00v0Z00001VVzdLQAT</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
+      <td>El id. de miembro de campaña, desde el sistema de origen.</td>
+      <td>00v0Z00001VVzdLQAT</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de la última modificación del miembro de campaña, desde el sistema de origen.</p>
       </td>
@@ -3398,12 +3229,8 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de creación del miembro de campaña, desde el sistema de origen.</p>
       </td>
@@ -3415,9 +3242,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>BIZIBLE_TOUCH_POINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha y la hora que el cliente establece para anular la fecha de campaña, utilice este valor para la fecha del punto de contacto en su lugar.</p>
       </td>
@@ -3429,9 +3254,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del posible cliente al que está vinculado el miembro de campaña.</p>
       </td>
@@ -3443,23 +3266,15 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El correo electrónico del posible cliente al que está vinculado el miembro de campaña.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. del contacto al que está vinculado el miembro de campaña.</p>
       </td>
@@ -3471,23 +3286,17 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El correo electrónico del contacto al que está vinculado el miembro de campaña.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El estado del miembro de campaña, normalmente establecido en Enviado o Respondido u otro valor personalizado. Este estado está vinculado a Campaign_Sync_Type para determinar para qué miembros de campaña se crearán puntos de contacto.</p>
       </td>
@@ -3513,9 +3322,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>FIRST_RESPONDED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que el miembro de campaña respondió por primera vez.</p>
       </td>
@@ -3527,9 +3334,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña relacionada de la que forma parte el miembro de campaña.</p>
       </td>
@@ -3541,9 +3346,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>CAMPAIGN_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña relacionada de la que forma parte el miembro de campaña.</p>
       </td>
@@ -3555,9 +3358,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>CAMPAIGN_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo seleccionado en la campaña relacionada de la que forma parte el miembro de campaña. El tipo se utiliza para asignar el canal de marketing.</p>
       </td>
@@ -3569,9 +3370,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>CAMPAIGN_SYNC_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Determina para qué miembros de campaña se crearán puntos de contacto. Los valores posibles son: Include_All, Include_Responded y Exclude_All.</p>
       </td>
@@ -3583,9 +3382,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>LEAD_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Campo de auditoría, indica si se generó o no un punto de contacto de comprador para el posible cliente. Si no se creó ningún punto de contacto, se indica la razón por la que no reunió las condiciones necesarias.</p>
       </td>
@@ -3597,9 +3394,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>CONTACT_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Campo de auditoría, indica si se generó o no un punto de contacto de comprador para el contacto. Si no se creó ningún punto de contacto, se indica la razón por la que no reunió las condiciones necesarias.</p>
       </td>
@@ -3611,9 +3406,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
       <td>
         <p>OPP_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Campo de auditoría, indica si se generó o no un punto de contacto de atribución de comprador para la oportunidad. Si no se creó ningún punto de contacto, se indica la razón por la que no reunió las condiciones necesarias.</p>
       </td>
@@ -3675,12 +3468,8 @@ Canales de marketing, tal como se crearon en la aplicación [!DNL Marketo Measur
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el canal.</p>
       </td>
@@ -3692,9 +3481,7 @@ Canales de marketing, tal como se crearon en la aplicación [!DNL Marketo Measur
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del canal.</p>
       </td>
@@ -3750,12 +3537,8 @@ Contactos importados desde el sistema de origen.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. de contacto, desde el sistema de origen.</p>
       </td>
@@ -3764,12 +3547,8 @@ Contactos importados desde el sistema de origen.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó por última vez el registro de contacto, desde el sistema de origen.</p>
       </td>
@@ -3778,12 +3557,8 @@ Contactos importados desde el sistema de origen.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se creó el registro de contacto, desde el sistema de origen.</p>
       </td>
@@ -3795,23 +3570,17 @@ Contactos importados desde el sistema de origen.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección de correo electrónico del contacto, desde el sistema de origen.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>ACCOUNTID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta relacionada con el contacto.</p>
       </td>
@@ -3823,9 +3592,7 @@ Contactos importados desde el sistema de origen.
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El origen en el que se creó el posible cliente.</p>
       </td>
@@ -3837,9 +3604,7 @@ Contactos importados desde el sistema de origen.
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Fase actual del contacto, reconocida como una fase personalizada que se puede crear en la aplicación [!DNL Marketo Measure].</p>
       </td>
@@ -3851,9 +3616,7 @@ Contactos importados desde el sistema de origen.
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Todas las fases anteriores del contacto, reconocidas como fases personalizadas que se pueden crear en la aplicación [!DNL Marketo Measure].</p>
       </td>
@@ -3879,9 +3642,7 @@ Contactos importados desde el sistema de origen.
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookies de [!DNL Marketo Measure] utilizado para rellenar desde un socio de integración con el fin de asignar un evento sin conexión a una sesión web. Requisito: Habilitar seguimiento de llamadas: Verdadero</p>
       </td>
@@ -4160,9 +3921,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios extraído de la conexión de anuncios.</p>
       </td>
@@ -4174,9 +3933,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios extraído de la conexión de anuncios.</p>
       </td>
@@ -4202,9 +3959,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de campaña extraído de la conexión de anuncios.</p>
       </td>
@@ -4216,9 +3971,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de campaña extraído de la conexión de anuncios.</p>
       </td>
@@ -4244,9 +3997,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del grupo de anuncios extraído de la conexión de anuncios.</p>
       </td>
@@ -4258,9 +4009,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios extraído de la conexión de anuncios.</p>
       </td>
@@ -4286,9 +4035,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante extraído de la conexión de anuncios.</p>
       </td>
@@ -4300,9 +4047,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anuncio extraído de la conexión de anuncios.</p>
       </td>
@@ -4328,9 +4073,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del creativo extraído de la conexión de anuncios.</p>
       </td>
@@ -4342,9 +4085,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del creativo extraído de la conexión de anuncios.</p>
       </td>
@@ -4370,9 +4111,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la palabra clave extraído de la conexión de anuncios.</p>
       </td>
@@ -4384,9 +4123,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la palabra clave extraído de la conexión de anuncios.</p>
       </td>
@@ -4412,9 +4149,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la ubicación extraído de la conexión de anuncios.</p>
       </td>
@@ -4426,9 +4161,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la ubicación extraído de la conexión de anuncios.</p>
       </td>
@@ -4454,9 +4187,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del sitio extraído de la conexión de anuncios.</p>
       </td>
@@ -4468,9 +4199,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del sitio extraído de la conexión de anuncios.</p>
       </td>
@@ -4624,12 +4353,8 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el creativo.</p>
       </td>
@@ -4641,9 +4366,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de creativo, desde el sistema de origen.</td>
       <td>
         <p>10426699711</p>
@@ -4653,9 +4376,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se importó el creativo.</p>
       </td>
@@ -4665,9 +4386,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se importó el creativo.</p>
       </td>
@@ -4679,9 +4398,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante para el creativo, específicamente para DoubleClick.</p>
       </td>
@@ -4693,9 +4410,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante para el creativo, específicamente para DoubleClick.</p>
       </td>
@@ -4707,9 +4422,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del grupo de anuncios para el creativo.</p>
       </td>
@@ -4719,9 +4432,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios para el creativo.</p>
       </td>
@@ -4731,9 +4442,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña para el creativo.</p>
       </td>
@@ -4745,9 +4454,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña para el creativo.</p>
       </td>
@@ -4784,12 +4491,8 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -4801,9 +4504,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
@@ -4815,9 +4516,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del creativo, desde el sistema de origen.</p>
       </td>
@@ -4844,9 +4543,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, para procesamiento interno.</td>
       <td></td>
     </tr>
@@ -4854,9 +4551,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El objeto o entidad principal de esta tabla. En este caso, “Creativo”.</p>
       </td>
@@ -4868,9 +4563,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios para el creativo.</p>
       </td>
@@ -4882,9 +4575,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La versión actual de la dirección URL, incluidas todas las etiquetas.</p>
         <p>(Campo de diagnóstico, para procesamiento interno).</p>
@@ -4897,9 +4588,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_DISPLAY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL abreviada y descriptiva que se muestra en el creativo.</p>
       </td>
@@ -4911,9 +4600,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Valor anterior para URL_CURRENT.</p>
         <p>(Campo de diagnóstico, para procesamiento interno).</p>
@@ -4924,9 +4611,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Decoración de la dirección URL con los parámetros de [!DNL Marketo Measure].</p>
         <p>(Campo de diagnóstico, para procesamiento interno).</p>
@@ -4937,9 +4622,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_SHORTENED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>La dirección URL abreviada y descriptiva que se muestra en el creativo. (Solo se usa para LinkedIn Ads).</td>
       <td></td>
     </tr>
@@ -4947,9 +4630,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo de creativo, que puede ser texto o visualización</p>
       </td>
@@ -4975,9 +4656,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>HEADLINE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La línea superior (encabezado) del creativo</p>
       </td>
@@ -4989,9 +4668,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DESCRIPTION_LINE_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La copia de la primera línea del creativo</p>
       </td>
@@ -5003,9 +4680,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DESCRIPTION_LINE_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La copia de la segunda línea del creativo</p>
       </td>
@@ -5017,9 +4692,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, para procesamiento interno.</td>
       <td></td>
     </tr>
@@ -5027,9 +4700,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, para procesamiento interno.</td>
       <td></td>
     </tr>
@@ -5037,9 +4708,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, para procesamiento interno.</td>
       <td></td>
     </tr>
@@ -5047,9 +4716,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Campo de diagnóstico, para procesamiento interno.</p>
       </td>
@@ -5061,9 +4728,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>SHARE_URN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del recurso compartido. (Solo se usa para LinkedIn Ads).</p>
       </td>
@@ -5115,12 +4780,8 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. de evento, desde el sistema de origen.</p>
       </td>
@@ -5129,12 +4790,8 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se creó el evento, desde el sistema de origen.</p>
       </td>
@@ -5143,12 +4800,8 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó por última vez el evento, desde el sistema de origen.</p>
       </td>
@@ -5160,9 +4813,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del posible cliente asociado al evento.</p>
       </td>
@@ -5174,9 +4825,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El correo electrónico del posible cliente asociado al evento.</p>
       </td>
@@ -5185,12 +4834,8 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. del contacto asociado al evento.</p>
       </td>
@@ -5202,9 +4847,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El correo electrónico del contacto asociado al evento.</p>
       </td>
@@ -5216,9 +4859,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookies de [!DNL Marketo Measure] utilizado para rellenar desde un socio de integración con el fin de asignar un evento sin conexión a una sesión web. Requisito: Habilitar seguimiento de llamadas: Verdadero</p>
       </td>
@@ -5230,9 +4871,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       <td>
         <p>ACTIVITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del tipo de actividad, desde el sistema de origen.</p>
       </td>
@@ -5244,9 +4883,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       <td>
         <p>EVENT_START_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de inicio del evento, una de las opciones utilizadas para determinar la fecha del punto de contacto.</p>
       </td>
@@ -5258,9 +4895,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
       <td>
         <p>EVENT_END_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de finalización del evento, una de las opciones utilizadas para determinar la fecha del punto de contacto.</p>
       </td>
@@ -5320,12 +4955,8 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. de tarea, desde el sistema de origen.</p>
       </td>
@@ -5334,12 +4965,8 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se creó la tarea, desde el sistema de origen.</p>
       </td>
@@ -5348,12 +4975,8 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó por última vez la tarea, desde el sistema de origen.</p>
       </td>
@@ -5365,9 +4988,7 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del posible cliente asociado a la tarea.</p>
       </td>
@@ -5379,9 +5000,7 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El correo electrónico del posible cliente asociado a la tarea.</p>
       </td>
@@ -5390,12 +5009,8 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. del contacto asociado a la tarea.</p>
       </td>
@@ -5407,9 +5022,7 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El correo electrónico del contacto asociado a la tarea.</p>
       </td>
@@ -5421,9 +5034,7 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookies de [!DNL Marketo Measure] utilizado para rellenar desde un socio de integración con el fin de asignar un evento sin conexión a una sesión web. Requisito: Habilitar seguimiento de llamadas: Verdadero</p>
       </td>
@@ -5435,9 +5046,7 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       <td>
         <p>ACTIVITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del tipo de actividad, desde el sistema de origen.</p>
       </td>
@@ -5449,9 +5058,7 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
       <td>
         <p>ACTIVITY_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se realizó la tarea, una de las opciones utilizadas para determinar la fecha del punto de contacto.</p>
       </td>
@@ -5511,9 +5118,7 @@ La tabla de todas las divisas ISO.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
+       <td>ID</td>
       <td>number(38,0)</td>
       <td>Un id. único para el registro de divisa.</td>
       <td>139474809945095870</td>
@@ -5617,9 +5222,7 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El primer id. de cookies del id. de visitante relacionado.</p>
       </td>
@@ -5629,9 +5232,7 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookie registrado en el momento en que se registró el evento.</p>
       </td>
@@ -5641,9 +5242,7 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se registró el chat.</p>
       </td>
@@ -5657,9 +5256,7 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección IP registrada en el momento en que se registró el experimento.</p>
       </td>
@@ -5669,9 +5266,7 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
       <td>
         <p>EXPERIMENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del experimento extraído de la plataforma de pruebas A/B.</p>
       </td>
@@ -5681,9 +5276,7 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
       <td>
         <p>EXPERIMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del experimento extraído de la plataforma de pruebas A/B.</p>
       </td>
@@ -5693,9 +5286,7 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
       <td>
         <p>VARIATION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de variación del experimento extraído de la plataforma de pruebas A/B.</p>
       </td>
@@ -5705,9 +5296,7 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
       <td>
         <p>VARIATION_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de variación del experimento extraído de la plataforma de pruebas A/B.</p>
       </td>
@@ -5717,9 +5306,7 @@ Pruebas A/B registradas. Esta tabla estará vacía si las pruebas A/B no están 
       <td>
         <p>ABTEST_USER_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del usuario que recibió el experimento extraído de la plataforma de pruebas A/B.</p>
       </td>
@@ -5774,9 +5361,7 @@ Eventos web que se han registrado utilizando eventos personalizados en el JavaSc
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El primer id. de cookies del id. de visitante relacionado.</p>
       </td>
@@ -5786,9 +5371,7 @@ Eventos web que se han registrado utilizando eventos personalizados en el JavaSc
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookies registrado en el momento en que se activó el evento desde el JavaScript personalizado.</p>
       </td>
@@ -5798,9 +5381,7 @@ Eventos web que se han registrado utilizando eventos personalizados en el JavaSc
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se activó el evento desde el JavaScript personalizado.</p>
       </td>
@@ -5816,9 +5397,7 @@ Eventos web que se han registrado utilizando eventos personalizados en el JavaSc
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección IP registrada en el momento en que se activó el evento desde el JavaScript personalizado.</p>
       </td>
@@ -5828,9 +5407,7 @@ Eventos web que se han registrado utilizando eventos personalizados en el JavaSc
       <td>
         <p>KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre proporcionado al evento que se activó desde el JavaScript personalizado.</p>
       </td>
@@ -5840,9 +5417,7 @@ Eventos web que se han registrado utilizando eventos personalizados en el JavaSc
       <td>
         <p>VALUE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor proporcionado al evento que se activó desde el JavaScript personalizado.</p>
       </td>
@@ -5894,12 +5469,8 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el registro.</p>
       </td>
@@ -5909,9 +5480,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -5919,9 +5488,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de la cuenta de anuncios desde la que se importó la página de destino.</td>
       <td></td>
     </tr>
@@ -5929,9 +5496,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El nombre de la cuenta de anuncios desde la que se importó la página de destino.</td>
       <td></td>
     </tr>
@@ -5939,9 +5504,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante para la página de destino, específicamente para DoubleClick.</p>
       </td>
@@ -5951,9 +5514,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante para la página de destino, específicamente para DoubleClick.</p>
       </td>
@@ -5965,9 +5526,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. del grupo de anuncios para la página de destino.</td>
       <td></td>
     </tr>
@@ -5975,9 +5534,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios para la página de destino.</p>
       </td>
@@ -5987,9 +5544,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de campaña para la página de destino.</p>
       </td>
@@ -5999,9 +5554,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de campaña para la página de destino.</p>
       </td>
@@ -6028,12 +5581,8 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de la última modificación de la fila</p>
       </td>
@@ -6043,9 +5592,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -6053,9 +5600,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6073,9 +5618,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6083,9 +5626,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6093,9 +5634,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6103,9 +5642,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6113,9 +5650,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>CREATIVE_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6123,9 +5658,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6133,9 +5666,7 @@ Páginas de destino descargadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6184,9 +5715,7 @@ La tabla de asignación para direcciones de correo electrónico e id. de visitan
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Una dirección de correo electrónico conocida vinculada a un id. de visitante determinado de una sesión.</p>
       </td>
@@ -6198,9 +5727,7 @@ La tabla de asignación para direcciones de correo electrónico e id. de visitan
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera cookie del id. de visitante relacionado.</p>
       </td>
@@ -6209,12 +5736,8 @@ La tabla de asignación para direcciones de correo electrónico e id. de visitan
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de la última modificación de la fila</p>
       </td>
@@ -6223,12 +5746,8 @@ La tabla de asignación para direcciones de correo electrónico e id. de visitan
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de creación de la fila.</p>
       </td>
@@ -6620,12 +6139,8 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
       <td>28/08/2018 19:39:15,000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó la fila por última vez.</p>
       </td>
@@ -6799,9 +6314,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de oportunidad, desde el sistema de origen.</p>
       </td>
@@ -6813,9 +6326,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
       <td>
         <p>OPP_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de creación de la oportunidad, desde el sistema de origen.</p>
       </td>
@@ -6827,9 +6338,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
       <td>
         <p>OPP_CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de cierre de la oportunidad, desde el sistema de origen.</p>
       </td>
@@ -6841,21 +6350,15 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
       <td>
         <p>CONTACT_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se creó el registro de contacto, desde el sistema de origen.</p>
       </td>
       <td>28/04/2017 00:21:52,000</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. de contacto, desde el sistema de origen.</p>
       </td>
@@ -6873,9 +6376,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
       <td>
         <p>LEAD_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se creó el registro de posible cliente, desde el sistema de origen.</p>
       </td>
@@ -6887,9 +6388,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de posible cliente, desde el sistema de origen.</p>
       </td>
@@ -7087,12 +6586,8 @@ Envíos de formulario capturados.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el envío de formularios.</p>
       </td>
@@ -7104,9 +6599,7 @@ Envíos de formulario capturados.
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookies registrado en el momento en que se registró el envío de formularios.</p>
       </td>
@@ -7118,9 +6611,7 @@ Envíos de formulario capturados.
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El primer id. de cookies del id. de visitante relacionado. Si el registro está marcado como is_duplicated = true, este campo será nulo.</p>
       </td>
@@ -7132,9 +6623,7 @@ Envíos de formulario capturados.
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de sesión registrado en el momento en que se registró el envío del formulario. Si el registro está marcado como is_duplicated = true, este campo será nulo.</p>
       </td>
@@ -7146,9 +6635,7 @@ Envíos de formulario capturados.
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de envío del formulario.</p>
       </td>
@@ -7157,12 +6644,8 @@ Envíos de formulario capturados.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -7174,9 +6657,7 @@ Envíos de formulario capturados.
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL donde se envió el formulario, sin parámetros de consulta.</p>
       </td>
@@ -7188,9 +6669,7 @@ Envíos de formulario capturados.
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL donde se envió el formulario, incluidos los parámetros de consulta.</p>
       </td>
@@ -7202,9 +6681,7 @@ Envíos de formulario capturados.
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección IP registrada en el momento en que se envió el formulario.</p>
       </td>
@@ -7216,9 +6693,7 @@ Envíos de formulario capturados.
       <td>
         <p>TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Indica el tipo de evento.</td>
       <td>
         <p>FormSubmit</p>
@@ -7228,9 +6703,7 @@ Envíos de formulario capturados.
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Dispositivo y navegador registrados en el momento del envío del formulario.</p>
       </td>
@@ -7242,9 +6715,7 @@ Envíos de formulario capturados.
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Indica el orden en que se produjo la vista de página en la sesión.</td>
       <td>
         <p>4</p>
@@ -7254,9 +6725,7 @@ Envíos de formulario capturados.
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Se utiliza para la auditoría y el procesamiento internos.</td>
       <td>
         <p>20042b6b7af44512b43f6244d86faf4c</p>
@@ -7290,9 +6759,7 @@ Envíos de formulario capturados.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección de correo electrónico proporcionada en un formulario, tal y como se captura del JavaScript.</p>
       </td>
@@ -7304,9 +6771,7 @@ Envíos de formulario capturados.
       <td>
         <p>FORM_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Indica el tipo de formulario enviado.</td>
       <td>
         <p>Chat</p>
@@ -7316,9 +6781,7 @@ Envíos de formulario capturados.
       <td>
         <p>FORM_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Indica el método mediante el que se reconoció el formulario, como onSubmit o AjaxIntercept</p>
       </td>
@@ -7330,9 +6793,7 @@ Envíos de formulario capturados.
       <td>
         <p>FORM_IDENTIFIER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor de id. del formulario.</td>
       <td>
         <p>-956012665</p>
@@ -7392,12 +6853,8 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la impresión.</p>
       </td>
@@ -7409,9 +6866,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookies registrado en el momento de la impresión.</p>
       </td>
@@ -7421,9 +6876,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El primer id. de cookies del id. de visitante relacionado.</p>
       </td>
@@ -7433,9 +6886,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de sesión registrado en el momento en que se registró la impresión.</p>
       </td>
@@ -7445,21 +6896,15 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se realizó la impresión.</p>
       </td>
       <td>01/01/2020 01:01:00,000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -7469,9 +6914,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL donde se realizó la impresión, sin parámetros de consulta.</p>
       </td>
@@ -7481,9 +6924,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL donde se realizó la impresión, incluidos los parámetros de consulta.</p>
       </td>
@@ -7493,9 +6934,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección IP registrada en el momento de la impresión.</p>
       </td>
@@ -7505,9 +6944,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Indica el tipo de evento.</td>
       <td>Impresión</td>
     </tr>
@@ -7515,9 +6952,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Dispositivo y navegador registrados en el momento del envío del formulario.</p>
       </td>
@@ -7529,9 +6964,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Indica el orden en que se produjo la vista de página en la sesión.</td>
       <td>
         <p>4</p>
@@ -7541,9 +6974,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Se utiliza para la auditoría y el procesamiento internos.</td>
       <td>
         <p>20042b6b7af44512b43f6244d86faf4c</p>
@@ -7577,9 +7008,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Por lo general, la página de destino externa inmediatamente antes de que el usuario acceda al sitio web. En CRM, se denomina “Página del referente”.</p>
       </td>
@@ -7589,9 +7018,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>REFERRER_PAGE-RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Por lo general, la página de destino externa inmediatamente antes de que el usuario acceda al sitio web. Una página de referente sin procesar puede contener parámetros de consulta en la dirección URL. En CRM, se denomina “Página de referente - Sin procesar”.</p>
       </td>
@@ -7601,9 +7028,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La ciudad resuelta desde la dirección IP.</p>
       </td>
@@ -7615,9 +7040,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La región resuelta desde la dirección IP.</p>
       </td>
@@ -7629,9 +7052,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El país resuelto desde la dirección IP.</p>
       </td>
@@ -7643,9 +7064,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>ISP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Se espera que sea nulo porque el campo está obsoleto.</td>
       <td>NULL</td>
     </tr>
@@ -7653,9 +7072,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La plataforma de anuncios [!DNL Marketo Measure] pudo resolverlo, por lo general, uno de nuestros socios de integración.</p>
       </td>
@@ -7665,9 +7082,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -7677,9 +7092,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -7689,9 +7102,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -7703,9 +7114,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -7717,9 +7126,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del sitio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -7731,9 +7138,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del sitio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -7745,9 +7150,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la ubicación de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -7759,9 +7162,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la ubicación de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -7773,9 +7174,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -7785,9 +7184,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -7797,9 +7194,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7811,9 +7206,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7825,9 +7218,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anuncio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -7839,9 +7230,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anuncio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -7853,9 +7242,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún creativo en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7867,9 +7254,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún creativo en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7879,9 +7264,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún creativo en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7891,9 +7274,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún creativo en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7903,9 +7284,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún creativo en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7915,9 +7294,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún creativo en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7927,9 +7304,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ninguna palabra clave en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7939,9 +7314,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ninguna palabra clave en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7951,9 +7324,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ninguna palabra clave en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -7963,9 +7334,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, el explorador detectado en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -7977,9 +7346,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la versión detectada del explorador en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -7991,9 +7358,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la plataforma detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -8005,9 +7370,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la versión detectada de la plataforma en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -8131,12 +7494,8 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la palabra clave.</p>
       </td>
@@ -8148,9 +7507,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de la palabra clave, desde el sistema de origen.</td>
       <td>
         <p>39464932147</p>
@@ -8160,9 +7517,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se importó la palabra clave.</p>
       </td>
@@ -8172,9 +7527,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se importó la palabra clave.</p>
       </td>
@@ -8184,9 +7537,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ninguna palabra clave en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -8198,9 +7549,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ninguna palabra clave en la jerarquía de DoubleClick para las impresiones.</p>
       </td>
@@ -8212,9 +7561,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del grupo de anuncios para la palabra clave.</p>
       </td>
@@ -8226,9 +7573,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios para la palabra clave.</p>
       </td>
@@ -8240,9 +7585,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña para la palabra clave.</p>
       </td>
@@ -8254,9 +7597,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña para la palabra clave.</p>
       </td>
@@ -8293,12 +7634,8 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -8308,9 +7645,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
@@ -8322,9 +7657,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la palabra clave, desde el sistema de origen.</p>
       </td>
@@ -8351,9 +7684,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, utilizado para el procesamiento interno.</td>
       <td>
         <p>ba.3284209.132630532.3646889365</p>
@@ -8363,9 +7694,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El objeto o entidad principal de esta tabla. En este caso, “Palabra clave”.</p>
       </td>
@@ -8377,9 +7706,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios para la palabra clave.</p>
       </td>
@@ -8391,9 +7718,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL de la página de destino.</p>
         <p>(Campo de diagnóstico, para procesamiento interno).</p>
@@ -8404,9 +7729,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Valor anterior para URL_CURRENT.</p>
         <p>(Campo de diagnóstico, para procesamiento interno).</p>
@@ -8438,9 +7761,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>WORD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>La frase de búsqueda que el usuario ha introducido.</td>
       <td>
         <p>atribución de ingresos b2b</p>
@@ -8450,9 +7771,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo de coincidencia que se encontró entre la frase de búsqueda y la palabra clave.</p>
       </td>
@@ -8464,9 +7783,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</td>
     </tr>
@@ -8474,9 +7791,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -8484,9 +7799,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Utilizado para diagnósticos internos.</td>
       <td></td>
     </tr>
@@ -8494,9 +7807,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>La plantilla de seguimiento de URL que [!DNL Marketo Measure] añadió a la palabra clave.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -8548,12 +7859,8 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la página de destino.</p>
       </td>
@@ -8563,9 +7870,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8573,9 +7878,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de la cuenta de anuncios desde la que se importó la página de destino.</td>
       <td></td>
     </tr>
@@ -8583,9 +7886,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El nombre de la cuenta de anuncios desde la que se importó la página de destino.</td>
       <td></td>
     </tr>
@@ -8593,9 +7894,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante para la página de destino, específicamente para DoubleClick.</p>
       </td>
@@ -8605,9 +7904,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante para la página de destino, específicamente para DoubleClick.</p>
       </td>
@@ -8617,9 +7914,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. del grupo de anuncios para la página de destino.</td>
       <td></td>
     </tr>
@@ -8627,9 +7922,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El nombre del grupo de anuncios para la página de destino.</td>
       <td></td>
     </tr>
@@ -8637,9 +7930,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de campaña para la página de destino.</td>
       <td></td>
     </tr>
@@ -8647,9 +7938,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El nombre de campaña para la página de destino.</td>
       <td></td>
     </tr>
@@ -8674,12 +7963,8 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de la última modificación de la fila.</p>
       </td>
@@ -8689,9 +7974,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -8699,9 +7982,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8719,9 +8000,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8729,9 +8008,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8739,9 +8016,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8749,9 +8024,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8759,9 +8032,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8769,9 +8040,7 @@ Páginas de destino importadas desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8809,12 +8078,8 @@ Posibles clientes importados desde el sistema de origen.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. de posible cliente, desde el sistema de origen.</p>
       </td>
@@ -8823,12 +8088,8 @@ Posibles clientes importados desde el sistema de origen.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó por última vez el registro de posible cliente, desde el sistema de origen.</p>
       </td>
@@ -8837,12 +8098,8 @@ Posibles clientes importados desde el sistema de origen.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se creó el registro de posible cliente, desde el sistema de origen.</p>
       </td>
@@ -8852,9 +8109,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección de correo electrónico del posible cliente, desde el sistema de origen.</p>
       </td>
@@ -8864,9 +8119,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>WEB_SITE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Sitio web introducido para el posible cliente, desde el sistema de origen, utilizado para la asignación de Lead2Account.</p>
       </td>
@@ -8878,9 +8131,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>COMPANY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Nombre de empresa introducido para el posible cliente, desde el sistema de origen, utilizado para la asignación de Lead2Account.</p>
       </td>
@@ -8892,9 +8143,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El origen en el que se creó el posible cliente.</p>
       </td>
@@ -8920,9 +8169,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>CONVERTED_OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la oportunidad relacionada una vez que el posible cliente se ha convertido.</p>
       </td>
@@ -8934,9 +8181,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>CONVERTED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que el posible cliente se convirtió en un contacto.</p>
       </td>
@@ -8948,9 +8193,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>CONVERTED_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del contacto relacionado una vez que el posible cliente se ha convertido.</p>
       </td>
@@ -8962,9 +8205,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>ACCOUNTID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta asignada. Requisitos: habilitar ABM</p>
       </td>
@@ -8976,9 +8217,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Fase actual del posible cliente, reconocida como una fase personalizada que se puede crear en la aplicación [!DNL Marketo Measure].</p>
       </td>
@@ -8990,9 +8229,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Todas las fases anteriores del posible cliente, reconocidas como fases personalizadas que se pueden crear en la aplicación [!DNL Marketo Measure].</p>
       </td>
@@ -9018,9 +8255,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>LEAD_SCORE_MODEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>(obsoleto)</p>
       </td>
@@ -9032,9 +8267,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>LEAD_SCORE_RESULTS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>(obsoleto)</p>
       </td>
@@ -9046,9 +8279,7 @@ Posibles clientes importados desde el sistema de origen.
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookies de [!DNL Marketo Measure] utilizado para rellenar desde un socio de integración con el fin de asignar un evento sin conexión a una sesión web. Requisito: Habilitar seguimiento de llamadas: Verdadero</p>
       </td>
@@ -9140,12 +8371,8 @@ Transiciones de fase para posibles clientes o contactos.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la transición.</p>
       </td>
@@ -9157,9 +8384,7 @@ Transiciones de fase para posibles clientes o contactos.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección de correo electrónico proporcionada para el posible cliente o contacto relacionado.</p>
       </td>
@@ -9171,9 +8396,7 @@ Transiciones de fase para posibles clientes o contactos.
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del posible cliente asociado a la transición.</p>
       </td>
@@ -9182,12 +8405,8 @@ Transiciones de fase para posibles clientes o contactos.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. del contacto asociado a la transición.</p>
       </td>
@@ -9199,9 +8418,7 @@ Transiciones de fase para posibles clientes o contactos.
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del punto de contacto de comprador vinculado a la transición.</p>
       </td>
@@ -9213,9 +8430,7 @@ Transiciones de fase para posibles clientes o contactos.
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que el registro realizó la transición a la fase.</p>
       </td>
@@ -9227,9 +8442,7 @@ Transiciones de fase para posibles clientes o contactos.
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor de id. de la fase para la transición.</p>
       </td>
@@ -9241,9 +8454,7 @@ Transiciones de fase para posibles clientes o contactos.
       <td>
         <p>STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la fase para la transición.</p>
       </td>
@@ -9323,9 +8534,7 @@ Transiciones de fase para posibles clientes o contactos.
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de transición para la fase anterior, según la clasificación de la fase.</p>
       </td>
@@ -9337,9 +8546,7 @@ Transiciones de fase para posibles clientes o contactos.
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de transición para la fase siguiente, según la clasificación de la fase.</p>
       </td>
@@ -9348,12 +8555,8 @@ Transiciones de fase para posibles clientes o contactos.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de la última modificación del registro.</p>
       </td>
@@ -9409,12 +8612,8 @@ Oportunidades importadas desde el sistema de origen.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. de oportunidad, desde el sistema de origen.</p>
       </td>
@@ -9423,24 +8622,16 @@ Oportunidades importadas desde el sistema de origen.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de la última modificación de la oportunidad, desde el sistema de origen.</p>
       </td>
       <td>28/11/2017 21:26:44,000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de creación de la oportunidad, desde el sistema de origen.</p>
       </td>
@@ -9450,9 +8641,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta relacionada.</p>
       </td>
@@ -9464,9 +8653,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la oportunidad, desde el sistema de origen.</p>
       </td>
@@ -9506,9 +8693,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de cierre prevista o real de la oportunidad, desde el sistema de origen.</p>
       </td>
@@ -9520,9 +8705,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>BIZIBLE_CUSTOM_MODEL_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>(obsoleto)</p>
       </td>
@@ -9548,9 +8731,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>CONVERTED_FROM_LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del posible cliente relacionado que se ha convertido en esta oportunidad.</p>
         <p>Tenga en cuenta que este campo no está establecido y devuelve nulo en Snowflake para todos los clientes.</p>
@@ -9563,9 +8744,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>CONVERTED_FROM_LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El correo electrónico del posible cliente relacionado que se ha convertido en esta oportunidad.</p>
         <p>Tenga en cuenta que este campo no está establecido y devuelve nulo en Snowflake para todos los clientes.</p>
@@ -9578,9 +8757,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>PRIMARY_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Si se utiliza la función de contacto principal, el id. del contacto relacionado aparece como la función de contacto principal.</p>
       </td>
@@ -9592,9 +8769,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>PRIMARY_CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Si se utiliza la función de contacto principal, el correo electrónico del contacto relacionado aparece como la función de contacto principal.</p>
       </td>
@@ -9620,9 +8795,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La fase actual de la oportunidad, tal como se define en la aplicación [!DNL Marketo Measure].</p>
       </td>
@@ -9634,9 +8807,7 @@ Oportunidades importadas desde el sistema de origen.
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Una cadena de todas las fases por las que ha pasado la oportunidad, tal como se define en la aplicación [!DNL Marketo Measure].</p>
       </td>
@@ -9731,12 +8902,8 @@ Transiciones de fase para oportunidades.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la transición.</p>
       </td>
@@ -9748,9 +8915,7 @@ Transiciones de fase para oportunidades.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta asociada a la oportunidad.</p>
       </td>
@@ -9762,9 +8927,7 @@ Transiciones de fase para oportunidades.
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la oportunidad asociada a la transición.</p>
       </td>
@@ -9773,12 +8936,8 @@ Transiciones de fase para oportunidades.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. del contacto asociado a la transición.</p>
       </td>
@@ -9790,9 +8949,7 @@ Transiciones de fase para oportunidades.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección de correo electrónico proporcionada para el contacto relacionado.</p>
       </td>
@@ -9804,9 +8961,7 @@ Transiciones de fase para oportunidades.
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del punto de contacto de atribución de comprador vinculado a la transición.</p>
       </td>
@@ -9818,9 +8973,7 @@ Transiciones de fase para oportunidades.
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que el registro realizó la transición a la fase.</p>
       </td>
@@ -9832,9 +8985,7 @@ Transiciones de fase para oportunidades.
       <td>
         <p>STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la fase para la transición.</p>
       </td>
@@ -9846,9 +8997,7 @@ Transiciones de fase para oportunidades.
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor de id. de la fase para la transición.</p>
       </td>
@@ -9926,9 +9075,7 @@ Transiciones de fase para oportunidades.
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de transición para la fase anterior, según la clasificación de la fase.</p>
       </td>
@@ -9940,9 +9087,7 @@ Transiciones de fase para oportunidades.
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de transición para la fase siguiente, según la clasificación de la fase.</p>
       </td>
@@ -9951,12 +9096,8 @@ Transiciones de fase para oportunidades.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de la última modificación del registro.</p>
       </td>
@@ -10012,12 +9153,8 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la vista de página.</p>
       </td>
@@ -10029,9 +9166,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookies registrado en el momento en que se registró la vista de página.</p>
       </td>
@@ -10043,9 +9178,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera cookie del id. de visitante relacionado.</p>
       </td>
@@ -10057,9 +9190,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de sesión correlacionado con la vista de página.</p>
       </td>
@@ -10071,9 +9202,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se produjo la vista de página.</p>
       </td>
@@ -10082,12 +9211,8 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -10099,9 +9224,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL de la vista de página, sin parámetros de consulta.</p>
       </td>
@@ -10113,9 +9236,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL de la vista de página, incluidos los parámetros de consulta.</p>
       </td>
@@ -10127,9 +9248,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección IP registrada en el momento en que se envió el formulario.</p>
       </td>
@@ -10141,9 +9260,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Indica el tipo de evento.</td>
       <td>
         <p>Vista de página</p>
@@ -10153,9 +9270,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Dispositivo y navegador registrados en el momento del envío del formulario.</p>
       </td>
@@ -10181,9 +9296,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Se utiliza para la auditoría y el procesamiento internos.</td>
       <td>
         <p>103532</p>
@@ -10213,9 +9326,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL desde donde se originó la vista de página, sin parámetros de consulta.</p>
       </td>
@@ -10227,9 +9338,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL desde donde se originó la vista de página, incluidos los parámetros de consulta.</p>
       </td>
@@ -10241,9 +9350,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>PAGE_TITLE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El título de la página.</p>
       </td>
@@ -10255,9 +9362,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección de correo electrónico proporcionada en un formulario, tal y como se captura del JavaScript.</p>
       </td>
@@ -10329,12 +9434,8 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la ubicación.</p>
       </td>
@@ -10346,9 +9447,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de ubicación, desde el sistema de origen.</td>
       <td>10426699711</td>
     </tr>
@@ -10356,9 +9455,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se importó la ubicación.</p>
       </td>
@@ -10368,9 +9465,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se importó la ubicación.</p>
       </td>
@@ -10380,9 +9475,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante para la ubicación, específicamente para DoubleClick.</p>
       </td>
@@ -10392,9 +9485,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante para la ubicación, específicamente para DoubleClick.</p>
       </td>
@@ -10404,9 +9495,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios por encima de la ubicación en ninguna jerarquía de anuncios.</p>
       </td>
@@ -10416,9 +9505,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios por encima de la ubicación en ninguna jerarquía de anuncios.</p>
       </td>
@@ -10428,9 +9515,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña para la ubicación.</p>
       </td>
@@ -10440,9 +9525,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña para la ubicación.</p>
       </td>
@@ -10473,12 +9556,8 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -10488,9 +9567,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
@@ -10500,9 +9577,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la ubicación, desde el sistema de origen.</p>
       </td>
@@ -10525,9 +9600,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, para procesamiento interno.</td>
       <td></td>
     </tr>
@@ -10535,9 +9608,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El objeto o entidad principal de esta tabla. En este caso, “Ubicación”.</p>
       </td>
@@ -10547,9 +9618,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios para la ubicación.</p>
       </td>
@@ -10601,12 +9670,8 @@ Los valores de los segmentos tal como se define en la aplicación [!DNL Marketo 
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el segmento.</p>
       </td>
@@ -10618,9 +9683,7 @@ Los valores de los segmentos tal como se define en la aplicación [!DNL Marketo 
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del segmento.</p>
       </td>
@@ -10679,9 +9742,7 @@ Asigna el nombre del segmento personalizado a su valor de categoría. (Esto asig
       <td>
         <p>CATEGORY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Indica la categoría a la que está asignada el nombre del segmento.</p>
       </td>
@@ -10690,12 +9751,8 @@ Asigna el nombre del segmento personalizado a su valor de categoría. (Esto asig
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -10707,9 +9764,7 @@ Asigna el nombre del segmento personalizado a su valor de categoría. (Esto asig
       <td>
         <p>SEGMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del segmento asignado a la categoría.</p>
       </td>
@@ -10763,12 +9818,8 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la sesión.</p>
       </td>
@@ -10780,9 +9831,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera cookie del id. de visitante relacionado.</p>
       </td>
@@ -10792,9 +9841,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de cookies registrado de la sesión.</p>
       </td>
@@ -10804,9 +9851,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de la sesión.</p>
       </td>
@@ -10818,9 +9863,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>MODIFIED DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -10838,9 +9881,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CHANNEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Canal atribuido a la sesión, tal como se especifica en las definiciones de canal establecidas en la aplicación [!DNL Marketo Measure].</p>
       </td>
@@ -10852,9 +9893,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>PAGE_TITLE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la página web.</p>
       </td>
@@ -10866,9 +9905,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL de la primera vista de página de la sesión, sin parámetros de consulta.</p>
       </td>
@@ -10880,9 +9917,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL de la primera vista de página de la sesión, incluidos los parámetros de consulta.</p>
       </td>
@@ -10894,9 +9929,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL desde donde se originó la sesión, sin parámetros de consulta.</p>
       </td>
@@ -10908,9 +9941,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL desde donde se originó la sesión, incluidos los parámetros de consulta.</p>
       </td>
@@ -10922,9 +9953,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>REFERRER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la página del referente.</p>
       </td>
@@ -10936,9 +9965,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor que el usuario introdujo en el explorador para su búsqueda y acabó en el sitio web.</p>
       </td>
@@ -10950,9 +9977,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se utiliza para definir el origen que dio como resultado la sesión. Esto se puede analizar desde la dirección URL de utm_source o establecer en un proveedor de anuncios si [!DNL Marketo Measure] puede resolver un anuncio.</p>
       </td>
@@ -11020,9 +10045,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>DEVICE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El explorador y el sistema operativo del usuario durante la sesión.</p>
       </td>
@@ -11034,9 +10057,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La plataforma de anuncios [!DNL Marketo Measure] pudo resolverlo, por lo general, uno de nuestros socios de integración.</p>
       </td>
@@ -11048,9 +10069,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -11062,9 +10081,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -11076,9 +10093,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante desde el que se resolvió el anuncio, específicamente desde la conexión DoubleClick.</p>
       </td>
@@ -11090,9 +10105,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante desde el que se resolvió el anuncio, específicamente desde la conexión DoubleClick.</p>
       </td>
@@ -11104,9 +10117,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del sitio desde el que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -11118,9 +10129,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del sitio desde el que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -11132,9 +10141,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la ubicación desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -11146,9 +10153,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la ubicación desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -11160,9 +10165,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña desde la que se resolvió el anuncio.</p>
       </td>
@@ -11174,9 +10177,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña desde la que se resolvió el anuncio.</p>
       </td>
@@ -11188,9 +10189,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del grupo de anuncios desde el que se resolvió el anuncio. Esto solo se aplica a Google AdWords.</p>
       </td>
@@ -11202,9 +10201,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios desde el que se resolvió el anuncio. Esto solo se aplica a Google AdWords.</p>
       </td>
@@ -11216,9 +10213,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. desde el que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -11228,9 +10223,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre desde el que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -11240,9 +10233,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del creativo desde el que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -11254,9 +10245,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del creativo desde el que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -11268,9 +10257,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera línea del creativo del anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -11282,9 +10269,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La segunda línea del creativo del anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -11296,9 +10281,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La página de destino en la que se hace clic desde el anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -11310,9 +10293,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre descriptivo de la dirección URL que se muestra en el anuncio de búsqueda, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -11324,9 +10305,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la palabra clave desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -11338,9 +10317,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la palabra clave desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -11352,9 +10329,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo de coincidencia encontrada entre la frase de búsqueda y la palabra clave comprada.</p>
       </td>
@@ -11366,9 +10341,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CAMPAIGN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Analizado desde la dirección URL de utm_campaign.</p>
       </td>
@@ -11380,9 +10353,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Analizado desde la dirección URL de utm_source.</p>
       </td>
@@ -11394,9 +10365,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Analizado desde la dirección URL de utm_medium.</p>
       </td>
@@ -11408,9 +10377,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>TERM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Analizado desde la dirección URL de utm_term.</p>
       </td>
@@ -11422,9 +10389,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CONTENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Analizado desde la dirección URL de utm_content.</p>
       </td>
@@ -11436,9 +10401,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La ciudad resuelta desde la dirección IP.</p>
       </td>
@@ -11448,9 +10411,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La región resuelta desde la dirección IP.</p>
       </td>
@@ -11460,9 +10421,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El país resuelto desde la dirección IP.</p>
       </td>
@@ -11472,9 +10431,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>ISP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Se espera que sea nulo porque el campo está obsoleto.</td>
       <td>
         <p>NULL</p>
@@ -11484,9 +10441,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección IP registrada en el momento de la sesión.</p>
       </td>
@@ -11622,12 +10577,8 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el sitio.</p>
       </td>
@@ -11637,9 +10588,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. del sitio, desde el sistema de origen.</td>
       <td>39464932147</td>
     </tr>
@@ -11647,9 +10596,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se importó el sitio.</p>
       </td>
@@ -11659,9 +10606,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se importó el sitio.</p>
       </td>
@@ -11671,9 +10616,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante para el sitio, específicamente para DoubleClick.</p>
       </td>
@@ -11685,9 +10628,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante para el sitio, específicamente para DoubleClick.</p>
       </td>
@@ -11699,9 +10640,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios por encima del sitio en ninguna jerarquía de anuncios.</p>
       </td>
@@ -11711,9 +10650,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se espera que sea nulo, ya que no hay ningún grupo de anuncios por encima del sitio en ninguna jerarquía de anuncios.</p>
       </td>
@@ -11723,9 +10660,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id. de la campaña para el sitio.</p>
       </td>
@@ -11737,9 +10672,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña para el sitio.</p>
       </td>
@@ -11770,12 +10703,8 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -11785,9 +10714,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
@@ -11797,9 +10724,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del sitio, desde el sistema de origen.</p>
       </td>
@@ -11822,9 +10747,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Campo de diagnóstico, utilizado para el procesamiento interno.</td>
       <td></td>
     </tr>
@@ -11832,9 +10755,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El objeto o entidad principal de esta tabla. En este caso, “Sitio”.</p>
       </td>
@@ -11844,9 +10765,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios para el sitio.</p>
       </td>
@@ -11900,12 +10819,8 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el vínculo del sitio</p>
       </td>
@@ -11917,9 +10832,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>1654234342</p>
@@ -11929,9 +10842,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios conectada para el vínculo del sitio</p>
       </td>
@@ -11943,9 +10854,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios conectada para el vínculo del sitio</p>
       </td>
@@ -11957,9 +10866,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante para el vínculo del sitio, específicamente para DoubleClick.</p>
       </td>
@@ -11971,9 +10878,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante para el vínculo del sitio, específicamente para DoubleClick.</p>
       </td>
@@ -11985,9 +10890,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del grupo de anuncios para el vínculo del sitio</p>
       </td>
@@ -11997,9 +10900,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios para el vínculo del sitio</p>
       </td>
@@ -12009,9 +10910,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de campaña para el vínculo del sitio</p>
       </td>
@@ -12023,9 +10922,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de campaña para el vínculo del sitio</p>
       </td>
@@ -12062,12 +10959,8 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha de la última modificación de la fila</p>
       </td>
@@ -12079,9 +10972,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que Marketo Measure descargó por primera vez el vínculo del sitio [!DNL Marketo Measure]</p>
       </td>
@@ -12093,9 +10984,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del vínculo del sitio</p>
       </td>
@@ -12119,9 +11008,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>aw.6601259029.285077795</p>
@@ -12131,9 +11018,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El objeto o entidad principal de esta tabla. En este caso, “Vínculo del sitio”.</p>
       </td>
@@ -12145,9 +11030,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del proveedor de anuncios para el vínculo del sitio</p>
       </td>
@@ -12159,9 +11042,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección URL de la página de destino.</p>
         <p>(Campo de diagnóstico, para procesamiento interno).</p>
@@ -12175,9 +11056,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Valor anterior para URL_CURRENT.</p>
         <p>(Campo de diagnóstico, para procesamiento interno).</p>
@@ -12188,9 +11067,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Decoración de la dirección URL con los parámetros de [!DNL Marketo Measure].</p>
         <p>(Campo de diagnóstico, para procesamiento interno).</p>
@@ -12231,12 +11108,8 @@ La lista de fases tal como se importan o definen en la aplicación [!DNL Marketo
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para la fase.</p>
       </td>
@@ -12245,12 +11118,8 @@ La lista de fases tal como se importan o definen en la aplicación [!DNL Marketo
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -12262,9 +11131,7 @@ La lista de fases tal como se importan o definen en la aplicación [!DNL Marketo
       <td>
         <p>STAGE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la fase.</p>
       </td>
@@ -12328,9 +11195,7 @@ La lista de fases tal como se importan o definen en la aplicación [!DNL Marketo
       <td>
         <p>STAGE_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Estado de la fase, tal como se define en la asignación de fase de la aplicación [!DNL Marketo Measure].</p>
       </td>
@@ -12426,12 +11291,8 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el punto de contacto de comprador (BT).</p>
       </td>
@@ -12440,12 +11301,8 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -12457,21 +11314,15 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>La dirección de correo electrónico asociada al BT.</td>
       <td>
         <p>person@adobe.com</p>
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>El id. del contacto asociado al BT.</p>
       </td>
@@ -12481,9 +11332,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta asociada al BT.</p>
       </td>
@@ -12495,9 +11344,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del posible cliente asociado al BT.</p>
       </td>
@@ -12509,9 +11356,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>UNIQUE_ID_PERSON</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El registro de persona principal relacionado con un posible cliente o contacto.</p>
       </td>
@@ -12523,9 +11368,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del punto de contacto del usuario que generó el BT.</p>
       </td>
@@ -12543,9 +11386,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha del punto de contacto.</p>
       </td>
@@ -12557,9 +11398,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo de actividad, visita web, formulario web, chat en web, llamada telefónica, campaña [CRM] o actividad [CRM]. En CRM, se denomina “Tipo de punto de contacto”.</p>
       </td>
@@ -12571,9 +11410,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CHANNEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El canal al que corresponde el punto de contacto, tal como se especifica en las definiciones de canales personalizados en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Canal de marketing - Ruta”.</p>
       </td>
@@ -12583,9 +11420,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la primera categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -12595,9 +11430,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la segunda categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -12609,9 +11442,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la tercera categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -12623,9 +11454,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la cuarta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -12637,9 +11466,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la quinta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -12649,9 +11476,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la sexta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -12661,9 +11486,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la séptima categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -12671,9 +11494,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la octava categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -12681,9 +11502,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la novena categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -12691,9 +11510,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la décima categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -12701,9 +11518,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la undécima categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -12711,9 +11526,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la duodécima categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -12721,9 +11534,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El valor del segmento para la decimotercera categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</td>
       <td></td>
     </tr>
@@ -12731,9 +11542,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la decimocuarta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -12743,9 +11552,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CATEGORY15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor del segmento para la decimoquinta categoría a la que corresponde el punto de contacto, tal como se especifica en las definiciones de segmentos en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Segmentos”.</p>
       </td>
@@ -12755,9 +11562,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, el explorador detectado en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -12767,9 +11572,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la versión detectada del explorador en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -12781,9 +11584,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la plataforma detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -12795,9 +11596,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la versión detectada de la plataforma en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -12807,9 +11606,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera página de destino de la sesión que dio como resultado un punto de contacto. En CRM, se denomina “Página de destino”.</p>
       </td>
@@ -12821,9 +11618,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera página de destino de la sesión que dio como resultado un punto de contacto. Una página de destino sin procesar contendrá todos los parámetros de consulta en la dirección URL. En CRM, se denomina “Página de destino - Sin procesar”.</p>
       </td>
@@ -12835,9 +11630,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Por lo general, la página de destino externa inmediatamente antes de que el usuario acceda al sitio web. En CRM, se denomina “Página del referente”.</p>
       </td>
@@ -12847,9 +11640,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Por lo general, la página de destino externa inmediatamente antes de que el usuario acceda al sitio web. Una página de referente sin procesar puede contener parámetros de consulta en la dirección URL. En CRM, se denomina “Página de referente - Sin procesar”.</p>
       </td>
@@ -12861,9 +11652,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El primer formulario registrado en una sesión que dio como resultado un punto de contacto. Los envíos de formularios posteriores no aparecerán en la tabla Puntos de contacto, sino en la tabla Form_Submits. En CRM, se denomina “URL del formulario”.</p>
       </td>
@@ -12881,9 +11670,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se realizó el envío del formulario.</p>
       </td>
@@ -12895,9 +11682,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la ciudad detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -12909,9 +11694,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la región detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -12923,9 +11706,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, el país detectado en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -12937,9 +11718,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se utiliza para definir el medio que dio como resultado el punto de contacto. Esto se puede analizar desde la dirección URL de utm_medium. O bien, si [!DNL Marketo Measure] puede resolver un anuncio, pueden ser valores como “cpc” o “visualización”.</p>
       </td>
@@ -12951,9 +11730,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se utiliza para definir el origen que dio como resultado el punto de contacto. Esto se puede analizar desde la dirección URL de utm_source, establecida genéricamente como “Campaña de CRM” si se sincronizó desde CRM, o si [!DNL Marketo Measure] puede resolver un anuncio, pueden ser valores como “Google AdWords” o “Facebook”. En CRM, se denomina “Origen del punto de contacto”.</p>
       </td>
@@ -12965,9 +11742,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor que el usuario introdujo en el explorador para su búsqueda y acabó en el sitio web. Dependiendo de las compras de palabras clave, esto puede o no coincidir con las palabras clave compradas en la plataforma Búsqueda de pago.</p>
       </td>
@@ -12979,9 +11754,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La plataforma de anuncios [!DNL Marketo Measure] pudo resolverlo, por lo general, uno de nuestros socios de integración.</p>
       </td>
@@ -12993,9 +11766,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -13007,9 +11778,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -13021,9 +11790,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -13035,9 +11802,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -13049,9 +11814,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del sitio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -13063,9 +11826,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del sitio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -13077,9 +11838,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la ubicación de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -13091,9 +11850,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la ubicación de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -13105,9 +11862,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -13119,9 +11874,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -13133,9 +11886,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del grupo de anuncios de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica a Google AdWords.</p>
       </td>
@@ -13145,9 +11896,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica a Google AdWords.</p>
       </td>
@@ -13157,9 +11906,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anuncio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -13169,9 +11916,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anuncio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -13181,9 +11926,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del creativo de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -13195,9 +11938,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del creativo de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -13209,9 +11950,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera línea del creativo del anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -13223,9 +11962,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La segunda línea del creativo del anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -13237,9 +11974,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La página de destino en la que se hace clic desde el anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -13251,9 +11986,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre descriptivo de la dirección URL que se muestra en el anuncio de búsqueda, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -13265,9 +11998,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la palabra clave adquirida en la compra de Búsqueda de pago, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -13279,9 +12010,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la palabra clave adquirida en la compra de Búsqueda de pago, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda)</p>
       </td>
@@ -13293,9 +12022,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo de coincidencia encontrada entre la frase de búsqueda y la palabra clave comprada.</p>
       </td>
@@ -13699,12 +12426,8 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Un id. único para el punto de contacto del usuario.</p>
       </td>
@@ -13713,12 +12436,8 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
@@ -13730,9 +12449,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La dirección de correo electrónico asociada al punto de contacto del usuario.</p>
       </td>
@@ -13744,9 +12461,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la sesión que creó el punto de contacto del usuario.</p>
       </td>
@@ -13758,9 +12473,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CAMPAIGN_MEMBER_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del miembro de campaña que creó el punto de contacto del usuario.</p>
       </td>
@@ -13778,9 +12491,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CRM_EVENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del evento que creó el punto de contacto del usuario.</p>
       </td>
@@ -13792,9 +12503,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CRM_TASK_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la tarea que creó el punto de contacto del usuario.</p>
       </td>
@@ -13806,9 +12515,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>IMPRESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la impresión que creó el punto de contacto del usuario.</p>
       </td>
@@ -13830,9 +12537,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se produjo el punto de contacto del usuario.</p>
       </td>
@@ -13844,9 +12549,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo de actividad, visita web, formulario web, chat en web, llamada telefónica, campaña [CRM] o actividad [CRM]. En CRM, se denomina “Tipo de punto de contacto”.</p>
       </td>
@@ -13858,9 +12561,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CHANNEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El canal al que corresponde el punto de contacto, tal como se especifica en las definiciones de canales personalizados en la aplicación [!DNL Marketo Measure]. En CRM, se denomina “Canal de marketing - Ruta”.</p>
       </td>
@@ -13872,9 +12573,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, el explorador detectado en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -13886,9 +12585,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la versión detectada del explorador en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -13900,9 +12597,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la plataforma detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -13914,9 +12609,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la versión detectada de la plataforma en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -13928,9 +12621,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera página de destino de la sesión que dio como resultado un punto de contacto. En CRM, se denomina “Página de destino”.</p>
       </td>
@@ -13942,9 +12633,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera página de destino de la sesión que dio como resultado un punto de contacto. Una página de destino sin procesar contendrá todos los parámetros de consulta en la dirección URL. En CRM, se denomina “Página de destino - Sin procesar”.</p>
       </td>
@@ -13956,9 +12645,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Por lo general, la página de destino externa inmediatamente antes de que el usuario acceda al sitio web. En CRM, se denomina “Página del referente”.</p>
       </td>
@@ -13970,9 +12657,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Por lo general, la página de destino externa inmediatamente antes de que el usuario acceda al sitio web. Una página de referente sin procesar puede contener parámetros de consulta en la dirección URL. En CRM, se denomina “Página de referente - Sin procesar”.</p>
       </td>
@@ -13984,9 +12669,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El primer formulario registrado en una sesión que dio como resultado un punto de contacto. Los envíos de formularios posteriores no aparecerán en la tabla Attribution_Touchpoints, sino en la tabla Form_Submits. En CRM, se denomina “URL del formulario”.</p>
       </td>
@@ -13998,9 +12681,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El primer formulario registrado en una sesión que dio como resultado un punto de contacto. Los envíos de formularios posteriores no aparecerán en la tabla Attribution_Touchpoints, sino en la tabla Form_Submits. Una página de formulario sin procesar puede contener parámetros de consulta en la dirección URL. En CRM, se denomina “URL del formulario - Sin procesar”.</p>
       </td>
@@ -14012,9 +12693,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se realizó el envío del formulario.</p>
       </td>
@@ -14026,9 +12705,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la ciudad detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -14040,9 +12717,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, la región detectada en la que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -14054,9 +12729,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>A partir de la dirección IP y el JavaScript, el país detectado en el que se encontraba el usuario durante la sesión.</p>
       </td>
@@ -14068,9 +12741,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se utiliza para definir el medio que dio como resultado el punto de contacto. Esto se puede analizar desde la dirección URL de utm_medium. O bien, si [!DNL Marketo Measure] puede resolver un anuncio, pueden ser valores como “cpc” o “visualización”.</p>
       </td>
@@ -14082,9 +12753,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Se utiliza para definir el origen que dio como resultado el punto de contacto. Esto se puede analizar desde la dirección URL de utm_source, establecida genéricamente como “Campaña de CRM” si se sincronizó desde CRM, o si [!DNL Marketo Measure] puede resolver un anuncio, pueden ser valores como “Google AdWords” o “Facebook”. En CRM, se denomina “Origen del punto de contacto”.</p>
       </td>
@@ -14096,9 +12765,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El valor que el usuario introdujo en el explorador para su búsqueda y acabó en el sitio web. Dependiendo de las compras de palabras clave, esto puede o no coincidir con las palabras clave compradas en la plataforma Búsqueda de pago.</p>
       </td>
@@ -14110,9 +12777,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La plataforma de anuncios [!DNL Marketo Measure] pudo resolverlo, por lo general, uno de nuestros socios de integración.</p>
       </td>
@@ -14124,9 +12789,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -14138,9 +12801,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -14152,9 +12813,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anunciante de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -14166,9 +12825,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anunciante de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -14180,9 +12837,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del sitio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -14194,9 +12849,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del sitio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -14208,9 +12861,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la ubicación de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -14222,9 +12873,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la ubicación de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica al administrador de campañas de DoubleClick.</p>
       </td>
@@ -14236,9 +12885,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la campaña de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -14250,9 +12897,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la campaña de la cuenta de anuncios desde la que se resolvió el anuncio.</p>
       </td>
@@ -14264,9 +12909,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del grupo de anuncios de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica a Google AdWords.</p>
       </td>
@@ -14278,9 +12921,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del grupo de anuncios de la cuenta de anuncios desde la que se resolvió el anuncio. Esto solo se aplica a Google AdWords.</p>
       </td>
@@ -14292,9 +12933,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del anuncio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -14304,9 +12943,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del anuncio de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica al administrador de campañas de DoubleClick y Facebook (visualización).</p>
       </td>
@@ -14316,9 +12953,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. del creativo de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -14330,9 +12965,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre del creativo de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -14344,9 +12977,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La primera línea del creativo del anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -14358,9 +12989,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La segunda línea del creativo del anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -14372,9 +13001,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>La página de destino en la que se hace clic desde el anuncio de búsqueda, extraída de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -14386,9 +13013,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre descriptivo de la dirección URL que se muestra en el anuncio de búsqueda, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -14400,9 +13025,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El id. de la palabra clave adquirida en la compra de Búsqueda de pago, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda).</p>
       </td>
@@ -14414,9 +13037,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El nombre de la palabra clave adquirida en la compra de Búsqueda de pago, extraído de la cuenta de anuncios desde la que se resolvió el anuncio. Esto se aplica a Google AdWords y Bing Ads (búsqueda)</p>
       </td>
@@ -14428,9 +13049,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>El tipo de coincidencia encontrada entre la frase de búsqueda y la palabra clave comprada.</p>
       </td>
@@ -14592,12 +13211,8 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
       <th>Datos de muestra</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>Un id. único para el registro de asignación.</td>
       <td>
         <p>0d643578c0c74753eff91abe668ed328|2020-06-17:19:03:36|0002|0|568668</p>
@@ -14607,9 +13222,7 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de cookies registrado de [!DNL Marketo Measure].</td>
       <td>0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14617,9 +13230,7 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El primer id. de cookies del id. de visitante relacionado.</td>
       <td>v_0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14627,9 +13238,7 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>El id. de sesión de [!DNL Marketo Measure].</td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
@@ -14644,9 +13253,7 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
+      <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
         <p>La fecha en la que se modificó el registro por última vez.</p>
@@ -14657,9 +13264,7 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
     </tr>
     <tr>
       <td>CURRENT_PAGE</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>La dirección URL de la vista de página, sin parámetros de consulta.</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html</p>
@@ -14667,9 +13272,7 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
     </tr>
     <tr>
       <td>CURRENT_PAGE_RAW</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>La dirección URL de la vista de página, incluidos los parámetros de consulta.</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
@@ -14677,9 +13280,7 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>La dirección IP registrada.</td>
       <td>
         <p>159.203.142.127</p>
@@ -14687,9 +13288,7 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
     </tr>
     <tr>
       <td>TYPE</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Indica el tipo de evento.</td>
       <td>
         <p>HostMapping</p>
@@ -14697,9 +13296,7 @@ Tabla de asignación para asignar el id. de sesión de [!DNL Marketo Measure] al
     </tr>
     <tr>
       <td>USER_AGENT_STRING</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Dispositivo y navegador registrados en el momento de la vista de página.</td>
       <td>
         <p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/79.0.3945.130 Safari/537.36</p>
