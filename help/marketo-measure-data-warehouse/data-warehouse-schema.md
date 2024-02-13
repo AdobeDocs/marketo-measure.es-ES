@@ -4,7 +4,7 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentación del pr
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 79ac3c82c1b67cebc26fedb5e698e531537cce7f
+source-git-commit: f77c4471887c18b177dedab5b4c41f3a64010539
 workflow-type: tm+mt
 source-wordcount: '21115'
 ht-degree: 98%
@@ -3043,7 +3043,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
   </tbody>
 </table>
 
-## BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
+### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
 Datos generados a partir de la integración de Attribution AI. Estos campos solo se rellenan para los clientes de Marketo Measure Ultimate.
 
