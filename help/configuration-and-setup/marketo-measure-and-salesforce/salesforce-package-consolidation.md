@@ -1,16 +1,16 @@
 ---
 description: '[!DNL Salesforce] Consolidación de paquetes - [!DNL Marketo Measure] - Documentación del producto'
 title: '[!DNL Salesforce] Consolidación de paquetes'
-exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 0%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
-# [!DNL Salesforce] Consolidación de paquetes {#salesforce-package-consolidation}
+# Consolidación de paquetes de [!DNL Salesforce] {#salesforce-package-consolidation}
 
 Nos complace anunciar próximos cambios en los paquetes de Marketo Measure Salesforce. En un esfuerzo por mejorar la experiencia del usuario y simplificar el uso, estamos consolidando todos los paquetes existentes en un único paquete completo.
 
@@ -25,7 +25,7 @@ El nuevo paquete consolidado de la versión 2 incorpora todas las funciones y fu
 Se han añadido dos campos nuevos para mejorar las funciones de creación de informes:
 
 * form_name: ahora disponible en objetos BT/BAT, este campo permite a los usuarios crear informes basados en nombres de formulario.
-* user_touchpoint_id: este campo permite a los usuarios crear informes con recuentos de puntos de contacto de usuario únicos.
+* user_touchpoint_id: este campo permite a los usuarios crear informes con recuentos de puntos de contacto de usuario únicos (`bizible2__User_Touchpoint_V2__c` en Salesforce).
 
 ## Soporte y transición {#support-and-transition}
 
