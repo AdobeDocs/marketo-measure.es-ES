@@ -2,9 +2,9 @@
 description: Tablero de participación - [!DNL Marketo Measure] - Producto
 title: Panel de participación
 feature: Reporting
-source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -59,3 +59,11 @@ Preguntas que responde el gráfico:
 * ¿En qué se diferencia el número de puntos de contacto de las personas tocadas dentro de un canal, subcanal o campaña específicos?
 
 ![](assets/engagement-dashboard-2.png)
+
+## Panel de filtro {#filter-pane}
+
+Este tablero está equipado con los siguientes ajustes y filtros:
+
+* Fecha (basada en la fecha de Touchpoint)
+* Canal, Subcanal
+* Campaña

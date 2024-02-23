@@ -2,10 +2,10 @@
 description: '[!DNL Marketo Measure] Guía de implementación de Ultimate - [!DNL Marketo Measure] - Documentación del producto'
 title: '[!DNL Marketo Measure] Guía de implementación de Ultimate'
 feature: Integration, Tracking, Attribution
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
-workflow-type: ht
-source-wordcount: '997'
-ht-degree: 100%
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+workflow-type: tm+mt
+source-wordcount: '1014'
+ht-degree: 98%
 
 ---
 
@@ -66,6 +66,10 @@ Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígen
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## Flujos de datos {#dataflows}
+
+>[!IMPORTANT]
+>
+>Al agregar un nuevo conjunto de datos, se recomienda crear un nuevo flujo en lugar de utilizar uno existente.
 
 [Información general de flujos de datos](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=es){target="_blank"}
 

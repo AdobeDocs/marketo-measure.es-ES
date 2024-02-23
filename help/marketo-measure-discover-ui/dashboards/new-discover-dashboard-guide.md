@@ -3,10 +3,10 @@ description: 'Nueva guía del panel de Discover: [!DNL Marketo Measure] - Produc
 title: Nueva guía del panel Discover
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 10%
+ht-degree: 3%
 
 ---
 
@@ -39,14 +39,12 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>Ingresos de canalización:</strong>Obsoleto (consulte más abajo)</li>
           <li>
-            <strong>Tamaño medio de la oferta: </strong>Obsoleto (consulte más abajo)</li>
-        </ul>
+            <strong>Tamaño medio de la oferta: </strong>Obsoleto (consulte más abajo)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Crecimiento</td>
-      <td>
-        <ul>
+      <td><ul>
           <li>
             <strong>Ingresos e ingresos con el tiempo</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
           <li>
@@ -94,7 +92,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
       </td>
     </tr>
     <tr>
-      <td>Marketing basado en cuentas</td>
+      <td>Marketing basado en la cuenta</td>
       <td>
         <ul>
           <li>
@@ -162,10 +160,10 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>Posibles clientes por dirección URL del formulario:</strong>Tablero de tráfico web</li>
           <li>
-            <strong>Costo por visita única</strong>
+            <strong>Coste por visita única</strong>
           </li>
           <li>
-            <strong>Costo por visita</strong>
+            <strong>Coste por visita</strong>
           </li>
           <li>
             <strong>Ingresos por visita única</strong>
@@ -174,7 +172,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
             <strong>Ingresos por visita</strong>
           </li>
           <li>
-            <strong>Clientes potenciales por página de destino</strong>
+            <strong>Posibles clientes por página de aterrizaje</strong>
           </li>
         </ul>
       </td>
@@ -351,7 +349,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Ingresos del canal</strong>
+          <strong>Ingresos de canalización</strong>
         </p>
       </td>
       <td rowspan="3">
@@ -362,7 +360,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Ingresos por proceso en el tiempo</strong>
+          <strong>Ingresos de canalización con el tiempo</strong>
         </p>
       </td>
     </tr>
@@ -376,7 +374,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Tamaño del trato promedio</strong>
+          <strong>Tamaño medio de la oferta</strong>
         </p>
       </td>
       <td rowspan="3">Hemos optado por no duplicar estos puntos de datos CRM en nuestros paneles para resaltar las perspectivas de atribución.</td>
@@ -394,14 +392,14 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Índice de ganancias</strong>
+          <strong>Tasa de victorias</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Tratos en el tiempo</strong>
+          <strong>Acuerdos a lo largo del tiempo</strong>
         </p>
       </td>
       <td rowspan="4">Estas métricas ya se proporcionan en los mosaicos de KPI. Hemos excluido su vista de series temporales de nuestro panel para evitar redundancias y mantener la claridad.
@@ -409,17 +407,17 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     </tr>
     <tr>
       <td>
-        <strong>Contactos en el tiempo</strong>
+        <strong>Contactos con el tiempo</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Oportunidades en el tiempo</strong>
+        <strong>Oportunidades con el tiempo</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Clientes potenciales en el tiempo</strong>
+        <strong>Posibles clientes con el tiempo</strong>
       </td>
     </tr>
     <tr>
@@ -436,7 +434,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Costo por visita única</strong>
+          <strong>Coste por visita única</strong>
         </p>
       </td>
       <td rowspan="7">
@@ -461,7 +459,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Clientes potenciales por página de destino</strong>
+          <strong>Posibles clientes por página de aterrizaje</strong>
         </p>
       </td>
     </tr>
@@ -475,7 +473,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Páginas de destino por conteo de oportunidades</strong>
+          <strong>Páginas de aterrizaje por recuento de oportunidades</strong>
         </p>
       </td>
     </tr>
@@ -493,7 +491,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
 **Filtrar actualizaciones**: Para optimizar su experiencia, hemos ajustado nuestras selecciones de filtros de la siguiente manera.
 
 * **Tipo de fecha, métrica, Dimension, agrupar por**: Esta configuración ahora está predefinida para cada panel con el fin de optimizar la entrega de perspectivas. Se puede acceder a los detalles específicos mediante la información sobre herramientas y la documentación adjunta.
-* **Origen de la campaña**
+* **Origen de campaña**
 * **ID y nombre de la cuenta**: En revisión.
 
 ## Nuevas adiciones y mejoras {#new-additions-and-improvements}
