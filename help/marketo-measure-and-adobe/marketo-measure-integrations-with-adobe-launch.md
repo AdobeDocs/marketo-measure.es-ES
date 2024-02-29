@@ -1,20 +1,20 @@
 ---
-description: '[!DNL Marketo Measure] Integraciones con Adobe Launch: [!DNL Marketo Measure] - Documentación del producto'
+description: '[!DNL Marketo Measure] Integraciones con Adobe Launch: [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Integraciones con Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 1b583dac72aadff5d7c2352a064e2ff842b91891
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '295'
 ht-degree: 2%
 
 ---
 
 # Integraciones de [!DNL Marketo Measure] con Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 
-La extensión de Adobe Launch está diseñada para [!DNL Marketo Measure] usuarios que ya aprovechan Adobe Launch en su sitio web. La extensión sirve como solución de administración de etiquetas que puede utilizar para configurar y cargar dinámicamente scripts en sus páginas en función de determinados eventos y condiciones.
+La extensión de Adobe Launch está diseñada para [!DNL Marketo Measure] usuarios que ya utilizan Adobe Launch en su sitio web. La extensión sirve como solución de administración de etiquetas que puede utilizar para configurar y cargar dinámicamente scripts en sus páginas en función de determinados eventos y condiciones.
 
-Cuando se instala y configura en Adobe Launch, la variable [!DNL Marketo Measure] La extensión cargará el script bizible.js en las páginas donde el script de Launch de Adobe esté presente. Esto permite a los especialistas en marketing añadir bizible.js a través de la configuración de Launch del Adobe, en lugar de modificar explícitamente la página web para añadir la etiqueta de script bizible.js.
+Cuando se instala y configura en Adobe Launch, la variable [!DNL Marketo Measure] La extensión de carga el script bizible.js en las páginas donde el script de Launch de Adobe esté presente. Esto permite a los especialistas en marketing añadir bizible.js a través de la configuración de Launch del Adobe, en lugar de modificar explícitamente la página web para añadir la etiqueta de script bizible.js.
 
 ## Configuración de la extensión de Launch de Adobe {#configure-the-adobe-launch-extension}
 
@@ -22,13 +22,13 @@ Cuando se instala y configura en Adobe Launch, la variable [!DNL Marketo Measure
 >
 >Consulte los siguientes vínculos para obtener más información sobre Adobe Launch y sus extensiones:
 >
->* [[!DNL Marketo Measure] Extensión](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
->* [Información general sobre Adobe Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
->* [Información general sobre la extensión Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
+>* [[!DNL Marketo Measure] Extensión](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+>* [Información general sobre Adobe Launch](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
+>* [Información general sobre la extensión Adobe Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. Cree una propiedad siguiendo los pasos [en este artículo](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
+1. Cree una propiedad siguiendo los pasos [en este artículo](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
-1. Haga clic en la propiedad que acaba de crear.
+1. Haga clic en la propiedad que ha creado.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-1.png)
 
@@ -44,7 +44,7 @@ Cuando se instala y configura en Adobe Launch, la variable [!DNL Marketo Measure
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-4.png)
 
-1. En el campo Bizible AccountId, escriba la dirección URL de su sitio web (por ejemplo, `adobe.com`).
+1. En el campo Bizible AccountId, escriba la dirección URL del sitio web (por ejemplo, `adobe.com`).
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-5.png)
 

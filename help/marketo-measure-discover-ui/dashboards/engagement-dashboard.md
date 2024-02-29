@@ -2,7 +2,7 @@
 description: Tablero de participación - [!DNL Marketo Measure] - Producto
 title: Panel de participación
 feature: Reporting
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Preguntas que responde el panel:
 
 El gráfico de barras de series temporales muestra el número de puntos de contacto, personas tocadas y puntos de contacto por persona para cada mes, trimestre y año.
 
-* Aproveche las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
+* utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
 * Pase el ratón sobre una barra o una línea para mostrar información detallada.
 
 Preguntas que responde el gráfico:
@@ -50,7 +50,7 @@ Preguntas que responde el gráfico:
 
 Gráfico de barras que muestra los puntos de contacto o las personas tocadas segmentadas por canal, subcanal o campaña.
 
-* Aproveche las funcionalidades de desglose y aumento para categorizar los datos por subcanal y campaña.
+* utilice las funcionalidades de desglose y aumento para categorizar los datos por subcanal y campaña.
 * Pase el ratón sobre cada barra para ver los puntos de contacto o las personas tocadas.
 
 Preguntas que responde el gráfico:

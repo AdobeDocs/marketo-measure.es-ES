@@ -1,12 +1,12 @@
 ---
-description: Prácticas recomendadas para utilizar una cantidad de ingresos personalizada - [!DNL Marketo Measure] - Documentación del producto
+description: Prácticas recomendadas para utilizar una cantidad de ingresos personalizada - [!DNL Marketo Measure]
 title: Prácticas recomendadas para utilizar un importe de ingresos personalizado
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 8%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -44,13 +44,13 @@ Si utiliza un importe de ingresos personalizado, compruebe la configuración de 
 
 Además de una revisión anual, ciertos cambios organizativos pueden indicar la necesidad de revisar la configuración de la cantidad de ingresos...
 
-* Facturación en su equipo de marketing
+* Rotación en su equipo de marketing
 * Cambios en el campo Ingresos personalizados
 * Cambios de organización en la forma en que se generan los informes de ingresos
 
 >[!MORELIKETHIS]
 >
 >* [Uso de un campo de importe de ingresos personalizado](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [Uso del cargador de datos para actualizar el campo de importe personalizado de ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Uso del cargador de datos para actualizar el campo de cantidad personalizado](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [Información general sobre Multi-Currency](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [Configuración de varias monedas](/help/advanced-marketo-measure-features/multi-currency/settings.md)

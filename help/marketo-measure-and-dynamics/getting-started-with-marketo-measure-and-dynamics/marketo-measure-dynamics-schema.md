@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Esquema de Dynamics - [!DNL Marketo Measure] - Documentación del producto"
+description: "[!DNL Marketo Measure] Esquema de Dynamics - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Esquema de Dynamics"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 20%
+source-wordcount: '1076'
+ht-degree: 65%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 A continuación, encontrará el esquema de Dynamics necesario para comenzar a usar [!DNL Marketo Measure]. Se muestran todas las entidades y campos, junto con el acceso de lectura o escritura requerido.
 
@@ -27,7 +27,7 @@ El punto de contacto del comprador es un [!DNL Marketo Measure] entidad personal
 
 Este diagrama es una visualización de alto nivel de las relaciones entre las entidades de Dynamics Stock y el punto de contacto del comprador.
 
-## Punto de contacto del comprador {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
 <table> 
  <tbody> 
@@ -304,7 +304,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
  </tbody> 
 </table>
 
-## Punto de contacto de atribución del comprador {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
 El punto de contacto de atribución del comprador es un [!DNL Marketo Measure] entidad personalizada para encapsular la influencia del marketing en Oportunidades.
 
@@ -914,7 +914,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
 
 Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Measure] interactúa con, así como con los campos personalizados que añadimos a estas entidades.
 
-**Cliente potencial**
+**Posible cliente**
 
 <table> 
  <tbody> 

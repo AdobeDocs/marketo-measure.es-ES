@@ -1,12 +1,12 @@
 ---
-description: 'Solicitudes de privacidad: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Solicitudes de privacidad: [!DNL Marketo Measure]'
 title: Solicitudes de privacidad
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 3%
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Este documento proporciona información general sobre la administración de soli
 
 Puede enviar solicitudes individuales para acceder a datos de consumidores y eliminarlos de [!DNL Marketo Measure] de dos maneras:
 
-* A través de [[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=es){target="_blank"}.
+* A través de [[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
 * A través de **[!DNL Privacy Service]API**. Consulte la documentación [aquí](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
 El [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} admite dos tipos de solicitudes: acceso a datos y eliminación de datos.
@@ -42,7 +42,7 @@ Para realizar solicitudes de acceso y eliminación de datos para [!DNL Marketo M
 &quot;companyContext&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;Valor&quot;: `<Your IMS Org ID Value>`
+* &quot;valor&quot;: `<Your IMS Org ID Value>`
 
 &quot;usuarios&quot;:
 
@@ -50,7 +50,7 @@ Para realizar solicitudes de acceso y eliminación de datos para [!DNL Marketo M
 * &quot;userID&quot;:
    * &quot;namespace&quot;: email
    * &quot;tipo&quot;: estándar
-   * &quot;Valor&quot;: `<Data Subject's Email Address>`
+   * &quot;valor&quot;: `<Data Subject's Email Address>`
 
 &quot;incluir&quot;:
 

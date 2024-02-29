@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874602
-description: Costos de canal de mercadotecnia - [!DNL Marketo Measure] - Documentación del producto
+description: Costos de canal de mercadotecnia - [!DNL Marketo Measure]
 title: Costes de canales de marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 2%
+source-wordcount: '1305'
+ht-degree: 0%
 
 ---
 
@@ -25,19 +25,19 @@ Los costes que se registran e importan desde conexiones de publicidad directa se
 
 ## Definiciones {#definitions}
 
-**Gastos por campaña**
+**Gasto por campaña**
 
 En el nivel más granular, los clientes pueden ingresar el gasto por campañas individuales, agrupadas dentro de su respectivo canal. Para campañas CRM, [!DNL Marketo Measure] ha extraído el ID de campaña en una columna independiente que le ayudará a asignar el gasto de campaña sin conexión de su CRM a esta tabla. Añadir el gasto en este nivel permitirá a los clientes ver el ROI de la campaña y optimizar el rendimiento por campaña.
 
 El total de todas las campañas no necesita sumar valores introducidos en el subcanal o canal, pero no puede ser más que cualquier valor introducido en el subcanal o canal. Si la suma es menor que el valor introducido en el subcanal o canal, [!DNL Marketo Measure] agregará automáticamente una fila para &quot;Otro&quot; para cubrir la diferencia y rellenar los huecos.
 
-**Gastos por subcanal**
+**Gasto por subcanal**
 
 En un nivel superior, los clientes pueden introducir el gasto por subcanal, agrupado debajo de su canal. Añadir el gasto en este nivel permitirá a los clientes ver el ROI del subcanal y optimizar el rendimiento por subcanal.
 
 El total de todos los subcanales no necesita sumar valores introducidos en el canal, pero no puede ser más que cualquier valor introducido en el canal. Si la suma es menor que el valor introducido en el canal, [!DNL Marketo Measure] agregará automáticamente una fila para &quot;Otro&quot; para cubrir la diferencia y rellenar los huecos.
 
-**Gastos por canal**
+**Gasto por canal**
 
 En el nivel más alto, los clientes pueden introducir el gasto por canal. Añadir el gasto a este nivel permitirá a los clientes ver el retorno de la inversión del canal y optimizar el rendimiento por canal.
 
@@ -45,7 +45,7 @@ En el nivel más alto, los clientes pueden introducir el gasto por canal. Añadi
 
 El intervalo de fechas predeterminado comienza desde la fecha de inicio con [!DNL Marketo Measure] hasta el mes en curso. Para garantizar que los costes son correctos, no puede introducir costes para meses futuros, pero puede introducir costes para meses anteriores a su asociación con [!DNL Marketo Measure].
 
-**Filtro**
+**Filtrar**
 
 Para reducir los resultados en la tabla Gasto en marketing, seleccione un canal en la parte superior para filtrar otros canales. Esto resulta útil cuando tiene un equipo centrado en un canal singular.
 
@@ -53,7 +53,7 @@ Para reducir los resultados en la tabla Gasto en marketing, seleccione un canal 
 
 Utilice el cuadro Buscar para buscar texto coincidente de canales, subcanales o campañas.
 
-**Descargar los costos actuales**
+**Descargar costos actuales**
 
 El CSV descargado extraerá los resultados de la pantalla actual, lo que significa que cualquier fecha, filtro o búsqueda que se aplique se descargará tal cual.
 
@@ -61,7 +61,7 @@ El CSV descargado extraerá los resultados de la pantalla actual, lo que signifi
 
 Independientemente de la vista que se encuentre en el explorador, si es una vista filtrada o la vista predeterminada con todas las fechas y canales, puede cargar cualquier CSV.
 
-El error más común que enfrentamos es el formato de las columnas de fecha, lo que sucede si el formato de fecha cambia y podría ocurrir intencionalmente si se mueve entre Excel y/o Hojas de cálculo de Google. Tenga en cuenta que la fecha debe ser MM-AA, de modo que 12-sep y no 12-sep, o 12-mayo y no 5-12.
+El error más común que enfrentamos es el formato de las columnas de fecha, lo que sucede si el formato de fecha cambia y podría ocurrir intencionalmente si se mueve entre Excel y/o Hojas de cálculo de Google. Tenga en cuenta que la fecha debe ser MM-AA, de modo que 12-sep y no 12-sep, o 12-mayo y no 05-12.
 
 ## Antes de empezar {#before-you-begin}
 
@@ -129,4 +129,4 @@ Con la capacidad de cambiar el intervalo de fechas, filtrar el canal o buscar va
 
 **¿Por qué no puedo cargar un archivo?**
 
-Tenemos diferentes conjuntos de permisos dentro de [!DNL Marketo Measure] Aplicación. Para cargar un archivo, debe ser un &quot;Administrador de cuentas&quot;. Para evitarlo, solicite acceso a su administrador de cuentas o haga que su administrador de cuentas cargue el archivo en su nombre. Puede encontrar una lista de usuarios y sus funciones en **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ver/Agregar usuarios de cuenta]**.
+Tenemos diferentes conjuntos de permisos dentro de [!DNL Marketo Measure] Aplicación. Para cargar un archivo, debe ser un &quot;Administrador de cuentas&quot;. Para evitarlo, solicite acceso a su administrador de cuentas o haga que el administrador de cuentas cargue el archivo en su nombre. Puede encontrar una lista de usuarios y sus funciones en **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ver/Agregar usuarios de cuenta]**.

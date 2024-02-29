@@ -1,11 +1,11 @@
 ---
-description: 'Prácticas recomendadas para conexiones de API: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Prácticas recomendadas para conexiones de API: [!DNL Marketo Measure]'
 title: Prácticas recomendadas para conexiones de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '736'
 ht-degree: 2%
 
 ---
@@ -89,7 +89,7 @@ Si su equipo ha experimentado cualquiera de los casos anteriores, compruebe las 
 >[!MORELIKETHIS]
 >
 >* [Plataformas de publicidad integradas (API)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
->* [Cómo afectan a  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md) las herramientas de administración de ofertas
+>* [Cómo afectan las herramientas de Administración de ofertas [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
 >* [[!DNL Marketo Measure] Parámetros de API explicados](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
 >* [Información general de API de facebook](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
 >* [[!DNL LinkedIn] Resumen de integración](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)

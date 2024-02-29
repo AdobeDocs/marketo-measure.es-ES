@@ -3,9 +3,9 @@ description: Acceso a la Data Warehouse - Uso compartido directo - Documentació
 title: 'Acceso a Data Warehouse: Uso compartido directo'
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '284'
 ht-degree: 3%
 
 ---

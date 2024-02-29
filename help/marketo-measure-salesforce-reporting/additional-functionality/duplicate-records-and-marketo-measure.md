@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874572
-description: Registros duplicados y [!DNL Marketo Measure] - [!DNL Marketo Measure] - Documentación del producto
+description: Registros duplicados y [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Duplicar registros y  [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 2%
+source-wordcount: '288'
+ht-degree: 6%
 
 ---
 
-# Duplicar registros y [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
+# Registros duplicados y [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 [!DNL Marketo Measure] utiliza la dirección de correo electrónico como identificador único cuando se comparan datos con un posible cliente o contacto relacionado en CRM. Cuándo [!DNL Marketo Measure] Si encuentra varios posibles clientes o contactos con la misma dirección de correo electrónico, se mostrarán los mismos datos en todos los registros. El impacto de esto se produce cuando se crea un informe sobre los posibles clientes o los contactos con [!DNL Marketo Measure] y pueden inflar incorrectamente la cantidad de personas únicas que tienen puntos de contacto de comprador.
 

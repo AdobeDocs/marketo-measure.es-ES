@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Campos en Standard [!DNL Salesforce] Objetos - [!DNL Marketo Measure] - Documentación del producto"
+description: "[!DNL Marketo Measure] Campos en Standard [!DNL Salesforce] Objetos - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Campos en Standard [!DNL Salesforce] Objetos"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 1%
+source-wordcount: '1292'
+ht-degree: 2%
 
 ---
 
-# Campos de [!DNL Marketo Measure] en objetos estándar de [!DNL Salesforce] {#marketo-measure-fields-on-standard-salesforce-objects}
+# [!DNL Marketo Measure] Campos en Standard [!DNL Salesforce] Objetos {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Obtenga información sobre los distintos [!DNL Marketo Measure] campos que se añaden a [!DNL Salesforce] objetos estándar.
 
@@ -63,11 +63,11 @@ Fecha del punto de contacto de actualización masiva (botón): este botón se ut
 
 Actualizar [!DNL Marketo Measure] Atribución (regla de validación): esta regla está en desuso después de la versión 6.0 del paquete.
 
-## Membresía de la campaña {#campaign-member}
+## Abonado de la campaña {#campaign-member}
 
 Se han añadido 5 campos y 1 Déclencheur Apex con el paquete.
 
-Estado del punto de contacto (posible cliente): este es un campo de diagnóstico relacionado con una función que no está activada de forma predeterminada. Utilizamos esto para comprender si se creó un punto de contacto con el registro de posible cliente relacionado o, si no es así, por qué.
+Estado de punto de contacto (posible cliente): este es un campo de diagnóstico relacionado con una función que no está activada de forma predeterminada. Utilizamos esto para comprender si se creó un punto de contacto con el registro de posible cliente relacionado o, si no es así, por qué.
 
 Estado del punto de contacto (contacto): este es un campo de diagnóstico relacionado con una función que no está activada de forma predeterminada. Utilizamos esto para comprender si se creó un punto de contacto con el registro de contacto relacionado o, si no es así, por qué.
 
@@ -105,7 +105,7 @@ Fecha de punto de contacto (LC): es la fecha de la interacción táctil de creac
 
 BizibleID: Se utiliza en relación con la atribución de actividades y la integración de métricas de seguimiento de llamadas para la asociación de contactos al punto de contacto.
 
-## Cliente potencial {#lead}
+## Posible cliente {#lead}
 
 Añadimos campos al objeto de posible cliente relacionado con los hitos de contacto Primer contacto y Creación de posibles clientes. Esto es para clientes que prefieren tener la atribución registrada directamente en los campos en lugar de crear registros de Touchpoint. La mayoría de nuestros clientes siguen la ruta de registro de Touchpoint, pero también utilizan estos campos dentro de su plataforma de automatización.
 
@@ -137,7 +137,7 @@ Se utiliza para nuestra asignación de cliente potencial a cuenta para nuestra f
 
 ## Oportunidad {#opportunity}
 
-[!DNL Marketo Measure] Importe de oportunidad: este campo se utiliza en el escenario en el que se aprovecha un campo de importe personalizado en la oportunidad. Asignamos ese valor de campo personalizado a [!DNL Marketo Measure] Importe de oportunidad mediante un flujo de trabajo y, a continuación, lea este campo para nuestros campos de atribución de ingresos en el objeto de punto de contacto de atribución del comprador.
+[!DNL Marketo Measure] Importe de oportunidad: este campo se utiliza en el escenario en el que se utiliza un campo de importe personalizado en la oportunidad. Asignamos ese valor de campo personalizado a [!DNL Marketo Measure] Importe de oportunidad mediante un flujo de trabajo y, a continuación, lea este campo para nuestros campos de atribución de ingresos en el objeto de punto de contacto de atribución del comprador.
 
 ## Actividad {#activity}
 

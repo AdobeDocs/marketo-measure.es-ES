@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Integración de programas - [!DNL Marketo Measure] - Documentación del producto"
+description: "[!DNL Marketo Engage] Integración de programas - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Integración de programas"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 2%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ Todos los niveles.
 
    ![](assets/two.png)
 
-1. Si lo desea, puede definir un nombre para la regla si resulta útil realizar un seguimiento de la misma. Primero debe seleccionar el campo para definir la regla en la lista de campos Programa y Suscripción al programa. Continúe creando la regla seleccionando el operador y el valor esperado que desea comprobar.
+1. Si lo desea, puede definir un nombre para la regla si resulta útil realizar un seguimiento de la misma. En primer lugar, debe seleccionar el campo para definir la regla en la lista de campos Program y Program Membership. Continúe creando la regla seleccionando el operador y el valor esperado que desea comprobar.
 
    ![](assets/three.png)
 
@@ -81,7 +81,7 @@ Después de crear algunas reglas, es posible que desee probarlas para comprobar 
 
 ## Asignación de canales {#channel-mapping}
 
-En la lista de canales de programa de Marketo, debe asignar los valores al [!DNL Marketo Measure] canales de marketing personalizados que haya creado en Configuración. Cualquier punto de contacto generado por estos programas heredará los nombres de canal y subcanal que seleccione aquí.
+En la lista de canales de programa de Marketo, deseará asignar los valores al [!DNL Marketo Measure] canales de marketing personalizados que haya creado en Configuración. Cualquier punto de contacto generado por estos programas heredará los nombres de canal y subcanal que seleccione aquí.
 
 1. Comience por navegar hasta **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]** > **[!UICONTROL Canales sin conexión]**.
 
@@ -169,7 +169,7 @@ Para almacenar en déclencheur el autocompletado, comience introduciendo un corc
 
 **Si creo reglas del programa Marketo y también tengo reglas de campaña CRM, ¿se contarán dos veces?**
 
-Depende de la definición de la regla, pero posiblemente, sí. Deberá evaluar el conjunto de reglas para no tener reglas que abarquen un programa y una campaña, ya que no se anulará la duplicación ni se detectarán suscripciones similares. Una posible solución es copiar las reglas de Campaign en Programas si desea que Marketo sea la única fuente fiable y luego eliminar las reglas de Campaign. Otra opción es agregar un criterio &quot;CreatedOn&quot; o &quot;CreatedDate&quot; en las reglas para que las reglas anteriores a una fecha determinada utilicen reglas de Campaign y las reglas posteriores a una fecha determinada utilicen reglas de Programa. Hay muchas soluciones, pero se necesitará algo de planificación y coordinación.
+Depende de la definición de la regla, pero posiblemente, sí. deseará evaluar su conjunto de reglas para no tener reglas que abarquen un Programa y una Campaña, ya que no se anulará la duplicación ni se detectarán suscripciones similares. Una posible solución es copiar las reglas de Campaign en Programas si desea que Marketo sea la única fuente fiable y luego eliminar las reglas de Campaign. Otra opción es agregar un criterio &quot;CreatedOn&quot; o &quot;CreatedDate&quot; en las reglas para que las reglas anteriores a una fecha determinada utilicen reglas de Campaign y las reglas posteriores a una fecha determinada utilicen reglas de Programa. Hay muchas soluciones, pero se necesitará algo de planificación y coordinación.
 
 **¿Están disponibles para definir los campos personalizados de pertenencia a programas de Marketo?**
 
@@ -177,4 +177,4 @@ Debido a limitaciones técnicas, por ahora no se pueden admitir campos personali
 
 **¿Cómo sé si debo usar Programas o Actividades?**
 
-El [!DNL Marketo Engage] La integración de programas es una forma sencilla de generar puntos de contacto en función de si una persona es o no miembro de un programa. Si está interesado en definir una regla basada en el momento en que una persona cambia a un estado de programa determinado, la variable [!DNL Marketo Engage] La integración de actividades será la configuración que desee, específicamente el tipo de actividad &quot;Cambiar estado en progresión&quot;.
+El [!DNL Marketo Engage] La integración de programas es una forma sencilla de generar puntos de contacto en función de si una persona es o no miembro de un programa. Si está interesado en definir una regla basada en el momento en que una persona cambia a un estado de programa determinado, la variable [!DNL Marketo Engage] Integración de actividades será la configuración que desee, específicamente el tipo de actividad &quot;Cambiar estado en progresión&quot;.

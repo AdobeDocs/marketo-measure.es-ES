@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874634
-description: Registros duplicados en Mi informe - [!DNL Marketo Measure] - Documentación del producto
+description: Registros duplicados en Mi informe - [!DNL Marketo Measure]
 title: Duplicar registros en mi informe
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 3%
+source-wordcount: '267'
+ht-degree: 10%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 A medida que se sumerge en el [!DNL Marketo Measure] Informes en [!DNL Salesforce], es posible que empiece a buscar registros &quot;duplicados&quot; en los informes. Es probable que experimentes esta sensación cuando revises [!DNL Marketo Measure] informes listos para usar.
 
-Al realizar informes con los puntos de contacto del comprador o con el objeto de punto de contacto de atribución del comprador, es importante comprender que ya no realiza informes sobre el recuento de posibles clientes, contactos u oportunidades, sino sobre el número de puntos de contacto de comprador o de puntos de contacto de atribución del comprador asociados a dichos objetos estándar (posibles clientes, contactos, oportunidades).
+Al realizar informes con los puntos de contacto del comprador o con el objeto de punto de contacto de atribución del comprador, es importante comprender que ya no realiza informes sobre el recuento de posibles clientes, contactos u oportunidades, sino sobre el número de puntos de contacto de comprador o puntos de contacto de atribución del comprador asociados a dichos objetos estándar (posibles clientes, contactos, oportunidades).
 
 Veamos el siguiente informe como ejemplo:
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874632
-description: Oportunidades perdidas cerradas por canal de mercadotecnia - [!DNL Marketo Measure] - Documentación del producto
+description: Oportunidades perdidas cerradas por canal de mercadotecnia - [!DNL Marketo Measure]
 title: Oportunidades perdidas cerradas por canal de marketing
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '263'
 ht-degree: 4%
 
 ---

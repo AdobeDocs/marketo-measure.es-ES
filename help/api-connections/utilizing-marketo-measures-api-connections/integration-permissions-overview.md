@@ -1,10 +1,10 @@
 ---
-description: Información general sobre permisos de integración - [!DNL Marketo Measure] - Documentación del producto
+description: Información general sobre permisos de integración - [!DNL Marketo Measure]
 title: Información general sobre permisos de integración
 feature: APIs, Integration
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1286'
 ht-degree: 2%
 
 ---

@@ -1,17 +1,17 @@
 ---
-description: Notificaciones de errores - [!DNL Marketo Measure] - Documentación del producto
+description: Notificaciones de error - [!DNL Marketo Measure]
 title: Notificaciones de errores
 feature: Fundamentals
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
 # Notificaciones de errores {#error-notifications}
 
-A continuación se muestra una lista de errores que puede recibir mediante una notificación en la aplicación o por correo electrónico. Si recibe alguno de estos, siga los pasos correspondientes para la solución de problemas. Si estos pasos no resuelven el problema, póngase en contacto con el [equipo de soporte de Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
+A continuación se muestra una lista de errores que puede recibir mediante una notificación en la aplicación o por correo electrónico. Si recibe alguno de estos, siga los pasos correspondientes para la resolución de problemas. Si estos pasos no resuelven el problema, póngase en contacto con el [equipo de soporte de Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>
@@ -139,7 +139,7 @@ A continuación se muestra una lista de errores que puede recibir mediante una n
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>
-      <td>Se ha producido un error durante la importación de CRM: UNSUPPORTED_CRM_PACKAGE_VERSION: Actualice el paquete de CRM</td>
+      <td>Error durante la importación de Crm: UNSUPPORTED_CRM_PACKAGE_VERSION : Actualice el paquete de crm</td>
       <td>El paquete actual detectado ya no es compatible.</td>
       <td>Actualice el paquete a la versión más reciente:
         <ul>

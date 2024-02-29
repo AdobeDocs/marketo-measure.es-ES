@@ -3,10 +3,10 @@ description: 'Nueva guía del panel de Discover: [!DNL Marketo Measure] - Produc
 title: Nueva guía del panel Discover
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 3%
+source-wordcount: '1075'
+ht-degree: 4%
 
 ---
 

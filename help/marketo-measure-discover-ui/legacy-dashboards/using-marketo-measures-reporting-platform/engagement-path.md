@@ -1,13 +1,13 @@
 ---
 unique-page-id: 35586105
-description: Ruta de participación - [!DNL Marketo Measure] - Documentación del producto
+description: Ruta de participación - [!DNL Marketo Measure]
 title: Ruta de participación
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 9%
+source-wordcount: '873'
+ht-degree: 4%
 
 ---
 
@@ -42,8 +42,8 @@ La ruta de participación le permite ver una vista completa de las participacion
 **Origen web:** Esta columna muestra el origen de la participación
 
 * Si la participación procede de una plataforma conectada a la API, el origen web mostrará el nombre de la plataforma de publicidad
-* Si el punto de contacto proviene de una búsqueda orgánica, este campo mostrará el nombre del motor de búsqueda
-* Si no es #1 o #2, y el valor utm_source está presente en la dirección URL de la página de destino para el punto de contacto, ese valor se mostrará aquí
+* Si el punto de contacto procede de una búsqueda orgánica, este campo mostrará el nombre del motor de búsqueda
+* Si no es #1 o #2 y el valor utm_source está presente en la dirección URL de la página de aterrizaje del punto de contacto, ese valor se mostrará aquí
 * Si no es #1 o #2 y no hay ningún valor utm_source presente, el dominio raíz de la dirección URL de referencia se mostrará aquí.
 * Si nada de lo anterior, esto mostrará Web Direct o Web
 

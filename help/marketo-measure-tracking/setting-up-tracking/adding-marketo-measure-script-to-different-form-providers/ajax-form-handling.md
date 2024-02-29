@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874745
-description: AJAX Administración de formularios - [!DNL Marketo Measure] - Documentación del producto
+description: AJAX Administración de formularios - [!DNL Marketo Measure]
 title: Gestión de formularios AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '321'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Para informar manualmente de las conversiones de clientes a [!DNL Marketo Measur
 
 ## Escenario 1: formulario de HTML AJAX con envío de {#scenario-html-form-with-an-ajax-submit}
 
-AJAX Cuando se utilizan formularios que contienen (u otro mecanismo) para enviar fechas de conversión del cliente a nuestros servidores, [!DNL Marketo Measure] puede que no esté al tanto de la conversión del cliente a través de ninguna de las rutas estándar que monitorizamos. En este escenario, podemos aprovechar una API simple (proporcionada a continuación).
+AJAX Cuando se utilizan formularios que contienen (u otro mecanismo) para enviar fechas de conversión del cliente a nuestros servidores, [!DNL Marketo Measure] puede que no esté al tanto de la conversión del cliente a través de ninguna de las rutas estándar que monitorizamos. En este escenario, podemos utilizar una API simple (proporcionada a continuación).
 
 Si administra sus propios envíos de formularios, puede llamar explícitamente a [!DNL Marketo Measure] desde JavaScript. [!DNL Marketo Measure] recopilará toda la información relevante del formulario y la publicará asincrónicamente en nuestros servidores.
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874781
-description: 'Configuración de la vista del administrador de campañas de doble clic mediante atribución: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Configuración de la vista del administrador de campañas de doble clic mediante atribución: [!DNL Marketo Measure]'
 title: Configuración de la atribución de visualizaciones del administrador de campañas de DoubleClick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 4%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 4%
 
 Para empezar a obtener una perspectiva más granular de la vista a través del seguimiento con [!DNL Doubleclick Campaign Manager], el píxel de seguimiento debe configurarse.
 
-Por favor [haga clic aquí](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) para obtener más información sobre [!DNL Marketo Measure] Ver mediante la funcionalidad de atribución.
+Para obtener más información sobre [!DNL Marketo Measure] Para ver la funcionalidad de Atribución, consulte [Preguntas frecuentes sobre Marketo Measure View Through Attribution](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
 [!DNL Marketo Measure] se considera una etiqueta de &quot;piggyback&quot; porque es una llamada de terceros a través de la etiqueta de publicidad de DCM. Las etiquetas Piggyback no funcionan con etiquetas de imagen, solo con etiquetas de iframe o javascript. Según el Soporte de DCM, esto no ha cambiado recientemente y siempre ha sido así. Las etiquetas estándar quedaron obsoletas el 2 de octubre de 2017, pero no afectan a la capacidad de [!DNL Marketo Measure] para rastrear las impresiones.
 
-En el caso de que aproveche una jerarquía principal y secundaria en DCM, necesitaremos que nuestra etiqueta se aplique a todos los niveles para el seguimiento de impresiones.
+En el caso de que utilice una jerarquía principal y secundaria en DCM, será necesario aplicar la etiqueta a todos los niveles para el seguimiento de impresiones.
 
 ## Cómo añadir la etiqueta de imagen {#how-to-add-the-image-tag}
 
-Agregará la etiqueta a [!DNL Doubleclick] en la configuración Anunciante y desea crear una Etiqueta de evento de impresión.
+Agregue la etiqueta a Doubleclick en la configuración Anunciante y cree una Etiqueta de evento de impresión.
 
 1. Agregue el siguiente código como píxel de imagen 1x1.
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874767
-description: 'Configuración de etapas de boomerang: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Configuración de etapas de boomerang: [!DNL Marketo Measure]'
 title: Configuración de fases de Boomerang
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 2%
+source-wordcount: '319'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Para habilitar [!UICONTROL Bumerán] Para acceder a las fases de su cuenta, debe
 
    ![](assets/2-2.png)
 
-1. Clic **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
    >[!NOTE]
    >

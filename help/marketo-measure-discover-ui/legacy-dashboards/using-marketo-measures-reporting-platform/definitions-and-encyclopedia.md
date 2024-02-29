@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874662
-description: Definiciones y Enciclopedia - [!DNL Marketo Measure] - Documentación del producto
+description: Definiciones y Enciclopedia - [!DNL Marketo Measure]
 title: Definiciones y enciclopedia
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '6083'
-ht-degree: 7%
+source-wordcount: '6137'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Crecimiento
 
 ROI de anuncios
 
-Marketing basado en cuentas
+Marketing basado en la cuenta
 
 Gastos de marketing
 
@@ -39,7 +39,7 @@ Marketing de contenido
 
 Operaciones de marketing
 
-**Camino**
+**Recorrido**
 
 Velocidad
 
@@ -87,49 +87,49 @@ Haga clic en Mostrar detalles y explore los datos visualizándolos como una visu
 
 `2.` Mediante el menú desplegable Métrica del menú Filtros, este gráfico muestra los ingresos / ingresos de canalización / gastos / ofertas / oportunidades / posibles clientes / contactos atribuidos a cada canal, mostrados a lo largo del tiempo.
 
-**Gastos**
+**Gasto**
 
 `3.` La cantidad total de gasto registrado tanto de los costes de API como de los costes autoinformados acumulados al nivel de canal más alto.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Retorno de la inversión**
+**ROI**
 
-`4.` Con el uso de la lista desplegable Dimensiones del menú Filtros, esto muestra cuánto ROI se atribuyó a cada canal, subcanal, campaña, cuenta grupo de anuncio, anuncio, anunciante, creativo, palabra clave, publicación o sitio según el modelo de atribución durante el intervalo de fechas entero seleccionado.
+`4.` Mediante el menú desplegable Dimension del menú Filtros, se muestra cuánto retorno de la inversión se atribuyó a cada canal/subcanal/campaña/cuenta/grupo de anuncios/anunciante/creativo/palabra clave/ubicación/sitio en función del modelo de atribución durante todo el intervalo de fechas seleccionado.
 
-**Resumen del ROI**
+**Resumen de ROI**
 
 Mediante el menú desplegable Dimension del menú Filtros, se muestra cuánto se atribuyeron los ingresos, el gasto y el retorno de la inversión a cada canal/subcanal/campaña/cuenta/grupo de anuncios/anunciante/creativo/palabra clave/ubicación/sitio en función del modelo de atribución durante todo el intervalo de fechas seleccionado.
 
-**Tratos**
+**Acuerdos**
 
 `5.` Número total de oportunidades ganadas cerradas, según el recuento del modelo de atribución. Si se selecciona el tipo de fecha &quot;Fecha de punto de contacto&quot;, es posible realizar recuentos parciales porque es posible excluir algunos puntos de contacto dentro de una oportunidad mediante este tipo de fecha.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Costo por trato**
+**Coste por acuerdo**
 
 `6.` El gasto total dividido por el número total de ofertas, proporcionando un coste promedio que se necesita para adquirir una oportunidad ganada cerrada.
 
-**Ingresos del canal**
+**Ingresos de canalización**
 
 `7.` Ingresos potenciales totales de cualquier oportunidad abierta, lo que significa que no se trata de una oportunidad perdida cerrada o ganada cerrada. Los ingresos se basan en el modelo de atribución seleccionado.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Tamaño del trato**
+**Tamaño del acuerdo**
 
 `8.` Cantidad promedio de una oportunidad ganada cerrada.
 
-**Resumen del canal**
+**Resumen de canal**
 
 `9`. Mediante el menú desplegable Métrica del menú Filtros, se trata de una lista de canales en función de cuántos ingresos/ingresos de canalización/gastos/ofertas/oportunidades/posibles clientes/contactos se atribuyeron a cada canal, ordenados por el más alto en función del modelo de atribución seleccionado.
 
-**Resumen de subcanal**
+**Resumen de subcanales**
 
 `10.` Mediante el menú desplegable Métrica del menú Filtros, se trata de una lista de subcanales en función de cuántos ingresos/ingresos de canalización/gastos/ofertas/oportunidades/posibles clientes/contactos se atribuyeron a cada subcanal, ordenados por el más alto en función del modelo de atribución seleccionado.
 
-**Resumen de la campaña**
+**Resumen de campaña**
 
 `11.` Mediante el menú desplegable Métrica del menú Filtros, se trata de una lista de campañas en función de cuántos ingresos / ingresos de canalización / gastos / ofertas / oportunidades / posibles clientes / contactos se atribuyeron a cada campaña, ordenada por el más alto en función del modelo de atribución seleccionado.
 
@@ -171,7 +171,7 @@ Haga clic en Mostrar detalles y explore los datos visualizándolos como una visu
 
 Profundice para ver los datos desde una dimensión de fecha más pequeña.
 
-**Tratos**
+**Acuerdos**
 
 `3.` Número total de oportunidades ganadas cerradas, según el recuento del modelo de atribución.
 
@@ -183,7 +183,7 @@ Haga clic en Mostrar detalles y explore los datos visualizándolos como una visu
 
 Profundice para ver los datos desde una dimensión de fecha más pequeña.
 
-**Ingresos del canal**
+**Ingresos de canalización**
 
 `5.` Ingresos potenciales totales de cualquier oportunidad abierta, lo que significa que no se trata de una oportunidad perdida cerrada o ganada cerrada. Los ingresos se basan en el modelo de atribución seleccionado.
 
@@ -195,7 +195,7 @@ Haga clic en Mostrar detalles y explore los datos visualizándolos como una visu
 
 Profundice para ver los datos desde una dimensión de fecha más pequeña.
 
-**Clientes potenciales**
+**Posibles clientes**
 
 `7.` Número total de posibles clientes, según el modelo de atribución. Si se selecciona el tipo de fecha &quot;Fecha de punto de contacto&quot;, es posible realizar recuentos parciales porque es posible excluir algunos puntos de contacto dentro de un registro de posible cliente mediante este tipo de fecha. Si se aplica un modelo de atribución más allá de la forma de U, el recuento de la forma de U se utiliza para los modelos en forma de W, en forma de W y personalizados.
 
@@ -263,7 +263,7 @@ Profundice para ver los datos desde una dimensión de fecha más pequeña.
 
 (Esta opción aparecerá vacía si esta característica está deshabilitada).
 
-**Formularios**
+**Forms**
 
 `17.` Número total de formularios enviados entre todos los visitantes conocidos y anónimos.
 
@@ -303,19 +303,19 @@ Categorías
 
 ![](assets/definitions-and-encyclopedia-5.png)
 
-**Resumen del ROI de campaña**
+**Resumen de ROI de Campaign**
 
 `1.` Una lista de campañas en función de los ingresos, el gasto y el retorno de la inversión atribuidos a cada campaña, ordenadas por los ingresos más altos según el modelo de atribución seleccionado.
 
-**Resumen del ROI de creativo**
+**Resumen de ROI creativo**
 
 `2.` Una lista de creativos basada en la cantidad de ingresos, gastos y ROI atribuidos a cada creativo, ordenados por los ingresos más altos según el modelo de atribución seleccionado.
 
-**Resumen del ROI de palabra clave**
+**Resumen de ROI de palabras clave**
 
 `3.` Una lista de palabras clave basadas en la cantidad de ingresos, gastos y ROI atribuidos a cada palabra clave, ordenadas por los ingresos más altos según el modelo de atribución seleccionado.
 
-### Marketing basado en cuentas {#account-based-marketing}
+### Marketing basado en la cuenta {#account-based-marketing}
 
 El marketing basado en cuentas ofrece a las empresas que utilizan ABM la capacidad de rastrear sus esfuerzos hacia sus cuentas de destinatario y la cantidad de participación que han visto en su marketing.
 
@@ -339,7 +339,7 @@ Importe total de ingresos de oportunidades ganadas cerradas, según el modelo de
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Ingresos del canal**
+**Ingresos de canalización**
 
 Ingresos potenciales totales de cualquier oportunidad abierta, lo que significa que no se trata de una oportunidad perdida cerrada o ganada cerrada. Los ingresos se basan en el modelo de atribución seleccionado.
 
@@ -347,23 +347,23 @@ Ingresos potenciales totales de cualquier oportunidad abierta, lo que significa 
 
 El número promedio de puntos de contacto generados desde cada cuenta de CRM, por ID de cuenta.
 
-**Clientes potenciales coincidentes**
+**Posibles clientes coincidentes**
 
 El número total de posibles clientes que coincidieron correctamente con una cuenta que usa la variable [!DNL Marketo Measure] Función de cliente potencial con cuenta, que utiliza algoritmos de coincidencia de sitio web, nombre de empresa y dominio de correo electrónico.
 
-**Cuentas comprometidas**
+**Cuentas involucradas**
 
 Número total de cuentas que recibieron un punto de contacto. Si se utiliza una lista de cuentas de destino, este es el subconjunto de cuentas de esa lista de cuentas de destino.
 
-**Oportunidades participantes**
+**Oportunidades involucradas**
 
 Número total de oportunidades que recibieron un punto de contacto. Si se utiliza una lista de cuentas de destino, este es el subconjunto de oportunidades de esa lista de cuentas de destino.
 
-**Personas participantes**
+**Personas comprometidas**
 
 Número total de personas (posibles clientes y contactos por direcciones de correo electrónico) que recibieron un punto de contacto. Si se utiliza una lista de cuentas de destino, este es el subconjunto de personas de esa lista de cuentas de destino.
 
-**Touchpoints en el tiempo**
+**Puntos de contacto con el tiempo**
 
 Número total de puntos de contacto registrados durante el período de tiempo especificado. Si se utiliza una lista de cuentas de destino, este es el subconjunto de cuentas de esa lista de cuentas de destino.
 
@@ -371,11 +371,11 @@ Número total de puntos de contacto registrados durante el período de tiempo es
 
 Número total de cuentas que recibieron un punto de contacto por mes durante el período de tiempo especificado con la opción de agrupar los resultados por canal, subcanal, campaña, cuenta, grupo de publicidad, anuncio, anunciante, creativo, palabra clave, ubicación o sitio. Si se utiliza una lista de cuentas de destino, este es el subconjunto de cuentas de esa lista de cuentas de destino.
 
-**Cuentas por conteo de Touchpoint**
+**Cuentas por recuento de Touchpoint**
 
 Por ID de cuenta y Nombre de cuenta, el número total de puntos de contacto de cada cuenta.
 
-**Conteo de Touchpoints**
+**Recuento de Touchpoint**
 
 El número de puntos de contacto atribuidos a cada dimensión, donde la dimensión se puede cambiar mediante el filtro Agrupar por como: Ninguno/Canal/Subcanal/Campaña/Cuenta/Anunciante/Anuncio/Creativo/Grupo de publicidad/Palabra clave/Ubicación/Sitio.
 
@@ -407,15 +407,15 @@ Importe total de ingresos de oportunidades ganadas cerradas, según el modelo de
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Gastos**
+**Gasto**
 
 La cantidad total de gasto registrado tanto de los costes de API como de los costes autoinformados acumulados al nivel de canal más alto.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Retorno de la inversión**
+**ROI**
 
-El ROI calculado (rendimiento del capital invertido) de los ingresos totales (del modelo de atribución seleccionado) y los gastos totales.
+El ROI calculado (retorno de la inversión) a partir de los ingresos totales (del modelo de atribución seleccionado) y el gasto total.
 
 **Gasto (gráfico)**
 
@@ -427,15 +427,15 @@ Dado que el gasto no se registra en todos los niveles, es posible que los totale
 
 Muestra la cantidad de gasto de marketing por mes junto con el ROI en el eje Y derecho.
 
-**Gastos por canal**
+**Gasto por canal**
 
 Una lista de canales en función de la cantidad registrada para cada canal, ordenada por el gasto más alto.
 
-**Gastos por subcanal**
+**Gasto por subcanal**
 
 Una lista de subcanales en función de la cantidad registrada para cada subcanal, ordenada por el gasto más alto.
 
-**Gastos por campaña**
+**Gasto por campaña**
 
 Una lista de campañas basada en la cantidad registrada para cada campaña, ordenada por el gasto más alto. Las campañas constan de una lista completa de campañas que incluyen valores utm_campaign de Vistas de página.
 
@@ -499,13 +499,13 @@ Promedio calculado de ingresos cerrados por visita única al sitio por visitante
 
 Promedio calculado de ingresos cerrados por visita al sitio por visitantes conocidos y anónimos.
 
-**Vistas de páginas**
+**Vistas de página**
 
 Número total de páginas y vistas rastreadas entre todos los visitantes conocidos y anónimos.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Formularios**
+**Forms**
 
 Número total de formularios enviados entre todos los visitantes conocidos y anónimos.
 
@@ -519,7 +519,7 @@ Mediante el menú desplegable Métrica del menú Filtros, este gráfico muestra 
 
 Por dirección URL, ver el número de vistas de página, visitas, visitas únicas y envíos de formularios que se acreditan a cada uno.
 
-**Resumen del remitente**
+**Resumen de referente**
 
 El número de visitas a la página y las visitas únicas procedentes de cada dirección URL de referencia.
 
@@ -531,11 +531,11 @@ En el menú desplegable Agrupar por del menú Filtros, vea el origen de los Visi
 
 En el menú desplegable Agrupar por del menú Filtros, vea el origen de los Visitantes del sitio. Cambie el grupo por: Canal, Subcanal, Campaña, Cuenta, Grupo de publicidad, Anunciante, Creativo, Palabra clave, Ubicación, Sitio.
 
-**Clientes potenciales por página de destino**
+**Posibles clientes por página de aterrizaje**
 
 Una lista de páginas de aterrizaje en función del número de posibles clientes que se generaron a partir de cada página de aterrizaje, ordenadas por el mayor número de posibles clientes.
 
-**Clientes potenciales por URL de formulario**
+**Posibles clientes por URL de formulario**
 
 Una lista de direcciones URL de formulario basada en el número de posibles clientes generados a partir de cada dirección URL, ordenada por el mayor número de posibles clientes.
 
@@ -575,45 +575,45 @@ Haga clic en Mostrar detalles y explore los datos visualizándolos como una visu
 
 `2.` Mediante el menú desplegable Métrica del menú Filtros, este gráfico muestra los ingresos / ingresos de canalización / gastos / ofertas / oportunidades / posibles clientes / contactos atribuidos a cada canal, mostrados a lo largo del tiempo.
 
-**Gastos**
+**Gasto**
 
 `3.` La cantidad total de gasto registrado tanto de los costes de API como de los costes autoinformados acumulados al nivel de canal más alto.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Retorno de la inversión**
+**ROI**
 
-`4.` El ROI calculado (rendimiento del capital invertido) de los ingresos totales (del modelo de atribución seleccionado) y los gastos totales.
+`4.` El ROI calculado (retorno de la inversión) a partir de los ingresos totales (del modelo de atribución seleccionado) y el gasto total.
 
-**Tratos**
+**Acuerdos**
 
 `5.` Número total de oportunidades ganadas cerradas, según el recuento del modelo de atribución. Si se selecciona el tipo de fecha &quot;Fecha de punto de contacto&quot;, es posible realizar recuentos parciales porque es posible excluir algunos puntos de contacto dentro de una oportunidad mediante este tipo de fecha.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Costo por trato**
+**Coste por acuerdo**
 
 `6.` El gasto total dividido por el número total de ofertas, proporcionando un coste promedio que se necesita para adquirir una oportunidad ganada cerrada.
 
-**Ingresos del canal**
+**Ingresos de canalización**
 
 `7.` Ingresos potenciales totales de cualquier oportunidad abierta, lo que significa que no se trata de una oportunidad perdida cerrada o ganada cerrada. Los ingresos se basan en el modelo de atribución seleccionado.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Tamaño del trato**
+**Tamaño del acuerdo**
 
 `8.` Cantidad promedio de una oportunidad ganada cerrada.
 
-**Resumen del canal**
+**Resumen de canal**
 
 `9.` Mediante el menú desplegable Métrica del menú Filtros, se trata de una lista de canales en función de cuántos ingresos/ingresos de canalización/gastos/ofertas/oportunidades/posibles clientes/contactos se atribuyeron a cada canal, ordenados por el más alto en función del modelo de atribución seleccionado.
 
-**Resumen de subcanal**
+**Resumen de subcanales**
 
 `10.` Mediante el menú desplegable Métrica del menú Filtros, se trata de una lista de subcanales en función de cuántos ingresos/ingresos de canalización/gastos/ofertas/oportunidades/posibles clientes/contactos se atribuyeron a cada subcanal, ordenados por el más alto en función del modelo de atribución seleccionado.
 
-**Resumen de la campaña**
+**Resumen de campaña**
 
 `11.` Mediante el menú desplegable Métrica del menú Filtros, se trata de una lista de campañas en función de cuántos ingresos / ingresos de canalización / gastos / ofertas / oportunidades / posibles clientes / contactos se atribuyeron a cada campaña, ordenada por el más alto en función del modelo de atribución seleccionado.
 
@@ -651,17 +651,17 @@ Categorías
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Gastos**
+**Gasto**
 
 `2.` La cantidad total de gasto registrado tanto de los costes de API como de los costes autoinformados acumulados al nivel de canal más alto.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Retorno de la inversión**
+**ROI**
 
-`3.` El ROI calculado (rendimiento del capital invertido) de los ingresos totales (del modelo de atribución seleccionado) y los gastos totales.
+`3.` El ROI calculado (retorno de la inversión) a partir de los ingresos totales (del modelo de atribución seleccionado) y el gasto total.
 
-**Ingresos del canal**
+**Ingresos de canalización**
 
 `4.` Ingresos potenciales totales de cualquier oportunidad abierta, lo que significa que no se trata de una oportunidad perdida cerrada o ganada cerrada. Los ingresos se basan en el modelo de atribución seleccionado.
 
@@ -691,11 +691,11 @@ Haga clic en Mostrar detalles y explore los datos visualizándolos como una visu
 
 `9.` El gasto total de los clics rastreados dividido por el total de clics, proporcionando la tasa CPC.
 
-**Clientes potenciales**
+**Posibles clientes**
 
 `10.` Número total de posibles clientes creados en CRM.
 
-**Costo por cliente potencial**
+**Coste por posible cliente**
 
 `11.` El gasto total de los posibles clientes creados dividido por el total de clics, proporcionando la tasa de CPL.
 
@@ -715,11 +715,11 @@ Haga clic en Mostrar detalles y explore los datos visualizándolos como una visu
 
 Con el selector de dimensiones del menú Filtros, cambie entre Canal, Subcanal, Campaña, Cuenta, Grupo de publicidad, Anunciante, Creativo, Palabra clave, Ubicación, Sitio y vea el número de vistas de página, visitas, visitas únicas y envíos de formularios que se acreditan a cada uno.
 
-**Resumen de proceso de cliente potencial**
+**Resumen de canalización de posibles clientes**
 
 Con el selector de dimensiones del menú Filtros, cambie entre Canal, Subcanal, Campaña, Cuenta, Grupo de publicidad, Anunciante, Creativo, Palabra clave, Ubicación, Sitio y vea el número de posibles clientes o contactos atribuidos a cada uno, según el modelo de atribución seleccionado.
 
-**Resumen de la oportunidad del proceso**
+**Resumen de canalización de oportunidades**
 
 Con el selector de dimensiones en el menú Filtros, cambie entre Canal, Subcanal, Campaña, Cuenta, Grupo de publicidad, Anunciante, Creativo, Palabra clave, Ubicación, Sitio y vea el número de oportunidades, Ofertas, Ingresos de canalización, Gasto, ROI e Ingresos atribuidos a cada uno, según el modelo de atribución seleccionado.
 
@@ -761,27 +761,27 @@ Haga clic en Mostrar detalles y explore los datos visualizándolos como una visu
 
 `2.` Una lista de páginas de aterrizaje basada en la cantidad de ingresos atribuidos a cada página de aterrizaje, ordenada por los ingresos más altos según el modelo de atribución seleccionado.
 
-**Total de ingresos por proceso**
+**Ingresos totales de la canalización**
 
 `3.` Los ingresos potenciales totales de cualquier oportunidad abierta solo de fuentes digitales, lo que significa que no se trata de una oportunidad perdida cerrada o ganada cerrada. Los ingresos se basan en el modelo de atribución seleccionado.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Páginas de destino por ingresos por proceso**
+**Páginas de destino por ingresos de canalización**
 
 `4.` Una lista de páginas de aterrizaje en función de cuántos ingresos de canalización se atribuyeron a cada página de aterrizaje, ordenados por la mayor cantidad de ingresos de canalización según el modelo de atribución seleccionado.
 
-**Total de oportunidades**
+**Oportunidades totales**
 
 `5.` Número total de oportunidades solo a partir de fuentes digitales, según el modelo de atribución.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Páginas de destino por conteo de oportunidades**
+**Páginas de aterrizaje por recuento de oportunidades**
 
 `6.` Una lista de páginas de aterrizaje en función de cuántas oportunidades se atribuyeron a cada página de aterrizaje, ordenadas por el número más alto de oportunidades según el modelo de atribución seleccionado.
 
-**Formularios**
+**Forms**
 
 `7.` Número total de formularios enviados en todas las páginas rastreadas.
 
@@ -801,7 +801,7 @@ Haga clic en Mostrar detalles y explore los datos visualizándolos como una visu
 
 Profundice para ver las visitas únicas al sitio rastreadas por mes.
 
-**Primeras páginas de destino por visitas únicas**
+**Páginas de aterrizaje principales por visitas únicas**
 
 `11.` Una lista de páginas de aterrizaje basada en el número de visitas únicas a cada página de aterrizaje, ordenadas por las páginas con la mayor cantidad de visitas únicas.
 
@@ -811,17 +811,17 @@ Profundice para ver las visitas únicas por mes a la dirección URL seleccionada
 
 `12.` Número total de visitas al sitio rastreadas en todos los visitantes conocidos y anónimos.
 
-**Primeras páginas de destino por visitas**
+**Páginas de aterrizaje principales por visitas**
 
 `13.` Una lista de páginas de aterrizaje basada en el número de visitas iniciales a cada página de aterrizaje, ordenadas por las páginas con el mayor número de visitas.
 
-**Clientes potenciales**
+**Posibles clientes**
 
 `14.` Número total de posibles clientes, según el modelo de atribución. Si se selecciona el tipo de fecha &quot;Fecha de punto de contacto&quot;, es posible realizar recuentos parciales porque es posible excluir algunos puntos de contacto dentro de un registro de posible cliente mediante este tipo de fecha. Si se aplica un modelo de atribución más allá de la forma de U, el recuento de la forma de U se utiliza para los modelos en forma de W, en forma de W y personalizados.
 
 Haga clic en Mostrar detalles y explore los datos visualizándolos como una visualización y una tabla.
 
-**Páginas de destino por conteo de cliente potencial**
+**Páginas de aterrizaje por recuento de posibles clientes**
 
 `15.` Una lista de direcciones URL de página en función del número de posibles clientes creados a partir de cada dirección URL, ordenadas por las páginas con la mayor cantidad de posibles clientes.
 
@@ -841,7 +841,7 @@ Cliente potencial o identificación del contacto
 
 Cliente potencial o correo electrónico del contacto
 
-Identificación de la campaña
+ID de campaña
 
 Oportunidad ganada (S/N)
 
@@ -885,7 +885,7 @@ Haga clic en los números agregados para explorar en profundidad los detalles de
 
 Haga clic en los números agregados para explorar en profundidad los detalles de los datos base.
 
-**Clientes potenciales**
+**Posibles clientes**
 
 `4.` Lista de todos los posibles clientes con puntos de contacto. La información de cada posible cliente incluye un número de puntos de contacto.
 
@@ -953,11 +953,11 @@ El subcanal es igual a __
 
 `2.` Número total de oportunidades de cualquier oportunidad abierta, lo que significa que no se trata de una oportunidad perdida cerrada o ganada cerrada.
 
-**Tamaño del trato promedio**
+**Tamaño medio de la oferta**
 
 `3.` Cantidad promedio de una oportunidad ganada cerrada.
 
-**Índice de ganancias**
+**Tasa de victorias**
 
 `4.` Número total de oportunidades ganadas cerradas dividido por el número total de oportunidades perdidas cerradas y ganadas cerradas, mostrando el porcentaje de tasa de ganancia.
 
@@ -965,7 +965,7 @@ El subcanal es igual a __
 
 `5.` Promedio de días que las oportunidades están en su ciclo por fase, agrupadas por canal de marketing y que muestran el tiempo que se tarda en pasar a la siguiente fase. Las fases que aparecen aquí son fases de hito (FT, LC, OC) y fases personalizadas.
 
-**Velocidad de cliente potencial por canal**
+**Velocidad del posible cliente por canal**
 
 `6.` Cantidad promedio de días que los posibles clientes están en su ciclo por fase antes de convertirse en un contacto, oportunidad o cuenta, agrupados por canal de marketing y que muestran el tiempo que tarda en pasar a la siguiente fase. Las fases que aparecen aquí son fases de hito (FT, LC) y fases personalizadas.
 
@@ -973,7 +973,7 @@ El subcanal es igual a __
 
 `7.` Promedio de días que las oportunidades están en su ciclo por etapa, lo que muestra el tiempo que se tarda en pasar a la siguiente etapa. Las fases que aparecen aquí son fases de hito (FT, LC, OC) y fases personalizadas. Los números aquí reflejan el tiempo por etapa en el gráfico Velocidad de oportunidad por canal anterior.
 
-**Velocidad del cliente potencial promedio**
+**Velocidad promedio del posible cliente**
 
 `8.` Cantidad promedio de días que los posibles clientes están en su ciclo por fase antes de convertirse en un contacto, oportunidad o cuenta, lo que muestra el tiempo que se tarda en pasar a la siguiente fase. Las fases que aparecen aquí son fases de hito (FT, LC) y fases personalizadas. Los números aquí reflejan el tiempo por etapa en el gráfico Velocidad del posible cliente por canal de arriba.
 
@@ -997,7 +997,7 @@ Clientes potenciales o contactos
 
 ![](assets/definitions-and-encyclopedia-21.png)
 
-**Cliente potencial/Instantánea de contacto**
+**Instantánea de cliente potencial/contacto**
 
 `1.` El número de registros de posibles clientes o contactos que se encontraban en cada fase en la fecha seleccionada.
 
@@ -1039,7 +1039,7 @@ Categorías
 
 `1.` &amp; `2.` Cada fase muestra el número de registros en cada fase de estado de posible cliente o de contacto y el total de registros que han pasado por cada fase.
 
-**Passport de oportunidad**
+**Pasaporte de oportunidad**
 
 `3.` Cada fase muestra el número de registros en cada fase de oportunidad y el total de registros que han pasado por cada fase.
 
@@ -1051,9 +1051,9 @@ Comprenda cómo los posibles clientes, los contactos, las oportunidades y las cu
 
 Nombre/ID de la cuenta
 
-Identificación/email del cliente potencial
+ID de posible cliente/correo electrónico
 
-Identificación/email del contacto
+ID de contacto/correo electrónico
 
 Modelo de atribución
 
@@ -1081,7 +1081,7 @@ Ingresos atribuidos
 
 ![](assets/definitions-and-encyclopedia-23.png)
 
-**Es camino de eventos**
+**Recorrido de eventos**
 
 Lista de todos los eventos con detalles de punto de contacto asociados e ingresos atribuidos.
 

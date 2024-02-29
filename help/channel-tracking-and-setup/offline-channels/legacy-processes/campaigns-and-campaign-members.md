@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874578
-description: 'Campañas y miembros de la campaña: [!DNL Marketo Measure] - Documentación del producto'
-title: Campañas y miembros de campañas
+description: 'Campañas y miembros de la campaña: [!DNL Marketo Measure]'
+title: Campañas y miembros de la campaña
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 1%
+source-wordcount: '1164'
+ht-degree: 0%
 
 ---
 
-# Campañas y miembros de campañas {#campaigns-and-campaign-members}
+# Campañas y miembros de la campaña {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] Las campañas están pensadas para rastrear listas de posibles clientes y contactos asociados a un programa o una actividad de marketing. Esto ha sido, por lo general, seminarios web, inscripciones o visitas en ambos sitios, por ejemplo. Los especialistas en marketing pueden seleccionar si una campaña debe recibir crédito en un recorrido de punto de contacto o no.
 
@@ -47,7 +47,7 @@ La fecha de inicio se puede utilizar en caso de que se utilice una campaña exis
 
 ## Caso de uso para la fecha de finalización de Touchpoint {#use-case-for-touchpoint-end-date}
 
-Si antes de usar [!DNL Marketo Measure], ha utilizado una plataforma de automatización de marketing que realiza un seguimiento de las interacciones digitales de los posibles clientes (es decir, los envíos de formularios) y, a continuación, ha cargado dichos posibles clientes en una [!DNL Saleforce] En Campaign, puede aprovechar el campo Fecha de finalización del punto de contacto. Establecería la fecha de finalización del punto de contacto como la fecha de inicio con [!DNL Marketo Measure] y activar los puntos de contacto del comprador, la interacción digital de cada uno de estos posibles clientes se crearía como un punto de contacto. El motivo por el que establecerás la fecha de finalización del punto de contacto en la fecha de inicio [!DNL Marketo Measure] Esto se debe a que, en adelante, rastrearemos estas interacciones digitales a través de nuestro javascript.
+Si antes de usar [!DNL Marketo Measure], ha utilizado una plataforma de automatización de marketing que realiza un seguimiento de las interacciones digitales de los posibles clientes (es decir, los envíos de formularios) y, a continuación, ha cargado dichos posibles clientes en una [!DNL Saleforce] En Campaign, puede utilizar el campo Touchpoint End Date. Establecería la fecha de finalización del punto de contacto como la fecha de inicio con [!DNL Marketo Measure] y activar los puntos de contacto del comprador, la interacción digital de cada uno de estos posibles clientes se crearía como un punto de contacto. El motivo por el que configurará la fecha de finalización del punto de contacto como la fecha de inicio con [!DNL Marketo Measure] Esto se debe a que, en adelante, rastrearemos estas interacciones digitales a través de nuestro javascript.
 
 ![](assets/3.png)
 

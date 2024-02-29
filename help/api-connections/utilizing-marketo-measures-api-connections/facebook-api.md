@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874680
-description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Documentación del producto"
+description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 3%
+source-wordcount: '480'
+ht-degree: 2%
 
 ---
 
@@ -68,7 +68,7 @@ Para que la integración funcione correctamente, debe habilitar el etiquetado au
   </tr> 
   <tr> 
    <td><p>ID de campaña de publicidad</p></td> 
-   <td><p>[[!DNL Facebook] Identificación de la campaña]</p></td> 
+   <td><p>[[!DNL Facebook] ID de campaña]</p></td> 
   </tr> 
   <tr> 
    <td><p>Nombre de campaña de anuncios </p></td> 
@@ -83,7 +83,7 @@ Para que la integración funcione correctamente, debe habilitar el etiquetado au
    <td><p>[[!DNL Facebook] Nombre del conjunto de anuncios]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Origen del punto de contacto</p></td> 
+   <td><p>Origen del Touchpoint</p></td> 
    <td><p>"[!DNL Facebook]", o [utm_source] si se proporciona</p></td> 
   </tr> 
   <tr> 
@@ -108,7 +108,7 @@ Para que la integración funcione correctamente, debe habilitar el etiquetado au
   </tr> 
   <tr> 
    <td><p>Ad_Name (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Nombre del aviso]</p></td> 
+   <td><p>[[!DNL Facebook] Nombre del anuncio]</p></td> 
   </tr> 
   <tr> 
    <td><p>Keyword_Unique_Id (Data Warehouse)</p></td> 
@@ -120,7 +120,7 @@ Para que la integración funcione correctamente, debe habilitar el etiquetado au
   </tr> 
   <tr> 
    <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Cuenta #]</p></td> 
+   <td><p>[[!DNL Facebook] N.º cuenta]</p></td> 
   </tr> 
   <tr> 
    <td><p>Account_Name (Data Warehouse)</p></td> 

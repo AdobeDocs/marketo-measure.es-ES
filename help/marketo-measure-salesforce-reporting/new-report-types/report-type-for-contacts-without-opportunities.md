@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874616
-description: Tipo de informe para contactos sin oportunidades - [!DNL Marketo Measure] - Documentación del producto
+description: Tipo de informe para contactos sin oportunidades - [!DNL Marketo Measure]
 title: Tipo de informe de contactos sin oportunidades
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '164'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Para informar sobre contactos con puntos de contacto del comprador que no están asociados a una oportunidad, debe crear un tipo de informe personalizado.
 

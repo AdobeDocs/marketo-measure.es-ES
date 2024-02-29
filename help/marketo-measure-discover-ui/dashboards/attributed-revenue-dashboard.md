@@ -3,7 +3,7 @@ description: Tablero de ingresos atribuidos - [!DNL Marketo Measure] - Producto
 title: Panel de ingresos atribuidos
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 3%
@@ -34,7 +34,7 @@ El panel de control de ingresos atribuidos ofrece una perspectiva centrada en lo
 
 Gráfico de barras apiladas que muestra los ingresos atribuidos totales, segmentados por canal, para cada mes/trimestre/año.
 
-* Aproveche las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
+* utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
 * Pase el ratón sobre un segmento de barra o el espacio entre barras para ver información detallada.
 
 **Preguntas que responde el gráfico:**

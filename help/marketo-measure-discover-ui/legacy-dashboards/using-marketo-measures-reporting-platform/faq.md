@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874660
-description: PREGUNTAS FRECUENTES - [!DNL Marketo Measure] - Documentación del producto
+description: PREGUNTAS FRECUENTES - [!DNL Marketo Measure]
 title: Preguntas frecuentes
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Una de las características del tablero de crecimiento es que no puede agrupar l
 
 **Al cambiar la agrupación, los totales no siempre equivalen a la misma cantidad. ¿Por qué?**
 
-No existen valores para cada jerarquía de datos porque la jerarquía no siempre es un flujo de corte claro. Por ejemplo, independientemente de si los costes se informan automáticamente o se importan desde un proveedor de publicidad, el coste total del canal 1 podría ser de 10 000 $, pero por campaña individual, solo se informó de un total de 5 500 $, por lo que cuando la agrupación cambie entre el canal y la campaña, los totales variarán.
+No existen valores para cada jerarquía de datos única porque la jerarquía no siempre es un flujo de corte claro. Por ejemplo, independientemente de si los costes se informan automáticamente o se importan desde un proveedor de publicidad, el coste total del canal 1 podría ser de 10 000 $, pero por campaña individual, solo se informó de un total de 5 500 $, por lo que cuando la agrupación cambie entre el canal y la campaña, los totales variarán.
 
 **¿Qué es &quot;coincide con un atributo de usuario&quot; en los operadores de filtro?**
 
-Los atributos de usuario se aplican a usuarios como ID empresarial, nombre o apellidos, pero como nuestros usuarios son usted (nuestros clientes) y no sus clientes, los atributos de usuario no se pueden utilizar en [!DNL Marketo Measure Discover] experiencia. No dude en ignorar esta opción. Estamos trabajando para mejorar la experiencia de filtrado personalizado que eliminará los filtros que no se aplican a nuestros clientes.
+Los atributos de usuario se aplican a usuarios como ID empresarial, nombre o apellidos, pero como nuestros usuarios son usted (nuestros clientes) y no sus clientes, los atributos de usuario no se pueden utilizar en [!DNL Marketo Measure Discover] experiencia. Estamos trabajando para mejorar la experiencia de filtrado personalizado que eliminará los filtros que no se aplican a nuestros clientes.
 
 **¿Por qué algunos intervalos de fechas predeterminados pasan por el primero del mes siguiente?**
 
@@ -49,7 +49,7 @@ Los puntos de contacto del comprador asignados a los posibles clientes y contact
 
 **¿Por qué mis mosaicos Visitas, Visitas únicas y Forms están en blanco en el panel de crecimiento?**
 
-Si estos mosaicos aparecen como 0 o en blanco en la vista, significa que los mosaicos no están aprovisionados para la cuenta. Póngase en contacto con su administrador de éxito si tiene alguna pregunta al respecto.
+Si estos mosaicos aparecen como 0 o en blanco en la vista, significa que los mosaicos no están aprovisionados para la cuenta. Póngase en contacto con el administrador de éxito si tiene alguna pregunta.
 
 **Para los posibles clientes a lo largo del tiempo y los contactos a lo largo del tiempo, ¿cuál es la referencia del recuento?**
 

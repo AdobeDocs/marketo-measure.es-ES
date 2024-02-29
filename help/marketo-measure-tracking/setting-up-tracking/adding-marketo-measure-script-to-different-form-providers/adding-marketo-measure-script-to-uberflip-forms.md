@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874749
-description: Agregando [!DNL Marketo Measure] Script a [!DNL Uberflip] FORMS - [!DNL Marketo Measure] - Documentación del producto
-title: Adición del script de  [!DNL Marketo Measure]  a formularios de  [!DNL Uberflip]
+description: Agregando [!DNL Marketo Measure] Script a [!DNL Uberflip] FORMS - [!DNL Marketo Measure]
+title: Agregando [!DNL Marketo Measure] Script a [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 3%
+source-wordcount: '221'
+ht-degree: 0%
 
 ---
 
-# Adición del script de [!DNL Marketo Measure] a formularios de [!DNL Uberflip] {#adding-marketo-measure-script-to-uberflip-forms}
+# Agregando [!DNL Marketo Measure] Script a [!DNL Uberflip] Forms {#adding-marketo-measure-script-to-uberflip-forms}
 
 Si está utilizando [!DNL Uberflip] para administrar el contenido, es importante que siga estos pasos necesarios para asegurarse de que [!DNL Marketo Measure] está realizando un seguimiento de esos envíos de formularios. Su gestor de éxito en [!DNL Uberflip] También debería poder ayudarle con esto.
 
@@ -23,7 +23,7 @@ Si está utilizando [!DNL Uberflip] para administrar el contenido, es importante
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   Se agregará este preámbulo a ambos [!DNL Hubs.onLoad] y el [!DNL Hubs.onPageChange] AJAX Los enlaces de eventos de Javascript se encuentran a continuación. (Nota: Es posible que también tenga otros códigos en estos vínculos de eventos. Solo asegúrese de incluir el preámbulo también).
+   agregará este preámbulo a ambos [!DNL Hubs.onLoad] y el [!DNL Hubs.onPageChange] AJAX Los enlaces de eventos de Javascript se encuentran a continuación. (Nota: Es posible que también tenga otros códigos en estos vínculos de eventos. Solo asegúrese de incluir el preámbulo también).
 
    `Hubs.onLoad = function () {`
 

@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874614
-description: Informe de posibles clientes con puntos de contacto del comprador - [!DNL Marketo Measure] - Documentación del producto
-title: Informe de posibles clientes con puntos de contacto de comprador
+description: Informe de posibles clientes con puntos de contacto del comprador - [!DNL Marketo Measure]
+title: Informe de posibles clientes con puntos de contacto del comprador
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
 feature: Touchpoints, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 5%
+source-wordcount: '196'
+ht-degree: 8%
 
 ---
 
-# Informe de posibles clientes con puntos de contacto de comprador {#leads-with-buyer-touchpoints-report}
+# Informe de posibles clientes con puntos de contacto del comprador {#leads-with-buyer-touchpoints-report}
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 De serie, tiene muchas funciones de creación de informes al alcance de su mano en lo que respecta a [!DNL Marketo Measure], pero hay algunos tipos de informes adicionales que recomendamos crear. Obtenga información sobre la creación de posibles clientes inclusivos con puntos de contacto del comprador, escriba a continuación.
 

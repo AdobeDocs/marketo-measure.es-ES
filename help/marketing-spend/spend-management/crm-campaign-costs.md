@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874688
-description: Costes de campaña de CRM - [!DNL Marketo Measure] - Documentación del producto
+description: Costes de campaña de CRM - [!DNL Marketo Measure]
 title: Costes de campañas de CRM
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Esto podría resultar útil para rastrear el gasto en costes de marketing excesi
 
 ## Sincronización del programa Marketo {#marketo-program-sync}
 
-Si introduce programas de Marketo en CRM como campañas, debe asegurarse de que ha configurado la asignación de fecha de inicio, fecha de finalización y coste de período en los campos de CRM necesarios. Dado que no hay ninguna asignación para el campo Habilitar puntos de contacto del comprador, aún debe habilitar estas campañas para que sepamos cuáles son los costes.
+Si introduce programas de Marketo en CRM como campañas, debe asegurarse de que ha configurado la asignación de Fecha de inicio, Fecha de finalización y Coste de período en los campos de CRM necesarios. Dado que no hay ninguna asignación para el campo Habilitar puntos de contacto del comprador, aún debe habilitar estas campañas para que sepamos cuáles son los costes.
 
 ## Edición de los Costes {#editing-the-costs}
 
@@ -75,7 +75,7 @@ Cualquier cambio en el coste o la distribución debe realizarse en CRM para que 
 
 **Tengo la fecha de inicio, la fecha de finalización y el coste rellenados, pero ¿por qué mis costes siguen sin aparecer en? [!DNL Marketo Measure]?**
 
-Comprueba que el valor de Habilitar el punto de contacto del comprador está establecido en &quot;Incluir todos los miembros de la campaña&quot; o al menos en &quot;Incluir miembros de la campaña &quot;Respondidos&quot;, o que has creado una regla de sincronización de campañas personalizada que incluye esta campaña. Si ha confirmado esto y aún no ve la campaña, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para que podamos comprobar que sus campañas se están importando correctamente.
+Compruebe que tiene el valor de Habilitar el punto de contacto del comprador establecido en &quot;Incluir todos los miembros de la campaña&quot; o al menos en &quot;Incluir miembros de la campaña &quot;Respondidos&quot;&quot;, o que ha creado una regla de sincronización de campañas personalizada que incluye esta campaña. Si ha confirmado esto y aún no ve la campaña, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para que podamos comprobar que sus campañas se están importando correctamente.
 
 **Necesito cambiar la distribución de mi campaña para poder pesarla más en ciertos meses. ¿Cómo lo hago?**
 
@@ -91,7 +91,7 @@ Como dependemos del CRM como única fuente fiable, todos los cambios deben reali
 
 **¿En qué escenario aparecería una campaña en la tabla Gasto en marketing y, a continuación, dejaría de aparecer?**
 
-Seguiremos exigiendo que los tres campos clave tengan un valor: Fecha de inicio, Fecha de finalización y Coste. De forma predeterminada, importamos solo las campañas con un valor bueno a 0 $. Lo ideal sería importar campañas donde haya un $0 explícito y no importar las que se queden en blanco, pero la API de Salesforce las importa como $0 independientemente del valor. Además, si el valor de Habilitar el punto de contacto del comprador cambia de &quot;Incluir todo&quot; o &quot;Incluir &quot;Respondido&quot; a &quot;Excluir todo&quot;, se eliminan la campaña y el coste de la tabla Gastos de marketing.
+Seguiremos exigiendo que los tres campos clave tengan un valor: Fecha de inicio, Fecha de finalización y Coste. Nuestro comportamiento predeterminado es que solo importamos campañas con un valor mayor que 0 $. Lo ideal sería importar campañas donde haya un $0 explícito y no importar las que se queden en blanco, pero la API de Salesforce las importa como $0 independientemente del valor. Además, si el valor de Habilitar el punto de contacto del comprador cambia de &quot;Incluir todo&quot; o &quot;Incluir &quot;Respondido&quot; a &quot;Excluir todo&quot;, se eliminan la campaña y el coste de la tabla Gastos de marketing.
 
 **¿Qué coste tendría prioridad si ya se ha descargado una fila del CRM y he introducido otra fila en el CSV con el mismo ID de campaña?**
 
@@ -99,4 +99,4 @@ Aunque es posible que pueda cargar correctamente el archivo, [!DNL Marketo Measu
 
 **¿Cómo sugeriría que le suministremos los costes de nuestras Campañas digitales que configuramos en CRM?**
 
-Porque nuestro [!DNL Marketo Measure] javascript ya está realizando un seguimiento de la actividad web desde su sitio. Le recomendamos que no sincronice ninguna campaña que realice un seguimiento de los miembros de la campaña desde formularios web u otras actividades del sitio, ya que contará dos veces los toques. Por ello, es posible que quiera seguir utilizando la opción de carga de CSV en Gastos de marketing para realizar un seguimiento de los costes digitales/en línea si aún no estamos integrados con esa plataforma (por ejemplo, Twitter, Adroll).
+Porque nuestro [!DNL Marketo Measure] javascript ya está realizando un seguimiento de la actividad web desde su sitio. Le recomendamos que no sincronice ninguna campaña que realice un seguimiento de los miembros de la campaña desde formularios web u otras actividades del sitio, ya que contará dos veces los toques. Por ello, es posible que quiera seguir utilizando la opción de carga de CSV en Gastos de marketing para realizar un seguimiento de los costes digitales/en línea si aún no estamos integrados con esa plataforma (por ejemplo, Twitter o Adroll).

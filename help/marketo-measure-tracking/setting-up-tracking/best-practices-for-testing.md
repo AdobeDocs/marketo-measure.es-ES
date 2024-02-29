@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874722
-description: 'Prácticas recomendadas para pruebas: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Prácticas recomendadas para pruebas: [!DNL Marketo Measure]'
 title: Prácticas recomendadas para pruebas
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 5%
+source-wordcount: '181'
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Debe probar todos los diferentes tipos de formularios que tiene para asegurarse 
 
 1. Registre la dirección URL de la página en la que está enviando el formulario y la dirección de correo electrónico utilizada.
 
-1. Busque el registro creado en su CRM (cliente potencial o contacto) para ese envío de formulario y compruebe que se creó correctamente un punto de contacto.
+1. Busque el registro creado en su CRM (posible cliente o contacto) para dicho envío de formulario y compruebe que se creó correctamente un punto de contacto.
 
 >[!NOTE]
 >

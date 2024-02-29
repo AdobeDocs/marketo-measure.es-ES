@@ -1,10 +1,10 @@
 ---
 unique-page-id: 35586080
-description: 'Integración de linkedIn: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Integración de linkedIn: [!DNL Marketo Measure]'
 title: Integración de linkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
 source-wordcount: '2653'
 ht-degree: 1%
@@ -159,7 +159,7 @@ Antes de [!DNL Marketo Measure] y existía la integración de Forms de LinkedIn 
 
 ## Detalles del Touchpoint {#touchpoint-details}
 
-Una [!DNL Marketo Measure] ha etiquetado correctamente su página de aterrizaje en LinkedIn creative, podrá ver los datos de anuncios resueltos en el punto de contacto. Esta es la asignación de valores de datos que debería ver:
+Después [!DNL Marketo Measure] ha etiquetado correctamente su página de aterrizaje en LinkedIn creative, podrá ver los datos de anuncios resueltos en el punto de contacto. Esta es la asignación de valores de datos que debería ver:
 
 <table> 
  <colgroup> 
@@ -322,13 +322,13 @@ Ambos. El [!DNL Marketo Measure] La integración de permite etiquetar la direcci
 
 ![](assets/five.png)
 
-**He conectado mi [!DNL LinkedIn ads] cuenta. ¿Por qué no [!DNL Marketo Measure] ¿está etiquetando mis vínculos?**
+**He conectado mi [!DNL LinkedIn ads] cuenta. Por qué no [!DNL Marketo Measure] ¿está etiquetando mis vínculos?**
 
 Los conectados [!DNL LinkedIn] El usuario debe tener el acceso de edición adecuado, lo que significa que debe ser un administrador de cuentas, un administrador de campañas o un administrador creativo.
 
 **¿Cómo sé si mi creativo se copiará? ¿Puedo ver si mis creativos están usando el mismo recurso compartido?**
 
-No se ha proporcionado el ID compartido en un [!DNL LinkedIn] , por lo que no hay una manera clara y obvia de comprobar las asignaciones de elementos creativos para compartir. Si sospecha que un elemento creativo puede ser una copia, puede comprobarlo manualmente abriendo el anuncio desde su [!DNL LinkedIn] Administrador de campañas: se abre el anuncio en una nueva pestaña y se encuentra el ID compartido en la dirección URL.
+La ID compartida no se proporciona en un [!DNL LinkedIn] , por lo que no hay una manera clara y obvia de comprobar las asignaciones de elementos creativos a recursos compartidos. Si sospecha que un elemento creativo puede ser una copia, puede comprobarlo manualmente abriendo el anuncio desde su [!DNL LinkedIn] Administrador de campañas: abre el anuncio en una nueva pestaña y puede encontrar el ID compartido en la dirección URL.
 
 ![](assets/six.png)
 

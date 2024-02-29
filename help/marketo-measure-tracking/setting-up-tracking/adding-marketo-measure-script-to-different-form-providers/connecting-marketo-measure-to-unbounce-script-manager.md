@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874743
-description: Conectando [!DNL Marketo Measure] para anular la devolución del Administrador de scripts - [!DNL Marketo Measure] - Documentación del producto
+description: Conectando [!DNL Marketo Measure] para anular la devolución del Administrador de scripts - [!DNL Marketo Measure]
 title: Conexión de  [!DNL Marketo Measure]  al administrador de scripts de cancelación de devoluciones
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 8%
+source-wordcount: '122'
+ht-degree: 5%
 
 ---
 
-# Conexión de [!DNL Marketo Measure] al administrador de scripts de cancelación de devoluciones {#connecting-marketo-measure-to-unbounce-script-manager}
+# Conectando [!DNL Marketo Measure] Cómo anular la devolución del Administrador de scripts {#connecting-marketo-measure-to-unbounce-script-manager}
 
 [!DNL Marketo Measure] se integra directamente con Unbounce, lo que le permite rastrear la fuente de marketing digital de las conversiones de su página de aterrizaje directamente en [!DNL Salesforce]. Para establecer la conexión, simplemente agregue [!DNL Marketo Measure] a su Administrador de scripts de devolución. Así es como.
 
@@ -22,6 +22,6 @@ ht-degree: 8%
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-1. Clic **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 El [!DNL Marketo Measure] La integración de funciona en páginas de aterrizaje de Unbounce siempre y cuando estén alojadas en su dominio (por ejemplo, landing.mysite.com) y no en los que utilizan el dominio unbounce.com.

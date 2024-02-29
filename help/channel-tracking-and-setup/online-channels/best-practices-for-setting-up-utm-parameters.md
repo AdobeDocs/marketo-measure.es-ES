@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874732
-description: Documentación del producto  [!DNL Marketo Measure] . Prácticas recomendadas para configurar parámetros UTM.
+description: 'Prácticas recomendadas para configurar parámetros de UTM: [!DNL Marketo Measure]'
 title: Prácticas recomendadas para configurar parámetros UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 63%
 
 ---
 
 # Prácticas recomendadas para configurar parámetros UTM {#best-practices-for-setting-up-utm-parameters}
 
-Los parámetros de UTM son una buena manera de cortar y fragmentar los datos de marketing. [!DNL Marketo Measure] utiliza y captura todos los parámetros UTM para rellenar campos en Salesforce y en la aplicación de [!DNL Marketo Measure]. Con esta información, podrá obtener una comprensión granular de dónde provienen sus posibles clientes, oportunidades y operaciones cerradas/ganadas.
+Los parámetros de UTM son una buena manera de cortar y fragmentar los datos de marketing. [!DNL Marketo Measure] utiliza y captura todos los parámetros UTM para rellenar campos en Salesforce y en la aplicación de [!DNL Marketo Measure]. Con esta información, puede obtener una comprensión granular de dónde provienen sus posibles clientes, oportunidades y ofertas cerradas/ganadas.
 
-Puede utilizar [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=es){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si desea una forma más sencilla de realizar un seguimiento de todos los vínculos de UTM.
+Puede usar el complemento [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=es){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si desea una forma más sencilla de rastrear todos los vínculos UTM.
 
 ## Valores de alto nivel para cada parámetro {#high-level-values-for-each-parameter}
 
@@ -27,15 +27,15 @@ No utilice este campo para llamar al subcanal.
 
 **utm_source**: este campo se asigna al campo Origen de Touchpoint. Utilice utm_source para definir el subcanal desde el que se origina el posible cliente.
 
-Por ejemplo, Facebook, Twitter, LinkedIn, Drip_email, Email_blast, Newsletter.
+Por ejemplo, Facebook, Twitter, Linkedin, Drip_email, Email_blast, newsletter.
 
-No se complique. No utilice este parámetro para indicar un tipo de anuncio, como reorientación, patrocinado, etc. No añada utm_source = homepage, webdirect, sitio web. [!DNL Marketo Measure] rellenará automáticamente esta información por usted.
+No se complique. No utilice este parámetro para denotar tipos de anuncios, como resegmentación o patrocinados. No añada utm_source = homepage, webdirect, sitio web. [!DNL Marketo Measure] rellena automáticamente esta información por usted.
 
 **utm_campaign**: este campo se asigna al nombre de la campaña de publicidad. Utilice utm_campaign para indicar el título de la campaña tal como existe en la plataforma de publicidad o como se denomina internamente.
 
 También es un buen parámetro para indicar geolocalización, tipo de red de publicidad (visualización frente a búsqueda), etc.
 
-Se recomienda utilizar guiones bajos en lugar de espacios y evitar el uso de puntuación. Esto reduce las posibilidades de que se cometan errores de codificación al leer los parámetros en los exploradores.
+Se recomienda utilizar guiones bajos en lugar de espacios y evitar el uso de signos de puntuación. Esto reduce las posibilidades de que se cometan errores de codificación al leer los parámetros en los exploradores.
 
 Por ejemplo, AU_Idea_for_an_App_50k
 
@@ -47,7 +47,7 @@ Por ejemplo, [título del anuncio] 200x400px
 
 Si no hay ninguna palabra clave relacionada con la publicidad, deje este parámetro en blanco.
 
-p. ej., ideas de aplicaciones de iPhone
+Por ejemplo, iPhone App Ideas
 
 **Sea sencillo y breve. No duplique esfuerzos, términos y canales.**
 
@@ -55,7 +55,7 @@ Imaginamos la jerarquía de UTM de la siguiente manera:
 
 Medium > [!UICONTROL Origen] > [!UICONTROL Campaña] > [!UICONTROL Contenido/Término]
 
-P. ej., si se pone un anuncio [!UICONTROL en pantalla] en Facebook, recomendamos lo siguiente:
+Por ejemplo, si [!UICONTROL exhibición] El anuncio se coloca en Facebook. Recomendamos lo siguiente:
 
 fakewebsite.com/
 

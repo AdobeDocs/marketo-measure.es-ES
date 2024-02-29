@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874716
-description: 'Metodología de asignación de atribución: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Metodología de asignación de atribución: [!DNL Marketo Measure]'
 title: Metodología de asignación de atribuciones
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '578'
 ht-degree: 1%
 
 ---
@@ -21,21 +21,21 @@ De serie, [!DNL Marketo Measure] proporciona la asignación de ID de cuenta. Est
 
 ![](assets/1-1.png)
 
-Tenga en cuenta que **no todos** Los puntos de contacto de sus contactos se insertarán en la oportunidad como puntos de contacto de atribución. La cronología de la oportunidad (su fecha de primer contacto: fecha de cierre) determinará si un punto de contacto contará o no como influyente en la oportunidad. Por lo tanto, si se produce un punto de contacto en el contacto A después de que se cierre la oportunidad Ganado/Perdido, [!DNL Marketo Measure] no insertará ese punto de contacto en la oportunidad. Este procedimiento de cronología se sigue en todas las demás asignaciones de objetos de atribución.
+Tenga en cuenta que **no todos** Los puntos de contacto de sus contactos se insertan en la oportunidad como puntos de contacto de atribución. La cronología de la oportunidad (su fecha de primer contacto: fecha de cierre) determina si un punto de contacto cuenta como factor de influencia en la oportunidad. Por lo tanto, si se produce un punto de contacto en el contacto A después de que se cierre la oportunidad Ganado/Perdido, [!DNL Marketo Measure] no insertará ese punto de contacto en la oportunidad. Este procedimiento de cronología se sigue en todas las demás asignaciones de objetos de atribución.
 
-Ventajas: Este método de atribución es muy eficaz para la mayoría de las empresas. El equipo de marketing no necesita depender del equipo de ventas para asociar todos los contactos a una oportunidad en particular (lo que a menudo es un problema). Además, incluso si un equipo de ventas asocia funciones de contacto, es posible que se pasen por alto muchas interacciones de otros contactos con materiales de marketing. Por último, este método ayuda a las estrategias ABM que se esfuerzan por influir en la totalidad de una cuenta, en lugar de influenciadores específicos.
+Ventajas: Este método de atribución es muy eficaz para la mayoría de las empresas. El equipo de marketing no necesita depender del equipo de ventas para asociar todos los contactos a una oportunidad en particular (lo que a menudo es un problema). Además, incluso si un equipo de ventas asocia funciones de contacto, es posible que se pasen por alto muchas otras interacciones de contacto con materiales de marketing. Por último, este método ayuda a la estrategia ABM que se esfuerza por influir en la totalidad de una cuenta, en lugar de en influenciadores específicos.
 
 Desventajas: Si hay SLA de marketing y ventas sólidos que definen quién debería recibir crédito por qué, este método podría resultar problemático. Además, si los usuarios no utilizan jerarquías de cuenta para definir unidades de negocio específicas dentro de una cuenta más grande (por ejemplo: IBM), las interacciones de marketing específicas de una unidad de negocio pueden propagarse entre otras oportunidades de unidad de negocio.
 
 ## Asignación de funciones de contacto de oportunidad {#opportunity-contact-role-mapping}
 
-Mientras que la mayoría de los clientes aprovechan la asignación de ID de cuenta, [!DNL Marketo Measure] tiene la capacidad de buscar los roles de contacto (contactos asociados a la oportunidad) dentro de una oportunidad para desglosar el proceso de atribución. Esto significa que [!DNL Marketo Measure] solo insertará interacciones de marketing asociadas a las funciones de contacto en la oportunidad como puntos de contacto de atribución del comprador. A continuación se presenta una representación de este proceso.
+Aunque la mayoría de los clientes utilizan la asignación de ID de cuenta, [!DNL Marketo Measure] Puede consultar los roles de contacto (contactos asociados a la oportunidad) dentro de una oportunidad para desglosar el proceso de atribución. Esto significa que [!DNL Marketo Measure] solo insertará interacciones de marketing asociadas a las funciones de contacto en la oportunidad como puntos de contacto de atribución del comprador. A continuación se presenta una representación de este proceso.
 
 ![](assets/2-1.png)
 
-Profesionales: Si su equipo tiene un proceso de funciones de contacto muy bien definido, este tipo de asignación de atribución puede ser ideal para usted. Ayudará a alinear las ventas y el marketing un poco más, ya que todos entenderían perfectamente cómo se desglosa la atribución. Este proceso también es muy útil cuando las organizaciones se dirigen a varias unidades de negocio dentro de una gran empresa, así como cuando venden diferentes productos al mismo tiempo.
+Profesionales: Si su equipo tiene un proceso de funciones de contacto bien definido, este tipo de asignación de atribución puede ser ideal para usted. Ayuda a alinear las ventas y el marketing un poco más, ya que todos entenderían perfectamente cómo se desglosa la atribución. Este proceso también es útil cuando las organizaciones se dirigen a varias unidades de negocio dentro de una gran compañía y cuando venden diferentes productos al mismo tiempo.
 
-Inconvenientes: Sin embargo, si no hay ningún proceso de función de contacto en marcha, el marketing perderá muchos datos de marketing y el equipo terminará recibiendo mucho menos crédito por sus esfuerzos de marketing que están influyendo en las oportunidades.
+Inconvenientes: Sin embargo, si no hay ningún proceso de función de contacto en funcionamiento, el marketing pierde muchos datos de marketing y el equipo terminará recibiendo mucho menos crédito por sus esfuerzos de marketing que están influyendo en las oportunidades.
 
 ## Asignación de funciones de contacto principal de oportunidad {#opportunity-primary-contact-role-mapping}
 
@@ -43,6 +43,6 @@ Más allá de simplemente mirar los roles de contacto en la oportunidad, [!DNL M
 
 ![](assets/3.png)
 
-Profesionales: Si su equipo solo está interesado en comprender la influencia de marketing en los contactos que se establecen como &quot;principales&quot; en la oportunidad, este tipo de asignación se adaptará mejor al equipo.
+Profesionales: Si su equipo solo está interesado en comprender la influencia de marketing en los contactos que se establecen como &quot;principales&quot; en la oportunidad, este tipo de asignación se adapta mejor al equipo.
 
 Inconvenientes: Este es sin duda el proceso de asignación menos utilizado y puede socavar considerablemente la influencia de marketing que está moviendo la aguja a través de otros contactos en una oportunidad.

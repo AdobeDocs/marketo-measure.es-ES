@@ -3,9 +3,9 @@ description: Panel de información general de ingresos - [!DNL Marketo Measure] 
 title: Panel de información general sobre ingresos
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ El panel Información general de ingresos proporciona información sobre los ing
 
 Este gráfico de barras de series temporales en paralelo contrasta los ingresos totales con los ingresos atribuidos, lo que visualiza claramente su impacto de marketing en los ingresos generales.
 
-* Aproveche las funcionalidades de desglose y aumento para categorizar los datos por trimestre y año.
+* utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por trimestre y año.
 * Pase el ratón sobre una sección del gráfico de barras para ver su información detallada.
 
 **Preguntas que responde el gráfico:**

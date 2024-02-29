@@ -4,9 +4,9 @@ description: 'Puntos de contacto PostLC y participación del posible cliente: Ma
 title: Puntos de contacto de PostLC y participación de posibles clientes
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Los puntos de contacto de PostLC son dinámicos. Como posible cliente o contacto
 
 Para ajustar la configuración del punto de contacto PostLC para sus posibles clientes o contactos, siga las instrucciones a continuación.
 
-**Leads**
+**Posibles clientes**
 
 1. Inicie sesión en su [!DNL Marketo Measure] cuenta en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} y vaya a [!UICONTROL Configuración].
 

@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Salesforce] Consolidación de paquetes - [!DNL Marketo Measure] - Documentación del producto'
+description: '[!DNL Salesforce] Consolidación de paquetes - [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] Consolidación de paquetes'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 7%
+source-wordcount: '433'
+ht-degree: 5%
 
 ---
 
 # Consolidación de paquetes de [!DNL Salesforce] {#salesforce-package-consolidation}
 
-Nos complace anunciar próximos cambios en los paquetes de Marketo Measure Salesforce. En un esfuerzo por mejorar la experiencia del usuario y simplificar el uso, estamos consolidando todos los paquetes existentes en un único paquete completo.
+Para mejorar la experiencia del usuario y simplificar el uso, los paquetes existentes se están compilando en un paquete único y completo.
 
 ## Retirada de paquetes {#package-retirement}
 
@@ -22,19 +22,19 @@ Como consecuencia de esta consolidación, la versión actual de V1, V2_EXT, V2_S
 
 El nuevo paquete consolidado de la versión 2 incorpora todas las funciones y funcionalidades de los paquetes anteriores, lo que proporciona una experiencia de usuario mejorada. Este paquete actualizado permite un seguimiento más eficiente del rendimiento de ventas y marketing, así como una perspectiva más detallada del comportamiento de los clientes.
 
-Se han añadido dos campos nuevos para mejorar las funciones de creación de informes:
+Existen dos nuevos campos para mejorar las capacidades de creación de informes:
 
 * form_name: ahora disponible en objetos BT/BAT, este campo permite a los usuarios crear informes basados en nombres de formulario.
 * user_touchpoint_id: este campo permite a los usuarios crear informes con recuentos de puntos de contacto de usuario únicos (`bizible2__User_Touchpoint_V2__c` en Salesforce).
 
 ## Soporte y transición {#support-and-transition}
 
-Entendemos que este cambio puede requerir ajustes y nos comprometemos a apoyarle durante todo el proceso. Nuestro [Equipo de soporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} está fácilmente disponible para responder a cualquier pregunta y ayudar a garantizar una transición sin problemas al nuevo paquete consolidado.
+El [Equipo de soporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} está disponible para responder a cualquier pregunta y ayudar a garantizar una transición sin problemas al nuevo paquete consolidado.
 
 ## Acciones requeridas {#retired-actions}
 
 * Si ya tiene instalado el paquete V2, debe actualizarlo a la nueva versión consolidada.
-* Si tiene informes o tableros de cualquier paquete de informes, puede volver a crearlos fácilmente sin necesidad de realizar modificaciones, ya que todos los campos utilizados existen en el paquete consolidado.
+* Si tiene informes o tableros de cualquier paquete de informes, puede volver a crearlos fácilmente sin necesidad de realizar modificaciones, ya que todos los campos existen en el paquete consolidado.
 * Si tiene informes con campos en el paquete V2_EXT, puede volver a crearlos en el paquete consolidado siguiendo los pasos a continuación:
    * Todos los datos de los campos V2_EXT están disponibles en los campos Touchpoint, por lo que puede modificar los informes para recuperar datos de los campos de punto de contacto V2 correspondientes añadiendo un filtro en la posición del punto de contacto.
    * Informe de ejemplo que recupera todos los posibles clientes con contenido de publicidad que contiene texto &quot;Divulgación&quot;.
@@ -53,7 +53,7 @@ Entendemos que este cambio puede requerir ajustes y nos comprometemos a apoyarle
 
 **¿El paquete consolidado tiene conflictos con los campos de mi paquete existente?**
 
-No es necesario desinstalar el paquete antes de instalar el paquete consolidado. No habrá conflictos en los campos, ya que estarán en un área de nombres diferente.
+No es necesario desinstalar el paquete antes de instalar el paquete consolidado. No habrá conflictos en los campos porque están en un área de nombres diferente.
 
 **¿Cómo puedo rellenar los datos de mis paquetes actuales?**
 
@@ -61,8 +61,8 @@ Puede presentar un ticket [con soporte](https://nation.marketo.com/t5/support/ct
 
 **¿Estarán disponibles los campos de los paquetes V1 y V2_EXT en el paquete consolidado?**
 
-Sí. El paquete consolidado contendrá los mismos campos en la versión 1 con más desgloses por objetos y los campos V2_EXT a través de los campos Touchpoint.
+Sí. El paquete consolidado contiene los mismos campos en la versión 1, con más desgloses por objetos y los campos V2_EXT a través de los campos Touchpoint.
 
 **¿Pueden volver a crearse los informes que utilizan campos V2_EXT en el paquete consolidado?**
 
-Sí. Siga los pasos de la sección [Acciones requeridas](#retired-actions) sección anterior.
+Sí. Siga los pasos de la [Acciones requeridas](#retired-actions) sección.

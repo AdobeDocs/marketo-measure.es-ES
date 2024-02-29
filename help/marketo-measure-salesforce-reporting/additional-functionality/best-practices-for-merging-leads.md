@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874734
-description: Prácticas recomendadas para combinar posibles clientes - [!DNL Marketo Measure] - Documentación del producto
+description: Prácticas recomendadas para combinar posibles clientes - [!DNL Marketo Measure]
 title: Prácticas recomendadas para combinar posibles clientes
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 4%
+source-wordcount: '190'
+ht-degree: 5%
 
 ---
 

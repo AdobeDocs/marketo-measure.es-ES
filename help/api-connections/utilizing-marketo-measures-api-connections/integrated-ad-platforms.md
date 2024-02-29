@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874594
-description: 'Plataformas de publicidad integradas: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Plataformas de publicidad integradas: [!DNL Marketo Measure]'
 title: Plataformas de anuncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1661'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Obtenga más información sobre nuestras [[!DNL AdWords] funcionalidad de etique
 
 ## Cómo activar [!DNL Marketo Measure] Etiquetado automático de AdWords {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
-Antes de habilitar [!DNL Marketo Measure] etiquetado automático, **asegúrese de tener habilitada una plantilla de seguimiento en el nivel de cuenta, campaña o grupo de publicidad de su cuenta de AdWords. Esto es necesario para cualquier cuenta de AdWords que tenga [!DNL Marketo Measure] etiquetado automático habilitado.** Al habilitar una plantilla de seguimiento, se evitan pérdidas en los datos del historial de rendimiento de las publicidades. Tenga en cuenta que habilitar las plantillas de seguimiento en los niveles de palabra clave, vínculo de sitio o anuncio hará que el anuncio pase por el proceso de revisión y aprobación y puede reiniciar potencialmente el historial de rendimiento de los anuncios. Si no hay ninguna plantilla de seguimiento habilitada, [!DNL Marketo Measure] adjuntará el [!DNL Marketo Measure] el seguimiento de parámetros directamente a la &quot;URL final&quot; del anuncio, lo que también puede causar la pérdida de datos del historial de anuncios.
+Antes de habilitar [!DNL Marketo Measure] etiquetado automático, **Asegúrese de tener una plantilla de seguimiento habilitada en el nivel de cuenta, campaña o grupo de publicidad de su cuenta de AdWords. Esto es necesario para cualquier cuenta de AdWords que tenga [!DNL Marketo Measure] etiquetado automático habilitado.** Al habilitar una plantilla de seguimiento, se evitan pérdidas en los datos del historial de rendimiento de las publicidades. Tenga en cuenta que habilitar las plantillas de seguimiento en los niveles de palabra clave, vínculo de sitio o anuncio hará que el anuncio pase por el proceso de revisión y aprobación y puede reiniciar potencialmente el historial de rendimiento de los anuncios. Si no hay ninguna plantilla de seguimiento habilitada, [!DNL Marketo Measure] adjuntará el [!DNL Marketo Measure] el seguimiento de parámetros directamente a la &quot;URL final&quot; del anuncio, lo que también puede causar la pérdida de datos del historial de anuncios.
 
 Una vez que tenga una plantilla de seguimiento, siga las instrucciones a continuación para habilitar [!DNL Marketo Measure] Etiquetado automático. Nota: [!DNL Marketo Measure] también etiquetará automáticamente cualquier anuncio pausado en su cuenta.
 
@@ -97,11 +97,11 @@ Al principio, puede parecer difícil crear etiquetas de UTM, pero hay muchas her
 
 **[!DNL Google URL]Generador**
 
-El Generador de URL de Google es una herramienta estándar para crear direcciones URL con formato correcto mediante etiquetas UTM. Simplemente introduzca la URL y el valor deseado de cada parámetro y haga clic en &quot;[!UICONTROL Generar URL]&quot;. Es una herramienta ideal si solo tiene que etiquetar un puñado de direcciones URL. Acceso a la herramienta [aquí](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
+El Generador de URL de Google es una herramienta estándar para crear direcciones URL con formato correcto mediante etiquetas UTM. Simplemente introduzca la URL y el valor deseado de cada parámetro y haga clic en &quot;[!UICONTROL Generar URL]&quot;. Es una herramienta ideal si solo tiene que etiquetar un puñado de direcciones URL. Acceso a la herramienta [aquí](https://support.google.com/analytics/answer/1033867?hl=es){target="_blank"}.
 
 **Hoja de cálculo de Google generada por EpikOne**
 
-Esta hoja de cálculo tiene una fórmula que genera automáticamente las direcciones URL de destino etiquetadas. Esta es una buena herramienta si es necesario etiquetar un gran número de vínculos. Acceso a la hoja de cálculo [aquí](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
+Esta hoja de cálculo tiene una fórmula que genera automáticamente las direcciones URL de destino etiquetadas. Es una buena herramienta si necesita etiquetar un gran número de vínculos. Acceso a la hoja de cálculo [aquí](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
 
 **Herramienta de etiquetado de enlaces de Rafflecopter**
 
@@ -147,7 +147,7 @@ Antes de habilitar el etiquetado automático con [!DNL Facebook Ads]Sin embargo,
 
 Tenga en cuenta que puede conectar su [!DNL Facebook] cuenta en cualquier momento a [!DNL Marketo Measure] aplicación y no se perderán datos: solo cuando el etiquetado automático esté habilitado se borrará el historial de rendimiento.
 
-[Consulte este artículo](https://www.facebook.com/business/help/393890194130036){target="_blank"} de Facebook para obtener más información sobre la exportación [!DNL Facebook] Informes de publicidad.
+Consulte [este artículo](https://www.facebook.com/business/help/393890194130036){target="_blank"} de Facebook para obtener más información sobre la exportación [!DNL Facebook] Informes de publicidad.
 
 ## Contenido patrocinado por linkedIn {#linkedin-sponsored-content}
 
@@ -155,7 +155,7 @@ La integración de LinkedIn permite [!DNL Marketo Measure] para etiquetar direcc
 
 Porque [!DNL LinkedIn] Las acciones pueden utilizarse en varias campañas y elementos creativos. Pedimos a los clientes que no copien, clonen o dupliquen elementos creativos existentes para que puedan mantener su exclusividad. Si se encuentran recursos compartidos y se detectan para que solo se utilicen en un creativo, [!DNL Marketo Measure] Puede etiquetar el recurso compartido tal cual sin tener que recrear ningún elemento creativo o compartido, y el historial de todos los anuncios (impresiones, clics, recursos compartidos) permanecerá.
 
-Tan pronto como se encuentre un recurso compartido para compartirlo entre varios creativos, [!DNL Marketo Measure] tendrá que pasar por un proceso de pausa, copia y reetiquetado para crear un conjunto único. [!DNL Marketo Measure] pausará y archivará los creativos en directo, lo que significa que también se archivará el creativo que contiene las impresiones, los clics y los recursos compartidos en medios sociales.
+Tan pronto como se encuentre un recurso compartido para compartirlo entre varios creativos, [!DNL Marketo Measure] tendrá que pasar por un proceso de pausa, copia y reetiquetado para crear un conjunto único. [!DNL Marketo Measure] pausará y archivará los creativos en directo, lo que significa que el creativo que contiene las impresiones, los clics y los recursos compartidos en medios sociales también se archivará.
 
 ## Plataformas no integradas {#non-integrated-platforms}
 

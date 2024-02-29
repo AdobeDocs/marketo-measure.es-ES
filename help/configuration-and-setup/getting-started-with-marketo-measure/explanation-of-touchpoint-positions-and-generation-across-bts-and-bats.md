@@ -1,16 +1,16 @@
 ---
-description: Explicación de las posiciones de los puntos de contacto y la generación entre BT y MTD - [!DNL Marketo Measure] - Documentación del producto
+description: Explicación de las posiciones de los puntos de contacto y la generación entre BT y MTD - [!DNL Marketo Measure]
 title: Explicación de las posiciones y la generación de puntos de contacto entre BT y  [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 4%
+source-wordcount: '770'
+ht-degree: 3%
 
 ---
 
-# Explicación de las posiciones y la generación de puntos de contacto entre BT y [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
+# Explicación de las posiciones de los puntos de contacto y la generación entre BT y [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **Generación de posiciones de Touchpoint y Flujo a través del Recorrido de Compradores**
 
@@ -25,7 +25,7 @@ Entender las posiciones de Touchpoint del comprador y cómo se activan es crucia
 * [!DNL Marketo Measure] 101: Posible cliente/Contacto por ID
 * [!DNL Marketo Measure] 101: Posible cliente/Contacto Por Canal
 
-A continuación, se describen las posiciones de los puntos de contacto del comprador, que describen dónde se encuentra una persona en su recorrido y qué acciones ha llevado a cabo para conseguir esa posición.
+A continuación se describen las posiciones de Touchpoint del comprador, que describen dónde se encuentra una persona en su recorrido y qué acciones ha llevado a cabo para conseguir esa posición.
 
 <table> 
  <tbody>

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762600
-description: Documentación del tablero de instantáneas - [!DNL Marketo Measure] - Documentación del producto
+description: Documentación del tablero de instantáneas - [!DNL Marketo Measure]
 title: Documentación del tablero de instantáneas
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
 feature: Reporting
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 2%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ En todos los filtros se utiliza la lógica &quot;Y&quot;.
 >
 >Si un registro cambia de fase en la fecha seleccionada, se contará el registro para las fases desde y hasta, y todas las fases de paso a través.
 
-## Cliente potencial/Instantánea de contacto {#lead-contact-snapshot}
+## Instantánea de cliente potencial/contacto {#lead-contact-snapshot}
 
 ![](assets/one.png)
 

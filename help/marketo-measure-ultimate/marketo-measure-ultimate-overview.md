@@ -1,12 +1,12 @@
 ---
-description: “Información general sobre [!DNL Marketo Measure] Ultimate, [!DNL Marketo Measure]  documentación del producto”
+description: '[!DNL Marketo Measure] Información general definitiva: [!DNL Marketo Measure]'
 title: “Información general sobre [!DNL Marketo Measure] Ultimate”
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ La instancia de [!DNL Marketo Measure Ultimate] debe asignarse a una zona proteg
 >
 >Debe asignarse una instancia de producción de [!DNL Marketo Measure Ultimate] a una zona protegida de producción de AEP, debe asignarse una instancia de desarrolladores de [!DNL Marketo Measure Ultimate] a una zona protegida de desarrolladores de AEP.
 
-Una vez guardada la selección de la asignación de la zona protegida, no puede cambiarla en la aplicación en este momento. Para cambiarla, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Una vez guardada la selección de la asignación de la zona protegida, no puede cambiarla en la aplicación en este momento. Para cambiarlo, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Los datos de una entidad determinada (por ejemplo, cuenta) de una fuente de datos determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detendrán el flujo de datos en el tiempo de ejecución.
 

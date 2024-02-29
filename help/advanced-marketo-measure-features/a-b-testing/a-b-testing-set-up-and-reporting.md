@@ -1,23 +1,23 @@
 ---
 unique-page-id: 18874773
-description: Configuración e informes de pruebas A/B - [!DNL Marketo Measure] - Documentación del producto
+description: Configuración e informes de pruebas A/B - [!DNL Marketo Measure]
 title: Configuración e informes de pruebas A/B
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '415'
 ht-degree: 4%
 
 ---
 
 # Configuración e informes de pruebas A/B {#a-b-testing-set-up-and-reporting}
 
-El [!DNL Marketo Measure] La integración de pruebas A/B le permite hacer un seguimiento del impacto de sus ingresos [Optimizely](https://optimizely.com/){target="_blank"} y experimentos en el sitio de VWO. En estas guías de artículo se proporcionan instrucciones sobre cómo agregar [!DNL Marketo Measure] Secciones de prueba A/B al posible cliente, [!UICONTROL Contacto], Case y [!UICONTROL Oportunidad] diseños de página. También explicaremos las prácticas generales de creación de informes y las recomendaciones para la ejecución de [!DNL Marketo Measure] Tipos de informes A/B.
+El [!DNL Marketo Measure] La integración de pruebas A/B le permite hacer un seguimiento del impacto de sus ingresos [Optimizely](https://www.optimizely.com/){target="_blank"} y experimentos en el sitio de VWO. Este artículo contiene instrucciones sobre cómo agregar [!DNL Marketo Measure] Secciones de prueba A/B al posible cliente, [!UICONTROL Contacto], Case y [!UICONTROL Oportunidad] diseños de página. También se tratan las prácticas generales de creación de informes y recomendaciones para la ejecución de [!DNL Marketo Measure] Tipos de informes A/B.
 
 ## Configurar {#set-up}
 
-Añada el [!DNL Marketo Measure] Secciones de prueba A/B sobre posible cliente, contacto, caso y oportunidad. [!DNL Marketo Measure] La integración de pruebas A/B le permite hacer un seguimiento del impacto de sus ingresos [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimentos en el sitio.
+Añada el [!DNL Marketo Measure] Secciones de prueba A/B sobre posible cliente, contacto, caso y oportunidad. [!DNL Marketo Measure] La integración de pruebas A/B le permite hacer un seguimiento del impacto de sus ingresos [Optimizely](https://www.optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimentos en el sitio.
 
 1. Compruebe que está utilizando el paquete [!DNL Marketo Measure] v3.9 o posterior. Para ello, vaya a [!UICONTROL Salesforce] >[!UICONTROL Configurar] > [!UICONTROL Paquetes instalados].
 1. Edite el diseño de la página de posible cliente y añada **[!DNL Marketo Measure]Pruebas A/B** Lista relacionada con la página.
@@ -45,11 +45,11 @@ Los clientes tienen acceso a un par de [!DNL Marketo Measure] Tipos de informes 
 
 ![](assets/4.png)
 
-Los tipos de informes A/B se utilizan para informar sobre qué posible cliente, contacto u oportunidad se ha expuesto a una prueba A/B. Además, estos informes pueden mostrar la cantidad de ingresos vinculados a una oportunidad expuesta a una prueba A/B.
+Los tipos de informes A/B se utilizan para informar sobre qué posible cliente, contacto u oportunidad se ha expuesto a una prueba A/B. Estos informes también muestran la cantidad de ingresos vinculados a una oportunidad expuesta a una prueba A/B.
 
-Es importante tener en cuenta que Optimizely/VWO es una plataforma de variación de contenido y no un canal de marketing. Por lo tanto, [!DNL Marketo Measure] Los tipos de informes A/B se usan de forma diferente a los informes de puntos de contacto del comprador. Los tipos de informes de punto de contacto del comprador se utilizan para comprender qué canal de marketing (por ejemplo, publicidad de pago, web directa, social) llevó a un posible cliente o contacto a una página específica. Sin embargo, [!DNL Marketo Measure] Los tipos de informes A/B no se pueden usar para informar sobre cómo una variación influyó en un posible cliente o una oportunidad. Además, como una variación de prueba A/B no es un canal, los detalles de la variación no aparecerán en el punto de contacto del comprador.
+Es importante tener en cuenta que Optimizely/VWO es una plataforma de variación de contenido y no un canal de marketing. Por lo tanto, [!DNL Marketo Measure] Los tipos de informes A/B se usan de forma diferente a los informes de puntos de contacto del comprador. Los tipos de informes de punto de contacto del comprador se utilizan para comprender qué canal de marketing (publicidad de pago, web directa, social) condujo a un posible cliente o contacto a una página específica. Sin embargo, [!DNL Marketo Measure] Los tipos de informes A/B no se pueden usar para informar sobre cómo una variación influyó en un posible cliente o una oportunidad. Dado que una variación de prueba A/B no es un canal, los detalles de la variación no aparecen en el punto de contacto del comprador.
 
-A continuación se indican algunos campos comunes que recomendamos utilizar al realizar informes en pruebas A/B para ayudar a aumentar la claridad y la perspectiva:
+Estos son algunos campos recomendados para usar en los informes de una prueba A/B con el fin de aumentar la claridad y la perspectiva:
 
 * Posible cliente convertido
 * Experimento

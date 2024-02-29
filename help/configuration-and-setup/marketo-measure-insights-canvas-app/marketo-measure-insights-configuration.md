@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874769
-description: "[!DNL Marketo Measure] Configuración de perspectivas - [!DNL Marketo Measure] - Documentación del producto"
+description: "[!DNL Marketo Measure] Configuración de perspectivas - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Configuración de perspectivas"
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ El [!DNL Marketo Measure] La aplicación de lienzo de Insights debe agregarse al
 
 1. Seleccione el [!DNL Marketo Measure Insights] de la lista que se rellena.
 
-1. En el [!UICONTROL OAuth] En la sección de directivas, cambie la configuración Usuarios permitidos a &quot;Los usuarios aprobados por el administrador están preautorizados&quot;. Aparecerá una ventana emergente y haga clic en **[!UICONTROL OK]** y luego **[!UICONTROL Guardar]**.
+1. En el [!UICONTROL OAuth] En la sección de directivas, cambie la configuración Usuarios permitidos a &quot;Los usuarios aprobados por el administrador están preautorizados&quot;. Aparece una ventana emergente y hace clic en **[!UICONTROL OK]** y luego **[!UICONTROL Guardar]**.
 
    ![](assets/1-1.png)
 
-1. Una vez guardada la página, podrá hacer clic en el **[!UICONTROL Administrar perfiles]** botón.
+1. Una vez guardada la página, puede hacer clic en **[!UICONTROL Administrar perfiles]** botón.
 
    ![](assets/2-1.png)
 

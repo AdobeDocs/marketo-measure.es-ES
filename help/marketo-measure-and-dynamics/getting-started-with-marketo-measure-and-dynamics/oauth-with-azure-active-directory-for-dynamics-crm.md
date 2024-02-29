@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37357059
-description: 'OAuth con [!DNL Azure Active Directory] para Dynamics CRM: [!DNL Marketo Measure] - Documentación del producto'
+description: 'OAuth con [!DNL Azure Active Directory] para Dynamics CRM: [!DNL Marketo Measure]'
 title: OAuth con [!DNL Azure Active Directory] para Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Una vez finalizado el registro de la aplicación, se puede crear un usuario de l
 
    >[!NOTE]
    >
-   >* La información del nombre de usuario no debe coincidir con un usuario que exista en [!DNL Azure Active Directory].
+   >* La información del nombre de usuario no debe coincidir con un usuario que exista en la [!DNL Azure Active Directory].
    >
    >* En el campo ID de aplicación, introduzca el ID de aplicación de la aplicación que registró anteriormente en Azure AD.
 

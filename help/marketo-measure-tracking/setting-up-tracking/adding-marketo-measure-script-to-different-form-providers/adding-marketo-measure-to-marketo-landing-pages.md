@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874755
-description: 'Agregando [!DNL Marketo Measure] hasta [!DNL Marketo] Páginas de aterrizaje: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Agregando [!DNL Marketo Measure] hasta [!DNL Marketo] Páginas de aterrizaje: [!DNL Marketo Measure]'
 title: Adición de  [!DNL Marketo Measure]  a las páginas de destino de Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 4%
+source-wordcount: '217'
+ht-degree: 3%
 
 ---
 
-# Adición de [!DNL Marketo Measure] a las páginas de destino de Marketo {#adding-marketo-measure-to-marketo-landing-pages}
+# Agregando [!DNL Marketo Measure] a las páginas de aterrizaje de Marketo {#adding-marketo-measure-to-marketo-landing-pages}
 
 Aprenda a añadir el seguimiento a [!DNL Marketo Engage] Páginas de aterrizaje, ya que requieren una administración adicional. [!DNL Marketo Measure] JavaScript debe estar configurado tanto en la página de aterrizaje como en la [!DNL Marketo Engage] forma en sí misma. Para ello, debe cargar el archivo [!DNL Marketo Measure] JavaScript en [!DNL Marketo Engage] como se explica en las siguientes direcciones.
 
@@ -30,7 +30,7 @@ Aprenda a añadir el seguimiento a [!DNL Marketo Engage] Páginas de aterrizaje,
 
 Ejemplo en la captura de pantalla siguiente
 
-1. Clic **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/adding-bizible-to-marketo-landing-pages-1.png)
 

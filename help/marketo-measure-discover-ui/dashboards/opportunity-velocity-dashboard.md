@@ -2,7 +2,7 @@
 description: Tablero de velocidad de oportunidad - [!DNL Marketo Measure] - Producto
 title: Panel de velocidad de oportunidad
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 4%
@@ -43,7 +43,7 @@ Preguntas que responde el gráfico:
 
 El gráfico de líneas de serie temporal muestra el tiempo promedio, en días, que las oportunidades emplean en cada fase de ventas en el periodo de tiempo especificado.
 
-* Aproveche las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
+* utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
 * Pase el ratón sobre una línea para ver información detallada.
 
 Preguntas que responde el gráfico:

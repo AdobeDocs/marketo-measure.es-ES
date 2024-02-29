@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874678
-description: Comprensión [!DNL Marketo Measure] Etiquetado de AdWords - [!DNL Marketo Measure] - Documentación del producto
+description: Comprensión [!DNL Marketo Measure] Etiquetado de AdWords - [!DNL Marketo Measure]
 title: Información sobre el etiquetado de AdWords de  [!DNL Marketo Measure]
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
 
-# Información sobre el etiquetado de AdWords de [!DNL Marketo Measure] {#understanding-marketo-measure-adwords-tagging}
+# Comprensión [!DNL Marketo Measure] Etiquetado de AdWords {#understanding-marketo-measure-adwords-tagging}
 
 Para realizar un seguimiento de los anuncios a un nivel muy granular, las URL de destino de anuncio deben ser únicas. Para lograr esto, [!DNL Marketo Measure] El etiquetado automático agrega automáticamente parámetros de seguimiento a las direcciones URL de destino de publicidad de su [!DNL AdWords] anuncios. Echemos un vistazo al ejemplo siguiente.
 
@@ -67,7 +67,7 @@ Hay dos plantillas de seguimiento [!DNL Marketo Measure] recomienda utilizar. Ut
 
    ![](assets/2-1.png)
 
-1. Clic **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Configuración de una plantilla de seguimiento en el nivel de campaña {#setting-up-a-tracking-template-at-the-campaign-level}
 

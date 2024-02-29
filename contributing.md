@@ -1,8 +1,8 @@
 ---
-source-git-commit: ea1e867b7169bac473d8e9754cbb97a0fdcb57fd
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 98%
 
 ---
 # Contribución
@@ -14,7 +14,8 @@ A continuación, detallamos una serie de directrices que deben seguirse al contr
 ## Código de conducta
 
 Este proyecto se adhiere al [código de conducta](code-of-conduct.md) de Adobe. Al participar, 
-se espera que mantenga este código. Póngase en contacto con nosotros a través de la dirección [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) si ve comportamientos no aceptables.
+se espera que mantenga este código. Informar de comportamientos inaceptables a
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## ¿Tiene preguntas?
 
@@ -31,7 +32,7 @@ Todas las solicitudes deben llegar en forma de solicitudes de extracción y el c
 deberá revisarlas. Consulte la [documentación de las solicitudes de extracción ](https://help.github.com/articles/about-pull-requests/) para obtener más información sobre cómo enviar solicitudes de extracción.
 
 <!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
+Lastly, follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 

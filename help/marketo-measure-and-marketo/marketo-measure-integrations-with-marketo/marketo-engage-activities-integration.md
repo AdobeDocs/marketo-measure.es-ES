@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Integración de actividades - [!DNL Marketo Measure] - Documentación del producto"
+description: "[!DNL Marketo Engage] Integración de actividades - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Integración de actividades"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Como parte del [!DNL Marketo Measure] y [!DNL Marketo Engage] Al integrarse, est
 
    ![](assets/four-1.png)
 
-1. Para cada tipo de actividad, debe definir una o más reglas que determinen qué registros cumplen los requisitos para los puntos de contacto. Para nuestro ejemplo, añadiremos una regla para el tipo de actividad &quot;Cambiar puntuación&quot; para que el sistema cree un punto de contacto cuando una persona de Marketo alcance una puntuación de 90 o buena.
+1. Para cada tipo de actividad, debe definir una o más reglas que determinen qué registros cumplen los requisitos para los puntos de contacto. Para nuestro ejemplo, añadiremos una regla para el tipo de actividad &quot;Cambiar puntuación&quot; para que el sistema cree un punto de contacto cuando una persona de Marketo alcance una puntuación de 90 o más.
 
 1. En primer lugar, según el tipo de actividad, es posible que tenga que configurar una [!DNL Marketo Measure] Nombre de campaña que se puede utilizar más adelante para la asignación de canales. [!DNL Marketo Measure] Los nombres de campaña se pueden reutilizar en varias reglas. Esto ayuda a tener nombres más amplios que se pueden utilizar en una sola regla de canal. No todos los tipos de actividades contienen un programa de Marketo, por lo que es necesario especificar un nombre como primer paso.
 
@@ -50,7 +50,7 @@ Como parte del [!DNL Marketo Measure] y [!DNL Marketo Engage] Al integrarse, est
 
    ![](assets/five-1.png)
 
-1. En nuestro ejemplo &quot;Cambiar puntuación&quot;, no es necesario introducir un Nombre de campaña, ya que podemos extraer esa información del Programa de Marketo. Ahora puede crear la expresión de regla. Siguiendo con el ejemplo, queremos seleccionar el campo &quot;[!UICONTROL Nuevo valor]&quot; con un operador de &quot;[!UICONTROL es bueno que]&quot; con un valor de 90.
+1. En nuestro ejemplo &quot;Cambiar puntuación&quot;, no es necesario introducir un Nombre de campaña, ya que podemos extraer esa información del Programa de Marketo. Ahora puede crear la expresión de regla. Siguiendo con el ejemplo, queremos seleccionar el campo &quot;[!UICONTROL Nuevo valor]&quot; con un operador de &quot;[!UICONTROL is greater than]&quot; con un valor de 90.
 
    Puede ampliar las reglas y agregar filtros o criterios adicionales agregando instrucciones &quot;and&quot; u &quot;or&quot; para reducir los resultados.
 

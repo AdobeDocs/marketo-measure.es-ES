@@ -3,7 +3,7 @@ description: Tablero de ROI - [!DNL Marketo Measure] - Producto
 title: Panel de ROI
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 2%
@@ -45,7 +45,7 @@ El panel ROI proporciona a los especialistas en marketing una vista granular de 
 
 Gráfico de barras que ilustra el coste y los ingresos, diseñado para ofrecer una perspectiva comparativa de su magnitud en relación con varios canales, subcanales y campañas.
 
-* Aproveche las funcionalidades de desglose y aumento para categorizar los datos por subcanal y campaña.
+* utilice las funcionalidades de desglose y aumento para categorizar los datos por subcanal y campaña.
 * Pase el ratón sobre cada barra para ver los ROI simples y reales.
 
 **Preguntas sobre las respuestas del gráfico**
@@ -72,7 +72,7 @@ Gráfico de líneas de series temporales que muestra la comparación entre el RO
 
 Gráfico de barras apiladas que muestra los costos totales, segmentados por canales asociados para cada mes/trimestre/año.
 
-* Aproveche las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
+* utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
 * Pase el ratón sobre un segmento de barra o el espacio entre barras para ver información detallada.
 
 **Preguntas sobre las respuestas del gráfico**
@@ -86,7 +86,7 @@ Gráfico de barras apiladas que muestra los costos totales, segmentados por cana
 
 Gráfico de barras que muestra el gasto de marketing segmentado por canal, subcanal o campaña.
 
-* Aproveche las funcionalidades de desglose y aumento para categorizar los datos por canal, subcanal o campaña.
+* utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por canal, subcanal o campaña.
 
 **Preguntas sobre las respuestas del gráfico**
 

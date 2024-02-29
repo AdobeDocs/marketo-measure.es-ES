@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874580
-description: 'Conectar Marketo Measure a Salesforce: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Conectar Marketo Measure a Salesforce: [!DNL Marketo Measure]'
 title: Conectar Marketo Measure a Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Este artículo proporciona información general sobre cómo conectar su [!DNL Sa
 
    ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. Aparecerá una ventana emergente en la que se le pedirá que seleccione una conexión CRM. Haga clic en **[!UICONTROL Connect]** junto al botón [!DNL Salesforce] logotipo.
+1. Aparece una ventana emergente que le pide que seleccione una conexión CRM. Clic **[!UICONTROL Connect]** junto al [!DNL Salesforce] logotipo.
 
    ![](assets/connect-marketo-measure-to-salesforce-3.png)
 
@@ -41,7 +41,7 @@ Este artículo proporciona información general sobre cómo conectar su [!DNL Sa
 >
 >* A [!DNL Marketo Measure] La instancia se puede conectar a una instancia de zona protegida de SFDC para probar la integración antes de cambiar la conexión a la instancia de producción de SFDC.
 >* Si realiza la prueba primero con una zona protegida de SFDC, le recomendamos encarecidamente que realice la prueba con una que sea una réplica exacta de la instancia de producción de SFDC en términos de campos en los objetos de posible cliente, contacto, cuenta, oportunidad, campaña y caso. Si tiene déclencheur APEX activos en producción que se activan al actualizar los objetos de posible cliente, contacto, cuenta, oportunidad, campaña y caso, debe intentar tenerlos activos en su zona protegida.
->* Una vez que haya terminado con las pruebas, actualizará su [!DNL Marketo Measure] cuenta para apuntar a su producción [!DNL Salesforce] (en lugar de espacio aislado) [!DNL Salesforce]). Debido a la forma en que se creó la integración, una vez [!DNL Marketo Measure] La cuenta está conectada a Producción [!DNL Salesforce], no puede ir &quot;hacia atrás&quot; y conectarse a una zona protegida [!DNL Salesforce] org.
+>* Una vez que haya terminado con las pruebas, actualice su [!DNL Marketo Measure] cuenta para apuntar a su producción [!DNL Salesforce] (en lugar de espacio aislado) [!DNL Salesforce]). Debido a la forma en que se creó la integración, una vez [!DNL Marketo Measure] La cuenta está conectada a Producción [!DNL Salesforce], no puede ir &quot;hacia atrás&quot; y conectarse a una zona protegida [!DNL Salesforce] org.
 
 ## Uso de créditos de API {#api-credits-usage}
 
@@ -55,7 +55,7 @@ Puede acceder a este límite en Marketo Measure mediante: **Mi cuenta** > **Conf
 
 1. Vaya a **Mi cuenta** > **Configuración**.
 
-1. En CRM, haga clic en **General**. Verá el... **Límite diario de API de CRM** opción.
+1. En CRM, haga clic en **General**. Verá el **Límite diario de API de CRM** opción.
 
 1. Haga clic en el icono Bloquear para editarlo.
 
@@ -67,7 +67,7 @@ Puede acceder a este límite en Marketo Measure mediante: **Mi cuenta** > **Conf
 
 >[!NOTE]
 >
->Para aumentar los créditos de API de Salesforce disponibles para su solución conectada, póngase en contacto con su administrador de Salesforce y consulte [este documento de Salesforce](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
+>Para aumentar los créditos de API de Salesforce disponibles para su solución conectada, póngase en contacto con su administrador de Salesforce y consulte [este documento de Salesforce](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm?lang=es){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

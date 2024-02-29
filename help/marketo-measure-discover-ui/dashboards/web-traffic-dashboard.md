@@ -3,7 +3,7 @@ description: Tablero de tráfico web - [!DNL Marketo Measure] - Producto
 title: Panel de tráfico web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 6%
@@ -102,7 +102,7 @@ Tabla que muestra las visitas totales y los visitantes únicos por referentes.
 
 Gráfico de barras que muestra las visitas o los visitantes únicos segmentados por canal, subcanal o campaña.
 
-* Aproveche las funcionalidades de desglose y aumento para categorizar los datos por subcanal y campaña.
+* utilice las funcionalidades de desglose y aumento para categorizar los datos por subcanal y campaña.
 * Pase el ratón sobre cada barra para ver las visitas o los visitantes únicos.
 
 Preguntas que responde el gráfico:

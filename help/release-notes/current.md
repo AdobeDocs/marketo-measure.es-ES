@@ -1,12 +1,12 @@
 ---
-description: Documentación del producto  [!DNL Marketo Measure] , notas de la versión actual
+description: Notas de la versión actual - [!DNL Marketo Measure]
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
-workflow-type: ht
-source-wordcount: '1044'
-ht-degree: 100%
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+workflow-type: tm+mt
+source-wordcount: '1041'
+ht-degree: 94%
 
 ---
 
@@ -157,7 +157,7 @@ Los campos que contienen la misma información en los objetos de Touchpoint y At
 
 * Cree informes que capturen la funcionalidad de cualquier informe existente que utilice los campos eliminados. Como parte de este proceso, deseará cambiar los campos del informe como se especifica a continuación:
 
-   * Quitar campos FT/LC de posible cliente/contacto:
+* Quitar campos FT/LC de posible cliente/contacto:
 
 ![](assets/release-notes-2023-2.png)
 

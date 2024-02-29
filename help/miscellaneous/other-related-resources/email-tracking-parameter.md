@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356030
-description: Parámetro de seguimiento de correo electrónico - [!DNL Marketo Measure] - Documentación del producto
+description: Parámetro de seguimiento de correo electrónico - [!DNL Marketo Measure]
 title: Parámetro de seguimiento de correo electrónico
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 3%
+source-wordcount: '406'
+ht-degree: 4%
 
 ---
 
@@ -17,15 +17,15 @@ El [!DNL Marketo Measure] El parámetro de seguimiento de correo electrónico pe
 
 ## Casos de uso  {#use-cases}
 
-**Registro de seminario web**: el equipo de marketing envía una invitación por correo electrónico con un solo botón para registrarse en un seminario web. Dado que el correo electrónico ya contiene la información de la persona, con un solo clic se registrará automáticamente. La página de aterrizaje contiene el parámetro de seguimiento de correo electrónico, de modo que cuando pulsen y aterricen en la página de confirmación, [!DNL Marketo Measure] puede capturar la dirección de correo electrónico y tratar los clics como un relleno de formulario, lo que genera un punto de contacto.
+**Registro de seminario web**: el equipo de marketing envía una invitación por correo electrónico con un solo botón para registrarse en un seminario web. Dado que el correo electrónico ya contiene la información de la persona, con un solo clic se registra automáticamente. La página de aterrizaje contiene el parámetro de seguimiento de correo electrónico, de modo que cuando pulsen y aterricen en la página de confirmación, [!DNL Marketo Measure] puede capturar la dirección de correo electrónico y tratar los clics como un relleno de formulario, lo que genera un punto de contacto.
 
-**Descarga de contenido**: el equipo de marketing de contenido desea promocionar un libro electrónico reciente que haya publicado con un vínculo de descarga directa desde un correo electrónico. Cuando se cree la plantilla de correo electrónico, la página de confirmación de descarga contendrá el parámetro de seguimiento de correo electrónico para que, cuando pulsen, [!DNL Marketo Measure] puede capturar la dirección de correo electrónico. Sin tener que rellenar un formulario en el sitio, [!DNL Marketo Measure] Puede generar un punto de contacto para la descarga de contenido que se produjo a través del correo electrónico porque estos se colocaron en la página de confirmación con el parámetro de seguimiento de correo electrónico.
+**Descarga de contenido**: el equipo de marketing de contenido desea promocionar un libro electrónico reciente que haya publicado con un vínculo de descarga directa desde un correo electrónico. Cuando se crea la plantilla de correo electrónico, la página de confirmación de descarga contiene el parámetro de seguimiento de correo electrónico, de modo que cuando pulsen, [!DNL Marketo Measure] puede capturar la dirección de correo electrónico. Sin tener que rellenar un formulario en el sitio, [!DNL Marketo Measure] puede generar un punto de contacto para la descarga de contenido. Esto se debe a que el correo electrónico los envió a la página de confirmación con el parámetro de seguimiento de correo electrónico.
 
 ## Cómo funciona {#how-it-works}
 
 Cuando un visitante llega a su sitio, [!DNL Marketo Measure] espera encontrar una página de aterrizaje con una dirección de correo electrónico o [!DNL Salesforce] ID para que podamos asociar esa visita con un &quot;envío de formulario&quot; y generar un punto de contacto para esa actividad.
 
-Como cliente, creará una plantilla de correo electrónico como lo haría normalmente. Una vez que sea el momento de agregar en la página de aterrizaje la acción que desea rastrear, deberá determinar el token, la etiqueta de variable o la macro que acepta la plataforma de automatización de marketing para mostrar dinámicamente el valor de cada individuo.
+Como cliente, puede crear una plantilla de correo electrónico como lo haría normalmente. Una vez que sea el momento de agregar en la página de aterrizaje la acción que desea rastrear, debe determinar el token, la etiqueta de variable o la macro que acepta la plataforma de automatización de marketing para mostrar dinámicamente el valor de cada individuo.
 
 Marketo Measure acepta los siguientes valores: Dirección de correo electrónico, ID de posible cliente de Salesforce o ID de contacto de Salesforce.
 
@@ -49,19 +49,19 @@ Marketo Measure acepta los siguientes valores: Dirección de correo electrónico
    <td><p>Marketo</p></td> 
    <td><p>{{lead.Email Address}} </p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</p></td> 
-   <td><p>https://docs.marketo.com/display/public/DOCS/Tokens+Overview#TokensOverview-PersonTokens</p></td> 
+   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html</p></td> 
   </tr> 
   <tr> 
    <td><p>Pardot</p></td> 
    <td><p>%%email%% </p><p>o</p><p>%%user_crm_id%%</p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td> 
-   <td><p>https://help.salesforce.com/articleView?id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
+   <td><p>https://help.salesforce.com/s/articleView?language=en_US&amp;id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
   </tr> 
   <tr> 
    <td><p>Hubspot</p></td> 
    <td><p>(insertado mediante el editor)</p></td> 
    <td><p>n/a</p></td> 
-   <td><p>https://knowledge.hubspot.com/cos-general/how-to-use-personalization-with-your-content</p></td> 
+   <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td> 
   </tr> 
   <tr> 
    <td><p>Act-On</p></td> 
@@ -72,6 +72,6 @@ Marketo Measure acepta los siguientes valores: Dirección de correo electrónico
  </tbody> 
 </table>
 
-Y finalmente, dentro [!DNL Marketo Measure], deberá especificar el parámetro de seguimiento para que [!DNL Marketo Measure] Puede localizar el correo electrónico o el valor de ID. El valor predeterminado es &quot;mailId&quot;, como se muestra en los ejemplos anteriores y en la captura de pantalla siguiente. Introduzca el valor en su Configuración en [!DNL Marketo Measure], luego haga clic en **[!UICONTROL Guardar]**.
+Y finalmente, dentro [!DNL Marketo Measure], debe especificar el parámetro de seguimiento para que [!DNL Marketo Measure] Puede localizar el correo electrónico o el valor de ID. El valor predeterminado es &quot;mailId&quot;, como se muestra en los ejemplos anteriores y en la captura de pantalla siguiente. Introduzca el valor en su Configuración en [!DNL Marketo Measure], luego haga clic en **[!UICONTROL Guardar]**.
 
 ![](assets/one.png)

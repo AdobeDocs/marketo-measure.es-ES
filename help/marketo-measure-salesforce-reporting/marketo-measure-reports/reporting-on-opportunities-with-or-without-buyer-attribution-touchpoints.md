@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874618
-description: 'Informes sobre oportunidades con o sin puntos de contacto de atribución de comprador: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Informes sobre oportunidades con o sin puntos de contacto de atribución de comprador: [!DNL Marketo Measure]'
 title: Informes sobre oportunidades con o sin puntos de contacto de atribución de comprador
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 9%
+source-wordcount: '174'
+ht-degree: 20%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Crea un nuevo tipo de informe para incluir todas las oportunidades con o sin puntos de contacto de atribución de comprador.
 

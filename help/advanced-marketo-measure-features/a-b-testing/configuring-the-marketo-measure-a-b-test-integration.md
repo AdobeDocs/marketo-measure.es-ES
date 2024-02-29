@@ -1,19 +1,19 @@
 ---
 unique-page-id: 18874726
-description: Configuración de la [!DNL Marketo Measure] Integración de pruebas A/B - [!DNL Marketo Measure] - Documentación del producto
+description: Configuración de la [!DNL Marketo Measure] Integración de pruebas A/B - [!DNL Marketo Measure]
 title: Configuración de la integración de pruebas A/B de  [!DNL Marketo Measure]
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 15%
+source-wordcount: '115'
+ht-degree: 6%
 
 ---
 
-# Configuración de la integración de pruebas A/B de [!DNL Marketo Measure] {#configuring-the-marketo-measure-a-b-test-integration}
+# Configuración de la [!DNL Marketo Measure] Integración de pruebas A/B {#configuring-the-marketo-measure-a-b-test-integration}
 
-Añada el [!DNL Marketo Measure] Secciones de prueba A/B sobre posible cliente, contacto, caso y oportunidad. [!DNL Marketo Measure] La integración de pruebas A/B le permite hacer un seguimiento del impacto de sus ingresos [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimentos en el sitio.
+Añada el [!DNL Marketo Measure] Secciones de prueba A/B sobre posible cliente, contacto, caso y oportunidad. [!DNL Marketo Measure] La integración de pruebas A/B le permite hacer un seguimiento del impacto de sus ingresos [Optimizely](https://www.optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimentos en el sitio.
 
 1. Compruebe que está utilizando el paquete [[!DNL Marketo Measure] v3.9 o posterior](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}.
 1. Añada el &quot;[!DNL Marketo Measure] ABTests&quot; Relacionados con los diseños de página y haga clic en el botón **Configuración** Botón (llave inglesa).

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] Integración de personas - [!DNL Marketo Measure] - Documentación del producto"
+description: "[!DNL Marketo Engage] Integración de personas - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Integración de personas"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 2%
+source-wordcount: '867'
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ Los clientes tienen la opción de informar de todo el conjunto de personas de Ma
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
-Al informar sobre posibles clientes (personas) en [!DNL Marketo Measure Discover], verá el total de sus posibles clientes de Marketo y CRM. Para informar solo sobre las personas de Marketo o solo sobre los posibles clientes de CRM, debe crear una Categoría de segmento para el origen y, a continuación, crear Reglas de segmento para Marketo y CRM mediante el campo &quot;Sistema de origen&quot; para definir la regla. Una vez creados los segmentos, verá la categoría Fuente disponible para filtrar por el [!DNL Marketo Measure Discover] paneles.
+Al informar sobre posibles clientes (personas) en [!DNL Marketo Measure Discover], verá el total de sus posibles clientes de Marketo y CRM. Para informar solo sobre las personas de Marketo o solo los posibles clientes de CRM, querrá crear una Categoría de segmento para su origen y luego crear Reglas de segmento para Marketo y CRM usando el campo &quot;Sistema de origen&quot; para definir la regla. Una vez creados los segmentos, verá la categoría Fuente disponible para filtrar por el [!DNL Marketo Measure Discover] paneles.
 
 ![](assets/bizible-discover-1.png)
 
@@ -72,7 +72,7 @@ Al informar sobre posibles clientes (personas) en [!DNL Marketo Measure Discover
   </tr> 
   <tr> 
    <td><p>EMAIL</p></td> 
-   <td><p>email</p></td> 
+   <td><p>correo electrónico</p></td> 
   </tr> 
   <tr> 
    <td><p>WEB_SITE</p></td> 

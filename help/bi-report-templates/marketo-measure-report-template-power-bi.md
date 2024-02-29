@@ -1,12 +1,12 @@
 ---
-description: “Documentación del producto de  [!DNL Marketo Measure] . Plantilla de informe de [!DNL Marketo Measure] Power BI”.
+description: "[!DNL Marketo Measure] Plantilla de informe - Power BI - [!DNL Marketo Measure]"
 title: '“Plantilla de informe de [!DNL Marketo Measure]: Power BI”'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '2571'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '2540'
+ht-degree: 83%
 
 ---
 
@@ -22,19 +22,19 @@ Abra el archivo de Power BI de plantilla de creación de informes de [!DNL Marke
 
 Puede encontrar la información específica del servidor, data warehouse y el esquema en la interfaz de usuario de [!DNL Marketo Measure] en la página de información de [!DNL Data Warehouse]. [Aquí](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"} se detallan las instrucciones para localizar esta página.
 
-Los parámetros QueryFilterStartDate y QueryFilterEndDate se utilizan para limitar la cantidad de datos importados. Estos parámetros deben tener el formato de SQL, puesto que se utilizan en las consultas enviadas a [!DNL Snowflake]. Por ejemplo, si desea limitar los datos a los dos últimos años, QueryFilterStartDate sería dateadd (year,-2,current_date()). Estos parámetros se comparan con los tipos de datos datetime, por lo que se recomienda utilizar dateadd (day,1,current_date()) para que QueryFilterEndDate devuelva todos los datos a la hora actual.
+Los parámetros QueryFilterStartDate y QueryFilterEndDate se utilizan para limitar la cantidad de datos importados. Estos parámetros deben tener el formato de SQL, puesto que se utilizan en las consultas enviadas a [!DNL Snowflake]. Por ejemplo, si desea limitar los datos a los dos últimos años, QueryFilterStartDate sería `dateadd` (año,-2,fecha_actual()). Estos parámetros se comparan con los tipos de datos datetime, por lo que se recomienda utilizar `dateadd` (day,1,current_date()) para que QueryFilterEndDate devuelva todos los datos a la hora actual.
 
 ## Conexión de datos {#data-connection}
 
-Los parámetros introducidos al abrir el archivo se utilizan para estructurar consultas nativas que importan tablas del data warehouse. Aún tendrá que configurar una conexión de datos con su ejemplo de [!DNL Snowflake]. Para ello, necesitará los mismos nombres de servidor y data warehouse junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar su nombre de usuario y restablecer la contraseña, si es necesario, están documentados [aquí](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Los parámetros introducidos al abrir el archivo se utilizan para estructurar consultas nativas que importan tablas del data warehouse. Aún debe configurar una conexión de datos con su [!DNL Snowflake] ejemplo. Para ello, necesita los mismos nombres de servidor y almacén junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar su nombre de usuario y restablecer la contraseña, si es necesario, están documentados [aquí](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Importación de datos {#data-import}
 
-Para mejorar el rendimiento del informe y aprovechar las posibilidades de transformación de Power Query, hemos elegido configurar esta plantilla mediante el método de almacenamiento de importación.
+Para mejorar el rendimiento del informe y aprovechar las capacidades de transformación de Power Query, configure esta plantilla mediante el método de almacenamiento de importación.
 
 ### Parámetros de consulta {#query-parameters}
 
-Para limitar los datos importados en el modelo, cada tabla se configura con una consulta nativa como origen. Las consultas nativas requieren aprobación para ejecutarse, pero debe hacer clic en ejecutar para cada consulta. Este paso solo es necesario la primera vez que se ejecutan las consultas o si cambian los parámetros.
+Para limitar los datos importados en el modelo, cada tabla se configura con una consulta nativa como origen. Las consultas nativas requieren aprobación para ejecutarse, debe hacer clic en ejecutar para cada consulta. Este paso solo es necesario la primera vez que se ejecutan las consultas o si cambian los parámetros.
 
 ![](assets/marketo-measure-report-template-power-bi-2.png)
 
@@ -42,7 +42,7 @@ Todas las consultas filtran las filas eliminadas y las tablas de [!UICONTROL hec
 
 >[!NOTE]
 >
->Debido a que los filtros de fecha se aplican a la fecha de modificación de una fila, tenga cuidado al crear informes sobre fechas que se encuentran fuera del intervalo de fechas restringido. Por ejemplo, el intervalo de fecha modificado está limitado a los últimos dos años. Esto puede incluir un evento con una fecha de evento de hace tres años, pero que se ha modificado recientemente. Sin embargo, la creación de informes sobre los eventos de hace tres años devuelve resultados incompletos, ya que no todas las filas se habrán modificado en el transcurso de dos años.
+>Debido a que los filtros de fecha se aplican a la fecha de modificación de una fila, tenga cuidado al crear informes sobre fechas que se encuentran fuera del intervalo de fechas restringido. Por ejemplo, el intervalo de fecha modificado está limitado a los últimos dos años. Esto puede incluir un evento con una fecha de evento de hace tres años, pero que se ha modificado recientemente. Sin embargo, los informes sobre los eventos de hace tres años devuelven resultados incompletos, ya que no todas las filas se han modificado en el lapso de tiempo de dos años.
 
 ![](assets/marketo-measure-report-template-power-bi-3.png)
 
@@ -80,11 +80,11 @@ Se han aplicado algunas transformaciones a los datos de Power Query. Para ver la
 
 ### Columnas eliminadas {#removed-columns}
 
-Para simplificar el modelo de datos y eliminar datos redundantes e innecesarios, hemos reducido el número de columnas importadas en Power BI desde la tabla de [!DNL Snowflake] original. Las columnas eliminadas incluyen claves externas innecesarias, datos dimensionales desnormalizados que se aprovechan mejor mediante relaciones con otras tablas del modelo, columnas de auditoría y campos utilizados para el procesamiento de [!DNL Marketo Measure] interno. Puede añadir o quitar columnas según sea necesario para sus necesidades comerciales. Vaya al paso “Otras columnas eliminadas” después del paso “Origen” en cualquier tabla, haga clic en el icono de engranaje y actualice las columnas seleccionadas en la lista proporcionada.
+Para simplificar el modelo de datos y eliminar datos redundantes e innecesarios, hemos reducido el número de columnas importadas en Power BI desde la tabla de [!DNL Snowflake] original. Las columnas eliminadas incluyen claves externas innecesarias, datos dimensionales desnormalizados aplicados mejor mediante relaciones con otras tablas del modelo, columnas de auditoría y campos utilizados para tareas internas [!DNL Marketo Measure] procesando. Puede añadir o quitar columnas según sea necesario para sus necesidades comerciales. Vaya al paso “Otras columnas eliminadas” después del paso “Origen” en cualquier tabla, haga clic en el icono de engranaje y actualice las columnas seleccionadas en la lista proporcionada.
 
 >[!NOTE]
 >
->* Tenga cuidado al añadir valores de clave externa adicionales. A menudo, Power BI se configura para detectar automáticamente las relaciones en el modelo y añadir valores de clave externa puede provocar vínculos no deseados entre tablas o deshabilitar las relaciones existentes.
+>* Tenga cuidado al añadir valores de clave externa adicionales. A menudo, la Power BI se configura para detectar automáticamente las relaciones en el modelo y añadir valores de clave externa puede provocar vínculos no deseados entre tablas o deshabilitar las relaciones existentes.
 >
 >* La mayoría de las tablas de Data Warehouse de [!DNL Marketo Measure] contienen datos dimensionales sin normalizar. Hemos trabajado para normalizar y limpiar el modelo en Power BI en la medida de lo posible para mejorar el rendimiento y la precisión de los datos. Tenga cuidado al incluir campos sin normalizar adicionales en tablas de hechos, ya que esto podría interrumpir el filtrado dimensional en todas las tablas y también podría generar una creación de informes inexactos.
 
@@ -93,7 +93,7 @@ Para simplificar el modelo de datos y eliminar datos redundantes e innecesarios,
 
 ### Columnas renombradas {#renamed-columns}
 
-Se ha cambiado el nombre de las tablas y columnas para facilitar su uso y estandarizar las convenciones de nomenclatura. Para ver los cambios de nombre de columna, vaya al paso “Columnas renombradas” después del paso “Otras columnas eliminadas” en cualquier tabla.
+Se ha cambiado el nombre de las tablas y columnas para que sean más fáciles de usar y para estandarizar las convenciones de nomenclatura. Para ver los cambios de nombre de columna, vaya al paso “Columnas renombradas” después del paso “Otras columnas eliminadas” en cualquier tabla.
 
 ![](assets/marketo-measure-report-template-power-bi-6.png)
 
@@ -103,10 +103,10 @@ Dado que los nombres de segmentos se pueden personalizar, tienen nombres de colu
 
 ![](assets/marketo-measure-report-template-power-bi-7.png)
 
-### Conversión de ID con distinción de mayúsculas y minúsculas {#case-sensitive-id-conversion}
+### Conversión de ID que distingue entre mayúsculas y minúsculas {#case-sensitive-id-conversion}
 
-Los datos de [!DNL Marketo Measure] tienen un par de tablas en las que los valores de clave principal (ID) distinguen entre mayúsculas y minúsculas, concretamente Touchpoint y Campaña. El motor de datos que impulsa la capa de modelado de Power BI no distingue entre mayúsculas y minúsculas, lo que da como resultado valores de ID “duplicados”. Para preservar la distinción entre mayúsculas y minúsculas en estos valores clave, hemos implementado pasos de transformación que adjuntan caracteres invisibles a caracteres en minúsculas, preservando la exclusividad del ID cuando se evalúa en la capa del motor de datos. Encontrará más detalles sobre el problema y los pasos detallados del método que hemos empleado [aquí] (https://blog.crossjoin.co.uk/2019
-/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Estos valores de ID con distinción de mayúsculas y minúsculas están etiquetados como “ID de unión” y se utilizan como claves de unión en la capa de relación. Hemos ocultado los ID de unión de la capa de creación de informes, manteniendo los valores de ID originales visibles para su uso en la creación de informes, ya que los caracteres invisibles pueden interferir con las funciones 
+[!DNL Marketo Measure] Los datos de tienen un par de tablas en las que los valores de clave principal (ID) distinguen entre mayúsculas y minúsculas, concretamente Touchpoint y Campaign. El motor de datos que impulsa la capa de modelado de Power BI no distingue entre mayúsculas y minúsculas, lo que da como resultado valores de ID “duplicados”. Para preservar la distinción entre mayúsculas y minúsculas en estos valores clave, hemos implementado pasos de transformación que adjuntan caracteres invisibles a caracteres en minúsculas, preservando la exclusividad del ID cuando se evalúa en la capa del motor de datos. Encontrará más detalles sobre el problema y los pasos detallados del método que hemos empleado [aquí] (https://blog.crossjoin.co.uk/2019
+/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Estos valores de ID que distinguen entre mayúsculas y minúsculas están etiquetados como &quot;ID de unión&quot; y se utilizan como claves de unión en la capa de relación. Hemos ocultado los ID de unión de la capa de creación de informes, manteniendo los valores de ID originales visibles para su uso en la creación de informes, ya que los caracteres invisibles pueden interferir con las funciones 
 de cortar/pegar y el filtrado.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
@@ -166,7 +166,7 @@ Las tasas de la tabla Tasa de conversión representan el valor necesario para co
 
 Como no es necesario que las tasas de conversión sean estáticas y pueden cambiar según intervalos de fechas especificados, todos los cálculos de conversión de moneda deben realizarse en el nivel de fila. De nuevo, dado que las tasas de conversión pertenecen a un intervalo de fechas específico, el cálculo de búsqueda debe realizarse dentro del DAX de la medida, por lo que la relación puede definirse tanto en el código de moneda como en la fecha.
 
-Las medidas de conversión de moneda de este modelo sustituyen la tasa por un valor de 1.0 si no se puede identificar ninguna tasa de conversión. Se han creado medidas independientes para mostrar el valor de moneda de la medida y avisar si un cálculo incluye más de un valor de moneda (es decir, no se ha podido convertir un valor a la moneda seleccionada).
+Las medidas de conversión de moneda de este modelo sustituyen la tasa por un valor de 1.0 si no se puede identificar ninguna tasa de conversión. Se han creado medidas independientes para mostrar el valor de moneda de la medida y avisar si un cálculo incluye más de un valor de moneda (es decir, no se pudo convertir un valor a la moneda seleccionada).
 
 ![](assets/marketo-measure-report-template-power-bi-13.png)
 
@@ -190,7 +190,7 @@ Los Touchpoints de posible cliente y de atribución heredan los datos dimensiona
 
 ### Coste {#cost}
 
-La creación de informes sobre costes en las plantillas solo están disponibles a nivel de campaña y canal. Sin embargo, Discover ofrece creación de informes con niveles de granularidad más bajos para algunos proveedores de publicidad (es decir, creativo, palabra clave, de grupos de publicidad, etc.). Para obtener más información sobre cómo se modelan los datos de costes en las plantillas, consulte la sección Modelo de datos de esta documentación. Si el filtro de dimensión en [!UICONTROL Discover] se establece en canal o campaña, los costes en los niveles de canal, subcanal y campaña deben alinearse entre Discover y las plantillas de informe.
+Los informes de costes en las plantillas solo están disponibles en el nivel de campaña y canal. Sin embargo, Discover ofrece informes con niveles de granularidad más bajos para algunos proveedores de publicidad (es decir, creativos, palabras clave, grupos de publicidad, etc.). Para obtener más información sobre cómo se modelan los datos de coste en las plantillas, consulte la sección Modelo de datos de esta documentación. Si el filtro de dimensión en [!UICONTROL Discover] se establece en canal o campaña, los costes en los niveles de canal, subcanal y campaña deben alinearse entre Discover y las plantillas de creación de informes.
 
 ### Retorno de la inversión {#roi}
 
@@ -202,7 +202,7 @@ Estas métricas, como se muestra en las plantillas de creación de informes, no 
 
 ### Tráfico web {#web-traffic}
 
-El modelo de datos de plantilla de creación de informes normaliza los datos dimensionales de canal, subcanal y campaña a través de la relación entre Sesión y Touchpoint. Esto es diferente al modelo de datos Discover, que desnormaliza estas dimensiones en la sesión. Debido a esta distinción, los recuentos generales de visitas y visitantes deben coincidir entre Discover y la plantilla de creación de informes. Sin embargo, una vez mostrados o filtrados por dimensión, no se espera que estos números coincidan. Esto se debe a que los datos dimensionales de la plantilla solo están disponibles para eventos web que dieron como resultado un Touchpoint (es decir, eventos no anónimos). Para obtener más información, consulte la sección [Modelo de datos](#data-model) de esta documentación.
+El modelo de datos de plantilla de creación de informes normaliza los datos dimensionales de canal, subcanal y campaña a través de la relación entre Sesión y Touchpoint. Esto es diferente al modelo de datos Discover, que desnormaliza estas dimensiones en la sesión. Debido a esta distinción, los recuentos generales de visitas y visitantes deben coincidir entre Discover y la plantilla de creación de informes. Sin embargo, una vez mostrados o filtrados por dimensión, no se espera que estos números coincidan. Esto se debe a que los datos dimensionales de la plantilla solo están disponibles para eventos web que dieron como resultado un Touchpoint (es decir, eventos no anónimos). Para obtener más información, consulte la [Modelo de datos](#data-model) de esta documentación.
 
 Puede haber pequeñas discrepancias en los recuentos totales de formularios del sitio entre [!DNL Discover] y la plantilla. Esto se debe a que el modelo de datos de la plantilla de creación de informes obtiene datos dimensionales para el formulario del sitio mediante una relación con la sesión y, a continuación, con Touchpoint. Hay algunas instancias en las que los datos del formulario del sitio no tienen una sesión correlacionada.
 

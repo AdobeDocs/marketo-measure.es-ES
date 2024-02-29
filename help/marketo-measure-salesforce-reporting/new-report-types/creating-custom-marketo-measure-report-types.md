@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874539
-description: Crear Personalizado [!DNL Marketo Measure] Tipos de informes - [!DNL Marketo Measure] - Documentación del producto
+description: Crear Personalizado [!DNL Marketo Measure] Tipos de informes - [!DNL Marketo Measure]
 title: Creación de tipos de informes personalizados de  [!DNL Marketo Measure]
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: '372'
+ht-degree: 5%
 
 ---
 
-# Creación de tipos de informes personalizados de [!DNL Marketo Measure] {#creating-custom-marketo-measure-report-types}
+# Crear Personalizado [!DNL Marketo Measure] Tipos de informes {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Aprenda a crear formularios personalizados [!DNL Marketo Measure] [!DNL Salesforce] tipos de informes. Existen tres tipos de informes diferentes que recomendamos crear: Posibles clientes con puntos de contacto del comprador (personalizado), [!DNL Marketo Measure] Persona con puntos de contacto de comprador (personalizado), oportunidades con punto de contacto de atribución de comprador (personalizado).
 

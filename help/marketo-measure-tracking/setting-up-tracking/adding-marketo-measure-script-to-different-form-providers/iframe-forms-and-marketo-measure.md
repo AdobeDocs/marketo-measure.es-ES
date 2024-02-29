@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874741
-description: Documentación del producto  [!DNL Marketo Measure] , IFrame Forms y  [!DNL Marketo Measure]
+description: IFrame Forms y [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Formularios IFrame y  [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '194'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 84%
 
 ---
 
@@ -23,4 +23,4 @@ Se recomienda colocar el JavaScript dentro del encabezado del IFrame y, a partir
 
 ![](assets/1-1.png)
 
-Si tiene alguna pregunta sobre cómo añadir JavaScript a los formularios de IFrame, póngase en contacto con el equipo de cuentas de Adobe (su administrador de cuentas) o [el equipo de soporte de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Si tiene alguna pregunta sobre la adición de JavaScript a los formularios de IFrame, póngase en contacto con el equipo de cuenta de Adobe (su administrador de cuentas) o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874658
-description: 'Casos de uso comunes: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Casos de uso comunes: [!DNL Marketo Measure]'
 title: Casos de uso comunes
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Para ver el impacto de los ingresos de sus esfuerzos de marketing por canal, vay
 
 ## Contactos creados {#contacts-created}
 
-Para ver el número total de contactos creados, agrupados por una dimensión, vaya al panel Información general o CMO de Discover, abra los Filtros sobre los mosaicos, ajuste el filtro de Métrica a Contactos y, a continuación, mueva el Tipo de fecha a Fecha de creación. Listo!
+Para ver el número total de contactos creados, agrupados por una dimensión, vaya al panel Información general o CMO de Discover, abra los Filtros sobre los mosaicos, ajuste el filtro de Métrica a Contactos y, a continuación, mueva el Tipo de fecha a Fecha de creación. ¡Listo!
 
 Para obtener un recuento total de contactos o para ver el total de contactos a lo largo del tiempo, vaya al panel Crecimiento, ajuste el Tipo de fecha a Fecha de creación y seleccione el intervalo de tiempo deseado. Los contactos y los contactos a lo largo del tiempo son mosaicos centrados en los contactos dentro de este panel.
 

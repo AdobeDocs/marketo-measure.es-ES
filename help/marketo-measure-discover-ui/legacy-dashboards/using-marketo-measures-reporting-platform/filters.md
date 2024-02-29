@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874656
-description: Filtros - [!DNL Marketo Measure] - Documentación del producto
+description: Filtros - [!DNL Marketo Measure]
 title: Filtros
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -19,13 +19,13 @@ Obtenga más información sobre los diferentes filtros disponibles en Discover y
 >
 >Los operadores &quot;coincide con un atributo de usuario&quot; y &quot;coincide (avanzado)&quot; dentro de los filtros de Discover son puramente administrativos y se pueden ignorar sin problemas.
 
-**Identificación de la cuenta**
+**ID de cuenta**
 
 _Se utiliza en: Marketing basado en cuentas_
 
 Seleccione o pegue una serie de ID de cuenta de CRM para filtrar los resultados. Los ID de cuenta proporcionan más exclusividad que el nombre de cuenta, ya que los nombres pueden ser iguales.
 
-**Nombre de la cuenta**
+**Nombre de cuenta**
 
 _Se utiliza en: Marketing basado en cuentas_
 
@@ -55,7 +55,7 @@ _Se utiliza en: Información general, Crecimiento, Gasto en marketing, ROI de an
 
 Filtre el tablero por uno o varios canales. Los operadores proporcionan al filtro una flexibilidad adicional, como el uso de los operadores &quot;contiene&quot; o &quot;comienza con&quot;. Una vez introducido un canal, los valores que se muestran en los filtros Subcanal y Campaña procederán del filtro de subcanal aplicado.
 
-**Etapa de cohorte**
+**Fase de cohorte**
 
 _Se utiliza en: Canal de cohorte_
 
@@ -73,7 +73,7 @@ _Se utiliza en: Información general, Crecimiento, Gasto en marketing, ROI de an
 
 Elija el tipo de fecha que desea utilizar, asociada al filtro Fecha. El tipo de fecha predeterminado varía según el tablero. La fecha de punto de contacto hace referencia a la fecha en la que se produjo la actividad de marketing, la fecha de creación es la fecha en la que se creó el posible cliente, el contacto o la oportunidad en CRM y la fecha de cierre es la fecha en la que se cerró la oportunidad.
 
-**Dimensión**
+**Dimension**
 
 _Se utiliza en: Medios de pago_
 
@@ -173,7 +173,7 @@ _Se utiliza en: Tráfico web_
 
 Explore en profundidad el tráfico de una sola dirección URL o quizás direcciones URL que contengan una determinada palabra, como &quot;producto&quot;.
 
-**Ganado**
+**Won**
 
 _Se utiliza en: Velocidad_
 

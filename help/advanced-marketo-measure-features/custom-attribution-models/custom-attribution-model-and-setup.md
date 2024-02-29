@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874779
-description: 'Configuración y modelo de atribución personalizado: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Configuración y modelo de atribución personalizado: [!DNL Marketo Measure]'
 title: Modelo de atribución personalizado y configuración
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '845'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ El [!DNL Marketo Measure] El modelo de atribución personalizado permite a los u
 
    Iniciar sesión en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Ir a [!UICONTROL Mi cuenta] > [!UICONTROL Configuración] > y en la sección CRM, seleccione **[!UICONTROL Asignación de etapas]**.
 
-   Una vez aquí, tendrá que seleccionar qué etapas de posibles clientes/contactos y oportunidades incluir seleccionando la variable **[!UICONTROL Incluir en el modelo]** cuadro.
+   A continuación, seleccione las fases de posibles clientes/contactos y oportunidad que desea incluir seleccionando la **[!UICONTROL Incluir en el modelo]** cuadro.
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ El [!DNL Marketo Measure] El modelo de atribución personalizado permite a los u
 
    Si hay otras fases que desea incluir en el modelo, pero no están en el [!UICONTROL Estado del posible cliente/contacto] o [!UICONTROL Fase de oportunidad] , puede definir su propia fase personalizada en función de los campos de su CRM.
 
-   En el ejemplo siguiente, se define una fase &quot;MQL&quot; personalizada mediante un campo de fecha. La regla simplemente indica que si el campo Fecha de MQL no está vacío, debe considerarse un MQL y debe incluirse en el modelo personalizado. Tenga en cuenta que también es importante ordenar las fases personalizadas una vez creadas para que sigan la progresión del ciclo de ventas.
+   En el ejemplo siguiente, se define una fase &quot;MQL&quot; personalizada mediante un campo de fecha. La regla simplemente establece que si el campo Fecha de MQL no está vacío, debe considerarse un MQL y debe incluirse en el modelo personalizado. También es importante ordenar las fases personalizadas una vez creadas para que sigan la progresión del ciclo de ventas.
 
    ![](assets/2-1.png)
 
@@ -51,7 +51,7 @@ El [!DNL Marketo Measure] El modelo de atribución personalizado permite a los u
    >
    >No olvide habilitar el seguimiento del historial para los campos personalizados.
 
-Si se está utilizando un campo personalizado en el modelo personalizado, el seguimiento del historial de campos DEBE estar habilitado en CRM. Para obtener instrucciones sobre cómo habilitar el seguimiento del historial de campos, [haga clic aquí](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
+Si se utiliza un campo personalizado en el modelo personalizado, el seguimiento del historial de campos DEBE estar habilitado en CRM. Para obtener instrucciones para habilitar el seguimiento del historial de campos, consulte [Configuración del modelo personalizado: Habilitar el seguimiento del historial de campos](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
 
 1. Determine los porcentajes de atribución para el modelo personalizado.
 
@@ -59,7 +59,7 @@ Si se está utilizando un campo personalizado en el modelo personalizado, el seg
 
    En la columna del extremo derecho rotulada &quot;**[!UICONTROL Personalizado]**,&quot; puede establecer la ponderación porcentual para cada fase del modelo de atribución personalizado. Solo tiene que introducir los valores de cada fase en la columna Personalizado. Entonces **[!UICONTROL Guardar y volver a procesar]** una vez finalizado.
 
-   A la izquierda de la columna &quot;Personalizado&quot; se encuentra la variable **[!DNL Marketo Measure]Modelo de aprendizaje automático**. El modelo de aprendizaje automático calcula la ponderación de atribución en función de la importancia relativa para ganar un acuerdo, según lo que haya sucedido en cada fase personalizada. Para obtener más información sobre el modelo de aprendizaje automático, [haga clic aquí](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   A la izquierda del _Personalizado_ es la columna **[!DNL Marketo Measure]Modelo de aprendizaje automático**. El modelo de aprendizaje automático calcula la ponderación de atribución en función de la importancia relativa para ganar un acuerdo, según lo que haya sucedido en cada fase personalizada. Para obtener más información sobre el modelo de aprendizaje automático, consulte [Preguntas frecuentes sobre el modelo de aprendizaje automático](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 

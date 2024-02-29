@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874535
-description: 'Transición a [!DNL Marketo Measure] de Círculo completo: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Transición a [!DNL Marketo Measure] de Círculo completo: [!DNL Marketo Measure]'
 title: Transición a  [!DNL Marketo Measure]  desde “Full Circle”
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 1%
+source-wordcount: '642'
+ht-degree: 0%
 
 ---
 
-# Transición a [!DNL Marketo Measure] desde “Full Circle” {#transitioning-to-marketo-measure-from-full-circle}
+# Transición a [!DNL Marketo Measure] desde círculo completo {#transitioning-to-marketo-measure-from-full-circle}
 
 Cambio de Círculo completo a [!DNL Marketo Measure]? No estás solo... Estas son las consideraciones más importantes que debe tener en cuenta y las lecciones que hemos aprendido de otros clientes que han realizado el cambio.
 
@@ -41,7 +41,7 @@ Trabaje con su [!DNL Marketo Measure] un representante de para establecer las ex
 
 La recomendación estándar es comenzar con la creación de informes y la recopilación de datos desde el día en que se implementó el [!DNL Marketo Measure] JavaScript hacia adelante, y eso es el doble para los antiguos clientes de Full Circle. Piense en las dos secciones anteriores: Está acostumbrado a ver una mayor cantidad de datos y está acostumbrado a todos los datos procedentes de la pertenencia a la campaña de CRM. Si decide incluir algunos o todos los datos anteriores a su [!DNL Marketo Measure] , no comparará manzanas con manzanas en la fecha de implementación de JavaScript.
 
-Dicho esto, sin duda entendemos que muchos clientes necesitan estos datos históricos; especialmente si tiene un ciclo de ventas más largo (bueno que 90 días), es posible que desee dar [!DNL Marketo Measure] visibilidad sobre la pre-[!DNL Marketo Measure] datos. Analice esto detenidamente con su [!DNL Marketo Measure] rep, y siempre tenga en cuenta que el sesgo en la fecha de implementación puede llevar a la aparición de mejoras o caídas en el rendimiento o la participación del canal, así como otras deducciones potencialmente incorrectas.
+Dicho esto, sin duda entendemos que muchos clientes necesitan estos datos históricos; especialmente si tiene un ciclo de ventas más largo (más de 90 días), es posible que desee dar [!DNL Marketo Measure] visibilidad sobre la pre-[!DNL Marketo Measure] datos. Analice esto detenidamente con su [!DNL Marketo Measure] rep, y siempre tenga en cuenta que el sesgo en la fecha de implementación puede llevar a la aparición de mejoras o caídas en el rendimiento o la participación del canal, así como otras deducciones potencialmente incorrectas.
 
 ## En resumen {#in-summary}
 

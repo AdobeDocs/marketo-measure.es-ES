@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874598
-description: Configuración de canal personalizado sin conexión - [!DNL Marketo Measure] - Documentación del producto
+description: Configuración de canal personalizado sin conexión - [!DNL Marketo Measure]
 title: Configuración de canales personalizados sin conexión
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---

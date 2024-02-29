@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656745
-description: Preguntas más frecuentes (multimoneda) - [!DNL Marketo Measure] - Documentación del producto
+description: Preguntas más frecuentes (multimoneda) - [!DNL Marketo Measure]
 title: Preguntas frecuentes (multidivisa)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---

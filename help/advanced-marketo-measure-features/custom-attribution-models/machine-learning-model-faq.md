@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874775
-description: 'Preguntas frecuentes sobre el modelo de aprendizaje automático: [!DNL Marketo Measure] - Documentación del producto'
+description: 'Preguntas frecuentes sobre el modelo de aprendizaje automático: [!DNL Marketo Measure]'
 title: Preguntas frecuentes sobre el modelo de aprendizaje automático
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '688'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Asignar un 10% de crédito de atribución a los toques medios es una configuraci
 
 ¿Cuándo debo cambiar la distribución de atribución?
 
-Póngase en contacto con el administrador de su cuenta para discutir las implicaciones de cambiar los porcentajes de atribución y qué etapas se deben incluir en el modelo personalizado. Cada [!DNL Salesforce] y el proceso de ventas es único, y queremos asegurarnos de que su modelo personalizado esté modelado con precisión.
+Póngase en contacto con el administrador de cuentas para discutir las implicaciones de cambiar los porcentajes de atribución y qué etapas se deben incluir en el modelo personalizado. Cada [!DNL Salesforce] y el proceso de ventas es único, y queremos asegurarnos de que su modelo personalizado esté modelado con precisión.
 
 Dicho esto, hemos identificado algunas tendencias generales en nuestros clientes:
 
