@@ -4,10 +4,10 @@ description: Atribución de marketing - Marketo Measure - Documentación del pro
 title: Atribución de marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+source-git-commit: 204340c77a173c3e8fd87b65ed47a1a0dbc35880
+workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Marketo Measure ofrece a los expertos en marketing un conocimiento detallado de 
 
 **Atribución de marketing** es el proceso de asignación de crédito de ingresos a un punto de contacto de marketing. Para ello, se realiza el seguimiento de todo el recorrido de los clientes potenciales, desde la primera interacción con su empresa hasta el momento en que se cierra el acuerdo. Los ingresos generados por el acuerdo se atribuyen de nuevo a los puntos de contacto de marketing que llevaron a la venta. El importe de crédito de ingresos que se le ha proporcionado a un punto de contacto depende de la influencia que ese punto de contacto haya tenido en la decisión de compra del cliente.
 
-**Puntos de contacto** hace referencia a las interacciones que un cliente potencial o posible cliente tiene con sus medidas de marketing en línea o sin conexión. Hay cuatro **puntos de contacto **principales** que se tienen en cuenta en la atribución de marketing. Reflejan las diferentes fases del recorrido del cliente. Estos puntos de contacto principales, también denominados **puntos de contacto de hitos**, son los siguientes: Primer contacto (FT), Creación de posibles clientes (LC), Creación de oportunidades (OC), Acuerdo ganado cerrado (CW).
+**Puntos de contacto** hace referencia a las interacciones que un cliente potencial o posible cliente tiene con sus medidas de marketing en línea o sin conexión. Hay cuatro **puntos de contacto principales** que se tienen en cuenta en la atribución de marketing. Reflejan las diferentes fases del recorrido del cliente. Estos puntos de contacto principales, también denominados **puntos de contacto de hitos**, son los siguientes: Primer contacto (FT), Creación de posibles clientes (LC), Creación de oportunidades (OC), Acuerdo ganado cerrado (CW).
 
 ![](assets/1.png)
 
