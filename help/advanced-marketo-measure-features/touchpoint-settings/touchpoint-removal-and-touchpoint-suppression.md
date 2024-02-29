@@ -4,9 +4,9 @@ description: Eliminación de Touchpoint y supresión de Touchpoint - [!DNL Marke
 title: Eliminación de puntos de contacto y supresión de puntos de contacto
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Elija de una lista de Operadores que se relacionarán con el siguiente conjunto 
 
 >[!TIP]
 >
->Para tener en cuenta un valor en blanco o NULL en un campo, simplemente deje vacío el cuadro Valor. Esto tendrá en cuenta escenarios como la evaluación con un punto de contacto sin URL de formulario.
+>Para tener en cuenta un valor en blanco o NULL en un campo, simplemente deje el campo [!UICONTROL Valor] casilla vacía. Esto tendrá en cuenta escenarios como la evaluación con un punto de contacto sin URL de formulario.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ O bien, agregue nuevas instrucciones fuera del grupo para utilizar la lógica &q
 
 ![](assets/2.png)
 
-`3)` Si las reglas se vuelven complejas y necesita volver a crear grupos y realizar pequeños cambios en cada instrucción, utilice la opción Clone para simplificar las cosas.
+`3)` Si las reglas se vuelven complejas y necesita volver a crear grupos y realizar pequeños cambios en cada instrucción, utilice el [!UICONTROL Clonar] para hacer las cosas más sencillas.
 
 ![](assets/3.png)
 
@@ -65,7 +65,7 @@ Si cometes un error, no te preocupes. También puede eliminar filas individuales
 
 ![](assets/5.png)
 
-Para finalizar, guarde y procese las reglas. Si está realizando muchos cambios, asegúrese de Guardar los cambios durante el proceso. [!DNL Marketo Measure] no comenzará a eliminar los puntos de contacto hasta que no haga clic en **Guardar y procesar** botón.
+Para finalizar, [!UICONTROL Guardar y procesar] sus reglas. Si está realizando muchos cambios, asegúrese de Guardar los cambios durante el proceso. [!DNL Marketo Measure] no comenzará a eliminar los puntos de contacto hasta que no haga clic en **Guardar y procesar** botón.
 
 | **Operador** | **Caso de uso** |
 |---|---|

@@ -4,9 +4,9 @@ description: Campos de Touchpoint - [!DNL Marketo Measure] - Documentación del 
 title: Campos de puntos de contacto
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para crear un campo calculado, tenga en cuenta que hay tres acciones diferentes 
 
 Extractos
 
-El operador extrae el valor de un campo desde otra ubicación, como un campo de Campaign, un campo de posible cliente o en un caso de uso más avanzado, [extraer parámetros personalizados de la página de aterrizaje](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+El [!UICONTROL extractos] extrae el valor de un campo desde otra ubicación, como un campo de Campaign, un campo de posible cliente o en un caso de uso más avanzado, [extraer parámetros personalizados de la página de aterrizaje](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **#1 de ejemplo**
 
@@ -123,7 +123,7 @@ A medida que las páginas de aterrizaje se complican y tiene varios parámetros 
 
 **Mapas a**
 
-El operador &quot;asigna a&quot; crea una tabla de valores que deben traducirse o agruparse en otro valor. Normalmente, adopta la forma de un valor clave donde un código representa un nombre descriptivo y debe asignarse a ese nombre descriptivo.
+El [!UICONTROL se asigna a] El operador crea una tabla de valores que deben traducirse o agruparse en otro valor. Normalmente, adopta la forma de un valor clave donde un código representa un nombre descriptivo y debe asignarse a ese nombre descriptivo.
 
 **#1 de ejemplo**
 
@@ -145,18 +145,18 @@ Ahora que hemos aprendido a extraer y asignar campos, combinemos esas acciones p
    * **(** marca el inicio de la extracción
 
       * Observe que, como solo extraemos los 4, solo los primeros dígitos tienen el paréntesis de apertura
-
    * **)** marca el final de la extracción
 
       * Observe que, como solo extraemos los 4, solo los primeros dígitos tienen el paréntesis cerrado
-
    * **\d** nos dice que estamos extrayendo un &quot;dígito&quot;
    * **{2}** es el número de caracteres que extraemos
 
-* Clic [!UICONTROL Guardar]. Debe guardar el nuevo campo para que pueda estar disponible para utilizarlo en la siguiente regla.
+
+
+* Haga clic en [!UICONTROL Guardar]. Debe guardar el nuevo campo para que pueda estar disponible para utilizarlo en la siguiente regla.
 * A continuación, queremos asignar todos los valores posibles para los primeros dígitos a sus nombres descriptivos
 * Cree un campo calculado y etiquete &quot;Region_Name&quot;
-* Defina la regla empezando por la búsqueda del campo extraído. En este caso, Touchpoint.Region
+* Defina la regla empezando por la búsqueda del campo extraído. En este caso, [!DNL Touchpoint.Region]
 * Utilice el operador &quot;[!UICONTROL se asigna a]&quot;, ya que queremos crear una asignación para cada número a su valor
 * Se le mostrará una tabla para enumerar cada asignación. Al final, tendrá un aspecto similar al siguiente:
 * En función de la asignación y la URL anterior, el valor de región para un punto de contacto con esta página de aterrizaje sería EMEA
@@ -171,7 +171,7 @@ Ahora que hemos aprendido a extraer y asignar campos, combinemos esas acciones p
 
 **Concatenaciones**
 
-El operador concatenates combina valores de varios campos en un único campo. Esto resulta útil para crear un valor personalizado que extrae datos de varios campos para realizar
+El [!UICONTROL concatenaciones] El operador combina valores de varios campos en un único campo. Esto resulta útil para crear un valor personalizado que extrae datos de varios campos para realizar
 
 **#1 de ejemplo**
 
@@ -221,7 +221,7 @@ Se necesita trabajo adicional para exponer los nuevos campos en la [!DNL Marketo
 
 **¿Cómo puedo validar que mi expresión de extracción es válida y extraer el valor correcto?**
 
-Hay una herramienta en línea ([https://regex101.com/](https://regex101.com/){target="_blank"}) que puede ejecutar y probar la expresión. La expresión aparecerá en verde si es válida o en rojo si no lo es. Además, el cuadro de explicación en la parte superior derecha es útil y le informa de lo que está extrayendo.
+Hay una herramienta en línea ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) que puede ejecutar y probar la expresión. La expresión aparecerá en verde si es válida o en rojo si no lo es. Además, la variable [!UICONTROL explicación] en la parte superior derecha es útil y le dice lo que está extrayendo.
 
 ![](assets/twelve.png)
 

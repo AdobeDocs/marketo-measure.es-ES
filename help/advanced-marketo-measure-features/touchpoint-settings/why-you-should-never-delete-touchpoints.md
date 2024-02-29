@@ -4,9 +4,9 @@ description: 'Por qué nunca debe eliminar los puntos de contacto: [!DNL Marketo
 title: Por qué nunca se deben eliminar los puntos de contacto
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '225'
 ht-degree: 5%
 
 ---
@@ -21,4 +21,4 @@ Cuando se elimina un punto de contacto, se crea un agujero en los datos de atrib
 
 ![](assets/1.png)
 
-Si se han eliminado puntos de contacto de su SFDC, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para solicitar una reimportación de sus datos.
+Si se han eliminado puntos de contacto de su SFDC, póngase en contacto con [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para solicitar una reimportación de sus datos.

@@ -4,10 +4,10 @@ description: Segmentación personalizada - [!DNL Marketo Measure] - Documentaci�
 title: Segmentación personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Paso 1: Determine qué información desea ver.
 
 Antes de usar esta función, averigüe por qué información de punto de contacto desea filtrar. Recuerde utilizar los valores exactos en su CRM para los tipos de registro. La configuración filtrará los puntos de contacto de la parte superior a la parte inferior del canal de marketing.
 
-Paso 2: Inicio de sesión y localización de la función Segmentos.
+Paso 2: Inicio de sesión y localización de [!UICONTROL Segmentos] función.
 
 * Ir a [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} e iniciar sesión
 * En el [!UICONTROL Mi cuenta] pestaña, seleccione [!UICONTROL Configuración]
@@ -43,7 +43,7 @@ Paso 3: Comprender los componentes.
 
 Paso 4: Adición De Reglas De Filtro.
 
-* En primer lugar, introduzca el nombre de la categoría. Tipo de negocio es un ejemplo. Haga clic en la marca de verificación cuando haya terminado. Debe introducir un nombre de categoría para poder añadir segmentos
+* En primer lugar, introduzca el nombre de la categoría. [!UICONTROL Tipo de negocio] es un ejemplo. Haga clic en la marca de verificación cuando haya terminado. Debe introducir un nombre de categoría para poder añadir segmentos
 * Haga clic en el signo más para agregar un segmento
 * Introduzca un nombre de segmento. Por ejemplo: puede tener un segmento para Nuevos negocios, Socios, Renovación o Ampliación de venta
 
@@ -57,11 +57,11 @@ Paso 4: Adición De Reglas De Filtro.
 >
 >Los campos de fórmula no se pueden utilizar dentro de las reglas y no aparecerán en la lista de selección. Como las fórmulas calculan en segundo plano y no modifican un registro, [!DNL Marketo Measure] no puede detectar si un registro se ajusta o no a una regla.
 
-* La opción Value no es una lista desplegable y su valor debe introducirse manualmente. Asegúrese de comprobar los valores en su organización de Salesforce
+* El [!UICONTROL Valor] La opción no es una lista desplegable y su valor debe introducirse manualmente. Asegúrese de comprobar los valores en su organización de Salesforce
 * Repita este proceso para las reglas del segmento Oportunidades
 * La categoría &quot;Otros&quot; es un segmento predeterminado que capturará cualquier punto de contacto indefinido. Puede cambiar el nombre del segmento predeterminado
 * Haga clic en el icono de la papelera para eliminar una categoría completa o una regla individual dentro de una categoría. También puede hacer clic en el icono de lápiz para editar la categoría o la regla
-* Verá que tiene un botón &quot;Guardar&quot; y un botón &quot;Guardar y procesar&quot;. Utilice el botón Guardar para guardar el trabajo y los cambios con el tiempo. Utilice el botón Guardar y procesar SOLO una vez que se haya asegurado de que:
+* Verá que tiene un &quot;&quot;.[!UICONTROL Guardar]&quot; y un botón &quot;Guardar y procesar&quot;. Utilice el botón Guardar para guardar el trabajo y los cambios con el tiempo. Utilice el botón Guardar y procesar SOLO una vez que se haya asegurado de que:
 
    * La asignación es precisa
    * Ha añadido todos los segmentos que desea rastrear dentro de una categoría
@@ -73,7 +73,7 @@ Si las reglas no están configuradas tanto para posibles clientes/contactos como
 
 Cuando haya terminado, haga clic en [!UICONTROL Guardar] primero, compruebe todo y, a continuación, haga clic en [!UICONTROL Guardar y procesar]. Recuerde que no podrá editar la configuración durante siete días cuando guarde y procese, como [!DNL Marketo Measure] está volviendo a dar formato a los datos durante este tiempo.
 
-Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de Posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

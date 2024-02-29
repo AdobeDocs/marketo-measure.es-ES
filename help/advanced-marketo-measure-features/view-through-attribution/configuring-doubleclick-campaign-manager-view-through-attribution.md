@@ -4,9 +4,9 @@ description: 'Configuración de la vista del administrador de campañas de doble
 title: Configuración de la atribución de visualizaciones del administrador de campañas de DoubleClick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '318'
 ht-degree: 4%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Si está utilizando el [!DNL Marketo Measure] y DoubleClick Campaign Manager, se requiere un [Conexión de API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) para que podamos descargar los detalles de las campañas y los elementos creativos para resolver los anuncios.
+>Si está utilizando el [!DNL Marketo Measure] y [!DNL DoubleClick Campaign Manager] integración, se requiere un [Conexión de API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) para que podamos descargar los detalles de las campañas y los elementos creativos para resolver los anuncios.
 
-Para empezar a obtener una perspectiva más granular desde la vista hasta el seguimiento con el administrador de campañas de doble clic, es necesario configurar el píxel de seguimiento.
+Para empezar a obtener una perspectiva más granular de la vista a través del seguimiento con [!DNL Doubleclick Campaign Manager], el píxel de seguimiento debe configurarse.
 
 Por favor [haga clic aquí](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) para obtener más información sobre [!DNL Marketo Measure] Ver mediante la funcionalidad de atribución.
 
@@ -29,7 +29,7 @@ En el caso de que aproveche una jerarquía principal y secundaria en DCM, necesi
 
 ## Cómo añadir la etiqueta de imagen {#how-to-add-the-image-tag}
 
-Agregará la etiqueta a Doubleclick bajo la configuración Anunciante y querrá crear una Etiqueta de evento de impresión.
+Agregará la etiqueta a [!DNL Doubleclick] en la configuración Anunciante y desea crear una Etiqueta de evento de impresión.
 
 1. Agregue el siguiente código como píxel de imagen 1x1.
 
@@ -37,7 +37,7 @@ Agregará la etiqueta a Doubleclick bajo la configuración Anunciante y querrá 
 
 1. Una vez agregado, confirme que los delimitadores se asignan de la siguiente manera. Debe ser automático una vez que se aplique la etiqueta:
 
-   v = %eadv! Expandir ID del anunciante\
+   v = %eadv! [!DNL Expand] ID del anunciante\
    a = %eaid! Expandir ID de anuncio\
    c = %ecid! Expandir ID de creativo\
    s = %esid! Expandir ID del sitio\

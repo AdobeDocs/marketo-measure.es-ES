@@ -4,7 +4,7 @@ description: Configuración - [!DNL Marketo Measure] - Documentación del produc
 title: Configuración
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Configuración {#settings}
 
-Hay dos bits de funciones independientes vinculados a esta función, ubicados en la pestaña Configuración general de CRM: Varias monedas y Monedas avanzadas.
+Hay dos bits de funciones independientes vinculados a esta función, ubicados en el [!UICONTROL Configuración general] pestaña: Varias divisas y divisas avanzadas.
 
 **Varias monedas**: Habilitado si el cliente utiliza más de una moneda.
 
