@@ -3,16 +3,16 @@ description: '[!DNL Marketo Measure] Requisito definitivo de integridad de datos
 title: '''[!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
 # [!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valida los conjuntos de datos de AEP entrantes para asegurarse de que los datos sean suficientes y coherentes para la atribución. Si no se cumple el requisito de integridad de datos, el conjunto de datos será rechazado por el sistema [!DNL Marketo Measure]. Este documento detalla el requisito de integridad de los datos, proporciona ejemplos de consultas para la inspección de datos y recomienda una solución para los campos obligatorios con un valor nulo.
+[!DNL Marketo Measure] valida los conjuntos de datos de AEP entrantes para garantizar que los datos sean suficientes y coherentes para la atribución. Si no se cumple el requisito de integridad de datos, el conjunto de datos será rechazado por el [!DNL Marketo Measure] sistema. Este documento detalla el requisito de integridad de los datos, proporciona ejemplos de consultas para la inspección de datos y recomienda una solución para los campos obligatorios con un valor nulo.
 
 ## Objeto de entidad {#entity-object}
 
@@ -373,7 +373,7 @@ ht-degree: 99%
       <td>cadena</td>
       <td>ID</td>
       <td>Sí</td>
-      <td>P. ej.: 333, según la tabla de fuente de datos, es el ID de posible cliente o el ID de contacto</td>
+      <td>Por ejemplo: 333, según la tabla de fuente de datos, es el ID del posible cliente o el ID del contacto</td>
     </tr>
     <tr>
       <td></td>
@@ -1105,7 +1105,7 @@ ht-degree: 99%
   </tbody>
 </table>
 
-Utilice el tipo de evento &quot;Momento interesante&quot; para los tipos de evento no admitidos en la tabla anterior. Añada un campo personalizado para indicar el subtipo “Momento interesante”.
+Utilice el tipo de evento &quot;Momento interesante&quot; para los tipos de evento no admitidos en la tabla anterior. Agregue un campo personalizado para indicar el subtipo &quot;Momento interesante&quot;.
 
 ## Ejemplos de consultas para la inspección de datos {#query-examples-for-data-inspection}
 

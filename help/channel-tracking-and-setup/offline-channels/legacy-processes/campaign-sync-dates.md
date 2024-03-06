@@ -4,9 +4,9 @@ description: Fechas de sincronización de Campaign - [!DNL Marketo Measure]
 title: Fechas de sincronización de campañas
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Puede haber ocasiones en que a un equipo de marketing le falte añadir parámetr
 
 **Puntos de contacto de pertenencia a campaña retroactiva**
 
-Si eres un nuevo [!DNL Marketo Measure] cliente de, podría estar interesado en obtener algunos de los datos de marketing que ha estado rastreando mediante campañas de SFDC. Sin embargo, si habilitara los puntos de contacto en sus campañas SFDC en línea, podría tener el problema de la atribución de recuento doble desde [!DNL Marketo Measure] está creando automáticamente puntos de contacto para sus esfuerzos de marketing en línea. Para evitar el recuento doble de datos, puede utilizar Fechas de finalización de punto de contacto de Campaign para establecer un límite en las fechas de punto de contacto creadas por [!DNL Marketo Measure] en la campaña de SFDC. Por ejemplo, si desea añadir conversiones retroactivas para una campaña social que ha estado rastreando en SFDC, pero tiene entendido que ha añadido la variable [!DNL Marketo Measure] JavaScript (que crea puntos de contacto en línea) el 1 de julio. A continuación, puede editar la campaña de Social SFDC para que contenga una fecha de finalización de punto de contacto igual al 1 de julio y activar los puntos de contacto del comprador para esa campaña.
+Si es nuevo [!DNL Marketo Measure] cliente de, podría estar interesado en obtener algunos de los datos de marketing que ha estado rastreando mediante campañas de SFDC. Sin embargo, si habilitara los puntos de contacto en sus campañas SFDC en línea, podría tener el problema de la atribución de recuento doble desde [!DNL Marketo Measure] está creando automáticamente puntos de contacto para sus esfuerzos de marketing en línea. Para evitar el recuento doble de datos, puede utilizar Fechas de finalización de punto de contacto de Campaign para establecer un límite en las fechas de punto de contacto creadas por [!DNL Marketo Measure] en la campaña de SFDC. Por ejemplo, si desea añadir conversiones retroactivas para una campaña social que ha estado rastreando en SFDC, pero tiene entendido que ha añadido la variable [!DNL Marketo Measure] JavaScript (que crea puntos de contacto en línea) el 1 de julio. A continuación, puede editar la campaña de Social SFDC para que contenga una fecha de finalización de punto de contacto igual al 1 de julio y activar los puntos de contacto del comprador para esa campaña.
 
 Puede haber muchos otros casos de uso para las fechas de finalización de Touchpoint. Si necesita ayuda para resolver una situación específica, no dude en ponerse en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 

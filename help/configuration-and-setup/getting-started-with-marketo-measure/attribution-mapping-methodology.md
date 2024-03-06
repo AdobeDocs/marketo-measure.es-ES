@@ -4,9 +4,9 @@ description: 'Metodología de asignación de atribución: [!DNL Marketo Measure]
 title: Metodología de asignación de atribuciones
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Inconvenientes: Sin embargo, si no hay ningún proceso de función de contacto e
 
 ## Asignación de funciones de contacto principal de oportunidad {#opportunity-primary-contact-role-mapping}
 
-Más allá de simplemente mirar los roles de contacto en la oportunidad, [!DNL Marketo Measure] puede centrarse aún más en mirar únicamente a los contactos principales de una oportunidad. Con esta configuración en mente, [!DNL Marketo Measure] solo capturará el punto de contacto de marketing asociado a los contactos principales de una oportunidad e insertará esa información en la historia de atribución de esa oportunidad específica. Consulte la siguiente imagen.
+Más allá de simplemente mirar los roles de contacto en la oportunidad, [!DNL Marketo Measure] puede centrarse aún más en mirar únicamente a los contactos principales de una oportunidad. Con esta configuración en mente, [!DNL Marketo Measure] solo obtiene el punto de contacto de marketing asociado a los contactos principales de una oportunidad e inserta esa información en la historia de atribución de esa oportunidad específica. Consulte la siguiente imagen.
 
 ![](assets/3.png)
 

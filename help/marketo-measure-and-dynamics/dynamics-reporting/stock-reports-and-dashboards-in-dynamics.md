@@ -4,9 +4,9 @@ description: Informes y paneles de Stock en Dynamics - [!DNL Marketo Measure]
 title: Informes y paneles de Stock en Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '911'
 ht-degree: 5%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 5%
 >
 >Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-El [!DNL Marketo Measure] La solución administrada incluye una serie de paneles e informes estándar, diseñados para cubrir sus necesidades básicas cuando vea [!DNL Marketo Measure] datos en Dynamics. A continuación se muestra la lista completa y algunos casos de uso comunes.
+El [!DNL Marketo Measure] La solución administrada incluye varios paneles e informes de stock, diseñados para cubrir sus necesidades básicas cuando vea [!DNL Marketo Measure] datos en Dynamics. A continuación se muestra la lista completa y algunos casos de uso comunes.
 
-## Paneles (9 en total) {#dashboards-total}
+## Paneles (nueve en total) {#dashboards-total}
 
 <table> 
  <colgroup> 

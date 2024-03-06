@@ -3,9 +3,9 @@ description: Explicación de las posiciones de los puntos de contacto y la gener
 title: Explicación de las posiciones y la generación de puntos de contacto entre BT y  [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '764'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 **Generación de posiciones de Touchpoint y Flujo a través del Recorrido de Compradores**
 
-Entender las posiciones de Touchpoint del comprador y cómo se activan es crucial para informar correctamente sobre con [!DNL Marketo Measure] datos. Usted querrá tener una comprensión clara de lo que sus clientes potenciales hicieron a medida que se movieron a través del recorrido del comprador y, a su vez, cómo se verá en los datos de Touchpoint. Para obtener más información contextual sobre este tema, se recomienda revisar la [[!UICONTROL Generación y asignación de puntos de contacto]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) artículo.
+Entender las posiciones de Touchpoint del comprador y cómo se activan es crucial para informar correctamente sobre con [!DNL Marketo Measure] datos. Desea tener una comprensión clara de lo que hicieron sus clientes potenciales a medida que se movían a través del recorrido del comprador y, a su vez, cómo se verá en los datos de Touchpoint. Para obtener más información contextual sobre este tema, se recomienda revisar la [[!UICONTROL Generación y asignación de puntos de contacto]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) artículo.
 
 [!DNL Marketo Measure] tiene una variedad de posiciones de Touchpoint que se activan por varios pasos en el recorrido del comprador. Al informar sobre [!DNL Marketo Measure] Existen dos conjuntos de datos de Touchpoint: puntos de contacto del comprador (BT) y puntos de contacto de atribución del comprador (BAT). Puede observar que estos conjuntos de datos tienen posiciones ligeramente diferentes en relación con diferentes objetos. Para obtener más información contextual sobre este tema, se recomienda revisar la [Diferencia entre los puntos de contacto del comprador (BT) y los puntos de contacto de atribución del comprador (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) artículo.
 
@@ -25,7 +25,7 @@ Entender las posiciones de Touchpoint del comprador y cómo se activan es crucia
 * [!DNL Marketo Measure] 101: Posible cliente/Contacto por ID
 * [!DNL Marketo Measure] 101: Posible cliente/Contacto Por Canal
 
-A continuación se describen las posiciones de Touchpoint del comprador, que describen dónde se encuentra una persona en su recorrido y qué acciones ha llevado a cabo para conseguir esa posición.
+A continuación se describen las posiciones de los puntos de contacto del comprador, que describen dónde se encuentra una persona en su recorrido y qué acciones ha realizado para conseguir esa posición.
 
 <table> 
  <tbody>
@@ -42,7 +42,7 @@ A continuación se describen las posiciones de Touchpoint del comprador, que des
   <tr>
    <td>Creación de posibles clientes (LC)</td> 
    <td>Relleno de formulario <strong>O</strong> Inclusión de campañas/programas</td> 
-   <td>El primer relleno de formulario que tiene una persona (normalmente un envío de formulario, pero también podría ser una inclusión de campaña/programa)</td> 
+   <td>El primer formulario que rellena una persona tiene (normalmente un envío de formulario, pero también podría ser una inclusión de campaña/programa)</td> 
   </tr>
   <tr>
    <td>Publicar LC</td> 
@@ -52,7 +52,7 @@ A continuación se describen las posiciones de Touchpoint del comprador, que des
  </tbody>
 </table>
 
-**Puntos de contacto de atribución del comprador (BATS)**: estos son los puntos de contacto asociados a una oportunidad y su recorrido. Estos puntos de contacto se conectarán a los ingresos a medida que se conecten a la oportunidad y a sus contactos. Los siguientes informes predeterminados están basados en los datos de puntos de contacto de Atribución del comprador.
+**Puntos de contacto de atribución del comprador (BATS)**: estos son los puntos de contacto asociados a una oportunidad y su recorrido. Estos puntos de contacto están conectados a los ingresos a medida que están conectados a la oportunidad y a sus contactos. Los siguientes informes predeterminados están basados en los datos de puntos de contacto de Atribución del comprador.
 
 * [!DNL Marketo Measure] 101: Oportunidades por identificador
 * [!DNL Marketo Measure] 101: Oportunidades por canal de ID
@@ -72,7 +72,7 @@ A continuación se describen las posiciones de Touchpoint del comprador, que des
   <tr>
    <td>Creación de posibles clientes (LC)</td> 
    <td>Relleno de formulario <strong>O</strong> Inclusión de campañas/programas</td> 
-   <td>El primer formulario que rellena un contacto tiene (normalmente un envío de formulario, pero también puede ser una inclusión de campaña/programa)</td> 
+   <td>El primer formulario que rellena un contacto tenía (normalmente un envío de formulario, pero también podría ser una inclusión de campaña/programa)</td> 
   </tr>
   <tr>
    <td>Creación de oportunidad</td> 
@@ -92,7 +92,7 @@ A continuación se describen las posiciones de Touchpoint del comprador, que des
  </tbody>
 </table>
 
-[!DNL Marketo Measure] tiene estos dos conjuntos de datos de Touchpoint para crear una comprensión clara del recorrido de una persona individual, así como las oportunidades. Estos dos conjuntos de datos de Touchpoint le proporcionan un mapa claro de lo que ha sucedido desde la parte superior del embudo hasta la parte inferior del mismo.
+[!DNL Marketo Measure] tiene estos dos conjuntos de datos de Touchpoint para crear una comprensión clara del recorrido y las oportunidades de una persona individual. Estos dos conjuntos de datos de Touchpoint le proporcionan un mapa claro de lo que ha sucedido desde la parte superior del embudo hasta la parte inferior del mismo.
 
 El siguiente ejemplo muestra el flujo de datos desde los puntos de contacto del comprador (BT) hasta los puntos de contacto de atribución del comprador (BAT). En este ejemplo, la persona A y la persona B forman parte de la misma oportunidad que tiene una fecha de creación del 7/3/2020 y una fecha de cierre del 6/5/2020.
 

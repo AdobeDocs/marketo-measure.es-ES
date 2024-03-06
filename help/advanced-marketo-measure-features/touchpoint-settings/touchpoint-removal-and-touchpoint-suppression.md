@@ -4,9 +4,9 @@ description: Eliminación de Touchpoint y supresión de Touchpoint - [!DNL Marke
 title: Eliminación de puntos de contacto y supresión de puntos de contacto
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,8 @@ Si cometes un error, no te preocupes. También puede eliminar filas individuales
 
 ![](assets/5.png)
 
-Para finalizar, [!UICONTROL Guardar y procesar] sus reglas. Si está realizando muchos cambios, asegúrese de Guardar los cambios durante el proceso. [!DNL Marketo Measure] no comenzará a eliminar los puntos de contacto hasta que no haga clic en **Guardar y procesar** botón.
+Para finalizar, [!UICONTROL Guardar y procesar] sus reglas. Si está realizando muchos cambios, asegúrese de Guardar los cambios durante el proceso. [!DNL Marketo Measure] no comenzará a eliminar los puntos de contacto hasta que haga clic en
+[!UICONTROL **Guardar y procesar**].
 
 | **Operador** | **Caso de uso** |
 |---|---|

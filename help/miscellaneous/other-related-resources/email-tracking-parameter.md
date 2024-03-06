@@ -4,9 +4,9 @@ description: Parámetro de seguimiento de correo electrónico - [!DNL Marketo Me
 title: Parámetro de seguimiento de correo electrónico
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '404'
 ht-degree: 4%
 
 ---

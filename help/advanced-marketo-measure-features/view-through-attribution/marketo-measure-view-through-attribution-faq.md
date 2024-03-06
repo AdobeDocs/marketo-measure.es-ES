@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Preguntas frecuentes sobre la atribución d
 title: '"[!DNL Marketo Measure] Preguntas frecuentes sobre "Ver mediante atribución"'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 6%
@@ -19,11 +19,11 @@ El [!DNL Marketo Measure] [!UICONTROL Ver mediante atribución] Esta función in
 
 ## ¿Por qué? [!UICONTROL Ver mediante atribución] ¿Importante? {#why-is-view-through-attribution-important}
 
-Históricamente, los especialistas en marketing han tenido dificultades para tener en cuenta la resegmentación o la publicidad de impresión en el análisis de atribución. Los clientes potenciales pueden, una y otra vez, estar expuestos a anuncios de retargeting, pero es poco probable que hagan clic en uno de estos anuncios y completen un formulario dentro de la misma sesión. Nuestra solución de Atribución de vistas ahora tiene la capacidad de rastrear si alguien estuvo expuesto o no a un anuncio de impresión. Este punto de contacto se adjuntará al registro individual y se aplicará hasta que el cliente potencial se convierta en cliente. Con esta información, el experto en marketing ahora obtendrá un mejor conocimiento del rendimiento de su publicidad de redireccionamiento.
+Históricamente, los especialistas en marketing han tenido dificultades para tener en cuenta la resegmentación o la publicidad de impresión en el análisis de atribución. Es posible que, una y otra vez, los clientes potenciales estén expuestos a anuncios de retargeting, pero es poco probable que hagan clic en uno de estos anuncios y rellenen un formulario dentro de la misma sesión. Nuestra solución de Atribución de vistas ahora tiene la capacidad de rastrear si alguien estuvo expuesto o no a un anuncio de impresión. Este punto de contacto se adjuntará al registro individual y se aplicará hasta que el cliente potencial se convierta en cliente. Con esta información, el experto en marketing ahora obtendrá un mejor conocimiento del rendimiento de su publicidad de redireccionamiento.
 
 ## ¿Qué se necesita para configurar esto? {#what-is-involved-in-setting-this-up}
 
-Para que [!DNL Marketo Measure] para empezar a medir las impresiones de publicidad, existe una etiqueta de impresión que debe colocarse en el administrador de campañas de doble clic. Una vez implementada la etiqueta, las impresiones se almacenan en nuestros registros y nos encargamos del resto. Póngase en contacto con su administrador de éxito si está interesado en medir la vista mediante atribución.
+Para que [!DNL Marketo Measure] para empezar a medir las impresiones de publicidad, existe una etiqueta de impresión que debe colocarse en el administrador de campañas de doble clic. Una vez implementada la etiqueta, las impresiones se almacenan en nuestros registros y nos encargamos del resto. Póngase en contacto con el administrador de éxito si está interesado en medir la vista mediante atribución.
 
 ## ¿Qué plataformas de publicidad son compatibles? {#which-ad-platforms-are-supported}
 

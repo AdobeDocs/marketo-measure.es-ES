@@ -3,10 +3,10 @@ description: 'Prácticas recomendadas para la asignación de etapas: [!DNL Marke
 title: Prácticas recomendadas para la asignación de fases
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 9%
+source-wordcount: '479'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ Tanto si está evaluando la asignación de etapas por primera vez como si está 
    * Un campo booleano es la recomendación de prácticas recomendadas
 * Tenga en cuenta que la sección de la fase Posible cliente o Contacto se divide en Perdido, Abierto y Convertido; compruebe que las fases se encuentran en la sección de fase adecuada
    * Tener una etapa en la sección de etapa incorrecta puede resultar en una etapa altamente incorrecta [!DNL Marketo Measure] datos
-   * Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de Posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Tenga en cuenta que la sección Fase de oportunidad se divide en Perdidas, Abiertas y Ganadas; valide que las fases se encuentren en la sección de fase adecuada

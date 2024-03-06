@@ -3,9 +3,9 @@ description: 'Prácticas recomendadas para canales sin conexión: [!DNL Marketo 
 title: Prácticas recomendadas para canales sin conexión
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1056'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Tanto si asigna los canales sin conexión por primera vez como si solo los revis
 
 Una vez configurada inicialmente, la configuración del canal sin conexión sigue creando puntos de contacto sin conexión en consecuencia. Como práctica recomendada, le recomendamos que revise la configuración sin conexión al menos dos veces al año. Esto garantiza unos datos de punto de contacto del comprador precisos y precisos.
 
-Además, si realiza cambios en la administración o los procesos de Campaign, debe asegurarse de actualizar el [!DNL Marketo Measure] Asignación de canales sin conexión o proceso de sincronización.
+Además, si realiza cambios en la administración o los procesos de Campaign, debe asegurarse de actualizar la [!DNL Marketo Measure] Asignación de canales sin conexión o proceso de sincronización.
 
 Cambios que podrían poner a su equipo en déclencheur para realizar actualizaciones en la configuración del canal sin conexión en [!DNL Marketo Measure] puede incluir:
 

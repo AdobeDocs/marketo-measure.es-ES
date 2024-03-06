@@ -4,9 +4,9 @@ description: Agregando [!DNL Marketo Measure] Script a [!DNL Uberflip] FORMS - [
 title: Agregando [!DNL Marketo Measure] Script a [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Si está utilizando [!DNL Uberflip] para administrar el contenido, es importante
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   agregará este preámbulo a ambos [!DNL Hubs.onLoad] y el [!DNL Hubs.onPageChange] AJAX Los enlaces de eventos de Javascript se encuentran a continuación. (Nota: Es posible que también tenga otros códigos en estos vínculos de eventos. Solo asegúrese de incluir el preámbulo también).
+   Añada este preámbulo tanto a la variable [!DNL Hubs.onLoad] y el [!DNL Hubs.onPageChange] AJAX A continuación, se muestran los enlaces de eventos JavaScript para la. (Nota: Es posible que también tenga otro código en estos vínculos de eventos. Asegúrese de incluir también el preámbulo).
 
    `Hubs.onLoad = function () {`
 
@@ -37,7 +37,7 @@ Si está utilizando [!DNL Uberflip] para administrar el contenido, es importante
 
    `}`
 
-1. Cree y defina una función que inserte datos en Bizible tras el envío de un formulario CTA. Esto va en el [!UICONTROL Custom Code>Javascript] sección. (Nota: Esta función solo requiere el parámetro ctaData que proporciona Uberflip, pero puede incluir los demás parámetros ctaId y ctaName en caso de que el usuario desee personalizar su código para pasar estos datos también).
+1. Cree y defina una función que dirija los datos a Bizible tras un envío de CTA de formulario. Esto va en el [!UICONTROL Custom Code>JavaScript] sección. (Nota: Esta función solo requiere el parámetro ctaData que proporciona Uberflip, pero puede incluir los demás parámetros ctaId y ctaName en caso de que el usuario desee personalizar su código para pasar estos datos también).
 
    `function bizibleFormCode(ctaId, ctaData, ctaName) {`
    `var email = ctaData["email"];`
@@ -48,7 +48,7 @@ Si está utilizando [!DNL Uberflip] para administrar el contenido, es importante
 
    `}`
 
-1. Cuando se envíe un formulario de CTA, asegúrese de que [!DNL Marketo Measure] se ejecuta según se indica a continuación. Esto se hace dentro de la variable [!UICONTROL Custom Code>JS] sección. (Nota: es posible que tenga otro código dentro del vínculo de evento javascript Hubs.onCtaFormSubmitSuccess; asegúrese de incluir también esta llamada de función).
+1. Cuando se envíe un formulario de CTA, asegúrese de que [!DNL Marketo Measure] se ejecuta según se indica a continuación. Esto se hace dentro de la variable [!UICONTROL Custom Code>JS] sección. (Nota: Es posible que tenga otro código dentro del vínculo de evento JavaScript Hubs.onCtaFormSubmitSuccess; asegúrese de incluir también esta llamada de función).
 
    `Hubs.onCtaFormSubmitSuccess = function (ctaId, ctaData, ctaName) {`
    `bizibleFormCode(ctaId, ctaData, ctaName);`\

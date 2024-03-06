@@ -3,9 +3,9 @@ description: 'Prácticas recomendadas para la configuración de Touchpoint: [!DN
 title: Prácticas recomendadas para la configuración de puntos de contacto
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '658'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ En su [!DNL Marketo Measure] aplicación, la [!UICONTROL Configuración de Touch
 
 ## Práctica recomendada {#best-practice}
 
-Tanto si establece las reglas de Configuración de puntos de contacto por primera vez como si solo las revisa para comprobar la precisión, tenga en cuenta las siguientes prácticas recomendadas.
+Tanto si establece reglas de Configuración de punto de contacto por primera vez como si solo las revisa para comprobar la precisión, tenga en cuenta las siguientes prácticas recomendadas.
 
 * Establezca la lista de datos que desea suprimir o eliminar antes de crear las reglas
 * Identifique exactamente qué campos denotarán claramente la regla o reglas que está configurando

@@ -3,9 +3,9 @@ description: Acceso a la Data Warehouse - Uso compartido directo - Documentació
 title: 'Acceso a Data Warehouse: Uso compartido directo'
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 3%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 ## Requisitos {#requirements}
 
-Para que [!DNL Marketo Measure] para configurar un recurso compartido directo en el data warehouse, debe cumplir los siguientes requisitos.
+Para [!DNL Marketo Measure] para configurar un recurso compartido directo en el data warehouse, debe cumplir los siguientes requisitos.
 
 * Tiene su propia instancia de Snowflake.
-* La instancia de Snowflake se encuentra en la región de Snowflake de Azure East US 2.
+* La instancia de Snowflake se encuentra en la región Snowflake de Azure East US 2.
 * Usted proporciona [!DNL Marketo Measure] con su id de cuenta de Snowflake.
 
 ## Limitaciones {#limitations}
 
-[!DNL Marketo Measure] solo podrá configurar acciones directas de Snowflake con cuentas ubicadas en Azure East US 2 debido a las limitaciones actuales de Snowflake Direct Share. Si necesita que los datos estén disponibles en otras regiones de Snowflake, le recomendamos que realice una copia de los datos en una cuenta de Snowflake ubicada en Azure East US 2 y que aproveche la [Replicación de base de datos de Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} para copiar los datos en la región o cuenta de Snowflake que elija.
+[!DNL Marketo Measure] solo podrá configurar acciones directas de Snowflake con cuentas ubicadas en Azure East US 2 debido a las limitaciones actuales de Snowflake Direct Share. Si necesita que los datos estén disponibles en otras regiones de Snowflake, le recomendamos que realice una copia de los datos en una cuenta de Snowflake ubicada en Azure East US 2 y que use [Replicación de base de datos de Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} para copiar los datos en la región o cuenta de Snowflake que elija.
 
 ## Introducir ID de cuenta de Snowflake {#enter-snowflake-account-id}
 
@@ -44,7 +44,7 @@ Una vez creado el recurso compartido para el ID de cuenta proporcionado, debe co
 USE ROLE ACCOUNTADMIN
 ```
 
-* Ver los recursos compartidos disponibles (se mostrará el nombre del recurso compartido concedido)
+* Ver los recursos compartidos disponibles (muestra el nombre del recurso compartido concedido)
 
 ```
 SHOW SHARES

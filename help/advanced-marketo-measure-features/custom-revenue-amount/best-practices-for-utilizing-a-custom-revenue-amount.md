@@ -3,9 +3,9 @@ description: Prácticas recomendadas para utilizar una cantidad de ingresos pers
 title: Prácticas recomendadas para utilizar un importe de ingresos personalizado
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '431'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ Cosas que hay que tener en cuenta:
 * Seleccione el campo de ingresos que sea preciso y se utilice para todas las oportunidades
    * ARR o valor total del contrato recomendado
 * No utilice un campo de fórmula
-* Si utiliza un importe de ingresos personalizado para las conversiones de moneda, la variable [!UICONTROL Varias monedas de Marketo Measure] en su lugar, es el método preferido.
+* Si utiliza un importe de ingresos personalizado para las conversiones de divisa, la variable [!UICONTROL Varias monedas de Marketo Measure] en su lugar, es el método preferido.
    * El [!DNL Marketo Measure] La funcionalidad Varias monedas hace referencia a las tasas de conversión establecidas en [!DNL Salesforce] para garantizar mejor la alineación entre las conversiones de moneda. Esto le permite seguir utilizando el &quot;Importe&quot; estándar (valor predeterminado de SFDC) o cualquier otro campo de importe personalizado relacionado con la variable [!DNL Salesforce] tasas de conversión.
 * Si actualiza el campo Cantidad, debe hacer lo siguiente [!DNL Marketo Measure] como referencia, utilice el cargador de datos para actualizar las oportunidades anteriores y garantizar que los datos de ingresos sean coherentes y que el campo adecuado se rellene a través del flujo de trabajo
 

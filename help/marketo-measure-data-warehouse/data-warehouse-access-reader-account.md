@@ -3,9 +3,9 @@ description: Acceso a la Data Warehouse - Cuenta de Reader - Documentación del 
 title: 'Acceso a Data Warehouse: Cuenta de Reader'
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ## Vínculo de acceso de Snowflake {#snowflake-access-link}
 
-Para acceder a Snowflake Data Warehouse, deberá ir a la URL específica de su cuenta de Snowflake. Puede encontrar este vínculo de acceso iniciando sesión en [!DNL Marketo Measure] y siga los pasos a continuación para navegar a la página de información de Data Warehouse.
+Para acceder a Snowflake Data Warehouse, debe ir a la dirección URL específica de la cuenta de Snowflake. Puede encontrar este vínculo de acceso iniciando sesión en [!DNL Marketo Measure] y siga los pasos a continuación para navegar a la página de información de Data Warehouse.
 
 1. Entrada [!DNL Marketo Measure], en la parte superior de la página, haga clic en **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]**.
 
@@ -24,7 +24,7 @@ Para acceder a Snowflake Data Warehouse, deberá ir a la URL específica de su c
 
    ![](assets/data-warehouse-access-reader-account-2.png)
 
-1. En esta página encontrará el enlace a su almacén de datos de Snowflake y su nombre de usuario.
+1. Esta página incluye el enlace a su almacén de datos de Snowflake y su nombre de usuario.
 
    ![](assets/data-warehouse-access-reader-account-3.png)
 
@@ -32,7 +32,7 @@ Para acceder a Snowflake Data Warehouse, deberá ir a la URL específica de su c
    >
    >Se trata de una cuenta de solo lectura disponible para su organización, no solo para un usuario individual. Cualquier usuario de su organización que tenga acceso a [!DNL Marketo Measure] Puede utilizar esta cuenta para iniciar sesión en la cuenta de lector de Datas Warehouse de Snowflake.
 
-1. Haga clic en el enlace proporcionado en la URL del Snowflake, esto le llevará a la página de inicio de sesión del Snowflake donde introducirá su nombre de usuario y contraseña. _Si no tiene su contraseña, consulte los pasos a continuación para restablecerla_.
+1. Haga clic en el enlace proporcionado en la URL del Snowflake, que le lleva a la página de inicio de sesión del Snowflake donde introduce su nombre de usuario y contraseña. _Si no tiene su contraseña, consulte los pasos a continuación para restablecerla_.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
@@ -46,7 +46,7 @@ Para acceder a Snowflake Data Warehouse, deberá ir a la URL específica de su c
 
 ## Restablezca su contraseña {#reset-your-password}
 
-[!DNL Marketo Measure] no tiene acceso a la contraseña de inicio de sesión de Snowflake. Si necesita restablecer la contraseña, haga clic en el botón [!UICONTROL Restablecer contraseña] en la página de información de la Data Warehouse y siga las instrucciones. Se mostrará inmediatamente una contraseña temporal en la interfaz de usuario. Se le pedirá que cree su propia contraseña en el próximo inicio de sesión de Data Warehouse.
+[!DNL Marketo Measure] no tiene acceso a la contraseña de inicio de sesión de Snowflake. Si debe restablecer la contraseña, haga clic en el botón [!UICONTROL Restablecer contraseña] en la página de información de la Data Warehouse y siga las instrucciones. En la interfaz de usuario se muestra inmediatamente una contraseña temporal. Se le pedirá que cree su propia contraseña en el próximo inicio de sesión de Data Warehouse.
 
 >[!NOTE]
 >
@@ -59,21 +59,21 @@ Para acceder a Snowflake Data Warehouse, deberá ir a la URL específica de su c
 
 ## Conexión al Snowflake mediante herramientas de terceros {#connecting-to-snowflake-via-third-party-tools}
 
-deberá introducir algunos datos para conectar el data warehouse de Snowflake con una herramienta de terceros.
+Debe introducir algunos datos para conectar el almacén de datos de Snowflake a una herramienta de terceros.
 
 >[!NOTE]
 >
->Cada herramienta tiene diferentes requisitos de conexión; se recomienda que consulte la documentación de la herramienta específica que está intentando conectar.
+>Cada herramienta tiene diferentes requisitos de conexión; se recomienda consultar la documentación de la herramienta específica que está intentando conectar.
 
 * **URI** (siempre obligatorio)
-   * Es el nombre de dominio de la cuenta de Snowflake.  Está contenido en una parte del vínculo de inicio de sesión del Snowflake.
+   * Es el nombre de dominio de la cuenta de Snowflake. Está contenido en una parte del vínculo de inicio de sesión del Snowflake.
 * **Nombre de usuario** (siempre obligatorio)
    * El nombre de usuario aparece en la página de información de Data Warehouse de [!DNL Marketo Measure].
 * **Contraseña** (siempre obligatorio)
-   * Esta es la contraseña que configuró la primera vez que inició sesión en su cuenta de Snowflake.  Para restablecer la contraseña, consulte los pasos descritos anteriormente.
+   * Esta es la contraseña que configuró la primera vez que inició sesión en su cuenta de Snowflake. Para restablecer la contraseña, consulte los pasos descritos anteriormente.
 * **Nombre base datos** (no siempre obligatorio)
    * La base de datos es la que almacena los datos en el Snowflake. Es el recurso de almacenamiento. El nombre de la base de datos aparece en la página de información de Data Warehouse de [!DNL Marketo Measure].
 * **Nombre del almacén** (no siempre obligatorio)
-   * El almacén es lo que ejecuta consultas en Snowflake. Es el recurso de cálculo.  El nombre del almacén aparece en la página de información de Data Warehouse de [!DNL Marketo Measure].
+   * El almacén es lo que ejecuta consultas en Snowflake. Es el recurso calculado. El nombre del almacén aparece en la página de información de Data Warehouse de [!DNL Marketo Measure].
 
   ![](assets/data-warehouse-access-reader-account-9.png)

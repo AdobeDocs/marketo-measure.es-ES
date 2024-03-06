@@ -4,9 +4,9 @@ description: 'Configuración de la vista del administrador de campañas de doble
 title: Configuración de la atribución de visualizaciones del administrador de campañas de DoubleClick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '318'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Si está utilizando el [!DNL Marketo Measure] y [!DNL DoubleClick Campaign Manager] integración, se requiere un [Conexión de API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) para que podamos descargar los detalles de las campañas y los elementos creativos para resolver los anuncios.
+>Si utiliza el complemento [!DNL Marketo Measure] y [!DNL DoubleClick Campaign Manager] integración, se requiere un [Conexión de API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) para que podamos descargar los detalles de las campañas y los elementos creativos para resolver los anuncios.
 
 Para empezar a obtener una perspectiva más granular de la vista a través del seguimiento con [!DNL Doubleclick Campaign Manager], el píxel de seguimiento debe configurarse.
 

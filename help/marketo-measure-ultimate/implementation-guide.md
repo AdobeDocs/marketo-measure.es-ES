@@ -2,10 +2,10 @@
 description: '[!DNL Marketo Measure] Guía de implementación definitiva: [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Guía de implementación de Ultimate'
 feature: Integration, Tracking, Attribution
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 96%
+source-wordcount: '997'
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ Este artículo sirve como guía de implementación para Marketo Measure Ultimate
 
 ## Diferencias principales del uso de Ultimate con respecto a los niveles estándar {#main-differences-when-using-ultimate-over-standard-tiers}
 
-Importación de datos B2B a través de AEP: se espera que los especialistas en marketing traigan sus datos B2B (por ejemplo: cuenta, oportunidad, contacto, posible cliente, campaña, miembro de la campaña, actividad) a través de AEP. Realiza la ingesta desde casi cualquier fuente de datos y desde varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
+Importar datos B2B a través de AEP: Se espera que los especialistas en marketing traigan sus datos B2B (por ejemplo, cuenta, oportunidad, contacto, posible cliente, campaña, miembro de la campaña, actividad) a través de AEP. Realice la ingesta desde casi cualquier fuente de datos y varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
 
 * Se utiliza con casi cualquier CRM, no solo con Salesforce y Dynamics.
 * Conecte varias instancias de CRM y/o instancias de MAP a una instancia de Marketo Measure.
@@ -24,11 +24,11 @@ Importación de datos B2B a través de AEP: se espera que los especialistas en m
 Las conexiones directas de CRM y Marketo Engage ya no están disponibles en Ultimate. 
 
 * Ultimate no devuelve los datos al CRM. Los clientes pueden consumir datos del almacén de datos.
-* Los especialistas en marketing seguirán trayendo datos de Ad Platform a través de conexiones directas y rastreando actividades web a través del JavaScript de Marketo Measure.
+* Los especialistas en marketing siguen trayendo datos de Ad Platform a través de conexiones directas y rastreando actividades web a través de Marketo Measure javascript.
 
-A los usuarios de Ultimate se les suministrará AEP. Si ya tienen AEP, no volveremos a suministrar una nueva instancia.
+Los usuarios finales se aprovisionan en AEP. Si ya tienen AEP, no reaprovisionaremos una nueva instancia.
 
-* La versión de AEP suministrada incluirá todos los conectores de origen, el modelado de datos de esquema, los conjuntos de datos, el servicio de consultas ad hoc y un destino solo para Marketo Measure.
+* La versión de AEP aprovisionada incluye todos los conectores de origen, el modelado de datos de esquema, los conjuntos de datos, el servicio de consultas ad hoc y un destino solo para Marketo Measure.
 
 Obtenga más información sobre [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
@@ -51,7 +51,7 @@ Obtenga más información sobre [Marketo Measure Ultimate](/help/marketo-measure
 
 ## Creación de un esquema {#creating-a-schema}
 
-Recomendamos utilizar una utilidad de generación automática para crear 10 esquemas B2B estándar.
+Se recomienda utilizar una utilidad de generación automática para crear diez esquemas B2B estándar.
 
 * Los pasos para descargar y configurar la utilidad [los puede encontrar aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
@@ -61,7 +61,7 @@ Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígen
 
 ![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-* Seleccione una cuenta y todas las plantillas B2B para crear 10 esquemas B2B estándar.
+* Seleccione una cuenta y todas las plantillas B2B para crear diez esquemas B2B estándar.
 
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
@@ -69,7 +69,7 @@ Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígen
 
 >[!IMPORTANT]
 >
->Al agregar un nuevo conjunto de datos, se recomienda crear un nuevo flujo en lugar de utilizar uno existente.
+>Al agregar un nuevo conjunto de datos, se recomienda crear un flujo en lugar de utilizar uno existente.
 
 [Información general de flujos de datos](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=es){target="_blank"}
 
@@ -78,12 +78,12 @@ Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígen
 1. Seleccione un origen.
 1. Seleccione una cuenta existente o cree una cuenta.
 1. Seleccione un tipo de datos de la lista de tipos disponibles para importarlo desde el origen.
-1. Seleccione el conjunto de datos existente o cree uno nuevo.
+1. Seleccione un conjunto de datos existente o cree uno.
 1. Asigne los campos del origen al esquema.
 
    >[!NOTE]
    >
-   >* Si asigna un tipo de esquema a otro idéntico, se realizará automáticamente.
+   >* Si asigna un tipo de esquema a otro idéntico, se realiza automáticamente.
    >* También puede importar la asignación desde otro flujo del sistema.
    >* Puede asignar un campo de origen a varios campos de destino, pero no puede hacer lo contrario.
    >* Puede crear campos calculados ([Funciones de asignación de preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=es){target="_blank"}).
@@ -91,7 +91,7 @@ Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígen
    >[!CAUTION]
    >
    >* Puede editar un flujo de datos, pero los datos no se rellenan cuando se cambia una asignación.
-   >* Si un campo obligatorio es NULL, se rechazará todo el flujo.
+   >* Si un campo obligatorio es NULL, se rechaza todo el flujo.
 
    >[!NOTE]
    >
@@ -99,7 +99,7 @@ Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígen
 
 1. Establezca una cadencia de carga de datos.
 1. Revise y complete.
-1. Consulte la página “Estado de la cuenta” en la configuración de la IU de Measure para ver el estado del flujo de datos.
+1. Consulte la página &quot;Estado de la cuenta&quot; en la configuración de la IU de Measure para ver el estado del flujo de datos.
 
 **Monitorización:**
 
@@ -131,12 +131,12 @@ Antes de empezar, vaya a la sección &quot;Experience Platform > Asignación de 
 
 >[!NOTE]
 >
->* Los datos de una entidad determinada (por ejemplo, cuenta) de una fuente de datos determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detendrán el flujo de datos en el tiempo de ejecución.
->* Elimine todo el destino en AEP para eliminar datos en Measure. La deshabilitación solo detendrá las nuevas exportaciones de datos y conservará los datos antiguos.
+>* Los datos de una entidad determinada (por ejemplo, Account) de una fuente determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detienen el flujo de datos en tiempo de ejecución.
+>* Elimine todo el destino en AEP para eliminar datos en Measure. Al deshabilitar, se detienen las nuevas exportaciones de datos y se conservan los datos antiguos.
 >* La configuración de la medida será básicamente la misma, pero algunas partes, como la Asignación de fases, tendrán un aspecto diferente.
 >* Un nuevo flujo de datos tarda unas horas en generar una ejecución de flujo y, a continuación, se produce a intervalos regulares por hora.
 
-En Measure, la moneda predeterminada debe configurarse en la sección “Moneda”
+En Measure, la moneda predeterminada debe configurarse en la sección &quot;Moneda&quot;
 
 * Si utiliza varias monedas, el esquema de tasa de conversión de moneda debe rellenarse en AEP para que lo leamos y utilicemos para las conversiones.
 
@@ -150,18 +150,18 @@ No importamos automáticamente las fases de los datos de usuario, por lo que tod
 
 Si las fases no están asignadas, el sistema no funcionará porque no habrá ningún lugar adónde puedan ir los datos.
 
-Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de Posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted
 
 **Reglas de los miembros de la campaña:**
 
-Debe elegir un conjunto de datos y establecer reglas para cada uno.
+Elija un conjunto de datos y establezca reglas para cada uno.
 
 **Reglas de los eventos de la experiencia:**
 
-Debe elegir un conjunto de datos y seleccionar tipos de actividades.
+Elija un conjunto de datos y seleccione tipos de actividad.
 
 * Ya no se admiten actividades personalizadas.
 * Si el cliente tiene actividades que no se ajustan a las opciones disponibles, sugerimos clasificarlas como “Momentos interesantes” y utilizar campos personalizados para distinguirlas.
@@ -169,7 +169,7 @@ Debe elegir un conjunto de datos y seleccionar tipos de actividades.
 **Canales sin conexión:**
 
 * No aplicamos reglas de asignación de canales específicas para conjuntos de datos, por lo que sería global.
-* Finalmente, tenemos que hacer coincidir tanto el tipo de campaña de CRM como el canal, pero por ahora, podemos asignar el nombre del canal a ambos campos como solución alternativa.
+* Finalmente, debemos hacer coincidir tanto el tipo de campaña de CRM como el canal, pero por ahora, podemos asignar el nombre del canal a ambos campos como solución alternativa.
 * **Reglas de canal: los datos rellenados no tendrán datos de transición de fase.**
 
 La configuración de Touchpoint y del segmento sigue siendo la misma.

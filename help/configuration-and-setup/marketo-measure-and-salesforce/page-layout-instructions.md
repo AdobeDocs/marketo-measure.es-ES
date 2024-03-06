@@ -4,9 +4,9 @@ description: 'Instrucciones de diseño de página: [!DNL Marketo Measure]'
 title: Instrucciones de diseño de página
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '833'
 ht-degree: 69%
 
 ---
@@ -89,7 +89,7 @@ Se recomienda añadir el [!DNL Marketo Measure] a la campaña de SFDC solo para 
    >
    >La mayoría de los clientes no utilizan los campos que terminan en (FT) o (LC) porque son campos heredados de antes de que el Touchpoint de [!DNL Marketo Measure] existiera como objeto.
 
-Si está utilizando el [!DNL Marketo Measure] Función ABM, [haga clic aquí para obtener instrucciones adicionales sobre el diseño de la página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Si utiliza el complemento [!DNL Marketo Measure] Función ABM, [haga clic aquí para obtener instrucciones adicionales sobre el diseño de la página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contactos {#contacts}
 

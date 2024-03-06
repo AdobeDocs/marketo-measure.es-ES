@@ -3,9 +3,9 @@ description: 'Prácticas recomendadas para el modelo personalizado: [!DNL Market
 title: Prácticas recomendadas para el modelo personalizado
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 2%
 
 ---
@@ -49,9 +49,9 @@ Tanto si configura el modelo personalizado por primera vez como si revisa lo que
 * No utilice campos de fórmula para definir una fase personalizada
    * Una recomendación de prácticas recomendadas es un campo booleano
 * No incorpore fases personalizadas al modelo personalizado que coincidan con un [!DNL Marketo Measure] Posición de punto de contacto de hito (FT, LC, OC, ganados/perdidos cerrados)
-   * Si lo hace, estas posiciones siempre se producirán simultáneamente y pueden causar un crédito de atribución inflado a partes del embudo.
+   * Si lo hace, estas posiciones siempre se producen simultáneamente y pueden causar un crédito de atribución inflado a partes del embudo.
 * Trabaje con su equipo de ventas
-   * Al incluir al equipo que trabaja más cerca de las fases y su significado, se garantiza que está utilizando las fases correctas y que están definidas correctamente
+   * La inclusión del equipo que trabaja más cerca de las fases y su significado garantiza que está utilizando las fases correctas y que están definidas correctamente
 
 ## Práctica recomendada para el mantenimiento {#best-practice-for-maintenance}
 

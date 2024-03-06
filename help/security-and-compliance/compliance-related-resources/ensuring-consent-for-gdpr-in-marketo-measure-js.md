@@ -4,9 +4,9 @@ description: 'Garantizar el consentimiento del RGPD en Marketo Measure Js: Marke
 title: Garantizar el consentimiento del RGPD en Marketo Measure JS
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ El Reglamento General de Protección de Datos (RGPD) es una legislación de la U
 
 ## Información general {#overview}
 
-El objetivo del RGPD es reforzar los derechos de los interesados en la Unión Europea (UE) y el Espacio Económico Europeo (EEE) en lo que respecta a la forma en que se utilizan y protegen sus datos personales. Por &quot;datos personales&quot; se entiende toda información relacionada con una persona física identificada o identificable. El RGPD se aplica a cualquier organización dentro o fuera de la UE que comercialice bienes o servicios a interesados dentro de la UE y el EEE, o que realice un seguimiento de sus comportamientos. Si realiza negocios con interesados en Europa que impliquen el procesamiento de sus datos personales, esta legislación se aplica a usted. Las sanciones por incumplimiento son significativas, con grandes multas para aquellos que incumplan la normativa; la multa máxima por una sola infracción es de 20 millones de euros o el 4% de la facturación anual mundial, lo que sea bueno.
+El objetivo del RGPD es reforzar los derechos de los interesados en la Unión Europea (UE) y el Espacio Económico Europeo (EEE) en relación con el uso y la protección de sus datos personales. Por &quot;datos personales&quot; se entiende toda información relacionada con una persona física identificada o identificable. El RGPD se aplica a cualquier organización dentro o fuera de la UE que comercialice bienes o servicios a interesados dentro de la UE y el EEE, o que realice un seguimiento de sus comportamientos. Si realiza negocios con interesados en Europa que impliquen el procesamiento de sus datos personales, esta legislación se aplica a usted. Las sanciones por incumplimiento son significativas, con grandes multas para aquellos que incumplan el reglamento; la multa máxima por una sola infracción es de 20 millones de euros o el 4% de la facturación anual mundial, lo que sea mayor.
 
-De forma predeterminada, [!DNL bizible.js] recopila datos de análisis de los usuarios a menos que esté configurado específicamente para esperar el consentimiento. Cuándo [!DNL bizible.js] está configurado para esperar el consentimiento del usuario, no creará cookies ni enviará datos de análisis hasta que se alcance el consentimiento.
+De forma predeterminada, [!DNL bizible.js] recopila datos de análisis de los usuarios a menos que esté configurado para esperar el consentimiento. Cuándo [!DNL bizible.js] está configurado para esperar el consentimiento del usuario, no creará cookies ni enviará datos de análisis hasta que se alcance el consentimiento.
 
 ## Cómo esperar el consentimiento {#how-to-wait-for-consent}
 
@@ -36,9 +36,9 @@ Opción 1: reemplazar el valor predeterminado [!DNL bizible.js] etiqueta de scri
 
 >[!NOTE]
 >
->En este caso, [!DNL bizible.js] adjuntará un evento en el que se hace clic al elemento HTML con el ID &quot;ConsentButtonId&quot;.
+>En este caso, [!DNL bizible.js] adjunta un evento en el que se hace clic al elemento HTML con el ID &quot;ConsentButtonId&quot;.
 
-Cuando se hace clic en este elemento HTML, [!DNL bizible.js] creará una cookie para recordar que se ha recibido el consentimiento del usuario y empezará a recopilar los datos de analytics como de costumbre.
+Cuando se hace clic en este elemento HTML, [!DNL bizible.js] crea una cookie para recordar que se ha recibido el consentimiento del usuario y comienza a recopilar datos de analytics de la forma habitual.
 
 **-o-**
 
@@ -50,7 +50,7 @@ Esto indica [!DNL bizible.js] para no rastrear hasta que se alcance el consentim
 
 *ventana[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || { _queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };*
 
-*Bizible.Push(&#39;Consent&#39;, true);*
+*Bizible. Push(&#39;Consentimiento&#39;, true);*
 
 **Si utiliza [!DNL Google Tag Manager] para instalar el script** Sin embargo, tenga en cuenta que GTM elimina los atributos data-, por lo que debe utilizar la siguiente secuencia de comandos:
 
@@ -67,4 +67,4 @@ Por el contrario, los clientes también pueden utilizar esta API para retirar el
 
 `Bizible.Push('Consent', false);`
 
-Cuando se ejecute este código, eliminará todas las cookies que [!DNL bizible.js] creado anteriormente y que reanudará la recopilación de datos de analytics solo si el usuario vuelve a dar su consentimiento.
+Cuando se ejecuta este código, elimina todas las cookies que [!DNL bizible.js] creado anteriormente y que reanuda la recopilación de datos de analytics solo si el usuario vuelve a dar su consentimiento.

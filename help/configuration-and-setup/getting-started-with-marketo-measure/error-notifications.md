@@ -2,10 +2,10 @@
 description: Notificaciones de error - [!DNL Marketo Measure]
 title: Notificaciones de errores
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '609'
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ A continuación se muestra una lista de errores que puede recibir mediante una n
       <td>API_DISABLED</td>
       <td>Se ha producido un error durante la importación de CRM: API_DISABLED: Se han deshabilitado las llamadas de la API para este usuario</td>
       <td>Se ha deshabilitado el permiso de la API para el usuario de Marketo Measure.</td>
-      <td>Consulte la siguiente documentación de Salesforce sobre <a href="https://help.salesforce.com/s/articleView?id=sf.branded_apps_commun_api_permset.htm&amp;type=5">cómo habilitar el acceso a la API</a>.</td>
+      <td>Consulte la siguiente documentación de Salesforce sobre <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">cómo habilitar el acceso a la API</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -54,7 +54,7 @@ A continuación se muestra una lista de errores que puede recibir mediante una n
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Se ha producido un error durante la exportación de Adobe Analytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION: Error: no se permite la carga. Confirme el esquema de la fuente de datos antes de cargar. ID de fuente de datos:1234</td>
+      <td>Se ha producido un error durante la exportación de Adobe Analytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Error: No se permite la carga. Confirme el esquema de la fuente de datos antes de cargar. ID de fuente de datos:1234</td>
       <td>La integración de Adobe Analytics no está configurada correctamente.</td>
       <td>Consulte los siguientes artículos de ayuda para garantizar una configuración correcta:
         <ul>
@@ -73,7 +73,7 @@ A continuación se muestra una lista de errores que puede recibir mediante una n
       <p>
       Se ha producido un error durante la importación del anuncio: INVALID_CURRENCY_ISO_CODE: Marketo Measure no admite la moneda XXX en la cuenta para 1234.</td>
       <td>Se ha encontrado una moneda no compatible.</td>
-      <td>En el sistema de origen indicado en la notificación (Anuncios, CRM, Marketo), asegúrese de que la moneda asociada al registro tenga una moneda compatible y válida. Las monedas admitidas derivan de las normas de moneda ISO.</td>
+      <td>En el sistema de origen indicado en la notificación (Ad, Crm, Marketo) se garantiza que la moneda asociada al registro tenga una moneda válida y compatible. Las monedas admitidas derivan de las normas de moneda ISO.</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -127,7 +127,7 @@ A continuación se muestra una lista de errores que puede recibir mediante una n
           Se ha producido un error durante la importación de CRM: NULL_EMPTY_CURRENCY_ISO_CODE: El código ISO de moneda es NULL o está vacío cuando MultiCurrency está habilitado para RecordId 1234
       </td>
       <td>La moneda debe ser un código de moneda ISO compatible.</td>
-      <td>En el sistema de origen indicado en la notificación (Anuncios, CRM, Marketo), asegúrese de que la moneda asociada al registro tenga una moneda compatible y válida. Las monedas admitidas derivan de las normas de moneda ISO.</td>
+      <td>En el sistema de origen indicado en la notificación (Ad, Crm, Marketo) se garantiza que la moneda asociada al registro tenga una moneda válida y compatible. Las monedas admitidas derivan de las normas de moneda ISO.</td>
     </tr>
     <tr>
       <td>OPERATION_TOO_LARGE</td>

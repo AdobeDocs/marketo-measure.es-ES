@@ -3,9 +3,9 @@ description: 'Prácticas recomendadas para conexiones de API: [!DNL Marketo Meas
 title: Prácticas recomendadas para conexiones de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ El [!DNL Marketo Measure] Las conexiones de API son un aspecto inestimable de su
 
 ## Práctica recomendada {#best-practice}
 
-Independientemente de la plataforma publicitaria que esté conectando, es importante tener en cuenta las siguientes directrices.
+Independientemente de la plataforma de publicidad a la que se conecte, es importante tener en cuenta las siguientes directrices.
 
 * Usar un administrador para conectarse
 * Puede conectar varias cuentas de anuncios para una plataforma

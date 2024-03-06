@@ -4,9 +4,9 @@ description: Registros duplicados en Mi informe - [!DNL Marketo Measure]
 title: Duplicar registros en mi informe
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 10%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 A medida que se sumerge en el [!DNL Marketo Measure] Informes en [!DNL Salesforce], es posible que empiece a buscar registros &quot;duplicados&quot; en los informes. Es probable que experimentes esta sensación cuando revises [!DNL Marketo Measure] informes listos para usar.
 
-Al realizar informes con los puntos de contacto del comprador o con el objeto de punto de contacto de atribución del comprador, es importante comprender que ya no realiza informes sobre el recuento de posibles clientes, contactos u oportunidades, sino sobre el número de puntos de contacto de comprador o puntos de contacto de atribución del comprador asociados a dichos objetos estándar (posibles clientes, contactos, oportunidades).
+Al realizar informes con los puntos de contacto de comprador o con el objeto de punto de contacto de atribución de comprador, es importante comprender que ya no realiza informes sobre el recuento de posibles clientes, contactos u oportunidades, sino sobre el número de puntos de contacto de comprador o puntos de contacto de atribución de comprador asociados a dichos objetos estándar (posibles clientes, contactos, oportunidades).
 
 Veamos el siguiente informe como ejemplo:
 

@@ -4,10 +4,10 @@ description: 'Configuración de canal personalizado en línea: [!DNL Marketo Mea
 title: Configuración de canales personalizados en línea
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 71%
+source-wordcount: '1219'
+ht-degree: 69%
 
 ---
 

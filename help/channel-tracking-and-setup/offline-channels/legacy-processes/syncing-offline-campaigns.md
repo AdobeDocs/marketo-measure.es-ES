@@ -4,9 +4,9 @@ description: 'Sincronización de campañas sin conexión: [!DNL Marketo Measure]
 title: Sincronización de campañas sin conexión
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ En este caso, rellenaría la fecha de carga en tres semanas. Este paso debe real
 
 En resumen, si utiliza la variable [!UICONTROL Fecha de punto de contacto de actualización masiva] y cambie la fecha del punto de contacto a la fecha del evento, [!DNL Marketo Measure] generará puntos de contacto para la fecha real del evento, no para la fecha de la carga.
 
-También puede actualizar las fechas de todos los miembros de una campaña existente. Al hacerlo, asegúrese de que la fecha del punto de contacto sea la fecha de interacción del miembro. Simplemente haga clic en la Fecha de contacto del comprador de actualización masiva, filtre la lista de miembros de la campaña según corresponda y en el icono &quot;[!UICONTROL Seleccionar fecha]&quot; encima de la lista de miembros de la campaña, añada la misma fecha que la fecha en la que se produjo el evento.
+También puede actualizar las fechas de todos los miembros de una campaña existente. Al hacerlo, asegúrese de que la fecha del punto de contacto sea la fecha de interacción del miembro. Haga clic en el botón Fecha de contacto del comprador de actualización masiva, filtre la lista de miembros de la campaña según corresponda y en el icono &quot;[!UICONTROL Seleccionar fecha]&quot; encima de la lista de miembros de la campaña, añada la misma fecha que la fecha en la que se produjo el evento.
 
 >[!CAUTION]
 >

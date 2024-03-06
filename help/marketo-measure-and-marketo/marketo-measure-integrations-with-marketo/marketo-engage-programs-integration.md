@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] Integración de programas - [!DNL Marketo Me
 title: "[!DNL Marketo Engage] Integración de programas"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1261'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ En la lista de canales de programa de Marketo, deseará asignar los valores al [
 
 1. En la parte superior, tendrá la opción de asignar a sus tipos de campaña de CRM y, a continuación, abajo, verá las opciones para sus canales de programa de Marketo.
 
-1. Seleccione primero el canal que debe asignarse al valor y, a continuación, seleccione opcionalmente el subcanal. Una vez finalizado, haga clic en **[!UICONTROL Guardar]** en la parte inferior.
+1. Seleccione primero el canal que debe asignarse al valor y, a continuación, seleccione opcionalmente el subcanal. Cuando haya terminado, haga clic en **[!UICONTROL Guardar]** en la parte inferior.
 
    ![](assets/eleven.png)
 

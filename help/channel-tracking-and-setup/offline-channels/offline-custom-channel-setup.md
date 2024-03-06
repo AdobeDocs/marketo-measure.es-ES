@@ -4,9 +4,9 @@ description: Configuración de canal personalizado sin conexión - [!DNL Marketo
 title: Configuración de canales personalizados sin conexión
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Una vez que haya editado y actualizado la hoja de cálculo con sus reglas person
 
 >[!TIP]
 >
->Desea determinar _cuando_ a [!DNL Salesforce] El tipo de campaña se arrastra hacia abajo en [!DNL Marketo Measure] ¿Asignación de canales? Simplemente vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Campañas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. A continuación, puede ver qué valores se encuentran en la lista de selección y cuáles están inactivos. Los inactivos no aparecerán como un tipo seleccionable en nuestro &quot;[!UICONTROL Canales sin conexión]&quot; sección. Tenga en cuenta que este proceso puede tardar entre unos minutos y 48 horas.
+>Desea determinar _cuando_ a [!DNL Salesforce] El tipo de campaña se arrastra hacia abajo en [!DNL Marketo Measure] ¿Asignación de canales? Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Campañas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. A continuación, puede ver qué valores se encuentran en la lista de selección y cuáles están inactivos. Los inactivos no aparecerán como un tipo seleccionable en nuestro &quot;[!UICONTROL Canales sin conexión]&quot; sección. Tenga en cuenta que este proceso puede tardar entre unos minutos y 48 horas.
 
 Clic **[!UICONTROL Guardar]** cuando haya terminado y [!DNL Marketo Measure] cargará los cambios y volverá a procesar los datos.
 

@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Guía de informes - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Guía de informes"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '6431'
+source-wordcount: '6437'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Antes de crear un [!DNL Marketo Measure] informe, es fundamental que confirme su
 
 **Establecer metas**: &quot;La primera pregunta es &#39;¿por qué medimos?&#39; Lori Wizdo de [Forrester Research](https://go.forrester.com/) lo resumió muy bien en un [Seminario web de Marketo](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). Según ella, &quot;medimos para probar o validar una decisión o el valor del marketing o para mejorar (mejora de procesos)&quot;. Añadimos que las perspectivas de una buena medición también proporcionan insumos y orientación para el proceso de planificación de marketing.
 
-Así que antes de empezar, es esencial ser muy claro en sus objetivos, las preguntas que están tratando de responder, o los problemas que están tratando de resolver. ¿Qué historia quieres contar? ¿Qué decisiones se tomarán como resultado? Con demasiada frecuencia estos fundamentos no están bien pensados, lo que lleva a la frustración de todos los involucrados&quot;.
+Así que antes de empezar, es esencial ser muy claro en sus objetivos, las preguntas que está tratando de responder, o los problemas que está tratando de resolver. ¿Qué historia quieres contar? ¿Qué decisiones se tomarán como resultado? Con demasiada frecuencia estos fundamentos no están bien pensados, lo que lleva a la frustración de todos los involucrados&quot;.
 
 **Diseño del informe**: &quot;A continuación, debe diseñar el informe y determinar las dimensiones, métricas y conjuntos de datos específicos que contendrá. Una experiencia común es proporcionar a un usuario empresarial exactamente lo que solicita, solo para que siga sintiendo que sus necesidades no se satisfacen. Esto se debe a que la perspectiva que un usuario empresarial está buscando no siempre aparece en el informe que solicita. Un buen analista (o una persona de MOPS con un sombrero de analista) hará preguntas aclaratorias, establecerá definiciones comunes (&quot;¿qué quieres decir con plomo?&quot;), e incluso esbozará una imagen visual del informe final para asegurarse de que haya alineación. Solo entonces genera el informe sabiendo que tiene un conjunto sólido de requisitos&quot;.
 
@@ -445,7 +445,7 @@ Este informe sería igual que un informe basado en &quot;Contenido&quot; a nivel
 
 >[!TIP]
 >
->Puede utilizar este informe para obtener información sobre la participación total de cualquier dimensión de marketing desde el objeto de punto de contacto del comprador, no solo sobre las descargas de contenido como se muestra en el ejemplo. En su lugar, el informe se puede agrupar o filtrar en dimensiones como &quot;Canal de marketing&quot; o &quot;Nombre de la campaña de publicidad&quot; para comprender mejor la participación total de posibles clientes y contactos en la base de datos. Simplemente cambie los filtros o agrupaciones dentro del informe a cero en otras dimensiones representadas por otros campos desde el objeto de punto de contacto.
+>Puede utilizar este informe para obtener información sobre la participación total de cualquier dimensión de marketing desde el objeto de punto de contacto del comprador, no solo sobre las descargas de contenido como se muestra en el ejemplo. En su lugar, el informe se puede agrupar o filtrar en dimensiones como &quot;Canal de marketing&quot; o &quot;Nombre de la campaña de publicidad&quot; para comprender mejor la participación total de posibles clientes y contactos en la base de datos. Cambie los filtros o agrupaciones dentro del informe a cero en en otras dimensiones representadas por otros campos desde el objeto touchpoint.
 
 **3,2 [!DNL Marketo Measure] Personas que se han registrado para un evento (solo CRM)**
 

@@ -4,10 +4,10 @@ description: Diferencia entre una conversión de Google Analytics y un punto de 
 title: Diferencia entre una conversión de Google Analytics y un punto de contacto de comprador
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 4%
+source-wordcount: '495'
+ht-degree: 5%
 
 ---
 
@@ -17,9 +17,9 @@ Descubra qué es una [!DNL Google Analytics (GA)] El objetivo es y cómo se dife
 
 **¿Qué son las conversiones de Google Analytics?**
 
-[!UICONTROL Google Analytics] las conversiones están completamente determinadas por la forma en que un experto en marketing o un desarrollador web codifica las finalizaciones de &quot;objetivos&quot; en un sitio web concreto. Los objetivos, según Google, podrían considerarse como &quot;realizar una compra (para un sitio de comercio electrónico), completar un nivel de juego (para una aplicación de juegos móvil) o enviar un formulario de información de contacto (para un sitio de marketing o de generación de posibles clientes)&quot;. La mayoría de las veces, los especialistas en marketing ven los objetivos y las conversiones como alguien que rellena un formulario informativo.
+[!UICONTROL Google Analytics] las conversiones están determinadas por la forma en que un experto en marketing o un desarrollador web codifica las finalizaciones de &quot;objetivos&quot; en un sitio web concreto. Los objetivos, según Google, podrían considerarse como &quot;realizar una compra (para un sitio de comercio electrónico), completar un nivel de juego (para una aplicación de juegos móvil) o enviar un formulario de información de contacto (para un sitio de marketing o de generación de posibles clientes)&quot;. La mayoría de las veces, los especialistas en marketing ven los objetivos y las conversiones como alguien que rellena un formulario informativo.
 
-Sin embargo, los objetivos no se pueden codificar para administrar un comportamiento muy específico. En su lugar, hay tipos de objetivos que un desarrollador web puede configurar. A continuación se muestran algunos de estos ejemplos:
+Sin embargo, los objetivos no se pueden codificar para administrar un comportamiento específico. En su lugar, hay tipos de objetivos que un desarrollador web puede configurar. A continuación se muestran algunos de estos ejemplos:
 
 <table> 
  <colgroup> 
@@ -58,21 +58,21 @@ Sin embargo, los objetivos no se pueden codificar para administrar un comportami
 
 La mayoría de los especialistas en marketing configuran sus conversiones como &quot;Objetivos de destino&quot;, lo que significa que generalmente crean una página de agradecimiento después de un formulario para considerar que se trata de una conversión formal.
 
-Esto significa que Google considerará las vistas de la página de agradecimiento como una conversión. Desde el punto de vista de los Google Analytics, esto es una comprensión con la que la mayoría de los especialistas en marketing están de acuerdo.
+Esto significa que Google considera las vistas de la página de agradecimiento como una conversión. Desde el punto de vista de los Google Analytics, esto es una comprensión con la que la mayoría de los especialistas en marketing están de acuerdo.
 
-Sin embargo, los puntos de contacto del comprador actúan de forma muy diferente.
+Sin embargo, los puntos de contacto del comprador actúan de forma diferente.
 
 **¿En qué se diferencian los puntos de contacto del comprador?**
 
 [!DNL Marketo Measure] JavaScript realiza un seguimiento de los datos de la sesión y los envíos de formularios en todos los formularios de un sitio determinado. No es necesario codificar los objetivos de una [!DNL Marketo Measure] punto de vista Este proceso es automático. Para los envíos de formularios, [!DNL Marketo Measure] notifica la cumplimentación de un formulario cada vez que un usuario anónimo rellena los campos de información de un formulario concreto y también hace clic en el botón envío de formulario. [!DNL Marketo Measure] no necesita una página de agradecimiento para registrar el envío del formulario.
 
-[!DNL Marketo Measure] creará un punto de contacto de formulario cuando:
+[!DNL Marketo Measure] crea un punto de contacto de formulario cuando:
 
 * Un posible cliente/contacto asociado a esas conversiones aparece en su CRM.
 * El [!DNL Marketo Measure] JS está presente en las páginas web que contienen el formulario.
 * Se envía un formulario en una sesión de 30 minutos.
 
-[!DNL Marketo Measure] ignorará las conversiones de Google Analytics de destino cuando:
+[!DNL Marketo Measure] ignora las conversiones de Google Analytics de destino cuando:
 
 * Un bot envía formularios en un sitio web (estos bots generalmente no llegan a la CRM de un cliente).
 * Un usuario envía más formularios después de su primer envío de formulario. [!DNL Marketo Measure] solo insertará la primera conversión desde esa sesión.
@@ -80,4 +80,4 @@ Sin embargo, los puntos de contacto del comprador actúan de forma muy diferente
 * El usuario vuelve a cargar la página de agradecimiento varias veces.
 * El usuario está utilizando cualquier herramienta de bloqueo de publicidad.
 
-Como puede ver, hay diferencias fundamentales entre lo que GA y [!DNL Marketo Measure] considere que una conversión es. Por lo tanto, es muy probable que el número de conversiones y el número de puntos de contacto de formulario sean diferentes.
+Como puede ver, existen diferencias fundamentales entre lo que GA y [!DNL Marketo Measure] considere que una conversión es. Por lo tanto, es probable que el número de conversiones y el número de puntos de contacto de formulario sean diferentes.

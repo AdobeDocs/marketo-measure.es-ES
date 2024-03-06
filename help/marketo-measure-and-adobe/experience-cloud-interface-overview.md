@@ -3,9 +3,9 @@ description: 'Descripción general de la interfaz Adobe Experience Cloud: [!DNL 
 title: Información general sobre la interfaz de Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Si ya ha iniciado sesión en un producto de Adobe Experience Cloud, haga clic en
 >
 >El menú desplegable puede tener un aspecto diferente en función de los productos de Adobe Experience Cloud a los que esté suscrito.
 
-Si usted es _no_ ya ha iniciado sesión en un producto de Adobe Experience Cloud, inicie sesión directamente en [!DNL Marketo Measure] aquí: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+Si es usted _no_ ya ha iniciado sesión en un producto de Adobe Experience Cloud, inicie sesión directamente en [!DNL Marketo Measure] aquí: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## Nuevas funciones {#new-features}
 

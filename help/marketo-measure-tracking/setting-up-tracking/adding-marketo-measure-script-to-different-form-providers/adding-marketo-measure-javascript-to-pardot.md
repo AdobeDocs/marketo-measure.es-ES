@@ -4,9 +4,9 @@ description: Agregando [!DNL Marketo Measure] JavaScript a [!DNL Pardot] - [!DNL
 title: Agregando [!DNL Marketo Measure] JavaScript a [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Una vez que haya iniciado sesión en [!DNL Pardot] cuenta de, siga los pasos a c
 
 1. Vaya a **[!UICONTROL Marketing]**.
 
-1. Haga clic en **[!UICONTROL Páginas de aterrizaje]**.
+1. Clic **[!UICONTROL Páginas de aterrizaje]**.
 
 1. Seleccionar **[!UICONTROL Plantilla de diseño]**.
 
@@ -39,7 +39,7 @@ Una vez que haya iniciado sesión en [!DNL Pardot] cuenta de, siga los pasos a c
 
 1. Asegúrese de que la [!DNL Marketo Measure] JavaScript también se encuentra en la página del sitio general.
 
-   Dentro de [!DNL Pardot] Plantilla de diseño, el código tendrá este aspecto:
+   Dentro de [!DNL Pardot] Plantilla de diseño, el código tiene este aspecto:
 
 ```text
 <script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>
@@ -53,10 +53,10 @@ Si la variable [!DNL Pardot] IFrame tiene la siguiente etiqueta de HTML:
 
 `<base href="http://go.pardot.com">`
 
-_Y_ el IFrame en sí se encuentra en una página segura (HTTPS) en lugar de una página no segura (HTTP), cuando intentamos cargar el script en la [!DNL Pardot] IFrame, el navegador intentará cargar una versión HTTP de nuestra secuencia de comandos en una página HTTPS, lo que fallará y nos impedirá realizar el seguimiento. La solución consiste en actualizar la secuencia de comandos en la [!DNL Pardot] IFrame para cargar la versión segura de nuestro script:
+_Y_ el IFrame en sí es en realidad una página segura (HTTPS) en lugar de no segura (HTTP) al cargar el script en [!DNL Pardot] IFrame, el explorador intenta cargar una versión HTTP del script en una página HTTPS, lo que producirá un error y romperá el seguimiento. La solución consiste en actualizar la secuencia de comandos en la [!DNL Pardot] IFrame para cargar la versión segura del script:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-Además, es posible que ya haya otros fragmentos de código de seguimiento en esta área, como un [!DNL Google Analytics] código. Asegúrese de separarlos con un punto y coma `;` y un solo espacio, como se muestra en este ejemplo:
+Puede que ya haya otros fragmentos de código de seguimiento en esta área, como [!DNL Google Analytics] código. Asegúrese de separarlos con un punto y coma `;` y un solo espacio, como se muestra en este ejemplo:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="othercode_example" src="otherfile_example.js" ></script>`

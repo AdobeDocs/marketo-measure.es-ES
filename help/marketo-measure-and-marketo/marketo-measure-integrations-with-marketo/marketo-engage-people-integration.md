@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] Integración de personas - [!DNL Marketo Mea
 title: "[!DNL Marketo Engage] Integración de personas"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Para que podamos detectar estos duplicados, asegúrese de que su [!DNL Marketo-S
 
 ![](assets/5b.png)
 
-Los clientes tienen la opción de informar de todo el conjunto de personas de Marketo y personas de CRM dentro de [!DNL Marketo Measure] Descubrir. Si solo le interesa informar sobre personas de CRM, le recomendamos que cree un Segmento para filtrarlos.
+Los clientes tienen la opción de informar de todo el conjunto de personas de Marketo y personas de CRM dentro de [!DNL Marketo Measure] Descubrir. Si solo le interesan los informes sobre usuarios de CRM, le recomendamos que cree un segmento para filtrarlos.
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 

@@ -4,9 +4,9 @@ description: Sincronización de campaña personalizada - [!DNL Marketo Measure]
 title: Sincronización de campañas personalizadas
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,6 @@ Puede comprobar fácilmente los puntos de contacto del comprador y los registros
 
    ![](assets/9.png)
 
-1. También puede hacer clic en el recuento de miembros para ver una lista de los posibles clientes y contactos y sus ID que forman parte de la idoneidad para la regla de Campaign. Este es solo un conjunto de muestras y mostrará hasta 50 para que pueda tener una idea de qué registros cumplen los requisitos.
+1. También puede hacer clic en el recuento de miembros para ver una lista de los posibles clientes y contactos y sus ID que forman parte de la idoneidad de la regla de campaña. Este es solo un conjunto de muestras y mostrará hasta 50 para que pueda tener una idea de qué registros cumplen los requisitos.
 
    ![](assets/10.png)

@@ -4,7 +4,7 @@ description: 'Plataformas de publicidad integradas: [!DNL Marketo Measure]'
 title: Plataformas de anuncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '1661'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Tenga en cuenta que debe agregar plantillas de seguimiento en las [!UICONTROL Cu
 
    >[!TIP]
    >
-   >Si se produce un error que indica que la plantilla de seguimiento no es válida, intente borrar la caché del explorador y vuelva a intentarlo, lo que a menudo soluciona el problema.
+   >Si se produce un error que indica que la plantilla de seguimiento no es válida, intente borrar la caché del explorador y volver a intentarlo, lo que a menudo soluciona el problema.
 
 ## Cómo generar automáticamente etiquetas UTM para [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
 
@@ -97,7 +97,7 @@ Al principio, puede parecer difícil crear etiquetas de UTM, pero hay muchas her
 
 **[!DNL Google URL]Generador**
 
-El Generador de URL de Google es una herramienta estándar para crear direcciones URL con formato correcto mediante etiquetas UTM. Simplemente introduzca la URL y el valor deseado de cada parámetro y haga clic en &quot;[!UICONTROL Generar URL]&quot;. Es una herramienta ideal si solo tiene que etiquetar un puñado de direcciones URL. Acceso a la herramienta [aquí](https://support.google.com/analytics/answer/1033867?hl=es){target="_blank"}.
+El Generador de URL de Google es una herramienta estándar para crear direcciones URL con formato correcto mediante etiquetas UTM. Introduzca la URL y el valor deseado de cada parámetro y haga clic en &quot;[!UICONTROL Generar URL]&quot;. Es una herramienta ideal si solo tiene que etiquetar un puñado de direcciones URL. Acceso a la herramienta [aquí](https://support.google.com/analytics/answer/1033867?hl=es){target="_blank"}.
 
 **Hoja de cálculo de Google generada por EpikOne**
 

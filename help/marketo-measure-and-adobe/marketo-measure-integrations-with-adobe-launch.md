@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Integraciones con Adobe Launch: [!DNL Marke
 title: '[!DNL Marketo Measure] Integraciones con Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Cuando se instala y configura en Adobe Launch, la variable [!DNL Marketo Measure
 
    >[!NOTE]
    >
-   >Este campo no es el &quot;ID de cuenta&quot; en la tabla Business_Prod.Business. Todas las actividades web desde la URL determinada (por ejemplo, `adobe.com`) se asignará al [!DNL Marketo Measure] inquilino.
+   >Este campo no es el &quot;ID de cuenta&quot; en la tabla Business_Prod.Business. Todas las actividades web desde la URL determinada (por ejemplo, `adobe.com`) se asignan al [!DNL Marketo Measure] inquilino.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 

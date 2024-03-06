@@ -4,10 +4,10 @@ description: Definición de [!DNL Marketo Measure] Sesiones web - [!DNL Marketo 
 title: Definición de sesiones web de  [!DNL Marketo Measure]
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 97%
+source-wordcount: '563'
+ht-degree: 61%
 
 ---
 
@@ -19,7 +19,7 @@ Una **sesión web** hace referencia a las interacciones de una persona con su si
 
 Por ejemplo, Haley visita adobe.com. En su visita al sitio, inicia sesión. Cuando Haley abandona el sitio, cierra la pestaña o el explorador web o sale del sitio, por lo tanto, la sesión finaliza.
 
-El usuario no puede abrir varias sesiones al mismo tiempo. Si Haley abre [!DNL adobe.com] en 10 pestañas independientes, solo se ha creado una sesión en relación con su visita al sitio web.
+El usuario no puede abrir varias sesiones al mismo tiempo. Si Haley abre [!DNL adobe.com] en diez pestañas independientes, solo se ha creado una sesión en relación con su visita al sitio web.
 
 ## ¿Cómo define [!DNL Marketo Measure] una nueva sesión? {#how-does-marketo-measure-define-a-new-session}
 
@@ -40,7 +40,7 @@ Actualmente, [!DNL Marketo Measure] solo considera la navegación por páginas y
 
 ## Caducidad basada en el canal {#channel-based-expiration}
 
-[!DNL Marketo Measure] iniciará una nueva sesión cada vez que un usuario visite su sitio web desde un canal de marketing digital diferente o desde un sitio web externo. Esto incluye lo siguiente:
+[!DNL Marketo Measure] comienza una nueva sesión cada vez que un usuario llega al sitio web desde un canal de marketing digital diferente o un sitio web externo. Esto incluye lo siguiente:
 
 * Un sitio web de referencia
 * Canales sociales ([!DNL Facebook], [!DNL LinkedIn], etc.)
@@ -50,11 +50,11 @@ Actualmente, [!DNL Marketo Measure] solo considera la navegación por páginas y
 
 Cada vez que un visitante llega a su sitio web desde un sitio web de referencia o un canal social, comienza una nueva sesión.
 
-Supongamos que Haley está en LinkedIn, hace clic en una publicación de [!DNL Marketo Measure] y se le redirige al sitio web de Adobe. A continuación, mientras se desplaza por [!DNL Facebook], Haley ve otra publicación de [!DNL Marketo Measure]. Cuando hace clic en esta publicación y se le redirige al sitio de Adobe, la primera sesión web relacionada con [!DNL LinkedIn] finaliza y comienza una nueva sesión relacionada con [!DNL Facebook].
+Digamos que Haley está en LinkedIn, hace clic en un [!DNL Marketo Measure] publique y se redirija al sitio web del Adobe. A continuación, mientras se desplaza por [!DNL Facebook], Haley ve otra publicación de [!DNL Marketo Measure]. Cuando hace clic en esta publicación y se le redirige al sitio del Adobe, esto provoca la primera sesión web relacionada con [!DNL LinkedIn] hasta el final y una nueva sesión relacionada con [!DNL Facebook] comienza.
 
 **Canales de búsqueda orgánica o de pago**
 
-Las nuevas sesiones comenzarán cada vez que el usuario entre en el sitio a través de canales de búsqueda orgánica o de pago. Si Haley llega al sitio web de Adobe a través de una búsqueda orgánica e inmediatamente visita el sitio web a través de un anuncio de pago en Google, se crean dos sesiones separadas.
+Las nuevas sesiones comienzan cada vez que un usuario llega al sitio a través de canales de búsqueda orgánicos o de pago. Si Haley llega al sitio web del Adobe a través de una búsqueda orgánica y luego visita inmediatamente su sitio web a través de un anuncio de pago en Google, se crean dos sesiones independientes.
 
 **Tráfico directo web**
 
@@ -62,8 +62,8 @@ Si un visitante llega a su sitio web escribiendo la URL del sitio web en la barr
 
 Si la primera sesión web de Haley comienza como resultado de una visita desde un sitio de referencia, un canal social o un canal de búsqueda orgánica/de pago y luego visita el sitio a través de Web Direct, esto no provoca el inicio de una nueva sesión.
 
-_Sin embargo_, si la primera sesión web de Haley se originó en Web Direct y luego visita el sitio web a través de _un sitio externo/de referencia_, la primera sesión finalizará y se abrirá una nueva sesión relacionada con el sitio externo/de referencia.
+_Sin embargo_, si la primera sesión web de Haley se originó en Web Direct y luego visita el sitio web a través de _un sitio externo/de referencia_, la primera sesión finaliza y se abre una nueva sesión relacionada con el sitio externo/de referencia.
 
 ## Sesiones de Google Analytics {#google-analytics-sessions}
 
-Hay algunas similitudes sobre cómo [!DNL Marketo Measure] y Google Analytics definen las sesiones. Para obtener más información sobre cómo definen las sesiones los Google Analytics, visite: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=es){target="_blank"}
+Hay algunas similitudes sobre cómo [!DNL Marketo Measure] y Google Analytics definen las sesiones. Para obtener más información sobre cómo definen las sesiones los Google Analytics, visite: [https://support.google.com/analytics/answer/2731565?hl=en](https://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

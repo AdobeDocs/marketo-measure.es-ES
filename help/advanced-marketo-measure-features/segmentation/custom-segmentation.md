@@ -4,10 +4,10 @@ description: Segmentación personalizada - [!DNL Marketo Measure]
 title: Segmentación personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 4%
+source-wordcount: '740'
+ht-degree: 0%
 
 ---
 
@@ -71,9 +71,9 @@ Paso 4: Adición De Reglas De Filtro.
 
 Si las reglas no están configuradas tanto para posibles clientes/contactos como para oportunidades, solo verá una parte de los datos. Para obtener más información, si no configura las reglas de Oportunidades, solo verá datos de cliente potencial/contacto sin las oportunidades asociadas a ellos. Lo mismo ocurre si no configura reglas para posibles clientes o contactos, solo verá oportunidades sin los posibles clientes o contactos asociados.
 
-Cuando haya terminado, haga clic en [!UICONTROL Guardar] primero, compruebe todo y, a continuación, haga clic en [!UICONTROL Guardar y procesar]. Recuerde que no podrá editar la configuración durante siete días cuando guarde y procese, como [!DNL Marketo Measure] está volviendo a dar formato a los datos durante este tiempo.
+Cuando haya terminado, haga clic en [!UICONTROL Guardar] primero, compruebe todo y, a continuación, haga clic en [!UICONTROL Guardar y procesar]. Recuerde que no puede editar la configuración durante siete días después de guardar y procesar debido a lo siguiente [!DNL Marketo Measure] está volviendo a dar formato a los datos durante este tiempo.
 
-Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de Posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

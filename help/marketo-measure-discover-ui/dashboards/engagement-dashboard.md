@@ -2,9 +2,9 @@
 description: Tablero de participación - [!DNL Marketo Measure] - Producto
 title: Panel de participación
 feature: Reporting
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Preguntas que responde el panel:
 
 * ¿Cuántas personas estaban comprometidas? ¿Cuál es el número promedio de toques por persona comprometida?
 * ¿En qué se diferencia el número de puntos de contacto de las personas tocadas dentro de un canal, subcanal o campaña específicos?
-* ¿Cuántos puntos de contacto había en un canal o subcanales determinados? ¿Cómo cambió con el tiempo?
+* ¿Cuántos puntos de contacto había en un canal o subcanal determinado? ¿Cómo cambió con el tiempo?
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Preguntas que responde el panel:
 ### Mosaicos KPI {#kpi-tiles}
 
 * Puntos de contacto: número total de puntos de contacto sin procesar generados.
-   * Los puntos de contacto de comprador y los puntos de contacto de atribución de comprador son resultados de atribución que se crean seleccionando puntos de contacto específicos para el crédito. No todos los puntos de contacto se seleccionarán como BT y BAT.
+   * Los puntos de contacto de comprador y los puntos de contacto de atribución de comprador son resultados de atribución que se crean seleccionando puntos de contacto específicos para el crédito. No todos los puntos de contacto se seleccionan como BT y BAT.
 * Personas tocadas: número total de personas que tienen puntos de contacto.
 * Touchpoints per Person: Cantidad promedio de puntos de contacto por persona que se han tocado.
 

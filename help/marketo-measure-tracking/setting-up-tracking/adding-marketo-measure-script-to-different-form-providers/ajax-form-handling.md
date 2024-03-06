@@ -4,22 +4,22 @@ description: AJAX Administración de formularios - [!DNL Marketo Measure]
 title: Gestión de formularios AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '313'
 ht-degree: 1%
 
 ---
 
 # Gestión de formularios AJAX {#ajax-form-handling}
 
-Para informar manualmente de las conversiones de clientes a [!DNL Marketo Measure], hemos proporcionado una API muy sencilla que puede utilizar. Ambas API de Javascript están disponibles automáticamente en su sitio, si tiene nuestro código de seguimiento en él. No es necesario hacer nada especial para acceder a ellos.
+Para informar manualmente de las conversiones de clientes a [!DNL Marketo Measure]Sin embargo, hay una API simple que puede utilizar. Ambas API de JavaScript están disponibles automáticamente en el sitio, si tiene código de seguimiento. No es necesario hacer nada especial para acceder a ellos.
 
 ## Escenario 1: formulario de HTML AJAX con envío de {#scenario-html-form-with-an-ajax-submit}
 
 AJAX Cuando se utilizan formularios que contienen (u otro mecanismo) para enviar fechas de conversión del cliente a nuestros servidores, [!DNL Marketo Measure] puede que no esté al tanto de la conversión del cliente a través de ninguna de las rutas estándar que monitorizamos. En este escenario, podemos utilizar una API simple (proporcionada a continuación).
 
-Si administra sus propios envíos de formularios, puede llamar explícitamente a [!DNL Marketo Measure] desde JavaScript. [!DNL Marketo Measure] recopilará toda la información relevante del formulario y la publicará asincrónicamente en nuestros servidores.
+Si administra sus propios envíos de formularios, puede llamar explícitamente a [!DNL Marketo Measure] desde JavaScript. [!DNL Marketo Measure] recopila toda la información relevante del formulario y la publica asincrónicamente en nuestros servidores.
 
 **A continuación se muestra un ejemplo de código con JQuery (suponiendo que el ID del formulario es &quot;formId&quot;):**
 
@@ -45,7 +45,7 @@ Bizible.Push('Form','MyFormID');
 
 ## Escenario 2: información de posibles clientes recopilada en un formulario que no sea de HTML {#scenario-lead-information-collected-in-a-non-html-form}
 
-Si se recopila información de un posible cliente convertido mediante JavaScript o campos de texto simples sin formulario HTML, esta solución es la adecuada para usted. A continuación se comparte la API que se debe utilizar en este caso:
+Si la información de un posible cliente convertido se recopila mediante JavaScript o campos de texto simples sin formulario html, esta solución funciona para usted. A continuación se comparte la API que se debe utilizar en este caso:
 
 ```jquery
 ///////////////////////////////////////////////////////////////////////  
@@ -58,11 +58,11 @@ eMail: 'user@gmail.com' // required
 });  
 ```
 
-En este código, la variable [!UICONTROL email] Este campo es obligatorio. [!DNL Marketo Measure] publicará estos datos de forma asíncrona en nuestros servidores.
+En este código, la variable [!UICONTROL email] Este campo es obligatorio. [!DNL Marketo Measure] publica estos datos de forma asíncrona en nuestros servidores.
 
 ## Escenario 3: informar sobre el usuario desde la página de agradecimiento {#scenario-report-user-information-from-the-thank-you-page}
 
-En algunos casos, es más conveniente informar de la información sobre posibles clientes a [!DNL Marketo Measure] en la página de agradecimiento, después de enviar el formulario. La forma más sencilla de informar sobre esta información es añadir un elemento oculto a la página que contiene información del envío del formulario, y [!DNL Bizible.js] leerá esta información cuando se haya cargado la página de agradecimiento.
+A veces, es más conveniente notificar la información del posible cliente a [!DNL Marketo Measure] en la página de agradecimiento, después de enviar el formulario. La forma más sencilla de informar sobre esta información es añadir un elemento oculto a la página que contiene información del envío del formulario, y [!DNL Bizible.js] leerá esta información cuando se haya cargado la página &quot;Gracias&quot;.
 
 **Por ejemplo:**
 

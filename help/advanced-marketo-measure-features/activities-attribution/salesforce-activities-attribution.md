@@ -4,9 +4,9 @@ description: Atribución de actividades de Salesforce - [!DNL Marketo Measure]
 title: Atribución de actividades de Salesforce
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---

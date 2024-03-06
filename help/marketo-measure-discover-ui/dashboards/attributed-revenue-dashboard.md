@@ -3,9 +3,9 @@ description: Tablero de ingresos atribuidos - [!DNL Marketo Measure] - Producto
 title: Panel de ingresos atribuidos
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ El panel de control de ingresos atribuidos ofrece una perspectiva centrada en lo
 
 >[!NOTE]
 >
->Este tablero está actualmente en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto una vez que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
+>Este tablero está en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto después de que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
 
 **Preguntas que el tablero responde:**
 
@@ -34,7 +34,7 @@ El panel de control de ingresos atribuidos ofrece una perspectiva centrada en lo
 
 Gráfico de barras apiladas que muestra los ingresos atribuidos totales, segmentados por canal, para cada mes/trimestre/año.
 
-* utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
+* Utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
 * Pase el ratón sobre un segmento de barra o el espacio entre barras para ver información detallada.
 
 **Preguntas que responde el gráfico:**
@@ -63,7 +63,7 @@ Ingresos atribuidos totales segmentados por canal, subcanal y campaña, presenta
 **Vista de árbol**
 
 * La vista de árbol permite una exploración de datos más interactiva y granular, lo que permite a los especialistas en marketing identificar tendencias, anomalías o ejecutantes destacados en sus esfuerzos de marketing.
-* Haga clic en una rama para profundizar en la capa de jerarquía posterior.
+* Haga clic en una rama para profundizar en la capa de jerarquía subsiguiente.
 
 ![](assets/attributed-revenue-dashboard-3.png)
 

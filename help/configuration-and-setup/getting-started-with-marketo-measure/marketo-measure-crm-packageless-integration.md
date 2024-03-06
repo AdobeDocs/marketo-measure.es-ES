@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Integración sin paquetes CRM - [!DNL Marke
 title: "[!DNL Marketo Measure] Integración sin paquetes CRM"
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '305'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ En las guías siguientes, omita los pasos para instalar el [!DNL Salesforce] paq
 
 [!DNL Microsoft Dynamics] clientes hacen clic en [aquí](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-Una vez completados los pasos anteriores, ya está listo para comenzar. Si encuentra algún problema en el camino, no dude en ponerse en contacto con su [!DNL Marketo Measure] representante o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Después de completar estos pasos, la integración debería estar operativa. Si tiene algún problema, póngase en contacto con su [!DNL Marketo Measure] representante o [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >

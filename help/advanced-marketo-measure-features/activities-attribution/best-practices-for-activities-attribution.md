@@ -3,9 +3,9 @@ description: Prácticas recomendadas para la atribución de actividades - [!DNL 
 title: Prácticas recomendadas para la atribución de actividades
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ El [!DNL Marketo Measure] La función de atribución de actividades permite a lo
 
 El caso de uso más común de esta función es crear reglas que incorporen interacciones de ventas en los datos de puntos de contacto del comprador. La atribución de actividades permite alinear los datos de ventas y marketing en un recorrido.
 
-Para muchos [!DNL Salesforce] En algunos casos, el objeto Actividad puede alojar varios tipos de registros, por lo que es importante que las reglas de Actividad sean específicas y se adapten a los registros que intenta traducir en puntos de contacto. Las siguientes prácticas recomendadas ayudan a garantizar que crea puntos de contacto significativos y valiosos a través de la atribución de actividades.
+Para muchos [!DNL Salesforce] En algunos casos, el objeto Activity puede alojar varios tipos de registros, por lo que es importante que las reglas de Activity sean específicas y se adapten a los registros que intenta traducir en puntos de contacto. Las siguientes prácticas recomendadas ayudan a garantizar que crea puntos de contacto significativos y valiosos a través de la atribución de actividades.
 
 ## Práctica recomendada {#best-practice}
 

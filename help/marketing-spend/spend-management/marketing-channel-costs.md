@@ -4,20 +4,20 @@ description: Costos de canal de mercadotecnia - [!DNL Marketo Measure]
 title: Costes de canales de marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
 
 # Costes de canales de marketing {#marketing-channel-costs}
 
-Uno de los beneficios más fundamentales de utilizar [!DNL Marketo Measure] es la capacidad de conectar los esfuerzos de marketing directamente con el impacto en los ingresos, con tanta granularidad como se desee. Es posible ver el retorno de la inversión en el nivel de punto de contacto. Para aprovechar esta ventaja, los costes de canal simplemente deben cargarse en [!DNL Marketo Measure] aplicación. Los informes de ROI se crean automáticamente y están disponibles en **Tablero de ROI de marketing** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Uno de los beneficios más fundamentales de utilizar [!DNL Marketo Measure] es la capacidad de conectar los esfuerzos de marketing directamente con el impacto en los ingresos, con tanta granularidad como se desee. Es posible ver el retorno de la inversión en el nivel de punto de contacto. Para aprovechar esta ventaja, los costes de canal deben cargarse en [!DNL Marketo Measure] aplicación. Los informes de ROI se crean automáticamente y están disponibles en **Tablero de ROI de marketing** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Haga clic aquí para ir directamente a las instrucciones.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
-El [!DNL Marketo Measure] La función Gasto en marketing permite a los clientes cargar su gasto en todos los canales, subcanales y campañas. Cuantos más datos agreguen los clientes, más informes de ROI podremos mostrar en el Tablero de atribución de ingresos.
+El [!DNL Marketo Measure] La función Gasto en marketing permite a los clientes cargar su gasto en todos los canales, subcanales y campañas. Cuantos más datos agreguen los clientes, más informes de ROI aparecerán en el Tablero de atribución de ingresos.
 
 Los costes que se registran e importan desde conexiones de publicidad directa se recuperan automáticamente en el nivel más granular y no es necesario cargarlos. Esto incluye nuestras integraciones actuales con Google AdWords, Bing Ads, DoubleClick y Facebook.
 
@@ -27,23 +27,23 @@ Los costes que se registran e importan desde conexiones de publicidad directa se
 
 **Gasto por campaña**
 
-En el nivel más granular, los clientes pueden ingresar el gasto por campañas individuales, agrupadas dentro de su respectivo canal. Para campañas CRM, [!DNL Marketo Measure] ha extraído el ID de campaña en una columna independiente que le ayudará a asignar el gasto de campaña sin conexión de su CRM a esta tabla. Añadir el gasto en este nivel permitirá a los clientes ver el ROI de la campaña y optimizar el rendimiento por campaña.
+En el nivel más granular, los clientes pueden introducir el gasto por campañas individuales, agrupadas dentro de su canal respectivo. Para campañas CRM, [!DNL Marketo Measure] ha extraído el ID de campaña en una columna independiente que le ayuda a asignar el gasto de campaña sin conexión desde su CRM a esta tabla. Añadir el gasto en este nivel permite a los clientes ver el ROI de la campaña y optimizar el rendimiento por campaña.
 
 El total de todas las campañas no necesita sumar valores introducidos en el subcanal o canal, pero no puede ser más que cualquier valor introducido en el subcanal o canal. Si la suma es menor que el valor introducido en el subcanal o canal, [!DNL Marketo Measure] agregará automáticamente una fila para &quot;Otro&quot; para cubrir la diferencia y rellenar los huecos.
 
 **Gasto por subcanal**
 
-En un nivel superior, los clientes pueden introducir el gasto por subcanal, agrupado debajo de su canal. Añadir el gasto en este nivel permitirá a los clientes ver el ROI del subcanal y optimizar el rendimiento por subcanal.
+En un nivel superior, los clientes pueden introducir los gastos por subcanal, agrupados debajo de su canal. Añadir el gasto en este nivel permite a los clientes ver el ROI del subcanal y optimizar el rendimiento por subcanal.
 
 El total de todos los subcanales no necesita sumar valores introducidos en el canal, pero no puede ser más que cualquier valor introducido en el canal. Si la suma es menor que el valor introducido en el canal, [!DNL Marketo Measure] agregará automáticamente una fila para &quot;Otro&quot; para cubrir la diferencia y rellenar los huecos.
 
 **Gasto por canal**
 
-En el nivel más alto, los clientes pueden introducir el gasto por canal. Añadir el gasto a este nivel permitirá a los clientes ver el retorno de la inversión del canal y optimizar el rendimiento por canal.
+En el nivel más alto, los clientes pueden introducir los gastos por canal. Añadir el gasto a este nivel permite a los clientes ver el retorno de la inversión del canal y optimizar el rendimiento por canal.
 
 **Selector de fecha**
 
-El intervalo de fechas predeterminado comienza desde la fecha de inicio con [!DNL Marketo Measure] hasta el mes en curso. Para garantizar que los costes son correctos, no puede introducir costes para meses futuros, pero puede introducir costes para meses anteriores a su asociación con [!DNL Marketo Measure].
+El intervalo de fechas predeterminado comienza desde la fecha de inicio con [!DNL Marketo Measure] hasta el mes en curso. Para asegurarse de que los costes siguen siendo correctos, no puede introducir costes para meses futuros, pero puede introducir costes para meses anteriores a su asociación con [!DNL Marketo Measure].
 
 **Filtrar**
 
@@ -55,19 +55,19 @@ Utilice el cuadro Buscar para buscar texto coincidente de canales, subcanales o 
 
 **Descargar costos actuales**
 
-El CSV descargado extraerá los resultados de la pantalla actual, lo que significa que cualquier fecha, filtro o búsqueda que se aplique se descargará tal cual.
+El CSV descargado extrae los resultados de la pantalla actual, lo que significa que cualquier fecha, filtro o búsqueda que se aplique se descargará tal cual.
 
 **Cargar CSV**
 
 Independientemente de la vista que se encuentre en el explorador, si es una vista filtrada o la vista predeterminada con todas las fechas y canales, puede cargar cualquier CSV.
 
-El error más común que enfrentamos es el formato de las columnas de fecha, lo que sucede si el formato de fecha cambia y podría ocurrir intencionalmente si se mueve entre Excel y/o Hojas de cálculo de Google. Tenga en cuenta que la fecha debe ser MM-AA, de modo que 12-sep y no 12-sep, o 12-mayo y no 05-12.
+El error más común es el formato de las columnas de fecha, que ocurre si se cambia el formato de fecha y podría ocurrir intencionalmente si se mueve entre hojas de Excel o Google. Tenga en cuenta que la fecha debe ser MM-AA, de modo que 12-sep y no 12-sep, o 12-mayo y no 05-12.
 
 ## Antes de empezar {#before-you-begin}
 
 [!DNL Marketo Measure] viene con 13 canales predeterminados que se pueden usar o expandir. Además, se pueden crear hasta 40 canales en línea y sin conexión para adaptarse a su estructura de marketing única. Partiendo de esto, se pueden crear un total de 200 subcanales para admitir también estos canales en línea y sin conexión.
 
-[!DNL Marketo Measure] descargará automáticamente los costes de canal de marketing desde plataformas con las que tenga una integración de API, como Bing Ads y Google AdWords. Costes de las plataformas que no están integradas con [!DNL Marketo Measure] se deben cargar manualmente. Los canales de marketing deben configurarse antes de cargar los datos de costes.
+[!DNL Marketo Measure] descargará automáticamente los costes de canal de marketing desde plataformas con las que tenga una integración de API, como Bing Ads y Google AdWords. Costes de las plataformas que no están integradas con [!DNL Marketo Measure] debe cargarse manualmente. Los canales de marketing deben configurarse antes de cargar los datos de costes.
 
 ## Carga de costes de marketing {#uploading-marketing-costs}
 
@@ -75,7 +75,7 @@ Una vez configurados o actualizados los canales y las reglas de marketing, puede
 
 **Paso 1: Vaya a la página Gasto en marketing en [!DNL Marketo Measure] Aplicación.**
 
-Vaya a la **[!UICONTROL Mi cuenta]** , haga clic en **[!UICONTROL Configuración]** y, a continuación, vaya a **[!UICONTROL Gasto en marketing]** en la barra lateral izquierda debajo de la opción **[!UICONTROL Informes]** sección.
+Vaya a la **[!UICONTROL Mi cuenta]** , haga clic en **[!UICONTROL Configuración]** y, a continuación, vaya al **[!UICONTROL Gasto en marketing]** en la barra lateral izquierda debajo de la opción **[!UICONTROL Informes]** sección.
 
 ![](assets/1.png)
 
@@ -107,7 +107,7 @@ No es necesario introducir ni actualizar los costes de Bing Ads y Google AdWords
 
 **Paso 4: Guardar archivo en formato CSV**
 
-Si está trabajando en Hojas de cálculo de Google, asegúrese de descargar primero el archivo. No excluya ni elimine datos mensuales, ya que esto causará dificultades al intentar cargar el archivo CSV en [!DNL Marketo Measure] más tarde.
+Si está trabajando en Hojas de cálculo de Google, asegúrese de descargar primero el archivo. No excluya ni elimine datos mensuales, ya que esto causa dificultades al intentar cargar el archivo CSV en [!DNL Marketo Measure] más tarde.
 
 **Paso 5: cargar el archivo CSV**
 
@@ -117,11 +117,11 @@ Vaya a la **[!UICONTROL Coste]** de la sección [!DNL Marketo Measure] aplicaci�
 
 **¿Por qué los números aparecen en el CSV?**
 
-Si no se introduce ningún valor en un nivel superior como Canal o Subcanal, [!DNL Marketo Measure] Sumará automáticamente los niveles secundarios que se le presentarán una vez que se haya cargado el archivo. Además, si la suma de los hijos es menor que un valor introducido para el padre, [!DNL Marketo Measure] agregará una fila &quot;Otro&quot; para mostrar la diferencia en el total.
+Si no se introduce ningún valor en un nivel superior como Canal o Subcanal, [!DNL Marketo Measure] Sumará automáticamente los niveles secundarios que se le presentarán una vez que se haya cargado el archivo. Además, si la suma de los hijos es menor que un valor introducido para el padre, [!DNL Marketo Measure] agrega una fila &quot;Otro&quot; para mostrar la diferencia en el total.
 
 **¿Cómo se determinan las campañas en la lista que estoy viendo?**
 
-Por el momento, nuestros resultados enumeran las campañas que hemos visto que reciben crédito por un punto de contacto. Si hubo actividad de una campaña, se muestra esa campaña en función de la fecha de punto de contacto en la que se produjo.
+Por el momento, nuestros resultados enumeran las campañas que hemos visto que reciben crédito por un punto de contacto. Si había actividad de una campaña, se muestra esa campaña en función de la fecha de punto de contacto en la que se produjo.
 
 **Hay demasiadas filas y columnas para filtrar. ¿Puedo consolidar la vista?**
 

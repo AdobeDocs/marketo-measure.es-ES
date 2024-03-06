@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Flujos de trabajo de ingresos para Dynamics
 title: "[!DNL Marketo Measure] Flujos de trabajo de ingresos para Dynamics"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -27,37 +27,37 @@ Paso 2: Cree un flujo de trabajo que actualice el campo de cantidad de oportunid
 
 >[!NOTE]
 >
->No podemos señalar a la [!DNL Marketo Measure] Campo Importe de oportunidad (bizible2_bizible_Opportunity_amount) en Discover con cuentas de Dynamics. Los clientes de Dynamics deben crear un campo de cantidad de oportunidad personalizado para [!DNL Marketo Measure] para apuntar a en Discover. Una vez finalizado, el cliente debe crear un flujo de trabajo que se actualice **ambos** el [!DNL Marketo Measure] Importe de oportunidad (bizible2_bizible_Opportunity_amount) **y** el campo cantidad de oportunidad personalizada. El [!DNL Marketo Measure] El campo Cantidad de oportunidad viene con el paquete, pero se debe crear un campo personalizado.
+>No podemos señalar a la [!DNL Marketo Measure] Campo Importe de oportunidad (bizible2_bizible_Opportunity_amount) en Discover con cuentas de Dynamics. Los clientes de Dynamics deben crear un campo de cantidad de oportunidad personalizado para [!DNL Marketo Measure] para apuntar a en Discover. Una vez finalizado, el cliente debe crear un flujo de trabajo que actualice **ambos** el [!DNL Marketo Measure] Importe de oportunidad (bizible2_bizible_Opportunity_amount) **y** el campo cantidad de oportunidad personalizada. El [!DNL Marketo Measure] El campo Cantidad de oportunidad viene con el paquete, pero se debe crear un campo personalizado.
 
 Cantidad de instrucciones de flujo de trabajo:
 
 **#1 DE FLUJO DE TRABAJO**: oportunidad, actualización [!DNL Marketo Measure] Campo de importe de oportunidad y campo personalizado = Ingresos estimados
 
-Este flujo de trabajo se ejecuta con oportunidades abiertas cada vez que cambia la Estimated Revenue y actualiza la [!DNL Marketo Measure] Importe de la oportunidad y el campo personalizado para que sea igual al campo Ingresos estimados. El flujo de trabajo debe configurarse para ejecutarse en tiempo real, pero también puede ejecutarse bajo demanda para actualizar las oportunidades abiertas.
+Este flujo de trabajo se ejecuta con oportunidades abiertas cada vez que los ingresos estimados cambian y actualizan el [!DNL Marketo Measure] Importe de la oportunidad y el campo personalizado para que sea igual al campo Ingresos estimados. El flujo de trabajo debe configurarse para ejecutarse en tiempo real, pero también puede ejecutarse bajo demanda para actualizar las oportunidades abiertas.
 
-Proporcione su [!DNL Marketo Measure] punto de contacto con el nombre del campo de cantidad de oportunidad personalizada. Actualizarán el [!DNL Marketo Measure] Configuración de oportunidad de la aplicación para incluir el nombre del campo de cantidad de oportunidad personalizada. Esto indicará a Discover qué campo utilizar en el sistema de informes.
+Proporcione su [!DNL Marketo Measure] punto de contacto con el nombre del campo de cantidad de oportunidad personalizada. Actualizan el [!DNL Marketo Measure] Configuración de oportunidad de la aplicación para incluir el nombre del campo de cantidad de oportunidad personalizada. Esto indica a Discover qué campo utilizar en el sistema de informes.
 
 **#2 DE FLUJO DE TRABAJO**: oportunidad, actualización [!DNL Marketo Measure] Campo de importe de oportunidad y campo personalizado = Ingresos reales
 
-Este flujo de trabajo se ejecuta en tiempo real. Se inicia cuando un usuario cierra una oportunidad y actualizará la [!DNL Marketo Measure] Importe de oportunidad y el campo personalizado con los ingresos reales agregados al formulario Cierre de oportunidad antes de que la oportunidad se bloquee como cerrada.
+Este flujo de trabajo se inicia cuando un usuario cierra una oportunidad y actualiza la [!DNL Marketo Measure] Importe de oportunidad y el campo personalizado con los ingresos reales agregados al formulario Cierre de oportunidad antes de que la oportunidad se bloquee como cerrada.
 
 ## Parte 2: Fecha de cierre estimada frente a fecha de cierre real {#part-estimated-close-date-vs-actual-close-date}
 
-De forma predeterminada, los datos de ingresos de la canalización no estarán disponibles en el panel porque, de forma predeterminada, Dynamics tiene dos campos de fecha de cierre de existencias: Fecha de cierre estimada y Fecha de cierre real. [!DNL Marketo Measure] solo puede señalar a un campo de fecha de cierre en el panel y actualmente señalamos a la fecha de cierre real.
+De forma predeterminada, los datos de ingresos de la canalización no están disponibles en el panel porque, de forma predeterminada, Dynamics tiene dos campos de fecha de cierre de existencias: Fecha de cierre estimada y Fecha de cierre real. [!DNL Marketo Measure] solo puede señalar a un campo de fecha de cierre del panel y señala a la fecha de cierre real.
 
-Si las oportunidades abiertas no tienen datos en el campo Fecha de cierre real, no se ve ningún dato en el panel de las oportunidades abiertas. Dicho esto, se necesita un flujo de trabajo basado en la fase de oportunidad para admitir ambos campos de fecha.
+Si las oportunidades abiertas no tienen datos en el campo Fecha de cierre real, no hay datos en el panel para las oportunidades abiertas. Dicho esto, se necesita un flujo de trabajo basado en la fase de oportunidad para admitir ambos campos de fecha.
 
-1. Crear campo de fecha de cierre personalizado en el objeto de oportunidad (por ejemplo, [!DNL Marketo Measure] Fecha de cierre personalizada).
-1. Cree un flujo de trabajo para actualizar [!DNL Marketo Measure] Campo Fecha de cierre personalizada con la fecha desde la fecha de cierre estimada o la fecha de cierre real, en función de si la oportunidad está abierta o cerrada (el flujo de trabajo debe guardarse para ejecutarse en tiempo real, pero deberá ejecutarse &quot;bajo demanda&quot; al menos una vez para actualizar todas las operaciones abiertas actuales).
+1. Crear campo de fecha de cierre personalizado en el objeto de oportunidad ([!DNL Marketo Measure] Fecha de cierre personalizada).
+1. Cree un flujo de trabajo para actualizar [!DNL Marketo Measure] Campo Fecha de cierre personalizada con la fecha desde la fecha de cierre estimada o la fecha de cierre real, dependiendo de si la oportunidad está abierta o cerrada (el flujo de trabajo debe guardarse para ejecutarse en tiempo real, pero debe ejecutarse &quot;bajo demanda&quot; al menos una vez para actualizar todas las operaciones abiertas actuales).
 1. Pruebe el flujo de trabajo y confirme que funciona.
 1. El cliente debe proporcionar el nombre personalizado de la API de fecha de cierre a [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] para actualizar el [!DNL Marketo Measure] configuración de la aplicación para que apunte a [!DNL Marketo Measure] Campo Fecha de cierre personalizado en el panel.
 
-   Una vez completados los pasos anteriores, tendremos que ejecutar flujos de trabajo para actualizar tanto el formulario personalizado [!DNL Marketo Measure] Importe de operación y el campo [!DNL Marketo Measure] Campo Fecha de cierre personalizada en las oportunidades históricas para reflejar los datos correctos. Es probable que esto cambie los campos modificados en/por, por lo que querrá consultar con su equipo para ver si esto presenta algún problema.
+   Una vez completados los pasos anteriores, ejecute los flujos de trabajo para actualizar tanto el personalizado [!DNL Marketo Measure] Importe de operación y el campo [!DNL Marketo Measure] Campo Fecha de cierre personalizada en las oportunidades históricas para reflejar los datos correctos. Es probable que esto cambie los campos modificados en/por, por lo que debe consultar con su equipo para ver si esto presenta algún problema.
 
 Para actualizar las oportunidades cerradas...
 
-1. Aísle las oportunidades que se han cerrado desde la [!DNL Marketo Measure] la fecha de inicio hasta que el flujo de trabajo esté activo. Este es el grupo de oportunidades históricas que deberá actualizar mediante un flujo de trabajo.
+1. Aísle las oportunidades que se han cerrado desde la [!DNL Marketo Measure] la fecha de inicio hasta que el flujo de trabajo esté activo. Este es el grupo de oportunidades históricas que debe actualizar mediante un flujo de trabajo.
 1. Exportar todos los registros a Excel.
 1. Abra el archivo de Excel y habilite el contenido.
 1. Copiar datos de fecha de cierre real en [!DNL Marketo Measure] Fecha de cierre personalizada.

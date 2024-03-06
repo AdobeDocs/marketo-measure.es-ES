@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Objetos de Salesforce: [!DNL Marketo Measur
 title: "Objetos de Salesforce de [!DNL Marketo Measure]"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 89%
+source-wordcount: '938'
+ht-degree: 86%
 
 ---
 

@@ -3,10 +3,10 @@ description: 'Nueva guía del panel de Discover: [!DNL Marketo Measure] - Produc
 title: Nueva guía del panel Discover
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 4%
+source-wordcount: '1076'
+ht-degree: 3%
 
 ---
 
@@ -427,7 +427,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
         </p>
       </td>
       <td>
-        <p>Estas dimensiones son específicas de la plataforma y no ofrecen una vista integral del tráfico web. Recomendamos a los usuarios explorar los datos de canal, subcanal o campaña en Marketo Measure y luego profundizar en herramientas específicas de plataforma para obtener perspectivas a nivel creativo o de palabra clave para mantener la precisión y el contexto.
+        <p>Estas dimensiones son específicas de la plataforma y no ofrecen una vista integral del tráfico web. Se recomienda que los usuarios exploren los datos de canal, subcanal o campaña en Marketo Measure y luego profundicen en herramientas específicas de plataforma para obtener perspectivas a nivel creativo o de palabra clave para mantener la precisión y el contexto.
         </p>
       </td>
     </tr>

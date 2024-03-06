@@ -3,16 +3,16 @@ unique-page-id: 18874761
 description: Inicio de sesión único - [!DNL Marketo Measure]
 title: Inicio de sesión único
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
 
 # Inicio de sesión único {#single-sign-on}
 
-SAML (lenguaje de marcado de aserciones de seguridad) para SSO (inicio de sesión único) permite a los usuarios autenticarse a través del proveedor de identidad de una empresa cuando inician sesión en [!DNL Marketo Measure] aplicación. SSO permite que un usuario se autentique una sola vez, sin necesidad de autenticar aplicaciones independientes. SAML es una necesidad para los clientes empresariales, ya que no todos los usuarios tendrán un [!DNL Salesforce] o [!DNL Google] cuenta dentro de su organización. Para escalar, [!DNL Marketo Measure] ha desarrollado una solución SAML compatible con los proveedores de identidad de la empresa.
+SAML (lenguaje de marcado de aserciones de seguridad) para SSO (inicio de sesión único) permite a los usuarios autenticarse a través del proveedor de identidad de una empresa cuando inician sesión en [!DNL Marketo Measure] aplicación. SSO permite que un usuario se autentique una vez, sin necesidad de autenticar aplicaciones independientes. SAML es una necesidad para los clientes empresariales, ya que no todos los usuarios tienen un [!DNL Salesforce] o [!DNL Google] cuenta dentro de su organización. Para escalar, [!DNL Marketo Measure] ha desarrollado una solución SAML compatible con los proveedores de identidad de la empresa.
 
 >[!CAUTION]
 >
@@ -35,7 +35,7 @@ Para empezar, vaya a la página Configuración > Seguridad > Autenticación en [
 
 ## Procesar {#process}
 
-[!DNL Marketo Measure] El inicio de sesión único requiere que establezca la configuración de autenticación en una serie de pasos que es importante seguir para que no se arriesgue a que se le bloquee el acceso a su [!DNL Marketo Measure] cuenta.
+[!DNL Marketo Measure] El inicio de sesión único requiere configurar los ajustes de autenticación en una serie de pasos para que no se arriesgue a quedar bloqueado en su [!DNL Marketo Measure] cuenta.
 
 Configure las variables [!DNL Marketo Measure] Aplicación en su proveedor de identidad. Consulte la documentación externa que se muestra a continuación para ver tutoriales.
 
@@ -144,7 +144,7 @@ Para [!DNL Dynamics] Roles, utilice el nombre de cada Rol de seguridad. Todos lo
 
 **Usuarios de Google**
 
-Una vez configurado el SSO personalizado, la variable [!UICONTROL Usuarios] La página se actualizará para mostrar solo los usuarios externos que se hayan añadido con los inicios de sesión de Google. Dado que todos los usuarios con acceso a se definen mediante la configuración de SSO, aquí se enumeran los usuarios externos adicionales.
+Una vez configurado el SSO personalizado, la variable [!UICONTROL Usuarios] Esta página se actualiza para mostrar únicamente los usuarios externos que se han añadido con los inicios de sesión de Google. Dado que todos los usuarios con acceso a se definen mediante la configuración de SSO, aquí se enumeran los usuarios externos adicionales.
 
 ![](assets/9.png)
 
@@ -152,7 +152,7 @@ Solo válido [!DNL Google] Las cuentas de se pueden agregar y deben tener una fu
 
 ## Vínculos externos {#external-links}
 
-* [Okta](http://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [Identidad de ping](http://docs.pingidentity.com/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [OneLogin](http://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
-* [Active Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [Identidad de ping](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
+* [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

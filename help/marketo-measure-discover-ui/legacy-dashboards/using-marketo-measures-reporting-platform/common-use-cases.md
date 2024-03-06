@@ -4,9 +4,9 @@ description: 'Casos de uso comunes: [!DNL Marketo Measure]'
 title: Casos de uso comunes
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Al ver los ingresos de la canalización, recomendamos cambiar las fechas a un in
 
 ## ROI de búsqueda pagada {#paid-search-roi}
 
-Si desea obtener información sobre la Campaña e incluso sobre el ROI a nivel de palabra clave de sus esfuerzos de búsqueda de pago, vaya al panel ROI de los anuncios en Vistas basadas en roles en Discover. Este panel también proporciona información sobre ingresos, gastos, ingresos de canalización, posibles clientes, contactos, oportunidades y ofertas de anuncios pagados.
+Si desea obtener información sobre el retorno de la inversión (ROI) de la campaña e incluso a nivel de palabra clave de sus esfuerzos de búsqueda de pago, vaya al panel de ROI de los anuncios en las vistas basadas en roles de Discover. Este panel también proporciona información sobre ingresos, gastos, ingresos de canalización, posibles clientes, contactos, oportunidades y ofertas de anuncios pagados.
 
 Además, el panel de medios de pago en Vistas basadas en roles mostrará impresiones, clics, vistas de página y visitas de todos los canales de medios de pago.
 
