@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Guía de implementación definitiva: [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Guía de implementación de Ultimate'
 feature: Integration, Tracking, Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 64%
 
 ---
@@ -131,12 +131,13 @@ Antes de empezar, vaya a la sección &quot;Experience Platform > Asignación de 
 
 >[!NOTE]
 >
+>* Se recomienda incluir solo un conjunto de datos por flujo de datos.
 >* Los datos de una entidad determinada (por ejemplo, Account) de una fuente determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detienen el flujo de datos en tiempo de ejecución.
 >* Elimine todo el destino en AEP para eliminar datos en Measure. Al deshabilitar, se detienen las nuevas exportaciones de datos y se conservan los datos antiguos.
 >* La configuración de la medida será básicamente la misma, pero algunas partes, como la Asignación de fases, tendrán un aspecto diferente.
 >* Un nuevo flujo de datos tarda unas horas en generar una ejecución de flujo y, a continuación, se produce a intervalos regulares por hora.
 
-En Measure, la moneda predeterminada debe configurarse en la sección &quot;Moneda&quot;
+En Measure, la moneda predeterminada debe configurarse en la sección &quot;Moneda&quot;.
 
 * Si utiliza varias monedas, el esquema de tasa de conversión de moneda debe rellenarse en AEP para que lo leamos y utilicemos para las conversiones.
 
