@@ -7,7 +7,7 @@ feature: Data Warehouse
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '21110'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -512,7 +512,7 @@ Anuncios importados desde cualquier cuenta de anuncios conectada.
     </tr>
     <tr>
       <td>ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Clave externa de la vista Biz_Facts.</td>
       <td>6008900572523230000</td>
     </tr>
@@ -667,7 +667,7 @@ Anunciantes importados desde cualquier cuenta de anuncios conectada.
     </tr>
     <tr>
       <td>ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Clave externa de la vista Biz_Facts.</td>
       <td>6008900572523230000</td>
     </tr>
@@ -966,7 +966,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
         <p>LAST_30_DAYS_IMPRESSIONS</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>El número de impresiones de los últimos 30 días, solo aplicable a AdWords.</p>
@@ -980,7 +980,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
         <p>LAST_30_DAYS_CLICKS</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>El número de clics de los últimos 30 días, solo aplicable a AdWords.</p>
@@ -994,7 +994,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
         <p>LAST_30_DAYS_CONVERSIONS</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>El número de conversiones notificadas de los últimos 30 días, solo aplicable a AdWords.</p>
@@ -1046,7 +1046,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -1362,7 +1362,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -1889,7 +1889,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -1958,7 +1958,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -2929,7 +2929,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -2943,44 +2943,44 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>OPPORTUNITY_ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>LANDING_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>REFERRER_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>FORM_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ACCOUNT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ADVERTISER_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>SITE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
@@ -2988,37 +2988,37 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
       <td>
         <p>PLACEMENT_ROW_KEY</p>
       </td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CAMPAIGN_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_GROUP_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CREATIVE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>KEYWORD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
@@ -3066,13 +3066,13 @@ Datos generados a partir de la integración de Attribution AI. Estos campos solo
   <tr>
     <td>CONVERSION_NAME</td>
     <td>varchar</td>
-    <td>nombre del evento de conversión (tal como lo especifique el cliente en la configuración de la interfaz de usuario)</td>
+    <td>nombre del evento de conversión (tal como lo especifique el cliente en la configuración de la IU)</td>
     <td> </td>
   </tr>
   <tr>
     <td>CONVERSION_ID</td>
     <td>varchar</td>
-    <td>id para el evento de conversión (es el valor de id único original enviado con el registro de datos de evento en el conjunto de datos de origen)</td>
+    <td>id para el evento de conversión (es el valor de ID único original enviado con el registro de datos de evento en el conjunto de datos de origen)</td>
     <td>0013100001b44aGAAQ</td>
   </tr>
   <tr>
@@ -3097,7 +3097,7 @@ Datos generados a partir de la integración de Attribution AI. Estos campos solo
   <tr>
     <td>CONVERSION_LEAD_ID</td>
     <td>varchar</td>
-    <td>ID de posible cliente original de MM para el evento de conversión <br>probablemente sea nulo la mayor parte del tiempo</td>
+    <td>ID de posible cliente original de MM para el evento de conversión que <br>probablemente sea nulo la mayor parte del tiempo</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
@@ -3121,13 +3121,13 @@ Datos generados a partir de la integración de Attribution AI. Estos campos solo
   </tr>
   <tr>
     <td>INFLUENCED_PERCENT</td>
-    <td>number(38,35)</td>
+    <td>número(38,35)</td>
     <td>la fracción de conversión de la que es responsable cada punto de contacto</td>
     <td>0,10</td>
   </tr>
   <tr>
     <td>INCREMENTAL_PERCENT</td>
-    <td>number(38,35)</td>
+    <td>número(38,35)</td>
     <td>la cantidad de impacto marginal causado directamente por un punto de contacto</td>
     <td>0,25</td>
   </tr>
@@ -3140,36 +3140,36 @@ Datos generados a partir de la integración de Attribution AI. Estos campos solo
   <tr>
     <td>TOUCHPOINT_EVENT_ID</td>
     <td>varchar</td>
-    <td>id del evento que generó el punto de contacto</td>
+    <td>id. del evento que creó el punto de contacto del usuario</td>
     <td>00U3100000VLUnEEAX</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_OPPORTUNITY_ID</td>
     <td>varchar</td>
-    <td>id de la oportunidad asociada al punto de contacto</td>
+    <td>id. de la oportunidad asociada con el punto de contacto</td>
     <td>0060Z00000lFHtOQAW</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_ACCOUNT_ID</td>
     <td>varchar</td>
-    <td>id de la cuenta asociada al punto de contacto</td>
+    <td>id. de la cuenta asociada con el punto de contacto</td>
     <td>0013100001kpAZxAAM</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_LEAD_ID</td>
     <td>varchar</td>
-    <td>id del posible cliente asociado al punto de contacto</td>
+    <td>id. del posible cliente asociado con el punto de contacto</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_CONTACT_ID</td>
     <td>varchar</td>
-    <td>id del contacto asociado con el punto de contacto</td>
+    <td>id. del contacto asociado con el punto de contacto</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
     <td>COUNT_TO_CONVERSION</td>
-    <td>number(38,0)</td>
+    <td>número(38,0)</td>
     <td>el valor ordinal o de rango del punto de contacto en la cadena que lleva al evento de conversión</td>
     <td>10000</td>
   </tr>
@@ -3188,13 +3188,13 @@ Datos generados a partir de la integración de Attribution AI. Estos campos solo
   <tr>
     <td>_MODIFIED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>fecha de la última modificación del registro en Snowflake</td>
+    <td>fecha de última modificación del registro en Snowflake</td>
     <td>01/01/2020 01:01:00,000</td>
   </tr>
   <tr>
     <td>_DELETED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>fecha en la que se eliminó el registro en Snowflake</td>
+    <td>fecha de eliminación del registro en Snowflake</td>
     <td>01/01/2020 01:01:00,000</td>
   </tr>
 </tbody>
@@ -3494,7 +3494,7 @@ Canales de marketing, tal como se crearon en la aplicación [!DNL Marketo Measur
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -3688,7 +3688,7 @@ Contactos importados desde el sistema de origen.
     </tr>
     <tr>
       <td>ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Clave externa de la vista Biz_Facts.</td>
       <td>3263982503087870000</td>
     </tr>
@@ -3736,13 +3736,13 @@ Tasas de conversión de divisa importadas desde el sistema de origen.
     </tr>
     <tr>
       <td>ID</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Un id. único para el registro.</td>
       <td>-5942345438803054604</td>
     </tr>
     <tr>
       <td>CURRENCY_ID</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>El valor de id. para la divisa.</td>
       <td>7493833133899044458</td>
     </tr>
@@ -3766,7 +3766,7 @@ Tasas de conversión de divisa importadas desde el sistema de origen.
     </tr>
     <tr>
       <td>CONVERSION_RATE</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>La tasa utilizada para convertir la divisa en la divisa corporativa.</td>
       <td>0.76728300</td>
     </tr>
@@ -3853,25 +3853,25 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
     </tr>
     <tr>
       <td>COST_IN_MICRO</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>La cantidad de costes en millones. El usuario tendrá que dividir el valor por 1 000 000.</td>
       <td>1410000</td>
     </tr>
     <tr>
       <td>CLICKS</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>El número de clics registrados para el grupo durante el día.</td>
       <td>4</td>
     </tr>
     <tr>
       <td>IMPRESSIONS</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>El número de impresiones registradas para el grupo durante el día.</td>
       <td>4187</td>
     </tr>
     <tr>
       <td>ESTIMATED_TOTAL_POSSIBLE_IMPRESSIONS</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>El número total de impresiones estimadas de DCM para el grupo durante el día.</td>
       <td>5024</td>
     </tr>
@@ -4249,7 +4249,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
     </tr>
     <tr>
       <td>ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
       </td>
@@ -4259,61 +4259,61 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>
         <p>ACCOUNT_ROW_KEY</p>
       </td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ADVERTISER_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>SITE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>PLACEMENT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CAMPAIGN_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_GROUP_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CREATIVE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>KEYWORD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CURRENCY_ID</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>El valor de id. de la divisa para el registro.</td>
       <td>
         <p>-3253183181619994799</p>
@@ -4741,7 +4741,7 @@ Creativos importados desde cualquier cuenta de anuncios conectada.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>Clave externa de la vista Biz_Facts.</td>
       <td>6008900572523230000</td>
@@ -5119,7 +5119,7 @@ La tabla de todas las divisas ISO.
     </tr>
     <tr>
        <td>ID</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Un id. único para el registro de divisa.</td>
       <td>139474809945095870</td>
     </tr>
@@ -5169,13 +5169,13 @@ La tabla de todas las divisas ISO.
     </tr>
     <tr>
       <td>ISO_NUMERIC</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>El código numérico estándar ISO.</td>
       <td>048</td>
     </tr>
     <tr>
       <td>EXPONENT</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>El número de decimales entre la unidad de divisa definida más pequeña y una unidad de divisa entera.</td>
       <td>2</td>
     </tr>
@@ -5814,31 +5814,31 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
     </tr>
     <tr>
       <td>COST_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Costes.</td>
       <td>2672629811884560039</td>
     </tr>
     <tr>
       <td>ATP_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Puntos de contacto de atribución.</td>
       <td>2672629811884560039</td>
     </tr>
     <tr>
       <td>TP_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a las tablas Puntos de contacto o Puntos de contacto del usuario.</td>
       <td>5028390208679093800</td>
     </tr>
     <tr>
       <td>PAGE_VIEW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Vistas de página.</td>
       <td>-8044063242541720607</td>
     </tr>
     <tr>
       <td>SESSION_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Sesiones.</td>
       <td>8817975702393619368</td>
     </tr>
@@ -5856,37 +5856,37 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
     </tr>
     <tr>
       <td>FORM_SUBMIT_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Envíos de formulario.</td>
       <td>-8659572802702769670</td>
     </tr>
     <tr>
       <td>IMPRESSION_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Impresiones.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CURRENT_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Direcciones URL.</td>
       <td>4079876040770132443</td>
     </tr>
     <tr>
       <td>REFERRER_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Direcciones URL.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>FORM_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Direcciones URL.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>AD_PROVIDER_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Se utiliza para unirse a la tabla Proveedores de anuncios.</td>
       <td>8817975702393619368</td>
     </tr>
@@ -5895,7 +5895,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>CHANNEL_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Canales.</p>
@@ -5909,7 +5909,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>CAMPAIGN_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Campañas de anuncios.</p>
@@ -5923,7 +5923,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>KEYWORD_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Palabras clave.</p>
@@ -5937,7 +5937,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>AD_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Anuncios.</p>
@@ -5951,7 +5951,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>AD_GROUP_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Grupos de anuncios.</p>
@@ -5965,7 +5965,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>CREATIVE_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Creativos.</p>
@@ -5979,7 +5979,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>SITE_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Sitios.</p>
@@ -5993,7 +5993,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>ADVERTISER_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Anunciantes.</p>
@@ -6007,7 +6007,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>AD_ACCOUNT_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Cuentas de anuncios.</p>
@@ -6021,7 +6021,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>PLACEMENT_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Se utiliza para unirse a la tabla Ubicaciones.</p>
@@ -6122,7 +6122,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
     </tr>
     <tr>
       <td>TYPE</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Indica el tipo de hecho de la fila. 1 = Punto de contacto de atribución de comprador 2 = Coste 3 = Punto de contacto de comprador 4 = Punto de contacto del usuario 5 = Vista de página 6 = Sesión 7 = Envío de formulario 8 = Impresión</td>
       <td>3</td>
     </tr>
@@ -6153,7 +6153,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>COST_IN_MICRO</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>La cantidad de costes en millones. El usuario tendrá que dividir el valor por 1 000 000.</p>
@@ -6167,7 +6167,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>IMPRESSIONS</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>El número de impresiones registradas para el grupo durante el día.</p>
@@ -6181,7 +6181,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>CLICKS</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>El número de clics registrados para el grupo durante el día.</p>
@@ -6546,7 +6546,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
     </tr>
     <tr>
       <td>CURRENCY_ID</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>El valor de id. de la divisa para el registro.</td>
       <td>-3253183181619994799</td>
     </tr>
@@ -6804,7 +6804,7 @@ Envíos de formulario capturados.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -6815,7 +6815,7 @@ Envíos de formulario capturados.
     </tr>
     <tr>
       <td>CURRENT_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Clave externa de la tabla URL.</td>
       <td>6255315750913680000</td>
     </tr>
@@ -7066,7 +7066,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       </td>
       <td>varchar</td>
       <td>Se espera que sea nulo porque el campo está obsoleto.</td>
-      <td>NULL</td>
+      <td>NULO</td>
     </tr>
     <tr>
       <td>
@@ -7383,7 +7383,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista BIZ_FACTS.</p>
@@ -7396,67 +7396,67 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       <td>
         <p>CURRENT_PAGE_KEY</p>
       </td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>REFERRER_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ACCOUNT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ADVERTISER_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>SITE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>PLACEMENT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CAMPAIGN_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_GROUP_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CREATIVE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>KEYWORD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
@@ -7818,7 +7818,7 @@ Palabras clave importadas desde cualquier cuenta de anuncios conectada.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -8306,7 +8306,7 @@ Posibles clientes importados desde el sistema de origen.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -8467,7 +8467,7 @@ Transiciones de fase para posibles clientes o contactos.
         <p>RANK</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>La clasificación numérica de la fase, tal como se ordenó en la configuración de la asignación de fase de [!DNL Marketo Measure].</p>
@@ -8832,7 +8832,7 @@ Oportunidades importadas desde el sistema de origen.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -8849,7 +8849,7 @@ Oportunidades importadas desde el sistema de origen.
     </tr>
     <tr>
       <td>CURRENCY_ID</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>El valor de id. de la divisa para el registro.</td>
       <td>4609512587744160000</td>
     </tr>
@@ -9010,7 +9010,7 @@ Transiciones de fase para oportunidades.
         <p>RANK</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>La clasificación numérica de la fase, tal como se ordenó en la configuración de la asignación de fase de [!DNL Marketo Measure].</p>
@@ -9373,7 +9373,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -9384,13 +9384,13 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
     </tr>
     <tr>
       <td>CURRENT_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Clave externa de la tabla URL.</td>
       <td>6255315750913680000</td>
     </tr>
     <tr>
       <td>REFERRER_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Clave externa de la tabla URL.</td>
       <td>6255315750913680000</td>
     </tr>
@@ -9629,7 +9629,7 @@ Tabla que almacena todas las ubicaciones descargadas de cualquier cuenta de anun
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -9696,7 +9696,7 @@ Los valores de los segmentos tal como se define en la aplicación [!DNL Marketo 
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -10434,7 +10434,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>varchar</td>
       <td>Se espera que sea nulo porque el campo está obsoleto.</td>
       <td>
-        <p>NULL</p>
+        <p>NULO</p>
       </td>
     </tr>
     <tr>
@@ -10468,7 +10468,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -10479,67 +10479,67 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
     </tr>
     <tr>
       <td>LANDING_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>REFERRER_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ACCOUNT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ADVERTISER_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>SITE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>PLACEMENT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CAMPAIGN_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_GROUP_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CREATIVE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>KEYWORD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
@@ -10776,7 +10776,7 @@ Sitios importados desde cualquier cuenta de anuncios conectada.
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -11234,7 +11234,7 @@ La lista de fases tal como se importan o definen en la aplicación [!DNL Marketo
         <p>RANK</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clasificación numérica de la fase, utilizada para ordenar las fases en orden transitorio.</p>
@@ -12216,7 +12216,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
         <p>ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td>
         <p>Clave externa de la vista Biz_Facts.</p>
@@ -12230,7 +12230,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
         <p>CONTACT_ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td></td>
       <td></td>
@@ -12240,80 +12240,80 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
         <p>LEAD_ROW_KEY</p>
       </td>
       <td>
-        <p>number(38,0)</p>
+        <p>número(38,0)</p>
       </td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>LANDING_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>REFERRER_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>FORM_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ACCOUNT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ADVERISER_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>SITE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>PLACEMENT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CAMPAIGN_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_GROUP_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CREATIVE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>KEYWORD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
@@ -12388,7 +12388,7 @@ Adición de direcciones URL de páginas de destino, páginas de referente y vist
     </tr>
     <tr>
       <td>ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Clave externa de la vista Biz_Facts.</td>
       <td>5686109553536636820</td>
     </tr>
@@ -13101,79 +13101,79 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
     </tr>
     <tr>
       <td>ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td>Clave externa de la vista Biz_Facts.</td>
       <td>-5269090762570690000</td>
     </tr>
     <tr>
       <td>LANDING_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>REFERRER_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>FORM_PAGE_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ACCOUNT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>ADVERISER_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>SITE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>PLACEMENT_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CAMPAIGN_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>AD_GROUP_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>CREATIVE_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>KEYWORD_ROW_KEY</td>
-      <td>number(38,0)</td>
+      <td>número(38,0)</td>
       <td></td>
       <td></td>
     </tr>
