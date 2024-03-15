@@ -4,7 +4,7 @@ description: 'Informes sobre oportunidades con o sin puntos de contacto de atrib
 title: Informes sobre oportunidades con o sin puntos de contacto de atribución de comprador
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 20%
@@ -41,4 +41,4 @@ Crea un nuevo tipo de informe para incluir todas las oportunidades con o sin pun
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universidad: Informes adicionales de SFDC](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)
+>[[!DNL Marketo Measure] Tutorials: Informes de SFDC adicionales](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

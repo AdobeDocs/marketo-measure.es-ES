@@ -4,7 +4,7 @@ description: 'Campañas y miembros de la campaña: [!DNL Marketo Measure]'
 title: Campañas y miembros de la campaña
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Una vez que haya establecido la fecha y la hora, haga clic en **[!UICONTROL Actu
 
 ## Costes de campaña {#campaign-costs}
 
-Obtenga más información sobre los costes de Campaign [en este artículo](/help/marketing-spend/spend-management/crm-campaign-costs.md).
+Obtenga más información sobre los costes de Campaign [en este artículo](/help/marketing-spend/spend-management/crm-campaign-costs.md){target="_blank"}.
 
 ## Eliminación de miembros de campaña {#campaign-member-removal}
 
@@ -126,6 +126,6 @@ Para evitar este problema, [!DNL Marketo Measure] creó un [!DNL Marketo Measure
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] University: Campos de objetos de campaña](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Tutorials: Campos de objetos de Campaign](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] Universidad: Asignación de canales sin conexión](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>[[!DNL Marketo Measure] Tutorials: Asignación de canales sin conexión](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
