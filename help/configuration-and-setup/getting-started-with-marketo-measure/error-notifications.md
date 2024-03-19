@@ -3,9 +3,9 @@ description: Notificaciones de error - [!DNL Marketo Measure]
 title: Notificaciones de errores
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 2b13a518d1be768a5c312ea4abdf2039aa22cf08
+source-git-commit: 20f886a0c6f448956ad2fda2d21a25f8d9a5a6af
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1692'
 ht-degree: 30%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 30%
 # Notificaciones de errores {#error-notifications}
 
 A continuación se muestra una lista de errores que puede recibir mediante una notificación en la aplicación o por correo electrónico. Si recibe alguno de estos, siga los pasos correspondientes para la resolución de problemas. Si estos pasos no resuelven el problema, póngase en contacto con el [equipo de soporte de Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
+
+Para ver el mensaje de notificación completa en [!DNL Marketo Measure], haga clic en **Ver todo** en la parte inferior de la pestaña Notificaciones.
+
+![](assets/error-notifications-1.png)
 
 <table>
   <tbody>
@@ -49,7 +53,7 @@ A continuación se muestra una lista de errores que puede recibir mediante una n
             </li>
           </ul>
           <p>
-           <img src="assets/error-notifications-1.png">
+           <img src="assets/error-notifications-2.png">
           </p>
       </td>
     </tr>
@@ -87,27 +91,17 @@ Documentación de Salesforce sobre déclencheur de flujo <a href="https://admin.
       <td>DUPLICATES_DETECTED</td>
       <td>Error durante la exportación de Crm: DUPLICATES_DETECTED : Tipo de entidad 'Contacto': Código de error de CRM: DUPLICATES_DETECTED, Mensaje de error de CRM: Está creando un registro duplicado. Se recomienda usar un registro existente en su lugar., RecordId: 0123456</td>
       <td>El registro que se está importando a la organización de Salesforce ya existe.</td>
-      <td>
-        <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Deshabilite la configuración "Duplicar regla"</a> para permitir duplicados.
-          </li>
-          <li>Excluir al usuario dedicado de Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">reglas de validación personalizadas</a>.
-          </li>
-        </ul>
-      </td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Deshabilite la configuración "Duplicar regla"</a> para permitir duplicados.
+          <p>
+          Excluir al usuario dedicado de Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">reglas de validación personalizadas</a>.</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
       <td>Error durante la exportación de Crm: DUPLICATE_VALUE : Tipo de entidad 'Posible cliente': Código de error de CRM: DUPLICATE_VALUE, Mensaje de error de CRM: valor duplicado encontrado: Email_Unique__c duplica el valor en el registro con ID: 123, RecordId: 456</td>
       <td>El campo que se está importando a la organización de Salesforce no permite valores duplicados.</td>
-      <td>
-        <ul>
-          <li>Desmarque la <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Casilla de verificación única"</a> en Salesforce.
-          </li>
-          <li>Excluir al usuario dedicado de Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">reglas de validación personalizadas</a>.
-          </li>
-        </ul>
-      </td>
+      <td>Desmarque la <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Casilla de verificación única"</a> en Salesforce.
+          <p>
+          Excluir al usuario dedicado de Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">reglas de validación personalizadas</a>.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
