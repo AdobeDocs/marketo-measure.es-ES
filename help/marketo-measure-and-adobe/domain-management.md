@@ -3,7 +3,7 @@ description: Administración de dominios - [!DNL Marketo Measure]
 title: Administración de dominios
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 4c68fa08797c252a89ba097c723fb8afee82451f
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Los usuarios de IMS con acceso a Adobe Admin Console pueden agregar y validar lo
 
 ![](assets/domain-management-1.png)
 
-Las instrucciones para agregar dominios se encuentran en [Documentación del Admin Console](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains). Una vez agregado un dominio, debe ser [enlazado a un directorio](https://helpx.adobe.com/enterprise/using/set-up-identity.html#link-domains-to-directories).
+Las instrucciones para agregar dominios se encuentran en [Documentación del Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Una vez agregado un dominio, debe ser [enlazado a un directorio](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Administración de dominios en [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
