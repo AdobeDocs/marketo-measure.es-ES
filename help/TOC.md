@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
-source-git-commit: 00a362a2e143749e1a132672b847eb06dcab6b9c
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '802'
 ht-degree: 99%
 
 ---
@@ -164,20 +164,6 @@ ht-degree: 99%
       + [Panel de información general sobre ingresos](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Panel de ROI ](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Panel de tráfico web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
-
-   + Paneles heredados {#legacy-dashboards}
-      + [Documentación del tablero de recorrido de cohorte](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
-      + [Documentación del tablero de pasaporte](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
-      + [Documentación del tablero de instantáneas](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
-      + Uso de la plataforma de generación de informes de [!DNL Marketo Measure] {#using-marketo-measures-reporting-platform}
-         + [Casos de uso comunes](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
-         + [Definiciones y enciclopedia](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
-         + [Obtención de detalles](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
-         + [Filtros](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
-         + [Preguntas frecuentes](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
-         + [Ruta de participación](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
-         + [Mosaicos de operaciones de marketing](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
-         + [Información general sobre los mosaicos del tablero](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + [!DNL Marketo Measure] y Adobe {#marketo-measure-and-adobe}
    + [Integraciones de [!DNL Marketo Measure] con Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [Integraciones de [!DNL Marketo Measure] con Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)

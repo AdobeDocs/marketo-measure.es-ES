@@ -3,9 +3,9 @@ description: Tablero de ROI - [!DNL Marketo Measure] - Producto
 title: Panel de ROI
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '725'
 ht-degree: 2%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 2%
 # Panel de ROI  {#roi-dashboard}
 
 El panel ROI proporciona a los especialistas en marketing una vista granular de la rentabilidad de la inversión en canales, subcanales y campañas. Desglosa meticulosamente los patrones de coste e ingresos, a la vez que destaca métricas como coste por cliente potencial, acuerdo y oportunidad, lo que garantiza una comprensión integral de la atribución de marketing.
-
->[!NOTE]
->
->Este tablero está actualmente en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto una vez que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
 
 **Preguntas que el tablero responde**
 
@@ -121,7 +117,7 @@ Tabla con costes, nuevos posibles clientes, oportunidades y ofertas cerrados seg
 
 * Canal/Subcanal/Campaña
 * Coste
-* Nuevos posibles clientes
+* Nuevos leads
 * Coste por nuevo posible cliente
 * Nuevas oportunidades
 * Costo por nueva oportunidad

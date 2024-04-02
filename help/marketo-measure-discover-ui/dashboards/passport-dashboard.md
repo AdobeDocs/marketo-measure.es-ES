@@ -3,20 +3,16 @@ description: Panel de Passport - [!DNL Marketo Measure] - Producto
 title: Panel de Passport
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 2%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
 # Panel de Passport {#passport-dashboard}
 
 El panel Passport ofrece a los especialistas en marketing una vista dinámica de los posibles clientes, los contactos y las oportunidades a medida que realizan la transición en varias fases dentro de un periodo especificado. Al filtrar por una fecha específica, los usuarios también pueden obtener una instantánea de los registros de ese día.
-
->[!NOTE]
->
->Este tablero está actualmente en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto una vez que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
 
 **Preguntas que el tablero responde:**
 

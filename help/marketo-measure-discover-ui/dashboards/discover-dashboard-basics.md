@@ -3,9 +3,9 @@ description: 'Descubra los conceptos básicos del tablero: [!DNL Marketo Measure
 title: Descubra los conceptos básicos del panel
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '386'
 ht-degree: 2%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 2%
 # Descubra los conceptos básicos del panel {#discover-dashboard-basics}
 
 Este artículo le guiará a través de las funcionalidades básicas de la interfaz rediseñada, lo que garantiza que pueda acceder e interpretar sus datos sin esfuerzo. Explore la dinámica del panel de filtros y descubra las complejidades de nuestras funcionalidades de creación de informes mejoradas, como las funciones de taladro, el filtrado cruzado y la información sobre herramientas.
-
->[!NOTE]
->
->Este tablero está actualmente en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto una vez que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
 
 ## Panel de filtro {#filter-pane}
 

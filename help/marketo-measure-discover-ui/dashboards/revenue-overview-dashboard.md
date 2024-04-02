@@ -3,20 +3,16 @@ description: Panel de información general de ingresos - [!DNL Marketo Measure] 
 title: Panel de información general sobre ingresos
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: '283'
+ht-degree: 3%
 
 ---
 
 # Panel de información general sobre ingresos {#revenue-overview-dashboard}
 
 El panel Información general de ingresos proporciona información sobre los ingresos totales derivados de su CRM, lo que arroja luz sobre el papel de las estrategias de marketing. Ofrece una visión general de cómo el marketing influye en los ingresos generales y contribuye al cierre exitoso de las ofertas.
-
->[!NOTE]
->
->Este tablero está actualmente en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto una vez que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
 
 **Preguntas que el tablero responde:**
 
