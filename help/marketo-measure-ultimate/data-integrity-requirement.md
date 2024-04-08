@@ -3,16 +3,16 @@ description: '[!DNL Marketo Measure] Requisito definitivo de integridad de datos
 title: '''[!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
 # [!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valida los conjuntos de datos de AEP entrantes para garantizar que los datos sean suficientes y coherentes para la atribución. Si no se cumple el requisito de integridad de datos, el conjunto de datos será rechazado por el [!DNL Marketo Measure] sistema. Este documento detalla el requisito de integridad de los datos, proporciona ejemplos de consultas para la inspección de datos y recomienda una solución para los campos obligatorios con un valor nulo.
+[!DNL Marketo Measure] valida los conjuntos de datos de AEP entrantes para garantizar que los datos sean suficientes y coherentes para la atribución. Si no se cumple el requisito de integridad de datos, el conjunto de datos será rechazado por el [!DNL Marketo Measure] sistema. Este artículo detalla el requisito de integridad de los datos, proporciona ejemplos de consultas para la inspección de datos y recomienda una solución para los campos obligatorios con un valor nulo.
 
 ## Objeto de entidad {#entity-object}
 
