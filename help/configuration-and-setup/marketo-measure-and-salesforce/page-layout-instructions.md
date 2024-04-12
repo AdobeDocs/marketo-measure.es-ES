@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874799
-description: 'Instrucciones de diseño de página: [!DNL Marketo Measure]'
+description: Instrucciones de diseño de página,  [!DNL Marketo Measure]
 title: Instrucciones de diseño de página
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede que vea instrucciones que especifican “[!DNL Marketo Measure]” en la documentación, pero seguirá viendo “Bizible” en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Para ver fácilmente datos de [!DNL Marketo Measure], se recomienda actualizar los diseños de página para los objetos [!UICONTROL Cuenta], [!UICONTROL Contacto], [!UICONTROL Posible cliente], [!UICONTROL Oportunidad], y [!UICONTROL Campaña]. Las instrucciones se desglosan para cada Diseño de página de objeto siguiente.
 
@@ -23,7 +23,7 @@ Para empezar, primero vaya a sus ajustes de configuración de [!DNL Salesforce] 
 
 ## Objeto de campaña {#campaign-object}
 
-Se recomienda añadir el [!DNL Marketo Measure] a la campaña de SFDC solo para su zona protegida. Los campos se pueden utilizar para probar la generación de Touchpoints. En producción, se recomienda solo añadir la variable [!DNL Marketo Measure] Botón Fecha de punto de contacto de actualización masiva. No se recomienda añadir el [!DNL Marketo Measure] a producción, ya que puede crear la regla de sincronización de Campaign.
+Se recomienda añadir los campos de [!DNL Marketo Measure] a su campaña de SFDC solo para su zona protegida. Los campos se pueden utilizar para probar la generación de Touchpoints. En producción, se recomienda añadir únicamente el botón de Fecha de Touchpoint de actualización masiva de [!DNL Marketo Measure]. No se recomienda añadir los campos de [!DNL Marketo Measure] a la producción, ya que puede crear reglas de sincronización de campaña.
 
 1. En la opción Generar, seleccione **[!UICONTROL Campañas]**.
 
@@ -31,7 +31,7 @@ Se recomienda añadir el [!DNL Marketo Measure] a la campaña de SFDC solo para 
 
    ![](assets/1-1.jpg)
 
-1. Clic **[!UICONTROL Editar]** situado junto al diseño de página que desea actualizar.
+1. Haga clic en **[!UICONTROL Editar]** situado junto al diseño de página que desea actualizar.
 
    ![](assets/2-1.jpg)
 
@@ -49,7 +49,7 @@ Se recomienda añadir el [!DNL Marketo Measure] a la campaña de SFDC solo para 
 
    >[!NOTE]
    >
-   >Si utiliza varios tipos de registros de Campaign, debe actualizar los valores de la lista de selección para el **[!UICONTROL Activar puntos de contacto del comprador]** field. Consulte [este artículo](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) para obtener instrucciones.
+   >Si utiliza varios tipos de registros de campaña, debe actualizar los valores de la lista de selección para el campo **[!UICONTROL Habilitar Buyer Touchpoints]**. Consulte [este artículo](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) para obtener instrucciones.
 
 ## Clientes potenciales {#leads}
 
@@ -57,11 +57,11 @@ Se recomienda añadir el [!DNL Marketo Measure] a la campaña de SFDC solo para 
 
 1. Haga clic en **[!UICONTROL Diseños de página]**.
 
-1. Clic **[!UICONTROL Editar]** situado junto al diseño de página que desea actualizar. Tenga en cuenta que varios diseños de página pueden contener las secciones Buyer Touchpoints.
+1. Haga clic en **[!UICONTROL Editar]** situado junto al diseño de página que desea actualizar. Tenga en cuenta que varios diseños de página pueden contener las secciones de Buyer Touchpoints.
 
-1. Haga clic en la opción de página VisualForce de la izquierda en el menú de búsqueda rápida.
+1. Haga clic en la opción de la página VisualForce de la izquierda en el menú de búsqueda rápida.
 
-1. Cree una sección y asígnele el nombre &quot;Puntos de contacto del comprador&quot;.
+1. Cree una sección y asígnele el nombre “Buyer Touchpoints”.
 
    >[!NOTE]
    >
@@ -71,25 +71,25 @@ Se recomienda añadir el [!DNL Marketo Measure] a la campaña de SFDC solo para 
 
    ![](assets/5-1.png)
 
-1. Haga clic en la llave dentro de [!DNL VisualForce] y cambie la altura a 100 y habilite las barras de desplazamiento.
+1. Haga clic en la llave en la página de [!DNL VisualForce], cambie la altura a 100 y habilite las barras de desplazamiento.
 
-1. En el menú, seleccione la opción [!UICONTROL Canvas Apps] y cree una sección llamada &quot;Perspectivas de Marketo Measure&quot; debajo de los puntos de contacto [!DNL VisualForce] sección que ha creado.
+1. En el menú, seleccione la opción [!UICONTROL Aplicaciones de lienzo] y cree una sección denominada “Marketo Measure Insights” bajo la sección Touchpoints de [!DNL VisualForce].
 
    >[!NOTE]
    >
    >Seleccione el formato &quot;una columna&quot; para cada una de estas secciones.
 
-1. Arrastre la aplicación de lienzo de [!DNL Marketo Measure Insights] a esa sección recién creada. Haga clic en **Guardar**. A veces es necesario guardar primero el diseño de la página antes de soltarlo en la aplicación de lienzo porque Salesforce no lo reconoce instantáneamente. Por lo tanto, después de crear la sección, guarde el diseño de página y vuelva a editarlo para arrastrar la aplicación de lienzo dentro de esa sección. Esto se aplica a cada objeto.
+1. Arrastre la aplicación de lienzo de [!DNL Marketo Measure Insights] a esa sección recién creada. Haga clic en **Guardar**. A veces es necesario guardar primero el diseño de la página antes de soltarlo en la aplicación de lienzo porque Salesforce no lo reconoce instantáneamente. Por consiguiente, después de crear la sección, guarde el diseño de página y vuelva a editarlo para arrastrar la aplicación de lienzo dentro de esa sección.  Esto se aplica a cada objeto.
 
    >[!NOTE]
    >
-   >Para el [!DNL Marketo Measure Insights] Canvas App para funcionar correctamente, [los permisos deben configurarse correctamente](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >Para que la aplicación de lienzo de [!DNL Marketo Measure Insights] funcione correctamente, [los permisos deben configurarse correctamente](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
    >
    >La mayoría de los clientes no utilizan los campos que terminan en (FT) o (LC) porque son campos heredados de antes de que el Touchpoint de [!DNL Marketo Measure] existiera como objeto.
 
-Si utiliza el complemento [!DNL Marketo Measure] Función ABM, [haga clic aquí para obtener instrucciones adicionales sobre el diseño de la página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Si está utilizando la funcionalidad ABM de [!DNL Marketo Measure], [haga clic aquí para obtener instrucciones adicionales sobre el diseño de la página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contactos {#contacts}
 
@@ -97,7 +97,7 @@ Si utiliza el complemento [!DNL Marketo Measure] Función ABM, [haga clic aquí 
 
 1. Haga clic en **[!UICONTROL Diseños de página]**.
 
-1. Seleccione el Diseño de página que desee editar.
+1. A continuación, seleccione el diseño de página que desea editar.
 
    Vaya a la opción Listas relacionadas del menú de búsqueda rápida y añada la lista relacionada **[!UICONTROL Buyer Touchpoints]**.
 
@@ -144,7 +144,7 @@ Si utiliza el complemento [!DNL Marketo Measure] Función ABM, [haga clic aquí 
 
 1. Haga clic en **[!UICONTROL Diseños de página]**.
 
-1. Seleccione el Diseño de página que desee editar.
+1. A continuación, seleccione el diseño de página que desea editar.
 
 1. Añada la lista relacionada **[!UICONTROL Buyer Attribution Touchpoint]** y haga clic en la llave inglesa para añadir las siguientes columnas para Oportunidades:
 
@@ -170,7 +170,7 @@ Si utiliza el complemento [!DNL Marketo Measure] Función ABM, [haga clic aquí 
 
 1. Haga clic en **[!UICONTROL Diseños de página]**.
 
-1. Seleccione el Diseño de página que desee editar.
+1. A continuación, seleccione el diseño de página que desea editar.
 
 1. Añada la lista relacionada **[!UICONTROL Buyer Attribution Touchpoint]** y haga clic en la llave inglesa para añadir las siguientes columnas:
 
@@ -190,4 +190,4 @@ Si utiliza el complemento [!DNL Marketo Measure] Función ABM, [haga clic aquí 
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Si utiliza el complemento [!DNL Marketo Measure] Función ABM, revise la [instrucciones adicionales de diseño de página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Si está utilizando la funcionalidad ABM de [!DNL Marketo Measure], revise las [instrucciones adicionales de diseño de página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

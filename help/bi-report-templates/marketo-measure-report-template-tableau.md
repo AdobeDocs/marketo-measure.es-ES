@@ -1,12 +1,12 @@
 ---
-description: "[!DNL Marketo Measure] Plantilla de informe - Tableau - [!DNL Marketo Measure]"
+description: "[!DNL Marketo Measure]“Plantilla de informe - Tableau - [!DNL Marketo Measure]"
 title: “Plantilla de informe de [!DNL Marketo Measure], Tableau”
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2302'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Puede acceder a la plantilla de informe de [!DNL Tableau] [aquí](https://github
 
 Abra el archivo de libro de trabajo de Tableau de plantilla de creación de informes de [!DNL Adobe Marketo Measure].
 
-Debe actualizar los datos de conexión existentes con la información de conexión específica del Snowflake. Haga clic en el botón [!UICONTROL Editar conexión] y siga los pasos descritos en la sección [[!UICONTROL Conexión de datos]](#data-connection) de esta documentación.
+Deberá actualizar los datos de conexión existentes con la información de conexión específica de Snowflake. Haga clic en el botón [!UICONTROL Editar conexión] y siga los pasos descritos en la sección [[!UICONTROL Conexión de datos]](#data-connection) de esta documentación.
 
 ![](assets/marketo-measure-report-template-tableau-1.png)
 
 ## Conexión de datos {#data-connection}
 
-Debe configurar una conexión de datos con la instancia de Snowflake. Para ello, necesita el nombre del servidor junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar esta información y restablecer su contraseña, si es necesario, están documentados [aquí](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Debe configurar una conexión de datos con la instancia de Snowflake. Para ello, necesitará el nombre del servidor junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar esta información y restablecer su contraseña, si es necesario, están documentados [aquí](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -47,7 +47,7 @@ Dado que [!DNL Tableau] aplica filtros de fuente de datos a la consulta general 
     and sn._deleted_date is null
 ```
 
-Sin embargo, esto no es correcto, ya que si se eliminó una sesión, pero no el punto de contacto correspondiente, los datos del punto de contacto se eliminan del conjunto de datos. Queremos que los datos del punto de contacto estén presentes en el conjunto de datos, ya que el punto de contacto no se ha eliminado. Añadir SQL personalizado garantiza que los criterios de filtro se apliquen en el nivel de tabla, lo que da como resultado la siguiente consulta.
+Sin embargo, esto no es correcto, ya que si se eliminó una sesión, pero no el punto de contacto correspondiente, los datos del punto de contacto se eliminan del conjunto de datos. Queremos que los datos del punto de contacto estén presentes en el conjunto de datos, ya que el punto de contacto no se ha eliminado. Añadir un SQL personalizado garantiza que los criterios de filtro se apliquen en el nivel de tabla, lo que da como resultado la siguiente consulta.
 
 **Filtros aplicados mediante SQL personalizado**
 
@@ -62,7 +62,7 @@ Sin embargo, esto no es correcto, ya que si se eliminó una sesión, pero no el 
 
 ## Transformaciones de datos {#data-transformations}
 
-Se han aplicado algunas transformaciones a los datos de [!DNL Tableau] a partir de su estado original en Snowflake. La mayoría de estas transformaciones se aplican en las consultas de SQL personalizado que generan las tablas en el modelo de [!DNL Tableau]. Para ver el SQL personalizado utilizado para generar una tabla, haga clic con el botón derecho en el nombre de la tabla y seleccione &quot;Editar consulta SQL personalizada&quot;. A continuación se describen algunas de las transformaciones específicas.
+Se han aplicado algunas transformaciones a los datos de [!DNL Tableau] a partir de su estado original en Snowflake. La mayoría de estas transformaciones se aplican en las consultas de SQL personalizado que generan las tablas en el modelo de [!DNL Tableau]. Para ver el SQL personalizado utilizado para generar una tabla, haga clic con el botón derecho en el nombre de la tabla y seleccione “Editar consulta de SQL personalizado”. A continuación se describen algunas de las transformaciones específicas.
 
 ![](assets/marketo-measure-report-template-tableau-4.png)
 
@@ -70,7 +70,7 @@ Se han aplicado algunas transformaciones a los datos de [!DNL Tableau] a partir 
 
 ### Columnas eliminadas {#removed-columns}
 
-Para simplificar el modelo de datos y eliminar datos redundantes e innecesarios, hemos reducido el número de columnas importadas en Tableau desde la tabla de Snowflake original. Las columnas eliminadas incluyen claves externas innecesarias, datos dimensionales desnormalizados que se utilizan mejor mediante relaciones con otras tablas del modelo, columnas de auditoría y campos utilizados para tareas internas [!DNL Marketo Measure] procesando. Puede añadir o quitar columnas según sea necesario para sus necesidades comerciales, editando la lista de columnas importadas en la sección Seleccionar del SQL personalizado.
+Para simplificar el modelo de datos y eliminar datos redundantes e innecesarios, hemos reducido el número de columnas importadas en Tableau desde la tabla de Snowflake original. Las columnas eliminadas incluyen claves externas innecesarias, datos dimensionales desnormalizados que se usan mejor mediante relaciones con otras tablas del modelo, columnas de auditoría y campos utilizados para procesamiento interno de [!DNL Marketo Measure]. Puede añadir o quitar columnas según sea necesario para sus necesidades comerciales, editando la lista de columnas importadas en la sección Seleccionar del SQL personalizado.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Para simplificar el modelo de datos y eliminar datos redundantes e innecesarios,
 
 ### Columnas renombradas {#renamed-columns}
 
-Se ha cambiado el nombre de las tablas y columnas para que sean más fáciles de usar y para estandarizar las convenciones de nomenclatura. Para ver los cambios de nombre de columna, haga referencia a las sentencias de SQL personalizado que crean las tablas.
+Se ha cambiado el nombre de las tablas y columnas para facilitar su uso y estandarizar las convenciones de nomenclatura. Para ver los cambios de nombre de columna, haga referencia a las sentencias de SQL personalizado que crean las tablas.
 
 ### Filas añadidas {#rows-added}
 
@@ -143,7 +143,7 @@ Las tasas de la tabla Tasa de conversión representan el valor necesario para co
 
 ![](assets/marketo-measure-report-template-tableau-13.png)
 
-Las medidas de conversión de moneda de este modelo sustituyen la tasa por un valor de 1.0 si no se puede identificar ninguna tasa de conversión. Se han creado medidas independientes para mostrar el valor de moneda de la medida y avisar si un cálculo incluye más de un valor de moneda (es decir, no se pudo convertir un valor a la moneda seleccionada). Estas medidas, Moneda de coste y Moneda de ingresos, se incluyen como información sobre herramientas en cualquier imagen que muestre datos de Costes o Ingresos.
+Las medidas de conversión de moneda de este modelo sustituyen la tasa por un valor de 1.0 si no se puede identificar ninguna tasa de conversión. Se han creado medidas independientes para mostrar el valor de moneda de la medida y avisar si un cálculo incluye más de un valor de moneda (es decir, no se ha podido convertir un valor a la moneda seleccionada). Estas medidas, Moneda de coste y Moneda de ingresos, se incluyen como información sobre herramientas en cualquier imagen que muestre datos de Costes o Ingresos.
 
 ![](assets/marketo-measure-report-template-tableau-14.png)
 
@@ -167,7 +167,7 @@ Los Touchpoints de posible cliente y de atribución heredan los datos dimensiona
 
 ### Coste {#cost}
 
-La creación de informes sobre costes en las plantillas solo están disponibles a nivel de campaña y canal. Sin embargo, Discover ofrece creación de informes con niveles de granularidad más bajos para algunos proveedores de publicidad (es decir, creativo, palabra clave, de grupos de publicidad, etc.). Para obtener más información sobre cómo se modelan los datos de costes en las plantillas, consulte la [!UICONTROL Modelo de datos] de esta documentación. Si el filtro de dimensión en [!UICONTROL Discover] se establece en canal o campaña, los costes en los niveles de canal, subcanal y campaña deben alinearse entre Discover y las plantillas de creación de informes.
+La creación de informes sobre costes en las plantillas solo están disponibles a nivel de campaña y canal. Sin embargo, Discover ofrece creación de informes con niveles de granularidad más bajos para algunos proveedores de publicidad (es decir, creativo, palabra clave, de grupos de publicidad, etc.). Para obtener más información sobre cómo se modelan los datos de costes en las plantillas, consulte la sección [!UICONTROL Modelo de datos] de esta documentación. Si el filtro de dimensión en [!UICONTROL Discover] se establece en canal o campaña, los costes en los niveles de canal, subcanal y campaña deben alinearse entre Discover y las plantillas de creación de informes.
 
 ### Retorno de la inversión {#roi}
 
@@ -179,7 +179,7 @@ Estas métricas, como se muestra en las plantillas de creación de informes, no 
 
 ### Tráfico web {#web-traffic}
 
-El modelo de datos de plantilla de creación de informes normaliza los datos dimensionales de canal, subcanal y campaña a través de la relación entre Sesión y Touchpoint. Esto es diferente al modelo de datos Discover, que desnormaliza estas dimensiones en la sesión. Debido a esta distinción, los recuentos generales de visitas y visitantes deben coincidir entre Discover y la plantilla de creación de informes. Sin embargo, una vez mostrados o filtrados por dimensión, no se espera que estos números coincidan. Esto se debe a que los datos dimensionales de la plantilla solo están disponibles para eventos web que dieron como resultado un punto de contacto (es decir, eventos no anónimos). Para obtener más información, consulte la [Modelo de datos](#data-model) de esta documentación.
+El modelo de datos de plantilla de creación de informes normaliza los datos dimensionales de canal, subcanal y campaña a través de la relación entre Sesión y Touchpoint. Esto es diferente al modelo de datos Discover, que desnormaliza estas dimensiones en la sesión. Debido a esta distinción, los recuentos generales de visitas y visitantes deben coincidir entre Discover y la plantilla de creación de informes. Sin embargo, una vez mostrados o filtrados por dimensión, no se espera que estos números coincidan. Esto se debe a que los datos dimensionales de la plantilla solo están disponibles para eventos web que dieron como resultado un Touchpoint (es decir, eventos no anónimos). Para obtener más información, consulte la sección [Modelo de datos](#data-model) de esta documentación.
 
 Puede haber pequeñas discrepancias en los recuentos totales de formularios del sitio entre [!DNL Discover] y la plantilla. Esto se debe a que el modelo de datos de la plantilla de creación de informes obtiene datos dimensionales para el formulario del sitio mediante una relación con la sesión y, a continuación, con Touchpoint. Hay algunas instancias en las que los datos del formulario del sitio no tienen una sesión correlacionada.
 

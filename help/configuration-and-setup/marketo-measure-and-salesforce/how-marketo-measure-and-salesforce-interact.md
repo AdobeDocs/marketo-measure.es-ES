@@ -5,9 +5,9 @@ title: Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Echemos un vistazo de alto nivel a la relación entre [!DNL Marketo Measure] y Salesforce.
 
 ## Salesforce y [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-Una vez que [!DNL Marketo Measure] Se crea una cuenta de y [!DNL Salesforce] está conectado, [!DNL Marketo Measure] comienza a insertar datos de marketing en la instancia de CRM, siempre que la variable [!DNL Marketo Measure] el paquete administrado está instalado y el [!DNL Marketo Measure] El usuario de Salesforce tiene permisos de edición.
+Una vez que se haya creado una cuenta de [!DNL Marketo Measure] y [!DNL Salesforce] está conectado, [!DNL Marketo Measure] empieza a insertar datos de marketing en la instancia de CRM, siempre y cuando el paquete administrado de [!DNL Marketo Measure] esté instalado y el usuario de Salesforce de [!DNL Marketo Measure] tenga permisos de edición.
 
-Si no ha instalado el [!DNL Marketo Measure] Paquete de Salesforce, [!DNL Marketo Measure] no escribirá ningún dato en la instancia de Salesforce.
+Si no ha instalado el paquete de Salesforce de [!DNL Marketo Measure], [!DNL Marketo Measure] no escribirá ningún dato en la instancia de Salesforce.
 
 ![](assets/1-3.png)
 
@@ -31,11 +31,11 @@ De forma predeterminada, [!DNL Marketo Measure] exporta 200 registros por crédi
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-Al modificar esta configuración, tenga en cuenta que los tamaños de lote más pequeños consumen más créditos de API de su CRM. Es aconsejable reducir el tamaño del lote solo si está experimentando un tiempo de espera de CPU o una carga de CPU alta en su CRM.
+Al modificar esta configuración, tenga en cuenta que los tamaños de lote más pequeños consumirán más créditos de API de su CRM. Es aconsejable reducir el tamaño del lote solo si está experimentando un tiempo de espera de CPU o una carga de CPU alta en su CRM.
 
-## Objetos y acceso estándar de Salesforce {#salesforce-standard-objects-and-access}
+## Objetos estándar y acceso de Salesforce {#salesforce-standard-objects-and-access}
 
-Esta sección enumera las [!DNL Salesforce] Objetos estándar que [!DNL Marketo Measure] interactúa con y los campos personalizados que agregamos a estos objetos una vez establecida la conexión y [!DNL Marketo Measure] El paquete está instalado. De forma predeterminada, [!DNL Marketo Measure] NO se escribirá en ningún campo de objeto de [!DNL Salesforce] estándar.
+Esta sección enumera los objetos estándar de [!DNL Salesforce] con los que interactúa [!DNL Marketo Measure], así como los campos personalizados que se añaden a estos objetos una vez que se estableció la conexión y se realizó la instalación del paquete de [!DNL Marketo Measure]. De forma predeterminada, [!DNL Marketo Measure] NO se escribirá en ningún campo de objeto de [!DNL Salesforce] estándar.
 
 **Posible cliente**
 
@@ -796,7 +796,7 @@ Esta sección enumera las [!DNL Salesforce] Objetos estándar que [!DNL Marketo 
 >
 >* Cuenta
 >* Campaña
->* Abonado de la campaña
+>* Miembro de la campaña
 >* Contacto
 >* Evento
 >* Posible cliente
@@ -806,7 +806,7 @@ Esta sección enumera las [!DNL Salesforce] Objetos estándar que [!DNL Marketo 
 
 ## [!DNL Marketo Measure] Objetos personalizados en [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Aparte de crear campos personalizados en los objetos estándar de SFDC, una vez que [!DNL Marketo Measure] está instalado, crea un par de objetos personalizados. A continuación se muestra una lista de estos objetos personalizados junto con una tabla que indica los campos en los que [!DNL Marketo Measure] escribirá.
+Además de crear campos personalizados en los objetos estándar de SFDC, una vez que el paquete de [!DNL Marketo Measure] está instalado, crea un par de objetos personalizados. A continuación se muestra una lista de estos objetos personalizados junto con una tabla que indica los campos en los que [!DNL Marketo Measure] escribirá.
 
 **Buyer Touchpoint**
 

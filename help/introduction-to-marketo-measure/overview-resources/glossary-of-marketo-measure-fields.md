@@ -5,9 +5,9 @@ title: Glosario de campos de Marketo Measure
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3213'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Este artículo contiene un glosario de todos los campos de Marketo Measure que se agregan a Salesforce desde el paquete base de Marketo Measure. También encontrará información sobre en qué objeto se puede encontrar el campo y cómo se rellena cada campo con información.
 
-Para obtener un mapa con el objeto al que se relaciona cada campo Marketo Measure, [haga clic aquí](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Para obtener un mapa del objeto con el que se relaciona cada campo de Marketo Measure, [haga clic aquí](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · W · X · Y · Z
 
@@ -299,7 +299,7 @@ Este campo muestra el nombre del posible cliente al que pertenece un punto de co
 
 **Canal de marketing** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 
-Este campo muestra el grupo general de actividad de marketing o el canal de marketing al que pertenece el punto de contacto (por ejemplo, Búsqueda de pago, Directo, Social, etc.). Los puntos de contacto se agrupan según la configuración de sus canales en la aplicación Marketo Measure. Para obtener más información sobre los canales de marketing o cómo configurarlos, consulte [haga clic aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Este campo muestra el grupo general de actividad de marketing o el canal de marketing al que pertenece el punto de contacto (por ejemplo, Búsqueda de pago, Directo, Social, etc.). Los puntos de contacto se agrupan según la configuración de sus canales en la aplicación Marketo Measure. Para obtener más información sobre canales de marketing o cómo configurarlos, [haga clic aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Canal de marketing: ruta** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 

@@ -1,12 +1,12 @@
 ---
-description: Prácticas recomendadas para la implementación [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure]
+description: Prácticas recomendadas para implementar el JavaScript de  [!DNL Marketo Measure]  - [!DNL Marketo Measure]
 title: Prácticas recomendadas para implementar el JavaScript de  [!DNL Marketo Measure]
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ El JavaScript de [!DNL Marketo Measure] es una parte fundamental de su cuenta de
 Cuando se trata de implementar y administrar el JavaScript de [!DNL Marketo Measure], tenga en cuenta las siguientes prácticas recomendadas.
 
 * Confirme que todos los dominios se hayan enumerado en la cuenta de [!DNL Marketo Measure]
-   * Si tiene dudas con respecto a sus dominios, póngase en contacto con el Soporte técnico
+   * Si tiene dudas con respecto a sus dominios, póngase en contacto con el equipo de soporte
 * Implementar JavaScript en TODAS las páginas.
    * Si coloca JavaScript solo en determinadas páginas, se producirán interrupciones en los datos de la sesión, lo que provocará errores de datos en [!DNL Marketo Measure]
 * Para un formulario del sitio desde el que no desee crear Touchpoints, asegúrese de añadir el script de exclusión de [!DNL Marketo Measure]

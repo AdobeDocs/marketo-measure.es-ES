@@ -1,12 +1,12 @@
 ---
-description: 'Prácticas recomendadas para la segmentación: [!DNL Marketo Measure]'
+description: Prácticas recomendadas para la segmentación de  [!DNL Marketo Measure]
 title: Prácticas recomendadas para la segmentación
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La segmentación es crucial para la utilización de su cuenta de [!DNL Marketo M
 
 Cuando se insertan en [!DNL Salesforce], los valores del segmento se escriben en el campo “Segmento” y se incluyen en cualquier tipo de informe Buyer Touchpoint. Esto permite crear informes homogéneos en ambas plataformas. El segmento también se puede encontrar en “Touchpoint Detail” de cualquier punto de contacto.
 
-Cuando se inserta en [!UICONTROL Discover], los segmentos aparecerán como un filtro disponible en el menú desplegable de filtros ubicado en todos los tableros.
+Cuando se inserten en [!UICONTROL Discover], los segmentos aparecerán como un filtro disponible en el menú desplegable de filtros ubicado en todos los tableros.
 
 ## Práctica recomendada {#best-practice}
 
@@ -30,7 +30,7 @@ Tanto si define la segmentación por primera vez como si simplemente revisa la s
 * Alinee el nombre del segmento con la nomenclatura de la organización, es decir, la categoría = nombre del filtro, segmento = valor del filtro
 * No utilice campos de fórmula en las reglas
 * Siempre que sea posible, genere la segmentación tanto en el posible cliente/contacto como en la oportunidad para que se pueda utilizarla en todo el canal
-   * Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
    * No todas las categorías de segmentos se alinearán en todo el canal

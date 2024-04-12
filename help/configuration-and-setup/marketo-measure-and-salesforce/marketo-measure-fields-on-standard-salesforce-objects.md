@@ -1,23 +1,23 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Campos en Standard [!DNL Salesforce] Objetos - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Campos en Standard [!DNL Salesforce] Objetos"
+description: "Campos de [!DNL Marketo Measure] en objetos de  [!DNL Salesforce] estándar - [!DNL Marketo Measure]"
+title: "Campos de [!DNL Marketo Measure] en objetos de  [!DNL Salesforce]  estándar"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1292'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] Campos en Standard [!DNL Salesforce] Objetos {#marketo-measure-fields-on-standard-salesforce-objects}
+# Campos de [!DNL Marketo Measure] en objetos de [!DNL Salesforce] estándar {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-Obtenga información sobre los distintos [!DNL Marketo Measure] campos que se añaden a [!DNL Salesforce] objetos estándar.
+Obtenga información sobre los distintos campos de [!DNL Marketo Measure] que se añaden a objetos de [!DNL Salesforce] estándar.
 
 ## Cuenta {#account}
 
@@ -25,27 +25,27 @@ Puntuación de participación predictiva: este campo se utiliza con nuestra func
 
 ## Caso {#case}
 
-Añadimos campos al objeto Case relacionados con los hitos de contacto Primer contacto y Creación de posibles clientes. Esto es para clientes que utilizan el objeto Case en lugar del posible cliente o contacto y también sirve para el propósito de otra manera de ver los datos en caso de que un cliente no quisiera que creáramos registros de Touchpoint.
+Añadimos campos al objeto Caso relacionados con los hitos de contacto Primer contacto y Creación del cliente potencial. Esto es para clientes que utilizan el objeto Case en lugar del cliente potencial o contacto y también sirve al efecto de otra manera de ver los datos en caso de que un cliente no quiera que creemos registros de Touchpoint.
 
-Fuente de punto de contacto (FT): esta es la fuente de la interacción de primer contacto.
+Fuente de Touchpoint (FT): esta es la fuente de interacción del primer contacto.
 
-Origen del punto de contacto (LC): Esta es la fuente de la interacción táctil de la creación de posibles clientes.
+Fuente del Touchpoint (LC): esta es la fuente de la interacción táctil de la creación del cliente potencial.
 
-Canal de marketing (FT): Este es el canal de marketing de la interacción de primer contacto.
+Canal de marketing (FT): este es el canal de marketing de la interacción de primer contacto.
 
-Canal de marketing (LC): Este es el canal de marketing de la interacción táctil de creación de posibles clientes.
+Canal de marketing (LC): este es el canal de marketing de la interacción táctil de creación de posibles clientes.
 
-Nombre de la campaña de publicidad (FT): Esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o [!DNL Salesforce] Campaña de interacción de primer contacto.
+Nombre de la campaña de publicidad (FT): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o [!DNL Salesforce] la Campaña de interacción de primer contacto.
 
-Nombre de la campaña de publicidad (LC): Esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o [!DNL Salesforce] Campaña de la [!UICONTROL creación de clientes potenciales] interacción táctil.
+Nombre de la campaña de publicidad (LC): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o Campaign de [!DNL Salesforce] de la interacción táctil de [!UICONTROL creación del cliente potencial].
 
 Página de aterrizaje (FT): esta es la página de aterrizaje de la interacción de primer contacto.
 
-Página de aterrizaje (LC): Esta es la página de aterrizaje de [!UICONTROL creación de clientes potenciales] interacción táctil.
+ Página de aterrizaje (LC): esta es la página de aterrizaje de la interacción táctil de [!UICONTROL creación del cliente potencial].
 
-Fecha del punto de contacto (FT): Es la fecha de la primera interacción de contacto.
+Fecha de Touchpoint (FT): la fecha de la primera interacción del contacto.
 
-Fecha de punto de contacto (LC): es la fecha de la interacción táctil de creación de posibles clientes.
+Fecha de Touchpoint (LC): la fecha de la interacción táctil de creación de posibles clientes.
 
 ## Campaña {#campaign}
 
@@ -53,94 +53,94 @@ Solo se han añadido 4 campos, 1 botón y 1 regla de validación.
 
 ID único: este campo se utiliza internamente para realizar un seguimiento de las diferentes campañas sincronizadas con [!DNL Marketo Measure].
 
-Habilitar puntos de contacto del comprador: este campo es para la sincronización real de campañas para la inclusión de atribuciones sin conexión y datos históricos.
+Habilitar Buyer Touchpoints: este campo es para la sincronización real de campañas para la inclusión de atribuciones sin conexión y datos históricos.
 
-Fecha de inicio del punto de contacto: este campo se utiliza para establecer una fecha de inicio de la aplicación de puntos de contacto a campañas históricas.
+Fecha de inicio de Touchpoint: este campo se utiliza para establecer una fecha de inicio de la aplicación de Touchpoints a campañas históricas.
 
-Fecha de finalización del punto de contacto: este campo se utiliza para establecer una fecha de finalización para aplicar puntos de contacto a campañas históricas. Un ejemplo común sería la inclusión de campañas digitales previas a la[!DNL Marketo Measure] y, a continuación, estableciendo la fecha final como el día en que se aplicó la secuencia de comandos.
+Fecha de finalización de Touchpoint: este campo se utiliza para establecer una fecha de finalización para aplicar puntos de contacto a campañas históricas. Un ejemplo común sería la inclusión de campañas digitales previas a [!DNL Marketo Measure] y, a continuación, establecer la fecha final como el día en que se aplicó el script.
 
-Fecha del punto de contacto de actualización masiva (botón): este botón se utiliza para administrar la fecha del punto de contacto de los miembros de la campaña cuando se sincroniza la campaña, ya que haremos referencia a la fecha de pertenencia a la campaña o a la primera fecha de respuesta predeterminada. En caso de que esos campos de fecha no sean una representación precisa de la fecha del punto de contacto real, utilizaríamos este botón para establecer la fecha del punto de contacto.
+Fecha de Tourchpoint de actualización masiva (botón): este botón se utiliza para administrar la fecha de Touchpoint de los miembros de la campaña cuando se sincroniza la campaña, ya que se hace referencia a la fecha de abono a la campaña o a la primera fecha de respuesta predeterminada. En caso de que esos campos de fecha no sean una representación precisa de la fecha del punto de contacto real, utilizaríamos este botón para establecer la fecha del punto de contacto.
 
 Actualizar [!DNL Marketo Measure] Atribución (regla de validación): esta regla está en desuso después de la versión 6.0 del paquete.
 
-## Abonado de la campaña {#campaign-member}
+## Miembro de la campaña {#campaign-member}
 
-Se han añadido 5 campos y 1 Déclencheur Apex con el paquete.
+Se han añadido 5 campos y 1 activador Apex con el paquete.
 
-Estado de punto de contacto (posible cliente): este es un campo de diagnóstico relacionado con una función que no está activada de forma predeterminada. Utilizamos esto para comprender si se creó un punto de contacto con el registro de posible cliente relacionado o, si no es así, por qué.
+Estado del Touchpoint (cliente potencial): este es un campo de diagnóstico relacionado con una función que no está activada de forma predeterminada. Lo utilizamos para comprender si se ha creado un punto de contacto con el registro de cliente potencial relacionado o, si no es así, por qué.
 
-Estado del punto de contacto (contacto): este es un campo de diagnóstico relacionado con una función que no está activada de forma predeterminada. Utilizamos esto para comprender si se creó un punto de contacto con el registro de contacto relacionado o, si no es así, por qué.
+Estado del Touchpoint (contacto): este es un campo de diagnóstico relacionado con una función que no está activada de forma predeterminada. Lo utilizamos para comprender si se ha creado un Touchpoint con el registro de contacto relacionado o, si no es así, por qué.
 
-Estado del punto de contacto (oportunidad): este es un campo de diagnóstico relacionado con una función que no está activada de forma predeterminada. Utilizamos esto para comprender si se creó un punto de contacto con el registro de oportunidad relacionado o, si no es así, por qué.
+Estado del Touchpoint (oportunidad): este es un campo de diagnóstico relacionado con una función que no está activada de forma predeterminada. Lo utilizamos para comprender si se ha creado un Touchpoint con el registro de oportunidad relacionado o, si no es así, por qué.
 
-Fecha de estado del punto de contacto: es la fecha en la que se rellenaron los campos de diagnóstico.
+Fecha de estado del Touchpoint: es la fecha en la que se se han rellenado los campos de diagnóstico.
 
-Fecha del punto de contacto del comprador: esto está relacionado con la [!UICONTROL Actualización masiva de fecha de Touchpoint] del objeto Campaign. Cuando se utiliza, se aplica la fecha de punto de contacto definida al miembro de la campaña.
+Fecha de Buyer Touchpoint: está relacionada con el botón [!UICONTROL Fecha de Tourchpoint de actualización masiva] del objeto de Campaign. Cuando se utiliza, se aplica la fecha de Touchpoint definida al miembro de la campaña.
 
-OnCampaignMemberDelete: de forma predeterminada, [!DNL Salesforce] no aparece cuando se eliminan miembros de Campaign, lo que puede causar problemas con los informes de atribución precisos. Cuando se elimina un miembro de la campaña, esto se activa para informar a [!DNL Marketo Measure] para eliminar los puntos de contacto relacionados con ese miembro de campaña inexistente.
+OnCampaignMemberDelete: de forma predeterminada, [!DNL Salesforce] no aparece cuando se eliminan miembros de Campaign, lo que puede causar problemas con los informes de atribución precisos. Cuando se elimina un miembro de la campaña, esto se activa para informar a [!DNL Marketo Measure] que elimine los Touchpoints relacionados con ese miembro de campaña inexistente.
 
 ## Contacto {#contact}
 
-Añadimos campos al objeto Contacto relacionados con los hitos de contacto Primer contacto y Creación de posibles clientes. Esto es para clientes que prefieren tener la atribución registrada directamente en los campos en lugar de crear registros de Touchpoint. La mayoría de nuestros clientes siguen la ruta de registro de Touchpoint, pero también utilizan estos campos dentro de su plataforma de automatización.
+Añadimos campos al objeto Contacto relacionado con los hitos de contacto Primer contacto y Creación del cliente potencial. Esto es para clientes que prefieren tener la atribución registrada directamente en los campos en lugar de crear registros de Touchpoint. La mayoría de nuestros clientes siguen la ruta de registro de Touchpoint, pero también utilizan estos campos dentro de su plataforma de automatización.
 
-Fuente de punto de contacto (FT): esta es la fuente de la interacción de primer contacto.
+Fuente de Touchpoint (FT): esta es la fuente de interacción del primer contacto.
 
-Origen del punto de contacto (LC): Esta es la fuente de la interacción táctil de la creación de posibles clientes.
+Fuente del Touchpoint (LC): esta es la fuente de la interacción táctil de la creación del cliente potencial.
 
-Canal de marketing (FT): Este es el canal de marketing de la interacción de primer contacto.
+Canal de marketing (FT): este es el canal de marketing de la interacción de primer contacto.
 
-Canal de marketing (LC): Este es el canal de marketing de la interacción táctil de creación de posibles clientes.
+Canal de marketing (LC): este es el canal de marketing de la interacción táctil de creación de posibles clientes.
 
-Nombre de la campaña de publicidad (FT): Esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o [!DNL Salesforce] Campaña de interacción de primer contacto.
+Nombre de la campaña de publicidad (FT): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o Campaña de [!DNL Salesforce] de interacción de primer contacto.
 
-Nombre de la campaña de publicidad (LC): Esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o [!DNL Salesforce] Campaña de la [!UICONTROL creación de clientes potenciales] interacción táctil.
+Nombre de la campaña de publicidad (LC): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o Campaña de [!DNL Salesforce] de la interacción táctil de la [!UICONTROL creación de clientes potenciales].
 
 Página de aterrizaje (FT): esta es la página de aterrizaje de la interacción de primer contacto.
 
-Página de aterrizaje (LC): Esta es la página de aterrizaje de [!UICONTROL creación de clientes potenciales] interacción táctil.
+Página de aterrizaje (LC): esta es la página de aterrizaje de la interacción táctil de la [!UICONTROL creación de clientes potenciales].
 
-Fecha del punto de contacto (FT): Es la fecha de la primera interacción de contacto.
+Fecha de Touchpoint (FT): la fecha de la primera interacción del contacto.
 
-Fecha de punto de contacto (LC): es la fecha de la interacción táctil de creación de posibles clientes.
+Fecha de Touchpoint (LC): la fecha de la interacción táctil de creación de posibles clientes.
 
-BizibleID: Se utiliza en relación con la atribución de actividades y la integración de métricas de seguimiento de llamadas para la asociación de contactos al punto de contacto.
+BizibleID: se utiliza en relación con la atribución de actividades y la integración de métricas de seguimiento de llamadas para la asociación de contactos al touchpoint.
 
 ## Posible cliente {#lead}
 
-Añadimos campos al objeto de posible cliente relacionado con los hitos de contacto Primer contacto y Creación de posibles clientes. Esto es para clientes que prefieren tener la atribución registrada directamente en los campos en lugar de crear registros de Touchpoint. La mayoría de nuestros clientes siguen la ruta de registro de Touchpoint, pero también utilizan estos campos dentro de su plataforma de automatización.
+Se añadieron campos al objeto de posible cliente relacionado con los hitos de contacto Primer contacto y Creación de posibles clientes. Esto es para clientes que prefieren tener la atribución registrada directamente en los campos en lugar de crear registros de Touchpoint. La mayoría de nuestros clientes siguen la ruta de registro de Touchpoint, pero también utilizan estos campos dentro de su plataforma de automatización.
 
-Fuente de punto de contacto (FT): esta es la fuente de la interacción de primer contacto.
+Fuente de Touchpoint (FT): esta es la fuente de interacción del primer contacto.
 
-Origen del punto de contacto (LC): Esta es la fuente de la interacción táctil de la creación de posibles clientes.
+Fuente del Touchpoint (LC): esta es la fuente de la interacción táctil de la creación del cliente potencial.
 
-Canal de marketing (FT): Este es el canal de marketing de la interacción de primer contacto.
+Canal de marketing (FT): este es el canal de marketing de la interacción de primer contacto.
 
-Canal de marketing (LC): Este es el canal de marketing de la interacción táctil de creación de posibles clientes.
+Canal de marketing (LC): este es el canal de marketing de la interacción táctil de creación de posibles clientes.
 
-Nombre de la campaña de publicidad (FT): Esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o [!DNL Salesforce] Campaña de interacción de primer contacto.
+Nombre de la campaña de publicidad (FT): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o campaña de [!DNL Salesforce] de interacción de primer contacto.
 
-Nombre de la campaña de publicidad (LC): Esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o [!DNL Salesforce] Campaña de la interacción táctil de la creación del posible cliente.
+Nombre de la campaña de publicidad (LC): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o Campaña de [!DNL Salesforce] de la interacción táctil de la creación del posible cliente.
 
 Página de aterrizaje (FT): esta es la página de aterrizaje de la interacción de primer contacto.
 
-Página de aterrizaje (LC): esta es la página de aterrizaje de la interacción táctil de creación de posibles clientes.
+Página de aterrizaje (LC): genera la interacción táctil de creación de posibles clientes.
 
-Fecha del punto de contacto (FT): Es la fecha de la primera interacción de contacto.
+Fecha de Touchpoint (FT): la fecha de la primera interacción del contacto.
 
-Fecha de punto de contacto (LC): es la fecha de la interacción táctil de creación de posibles clientes.
+Fecha de Touchpoint (LC): la fecha de la interacción táctil de creación de posibles clientes.
 
-BizsibleID: se utiliza en relación con la atribución de actividades y la integración de métricas de seguimiento de llamadas para la asociación de posibles clientes con el punto de contacto.
+BizsibleID: se utiliza en relación con la atribución de actividades y la integración de métricas de seguimiento de llamadas para la asociación de posibles clientes con el Touchpoint.
 
 ## Cuenta {#account-1}
 
-Se utiliza para nuestra asignación de cliente potencial a cuenta para nuestra función ABM. Rellenamos este campo para crear la relación de búsqueda entre los dos objetos.
+Se utiliza para nuestra asignación de cliente potencial a cuenta para nuestra función ABM. Se rellena este campo para crear la relación de búsqueda entre los dos objetos.
 
 ## Oportunidad {#opportunity}
 
-[!DNL Marketo Measure] Importe de oportunidad: este campo se utiliza en el escenario en el que se utiliza un campo de importe personalizado en la oportunidad. Asignamos ese valor de campo personalizado a [!DNL Marketo Measure] Importe de oportunidad mediante un flujo de trabajo y, a continuación, lea este campo para nuestros campos de atribución de ingresos en el objeto de punto de contacto de atribución del comprador.
+Importe de oportunidad de [!DNL Marketo Measure]: este campo se utiliza en el escenario en el que se utiliza un campo de importe personalizado en la Oportunidad. Asignamos ese valor de campo personalizado a Importe de oportunidad de [!DNL Marketo Measure] mediante un flujo de trabajo. A continuación, lea este campo para los campos de atribución de ingresos en el objeto de Touchpoint de atribución del comprador.
 
 ## Actividad {#activity}
 
-BizibleID: Esto es para que relacionemos un punto de contacto con actividades para la atribución de actividades y la integración de métricas de seguimiento de llamadas.
+BizibleID: esto es para que relacionemos un Touchpoint con actividades para la atribución de estas y la integración de métricas de seguimiento de llamadas.
 
-Fecha del punto de contacto del comprador: este campo se puede rellenar mediante un flujo de trabajo para utilizarlo como fecha de atribución de actividades y se rellenará para nuestra integración de métricas de seguimiento de llamadas para saber cuándo se produjo la interacción.
+Fecha de Buyer Touchpoint: este campo se puede rellenar mediante un flujo de trabajo para utilizarlo como fecha de atribución de actividades y se rellena para nuestra integración de métricas de seguimiento de llamadas para saber cuándo se produjo la interacción.

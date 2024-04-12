@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874646
-description: Diferencia entre los puntos de contacto del comprador y los puntos de contacto de atribución del comprador - [!DNL Marketo Measure]
+description: Diferencia entre Buyer Touchpoints y Buyer Attribution Touchpoints - [!DNL Marketo Measure]
 title: Diferencia entre Buyer Touchpoints y Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 61%
 
 Conozca lo que define un punto de contacto de comprador (BT) y un punto de contacto de atribución de comprador (BAT), las diferencias entre ambos y responda a las preguntas frecuentes.
 
-La diferencia clave entre Buyer Touchpoints y Buyer Attribution Touchpoints es su relación con objetos de [!DNL Salesforce]. Los BT están relacionados con los objetos Posible cliente, Contacto y Caso, pero no con el objeto Oportunidad. Esto significa que nunca hay ingresos asociados a los puntos de contacto del comprador.
+La diferencia clave entre Buyer Touchpoints y Buyer Attribution Touchpoints es su relación con objetos de [!DNL Salesforce]. Los BT están relacionados con los objetos Posible cliente, Contacto y Caso, pero no con el objeto Oportunidad. Lo que significa que nunca habrá ingresos asociados a Buyer Touchpoints.
 
-Mientras que el objeto de contacto de atribución del comprador está relacionado con los objetos de contacto, cuenta y oportunidad, pero no con el objeto del posible cliente; los puntos de contacto de atribución del comprador no están vinculados a posibles clientes. El objeto MTD es donde verá los ingresos vinculados a interacciones de marketing específicas.
+Mientras que el objeto Buyer Attribution Touchpoint está relacionado con los objetos Contacto, Cuenta y Oportunidad, pero no con el objeto Posible cliente, los Buyer Attribution Touchpoints no están vinculados a posibles clientes. El objeto BAT es donde se verán ingresos vinculados a interacciones de marketing específicas.
 
 Diferencia entre BT y BAT:
 
@@ -52,15 +52,15 @@ Diferencia entre BT y BAT:
 
 **¿Cuándo un punto de contacto de comprador se convierte en un punto de contacto de atribución de comprador?**
 
-Un BT se convierte en un BAT una vez que este BT está asociado a un contacto que tiene una oportunidad asociada. Una cosa importante a entender es que una interacción de marketing específica puede ser un BT y BAT.
+Un BT se convierte en un BAT una vez que este BT está asociado a un contacto que tiene una oportunidad asociada. Una cuestión importante que hay que comprender es que una interacción de marketing específica puede ser un BT y BAT.
 
 **¿Puede un punto de contacto de comprador tener una posición de punto de contacto de creación de oportunidades (OC)?**
 
-Un punto de contacto de comprador solo tendrá una posición de punto de contacto de primer contacto (FT), de creación de posibles clientes (LC) o de envío de formulario (puntos de contacto intermedios). Debido a que los BT no están relacionados con Oportunidades, no es posible que un BT tenga una Posición de Touchpoint de Creación de Oportunidades o Cerrado.
+Un punto de contacto de comprador solo tendrá una posición de punto de contacto de primer contacto (FT), de creación de posibles clientes (LC) o de envío de formulario (puntos de contacto intermedios). Dado que los BT no están relacionados con las oportunidades, no es posible que un BT tenga una posición de Touchpoint de Creación de oportunidad o Cerrado.
 
-**¿Cómo se utilizan los datos de Touchpoint del comprador?**
+**¿Cómo se emplean los datos de Buyer Touchpoint?**
 
-Normalmente, los clientes utilizan los datos del punto de contacto del comprador para comprender la parte superior del canal y la parte media del canal. Significado [!DNL Marketo Measure] Los usuarios de saben quién envía formularios, quién está viendo su sitio, qué publicación de blog tiene un buen rendimiento, qué anuncios de AdWords generan conversiones, etc. Los datos de Buyer Touchpoints son ideales para comprender la participación de sus posibles clientes y contactos.
+Por lo general, los clientes emplean los datos de Buyer Touchpoing para comprender la participación de la parte superior y el centro del canal. Lo que significa que los usuarios de [!DNL Marketo Measure] saben quién envía formularios, quién está viendo su sitio, qué publicación de blog está funcionando bien, qué anuncio de AdWords está ocasionando la conversión de posibles clientes, etc. Los datos de Buyer Touchpoints son ideales para comprender la participación de sus posibles clientes y contactos.
 
 **¿Qué aspecto tiene un punto de contacto de comprador en Salesforce?**
 

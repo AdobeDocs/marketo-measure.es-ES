@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874554
-description: 'Generación y asignación de puntos de contacto: [!DNL Marketo Measure]'
+description: Generación y asignación de Touchpoints de  [!DNL Marketo Measure]
 title: Generación y asignación de puntos de contacto
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Las historias de atribución de [!DNL Marketo Measure] dependen de dos procesos:
 * La generación de puntos de contacto, que crea puntos de contacto que representan las interacciones de una persona con sus esfuerzos de marketing y ventas
 * La asignación de puntos de contacto, que acredita puntos de contacto al canal y subcanal adecuados
 
-Para que usted pueda sacar el máximo partido a [!DNL Marketo Measure], debería trabajar con su [!DNL Marketo Measure] representante para personalizar ambos procesos y adaptarlos a las necesidades de su organización.
+Para que pueda sacar el máximo partido a [!DNL Marketo Measure], debería trabajar con su representante de [!DNL Marketo Measure] para personalizar ambos procesos y adaptarlos a las necesidades de su organización.
 
 Métodos de generación de puntos de contacto
 
@@ -31,7 +31,7 @@ El proceso de generación de puntos de contacto responde a la pregunta: “¿Có
 | **Tipo de interacción** | **Ejemplo** | **Método de generación de punto de contacto** |
 |---|---|---|
 | En línea, en sus sitios | Relleno de formulario | JavaScript de [!DNL Marketo Measure] |
-| Sin conexión; En línea, no en sus sitios | Ferias comerciales; El socio de distribución de contenido ofrece una lista de posibles clientes que interactúan con el contenido | Abono a CRM Campaign sincronizado con [!DNL Marketo Measure], estableciendo el Tipo de sincronización de campaña directamente en la campaña o estableciendo reglas en la página Campañas en [!DNL Marketo Measure] |
+| Sin conexión; en línea, no en sus sitios | Ferias comerciales; el socio de distribución de contenido ofrece una lista de clientes potenciales que interactúan con su contenido | Abono a CRM Campaign sincronizado con [!DNL Marketo Measure], estableciendo el Tipo de sincronización de campaña directamente en la campaña o estableciendo reglas en la página Campañas en [!DNL Marketo Measure] |
 | Actividad de ventas | Llamada saliente por SDR | Registro de actividad de CRM (tarea o evento) sincronizado con [!DNL Marketo Measure], mediante la lógica en la página [!UICONTROL Actividades] en [!DNL Marketo Measure] |
 
 Métodos de asignación de punto de contacto
@@ -41,7 +41,7 @@ El proceso de asignación de puntos de contacto responde a la pregunta: “Una v
 | **Tipo de interacción** | **Método de generación** | **Método de asignación** |
 |---|---|---|
 | En línea, en sus sitios | JavaScript de [!DNL Marketo Measure] | A través de la página [!DNL Online Channels] en [!DNL Marketo Measure], haciendo referencia a valores de UTM, página de aterrizaje e información de página de referencia |
-| Sin conexión; En línea, no en sus sitios | Sincronización de suscripción a CRM Campaign | A través de la página [!UICONTROL Canales sin conexión] en [!DNL Marketo Measure], haciendo referencia al tipo de campaña |
+| Sin conexión; en línea, no en sus sitios | Sincronización de suscripción a CRM Campaign | A través de la página [!UICONTROL Canales sin conexión] en [!DNL Marketo Measure], haciendo referencia al tipo de campaña |
 | Actividad de ventas | Sincronización de actividad de CRM | A través de la página [!UICONTROL Canales en línea] en [!DNL Marketo Measure], haciendo referencia al Nombre de campaña asignado en la página [!UICONTROL Actividades] |
 
 >[!MORELIKETHIS]

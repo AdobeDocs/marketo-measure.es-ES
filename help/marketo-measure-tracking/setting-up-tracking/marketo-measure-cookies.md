@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874590
-description: "[!DNL Marketo Measure] Cookies: [!DNL Marketo Measure]"
+description: “Cookies de [!DNL Marketo Measure] - [!DNL Marketo Measure]"
 title: “Cookies de [!DNL Marketo Measure]”
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que s
 
 >[!IMPORTANT]
 >
->Debido a cuestiones de privacidad, las cookies de terceros están a punto de desaparecer. La obsolescencia de las cookies de terceros anunciada por Google Chrome en el tercer trimestre de 2024 marca el final de esta forma de seguimiento. Como resultado, el Adobe está desaprobando las funciones de Marketo Measure que dependen de cookies de terceros; específicamente, Seguimiento entre dominios y Atribución de visualización, que utilizan la cookie de impresión Google/DoubleClick. Ninguna otra función de Marketo Measure se verá afectada. El uso de cookies de origen tampoco se verá afectado. En vista de la programación de Google, la fecha prevista de obsolescencia de las dos funciones anteriores es el 1/6/2024. Los datos relacionados recopilados antes de esta fecha siguen estando disponibles para los clientes de Adobe.
+>Debido a cuestiones de privacidad, las cookies de terceros están a punto de desaparecer. La obsolescencia de las cookies de terceros anunciada por Google Chrome en el tercer trimestre de 2024 marca el final de esta forma de seguimiento. Por consiguiente, Adobe va a dejar de utilizar las funciones de Marketo Measure que dependan de cookies de terceros; en concreto Seguimiento entre dominios y Atribución de visualización, que utilizan la cookie de impresión de Google/DoubleClick. Ninguna otra función de Marketo Measure se verá afectada. El uso de cookies de origen tampoco se verá afectado. En vista de la programación de Google, la fecha prevista de obsolescencia de las dos funciones anteriores es el 1/6/2024. Los datos relacionados recopilados antes de esta fecha permanecen a disposición de los clientes de Adobe.
 
 <table>
 <thead>
@@ -97,7 +97,7 @@ Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que s
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Terceros, dominio=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
+    <td>Terceros, dominio=.<a href="https://business.adobe.com/products/marketo/bizible.html?lang=es">bizible.com</a></td>
     <td>ID de usuario universal para identificar a un usuario en varios dominios.</td>
     <td>1 año</td>
     <td>Sí</td>
@@ -116,6 +116,6 @@ Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que s
 </tbody>
 </table>
 
-Si se activa una advertencia de Firewall de aplicaciones web (WAF) durante la configuración de JavaScript, los usuarios pueden deshabilitar esa regla de WAF o lista de permitidos las cookies, como se muestra en el siguiente ejemplo:
+Si se activa una advertencia de firewall de aplicaciones web (Web Application Firewall, WAF) durante la configuración de JavaScript, los usuarios pueden deshabilitar esa regla de WAF o incluir las cookies en la lista de permitidos, como en el siguiente ejemplo:
 
 ![](assets/marketo-measure-cookies-1.png)

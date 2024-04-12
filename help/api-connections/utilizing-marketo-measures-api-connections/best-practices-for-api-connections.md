@@ -1,12 +1,12 @@
 ---
-description: 'Prácticas recomendadas para conexiones de API: [!DNL Marketo Measure]'
+description: Prácticas recomendadas para conexiones de API - [!DNL Marketo Measure]
 title: Prácticas recomendadas para conexiones de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ Las conexiones de API de [!DNL Marketo Measure] son un aspecto inestimable de su
 
 ## Práctica recomendada {#best-practice}
 
-Independientemente de la plataforma de publicidad a la que se conecte, es importante tener en cuenta las siguientes directrices.
+Independientemente de la plataforma publicitaria que se conecte, es importante tener en cuenta las siguientes directrices.
 
 * Usar un administrador para conectarse
 * Puede conectar varias cuentas de anuncios para una plataforma
 * Conecte todas las cuentas de publicidad posibles para automatizar al máximo la creación de informes de gasto
 * Si está disponible, implemente siempre una plantilla de seguimiento. La plantilla garantiza que, incluso si la cuenta de publicidad se desconecta, [!DNL Marketo Measure] sigue pudiendo extraer detalles de anuncios granulares
 
-Para optimizar cada [!DNL Marketo Measure] API, siga las siguientes prácticas recomendadas.
+Para optimizar cada API de [!DNL Marketo Measure], siga las siguientes prácticas recomendadas.
 
 **[!DNL Facebook]**: Conectar con el etiquetado automático
 
@@ -84,7 +84,7 @@ Las razones para la desconexión y reautorización incluyen...
 * Esa persona ya no está en la compañía
 * Actualizaciones de las API
 
-Si su equipo ha experimentado cualquiera de los casos anteriores, compruebe las conexiones de API en la [!DNL Marketo Measure] para asegurarse de que no necesitan volver a autorizarse.
+Si su equipo ha experimentado cualquiera de los casos anteriores, compruebe las conexiones de API en la aplicación de [!DNL Marketo Measure] para asegurarse de que no necesitan volver a autorizarse.
 
 >[!MORELIKETHIS]
 >

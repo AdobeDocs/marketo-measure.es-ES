@@ -5,9 +5,9 @@ title: Modelos de atribución de Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Marketo Measure ofrece seis tipos de modelos de atribución:
 * Ruta completa
 * Modelo personalizado
 
-Estos modelos varían en complejidad. El primer contacto y la creación de posibles clientes son modelos sencillos de un solo contacto. Los cuatro restantes son modelos más complejos y multitáctiles. La estructura de los modelos de atribución de Marketo Measure refleja los cuatro puntos de contacto principales que se producen en el recorrido del cliente:
+Estos modelos varían en complejidad. El primer contacto y la creación de posibles clientes son modelos sencillos de un solo contacto. Los otros cuatro son modelos más complejos y multicontacto. La estructura de los modelos de atribución de Marketo Measure refleja los cuatro puntos de contacto principales que se producen en el recorrido del cliente:
 
 * Primer contacto (FT)
 * Creación de posibles clientes (LC)
@@ -34,7 +34,7 @@ Estos modelos varían en complejidad. El primer contacto y la creación de posib
 En **modelos de un solo contacto**, el crédito de atribución solo se atribuye a un punto de contacto como hito; de ahí el nombre de “un solo contacto”.
 En **modelos multicontacto**, la mayor parte del crédito de atribución se asigna a dos o más puntos de contacto de hito. El crédito restante se atribuye a los puntos de contacto que se producen entre los puntos de contacto de hito.
 
-Las siguientes secciones tratan cada modelo de atribución y cómo se asigna el crédito de atribución.
+Las siguientes secciones tratan sobre cada modelo de atribución y cómo se asigna el crédito de atribución.
 
 ## Modelos de un solo contacto {#single-touch-models}
 
@@ -60,7 +60,7 @@ Los modelos multicontacto se utilizan para ciclos de ventas más largos y compli
 
 **Modelo en forma de U**
 
-El modelo en forma de U se centra en los puntos de contacto FT y LC. En este modelo, los puntos de contacto FT y LC reciben cada uno el 50 % del crédito por ingresos.
+El modelo en forma de U se centra en los puntos de contacto FT y LC. En este modelo, los touchpoints FT y LC reciben cada uno el 50 % del crédito de ingresos.
 
 La primera visita de Kate a `www.adobe.com` a través de un anuncio de AdWords recibirá el 50 % del crédito de atribución. El 50 % restante se atribuirá a la publicación de LinkedIn que llevó a Austin a rellenar un formulario y convertirse en un posible cliente.
 
@@ -78,7 +78,7 @@ Hillary recibe un correo electrónico con un vínculo a la página de precios y 
 
 **Modelo de ruta completa**
 
-El modelo de ruta completa incluye los cuatro puntos de contacto de hito. FT, LC, OC y CW reciben cada uno el 22,5% del crédito por ingresos, y el 10% restante se distribuye equitativamente entre los toques intermediarios.
+El modelo de ruta completa incluye los cuatro puntos de contacto de hito. FT, LC, OC y CW reciben cada uno un 22,5 % del crédito de ingresos, y el 10 % restante se distribuye equitativamente entre los contactos intermedios.
 
 Después de la creación de la oportunidad, Kate, Austin y Hillary deciden presentar Marketo Measure a su CMO Elizabeth. Elizabeth asiste a una conferencia donde Marketo Measure organiza un evento. Kate ve una publicación de LinkedIn acerca de un caso práctico y rellena un formulario para descargar el contenido. Elizabeth asiste a una cena de ventas organizada por Marketo Measure. Después de la cena, decide comprar Marketo Measure y se convierte en cliente. En este escenario, a la cena de ventas se le atribuye el 22,5 % del crédito de ingresos del acuerdo cerrado. Los puntos de contacto FT, LC y OC también reciben el 22,5 % del crédito. A los puntos de contacto intermedios se les asigna equitativamente el 10 % restante del crédito de ingresos.
 
@@ -86,4 +86,4 @@ Después de la creación de la oportunidad, Kate, Austin y Hillary deciden prese
 
 **Modelo de atribución personalizado**
 
-Marketo Measure también ofrece un modelo de atribución personalizado que permite a los usuarios elegir qué puntos de contacto o fases personalizadas desean incluir en su modelo. Además, los usuarios pueden controlar el porcentaje de crédito de atribución atribuido a estos puntos de contacto y fases. Si una oportunidad no tiene toques intermedios específicos, el porcentaje se distribuye equitativamente entre otras posiciones.
+Marketo Measure también ofrece un modelo de atribución personalizado que permite a los usuarios elegir qué puntos de contacto o fases personalizadas desean incluir en su modelo. Además, los usuarios pueden controlar el porcentaje de crédito de atribución atribuido a estos puntos de contacto y fases. Si una oportunidad no tiene toques intermedios específicos, el porcentaje se distribuirá equitativamente entre otras posiciones.

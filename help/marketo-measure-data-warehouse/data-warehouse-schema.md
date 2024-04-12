@@ -5,9 +5,9 @@ title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '21110'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Data Warehouse le permite rastrear todo lo que desee, informar sobre los datos d
 
 ## Diagramas de relación de entidades {#entity-relationship-diagrams}
 
-El ERD del _Modelo de datos de Data Warehouse_ muestra cómo se pretende que los datos de Data Warehouse fluyan y se vinculen entre sí. Este diagrama no incluye todas las tablas disponibles en Data Warehouse porque algunas de ellas representan tablas de asignación, vistas de otras tablas ya presentes o tablas obsoletas que ya no se recomienda utilizar. Consulte las descripciones detalladas de tablas y columnas presentes en el Data Warehouse a continuación. Muchas de estas tablas contienen campos no normalizados, sin embargo, este diagrama es el modelo de datos recomendado, aprovechando los datos de las tablas dimensionales en su lugar.
+El ERD del _Modelo de datos de Data Warehouse_ muestra cómo se pretende que los datos de Data Warehouse fluyan y se vinculen entre sí. Este diagrama no incluye todas las tablas disponibles en Data Warehouse porque algunas de ellas representan tablas de asignación, vistas de otras tablas ya presentes o tablas obsoletas que ya no se recomienda utilizar. Consulte las descripciones detalladas de las tablas y columnas presentes en el almacén de datos a continuación. Muchas de estas tablas contienen campos no normalizados, sin embargo, este diagrama es el modelo de datos recomendado, aprovechando los datos de las tablas dimensionales en su lugar.
 
 El ERD adicional del _Modelo de datos dimensional de anuncios_ presenta una vista de cómo las tablas para dimensiones específicas de anuncios se pueden vincular mejor a las tablas en el modelo de datos principal. Aunque las dimensiones de los anuncios también están desnormalizadas en otras tablas, esto representa el modelo recomendado para unir estas dimensiones.
 
@@ -5802,7 +5802,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
 
 >[!IMPORTANT]
 >
->Marketo Measure dejará de utilizar esta tabla a mediados de 2024. Si desea crearlo de su lado, ejecute [esta consulta SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure dejará de utilizar esta tabla a mediados de 2024. Si desea crearla por su cuenta, ejecute [esta consulta SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>

@@ -1,12 +1,12 @@
 ---
-description: '[!DNL Marketo Measure] Información general definitiva: [!DNL Marketo Measure]'
+description: '''[!DNL Marketo Measure]“Información general sobre Ultimate [!DNL Marketo Measure]”'
 title: “Información general sobre [!DNL Marketo Measure] Ultimate”
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 74%
 
 [!DNL Marketo Measure Ultimate] contiene las siguientes funciones adicionales:
 
-* Realice la ingesta desde casi cualquier fuente de datos y varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
+* Realiza la ingesta desde casi cualquier fuente de datos y desde varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
    * Se utiliza con casi cualquier CRM, no solo con Salesforce y Dynamics.
    * Conecta varias instancias de CRM y/o instancias de MAP a una instancia de [!DNL Marketo Measure].
    * Incluya datos de participación y registro de seminarios web de terceros.
@@ -39,13 +39,13 @@ ht-degree: 74%
 
 **Importación de datos B2B mediante AEP**
 
-Se espera que los especialistas en marketing traigan sus datos B2B (por ejemplo, cuenta, oportunidad, contacto, posible cliente, campaña, miembro de la campaña, actividad) a través de AEP. Las conexiones directas de CRM y Marketo Engage ya no están disponibles para Ultimate. Los especialistas en marketing siguen trayendo datos de Ad Platform a través de conexiones directas y rastreando actividades web a través de [!DNL Marketo Measure] javascript.
+Se espera que los especialistas en marketing traigan sus datos B2B (por ejemplo: cuenta, oportunidad, contacto, cliente potencial, campaña, miembro de la campaña, actividad) a través de AEP. Las conexiones directas de CRM y Marketo Engage ya no están disponibles para Ultimate. Los especialistas en marketing siguen trayendo datos de Ad Platform a través de conexiones directas y rastreando actividades web a través del JavaScript de [!DNL Marketo Measure].
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
 **Configuración de moneda predeterminada**
 
-[!DNL Marketo Measure Ultimate] establece la moneda predeterminada en USD hasta que el usuario la cambia. Al establecer una nueva moneda predeterminada, se actualizan los datos sin necesidad de volver a procesarlos. Siempre que la moneda seleccionada esté presente como código ISO de destino, no es necesario enviar las tasas de conversión.
+[!DNL Marketo Measure Ultimate] establece la moneda predeterminada en USD hasta que el usuario la cambie. Si se establece una nueva moneda predeterminada, los datos se actualizan sin necesidad de volver a procesarlos. Siempre que la moneda seleccionada esté presente como código ISO de destino, no es necesario enviar las tasas de conversión.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
@@ -55,11 +55,11 @@ La instancia de [!DNL Marketo Measure Ultimate] debe asignarse a una zona proteg
 
 >[!NOTE]
 >
->A [!DNL Marketo Measure Ultimate] La instancia de producción debe asignarse a una zona protegida de producción de AEP, un [!DNL Marketo Measure Ultimate] La instancia de desarrollador debe asignarse a una zona protegida de desarrollador de AEP.
+>Debe asignarse una instancia de producción de [!DNL Marketo Measure Ultimate] a una zona protegida de producción de AEP, debe asignarse una instancia de desarrolladores de [!DNL Marketo Measure Ultimate] a una zona protegida de desarrolladores de AEP.
 
-Una vez guardada la selección de la asignación de la zona protegida, no se puede cambiar en la aplicación. Para cambiarlo, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Una vez guardada la selección de la asignación de la zona protegida, no puede cambiarla en la aplicación en este momento. Para cambiarla, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-Los datos de una entidad determinada (por ejemplo, Account) de una fuente de datos determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detienen el flujo de datos en tiempo de ejecución.
+Los datos de una entidad determinada (por ejemplo, cuenta) de una fuente de datos determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detendrán el flujo de datos en el tiempo de ejecución.
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
@@ -106,8 +106,8 @@ Los servicios ABM ML de [!DNL Marketo Measure] (coincidencia de cliente potencia
 
 ## Limitaciones {#limitations}
 
-* Hay campos limitados disponibles para reglas de transformación de datos.
-* No hay ninguna ruta de migración para los usuarios de nivel 1/2/3 existentes. Requiere una nueva implementación, pero le ayudamos a migrar los datos de actividad web rastreados desde la instancia existente.
+* Hay campos limitados disponibles para las reglas de transformación de datos.
+* No hay ninguna ruta de migración para los usuarios de nivel 1/2/3 existentes. Requiere una nueva implementación, pero le ayudaremos a migrar los datos de actividad web rastreados desde la instancia existente.
 
 >[!MORELIKETHIS]
 >
