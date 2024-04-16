@@ -2,9 +2,10 @@
 description: Tablero de velocidad del posible cliente - [!DNL Marketo Measure] - Producto
 title: Panel de velocidad del posible cliente
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
+source-git-commit: de7239abaedaf1a59b3760f12736a225d71027a1
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '363'
 ht-degree: 3%
 
 ---
@@ -20,14 +21,16 @@ Preguntas que responde este panel:
 
 ## Componentes del panel {#dashboard-components}
 
+La preferencia establecida en Configuración > Configuración de atribución > Objeto de panel predeterminado determina si se mostrará &quot;Posible cliente&quot; o &quot;Contacto&quot;.
+
 ### Velocidad de cliente potencial/contacto por fase {#lead-contact-velocity-by-stage}
 
 El gráfico de barras muestra la duración promedio, en días, que los posibles clientes o contactos gastan en cada fase de ventas durante un periodo de tiempo específico.
 
 Preguntas que responde el gráfico:
 
-¿Qué fase de ventas suele tener la mayor duración para los posibles clientes/contactos?
-¿En qué se diferencia el tiempo empleado en la fase de &quot;Primer contacto&quot; del de &quot;MQL&quot;?
+* ¿Qué fase de ventas suele tener la mayor duración para los posibles clientes/contactos?
+* ¿En qué se diferencia el tiempo empleado en la fase de &quot;Primer contacto&quot; del de &quot;MQL&quot;?
 
 ![](assets/lead-velocity-dashboard-1.png)
 
@@ -35,7 +38,7 @@ Preguntas que responde el gráfico:
 
 El gráfico de líneas de serie temporal muestra el tiempo promedio, en días, que los posibles clientes o contactos emplean en cada fase de ventas en el periodo de tiempo especificado.
 
-* utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
+* Utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
 * Pase el ratón sobre una línea para ver información detallada.
 
 Preguntas que responde el gráfico:
