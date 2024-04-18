@@ -4,16 +4,20 @@ description: 'Configuración de la vista del administrador de campañas de doble
 title: Configuración de la atribución de visualizaciones del administrador de campañas de DoubleClick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 4%
+source-wordcount: '417'
+ht-degree: 27%
 
 ---
 
 # Configuración de la atribución de visualizaciones del administrador de campañas de DoubleClick {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## Medición de la vista mediante atribución {#measuring-view-through-attribution}
+
+>[!IMPORTANT]
+>
+>Debido a cuestiones de privacidad, las cookies de terceros están a punto de desaparecer. La obsolescencia de las cookies de terceros anunciada por Google Chrome en el tercer trimestre de 2024 marca el final de esta forma de seguimiento. Por consiguiente, Adobe va a dejar de utilizar las funciones de Marketo Measure que dependan de cookies de terceros; en concreto Seguimiento entre dominios y Atribución de visualización, que utilizan la cookie de impresión de Google/DoubleClick. Ninguna otra función de Marketo Measure se verá afectada. El uso de cookies de origen tampoco se verá afectado. En vista de la programación de Google, la fecha prevista de obsolescencia de las dos funciones anteriores es el 1/6/2024. Los datos relacionados recopilados antes de esta fecha permanecen a disposición de los clientes de Adobe.
 
 >[!NOTE]
 >

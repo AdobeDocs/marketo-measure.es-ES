@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Preguntas frecuentes sobre la atribución d
 title: '"[!DNL Marketo Measure] Preguntas frecuentes sobre "Ver mediante atribución"'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 6%
+source-wordcount: '492'
+ht-degree: 25%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 6%
 ## ¿Qué es la Vista a través de la atribución? {#what-is-view-through-attribution}
 
 El [!DNL Marketo Measure] [!UICONTROL Ver mediante atribución] Esta función incluye la capacidad de incluir impresiones de publicidad en el modelo de atribución.
+
+>[!IMPORTANT]
+>
+>Debido a cuestiones de privacidad, las cookies de terceros están a punto de desaparecer. La obsolescencia de las cookies de terceros anunciada por Google Chrome en el tercer trimestre de 2024 marca el final de esta forma de seguimiento. Por consiguiente, Adobe va a dejar de utilizar las funciones de Marketo Measure que dependan de cookies de terceros; en concreto Seguimiento entre dominios y Atribución de visualización, que utilizan la cookie de impresión de Google/DoubleClick. Ninguna otra función de Marketo Measure se verá afectada. El uso de cookies de origen tampoco se verá afectado. En vista de la programación de Google, la fecha prevista de obsolescencia de las dos funciones anteriores es el 1/6/2024. Los datos relacionados recopilados antes de esta fecha permanecen a disposición de los clientes de Adobe.
 
 ## ¿Por qué? [!UICONTROL Ver mediante atribución] ¿Importante? {#why-is-view-through-attribution-important}
 
@@ -99,7 +103,7 @@ Hemos realizado un análisis cuidadoso de los datos de impresión y su influenci
    <td>Personalizado</td> 
   </tr> 
   <tr> 
-   <td><strong>Medio</strong></td> 
+   <td><strong>Segundo nombre</strong></td> 
    <td>0 %</td> 
    <td>0 %</td> 
    <td>20 %</td> 
