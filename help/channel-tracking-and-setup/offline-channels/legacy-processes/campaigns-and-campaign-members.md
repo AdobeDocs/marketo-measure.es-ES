@@ -5,9 +5,9 @@ title: Campañas y miembros de campañas
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
 source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,6 +126,6 @@ Para evitar este problema, [!DNL Marketo Measure] creó un objeto Historial de [
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Campos de objetos de Campaign](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriales: Campos de objetos de campaña](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] Tutorials: Asignación de canales sin conexión](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriales: Asignación de canales sin conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
