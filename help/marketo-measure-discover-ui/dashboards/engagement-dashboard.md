@@ -2,16 +2,25 @@
 description: Tablero de participación - [!DNL Marketo Measure] - Producto
 title: Panel de participación
 feature: Reporting
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
+source-git-commit: db71635a77d6e2555c442fb45371fd5a93e3c502
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 1%
+source-wordcount: '503'
+ht-degree: 0%
 
 ---
 
 # Panel de participación {#engagement-dashboard}
 
 El panel de participación rastrea meticulosamente las métricas de participación del usuario. Muestra los puntos de contacto, la cantidad de personas comprometidas y el promedio de puntos de contacto por persona. Utilice el gráfico de barras de series temporales para una vista mensual, trimestral o anual, y el gráfico de barras para obtener información detallada sobre el canal, el subcanal y la campaña. Esta herramienta es esencial para comprender los patrones de participación y ajustar las estrategias de participación.
+
+Rastreamos la interacción de cada cliente como puntos de contacto del usuario (UT), los puntos de datos recopilados &quot;sin procesar&quot;, que sirven como base para las métricas de participación en nuestro panel. No todos los TU evolucionan hacia puntos de contacto del comprador (BT) o puntos de contacto de atribución del comprador (BAT), ya que estos son resultados seleccionados para atribuir interacciones específicas del cliente a actividades relacionadas con los ingresos. Es importante tener en cuenta que las reglas de supresión no afectan a las UT ni al panel de participación.
+
+* **Puntos de contacto del usuario**: Puntos de contacto creados a partir de todas las participaciones.
+* **Puntos de contacto del comprador**: puntos de contacto seleccionados para la atribución de posibles clientes y contactos. Los BT no están vinculados a Oportunidades y no tienen ingresos asociados.
+* **Puntos de contacto de atribución del comprador**: Puntos de contacto seleccionados para la atribución de oportunidad. Las MTD tienen implicaciones en los ingresos, ya que están vinculadas a Oportunidades.
+
+El uso solo de MTD o MTD para medir la participación subestimaría el verdadero alcance de las interacciones de los clientes, ya que la participación es más amplia que solo la atribución.
 
 Preguntas que responde el panel:
 
