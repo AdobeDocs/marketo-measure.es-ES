@@ -4,9 +4,9 @@ title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -27,10 +27,10 @@ En respuesta a la creciente preocupación por la privacidad, las cookies de terc
 
 **Despliegue gradual de nuestra gestión de errores mejorada**
 
-Presentamos una implementación por fases de la gestión de errores mejorada para los trabajos de exportación, que comienza con las notificaciones inmediatas en la aplicación de los errores de permisos y la transición a un nuevo método en el que los trabajos de exportación se pausarán en el punto de error. Este cambio tiene como objetivo mejorar la integridad y visibilidad de los datos, lo que garantiza procesos de administración de datos más fluidos y fiables para nuestros usuarios. Para garantizar una transición sin problemas y una interrupción mínima de sus operaciones, estamos implementando estos cambios en dos fases:
+Presentamos un despliegue por fases de la gestión de errores mejorada para los trabajos de exportación, comenzando con las notificaciones inmediatas en la aplicación para los errores de permisos y la transición a un nuevo enfoque en el que los trabajos de exportación se detendrán en el punto del error. Este cambio tiene como objetivo mejorar la integridad y visibilidad de los datos, lo que garantiza procesos de administración de datos más fluidos y fiables para nuestros usuarios. Para garantizar una transición sin problemas y una interrupción mínima de sus operaciones, estamos implementando estos cambios en dos fases:
 
 * Disponibilidad inmediata de las notificaciones pulse: recibirá notificaciones pulse en la aplicación para detectar errores de permisos durante los trabajos de exportación. Esto no interrumpirá sus exportaciones, pero le ayudará a conocer los errores sin que ello afecte a sus trabajos actuales.
-* Implementación de la pausa de trabajos el 25 de abril: **POSPUESTO** - Después de considerar los comentarios de los usuarios de Marketo Measure, hemos decidido posponer la implementación de la pausa de los trabajos de exportación en el punto de error, originalmente programado para el 25 de abril. Reconocemos que detener los empleos tal vez no sea el enfoque más eficaz. Estamos comprometidos a encontrar una mejor solución que mantenga la integridad de los datos y minimice las interrupciones. Nos mantendremos al margen de cualquier cambio en nuestro sistema actual hasta que podamos garantizar una solución que se ajuste más a las necesidades de nuestros usuarios.
+* Implementación de la pausa de trabajos el 25 de abril: **POSPUESTA**: después de tener en cuenta los comentarios de los usuarios de Marketo Measure, hemos decidido posponer la implementación de la pausa de los trabajos de exportación en el punto de error, programado originalmente para el 25 de abril. Reconocemos que detener los trabajos tal vez no sea el planteamiento más eficaz. Nos comprometemos a encontrar una mejor solución que mantenga la integridad de los datos y minimice las interrupciones. Nos realizaremos ningún cambio en nuestro sistema actual hasta que podamos garantizar una solución que se ajuste más a las necesidades de nuestros usuarios.
 
 _Por qué es importante_
 
