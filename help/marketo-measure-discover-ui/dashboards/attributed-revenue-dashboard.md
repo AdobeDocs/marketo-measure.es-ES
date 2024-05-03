@@ -3,7 +3,7 @@ description: Tablero de ingresos atribuidos - [!DNL Marketo Measure] - Producto
 title: Panel de ingresos atribuidos
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 01ed0bfa424a1fb5eb68983b1a54c4c5eddc163a
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 3%
@@ -18,7 +18,7 @@ El panel de control de ingresos atribuidos ofrece una perspectiva centrada en lo
 >
 >Este tablero está en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto después de que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
 
-**Preguntas que el tablero responde:**
+**Preguntas que el tablero responde**:
 
 * ¿Qué canales, subcanales o campañas tienen la clasificación más alta en términos de ingresos atribuidos?
 * ¿Cuál es la cantidad total de nuestros ingresos atribuidos y el recuento de nuestras ofertas cerradas atribuidas?
@@ -37,7 +37,7 @@ Gráfico de barras apiladas que muestra los ingresos atribuidos totales, segment
 * Utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
 * Pase el ratón sobre un segmento de barra o el espacio entre barras para ver información detallada.
 
-**Preguntas que responde el gráfico:**
+**Preguntas sobre las respuestas del gráfico**:
 
 * ¿Qué canales generan los ingresos más atribuidos cada trimestre?
 * ¿Cuál fue el desglose de los ingresos atribuidos por canal el mes pasado?
@@ -48,7 +48,7 @@ Gráfico de barras apiladas que muestra los ingresos atribuidos totales, segment
 
 Ingresos atribuidos totales segmentados por canal, subcanal y campaña, presentados en formato de tabla y árbol. Haga clic en el botón en la esquina superior derecha para cambiar entre vistas.
 
-**Preguntas que el tablero responde:**
+**Preguntas que el tablero responde**:
 
 * ¿Cómo varía la distribución de ingresos atribuidos entre los diferentes subcanales dentro de un canal?
 * ¿Qué campañas bajo un determinado subcanal están impulsando los ingresos más atribuidos?
