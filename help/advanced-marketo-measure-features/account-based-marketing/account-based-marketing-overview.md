@@ -4,10 +4,10 @@ description: Obtenga información acerca de Account-Based Marketing (ABM) y cóm
 title: Información general sobre el marketing basado en cuentas
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 89%
 
 ---
 
@@ -32,17 +32,22 @@ Para que nuestro modelo de marketing basado en cuentas empiece a rellenarse en s
 
 ## Asignación de cliente potencial a cuenta {#lead-to-account-mapping}
 
-La asignación de cliente potencial a cuenta es una parte crucial de un enfoque eficaz de ABM. Con la asignación de cliente potencial a cuenta, los posibles clientes o clientes potenciales se agrupan en la misma cuenta de compañía a medida que interactúan con la marca. Esto le permite segmentar y vender a particulares de la misma compañía de forma coherente. No es necesario una configuración de [!DNL Salesforce] adicional para comenzar a beneficiarse de esta función. La Asignación de clientes potenciales a cuentas de [!DNL Marketo Measure] dispone de cinco métodos de coincidencia diferentes:
+La asignación de cliente potencial a cuenta es una parte crucial de un enfoque eficaz de ABM. Con la asignación de cliente potencial a cuenta, los posibles clientes o clientes potenciales se agrupan en la misma cuenta de compañía a medida que interactúan con la marca. Esto le permite segmentar y vender a particulares de la misma compañía de forma coherente. No es necesario una configuración de [!DNL Salesforce] adicional para comenzar a beneficiarse de esta función. El [!DNL Marketo Measure] Métodos de coincidencia diferentes de asignación de cliente potencial a cuenta:
 
 * Sitio web principal del cliente potencial a sitio web de la cuenta
 * Dominio de correo electrónico del posible cliente al dominio del sitio web de la cuenta
 * Nombre de la compañía del posible cliente al nombre de la cuenta
 * Compañía del cliente potencial al dominio del sitio web de la cuenta
-* Hacer coincidir el dominio de la dirección de correo electrónico del cliente potencial con la cuenta a través de la dirección de correo electrónico del contacto
+* Sitio web principal al dominio de correo electrónico de los contactos de la cuenta
+* Enviar dominio de correo electrónico al dominio de correo electrónico de los contactos de la cuenta
+* Sitio web de posibles clientes en el dominio de correo electrónico de los posibles clientes
+* Dominio de correo electrónico del posible cliente al dominio de correo electrónico del posible cliente de la cuenta
+
+Los posibles clientes/contactos de las cuentas se validan mediante los dominios de correo electrónico/sitio web y se comparan con el dominio o subdominio del correo electrónico/sitio web del posible cliente. Se utiliza la cuenta con la mayor cantidad de coincidencias.
 
 >[!NOTE]
 >
->Se intenta hacer coincidir cada cliente potencial con una cuenta en el orden preferencial de métodos anterior. Una vez que se establece una coincidencia, se establece inmediatamente el AccountId en el cliente potencial y no se establecerá una coincidencia con otro método. Si el cliente potencial ya tiene un AccountId válido, se omite el cliente potencial.
+>Se intenta hacer coincidir cada cliente potencial con una cuenta en el orden preferencial de métodos anterior. Una vez que se establece una coincidencia, AccountId se establece inmediatamente en el posible cliente y no se comparará con otro método.
 
 ## Puntuación de participación predictiva {#predictive-engagement-score}
 
