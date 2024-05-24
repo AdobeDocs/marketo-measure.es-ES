@@ -1,18 +1,16 @@
 ---
 description: Tablero de oportunidad atribuida - [!DNL Marketo Measure] - Producto
-title: Tablero de oportunidad atribuida
-hide: true
-hidefromtoc: true
+title: Panel de oportunidades atribuidas
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-source-git-commit: 01ed0bfa424a1fb5eb68983b1a54c4c5eddc163a
+source-git-commit: 40c9a92582d0177474bd6390be58726844e1714a
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Tablero de oportunidad atribuida {#attributed-opportunity-dashboard}
+# Panel de oportunidades atribuidas {#attributed-opportunity-dashboard}
 
 El Tablero de oportunidades atribuidas proporciona una vista completa de cómo los esfuerzos de marketing contribuyen a las oportunidades de canalización nacientes y maduras. Profundice en los detalles de cada oportunidad abierta y cerrada atribuible a sus estrategias, con la flexibilidad de filtrar por etapa de oportunidad, subrayando el alcance completo de la influencia del marketing más allá de los acuerdos cerrados.
 
