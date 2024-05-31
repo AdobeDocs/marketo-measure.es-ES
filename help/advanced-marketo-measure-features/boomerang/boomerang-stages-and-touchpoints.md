@@ -4,9 +4,9 @@ description: 'Etapas y puntos de contacto de Boomerang: [!DNL Marketo Measure]'
 title: Fases y puntos de contacto de Boomerang
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '723'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->La función Boomerang solo está habilitada para clientes de nivel 3. Para solicitar un nivel de cuenta superior, póngase en contacto con el equipo de cuenta de Adobe (su administrador de cuentas).
+>La función Boomerang solo está habilitada para clientes de nivel 2 y 3. Para solicitar un nivel de cuenta superior, póngase en contacto con el equipo de cuenta de Adobe (su administrador de cuentas).
 
 [!DNL Marketo Measure] ha lanzado la función Boomerang Stage! La función Boomerang Stage se ha creado para proporcionar una mayor visibilidad del recorrido del cliente para [!DNL Marketo Measure] clientes con ciclos de ventas largos. Esta función permite a los especialistas en marketing crear puntos de contacto para todas las transiciones de etapa que se producen en el recorrido de oportunidad, como cuando un contacto usa MQL, luego se mueve a SAL y luego vuelve al escenario de MQL. Cuando los contactos &quot;vuelven a entrar en la fase MQL&quot; o &quot;re-MQL&quot;, el MQL se considera una fase boomerang. La función Boomerang Stage funciona junto con el [!DNL Marketo Measure] Fases personalizadas.
 
