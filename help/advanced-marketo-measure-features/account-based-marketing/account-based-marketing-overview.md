@@ -7,7 +7,7 @@ feature: Account-based Marketing
 source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
 workflow-type: tm+mt
 source-wordcount: '822'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -38,16 +38,16 @@ La asignación de cliente potencial a cuenta es una parte crucial de un enfoque 
 * Dominio de correo electrónico del posible cliente al dominio del sitio web de la cuenta
 * Nombre de la compañía del posible cliente al nombre de la cuenta
 * Compañía del cliente potencial al dominio del sitio web de la cuenta
-* Sitio web principal al dominio de correo electrónico de los contactos de la cuenta
-* Enviar dominio de correo electrónico al dominio de correo electrónico de los contactos de la cuenta
-* Sitio web de posibles clientes en el dominio de correo electrónico de los posibles clientes
-* Dominio de correo electrónico del posible cliente al dominio de correo electrónico del posible cliente de la cuenta
+* Sitio web del posible cliente al dominio del correo electrónico de los contactos de la cuenta
+* Dominio de correo electrónico del posible cliente al dominio del correo electrónico de los contactos de la cuenta
+* Sitio web del posible cliente al dominio del correo electrónico de los posibles clientes de la cuenta
+* Dominio del correo electrónico del posible cliente al dominio del correo electrónico de los posibles clientes de la cuenta
 
 Los posibles clientes/contactos de las cuentas se validan mediante los dominios de correo electrónico/sitio web y se comparan con el dominio o subdominio del correo electrónico/sitio web del posible cliente. Se utiliza la cuenta con la mayor cantidad de coincidencias.
 
 >[!NOTE]
 >
->Se intenta hacer coincidir cada cliente potencial con una cuenta en el orden preferencial de métodos anterior. Una vez que se establece una coincidencia, AccountId se establece inmediatamente en el posible cliente y no se comparará con otro método.
+>Se intenta hacer coincidir cada posible cliente con una cuenta en el orden preferencial de métodos anterior. Una vez que se establece una coincidencia, se establece inmediatamente el AccountId en el posible cliente y no se establecerá una coincidencia con otro método.
 
 ## Puntuación de participación predictiva {#predictive-engagement-score}
 
