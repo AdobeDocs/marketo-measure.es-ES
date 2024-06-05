@@ -3,7 +3,7 @@ description: Notas de la versión actual de  [!DNL Marketo Measure]
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
+source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 57%
@@ -40,7 +40,7 @@ La sincronización de cookies de Marketo Engage ya está disponible para Marketo
 
 **Fases de boomerang habilitadas para clientes de nivel 2**
 
-Anteriormente solo disponible para clientes de nivel 3, la función Boomerang Stage también estará disponible para todos los clientes de nivel 2 a partir del 7 de junio de 2024. Para obtener información más detallada sobre esta funcionalidad, consulte la documentación siguiente.
+Anteriormente solo disponible para clientes de nivel 3, la función Boomerang Stage también estará disponible para todos los clientes de nivel 2 a partir del 13 de junio de 2024. Para obtener información más detallada sobre esta funcionalidad, consulte la documentación siguiente.
 
 * [Etapas y puntos de contacto del boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [Configuración de etapas de boomerang](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
