@@ -5,9 +5,9 @@ title: Información general sobre el marketing basado en cuentas
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
 source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '822'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Para que nuestro modelo de marketing basado en cuentas empiece a rellenarse en s
 
 ## Asignación de cliente potencial a cuenta {#lead-to-account-mapping}
 
-La asignación de cliente potencial a cuenta es una parte crucial de un enfoque eficaz de ABM. Con la asignación de cliente potencial a cuenta, los posibles clientes o clientes potenciales se agrupan en la misma cuenta de compañía a medida que interactúan con la marca. Esto le permite segmentar y vender a particulares de la misma compañía de forma coherente. No es necesario una configuración de [!DNL Salesforce] adicional para comenzar a beneficiarse de esta función. El [!DNL Marketo Measure] Métodos de coincidencia diferentes de asignación de cliente potencial a cuenta:
+La asignación de cliente potencial a cuenta es una parte crucial de un enfoque eficaz de ABM. Con la asignación de cliente potencial a cuenta, los posibles clientes o clientes potenciales se agrupan en la misma cuenta de compañía a medida que interactúan con la marca. Esto le permite segmentar y vender a particulares de la misma compañía de forma coherente. No es necesario una configuración de [!DNL Salesforce] adicional para comenzar a beneficiarse de esta función. La asignación de posibles clientes a cuentas de [!DNL Marketo Measure] dispone de métodos de coincidencia diferentes:
 
 * Sitio web principal del cliente potencial a sitio web de la cuenta
 * Dominio de correo electrónico del posible cliente al dominio del sitio web de la cuenta
