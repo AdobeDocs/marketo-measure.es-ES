@@ -4,9 +4,9 @@ title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -18,33 +18,33 @@ A continuación, encontrará todas las funciones nuevas y actualizadas de nuestr
 
 <p>
 
-**Recordatorio: casos de obsolescencia de los campos de Salesforce, 14 de junio**
+**Recordatorio: obsolescencia de campos de Salesforce, 14 de junio**
 
-Como se anunció el año pasado, eliminaremos gradualmente nuestros trabajos de exportación a objetos de posible cliente/contacto para simplificar nuestra integración y eliminar la necesidad de exportar a objetos estándar de Salesforce. Puede obtener los mismos datos de los objetos de Touchpoint siguiendo los pasos [documentado aquí](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. También se compartirá documentación sobre la creación de flujos de trabajo para agregar estos datos al objeto de posible cliente/contacto. La desaprobación entrará en vigor el 14 de junio de 2024.
+Como se anunció el año pasado, eliminaremos gradualmente nuestros trabajos de exportación a objetos de contacto/posible cliente para simplificar nuestra integración y eliminar la necesidad de exportar a objetos estándar de Salesforce. Puede obtener los mismos datos de los objetos Touchpoint siguiendo los pasos [documentados aquí](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. También se compartirá documentación sobre la creación de flujos de trabajo para añadir estos datos al objeto de posible cliente/contacto. La obsolescencia entrará en vigor el 14 de junio de 2024.
 
 Este cambio traerá dos ventajas clave:
 
-* **Costes reducidos de API de Salesforce**: Los clientes pueden esperar reducir sus costes de API de Salesforce en aproximadamente un 10 %.
-* **Integración optimizada**: El mayor número de errores en nuestros trabajos de exportación está relacionado con estos procesos. Su eliminación agilizará considerablemente nuestra integración.
+* **Costes reducidos de API de Salesforce**: los clientes pueden esperar ver reducidos sus costes de API de Salesforce en aproximadamente un 10 %.
+* **Integración optimizada**: el mayor número de errores en nuestros trabajos de exportación está relacionado con estos procesos. Su eliminación agilizará considerablemente nuestra integración.
 
-**Tablero de oportunidad atribuida**
+**Panel de oportunidades atribuidas**
 
-Estamos encantados de presentar el nuevo [Tablero de oportunidad atribuida](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, diseñado para proporcionarle una visión completa de cómo sus esfuerzos de marketing contribuyen a las oportunidades de canalización nacientes y maduras. Este tablero le permite profundizar en los detalles de cada oportunidad abierta y cerrada atribuible a sus estrategias, con la flexibilidad de filtrar por etapa de oportunidad. Proporciona información sobre los canales, subcanales o campañas que ocupan el primer puesto en términos de la cantidad de oportunidades atribuidas y muestra la cantidad total de oportunidades atribuidas junto con el recuento de oportunidades atribuidas abiertas y cerradas.
+Estamos encantados de presentar el nuevo [Panel de oportunidades atribuidas](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, diseñado para proporcionarle una visión completa de cómo sus esfuerzos de marketing contribuyen a las oportunidades de canalización incipientes y maduras. Este panel le permite profundizar en los detalles de cada oportunidad abierta y cerrada atribuible a sus estrategias, con la flexibilidad de filtrar por etapa de oportunidad. Proporciona información sobre los canales, subcanales o campañas que ocupan los primeros puestos en términos de la cantidad de oportunidades atribuidas y muestra la cantidad total de oportunidades atribuidas junto con el recuento de oportunidades atribuidas abiertas y cerradas.
 
 **Sincronización de cookies de Marketo Engage para Marketo Measure Ultimate**
 
 La sincronización de cookies de Marketo Engage ya está disponible para Marketo Measure Ultimate. Para utilizar esta función:
 
-1. En la página Esquemas de AEP, edite el esquema Persona B2B y añada el grupo de campos Detalles de persona del Marketo Engage.
-1. Al ingerir los datos en MMU, asigne el campo ID de cookie del grupo de campos al campo Cookies del Marketo Engage.
+1. En la página Esquemas de AEP, edite el esquema Persona B2B y añada el grupo de campos “Detalles de persona del Marketo Engage”.
+1. Al ingerir los datos en MMU, asigne el campo ID de cookie del grupo de campos al campo Cookies de Marketo Engage.
 
-**Fases de boomerang habilitadas para clientes de nivel 2**
+**Fases de Boomerang habilitadas para clientes de nivel 2**
 
-Anteriormente solo disponible para clientes de nivel 3, la función Boomerang Stage también estará disponible para todos los clientes de nivel 2 a partir del 13 de junio de 2024. Para obtener información más detallada sobre esta funcionalidad, consulte la documentación siguiente.
+Anteriormente, solo disponible para clientes de nivel 3, la función Fase de Boomerang también estará disponible para todos los clientes de nivel 2 a partir del 13 de junio de 2024. Para obtener información más detallada sobre esta funcionalidad, consulte la documentación siguiente.
 
-* [Etapas y puntos de contacto del boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
-* [Configuración de etapas de boomerang](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
-* [Escenarios de fase boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
+* [Fases y puntos de contacto de Boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Configuración de fases de Boomerang](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [Escenarios de fases de Boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
