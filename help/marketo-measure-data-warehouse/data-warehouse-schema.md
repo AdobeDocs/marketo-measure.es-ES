@@ -4,8 +4,8 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentación del pr
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+workflow-type: tm+mt
 source-wordcount: '21110'
 ht-degree: 100%
 
@@ -33,24 +33,14 @@ El ERD adicional del _Modelo de datos dimensional de anuncios_ presenta una vist
 _Haga clic en una imagen para obtener su versión de tamaño completo_
 
 <table style="table-layout:auto"> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>Modelo de datos de Data Warehouse</strong></td> 
-   <td><strong>Modelo de datos dimensional de anuncios</strong></td> 
+   <th>Modelo de datos de Data Warehouse</th> 
+   <th>Modelo de datos dimensional de anuncios</th> 
   </tr> 
   <tr> 
-   <td> 
-    <div> 
-     <p><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></p> 
-    </div></td>
-   <td> 
-    <div> 
-     <p><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></p>
-    </div></td> 
+   <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
   </tr> 
  </tbody> 
 </table>

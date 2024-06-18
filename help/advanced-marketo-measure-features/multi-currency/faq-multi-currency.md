@@ -4,9 +4,9 @@ description: Preguntas más frecuentes (multimoneda) - [!DNL Marketo Measure]
 title: Preguntas frecuentes (multidivisa)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Tenga en cuenta que hay dos bits de funciones diferentes para esta función. Ambos se encuentran en la [!UICONTROL General] de la sección CRM en Configuración: Varias monedas y Monedas avanzadas. Se deben habilitar varias monedas si el cliente utiliza más de una sola moneda, mientras que la función adicional bit Monedas avanzadas se puede habilitar si el cliente utiliza [!DNL Salesforce]Función &quot;Advanced Currency Management&quot; de donde el usuario puede establecer un intervalo basado en el tiempo para las tasas de conversión.
 
-Desafortunadamente, no sabemos cuándo un cliente cambia entre Simple o Avanzado si ya se ha activado Avanzado. Debido a esto, el cliente necesita mantener la configuración de Monedas avanzadas alineada con su configuración de CRM manualmente. Esto debería ser evidente para el cliente si las conversiones son incorrectas, lo que significa que no sabíamos qué nivel de conversión aplicar.
+Marketo Measure extrae automáticamente la configuración de moneda del CRM del cliente. Ya no es necesaria la configuración manual en Marketo Measure para que coincida con el CRM. La configuración de moneda se puede encontrar en la página &quot;General&quot; en &quot;CRM&quot;.
 
 **¿Por qué mi cuenta de anuncios me envía un mensaje de advertencia?**
 
@@ -57,4 +57,4 @@ Dado que nuestra oferta ahora gestiona las conversiones para el cliente, recomen
 
 >[!MORELIKETHIS]
 >
->[Notificaciones de error](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[Notificaciones de errores](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

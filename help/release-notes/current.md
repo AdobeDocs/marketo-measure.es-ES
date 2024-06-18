@@ -3,10 +3,10 @@ description: Notas de la versión actual de  [!DNL Marketo Measure]
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ A continuación, encontrará todas las funciones nuevas y actualizadas de nuestr
 
 **Recordatorio: obsolescencia de campos de Salesforce, 14 de junio**
 
-Como se anunció el año pasado, eliminaremos gradualmente nuestros trabajos de exportación a objetos de contacto/posible cliente para simplificar nuestra integración y eliminar la necesidad de exportar a objetos estándar de Salesforce. Puede obtener los mismos datos de los objetos Touchpoint siguiendo los pasos [documentados aquí](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. También se compartirá documentación sobre la creación de flujos de trabajo para añadir estos datos al objeto de posible cliente/contacto. La obsolescencia entrará en vigor el 14 de junio de 2024.
+Como se anunció el año pasado, [Eliminación gradual de los trabajos de exportación a objetos de cliente potencial/contacto](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} para simplificar la integración y eliminar la necesidad de exportar a objetos estándar de Salesforce. Puede obtener los mismos datos de los objetos Touchpoint siguiendo los pasos [documentados aquí](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. También se compartirá documentación sobre la creación de flujos de trabajo para añadir estos datos al objeto de posible cliente/contacto. La obsolescencia entrará en vigor el 14 de junio de 2024.
 
 Este cambio traerá dos ventajas clave:
 
