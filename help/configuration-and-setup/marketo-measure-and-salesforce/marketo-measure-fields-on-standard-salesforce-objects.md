@@ -4,10 +4,10 @@ description: "Campos de [!DNL Marketo Measure] en objetos de  [!DNL Salesforce] 
 title: "Campos de [!DNL Marketo Measure] en objetos de  [!DNL Salesforce]  estándar"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
-source-wordcount: '1292'
-ht-degree: 100%
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 97%
 
 ---
 
@@ -22,30 +22,6 @@ Obtenga información sobre los distintos campos de [!DNL Marketo Measure] que se
 ## Cuenta {#account}
 
 Puntuación de participación predictiva: este campo se utiliza con nuestra función ABM para proporcionar una puntuación relacionada con la participación de la cuenta y tiene en cuenta muchos factores, como la actualización de las vistas de página, cuántos contactos están asociados a la cuenta, si hay una operación cerrada, etc.
-
-## Caso {#case}
-
-Añadimos campos al objeto Caso relacionados con los hitos de contacto Primer contacto y Creación del cliente potencial. Esto es para clientes que utilizan el objeto Case en lugar del cliente potencial o contacto y también sirve al efecto de otra manera de ver los datos en caso de que un cliente no quiera que creemos registros de Touchpoint.
-
-Fuente de Touchpoint (FT): esta es la fuente de interacción del primer contacto.
-
-Fuente del Touchpoint (LC): esta es la fuente de la interacción táctil de la creación del cliente potencial.
-
-Canal de marketing (FT): este es el canal de marketing de la interacción de primer contacto.
-
-Canal de marketing (LC): este es el canal de marketing de la interacción táctil de creación de posibles clientes.
-
-Nombre de la campaña de publicidad (FT): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o [!DNL Salesforce] la Campaña de interacción de primer contacto.
-
-Nombre de la campaña de publicidad (LC): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o Campaign de [!DNL Salesforce] de la interacción táctil de [!UICONTROL creación del cliente potencial].
-
-Página de aterrizaje (FT): esta es la página de aterrizaje de la interacción de primer contacto.
-
- Página de aterrizaje (LC): esta es la página de aterrizaje de la interacción táctil de [!UICONTROL creación del cliente potencial].
-
-Fecha de Touchpoint (FT): la fecha de la primera interacción del contacto.
-
-Fecha de Touchpoint (LC): la fecha de la interacción táctil de creación de posibles clientes.
 
 ## Campaña {#campaign}
 
@@ -79,57 +55,9 @@ Fecha de Buyer Touchpoint: está relacionada con el botón [!UICONTROL Fecha de 
 
 OnCampaignMemberDelete: de forma predeterminada, [!DNL Salesforce] no aparece cuando se eliminan miembros de Campaign, lo que puede causar problemas con los informes de atribución precisos. Cuando se elimina un miembro de la campaña, esto se activa para informar a [!DNL Marketo Measure] que elimine los Touchpoints relacionados con ese miembro de campaña inexistente.
 
-## Contacto {#contact}
-
-Añadimos campos al objeto Contacto relacionado con los hitos de contacto Primer contacto y Creación del cliente potencial. Esto es para clientes que prefieren tener la atribución registrada directamente en los campos en lugar de crear registros de Touchpoint. La mayoría de nuestros clientes siguen la ruta de registro de Touchpoint, pero también utilizan estos campos dentro de su plataforma de automatización.
-
-Fuente de Touchpoint (FT): esta es la fuente de interacción del primer contacto.
-
-Fuente del Touchpoint (LC): esta es la fuente de la interacción táctil de la creación del cliente potencial.
-
-Canal de marketing (FT): este es el canal de marketing de la interacción de primer contacto.
-
-Canal de marketing (LC): este es el canal de marketing de la interacción táctil de creación de posibles clientes.
-
-Nombre de la campaña de publicidad (FT): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o Campaña de [!DNL Salesforce] de interacción de primer contacto.
-
-Nombre de la campaña de publicidad (LC): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o Campaña de [!DNL Salesforce] de la interacción táctil de la [!UICONTROL creación de clientes potenciales].
-
-Página de aterrizaje (FT): esta es la página de aterrizaje de la interacción de primer contacto.
-
-Página de aterrizaje (LC): esta es la página de aterrizaje de la interacción táctil de la [!UICONTROL creación de clientes potenciales].
-
-Fecha de Touchpoint (FT): la fecha de la primera interacción del contacto.
-
-Fecha de Touchpoint (LC): la fecha de la interacción táctil de creación de posibles clientes.
-
-BizibleID: se utiliza en relación con la atribución de actividades y la integración de métricas de seguimiento de llamadas para la asociación de contactos al touchpoint.
-
 ## Posible cliente {#lead}
 
-Se añadieron campos al objeto de posible cliente relacionado con los hitos de contacto Primer contacto y Creación de posibles clientes. Esto es para clientes que prefieren tener la atribución registrada directamente en los campos en lugar de crear registros de Touchpoint. La mayoría de nuestros clientes siguen la ruta de registro de Touchpoint, pero también utilizan estos campos dentro de su plataforma de automatización.
-
-Fuente de Touchpoint (FT): esta es la fuente de interacción del primer contacto.
-
-Fuente del Touchpoint (LC): esta es la fuente de la interacción táctil de la creación del cliente potencial.
-
-Canal de marketing (FT): este es el canal de marketing de la interacción de primer contacto.
-
-Canal de marketing (LC): este es el canal de marketing de la interacción táctil de creación de posibles clientes.
-
-Nombre de la campaña de publicidad (FT): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o campaña de [!DNL Salesforce] de interacción de primer contacto.
-
-Nombre de la campaña de publicidad (LC): esta es la campaña de UTM, la campaña de publicidad de las redes de publicidad o Campaña de [!DNL Salesforce] de la interacción táctil de la creación del posible cliente.
-
-Página de aterrizaje (FT): esta es la página de aterrizaje de la interacción de primer contacto.
-
-Página de aterrizaje (LC): genera la interacción táctil de creación de posibles clientes.
-
-Fecha de Touchpoint (FT): la fecha de la primera interacción del contacto.
-
-Fecha de Touchpoint (LC): la fecha de la interacción táctil de creación de posibles clientes.
-
-BizsibleID: se utiliza en relación con la atribución de actividades y la integración de métricas de seguimiento de llamadas para la asociación de posibles clientes con el Touchpoint.
+El campo Cuenta Bizible se utiliza para nuestra asignación de cliente potencial a cuenta para nuestra función ABM. Se rellena este campo para crear la relación de búsqueda entre los dos objetos.
 
 ## Cuenta {#account-1}
 
