@@ -5,9 +5,9 @@ title: "Campos de [!DNL Marketo Measure] en objetos de  [!DNL Salesforce]  está
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ OnCampaignMemberDelete: de forma predeterminada, [!DNL Salesforce] no aparece cu
 
 ## Posible cliente {#lead}
 
-El campo Cuenta Bizible se utiliza para nuestra asignación de cliente potencial a cuenta para nuestra función ABM. Se rellena este campo para crear la relación de búsqueda entre los dos objetos.
+El campo Cuenta Bizible se utiliza para nuestra asignación de posible cliente a cuenta para nuestra función ABM. Se rellena este campo para crear la relación de búsqueda entre los dos objetos.
 
 ## Cuenta {#account-1}
 
