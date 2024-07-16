@@ -4,10 +4,10 @@ description: 'Cómo [!DNL Marketo Measure] y [!DNL Salesforce] interactúan: Mar
 title: Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,17 @@ De forma predeterminada, [!DNL Marketo Measure] exporta 200 registros por crédi
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
 Al modificar esta configuración, tenga en cuenta que los tamaños de lote más pequeños consumirán más créditos de API de su CRM. Es aconsejable reducir el tamaño del lote solo si está experimentando un tiempo de espera de CPU o una carga de CPU alta en su CRM.
+
+## Permisos de usuario de Salesforce Connected {#salesforce-connected-user-permissions}
+
+**Conjunto de permisos de administrador de Marketo Measure para usuario dedicado**: permite al administrador de SFDC realizar operaciones de CRUD en objetos de Marketo Measure.
+
+**Ver y editar conjunto de permisos de posibles clientes convertidos**: esto permite a Marketo Measure decorar posibles clientes después de convertirlos en contactos.
+
+**Casilla de verificación de usuario de marketing de Salesforce**: permite a los usuarios crear campañas y utilizar los asistentes para importación de campañas.
+* Se requieren permisos adicionales para la creación de campañas.
+
+**Usuario estándar de Marketo Measure**: otorga a un usuario la capacidad de leer registros de objetos de Marketo Measure.
 
 ## Objetos estándar y acceso de Salesforce {#salesforce-standard-objects-and-access}
 
@@ -1304,3 +1315,7 @@ Buyer Attribution Touchpoint es un objeto personalizado de [!DNL Marketo Measure
   </tr> 
  </tbody> 
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Información general sobre permisos de integración](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}

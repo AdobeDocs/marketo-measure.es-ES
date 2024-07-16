@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Requisito definitivo de integridad de datos: [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] requisito de integridad de datos definitivo - [!DNL Marketo Measure]'
 title: '''[!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 93%
+source-wordcount: '1607'
+ht-degree: 86%
 
 ---
 
 # [!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valida los conjuntos de datos de AEP entrantes para garantizar que los datos sean suficientes y coherentes para la atribución. Si no se cumple el requisito de integridad de datos, el conjunto de datos será rechazado por el [!DNL Marketo Measure] sistema. Este artículo detalla el requisito de integridad de los datos, proporciona ejemplos de consultas para la inspección de datos y recomienda una solución para los campos obligatorios con un valor nulo.
+[!DNL Marketo Measure] valida los conjuntos de datos de AEP entrantes para asegurarse de que los datos sean suficientes y coherentes para la atribución. Si no se cumple el requisito de integridad de datos, el sistema [!DNL Marketo Measure] rechaza el conjunto de datos. Este artículo detalla el requisito de integridad de los datos, proporciona ejemplos de consultas para la inspección de datos y recomienda una solución para los campos obligatorios con un valor nulo.
 
 ## Objeto de entidad {#entity-object}
 
@@ -886,6 +886,16 @@ ht-degree: 93%
     </tr>
   </tbody>
 </table>
+
+**Moneda predeterminada**: en Marketo Measure, todos los ingresos y costos se convierten a una moneda predeterminada en el momento de generar los informes. Debe haber un registro con la misma cobertura de fechas para la propia moneda de destino (por ejemplo, USD a USD) con una tasa de conversión de 1.
+
+**Tasas de conversión**: Cada par (moneda de origen, moneda de destino) puede tener múltiples tasas de conversión para diferentes períodos de fecha. Las tasas deben cubrir todo el lapso de tiempo desde 0001-01-01 hasta 9999-12-31, según el objeto DatedConversionRate de Salesforce.
+
+**Intervalo de fecha**:
+* No se superponen intervalos de fechas dentro de un conjunto de tasas (moneda de origen, moneda de destino) (por ejemplo, 2023-01-01 a 2023-02-01 y 2023-01-01 a 2024-01-01).
+* No hay espacios entre intervalos de fechas. La fecha de inicio es inclusiva y la fecha de finalización es exclusiva.
+
+<p>
 
 ## ExperienceEvent {#experienceevent}
 
