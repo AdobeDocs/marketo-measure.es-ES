@@ -1,5 +1,5 @@
 ---
-description: Panel de información general de ingresos - [!DNL Marketo Measure] - Producto
+description: Tablero de información general de ingresos - [!DNL Marketo Measure] - Producto
 title: Panel de información general sobre ingresos
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
@@ -23,10 +23,10 @@ El panel Información general de ingresos proporciona información sobre los ing
 
 ### Mosaicos KPI {#kpi-tiles}
 
-* **Ingresos totales**: Ingresos totales de oportunidades &quot;ganadas cerradas&quot;, incluidas oportunidades sin puntos de contacto.
-* **Ofertas totales**: el número de oportunidades &quot;ganadas cerradas&quot;, incluidas las oportunidades sin puntos de contacto.
-* **Ingresos atribuidos**: Ingresos totales de oportunidades &quot;ganadas cerradas&quot; con puntos de contacto.
-* **Ofertas atribuidas**: El número de oportunidades &quot;ganadas cerradas&quot; que tienen puntos de contacto.
+* **Ingresos totales**: Ingresos totales de oportunidades &quot;Ganadas cerradas&quot;, incluidas oportunidades sin puntos de contacto.
+* **Ofertas totales**: La cantidad de oportunidades &quot;Cerradas ganadas&quot;, incluidas las oportunidades sin puntos de contacto.
+* **Ingresos atribuidos**: Ingresos totales de oportunidades &quot;Ganadas cerradas&quot; con puntos de contacto.
+* **Ofertas atribuidas**: La cantidad de oportunidades &quot;Cerradas ganadas&quot; que tienen puntos de contacto.
 
 ### Gráfico de ingresos y de ingresos atribuidos {#revenue-and-attributed-revenue-chart}
 
@@ -35,7 +35,7 @@ Este gráfico de barras de series temporales en paralelo contrasta los ingresos 
 * utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por trimestre y año.
 * Pase el ratón sobre una sección del gráfico de barras para ver su información detallada.
 
-**Preguntas que responde el gráfico:**
+**Preguntas sobre las respuestas del gráfico:**
 
 * ¿Qué % de nuestros ingresos de agosto de 2022 se puede atribuir a nuestras iniciativas de marketing?
 * ¿En qué se parecen los ingresos atribuidos en el tercer trimestre del año pasado y los del cuarto trimestre?
@@ -46,7 +46,7 @@ Este gráfico de barras de series temporales en paralelo contrasta los ingresos 
 
 Este gráfico circular visualiza de forma distintiva la cobertura de atribución segmentando los ingresos totales en ingresos atribuidos y no atribuidos, destacando el porcentaje preciso de ingresos influenciado por los esfuerzos de marketing.
 
-**Preguntas que responde el gráfico:**
+**Preguntas sobre las respuestas del gráfico:**
 
 * ¿Cuál fue el % de cobertura de ingresos atribuido a nuestros esfuerzos de marketing el año pasado?
 

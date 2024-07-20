@@ -1,5 +1,5 @@
 ---
-description: Tablero de ROI - [!DNL Marketo Measure] - Producto
+description: Tablero de ROI - [!DNL Marketo Measure]  - Producto
 title: Panel de ROI
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
@@ -24,16 +24,16 @@ El panel ROI proporciona a los especialistas en marketing una vista granular de 
 
 ### Mosaicos KPI {#kpi-tiles}
 
-* **Coste**: Costes totales de fuentes de datos conectadas y costes cargados manualmente.
+* **Costo**: Costos totales de orígenes de datos conectados y costos cargados manualmente.
 * **Ingresos atribuidos**: Contribución de ingresos total, basada en el modelo de atribución elegido, de Oportunidades con puntos de contacto que se cerraron dentro del período de fecha filtrado.
-* **Ingresos atribuidos realizados**: Contribución de ingresos total, basada en el modelo de atribución elegido, desde Oportunidades con puntos de contacto dentro del período de fecha filtrado, independientemente del momento en que se cerraron.
+* **Ingresos atribuidos realizados**: Contribución de ingresos totales, basada en el modelo de atribución elegido, de Oportunidades con puntos de contacto dentro del período de fecha filtrado, independientemente del momento en que se cerraron.
 * **Total de nuevos posibles clientes**: Número total de nuevos posibles clientes generados, incluidos los posibles clientes tocados y no tocados.
-* **Coste por nuevo posible cliente**: el coste medio por nuevo posible cliente, derivado del coste total dividido por el número total de nuevos posibles clientes.
+* **Costo por nuevo cliente potencial**: El costo promedio por nuevo cliente potencial, derivado del costo total dividido por el número total de nuevos clientes potenciales.
 * **Total de nuevas oportunidades**: Número total de nuevas oportunidades generadas, incluidas las oportunidades tocadas y no tocadas.
-* **Costo por nueva oportunidad**: el coste medio por nueva oportunidad, derivado del coste total dividido por el número total de nuevas oportunidades.
-* **Ofertas totales**: el número de oportunidades &quot;ganadas cerradas&quot;, incluidas las oportunidades sin puntos de contacto.
-* **ROI sencillo**: Ingresos atribuidos divididos por costes en el periodo de fecha filtrado.
-* **ROI realizado**: Ingresos atribuidos realizados divididos por los costes en el periodo de fecha filtrado.
+* **Costo por nueva oportunidad**: El costo promedio por nueva oportunidad, derivado del costo total dividido por el número total de nuevas oportunidades.
+* **Ofertas totales**: La cantidad de oportunidades &quot;Cerradas ganadas&quot;, incluidas las oportunidades sin puntos de contacto.
+* **ROI simple**: Ingresos atribuidos divididos por costos en el período de fecha filtrado.
+* **ROI realizado**: Ingresos atribuidos realizados divididos por los costos en el período de fecha filtrado.
 
 ![](assets/roi-dashboard-1.png)
 

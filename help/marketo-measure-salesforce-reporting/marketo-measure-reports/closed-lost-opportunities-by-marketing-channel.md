@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874632
-description: Oportunidades perdidas cerradas por canal de mercadotecnia - [!DNL Marketo Measure]
+description: Cerrar oportunidades perdidas por canal de mercadotecnia - [!DNL Marketo Measure]
 title: Oportunidades perdidas cerradas por canal de marketing
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
@@ -15,15 +15,15 @@ ht-degree: 4%
 
 Aunque este informe puede depender de las fases de oportunidad, en este informe se mostrarán los canales de marketing que han contribuido a generar oportunidades que no se han cerrado.
 
-1. Haga clic en su **[!UICONTROL Informes]** en Salesforce y seleccione **[!UICONTROL Nuevo informe]**.
+1. Haga clic en la ficha **[!UICONTROL Informes]** de Salesforce y seleccione **[!UICONTROL Nuevo informe]**.
 
    ![](assets/1-3.jpg)
 
-1. En la búsqueda rápida escriba en &quot;Atribución Bizible&quot; y seleccione la **[!UICONTROL Punto de contacto de atribución Bizible con oportunidad]** tipo de informe y seleccione **[!UICONTROL Crear]**.
+1. En la búsqueda rápida, escriba &quot;Atribución Bizible&quot; y seleccione el tipo de informe **[!UICONTROL Atribución Bizible Touchpoint con oportunidad]**; a continuación, seleccione **[!UICONTROL Crear]**.
 
    ![](assets/2-3.jpg)
 
-1. Empezando por la parte superior del informe, mostrar &quot;[!UICONTROL Todos los puntos de contacto de atribución Bizible]&quot; y ajuste el campo de fecha según el periodo de tiempo sobre el que desee informar. En nuestro ejemplo, estamos mirando Todo el tiempo. Además, cambie el formato del informe de Tabular a Summary.
+1. Desde la parte superior del informe, muestre &quot;[!UICONTROL Todos los puntos de contacto de atribución de Bizible]&quot; y ajuste el campo de fecha según el periodo de tiempo sobre el que desee informar. En nuestro ejemplo, estamos mirando Todo el tiempo. Además, cambie el formato del informe de Tabular a Summary.
 
    ![](assets/3-3.jpg)
 
@@ -47,4 +47,4 @@ Aunque este informe puede depender de las fases de oportunidad, en este informe 
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Informes de SFDC adicionales](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutorials: informes de SFDC adicionales](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

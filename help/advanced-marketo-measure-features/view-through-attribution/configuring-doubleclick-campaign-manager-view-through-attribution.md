@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874781
-description: 'Configuración de la vista del administrador de campañas de doble clic mediante atribución: [!DNL Marketo Measure]'
+description: Configuración de la vista del administrador de campañas de doble clic mediante atribución - [!DNL Marketo Measure]
 title: Configuración de la atribución de visualizaciones del administrador de campañas de DoubleClick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
@@ -21,13 +21,13 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->Si utiliza el complemento [!DNL Marketo Measure] y [!DNL DoubleClick Campaign Manager] integración, se requiere un [Conexión de API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) para que podamos descargar los detalles de las campañas y los elementos creativos para resolver los anuncios.
+>Si está usando la integración de [!DNL Marketo Measure] y [!DNL DoubleClick Campaign Manager], se necesita una [conexión de API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) para que podamos descargar detalles de las campañas y los elementos creativos para resolver los anuncios.
 
-Para empezar a obtener una perspectiva más granular de la vista a través del seguimiento con [!DNL Doubleclick Campaign Manager], el píxel de seguimiento debe configurarse.
+Para empezar a obtener una perspectiva más granular desde la vista hasta el seguimiento con [!DNL Doubleclick Campaign Manager], es necesario configurar el píxel de seguimiento.
 
-Para obtener más información sobre [!DNL Marketo Measure] Para ver la funcionalidad de Atribución, consulte [Preguntas frecuentes sobre Marketo Measure View Through Attribution](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
+Para obtener más información sobre la funcionalidad de Atribución de visualización [!DNL Marketo Measure], consulte [Preguntas frecuentes sobre la Atribución de visualización a través de Marketo Measure](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
-[!DNL Marketo Measure] se considera una etiqueta de &quot;piggyback&quot; porque es una llamada de terceros a través de la etiqueta de publicidad de DCM. Las etiquetas Piggyback no funcionan con etiquetas de imagen, solo con etiquetas de iframe o javascript. Según el Soporte de DCM, esto no ha cambiado recientemente y siempre ha sido así. Las etiquetas estándar quedaron obsoletas el 2 de octubre de 2017, pero no afectan a la capacidad de [!DNL Marketo Measure] para rastrear las impresiones.
+[!DNL Marketo Measure] se considera una etiqueta de &quot;Piggyback&quot; porque es una llamada de terceros a través de la etiqueta de publicidad de DCM. Las etiquetas Piggyback no funcionan con etiquetas de imagen, solo con etiquetas de iframe o javascript. Según el Soporte de DCM, esto no ha cambiado recientemente y siempre ha sido así. Las etiquetas estándar quedaron obsoletas el 2 de octubre de 2017, pero no afectan a la capacidad de [!DNL Marketo Measure] para rastrear las impresiones.
 
 En el caso de que utilice una jerarquía principal y secundaria en DCM, será necesario aplicar la etiqueta a todos los niveles para el seguimiento de impresiones.
 
@@ -41,7 +41,7 @@ Agregue la etiqueta a Doubleclick en la configuración Anunciante y cree una Eti
 
 1. Una vez agregado, confirme que los delimitadores se asignan de la siguiente manera. Debe ser automático una vez que se aplique la etiqueta:
 
-   v = %eadv! [!DNL Expand] ID del anunciante\
+   v = %eadv! ID de anunciante [!DNL Expand]\
    a = %eaid! Expandir ID de anuncio\
    c = %ecid! Expandir ID de creativo\
    s = %esid! Expandir ID del sitio\
@@ -53,18 +53,18 @@ Agregue la etiqueta a Doubleclick en la configuración Anunciante y cree una Eti
 
 ## Preguntas frecuentes {#faq}
 
-**P: ¿La etiqueta de imagen es segura?**
+**Q: ¿Es segura la etiqueta de imagen?**
 
-R: Sí. No es una etiqueta JavaScript, es una etiqueta de imagen.
+R: Sí. No es una etiqueta de JavaScript, es una etiqueta de imagen.
 
-**P: ¿Qué permisos necesita el usuario conectado?**
+**Q: ¿Qué permisos necesita el usuario conectado?**
 
 A: dfattraffic, dfareporting, userinfo.email
 
-**P: ¿Cuánto tiempo puede tardar la importación de datos de gasto?**
+**Q: ¿Cuánto tiempo puede tomar importar los datos gastados?**
 
 A: hasta 6 horas
 
-**P: ¿Cuánto tiempo puede tardar la importación de datos de publicidad?**
+**Q: ¿Cuánto tiempo puede tomar importar datos de publicidad?**
 
 A: hasta 6 horas

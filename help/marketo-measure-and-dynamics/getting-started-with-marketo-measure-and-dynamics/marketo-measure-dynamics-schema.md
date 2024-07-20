@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874523
 description: "[!DNL Marketo Measure] Esquema de Dynamics - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Esquema de Dynamics"
+title: "[!DNL Marketo Measure] esquema de Dynamics"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 65%
+ht-degree: 67%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-A continuación se muestra el esquema de Dynamics necesario para empezar a usar [!DNL Marketo Measure]. Se muestran todas las entidades y campos, junto con el acceso de lectura o escritura requerido.
+A continuación se muestra el esquema de Dynamics necesario para comenzar con [!DNL Marketo Measure]. Se muestran todas las entidades y campos, junto con el acceso de lectura o escritura requerido.
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
-El punto de contacto del comprador es un [!DNL Marketo Measure] entidad personalizada para encapsular las interacciones de marketing de contactos y posibles clientes.
+Buyer Touchpoint es una entidad personalizada [!DNL Marketo Measure] para encapsular las interacciones de marketing de contactos y posibles clientes.
 
-## Relaciones de Touchpoint del comprador {#buyer-touchpoint-relationships}
+## Relaciones de Buyer Touchpoint {#buyer-touchpoint-relationships}
 
-Este diagrama es una visualización de alto nivel de las relaciones entre las entidades de Dynamics Stock y el punto de contacto del comprador.
+Este diagrama es una visualización de alto nivel de las relaciones entre las entidades de Dynamics Stock y Buyer Touchpoint.
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
@@ -306,11 +306,11 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-El punto de contacto de atribución del comprador es un [!DNL Marketo Measure] entidad personalizada para encapsular la influencia del marketing en Oportunidades.
+Buyer Attribution Touchpoint es una entidad personalizada [!DNL Marketo Measure] para encapsular la influencia del marketing en Oportunidades.
 
-## Relaciones de Touchpoint de Atribución del Comprador {#buyer-attribution-touchpoint-relationships}
+## Relaciones de Buyer Attribution Touchpoint {#buyer-attribution-touchpoint-relationships}
 
-Este diagrama es una visualización de alto nivel de las relaciones entre las entidades de Dynamics Stock y el punto de contacto de atribución del comprador.
+Este diagrama es una visualización de alto nivel de las relaciones entre las entidades de Dynamics Stock y Buyer Attribution Touchpoint.
 
 ## Buyer Attribution Touchpoints {#buyer-attribution-touchpoints}
 
@@ -715,7 +715,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] Pruebas AB {#marketo-measure-ab-tests}
+## [!DNL Marketo Measure] pruebas AB {#marketo-measure-ab-tests}
 
 <table> 
  <tbody> 
@@ -867,7 +867,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] Historial {#marketo-measure-history}
+## Historial de [!DNL Marketo Measure] {#marketo-measure-history}
 
 <table> 
  <tbody> 
@@ -912,7 +912,7 @@ Este diagrama es una visualización de alto nivel de las relaciones entre las en
 
 ## Entidades estándar de Dynamics {#dynamics-standard-entities}
 
-Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Measure] interactúa con y los campos personalizados que agregamos a estas entidades.
+Esta lista proporciona las entidades de Dynamics Standard con las que interactúa [!DNL Marketo Measure] y los campos personalizados que agregamos a estas entidades.
 
 **Posible cliente**
 
@@ -1438,7 +1438,7 @@ Esta lista proporciona las entidades de Dynamics Standard que [!DNL Marketo Meas
  </tbody> 
 </table>
 
-**Llamada telefónica**
+**Llamada de teléfono**
 
 <table> 
  <tbody> 

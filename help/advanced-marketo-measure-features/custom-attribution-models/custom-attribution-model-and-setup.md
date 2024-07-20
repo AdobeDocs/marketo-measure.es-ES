@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874779
-description: 'Configuración y modelo de atribución personalizado: [!DNL Marketo Measure]'
+description: Configuración y modelo de atribución personalizados - [!DNL Marketo Measure]
 title: Modelo de atribución personalizado y configuración
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
@@ -13,21 +13,21 @@ ht-degree: 1%
 
 # Modelo de atribución personalizado y configuración {#custom-attribution-model-and-setup}
 
-Consulte a continuación una descripción general del [!DNL Marketo Measure] modelo de atribución personalizado y cómo configurarlo.
+Vea a continuación una descripción general del modelo de atribución personalizado [!DNL Marketo Measure] y cómo configurarlo.
 
 ## Modelo de atribución personalizado {#custom-attribution-model}
 
-El [!DNL Marketo Measure] El modelo de atribución personalizado permite a los usuarios elegir qué puntos de contacto o etapas personalizadas incluir en el modelo. Los usuarios pueden controlar el porcentaje de crédito de ingresos atribuido a estos puntos de contacto y fases o pueden utilizar los valores de porcentaje de atribución sugeridos por el [!DNL Marketo Measure] Modelo de aprendizaje automático.
+El modelo de atribución personalizada [!DNL Marketo Measure] permite a los usuarios elegir qué puntos de contacto o fases personalizadas incluir en el modelo. Los usuarios pueden controlar el porcentaje de crédito de ingresos atribuido a estos puntos de contacto y fases o pueden utilizar los valores de porcentaje de atribución sugeridos por el modelo de aprendizaje automático de [!DNL Marketo Measure].
 
 ## Configuración del modelo de atribución personalizado {#how-to-set-up-your-custom-attribution-model}
 
 1. Determine qué fases desea incluir en el modelo personalizado.
 
-   Para empezar a crear el modelo de atribución personalizado, deberá seleccionar qué etapas son importantes para el equipo de marketing. Además de las [!DNL Marketo Measure] fases de hito (FT, LC, OC, Cerrado) puede añadir hasta seis fases adicionales de posible cliente/contacto o de oportunidad en el modelo personalizado. Por ejemplo, es común que la fase MQL se incluya en el modelo personalizado. Los equipos de marketing suelen querer saber qué esfuerzos o canales están impulsando las transiciones al escenario de MQL.
+   Para empezar a crear el modelo de atribución personalizado, deberá seleccionar qué etapas son importantes para el equipo de marketing. Además de las fases del hito [!DNL Marketo Measure] (FT, LC, OC, Cerrado), puede agregar hasta seis fases adicionales de posible cliente/contacto o de oportunidad en el modelo personalizado. Por ejemplo, es común que la fase MQL se incluya en el modelo personalizado. Los equipos de marketing suelen querer saber qué esfuerzos o canales están impulsando las transiciones al escenario de MQL.
 
-   Iniciar sesión en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Ir a [!UICONTROL Mi cuenta] > [!UICONTROL Configuración] > y en la sección CRM, seleccione **[!UICONTROL Asignación de etapas]**.
+   Iniciar sesión en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Vaya a [!UICONTROL Mi cuenta] > [!UICONTROL Configuración] > y en la sección CRM, seleccione **[!UICONTROL Asignación de etapas]**.
 
-   A continuación, seleccione las fases de posibles clientes/contactos y oportunidad que desea incluir seleccionando la **[!UICONTROL Incluir en el modelo]** cuadro.
+   A continuación, elija qué fases de posibles clientes/contactos y oportunidad desea incluir seleccionando el cuadro **[!UICONTROL Incluir en modelo]**.
 
    >[!NOTE]
    >
@@ -37,11 +37,11 @@ El [!DNL Marketo Measure] El modelo de atribución personalizado permite a los u
 
    >[!NOTE]
    >
-   >_Todo_ Las fases de posibles clientes/contactos y oportunidad aparecerán aquí, incluso si la fase está inactiva o ya no se utiliza en [!DNL Salesforce]. Si desea eliminar estas fases, deberá eliminarlas completamente en [!DNL Salesforce].
+   >_Todos_ los posibles clientes/contactos y las fases de oportunidad aparecerán aquí, aunque la fase esté inactiva o ya no se utilice en [!DNL Salesforce]. Si desea eliminar estas fases, deberá eliminarlas en [!DNL Salesforce].
 
-   Cuando haya seleccionado las fases, asegúrese de hacer clic en **[!UICONTROL Guardar y procesar]** en la parte inferior de la página. Las fases aparecerán ahora en el **[!UICONTROL Configuración de atribución]** y podrá asignar porcentajes de atribución a cada fase. Las fases personalizadas también se mostrarán en el conjunto de rendimiento de marketing como una fase de posible cliente u oportunidad dentro de la cascada de la demanda.
+   Cuando hayas seleccionado las fases, asegúrate de hacer clic en el botón **[!UICONTROL Guardar y procesar]** en la parte inferior de la página. Las fases ahora aparecerán en la pestaña **[!UICONTROL Configuración de atribución]** y podrá asignar porcentajes de atribución a cada fase. Las fases personalizadas también se mostrarán en el conjunto de rendimiento de marketing como una fase de posible cliente u oportunidad dentro de la cascada de la demanda.
 
-   Si hay otras fases que desea incluir en el modelo, pero no están en el [!UICONTROL Estado del posible cliente/contacto] o [!UICONTROL Fase de oportunidad] , puede definir su propia fase personalizada en función de los campos de su CRM.
+   Si hay otras fases que desea incluir en el modelo, pero no están en la lista [!UICONTROL Estado del posible cliente/contacto] o [!UICONTROL Fase de oportunidad], puede definir su propia fase personalizada en función de los campos de su CRM.
 
    En el ejemplo siguiente, se define una fase &quot;MQL&quot; personalizada mediante un campo de fecha. La regla simplemente establece que si el campo Fecha de MQL no está vacío, debe considerarse un MQL y debe incluirse en el modelo personalizado. También es importante ordenar las fases personalizadas una vez creadas para que sigan la progresión del ciclo de ventas.
 
@@ -55,11 +55,11 @@ Si se utiliza un campo personalizado en el modelo personalizado, el seguimiento 
 
 1. Determine los porcentajes de atribución para el modelo personalizado.
 
-   Vaya a la **[!UICONTROL Configuración de atribución]** in [!DNL Marketo Measure] Aplicaciones; las fases personalizadas aparecerán aquí en la tabla de atribución. La tabla de atribución muestra todas las [!DNL Marketo Measure] modelos de atribución y la ponderación de atribución de cada modelo. Los porcentajes de atribución de los cinco primeros modelos son fijos y no se pueden cambiar.
+   Vaya a **[!UICONTROL Configuración de atribución]** en [!DNL Marketo Measure] aplicaciones; las fases personalizadas aparecerán aquí en la tabla de atribución. La tabla de atribución muestra todos los modelos de atribución [!DNL Marketo Measure] y la ponderación de atribución de cada modelo. Los porcentajes de atribución de los cinco primeros modelos son fijos y no se pueden cambiar.
 
-   En la columna del extremo derecho rotulada &quot;**[!UICONTROL Personalizado]**,&quot; puede establecer la ponderación porcentual para cada fase del modelo de atribución personalizado. Introduzca los valores de cada fase en la columna Personalizado y haga clic en **[!UICONTROL Guardar y volver a procesar]** cuando se complete.
+   En la columna del extremo derecho denominada &quot;**[!UICONTROL Personalizado]**&quot;, puede establecer la ponderación porcentual para cada etapa en el modelo de atribución personalizado. Introduzca los valores de cada etapa en la columna Personalizado y haga clic en **[!UICONTROL Guardar y volver a procesar]** cuando haya terminado.
 
-   A la izquierda del _Personalizado_ es la columna **[!DNL Marketo Measure]Modelo de aprendizaje automático**. El modelo de aprendizaje automático calcula la ponderación de atribución en función de la importancia relativa para ganar un acuerdo, según lo que haya sucedido en cada fase personalizada. Para obtener más información sobre el modelo de aprendizaje automático, consulte [Preguntas frecuentes sobre el modelo de aprendizaje automático](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   A la izquierda de la columna _Personalizado_ se encuentra el modelo de aprendizaje automático **[!DNL Marketo Measure]**. El modelo de aprendizaje automático calcula la ponderación de atribución en función de la importancia relativa para ganar un acuerdo, según lo que haya sucedido en cada fase personalizada. Para obtener más información sobre el modelo de aprendizaje automático, consulte [Preguntas frecuentes sobre el modelo de aprendizaje automático](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 
@@ -81,4 +81,4 @@ Como puede ver a continuación, hemos incluido la fase de diligencia como parte 
 
 >[!NOTE]
 >
->El comportamiento de los modelos personalizados BAT es dividir el porcentaje de contacto medio del modelo personalizado de forma uniforme en otras etapas, siempre que no haya toques medios.
+>BAT El comportamiento de los modelos personalizados de es dividir el porcentaje de contacto medio del modelo personalizado de forma uniforme en otras fases, siempre que no haya toques intermedios.

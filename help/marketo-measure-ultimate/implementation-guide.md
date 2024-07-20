@@ -1,11 +1,12 @@
 ---
-description: '[!DNL Marketo Measure] Guía de implementación definitiva: [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Guía de implementación definitiva - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Guía de implementación de Ultimate'
 feature: Integration, Tracking, Attribution
-source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
+exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -15,7 +16,7 @@ Este artículo sirve como guía de implementación para Marketo Measure Ultimate
 
 ## Diferencias principales del uso de Ultimate con respecto a los niveles estándar {#main-differences-when-using-ultimate-over-standard-tiers}
 
-Importar datos B2B a través de AEP: Se espera que los especialistas en marketing traigan sus datos B2B (por ejemplo, cuenta, oportunidad, contacto, posible cliente, campaña, miembro de la campaña, actividad) a través de AEP. Realice la ingesta desde casi cualquier fuente de datos y varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
+Importar datos B2B a través de AEP: Se espera que los especialistas en marketing traigan sus datos B2B (por ejemplo, cuenta, oportunidad, contacto, posible cliente, campaña, miembro de la campaña, actividad) a través de AEP. Realiza la ingesta desde casi cualquier fuente de datos y desde varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
 
 * Se utiliza con casi cualquier CRM, no solo con Salesforce y Dynamics.
 * Conecte varias instancias de CRM y/o instancias de MAP a una instancia de Marketo Measure.
@@ -132,7 +133,7 @@ Antes de empezar, vaya a la sección &quot;Experience Platform > Asignación de 
 >[!NOTE]
 >
 >* Se recomienda incluir solo un conjunto de datos por flujo de datos.
->* Los datos de una entidad determinada (por ejemplo, Account) de una fuente determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detienen el flujo de datos en tiempo de ejecución.
+>* Los datos de una entidad determinada (por ejemplo, Account) de una fuente determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detendrán el flujo de datos en el tiempo de ejecución.
 >* Elimine todo el destino en AEP para eliminar datos en Measure. Al deshabilitar, se detienen las nuevas exportaciones de datos y se conservan los datos antiguos.
 >* La configuración de la medida será básicamente la misma, pero algunas partes, como la Asignación de fases, tendrán un aspecto diferente.
 >* Un nuevo flujo de datos tarda unas horas en generar una ejecución de flujo y, a continuación, se produce a intervalos regulares por hora.
@@ -151,7 +152,7 @@ No importamos automáticamente las fases de los datos de usuario, por lo que tod
 
 Si las fases no están asignadas, el sistema no funcionará porque no habrá ningún lugar adónde puedan ir los datos.
 
-Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

@@ -1,5 +1,5 @@
 ---
-description: Panel de Passport - [!DNL Marketo Measure] - Producto
+description: Tablero de Passport - [!DNL Marketo Measure] - Producto
 title: Panel de Passport
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
@@ -18,7 +18,7 @@ El panel Passport ofrece a los especialistas en marketing una vista dinámica de
 
 * ¿Cuántos posibles clientes, contactos u oportunidades existían en cada etapa no terminal en un día elegido?
 * Durante un periodo especificado, ¿cuántos posibles clientes o contactos distintos han progresado en cada fase transitoria?
-   * _Ejemplo_: Si el posible cliente A estaba en la fase 1 el 1/1/2023 y avanzó a la fase 5 el 31/3/2023, el análisis del pasaporte del primer trimestre de 2023 contaría el posible cliente A en las fases 1 a 5.
+   * _Ejemplo_: Si el posible cliente A estaba en la fase 1 el 1/1/2023 y avanzó a la fase 5 el 31/3/2023, el análisis de Passport del primer trimestre de 2023 contaría el posible cliente A en las fases 1 a 5.
 * ¿Cuántas oportunidades únicas pasaron por cada etapa transitoria durante un lapso de tiempo determinado?
 
 ## Componentes del panel {#dashboard-components}

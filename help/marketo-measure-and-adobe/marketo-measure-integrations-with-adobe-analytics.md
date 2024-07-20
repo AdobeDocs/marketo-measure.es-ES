@@ -1,26 +1,26 @@
 ---
-description: "[!DNL Marketo Measure] Integraciones con Adobe Analytics: [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Integraciones con [!DNL Adobe Analytics]"
+description: "[!DNL Marketo Measure] integraciones con Adobe Analytics - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] integraciones con  [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '922'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Integraciones de [!DNL Marketo Measure] con Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
 
-La integración de Atributos del cliente B2B permite a los usuarios mutuos de [!DNL Marketo Measure] y Adobe Analytics para enriquecer su [!DNL Adobe Analytics] perfiles de usuario con valiosos metadatos derivados de [!DNL Marketo Measure] y a través de su capacidad de sincronización con CRM ([!DNL Microsoft Dynamics] y [!DNL Salesforce]). Está disponible de forma gratuita para todos los clientes que utilicen [!DNL Adobe Analytics] y [!DNL Marketo Measure].
+La integración de Atributos del cliente B2B permite a los usuarios de [!DNL Marketo Measure] y Adobe Analytics enriquecer sus perfiles de usuario de [!DNL Adobe Analytics] con metadatos valiosos derivados del motor de atribución de [!DNL Marketo Measure] y a través de su capacidad de sincronización con CRM ([!DNL Microsoft Dynamics] y [!DNL Salesforce]). Está disponible de forma gratuita para todos los clientes que usen [!DNL Adobe Analytics] y [!DNL Marketo Measure].
 
 >[!PREREQUISITES]
 >
->Debe tener suscripciones activas a ambos [!DNL Marketo Measure] y [!DNL Adobe Analytics].
+>Debe tener suscripciones activas a [!DNL Marketo Measure] y [!DNL Adobe Analytics].
 
 ## Configuración de la integración {#configuring-the-integration}
 
-1. Cree una nueva fuente de datos de atributos del cliente en la consola del Experience Cloud. Instrucciones detalladas [se puede encontrar aquí](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=es).
+1. Cree un nuevo Source de datos de atributos del cliente en la consola del Experience Cloud. Encontrará instrucciones detalladas [aquí](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=es).
 
    Tome nota de la siguiente información, necesaria en los pasos posteriores:
 
@@ -28,21 +28,21 @@ La integración de Atributos del cliente B2B permite a los usuarios mutuos de [!
 
    * El nombre de host y las credenciales del servidor FTP (nombre de usuario y contraseña)
 
-1. Una vez creada la fuente de datos de atributos del cliente, continúe con el proceso de configuración navegando hasta **[!UICONTROL Integraciones]** > **[!UICONTROL Conexiones]** pantalla en el [!DNL Marketo Measure] menú de administración.
+1. Una vez creado el Source de datos de atributos del cliente, continúe con el proceso de configuración navegando a la pantalla **[!UICONTROL Integraciones]** > **[!UICONTROL Conexiones]** en el menú de administración de [!DNL Marketo Measure].
 
-1. Haga clic en **[!UICONTROL Configurar nueva conexión de Atributos del cliente]** y siga las instrucciones para configurar la integración de Atributos del cliente. La interfaz de usuario le solicita la información de ID de alias y conexión FTP que adquirió al crear el origen de atributos del cliente en la consola de servicios principales. Seleccione el conjunto de atributos de cuenta que desea sincronizar con su [!DNL Adobe Analytics] cuenta.
+1. Haga clic en el botón **[!UICONTROL Configurar nueva conexión de atributos del cliente]** y siga las instrucciones para configurar la integración de atributos del cliente. La interfaz de usuario le solicita la información de ID de alias y conexión FTP que adquirió al crear el Source de atributos del cliente en la consola de servicios principales. Seleccione el conjunto de atributos de cuenta que desee sincronizar con su cuenta de [!DNL Adobe Analytics].
 
    Introduzca su ID de organización de Adobe IMS. Este ID se muestra en la esquina inferior derecha del Admin Console de Adobe Experience Cloud. Para obtener más ayuda para encontrar este ID, consulte con el equipo de cuenta de Adobe (su administrador de cuentas).
 
-1. Cuando haya terminado de crear la conexión en su [!DNL Marketo Measure] cuenta, debe volver a la consola de Experience Cloud para [validación del esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). No es necesario preocuparse por la carga del archivo FTP, [!DNL Marketo Measure] ha automatizado esa parte para usted. Vaya a la pantalla de esquema &quot;Ver/Editar&quot; del origen de atributos del cliente que creó en el paso 1 y especifique a Adobe cuáles son los tipos de datos para cada uno de los atributos que [!DNL Marketo Measure] ha cargado en su nombre. También puede crear nuevos nombres descriptivos para mostrar para los atributos cargados, si lo desea.
+1. Cuando haya terminado de crear la conexión en su cuenta de [!DNL Marketo Measure], debe volver a la consola de Experience Cloud para [validar el esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). No es necesario que se preocupe por la carga del archivo FTP, [!DNL Marketo Measure] ha automatizado esa parte por usted. Vaya a la pantalla de esquema &quot;Ver/Editar&quot; del Source de atributos del cliente que creó en el paso 1 y especifique a Adobe cuáles son los tipos de datos para cada uno de los atributos que [!DNL Marketo Measure] ha cargado en su nombre. También puede crear nuevos nombres descriptivos para mostrar para los atributos cargados, si lo desea.
 
-   Si ha seleccionado sincronizar atributos del objeto de cuenta de CRM, se recomienda encarecidamente que elija nuevos nombres para mostrar para ellos, como [!DNL Marketo Measure] solo rellena los nombres de nivel de API para estos atributos, que generalmente no son compatibles con la creación de informes.
+   Si seleccionó sincronizar atributos de su objeto de cuenta de CRM, es muy recomendable que elija nuevos nombres para mostrar para ellos, ya que [!DNL Marketo Measure] solo rellena los nombres de nivel de API para estos atributos, que generalmente no son compatibles con la creación de informes.
 
-1. El último paso es configurar las Suscripciones de atributos para las aplicaciones Experience Cloud en las que desea utilizar los atributos. Puede configurar suscripciones para [!DNL Adobe Analytics] o [!DNL Adobe Target].  Más información sobre cómo hacerlo [se puede encontrar aquí](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
+1. El último paso es configurar las Suscripciones de atributos para las aplicaciones Experience Cloud en las que desea utilizar los atributos. Puede configurar suscripciones para [!DNL Adobe Analytics] o [!DNL Adobe Target].  Encontrará más información sobre cómo hacerlo [aquí](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
 
 ## Descripciones de atributos {#attribute-descriptions}
 
-Al crear una conexión de atributo del cliente B2B, [!DNL Marketo Measure] crea automáticamente un conjunto estándar de Atributos del cliente B2B. Estos atributos se describen en la tabla siguiente.
+Al crear una conexión de atributos del cliente B2B, [!DNL Marketo Measure] crea automáticamente un conjunto estándar de atributos del cliente B2B. Estos atributos se describen en la tabla siguiente.
 
 Además de los que se enumeran a continuación, también puede cargar cualquier atributo adjunto al objeto de cuenta en su CRM. Si hay más de una cuenta vinculada al usuario determinado, [!DNL Marketo Measure] rellena todos los valores de atributo de cuenta coincidentes en una lista delimitada por punto y coma.
 
@@ -53,7 +53,7 @@ Además de los que se enumeran a continuación, también puede cargar cualquier 
  </colgroup> 
  <tbody> 
   <tr> 
-   <td><b>Nombre de atributo</b></td> 
+   <td><b>Nombre del atributo</b></td> 
    <td><b>Descripción</b></td>
   </tr> 
   <tr> 
@@ -63,8 +63,8 @@ Además de los que se enumeran a continuación, también puede cargar cualquier 
   </tr>
   <tr> 
    <td>Ingresos atribuidos: ‹MODELO›</td> 
-   <td>Los ingresos atribuidos a este cliente en virtud de su asociación con oportunidades ganadas cerradas en su CRM, calculados por el [!DNL Marketo Measure] motor de atribución.<br/>
-   Hay uno de estos atributos para cada modelo de atribución que su [!DNL Marketo Measure] Las suscripciones de permiten (por ejemplo, "Ingresos atribuidos - Ruta completa").</td>
+   <td>Los ingresos atribuidos a este cliente en virtud de su asociación con oportunidades ganadas cerradas en su CRM, calculados por el motor de atribución [!DNL Marketo Measure].<br/>
+   Hay uno de estos atributos para cada modelo de atribución que permiten sus suscripciones de [!DNL Marketo Measure] (por ejemplo, "Ingresos atribuidos - Ruta completa").</td>
   </tr>
   <tr> 
    <td>Fase de canal más profunda</td> 
@@ -79,15 +79,15 @@ Además de los que se enumeran a continuación, también puede cargar cualquier 
 
 **Una nota sobre los límites de atributos**
 
-Los atributos que aparecen a través de esta integración cuentan con los límites de atributos contractuales en [!DNL Adobe Analytics] y [!DNL Adobe Target]. Solo los atributos que aparecen mediante una suscripción de atributo (paso 5 en [Configuración de la integración](#configuring-the-integration)) cuente en su límite para la aplicación suscrita.
+Los atributos que surgieron a través de este recuento de integración se comparan con los límites de atributos contractuales en [!DNL Adobe Analytics] y [!DNL Adobe Target]. Solo los atributos que aparecen a través de una suscripción de atributo (paso 5 en [Configuración de la integración](#configuring-the-integration)) se contabilizan en el límite de la aplicación suscrita.
 
 ## Preguntas frecuentes {#faqs}
 
 **¿Cómo cambio el conjunto de atributos que deseo compartir mediante esta integración?**
 
-Para un atributo compartido por [!DNL Marketo Measure] a su organización IMS de Adobe a través de esta integración para que sea visible y se utilice en [!DNL Adobe Analytics], debe aparecer mediante una suscripción de atributo configurada en la consola de servicios principales. Por lo tanto, si desea quitar un atributo para que ya no aparezca en [!DNL Adobe Analytics], puede conseguirlo simplemente eliminando la suscripción del atributo.
+Para que un atributo compartido por [!DNL Marketo Measure] a su organización de Adobe IMS a través de esta integración sea visible y se utilice en [!DNL Adobe Analytics], debe mostrarse a través de una suscripción de atributo configurada en la consola de servicios principales. Por lo tanto, si desea quitar un atributo para que ya no aparezca en [!DNL Adobe Analytics], puede hacerlo simplemente eliminando la suscripción al atributo.
 
-También puede eliminar la conexión de atributos del cliente B2B en [!DNL Marketo Measure] y vuelva a crearlo con el atributo que ya no desee compartir excluido de la configuración de conexión. Del mismo modo, para agregar atributos a la integración, debe eliminar la conexión existente y crear una nueva con los atributos deseados agregados a la configuración.
+También puede eliminar la conexión de atributo del cliente B2B en [!DNL Marketo Measure] y volver a crearla con el atributo que ya no desea compartir excluido de la configuración de conexión. Del mismo modo, para agregar atributos a la integración, debe eliminar la conexión existente y crear una nueva con los atributos deseados agregados a la configuración.
 
 Teniendo en cuenta lo anterior, es muy recomendable que al configurar la conexión de atributos por primera vez, sea lo más inclusivo posible al seleccionar atributos.
 

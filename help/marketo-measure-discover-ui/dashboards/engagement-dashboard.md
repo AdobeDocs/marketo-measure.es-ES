@@ -14,13 +14,13 @@ ht-degree: 0%
 
 El panel de participación rastrea meticulosamente las métricas de participación del usuario. Muestra los puntos de contacto, la cantidad de personas comprometidas y el promedio de puntos de contacto por persona. Utilice el gráfico de barras de series temporales para una vista mensual, trimestral o anual, y el gráfico de barras para obtener información detallada sobre el canal, el subcanal y la campaña. Esta herramienta es esencial para comprender los patrones de participación y ajustar las estrategias de participación.
 
-Rastreamos la interacción de cada cliente como puntos de contacto del usuario (UT), los puntos de datos recopilados &quot;sin procesar&quot;, que sirven como base para las métricas de participación en nuestro panel. No todos los TU evolucionan hacia puntos de contacto del comprador (BT) o puntos de contacto de atribución del comprador (BAT), ya que estos son resultados seleccionados para atribuir interacciones específicas del cliente a actividades relacionadas con los ingresos. Es importante tener en cuenta que las reglas de supresión no afectan a las UT ni al panel de participación.
+Rastreamos la interacción de cada cliente como puntos de contacto del usuario (UT), los puntos de datos recopilados &quot;sin procesar&quot;, que sirven como base para las métricas de participación en nuestro panel. BT BAT No todos los TU evolucionan en puntos de contacto del comprador (puntos de contacto del comprador) o puntos de contacto de atribución del comprador (puntos de contacto del comprador), ya que estos son resultados seleccionados para atribuir interacciones específicas del cliente a actividades relacionadas con los ingresos. Es importante tener en cuenta que las reglas de supresión no afectan a las UT ni al panel de participación.
 
-* **Puntos de contacto del usuario**: Puntos de contacto creados a partir de todas las participaciones.
-* **Puntos de contacto del comprador**: puntos de contacto seleccionados para la atribución de posibles clientes y contactos. Los BT no están vinculados a Oportunidades y no tienen ingresos asociados.
-* **Puntos de contacto de atribución del comprador**: Puntos de contacto seleccionados para la atribución de oportunidad. Las MTD tienen implicaciones en los ingresos, ya que están vinculadas a Oportunidades.
+* **Puntos de contacto del usuario**: puntos de contacto creados a partir de todas las participaciones.
+* **Puntos de contacto del comprador**: puntos de contacto seleccionados para la atribución de contactos y posibles clientes. BT Las cuentas no están vinculadas a Oportunidades y no tienen ingresos asociados.
+* **Puntos de contacto de atribución del comprador**: Puntos de contacto seleccionados para atribución de oportunidad. BAT Las consecuencias para los ingresos de los usuarios de tienen consecuencias, ya que están vinculadas a Oportunidades.
 
-El uso solo de MTD o MTD para medir la participación subestimaría el verdadero alcance de las interacciones de los clientes, ya que la participación es más amplia que solo la atribución.
+BT BAT El uso solo de la o la segmentación para medir la participación subestimaría el verdadero alcance de las interacciones con los clientes, ya que la participación es más amplia que solo la atribución.
 
 Preguntas que responde el panel:
 
@@ -37,7 +37,7 @@ Preguntas que responde el panel:
 ### Mosaicos KPI {#kpi-tiles}
 
 * Puntos de contacto: número total de puntos de contacto sin procesar generados.
-   * Los puntos de contacto de comprador y los puntos de contacto de atribución de comprador son resultados de atribución que se crean seleccionando puntos de contacto específicos para el crédito. No todos los puntos de contacto se seleccionan como BT y BAT.
+   * Los puntos de contacto de comprador y los puntos de contacto de atribución de comprador son resultados de atribución que se crean seleccionando puntos de contacto específicos para el crédito. BT BAT No todos los puntos de contacto se seleccionan como puntos de contacto y puntos de contacto de la manera de y de.
 * Personas tocadas: número total de personas que tienen puntos de contacto.
 * Touchpoints per Person: Cantidad promedio de puntos de contacto por persona que se han tocado.
 

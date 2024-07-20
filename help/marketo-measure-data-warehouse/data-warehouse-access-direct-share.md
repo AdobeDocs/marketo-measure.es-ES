@@ -6,7 +6,7 @@ feature: Data Warehouse
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -14,25 +14,25 @@ ht-degree: 3%
 
 ## Requisitos {#requirements}
 
-Para [!DNL Marketo Measure] para configurar un recurso compartido directo en el data warehouse, debe cumplir los siguientes requisitos.
+Para que [!DNL Marketo Measure] configure un recurso compartido directo en Data Warehouse, debe cumplir con los siguientes requisitos.
 
 * Tiene su propia instancia de Snowflake.
 * La instancia de Snowflake se encuentra en la región Snowflake de Azure East US 2.
-* Usted proporciona [!DNL Marketo Measure] con su id de cuenta de Snowflake.
+* Usted proporcionó a [!DNL Marketo Measure] su ID de cuenta de Snowflake.
 
 ## Limitaciones {#limitations}
 
-[!DNL Marketo Measure] solo podrá configurar acciones directas de Snowflake con cuentas ubicadas en Azure East US 2 debido a las limitaciones actuales de Snowflake Direct Share. Si necesita que los datos estén disponibles en otras regiones de Snowflake, le recomendamos que realice una copia de los datos en una cuenta de Snowflake ubicada en Azure East US 2 y que use [Replicación de base de datos de Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} para copiar los datos en la región o cuenta de Snowflake que elija.
+[!DNL Marketo Measure] solo podrá configurar Recursos compartidos directos de Snowflake con cuentas ubicadas en Azure East US 2 debido a las limitaciones actuales de Recursos compartidos directos de Snowflake. Si necesita que sus datos estén disponibles en otras regiones de Snowflake, le recomendamos que realice una copia de los datos en una cuenta de Snowflake ubicada en Azure East US 2 y que use la característica [Replicación de la base de datos de Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} para copiar los datos en la región o cuenta de Snowflake que elija.
 
 ## Introducir ID de cuenta de Snowflake {#enter-snowflake-account-id}
 
-Abra el **Configuración** en la aplicación de Marketo Measure y vaya a la sección **Data Warehouse** página. En el **Uso compartido directo** , introduzca su [id de cuenta de Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} en el cuadro proporcionado y haga clic en **Connect**.
+Abra la sección **Configuración** en la aplicación Marketo Measure y vaya a la página **Data Warehouse**. En la sección **Uso compartido directo**, escribe tu [id de cuenta de Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} en el cuadro proporcionado y haz clic en **Conectar**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 
 ## Acceso al recurso compartido {#accessing-the-share}
 
-Una vez creado el recurso compartido para el ID de cuenta proporcionado, debe completar el [pasos de configuración](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} en la instancia de Snowflake para acceder a los datos.
+Una vez creado el recurso compartido para el identificador de cuenta proporcionado, debe completar los [pasos de configuración](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} en la instancia de Snowflake para acceder a los datos.
 
 >[!NOTE]
 >
@@ -63,4 +63,4 @@ GRANT IMPORTED PRIVILEGES ON DATABASE <database_name> TO ROLE <role_name>
 GRANT IMPORTED PRIVILEGES ON ALL SCHEMAS IN DATABASE <database_name> TO ROLE <role_name>
 ```
 
-Para obtener instrucciones y pasos más detallados para realizar estos pasos desde la interfaz de usuario de Snowflake, consulte [Documentación del Snowflake directamente](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.
+Para obtener instrucciones y pasos más detallados para llevar a cabo estos pasos desde la interfaz de usuario de Snowflake, consulte [Documentación del Snowflake directamente](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.

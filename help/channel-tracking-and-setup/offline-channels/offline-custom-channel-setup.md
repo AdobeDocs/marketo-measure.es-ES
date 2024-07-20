@@ -15,39 +15,39 @@ ht-degree: 1%
 
 ## Introducción {#getting-started}
 
-Comparado con cómo [!DNL Marketo Measure] Si gestiona las reglas del canal en línea, verá que las reglas del canal sin conexión no requieren el uso de una hoja de cálculo. Sin embargo, aún hay una hoja en el plan de implementación, ya que puede resultar útil para pensar en la forma en que desea organizar los canales sin conexión.
+En comparación con el modo en que [!DNL Marketo Measure] gestiona las reglas de canal en línea, observará que las reglas de canal sin conexión no requieren el uso de una hoja de cálculo. Sin embargo, aún hay una hoja en el plan de implementación, ya que puede resultar útil para pensar en la forma en que desea organizar los canales sin conexión.
 
 La hoja de cálculo tiene tres columnas:
 
 ![](assets/1-2.png)
 
-**[!UICONTROL Salesforce] Tipo de campaña** - añadir tipos de campaña identificados en [!DNL Salesforce] aquí
+**[!UICONTROL Salesforce] Tipo de campaña** - agregue tipos de campaña identificados en [!DNL Salesforce] aquí
 
 * Por ejemplo, podría ser un correo electrónico, un seminario web, una conferencia o cualquier valor que haya creado para este campo al que desee atribuir puntos de contacto.
 
-**[!UICONTROL Canal]** - añada sus distintos canales de marketing aquí
+**[!UICONTROL Canal]**: agregue sus distintos canales de marketing aquí
 
-**[!UICONTROL Subcanal]** - añada aquí los subcanales correspondientes
+**[!UICONTROL Subcanal]** - agregue aquí los subcanales correspondientes
 
 ## Lógica de canal sin conexión {#offline-channel-logic}
 
-[!DNL Marketo Measure] la lógica del canal sin conexión viene determinada por el objeto Campaign, específicamente por la variable [!DNL Salesforce] Tipo de campaña. Cada esfuerzo sin conexión debe tener un [!DNL Salesforce] Tipo de campaña, como cena o feria comercial, porque [!DNL Marketo Measure] se basa en este campo para comprender a qué canal y subcanal asignar.
+La lógica del canal sin conexión [!DNL Marketo Measure] está determinada por el objeto Campaign, específicamente el tipo de campaña [!DNL Salesforce]. Cada esfuerzo sin conexión debe tener un tipo de campaña [!DNL Salesforce], como una cena o una feria comercial, porque [!DNL Marketo Measure] se basa en este campo para comprender a qué canal y subcanal asignar.
 
-Los tipos de campaña de SFDC aparecerán en la pestaña del canal sin conexión, en [!DNL Salesforce] Tipo de campaña. Tenga en cuenta que [!DNL Marketo Measure] solo puede importar tipos de campaña de SFDC para campañas que tengan puntos de contacto de comprador asociados a ellos.
+Los tipos de campañas de SFDC aparecerán en la pestaña del canal sin conexión, enumerados en [!DNL Salesforce] Tipo de campaña. Tenga en cuenta que [!DNL Marketo Measure] solo puede importar tipos de campaña de SFDC para campañas que tengan asociados puntos de contacto de comprador.
 
 ![](assets/2-2.png)
 
-Aquí es donde puede crear la asignación de canal/subcanal en la [!DNL Marketo Measure] aplicación. Esto probablemente implique la creación de nuevos canales y subcanales en la [!DNL Marketo Measure] La aplicación de, que se realiza en la sección Crear canales de la aplicación, se muestra en la siguiente imagen. Es necesario crear nuevos canales y subcanales para [!DNL Marketo Measure] para saber dónde insertar los puntos de contacto. Puede decidir cómo desea que se asignen los tipos de campaña.
+Aquí es donde puede crear la asignación de canal/subcanal en la aplicación [!DNL Marketo Measure]. Es probable que esto implique la creación de nuevos canales y subcanales en la aplicación [!DNL Marketo Measure], lo cual se hace en la sección Crear canales de la aplicación, que se muestra en la siguiente imagen. Es necesario crear nuevos canales y subcanales para [!DNL Marketo Measure] a fin de saber dónde insertar los puntos de contacto. Puede decidir cómo desea que se asignen los tipos de campaña.
 
 ![](assets/3-2.png)
 
 ## Ejemplo de asignación de canal {#channel-mapping-example}
 
-Por ejemplo, imagine que asiste a dos [!DNL Salesforce] conferencias al año. Sin embargo, cada conferencia es muy diferente y tiene un público objetivo único. Desea saber cuál de los dos aporta más valor. En su [!DNL Salesforce] , puede asignar al evento de enero el tipo de campaña &quot;Conferencia&quot; y nombrar su canal &quot;[!DNL Salesforce],&quot; y su subcanal &quot;Conferencia de enero&quot;.
+Por ejemplo, imagine que asiste a dos conferencias de [!DNL Salesforce] al año. Sin embargo, cada conferencia es muy diferente y tiene un público objetivo único. Desea saber cuál de los dos aporta más valor. En su entorno [!DNL Salesforce], puede asignar al evento de enero el tipo de campaña &quot;Conferencia&quot;, asignar un nombre al canal &quot;[!DNL Salesforce]&quot; y al subcanal &quot;Conferencia de enero&quot;.
 
-Ahora desea hacer lo mismo para la conferencia de junio. Como también es una conferencia, se le puede dar el mismo Tipo de campaña, en este caso, &quot;Conferencia&quot;. El canal es el mismo, [!DNL Salesforce], y el subcanal para esta segunda conferencia es &quot;Conferencia de Junio&quot;. Esto tiene sentido desde una perspectiva organizacional. Sin embargo, es muy confuso para la [!DNL Marketo Measure] para leer y aplicar estas reglas, ya que ambas campañas tienen el mismo tipo de campaña. [!DNL Marketo Measure] el script no puede asignar datos de un tipo a dos subcanales diferentes. Esto significa que debería crear un nuevo Tipo de campaña para cada subcanal, pero los subcanales pueden tener el mismo canal.
+Ahora desea hacer lo mismo para la conferencia de junio. Como también es una conferencia, se le puede dar el mismo Tipo de campaña, en este caso, &quot;Conferencia&quot;. El canal es el mismo, [!DNL Salesforce], y el subcanal para esta segunda conferencia es &quot;Conferencia de junio&quot;. Esto tiene sentido desde una perspectiva organizacional. Sin embargo, es muy confuso para la lógica [!DNL Marketo Measure] leer y aplicar estas reglas porque ambas campañas tienen el mismo tipo de campaña. El script [!DNL Marketo Measure] no puede asignar datos de un tipo a dos subcanales diferentes. Esto significa que debería crear un nuevo Tipo de campaña para cada subcanal, pero los subcanales pueden tener el mismo canal.
 
-A continuación se muestra un ejemplo de lógica que [!DNL Marketo Measure] no sería capaz de leer:
+A continuación se muestra un ejemplo de lógica que [!DNL Marketo Measure] no podría leer:
 
 ![](assets/4-2.png)
 
@@ -57,34 +57,34 @@ En el escenario anterior, se desea crear un tipo de campaña único porque no se
 
 Cualquier tipo de campaña existente debe incluirse en el mapa de canal y se debe agregar &quot;NULL&quot; como canal.
 
-Tómese tiempo para entrar en [!DNL Salesforce] para determinar el número y la naturaleza de los tipos de registro existentes, que desea incluir, y si necesita crear campañas adicionales basadas en la información anterior. Una vez que haya rellenado toda la información necesaria, estará listo para cargar.
+Dedique tiempo a [!DNL Salesforce] para determinar el número y la naturaleza de los tipos de registro existentes que desea incluir y si necesita crear campañas adicionales basadas en la información anterior. Una vez que haya rellenado toda la información necesaria, estará listo para cargar.
 
-Más información sobre [sincronización sin conexión [!DNL Salesforce] Campañas con [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
+Más información sobre [sincronización de campañas sin conexión [!DNL Salesforce] con [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
 
 ## Gestión de campañas de SFDC para esfuerzos de marketing en línea {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
-Es común que los equipos de marketing creen [!DNL Salesforce] campañas para rastrear varios esfuerzos de marketing digital. No hay problema con esta práctica; sin embargo, es importante tratar estas campañas de forma diferente a las verdaderas campañas sin conexión, como el correo directo o las conferencias, por ejemplo. Las campañas relacionadas con eventos digitales (las interacciones que se producen en el sitio web) no deben sincronizarse con [!DNL Marketo Measure]. La sincronización de estas campañas resultaría en la duplicación de puntos de contacto porque la variable [!DNL Marketo Measure] JavaScript ya está realizando un seguimiento de los esfuerzos en línea.
+Es habitual que los equipos de marketing creen [!DNL Salesforce] campañas para realizar el seguimiento de varios esfuerzos de marketing digital. No hay problema con esta práctica; sin embargo, es importante tratar estas campañas de forma diferente a las verdaderas campañas sin conexión, como el correo directo o las conferencias, por ejemplo. Las campañas relacionadas con eventos digitales (las interacciones que se producen en el sitio web) no se deben sincronizar con [!DNL Marketo Measure]. La sincronización de estas campañas resultaría en la duplicación de puntos de contacto porque el JavaScript [!DNL Marketo Measure] ya está realizando el seguimiento de los esfuerzos en línea.
 
-Otra sugerencia para administrar campañas para actividades en línea es asignar el [!DNL Salesforce] Tipo de campaña en NULL. Para ello, cree primero un canal en [!DNL Marketo Measure] aplicación titulada NULL como se muestra en la siguiente imagen. Esto se encuentra en [!DNL Marketo Measure] aplicación en **Crear canales** sección. Esto resulta útil en caso de que una campaña que no debería sincronizarse se sincronice accidentalmente. Es fácil encontrar la campaña y corregir el estado de sincronización mirando todo lo agrupado en NULL.
+Otra sugerencia para administrar campañas para actividades en línea es asignar el tipo de campaña [!DNL Salesforce] a NULL. Para ello, cree primero un canal en la aplicación [!DNL Marketo Measure] con el título NULL, como se muestra en la siguiente imagen. Esto se encuentra en la aplicación [!DNL Marketo Measure] en la sección **Crear canales**. Esto resulta útil en caso de que una campaña que no debería sincronizarse se sincronice accidentalmente. Es fácil encontrar la campaña y corregir el estado de sincronización mirando todo lo agrupado en NULL.
 
 ![](assets/6-2.png)
 
 ## Introducción de las reglas de canal sin conexión en la aplicación {#entering-your-offline-channel-rules-to-the-app}
 
-Una vez que haya editado y actualizado la hoja de cálculo con sus reglas personalizadas, el siguiente paso es volver a crear esta asignación de canal en la [!DNL Marketo Measure] aplicación: en realidad, no se carga una hoja de cálculo para canales sin conexión. En su lugar, debe introducir la información en los cuadros de la lista de selección tal como se muestra en la imagen siguiente. Se encuentra haciendo clic en **[!UICONTROL Canales sin conexión]** en el **[!UICONTROL Canales]** sección.
+Una vez que haya editado y actualizado la hoja de cálculo con sus reglas personalizadas, el siguiente paso es volver a crear esta asignación de canal en la aplicación [!DNL Marketo Measure]; en realidad, no cargará una hoja de cálculo para canales sin conexión. En su lugar, debe introducir la información en los cuadros de la lista de selección tal como se muestra en la imagen siguiente. Se encuentra haciendo clic en **[!UICONTROL Canales sin conexión]** en la sección **[!UICONTROL Canales]**.
 
 ![](assets/7-2.png)
 
 >[!TIP]
 >
->Desea determinar _cuando_ a [!DNL Salesforce] El tipo de campaña se arrastra hacia abajo en [!DNL Marketo Measure] ¿Asignación de canales? Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Campañas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. A continuación, puede ver qué valores se encuentran en la lista de selección y cuáles están inactivos. Los inactivos no aparecerán como un tipo seleccionable en nuestro &quot;[!UICONTROL Canales sin conexión]&quot; sección. Tenga en cuenta que este proceso puede tardar entre unos minutos y 48 horas.
+>¿Quiere determinar _cuándo_ se extrae un tipo de campaña [!DNL Salesforce] en la asignación de canal [!DNL Marketo Measure]? Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Campañas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. A continuación, puede ver qué valores se encuentran en la lista de selección y cuáles están inactivos. Los inactivos no aparecerán como un tipo seleccionable en nuestra sección &quot;[!UICONTROL Canales sin conexión]&quot;. Tenga en cuenta que este proceso puede tardar entre unos minutos y 48 horas.
 
-Clic **[!UICONTROL Guardar]** cuando haya terminado y [!DNL Marketo Measure] cargará los cambios y volverá a procesar los datos.
+Haga clic en **[!UICONTROL Guardar]** cuando haya terminado y [!DNL Marketo Measure] cargará los cambios y volverá a procesar los datos.
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure] Tutorials: Asignación de canales sin conexión](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>* [[!DNL Marketo Measure] Tutoriales: Asignación de canales sin conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutorials: Sincronización de campañas sin conexión](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutorials: sincronizando campañas sin conexión](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [Integración de programas de Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

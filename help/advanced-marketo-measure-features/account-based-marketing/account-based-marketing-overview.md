@@ -5,7 +5,7 @@ title: Información general sobre el marketing basado en cuentas
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
 source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 100%
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874612
-description: Informes y paneles de Stock en Dynamics - [!DNL Marketo Measure]
+description: Informes y tableros de Stock en Dynamics - [!DNL Marketo Measure]
 title: Informes y paneles de Stock en Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-El [!DNL Marketo Measure] La solución administrada incluye varios paneles e informes de stock, diseñados para cubrir sus necesidades básicas cuando vea [!DNL Marketo Measure] datos en Dynamics. A continuación se muestra la lista completa y algunos casos de uso comunes.
+La solución administrada de [!DNL Marketo Measure] incluye varios paneles e informes de existencias, diseñados para cubrir sus necesidades básicas cuando visualice datos de [!DNL Marketo Measure] en Dynamics. A continuación se muestra la lista completa y algunos casos de uso comunes.
 
 ## Paneles (nueve en total) {#dashboards-total}
 
@@ -97,12 +97,12 @@ El [!DNL Marketo Measure] La solución administrada incluye varios paneles e inf
   </tr> 
   <tr> 
    <td>Cuentas por puntuación de participación</td> 
-   <td>Agrupar todas las cuentas con su grado A, B, C, D, N/A del [!DNL Marketo Measure] Puntuación de participación predictiva.</td> 
+   <td>Agrupe todas las cuentas con su grado A, B, C, D, N/A desde la puntuación de participación predictiva [!DNL Marketo Measure].</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
    <td>Cuentas con posibles clientes y contactos</td> 
-   <td>Ver todos los posibles clientes y contactos uno junto al otro agrupados por su cuenta mediante la variable [!DNL Marketo Measure] Coincidencia de cliente potencial con cuenta.</td> 
+   <td>Vea todos los posibles clientes y contactos uno junto al otro agrupados por su cuenta, utilizando la coincidencia de cliente potencial con cuenta [!DNL Marketo Measure].</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ El [!DNL Marketo Measure] La solución administrada incluye varios paneles e inf
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>[!DNL Marketo Measure] Atribución por fuente social</td> 
+   <td>[!DNL Marketo Measure] Atribución por Social Source</td> 
    <td>Observe la atribución de ingresos por sus canales sociales y mida su eficacia.</td> 
    <td>Todos</td> 
   </tr> 
@@ -161,12 +161,12 @@ El [!DNL Marketo Measure] La solución administrada incluye varios paneles e inf
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>Posibles clientes por [!DNL Marketo Measure] Canal de marketing (FT)</td> 
+   <td>Posibles clientes por [!DNL Marketo Measure] canal de mercadotecnia (FT)</td> 
    <td>Mida cuántos posibles clientes tuvieron un primer contacto desde cada canal de marketing.</td> 
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>Posibles clientes por [!DNL Marketo Measure] Canal de marketing (LC)</td> 
+   <td>Posibles clientes por [!DNL Marketo Measure] canal de marketing (LC)</td> 
    <td>Mida cuántos posibles clientes se generaron con un contacto de creación de posibles clientes de cada canal de marketing.</td> 
    <td>Todos</td> 
   </tr> 
@@ -191,12 +191,12 @@ El [!DNL Marketo Measure] La solución administrada incluye varios paneles e inf
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>Posibles clientes por fuente social (FT)</td> 
+   <td>Posibles clientes de Social Source (FT)</td> 
    <td>Mida cuántos posibles clientes tuvieron un primer contacto con el canal social.</td> 
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>Posibles clientes por fuente social (LC)</td> 
+   <td>Posibles clientes por Social Source (LC)</td> 
    <td>Mida cuántos posibles clientes se generaron con un contacto de creación de posibles clientes del canal social.</td> 
    <td>Todos</td> 
   </tr> 

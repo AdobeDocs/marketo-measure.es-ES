@@ -2,10 +2,11 @@
 description: Directiva de visibilidad de datos del panel - [!DNL Marketo Measure] - Producto
 title: Directiva de visibilidad de datos del panel
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
+source-git-commit: 2bfa2923119f8ece18ec68408f8098bfa6778ccf
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 11%
+source-wordcount: '239'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +31,7 @@ Para ofrecer una mejor experiencia en nuestros paneles, hemos establecido polít
     <td>Para siempre</td>
   </tr>
   <tr>
-    <td>Cliente potencial</td>
+    <td>Posible cliente</td>
     <td>Para siempre</td>
   </tr>
   <tr>
@@ -58,7 +59,7 @@ Para ofrecer una mejor experiencia en nuestros paneles, hemos establecido polít
     <td>Para siempre </td>
   </tr>
   <tr>
-    <td>Miembros de campaña</td>
+    <td>Miembros de la campaña</td>
     <td>Últimos 5 años, según la fecha de creación del miembro de la campaña</td>
   </tr>
   <tr>

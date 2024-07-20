@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874775
-description: 'Preguntas frecuentes sobre el modelo de aprendizaje automático: [!DNL Marketo Measure]'
+description: Preguntas frecuentes sobre el modelo de aprendizaje automático - [!DNL Marketo Measure]
 title: Preguntas frecuentes sobre el modelo de aprendizaje automático
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Preguntas frecuentes sobre el modelo de aprendizaje automático {#machine-learning-model-faq}
 
-El [!DNL Marketo Measure] El modelo de aprendizaje automático utiliza los datos de su punto de contacto para calcular cuánta ponderación de atribución debe asignarse a cada fase. Esto está determinado por la importancia de cada etapa en las ofertas de manejo para cerrar.
+El modelo de aprendizaje automático [!DNL Marketo Measure] utiliza los datos de punto de contacto para calcular la ponderación de atribución que debe asignarse a cada fase. Esto está determinado por la importancia de cada etapa en las ofertas de manejo para cerrar.
 
 ¿Qué me dicen los porcentajes de atribución del modelo de aprendizaje automático sobre cada fase?
 
@@ -29,7 +29,7 @@ Los porcentajes de atribución de cada fase reflejan el impacto potencial de sus
 
 El peso final de una fase personalizada se calcula de esta manera:
 
-**_Porcentaje de modelo = Precisión del modelo x Tasa de conversión x Peso de unicidad de punto de contacto_**
+**_Porcentaje del modelo = Precisión del modelo x Tasa de conversión x Peso de unicidad del punto de contacto_**
 
 Al final, todas las ponderaciones de escenario personalizadas se normalizan y se convierten a % como se muestra a continuación.
 
@@ -47,7 +47,7 @@ Asignar un 10% de crédito de atribución a los toques medios es una configuraci
 
 ¿Cuándo debo cambiar la distribución de atribución?
 
-Póngase en contacto con el administrador de cuentas para discutir las implicaciones de cambiar los porcentajes de atribución y qué etapas se deben incluir en el modelo personalizado. Cada [!DNL Salesforce] y el proceso de ventas es único, y queremos asegurarnos de que su modelo personalizado esté modelado con precisión.
+Póngase en contacto con el administrador de cuentas para discutir las implicaciones de cambiar los porcentajes de atribución y qué etapas se deben incluir en el modelo personalizado. Cada [!DNL Salesforce] y proceso de ventas son únicos y queremos asegurarnos de que el modelo personalizado se modele con precisión.
 
 Dicho esto, hemos identificado algunas tendencias generales en nuestros clientes:
 

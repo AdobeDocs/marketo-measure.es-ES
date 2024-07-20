@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874628
-description: Oportunidades por canal de marketing - [!DNL Marketo Measure]
+description: Oportunidades por canal de mercadotecnia - [!DNL Marketo Measure]
 title: Oportunidades por canal de marketing
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
@@ -15,13 +15,13 @@ ht-degree: 4%
 
 Este informe muestra el número de oportunidades que generan sus canales de marketing; incluye todas las oportunidades. Sin embargo, puede filtrar este informe para analizar tipos específicos de oportunidades.
 
-1. Haga clic en **[!UICONTROL Informes]** en Salesforce y seleccione **[!UICONTROL Nuevo informe]**.
+1. Haga clic en la ficha **[!UICONTROL Informes]** de Salesforce y seleccione **[!UICONTROL Nuevo informe]**.
 
-1. En la búsqueda rápida escriba en &quot;Atribución Bizible&quot; y seleccione la **[!UICONTROL Punto de contacto de atribución Bizible con oportunidad]** Tipo de informe y seleccione **[!UICONTROL Crear]**.
+1. En la búsqueda rápida, escriba &quot;Atribución Bizible&quot;, seleccione el tipo de informe **[!UICONTROL Atribución Bizible Touchpoint con oportunidad]** y seleccione **[!UICONTROL Crear]**.
 
    ![](assets/1-2.jpg)
 
-1. Desde la parte superior del informe, mostrar **[!UICONTROL Todos los puntos de contacto de atribución Bizible]** y ajuste el campo de fecha según el periodo de tiempo sobre el que desee informar. En nuestro ejemplo, estamos mirando Todo el tiempo. Además, cambie el formato del informe de [!UICONTROL Tabular] hasta **[!UICONTROL Resumen]**.
+1. Empezando por la parte superior del informe, muestra **[!UICONTROL Todos los puntos de contacto de atribución de Bizible]** y ajusta el campo de fecha según el periodo de tiempo sobre el que quieras informar. En nuestro ejemplo, estamos mirando Todo el tiempo. Además, cambie el formato del informe de [!UICONTROL Tabular] a **[!UICONTROL Resumen]**.
 
    ![](assets/2-2.jpg)
 
@@ -35,4 +35,4 @@ Este informe muestra el número de oportunidades que generan sus canales de mark
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Informes de SFDC de Stock](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Informes de SFDC de existencias](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

@@ -1,5 +1,5 @@
 ---
-description: 'Prácticas recomendadas para el modelo personalizado: [!DNL Marketo Measure]'
+description: 'Prácticas recomendadas para el modelo personalizado:  [!DNL Marketo Measure]'
 title: Prácticas recomendadas para el modelo personalizado
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
@@ -14,41 +14,41 @@ ht-degree: 2%
 
 ## Información general {#overview}
 
-Además de las [!DNL Marketo Measure] Los modelos de atribución predeterminados, los clientes de nivel 2 y superiores tienen acceso a un modelo de atribución personalizado.
+Además de los modelos de atribución predeterminados de [!DNL Marketo Measure], los clientes de nivel 2 y superiores tienen acceso a un modelo de atribución personalizado.
 
-El [!DNL Marketo Measure] El modelo de atribución personalizado permite a los usuarios elegir qué posiciones de punto de contacto de hito y/o etapas personalizadas incluir en el modelo. Además, los usuarios pueden controlar el porcentaje de crédito atribuido a cada fase dentro del modelo (los usuarios pueden definir hasta 6 fases personalizadas adicionales) o pueden utilizar los valores de porcentaje de atribución sugeridos por el [!DNL Marketo Measure] Modelo de aprendizaje automático.
+El modelo de atribución personalizada [!DNL Marketo Measure] permite a los usuarios elegir qué posiciones de punto de contacto de hito y/o etapas personalizadas se incluirán en el modelo. Además, los usuarios pueden controlar el porcentaje de crédito atribuido a cada fase del modelo (pueden definir hasta 6 fases personalizadas adicionales) o pueden utilizar los valores de porcentaje de atribución sugeridos por el modelo de aprendizaje automático [!DNL Marketo Measure].
 
 Existen dos aspectos clave del modelo de atribución personalizado:
 
-**Fases personalizadas** permiten a los usuarios definir su canal en relación con su negocio y procesos. Las fases personalizadas deben representar &quot;hitos&quot; a lo largo del recorrido del comprador de forma muy similar a la [!DNL Marketo Measure] Los hitos (primer contacto, contacto de creación de posibles clientes, contacto de creación de oportunidades y contacto ganado cerrado) se realizan dentro de los modelos de atribución de stock. Es crucial que las fases personalizadas se definan y asignen correctamente dentro de la cuenta para garantizar que [!DNL Marketo Measure] está rastreando correctamente las transiciones de fase. Esto sirve para identificar qué puntos de contacto deben asociarse con cada fase y atribuir correctamente el crédito. La asignación de etapas personalizada es esencialmente una extensión de la asignación de etapas estándar y debe seguir las mismas prácticas.
+**Fases personalizadas** permiten que los usuarios definan su canal en relación con su negocio y procesos. Las fases personalizadas deben representar &quot;hitos&quot; a lo largo del recorrido del comprador, de forma muy similar a los hitos [!DNL Marketo Measure] (Primer contacto, Contacto de creación de posibles clientes, Contacto de creación de oportunidades y Cerrado contacto ganado) de los modelos de atribución de existencias. Es crucial que las etapas personalizadas estén definidas y asignadas correctamente en su cuenta para garantizar que [!DNL Marketo Measure] esté realizando un seguimiento adecuado de las transiciones de etapas. Esto sirve para identificar qué puntos de contacto deben asociarse con cada fase y atribuir correctamente el crédito. La asignación de etapas personalizada es esencialmente una extensión de la asignación de etapas estándar y debe seguir las mismas prácticas.
 
 >[!NOTE]
 >
 >Consulte el recurso Prácticas recomendadas de asignación de etapas para obtener más información
 
-**Modelado de atribución personalizado** se define una vez que seleccione el canal Etapas personalizadas. Los usuarios pueden controlar cuánto crédito de atribución debe asignarse a cada fase personalizada, así como la variable [!DNL Marketo Measure] fases de hito. Los usuarios pueden asignar crédito a cada fase según lo consideren adecuado o hacer referencia al [!DNL Marketo Measure] Modelo de aprendizaje automático que actúa como un &quot;modelo sugerente&quot; basado en datos históricos.
+**El modelado de atribución personalizado** se define una vez que haya seleccionado el canal de Fases personalizadas. Los usuarios pueden controlar cuánto crédito de atribución se debe asignar a cada etapa personalizada, así como a las etapas de hito [!DNL Marketo Measure]. Los usuarios pueden asignar crédito a cada etapa según lo consideren conveniente o hacer referencia al modelo de aprendizaje automático [!DNL Marketo Measure] que actúa como un &quot;modelo sugestivo&quot; basado en los datos históricos.
 
-Es crucial que estos dos aspectos del modelo personalizado se definan correctamente y con precisión para garantizar que [!DNL Marketo Measure] está produciendo un modelo de atribución personalizado preciso.
+Es crucial que estos dos aspectos del modelo personalizado se definan correctamente y con precisión para garantizar que [!DNL Marketo Measure] produzca un modelo de atribución personalizado preciso.
 
 ## Práctica recomendada {#best-practice}
 
 Tanto si configura el modelo personalizado por primera vez como si revisa lo que se ha establecido anteriormente, es importante tener en cuenta las siguientes prácticas recomendadas.
 
 * Inicio simple
-   * Identifique las fases clave que desee añadir al modelo personalizado y que son cruciales para su [!DNL Marketo Measure] informes. Por lo general, estas son etapas con las que se suele medir o con las que se pretende obtener información
+   * Identifique las etapas clave que desee agregar al modelo personalizado y que son cruciales para los informes de [!DNL Marketo Measure]. Por lo general, estas son etapas con las que se suele medir o con las que se pretende obtener información
    * Siempre puede agregar al modelo personalizado con el tiempo
-* Utilice el [!DNL Marketo Measure] Modelo de aprendizaje automático
-   * Si tiene problemas para decidir el desglose de atribución porcentual, la variable [!DNL Marketo Measure] El modelo de aprendizaje automático puede ayudarle a tomar decisiones informadas al configurar el modelo de atribución personalizado.
+* Utilizar el modelo de aprendizaje automático [!DNL Marketo Measure]
+   * Si tiene dificultades para decidir el desglose de atribución porcentual, el modelo de aprendizaje automático de [!DNL Marketo Measure] puede ayudarle a tomar decisiones informadas al configurar el modelo de atribución personalizado.
    * Al ver el modelo de aprendizaje automático, los porcentajes de atribución de cada fase reflejan el impacto potencial de sus esfuerzos de marketing
       * Un porcentaje mayor significa que el marketing puede influir directamente en el movimiento del canal en ese punto
       * Un porcentaje de atribución menor significa que las fases son menos importantes para que el equipo las supervise
 * Debe definir la parte superior de las fases del embudo en función de las fases Cliente potencial o Contacto, no en ambas
    * Esto significa que debe asegurarse de que todas las personas pasen por esa etapa en el objeto relativo
-      * Por ejemplo: si define la etapa MQL a partir del objeto de posible cliente, todas las personas deben entrar en el sistema como posible cliente y marcarse como un MQL en su registro de posible cliente para [!DNL Marketo Measure] para reflejar con precisión qué contacto se relacionó con la transición del posible cliente a MQL. Si este no es el caso, y algunas personas progresan a Contacto antes de convertirse en MQL como posible cliente, [!DNL Marketo Measure] no podrá explicar esto con precisión en sus datos de Touchpoint y tendremos que suponer que esa persona ya ha cambiado de MQL. [!DNL Marketo Measure] no puede explicar el salto de etapa, por lo que deduciremos que las etapas se han pasado incluso si no lo han hecho.
+      * Por ejemplo: si define la etapa MQL a partir del objeto de posible cliente, todas las personas deben entrar en su sistema como posible cliente y marcarse como un MQL en su registro de posible cliente para que [!DNL Marketo Measure] refleje con precisión qué contacto estaba relacionado con la transición del posible cliente a MQL. Si este no es el caso, y algunas personas progresan a Contacto antes de convertirse en MQL como posible cliente, [!DNL Marketo Measure] no podrá explicar esto con precisión en sus datos de Touchpoint y tendremos que suponer que esa persona ya ha cambiado de MQL. [!DNL Marketo Measure] no puede contabilizar el salto de etapa, por lo que deduciremos que las etapas se han pasado aunque no lo hayan hecho.
 * Asegúrese de que el seguimiento del historial de campos esté habilitado para todos los campos utilizados para definir las fases personalizadas que incorpora
 * No utilice campos de fórmula para definir una fase personalizada
    * Una recomendación de prácticas recomendadas es un campo booleano
-* No incorpore fases personalizadas al modelo personalizado que coincidan con un [!DNL Marketo Measure] Posición de punto de contacto de hito (FT, LC, OC, ganados/perdidos cerrados)
+* No incorpore etapas personalizadas al modelo personalizado que coincidan con una posición de punto de contacto de hito [!DNL Marketo Measure] (FT, LC, OC, ganados/perdidos cerrados)
    * Si lo hace, estas posiciones siempre se producen simultáneamente y pueden causar un crédito de atribución inflado a partes del embudo.
 * Trabaje con su equipo de ventas
    * La inclusión del equipo que trabaja más cerca de las fases y su significado garantiza que está utilizando las fases correctas y que están definidas correctamente
@@ -64,11 +64,11 @@ Otras razones que podrían déclencheur una revisión de su modelo personalizado
 * Rotación en su equipo de marketing
 * Cualquier cambio en las fases de CRM
 * Actualizaciones en el canal de sus organizaciones
-* Ver datos de ingresos inexactos en su [!DNL Marketo Measure] creación de informes al aplicar el modelo personalizado
+* Ver datos de ingresos inexactos en los informes de [!DNL Marketo Measure] al aplicar el modelo personalizado
 * Ver las posiciones de puntos de contacto rellenadas que ya no son relevantes para el canal de sus organizaciones
 
 >[!MORELIKETHIS]
 >
->* [Configuración y modelo de atribución personalizados](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [Modelo de atribución personalizada y configuración](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Habilitar El Seguimiento Del Historial De Campos Para El Modelo Personalizado](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
 >* [Modelo de aprendizaje automático](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)

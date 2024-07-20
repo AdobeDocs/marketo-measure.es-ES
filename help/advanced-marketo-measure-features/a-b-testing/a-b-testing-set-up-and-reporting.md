@@ -5,9 +5,9 @@ title: Configuración e informes de pruebas A/B
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ La integración de pruebas A/B de [!DNL Marketo Measure] le permite hacer un seg
 
 ## Configuración {#set-up}
 
-Añada las Secciones de prueba A/B de [!DNL Marketo Measure] sobre cliente potencial, contacto, caso y oportunidad. La integración de pruebas A/B de [!DNL Marketo Measure] le permite hacer un seguimiento del impacto de sus ingresos de [Optimizely](https://www.optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimentos en el sitio.
+Añada las Secciones de prueba A/B de [!DNL Marketo Measure] sobre cliente potencial, contacto, caso y oportunidad. La integración de pruebas A/B de [!DNL Marketo Measure] le permite realizar un seguimiento del impacto en los ingresos de los experimentos del sitio de [Optimizely](https://www.optimizely.com/){target="_blank"} y [VWO](https://vwo.com/){target="_blank"}.
 
 1. Compruebe que está utilizando el paquete [!DNL Marketo Measure] v3.9 o posterior. Para ello, vaya a [!UICONTROL Salesforce] >[!UICONTROL Configurar] > [!UICONTROL Paquetes instalados].
 1. Edite el diseño de la página de posible cliente y añada la lista relacionada de **[!DNL Marketo Measure]pruebas A/B** a la página.

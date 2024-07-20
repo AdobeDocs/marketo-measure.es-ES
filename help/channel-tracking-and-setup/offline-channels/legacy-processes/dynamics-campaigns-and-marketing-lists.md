@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874610
-description: 'Campañas de Dynamics y listas de marketing: [!DNL Marketo Measure]'
+description: 'Listas de marketing y campañas de Dynamics:  [!DNL Marketo Measure]'
 title: Listas de marketing y campañas de Dynamics
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '818'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Este artículo trata sobre un proceso obsoleto. Recomendamos a los usuarios que utilicen [proceso en la aplicación nuevo y mejorado](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+>Este artículo trata sobre un proceso obsoleto. Recomendamos a los usuarios que utilicen el [proceso en la aplicación nuevo y mejorado](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Campañas {#campaigns}
 
@@ -29,7 +29,7 @@ Cuando se agregan posibles clientes o contactos directamente a una campaña, se 
 
 ## Habilitar puntos de contacto {#enable-touchpoints}
 
-Para incluir estos registros en el recorrido de punto de contacto, existen algunas opciones para los tipos de respuestas de campaña que se deben sincronizar. En el registro de campaña, debe haber un campo personalizado de la solución instalada etiquetado como, &quot;[!UICONTROL Activar puntos de contacto del comprador].&quot; Si no lo ve, el campo debe añadirse mediante el Editor de formularios.
+Para incluir estos registros en el recorrido de punto de contacto, existen algunas opciones para los tipos de respuestas de campaña que se deben sincronizar. En el registro de campaña, debe haber un campo personalizado de la solución instalada con la etiqueta &quot;[!UICONTROL Habilitar puntos de contacto del comprador]&quot;. Si no lo ve, el campo debe añadirse mediante el Editor de formularios.
 
 ![](assets/2.png)
 
@@ -49,9 +49,9 @@ Una razón por la que una respuesta de campaña podría no mostrarse es porque y
 
 ## Fecha de Touchpoint {#touchpoint-date}
 
-La fecha de punto de contacto de una campaña suele ser la fecha en la que se añadió la respuesta de campaña a la campaña. Se puede sobrescribir si se rellena el campo personalizado de la solución instalada con la etiqueta &quot;Fecha del punto de contacto del comprador&quot;. Si no lo ve, el campo debe añadirse mediante el Editor de formularios.
+La fecha de punto de contacto de una campaña suele ser la fecha en la que se añadió la respuesta de campaña a la campaña. Se puede anular si se rellena el campo personalizado de la solución instalada con la etiqueta &quot;Fecha de Buyer Touchpoint&quot;. Si no lo ve, el campo debe añadirse mediante el Editor de formularios.
 
-Un ejemplo común de uso de este campo es para eventos en los que se añade una lista de análisis de distintivos de un evento al CRM días después de que se produzca el evento, de modo que el usuario pueda volver a cambiar la Fecha del punto de contacto del comprador a cuando se produjo el evento.
+Un ejemplo común de uso de este campo es para eventos en los que se agrega una lista de análisis de distintivos de un evento al CRM días después de que se produzca el evento, de modo que el usuario pueda volver a cambiar la Fecha de Buyer Touchpoint a cuando se produjo el evento.
 
 ![](assets/5.png)
 
@@ -59,21 +59,21 @@ Un ejemplo común de uso de este campo es para eventos en los que se añade una 
 
 Las listas de marketing son otra forma de incluir posibles clientes o contactos en un recorrido de marketing. Las listas de marketing son únicas para un grupo de posibles clientes o contactos, lo que significa que el usuario debe seleccionar si su lista es un conjunto de posibles clientes o un conjunto de contactos.
 
-[!DNL Marketo Measure] solo admite listas de marketing estáticas. No se admiten listas de marketing dinámicas porque el procesamiento requiere que comprobemos la fecha de modificación de un registro, pero como una lista dinámica cambia con frecuencia, no hay ninguna fecha de modificación para [!DNL Marketo Measure] para comprobarlo. Esto requeriría una descarga constante del conjunto de datos completo a lo largo del día.
+[!DNL Marketo Measure] solo admite listas de marketing estáticas. No se admiten listas de marketing dinámicas porque nuestro procesamiento requiere que comprobemos la fecha de modificación de un registro, pero como una lista dinámica cambia con frecuencia, no hay ninguna fecha de modificación para [!DNL Marketo Measure] con la que comprobar. Esto requeriría una descarga constante del conjunto de datos completo a lo largo del día.
 
 ![](assets/6.png)
 
-La captura de pantalla anterior es una lista de marketing para posibles clientes. Las listas de marketing están asociadas a campañas y pueden asociarse a varias campañas. A menos que solo cree una lista de marketing para una campaña, [!DNL Marketo Measure] no recomienda que los clientes utilicen Listas de marketing para rastrear sus Campañas. Es poco probable que la misma lista exacta de posibles clientes/contactos sea apta para puntos de contacto en varias campañas.
+La captura de pantalla anterior es una lista de marketing para posibles clientes. Las listas de marketing están asociadas a campañas y pueden asociarse a varias campañas. A menos que en algún momento cree solamente una lista de mercadotecnia para una campaña, [!DNL Marketo Measure] no recomienda que los clientes usen listas de mercadotecnia para hacer un seguimiento de sus campañas. Es poco probable que la misma lista exacta de posibles clientes/contactos sea apta para puntos de contacto en varias campañas.
 
 ## Habilitar puntos de contacto {#enable-touchpoints-1}
 
-Para habilitar una lista de marketing para puntos de contacto, existe una configuración independiente en el registro de campaña denominada &quot;[!UICONTROL Sincronizar listas de marketing],&quot; que es un conmutador simple de sí/no. Si no lo ve, el campo debe añadirse mediante el Editor de formularios. En el registro de campaña puede ver qué listas de marketing están relacionadas con la campaña para saber cuántas listas está habilitando.
+Para habilitar una lista de marketing para puntos de contacto, hay una configuración independiente en el registro de campaña con la etiqueta &quot;[!UICONTROL Sincronizar listas de marketing]&quot;, que es un modificador simple de sí/no. Si no lo ve, el campo debe añadirse mediante el Editor de formularios. En el registro de campaña puede ver qué listas de marketing están relacionadas con la campaña para saber cuántas listas está habilitando.
 
 ![](assets/7.png)
 
 ## Fecha de Touchpoint {#touchpoint-date-1}
 
-La fecha de punto de contacto de una lista de marketing suele ser la fecha de creación del ListMember, por lo que la fecha en la que se agregó el posible cliente o contacto a la lista de marketing. Se puede sobrescribir si se rellena el campo personalizado de la solución instalada con la etiqueta &quot;Fecha del punto de contacto del comprador&quot;. Si no lo ve, el campo debe añadirse mediante el Editor de formularios.
+La fecha de punto de contacto de una lista de marketing suele ser la fecha de creación del ListMember, por lo que la fecha en la que se agregó el posible cliente o contacto a la lista de marketing. Se puede anular si se rellena el campo personalizado de la solución instalada con la etiqueta &quot;Fecha de Buyer Touchpoint&quot;. Si no lo ve, el campo debe añadirse mediante el Editor de formularios.
 
 ![](assets/8.png)
 
@@ -81,7 +81,7 @@ La fecha de punto de contacto de una lista de marketing suele ser la fecha de cr
 
 Las campañas de Dynamics se agrupan en los canales de marketing personalizados mediante el campo Tipo de campaña. Se pueden cambiar en el menú Personalizaciones de Dynamics.
 
-Los valores del menú Tipo de campaña se extraen en la variable [!DNL Marketo Measure] Aplicación. **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]** > **[!UICONTROL Canales sin conexión]**.
+Los valores del menú Tipo de campaña se extraen en la aplicación [!DNL Marketo Measure]. **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]** > **[!UICONTROL Canales sin conexión]**.
 
 Para cada tipo de campaña, se puede asignar a una combinación de canal y subcanal para que cada punto de contacto que se derive de la campaña tenga los canales y subcanales asignados correctamente.
 

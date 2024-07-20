@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Objetos de Salesforce: [!DNL Marketo Measure]"
+description: "[!DNL Marketo Measure] objetos de Salesforce - [!DNL Marketo Measure]"
 title: "Objetos de Salesforce de [!DNL Marketo Measure]"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Cuando [!DNL Marketo Measure] está instalado en [!DNL Salesforce] (SFDC), se añadirán varios objetos de [!DNL Marketo Measure] personalizados. Este artículo proporciona una explicación de varios de estos objetos de [!DNL Marketo Measure] personalizados. Algunos objetos que [!DNL Marketo Measure] añade a [!DNL Salesforce] son:
 
@@ -55,7 +55,7 @@ El objeto BAT es visible en el Objeto [!UICONTROL Oportunidad], [!UICONTROL Cont
 
 ## [!DNL Marketo Measure] Persona {#marketo-measure-person}
 
-El Objeto Persona de [!DNL Marketo Measure] relaciona los objetos Posible cliente y Contacto. De forma predeterminada, Salesforce no proporciona la opción de crear informes utilizando el objeto Posible cliente y Contacto en el mismo informe. Al referirse al Objeto Posible cliente y Contacto, la Persona de [!DNL Marketo Measure] le permite crear informes sobre ambos Objetos dentro del mismo informe. Esto resulta especialmente útil cuando un posible cliente se ha convertido en un contacto. En un [!DNL Marketo Measure] Registro de persona: verá una búsqueda del registro de contacto o posible cliente correspondiente, una lista relacionada de los puntos de contacto vinculados a la persona y el ID de persona (que siempre es la dirección de correo electrónico del contacto o posible cliente). Dado que la Persona de [!DNL Marketo Measure] se relaciona con el objeto Posible cliente y Contacto, nunca habrá un registro de Persona de [!DNL Marketo Measure] vinculado a un Buyer Attribution Touchpoint. A continuación se muestra un ejemplo de un registro de Persona de [!DNL Marketo Measure] en Salesforce:
+El Objeto Persona de [!DNL Marketo Measure] relaciona los objetos Posible cliente y Contacto. De forma predeterminada, Salesforce no proporciona la opción de crear informes utilizando el objeto Posible cliente y Contacto en el mismo informe. Al referirse al Objeto Posible cliente y Contacto, la Persona de [!DNL Marketo Measure] le permite crear informes sobre ambos Objetos dentro del mismo informe. Esto resulta especialmente útil cuando un posible cliente se ha convertido en un contacto. En un registro de persona [!DNL Marketo Measure] verá una búsqueda del registro de contacto o posible cliente correspondiente, una lista relacionada de los puntos de contacto vinculados a la persona y el ID de persona (que siempre es la dirección de correo electrónico del contacto o posible cliente). Dado que la Persona de [!DNL Marketo Measure] se relaciona con el objeto Posible cliente y Contacto, nunca habrá un registro de Persona de [!DNL Marketo Measure] vinculado a un Buyer Attribution Touchpoint. A continuación se muestra un ejemplo de un registro de Persona de [!DNL Marketo Measure] en Salesforce:
 
 ![](assets/4.png)
 
@@ -73,7 +73,7 @@ El objeto Eventos de [!DNL Marketo Measure] le permite realizar un seguimiento d
 
 ## [!DNL Marketo Measure] Campos {#marketo-measure-fields}
 
-Datos capturados por el [!DNL Marketo Measure] JavaScript se inserta en el [!DNL Marketo Measure] Campos dentro de [!DNL Marketo Measure] Objetos. Algunos campos solo están presentes en determinados objetos. Puede revisar las [glosario de [[!DNL Marketo Measure] campos]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) y una [visualización de los elementos relacionados [!DNL Marketo Measure] Objetos](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Los datos capturados por el JavaScript [!DNL Marketo Measure] se insertan en los campos personalizados [!DNL Marketo Measure] dentro de los objetos [!DNL Marketo Measure]. Algunos campos solo están presentes en determinados objetos. Puede revisar el [glosario de [[!DNL Marketo Measure] campos]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) y una [visualización de los [!DNL Marketo Measure] objetos relacionados](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## Informes y paneles de [!DNL Marketo Measure] {#marketo-measure-reports-and-dashboards}
 

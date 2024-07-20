@@ -1,6 +1,6 @@
 ---
-description: '[!DNL Salesforce] Consolidación de paquetes - [!DNL Marketo Measure]'
-title: '[!DNL Salesforce] Consolidación de paquetes'
+description: '[!DNL Salesforce] consolidación de paquetes - [!DNL Marketo Measure]'
+title: '[!DNL Salesforce] consolidación de paquetes'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
 source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
@@ -29,7 +29,7 @@ Existen dos nuevos campos para mejorar las capacidades de creación de informes:
 
 ## Soporte y transición {#support-and-transition}
 
-El [Equipo de soporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} está disponible para responder a cualquier pregunta y ayudar a garantizar una transición sin problemas al nuevo paquete consolidado.
+El [equipo de soporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} está disponible para responder cualquier pregunta y ayudar a garantizar una transición sin problemas al nuevo paquete consolidado.
 
 ## Acciones requeridas {#retired-actions}
 
@@ -51,13 +51,13 @@ El [Equipo de soporte](https://nation.marketo.com/t5/support/ct-p/Support){targe
 
 ## Preguntas frecuentes {#faq}
 
-**¿El paquete consolidado tiene conflictos con los campos de mi paquete existente?**
+**¿El paquete consolidado tendrá conflictos con los campos de mi paquete existente?**
 
 No es necesario desinstalar el paquete antes de instalar el paquete consolidado. No habrá conflictos en los campos porque están en un área de nombres diferente.
 
 **¿Cómo puedo rellenar los datos de mis paquetes actuales?**
 
-Puede presentar un ticket [con soporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para rellenar y reprocesar datos BT/BAT, rellene los campos ID de Touchpoint e ID de formulario.
+BT BAT Puede enviar un ticket [con soporte técnico](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para rellenar y volver a procesar los datos de los campos de ID de punto de contacto y de ID de formulario, con el fin de que se puedan rellenar los campos de ID de formulario y de ID de punto de contacto.
 
 **¿Estarán disponibles los campos de los paquetes V1 y V2_EXT en el paquete consolidado?**
 
@@ -65,4 +65,4 @@ Sí. El paquete consolidado contiene los mismos campos en la versión 1, con má
 
 **¿Pueden volver a crearse los informes que utilizan campos V2_EXT en el paquete consolidado?**
 
-Sí. Siga los pasos de la [Acciones requeridas](#retired-actions) sección.
+Sí. Siga los pasos de la sección [Acciones requeridas](#retired-actions).

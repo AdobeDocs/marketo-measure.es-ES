@@ -16,7 +16,7 @@ El panel de control de ingresos atribuidos ofrece una perspectiva centrada en lo
 
 >[!NOTE]
 >
->Este tablero está en versión beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto después de que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
+>Este tablero se encuentra en Beta. Durante esta fase de transición, se podrá acceder tanto a los paneles actuales como a los nuevos. El tablero actual quedará obsoleto después de que hayamos realizado la transición completa y asegurado una funcionalidad óptima.
 
 **Preguntas que el tablero responde**:
 
@@ -28,7 +28,7 @@ El panel de control de ingresos atribuidos ofrece una perspectiva centrada en lo
 ### Mosaicos KPI {#kpi-tiles}
 
 * **Ingresos atribuidos**: Contribución de ingresos total, basada en el modelo de atribución elegido, de Oportunidades con puntos de contacto.
-* **Ofertas atribuidas**: El número de oportunidades &quot;ganadas cerradas&quot; que tienen puntos de contacto.
+* **Ofertas atribuidas**: La cantidad de oportunidades &quot;Cerradas ganadas&quot; que tienen puntos de contacto.
 
 ### Gráfico de ingresos atribuidos por canal a lo largo del tiempo {#attributed-revenue-by-channel-over-time-chart}
 
@@ -37,7 +37,7 @@ Gráfico de barras apiladas que muestra los ingresos atribuidos totales, segment
 * Utilice las funcionalidades de exploración en profundidad y aumento para categorizar los datos por mes, trimestre o año.
 * Pase el ratón sobre un segmento de barra o el espacio entre barras para ver información detallada.
 
-**Preguntas sobre las respuestas del gráfico**:
+**Preguntas que responde el gráfico**:
 
 * ¿Qué canales generan los ingresos más atribuidos cada trimestre?
 * ¿Cuál fue el desglose de los ingresos atribuidos por canal el mes pasado?

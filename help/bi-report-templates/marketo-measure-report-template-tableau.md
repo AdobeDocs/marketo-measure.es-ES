@@ -4,7 +4,7 @@ title: “Plantilla de informe de [!DNL Marketo Measure], Tableau”
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2302'
 ht-degree: 100%
 

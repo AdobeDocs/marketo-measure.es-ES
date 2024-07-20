@@ -5,9 +5,9 @@ title: Prácticas recomendadas para configurar parámetros UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Los parámetros de UTM son una buena manera de cortar y fragmentar los datos de marketing. [!DNL Marketo Measure] utiliza y captura todos los parámetros UTM para rellenar campos en Salesforce y en la aplicación de [!DNL Marketo Measure]. Con esta información, podrá obtener una comprensión granular de dónde provienen sus posibles clientes, oportunidades y operaciones cerradas/ganadas.
 
-Puede utilizar [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=es){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si desea una forma más sencilla de realizar un seguimiento de todos los vínculos de UTM.
+Puede usar el [Generador de URL de Google](https://support.google.com/analytics/answer/1033867?hl=es){target="_blank"} para configurar los parámetros de UTM y agregarlos a los vínculos dentro de los esfuerzos de marketing. Use esta [hoja de cálculo de Google](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si desea una forma más sencilla de realizar el seguimiento de todos los vínculos de UTM.
 
 ## Valores de alto nivel para cada parámetro {#high-level-values-for-each-parameter}
 

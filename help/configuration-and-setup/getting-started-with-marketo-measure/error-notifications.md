@@ -14,7 +14,7 @@ ht-degree: 30%
 
 A continuación se muestra una lista de errores que puede recibir mediante una notificación en la aplicación o por correo electrónico. Si recibe alguno de estos, siga los pasos correspondientes para la resolución de problemas. Si estos pasos no resuelven el problema, póngase en contacto con el [equipo de soporte de Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
 
-Para ver el mensaje de notificación completa en [!DNL Marketo Measure], haga clic en **Ver todo** en la parte inferior de la pestaña Notificaciones.
+Para ver el mensaje de notificación completo en [!DNL Marketo Measure], haga clic en **Ver todo** en la parte inferior de la ficha Notificaciones.
 
 ![](assets/error-notifications-1.png)
 
@@ -60,10 +60,11 @@ Para ver el mensaje de notificación completa en [!DNL Marketo Measure], haga cl
     <tr>
       <td>CANNOT_EXECUTE_FLOW_DÉCLENCHEUR</td>
       <td>Se ha producido un error durante la exportación de Crm: CANNOT_EXECUTE_FLOW_DÉCLENCHEUR : Tipo de entidad 'Contacto'. Proporcione estos detalles al administrador de Salesforce.
-Se ha superado el límite Usted o su organización han superado el límite máximo de esta función. ID de error: 123456</td>
+Límite superado
+Usted o su organización han superado el límite máximo de esta función. ID de error: 123456</td>
       <td>El registro no se puede guardar porque no cumple una regla de flujo de déclencheur configurada en la organización de Salesforce.</td>
       <td>Revise todos los detalles del mensaje de notificación y los déclencheur de flujo en la organización de Salesforce.
-Documentación de Salesforce sobre déclencheur de flujo <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">se puede encontrar aquí</a>.
+La documentación de Salesforce sobre los déclencheur de flujo <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated"> se encuentra aquí</a>.
       </td>
     </tr>
     <tr>
@@ -78,9 +79,9 @@ Documentación de Salesforce sobre déclencheur de flujo <a href="https://admin.
       Faltan permisos en el objeto.</td>
       <td>Revise el código de déclencheur que provoca que la inserción/actualización falle. Consulte la siguiente documentación de Salesforce para obtener más información sobre los déclencheur:
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">Déclencheur Apex</a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">déclencheur Apex</a>
           </li>
-          <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">Déclencheur de flujo</a>
+          <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">déclencheur de flujo</a>
           </li>
         </ul>
         <p>
@@ -119,7 +120,7 @@ Documentación de Salesforce sobre déclencheur de flujo <a href="https://admin.
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>Error durante la exportación de Crm: FIELD_FILTER_VALIDATION_EXCEPTION : Tipo de entidad 'Posible cliente': Código de error de CRM: FIELD_FILTER_VALIDATION_EXCEPTION, Campos: Usuario__C, Mensaje de error de CRM: El valor no existe o no coincide con los criterios de filtro. Seleccione un usuario con la función "Ejecutivo de cuenta, ventas internas"; RecordId: 0123456</td>
       <td>El registro modificado ya no satisface los filtros de búsqueda definidos en el objeto.</td>
-      <td>Compruebe si hay filtros en el objeto que Marketo Measure está intentando modificar. Consulte <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">este artículo de Salesforce</a> para obtener información sobre cómo comprobar filtros en un objeto.</td>
+      <td>Compruebe si hay filtros en el objeto que Marketo Measure está intentando modificar. Consulte <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">este artículo de Salesforce</a> para obtener información sobre cómo buscar filtros en un objeto.</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
@@ -128,7 +129,7 @@ Documentación de Salesforce sobre déclencheur de flujo <a href="https://admin.
       <td>El caso más común de esto no es seguir las normas de nomenclatura de estado/país establecidas en la organización de Salesforce, porque los campos Estado/país se han estandarizado para aceptar solo ciertos valores de la lista de selección. Para solucionar este problema, puede:
         <ul>
           <li>Actualice el registro para seguir los valores aceptados de la organización para ese campo. Póngase en contacto con el administrador de SFDC para obtener la lista de valores aceptados.</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">Desactivar las listas de selección de estado/país</a>.
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">Deshabilitar las listas de selección de estado/país</a>.
           </li>
         </ul>
       </td>
@@ -137,13 +138,13 @@ Documentación de Salesforce sobre déclencheur de flujo <a href="https://admin.
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Error durante la exportación de Crm: INACTIVE_OWNER_OR_USER : Tipo de entidad 'Contacto': Código de error de CRM: INACTIVE_OWNER_OR_USER, Mensaje de error de CRM: operación realizada con el usuario inactivo [1234] como propietario del contacto, RecordId: 0123456</td>
       <td>A Marketo Measure le falta el permiso "Actualizar registros con propietarios inactivos".</td>
-      <td>Conceder a Marketo Measure el "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Actualizar registros con propietarios inactivos</a>" permiso.</td>
+      <td>Conceder a Marketo Measure el permiso "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Actualizar registros con propietarios inactivos</a>".</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
       <td>Error durante la exportación de Crm: INSUFFICIENT_ACCESS_OR_READONLY : Tipo de entidad 'Cuenta': Código de error de CRM: INSUFFICIENT_ACCESS_OR_READONLY, Mensaje de error de CRM: derechos de acceso insuficientes en el ID de objeto: [123], RecordId: 456</td>
       <td>A Marketo Measure le faltan permisos en un objeto/ campo o el objeto es de solo lectura.</td>
-      <td>Consulte lo siguiente <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">artículo del Experience League</a> para obtener instrucciones sobre los permisos que requiere Marketo Measure.</td>
+      <td>Consulte el siguiente <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">artículo del Experience League</a> para obtener instrucciones sobre los permisos que Marketo Measure requiere.</td>
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
@@ -225,9 +226,9 @@ Documentación de Salesforce sobre déclencheur de flujo <a href="https://admin.
       <td>Faltan permisos en Marketo Measure.</td>
       <td>Existen varias razones para este error que son específicas de la organización de Salesforce. A continuación se indican algunos pasos comunes de solución de problemas que pueden resolver el problema:
         <ul>
-          <li>Revise todos los permisos necesarios para cada uno <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">objeto y campo</a>.</li>
+          <li>Revise todos los permisos que necesitamos para cada <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">objeto y campo</a>.</li>
           <li>Excluir al usuario dedicado de Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">reglas de validación personalizadas</a>.</li>
-          <li>Conceder Marketo Measure "<a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">Modificar todo</a>" permisos.</li>
+          <li>Conceder permisos de "<a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">Modificar todos</a>" a Marketo Measure.</li>
         </ul>
       </td>
     </tr>
@@ -254,7 +255,7 @@ Documentación de Salesforce sobre déclencheur de flujo <a href="https://admin.
       <td>El registro que se está actualizando no cumple una regla de validación establecida en la organización de Salesforce.</td>
       <td>Excluir al usuario dedicado de Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">reglas de validación personalizadas</a>.
       <p>
-      Actualice su <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">reglas de validación</a>.</td>
+      Actualice sus <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">reglas de validación</a>.</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>

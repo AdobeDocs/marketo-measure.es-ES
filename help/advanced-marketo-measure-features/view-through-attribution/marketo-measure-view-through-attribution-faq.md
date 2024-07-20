@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874652
-description: "[!DNL Marketo Measure] Preguntas frecuentes sobre la atribución de visualización: [!DNL Marketo Measure]"
-title: '"[!DNL Marketo Measure] Preguntas frecuentes sobre "Ver mediante atribución"'
+description: "[!DNL Marketo Measure] Preguntas frecuentes sobre la visualización mediante atribución - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] Preguntas frecuentes sobre la visualización mediante atribución"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
 source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
@@ -15,23 +15,23 @@ ht-degree: 25%
 
 ## ¿Qué es la Vista a través de la atribución? {#what-is-view-through-attribution}
 
-El [!DNL Marketo Measure] [!UICONTROL Ver mediante atribución] Esta función incluye la capacidad de incluir impresiones de publicidad en el modelo de atribución.
+La característica [!DNL Marketo Measure] [!UICONTROL Atribución de visualización] incluye la capacidad de incluir impresiones de anuncios en el modelo de atribución.
 
 >[!IMPORTANT]
 >
 >Debido a cuestiones de privacidad, las cookies de terceros están a punto de desaparecer. La obsolescencia de las cookies de terceros anunciada por Google Chrome en el tercer trimestre de 2024 marca el final de esta forma de seguimiento. Por consiguiente, Adobe va a dejar de utilizar las funciones de Marketo Measure que dependan de cookies de terceros; en concreto Seguimiento entre dominios y Atribución de visualización, que utilizan la cookie de impresión de Google/DoubleClick. Ninguna otra función de Marketo Measure se verá afectada. El uso de cookies de origen tampoco se verá afectado. En vista de la programación de Google, la fecha prevista de obsolescencia de las dos funciones anteriores es el 1/6/2024. Los datos relacionados recopilados antes de esta fecha permanecen a disposición de los clientes de Adobe.
 
-## ¿Por qué? [!UICONTROL Ver mediante atribución] ¿Importante? {#why-is-view-through-attribution-important}
+## ¿Por qué es importante [!UICONTROL Ver a través de la atribución]? {#why-is-view-through-attribution-important}
 
 Históricamente, los especialistas en marketing han tenido dificultades para tener en cuenta la resegmentación o la publicidad de impresión en el análisis de atribución. Es posible que, una y otra vez, los clientes potenciales estén expuestos a anuncios de retargeting, pero es poco probable que hagan clic en uno de estos anuncios y rellenen un formulario dentro de la misma sesión. Nuestra solución de Atribución de vistas ahora tiene la capacidad de rastrear si alguien estuvo expuesto o no a un anuncio de impresión. Este punto de contacto se adjuntará al registro individual y se aplicará hasta que el cliente potencial se convierta en cliente. Con esta información, el experto en marketing ahora obtendrá un mejor conocimiento del rendimiento de su publicidad de redireccionamiento.
 
 ## ¿Qué se necesita para configurar esto? {#what-is-involved-in-setting-this-up}
 
-Para que [!DNL Marketo Measure] para empezar a medir las impresiones de publicidad, existe una etiqueta de impresión que debe colocarse en el administrador de campañas de doble clic. Una vez implementada la etiqueta, las impresiones se almacenan en nuestros registros y nos encargamos del resto. Póngase en contacto con el administrador de éxito si está interesado en medir la vista mediante atribución.
+Para que [!DNL Marketo Measure] empiece a medir las impresiones de publicidad, existe una etiqueta de impresión que debe colocarse en el administrador de campañas de doble clic. Una vez implementada la etiqueta, las impresiones se almacenan en nuestros registros y nos encargamos del resto. Póngase en contacto con el administrador de éxito si está interesado en medir la vista mediante atribución.
 
 ## ¿Qué plataformas de publicidad son compatibles? {#which-ad-platforms-are-supported}
 
-Actualmente ofrecemos asistencia [!DNL Doubleclick] Administrador de campañas.
+Actualmente admitimos [!DNL Doubleclick] Campaign Manager.
 
 ## ¿Cómo se calcula la atribución? {#how-is-the-attribution-calculated}
 
@@ -114,8 +114,8 @@ Hemos realizado un análisis cuidadoso de los datos de impresión y su influenci
  </tbody> 
 </table>
 
-## ¿Cómo se verá esto en [!DNL Salesforce?] {#what-will-this-look-like-in-salesforce}
+## ¿Qué aspecto tendrá esto en [!DNL Salesforce?]? {#what-will-this-look-like-in-salesforce}
 
-[!DNL Marketo Measure] creará un único punto de contacto de impresión en cualquier posible cliente que se haya expuesto al anuncio en pantalla. Podemos asignar al usuario incluso después de que llegue a su sitio web (FT) y rellene un formulario (LC). El punto de contacto contendrá información de la publicidad, como el nombre o ID de la campaña de publicidad, el ID de publicidad, el contenido del anuncio, el nombre o ID del sitio, el nombre o ID de ubicación, el canal de marketing, la ubicación geográfica, la página de referente, etc.
+[!DNL Marketo Measure] creará un solo punto de contacto de impresión en cualquier posible cliente que se haya expuesto al anuncio en pantalla. Podemos asignar al usuario incluso después de que llegue a su sitio web (FT) y rellene un formulario (LC). El punto de contacto contendrá información de la publicidad, como el nombre o ID de la campaña de publicidad, el ID de publicidad, el contenido del anuncio, el nombre o ID del sitio, el nombre o ID de ubicación, el canal de marketing, la ubicación geográfica, la página de referente, etc.
 
 El modelo de atribución de visualizaciones dependerá del cliente y de sus datos.

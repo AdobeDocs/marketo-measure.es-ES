@@ -1,6 +1,6 @@
 ---
 unique-page-id: 27656737
-description: Informe de gasto en marketing - [!DNL Marketo Measure]
+description: Gasto en marketing de informe - [!DNL Marketo Measure]
 title: Informe de gastos de marketing
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
@@ -25,7 +25,7 @@ Cuando un usuario descarga el archivo de coste, el archivo también contiene una
 
 ## Costos de las integraciones de publicidad {#costs-from-ad-integrations}
 
-Cuándo [!DNL Marketo Measure] importa el coste desde plataformas conectadas como AdWords, Bing, Facebook o Doubleclick, también utilizamos la divisa registrada. La moneda se muestra junto al canal, subcanal y campaña cuando se muestra en la tabla Gasto en marketing.
+Cuando [!DNL Marketo Measure] importa el costo desde plataformas conectadas como AdWords, Bing, Facebook o Doubleclick, también se usa la moneda registrada. La moneda se muestra junto al canal, subcanal y campaña cuando se muestra en la tabla Gasto en marketing.
 
 Si la moneda del proveedor de publicidad no coincide con una moneda extraída de CRM, puede que vea el error &quot;Divisas mixtas&quot; en [!DNL Marketo Measure Discover]. Para solucionarlo, el administrador de CRM debe añadir una conversión para la moneda desconocida.
 
@@ -34,6 +34,6 @@ Si la moneda del proveedor de publicidad no coincide con una moneda extraída de
 Debido a que históricamente el gasto en marketing solo se ha realizado en una sola moneda (USD), se necesita una pequeña cantidad de trabajo para cambiar todos los gastos notificados a la nueva moneda. Incluso si su cuenta no tiene habilitada la opción Varias monedas, si tiene una sola moneda corporativa distinta del USD, deberá realizar esta migración.
 
 1. Descargar el archivo de gasto actual en un CSV
-1. La columna de moneda muestra &quot;[!UICONTROL USD]&quot; como la moneda supuesta. Puede reemplazar manualmente todas las apariciones de &quot;[!UICONTROL USD]&quot; o use Buscar+Reemplazar para cambiar todos los &quot;[!UICONTROL USD]&quot; instancias de a su propia moneda corporativa, como &quot;[!UICONTROL EUR]&quot; o &quot;[!UICONTROL GBP]&quot;.
+1. La columna de moneda muestra &quot;[!UICONTROL USD]&quot; como la moneda supuesta. Puede reemplazar manualmente todas las instancias de &quot;[!UICONTROL USD]&quot; o usar Buscar+Reemplazar para cambiar todas las instancias de &quot;[!UICONTROL USD]&quot; a su propia moneda corporativa, como &quot;[!UICONTROL EUR]&quot; o &quot;[!UICONTROL GBP]&quot;.
 1. Guarde el archivo y vuelva a cargarlo en [!DNL Marketo Measure].
 1. Todos los costes notificados se mostrarán ahora como la nueva moneda.

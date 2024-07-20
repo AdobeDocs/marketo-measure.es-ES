@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Información general {#overview}
 
-Hoy, la [!DNL Marketo Measure] La aplicación solo admite una moneda única (se supone que es USD), mientras que sabemos y somos conscientes de que tenemos clientes en todo el mundo que necesitan informar sobre sus propias monedas corporativas y de usuario. Esta función permite a los usuarios cambiar entre las mismas monedas utilizadas en su CRM cuando visualizan los gastos o ingresos de ventas registrados en [!DNL Marketo Measure].
+En la actualidad, la aplicación [!DNL Marketo Measure] solo admite una sola moneda (se supone que es USD), mientras que sabemos y somos conscientes de que tenemos clientes en todo el mundo que necesitan informar sobre sus propias monedas corporativas y de usuario. Esta característica permite a los usuarios cambiar entre las mismas monedas utilizadas en su CRM al ver los gastos o ingresos de ventas registrados en [!DNL Marketo Measure].
 
 ## Disponibilidad {#availability}
 
@@ -21,9 +21,9 @@ Nivel 2 y superior.
 
 ## Requisitos {#requirements}
 
-[!DNL Marketo Measure] extraerá automáticamente la configuración de moneda del CRM del cliente. Configuración manual en [!DNL Marketo Measure] ya no es necesario que coincida con el CRM. La configuración de moneda se puede encontrar en la página &quot;General&quot; en &quot;CRM&quot;.
+[!DNL Marketo Measure] extraerá automáticamente la configuración de moneda del CRM del cliente. Ya no se requiere la configuración manual en [!DNL Marketo Measure] para que coincida con CRM. La configuración de moneda se puede encontrar en la página &quot;General&quot; en &quot;CRM&quot;.
 
-Entrada [!DNL Salesforce]Sin embargo, el cliente debe tener activada la opción &quot;Activar varias monedas&quot;. De forma opcional, el cliente también puede seleccionar &quot;Sí, deseo activar la gestión avanzada de divisas&quot;.
+En [!DNL Salesforce], el cliente debe tener habilitada la opción &quot;Activar múltiples monedas&quot;. De forma opcional, el cliente también puede seleccionar &quot;Sí, deseo activar la gestión avanzada de divisas&quot;.
 
 En Dynamics, el cliente puede establecer tasas de cambio estáticas en su Configuración para varias monedas. No existe el concepto de &quot;administración avanzada de monedas&quot; en Dynamics.
 

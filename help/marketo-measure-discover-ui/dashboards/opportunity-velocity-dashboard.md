@@ -2,7 +2,8 @@
 description: Tablero de velocidad de oportunidad - [!DNL Marketo Measure] - Producto
 title: Panel de velocidad de oportunidad
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 4%
@@ -22,7 +23,7 @@ Preguntas que responde este panel:
 
 ### Mosaico de KPI {#kpi-tile}
 
-* **Velocidad de acuerdo cerrada**: Número promedio de días para oportunidades &quot;Cerradas ganadas&quot; desde la primera etapa hasta el cierre.
+* **Velocidad de cierre de operaciones**: Cantidad media de días para las oportunidades &quot;Cerradas ganadas&quot; desde el primer paso hasta el cierre.
 
 ### Velocidad de oportunidad por fase {#opportunity-velocity-by-stage}
 

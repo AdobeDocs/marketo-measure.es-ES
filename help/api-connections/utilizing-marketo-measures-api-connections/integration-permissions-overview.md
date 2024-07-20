@@ -2,7 +2,8 @@
 description: Información general sobre permisos de integración - [!DNL Marketo Measure]
 title: Información general sobre permisos de integración
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 2%
@@ -49,13 +50,13 @@ Esta guía describe los permisos necesarios para una integración perfecta con M
 Los puntos de contacto creados y otros datos se escriben en campos bidimensionales personalizados de Cuenta, Campaña, Miembro de campaña, Caso, Contacto, Posible cliente y Oportunidad.</td>
     <td><b>Permisos de usuario de Salesforce Connected (obligatorio)</b>
     <p>
-    <b>Conjunto De Permisos De Administrador De Marketo Measure Para Usuario Dedicado:</b> Permitir que el administrador de SFDC realice operaciones de CRUD en objetos de medida de marketing.
+    <b>Conjunto de permisos de administrador de Marketo Measure para usuario dedicado:</b> Permita que el administrador de SFDC realice operaciones de CRUD en objetos de medida de marketo.
     <br>
-    <b>Ver y editar conjunto de permisos de posibles clientes convertidos:</b> Esto permite a Marketo Measure decorar posibles clientes después de convertirlos en contactos.
+    <b>Ver y editar conjunto de permisos de posibles clientes convertido:</b> Esto permite a Marketo Measure decorar posibles clientes después de convertirlos en contactos.
     <br>
-    <b>Casilla de verificación de usuario de marketing de Salesforce:</b> La casilla de verificación Usuario de marketing permite a los usuarios crear campañas y utilizar los asistentes de importación de campañas.
+    <b>Casilla de verificación de usuario de marketing de Salesforce:</b> La casilla de verificación de usuario de marketing permite a los usuarios crear campañas y usar los asistentes de importación de campañas.
     <br>
-    <b>Usuario estándar de Marketo Measure:</b> Permite al usuario leer registros de objetos de Marketo Measure.
+    <b>Usuario estándar de Marketo Measure:</b> permite al usuario leer registros de objetos de Marketo Measure.
     <p>
     <b>Permisos de campo estándar de Salesforce</b>
     <br>
@@ -96,7 +97,7 @@ Los puntos de contacto creados y otros datos se escriben en campos bizbibles per
 <br>
 Se recomienda crear un usuario de Marketo Measure específico dentro de Dynamics para exportar e importar datos a través de a fin de evitar problemas con otros usuarios en su CRM. Tome nota del nombre de usuario y la contraseña, así como de la dirección URL del extremo, ya que este se utilizará al crear la cuenta de Marketo Measure.
 <p>
-<b>Funciones de seguridad</b>
+<b>Roles de seguridad</b>
 <br>
 Si su organización utiliza funciones de seguridad de Dynamics, asegúrese de que el usuario conectado o el usuario de Marketo Measure específico tenga suficientes permisos de lectura y escritura para las entidades requeridas.
 <br>
@@ -132,13 +133,13 @@ Marketo Measure realiza un seguimiento de cuentas, campañas, grupos de publicid
 <p>
 <b>Ámbitos</b>
 <br>
-<a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
+<a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">administración de anuncios</a>
 <br>
 <li>Cree campañas mediante programación, administre anuncios y recupere métricas.</li>
 <li>Cree herramientas de administración de anuncios que proporcionen soluciones innovadoras y un valor diferenciado para los anunciantes.</li>
 <br>
 <br>
-<a href="https://developers.facebook.com/docs/permissions/reference/email">email</a>
+<a href="https://developers.facebook.com/docs/permissions/reference/email">correo electrónico</a>
 <br>
 <li>Comunicarse con las personas y permitirles iniciar sesión en la aplicación con la dirección de correo electrónico asociada a su perfil de Facebook.</li></td>
   </tr>
@@ -156,11 +157,11 @@ Marketo Measure realiza un seguimiento de cuentas, campañas, grupos de publicid
     <p>
     <b>Ámbitos</b>
     <br>
-    <a href="https://www.linkedin.com/campaignmanager/accounts">Configurar la función del usuario en el portal (requiere el inicio de sesión en la cuenta de LinkedIn)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Resumen de funciones de usuario</a>: función de usuario, ver y administrar permisos de usuario, asignar funciones como administrador de cuentas o administrador de campañas
+    <a href="https://www.linkedin.com/campaignmanager/accounts">Configure la función de usuario en el portal (requiere inicio de sesión en la cuenta de LinkedIn)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Información general sobre la función de usuario</a>: La función de usuario, ver y administrar los permisos de usuario, asignar funciones como administrador de cuentas o administrador de campañas
     <p>
-    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Configurar el rol de administrador de página - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Definiciones de rol de administrador de página</a>: función de administrador de página, en la página de administración deseada
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Configurar el rol de administrador de página - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Definiciones de rol de administrador de página</a>: Rol de administrador de página, en la página de administración deseada
     <p>
-    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Configurar el rol de administrador de medios de pago (busque Administrador de medios de pago) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Definiciones de administración de medios de pago</a>: funciones de administrador de medios de pago</td>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Configurar el rol de administrador de medios de pago (busque Administrador de medios de pago) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Definiciones de administración de medios de pago</a>: Roles de administrador de medios de pago</td>
   </tr>
   <tr>
     <td>DoubleClick</td>
@@ -178,7 +179,7 @@ Marketo Measure realiza un seguimiento de cuentas, campañas, grupos de publicid
     <p>
      <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: vea y administre informes de DoubleClick for Advertisers
     <p>
-     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: vea y administre las campañas de anuncios en pantalla de DoubleClick Campaign Manager (DCM)</td>
+     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: vea y administre sus campañas de anuncios en pantalla de DoubleClick Campaign Manager (DCM)</td>
   </tr>
   <tr>
     <td>AdWords</td>
@@ -200,18 +201,18 @@ Marketo Measure realiza el seguimiento de campañas, grupos de publicidad, creat
     <td>Bing</td>
     <td>Datos de plataforma de publicidad</td>
     <td>Marketo Measure está realizando un seguimiento de cuentas, campañas, grupos de publicidad, creativos y palabras clave.</td>
-    <td><li>El usuario debe conceder "acceso sin conexión" a través de su cuenta de Microsoft (que concede a Marketo Measure acceso a la información del usuario final incluso cuando no ha iniciado sesión). Consulte <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Página de Microsoft</a> sobre cómo hacerlo.</li>
+    <td><li>El usuario debe conceder "acceso sin conexión" a través de su cuenta de Microsoft (que concede a Marketo Measure acceso a la información del usuario final incluso cuando no ha iniciado sesión). Consulte la <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">página de Microsoft</a> sobre cómo hacerlo.</li>
 <p>
     <b>Ámbitos</b>
     <br>
-    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: mantenga el acceso a los datos a los que le ha concedido acceso para obtener permiso.</td>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: mantenga el acceso a los datos a los que le ha dado acceso con permiso.</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>
     <td>Datos del sistema B2B</td>
-    <td>La integración de Marketo permite a Marketo Measure recopilar actividades de Marketo, personas, programas y suscripciones a programas. Además, Marketo Measure realiza un seguimiento de las cookies de Marketo (Munchkin ID) con el fin de vincular las actividades web de Marketo a los puntos de contacto principales de Marketo Measure, <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">como se describe aquí</a>:
+    <td>La integración de Marketo permite a Marketo Measure recopilar actividades de Marketo, personas, programas y suscripciones a programas. Además, Marketo Measure rastrea las cookies de Marketo (Munchkin ID) con el fin de vincular las actividades web de Marketo a los puntos de contacto principales de Marketo Measure, <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">tal como se describe aquí</a>:
     <p>
-    <i>Como resultado de la integración de Marketo Measure con Marketo, el ID de cookie de Marketo Measure ahora también se asigna y sincroniza con el ID de Munchkin de Marketo. Esto ayuda a cerrar la brecha para atribuir el primer contacto anónimo a una sesión web en lugar de atribuir los toques FTP y LC a una actividad de Marketo.</i>
+    <i>Como resultado de la integración de Marketo Measure con Marketo, el ID de cookie de Marketo Measure ahora también se asigna y sincroniza con el ID de Munchkin de Marketo. Esto ayuda a cerrar el espacio para atribuir el primer contacto anónimo a una sesión web en lugar de atribuir los toques de FTP y LC a una actividad de Marketo.</i>
     </td>
     <td>El cliente debe crear un usuario de API de Marketo Engage específico y proporcionar las credenciales a Marketo Measure. No se requiere ninguna configuración de permisos adicional. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md#configuring-the-integration">Más información</a>.</td>
   </tr>
@@ -239,4 +240,4 @@ Marketo Measure realiza el seguimiento de campañas, grupos de publicidad, creat
 
 >[!MORELIKETHIS]
 >
->[Notificaciones de error](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[Notificaciones de errores](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

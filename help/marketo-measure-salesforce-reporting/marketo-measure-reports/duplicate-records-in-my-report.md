@@ -15,15 +15,15 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero aún así ve &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-A medida que se sumerge en el [!DNL Marketo Measure] Informes en [!DNL Salesforce], es posible que empiece a buscar registros &quot;duplicados&quot; en los informes. Es probable que experimentes esta sensación cuando revises [!DNL Marketo Measure] informes listos para usar.
+A medida que se sumerge en los informes de [!DNL Marketo Measure] en [!DNL Salesforce], es posible que empiece a encontrar registros &quot;duplicados&quot; en sus informes. Es probable que experimente esta sensación cuando revise [!DNL Marketo Measure] informes predeterminados.
 
-Al realizar informes con los puntos de contacto de comprador o con el objeto de punto de contacto de atribución de comprador, es importante comprender que ya no realiza informes sobre el recuento de posibles clientes, contactos u oportunidades, sino sobre el número de puntos de contacto de comprador o puntos de contacto de atribución de comprador asociados a dichos objetos estándar (posibles clientes, contactos, oportunidades).
+Al realizar informes con los puntos de contacto del comprador o con el objeto Buyer Attribution Touchpoint, es importante entender que ya no realiza informes sobre el número de posibles clientes, contactos u oportunidades, sino sobre el número de puntos de contacto del comprador o de puntos de contacto de atribución del comprador asociados a dichos objetos estándar (posibles clientes, contactos, oportunidades).
 
 Veamos el siguiente informe como ejemplo:
 
-Este es un **Contactos con puntos de contacto del comprador** informe. De nuevo, esto significa que estamos viendo el recuento de puntos de contacto asociados a un contacto individual.
+Este es un informe de **Contactos con puntos de contacto del comprador**. De nuevo, esto significa que estamos viendo el recuento de puntos de contacto asociados a un contacto individual.
 
 ![](assets/1.gif)
 
@@ -35,4 +35,4 @@ Si desea comprender el &quot;recuento de contactos&quot;, puede utilizar los cam
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Informes de SFDC de Stock](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Informes de SFDC de existencias](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

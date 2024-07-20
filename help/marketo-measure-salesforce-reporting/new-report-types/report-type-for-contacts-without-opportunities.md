@@ -15,19 +15,19 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero sigue viendo &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
+>Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero aún así ve &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Para informar sobre contactos con puntos de contacto del comprador que no están asociados a una oportunidad, debe crear un tipo de informe personalizado.
 
-1. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Crear]** > **[!UICONTROL Tipos de informes]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Crear]** > **[!UICONTROL Tipos de informes]**.
 
    ![](assets/1.jpg)
 
-1. Seleccionar **[!UICONTROL Nuevo tipo de informe personalizado]**.
+1. Seleccione **[!UICONTROL Nuevo tipo de informe personalizado]**.
 
    ![](assets/2.jpg)
 
-1. Configure las variables [!UICONTROL Objeto principal] as &quot;[!UICONTROL Contactos].&quot; Asigne un nombre a la etiqueta de tipo de informe como &quot;Contactos con puntos de contacto del comprador&quot;. Utilice el mismo nombre para el Nombre del tipo de informe. Dentro de la entrada de descripción, &quot;Contactos con puntos de contacto del comprador&quot;. Guarde el informe en &quot;[!UICONTROL Otros]&quot; y establezca el informe en &quot;[!UICONTROL Implementado].&quot;
+1. Establece el [!UICONTROL objeto principal] como &quot;[!UICONTROL Contactos]&quot;. Asigne un nombre a la etiqueta de tipo de informe como &quot;Contactos con puntos de contacto del comprador&quot;. Utilice el mismo nombre para el Nombre del tipo de informe. Dentro de la entrada de descripción, &quot;Contactos con puntos de contacto del comprador&quot;. Guarde el informe dentro de &quot;[!UICONTROL Otro]&quot; y establezca el informe en &quot;[!UICONTROL Implementado]&quot;.
 
    ![](assets/3.jpg)
 
@@ -35,4 +35,4 @@ Para informar sobre contactos con puntos de contacto del comprador que no están
 
    ![](assets/4.jpg)
 
-1. Clic **[!UICONTROL Guardar]** ¡y has terminado!
+1. Haga clic en **[!UICONTROL Guardar]** y listo.

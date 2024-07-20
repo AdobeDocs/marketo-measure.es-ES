@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Costes de canales de marketing {#marketing-channel-costs}
 
-Uno de los beneficios más fundamentales de utilizar [!DNL Marketo Measure] es la capacidad de conectar los esfuerzos de marketing directamente con el impacto en los ingresos, con tanta granularidad como se desee. Es posible ver el retorno de la inversión en el nivel de punto de contacto. Para aprovechar esta ventaja, los costes de canal deben cargarse en [!DNL Marketo Measure] aplicación. Los informes de ROI se crean automáticamente y están disponibles en **Tablero de ROI de marketing** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Una de las ventajas más importantes de usar [!DNL Marketo Measure] es la capacidad de conectar los esfuerzos de marketing directamente con el impacto en los ingresos, con la granularidad que se desee. Es posible ver el retorno de la inversión en el nivel de punto de contacto. Para aprovechar este beneficio, los costos de canal deben cargarse en la aplicación [!DNL Marketo Measure]. Los informes de retorno de la inversión se crean automáticamente y están disponibles en **Panel de retorno de la inversión de marketing** en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Haga clic aquí para ir directamente a las instrucciones.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
-El [!DNL Marketo Measure] La función Gasto en marketing permite a los clientes cargar su gasto en todos los canales, subcanales y campañas. Cuantos más datos agreguen los clientes, más informes de ROI aparecerán en el Tablero de atribución de ingresos.
+La función [!DNL Marketo Measure] de gasto en marketing permite a los clientes cargar su gasto en todos los canales, subcanales y campañas. Cuantos más datos agreguen los clientes, más informes de ROI aparecerán en el Tablero de atribución de ingresos.
 
 Los costes que se registran e importan desde conexiones de publicidad directa se recuperan automáticamente en el nivel más granular y no es necesario cargarlos. Esto incluye nuestras integraciones actuales con Google AdWords, Bing Ads, DoubleClick y Facebook.
 
@@ -27,7 +27,7 @@ Los costes que se registran e importan desde conexiones de publicidad directa se
 
 **Gasto por campaña**
 
-En el nivel más granular, los clientes pueden introducir el gasto por campañas individuales, agrupadas dentro de su canal respectivo. Para campañas CRM, [!DNL Marketo Measure] ha extraído el ID de campaña en una columna independiente que le ayuda a asignar el gasto de campaña sin conexión desde su CRM a esta tabla. Añadir el gasto en este nivel permite a los clientes ver el ROI de la campaña y optimizar el rendimiento por campaña.
+En el nivel más granular, los clientes pueden introducir el gasto por campañas individuales, agrupadas dentro de su canal respectivo. Para campañas CRM, [!DNL Marketo Measure] ha extraído el ID de campaña en una columna independiente que le ayuda a asignar el gasto de campaña sin conexión de su CRM a esta tabla. Añadir el gasto en este nivel permite a los clientes ver el ROI de la campaña y optimizar el rendimiento por campaña.
 
 El total de todas las campañas no necesita sumar valores introducidos en el subcanal o canal, pero no puede ser más que cualquier valor introducido en el subcanal o canal. Si la suma es menor que el valor introducido en el subcanal o canal, [!DNL Marketo Measure] agregará automáticamente una fila para &quot;Otro&quot; para cubrir la diferencia y rellenar los huecos.
 
@@ -43,9 +43,9 @@ En el nivel más alto, los clientes pueden introducir los gastos por canal. Aña
 
 **Selector de fecha**
 
-El intervalo de fechas predeterminado comienza desde la fecha de inicio con [!DNL Marketo Measure] hasta el mes en curso. Para asegurarse de que los costes siguen siendo correctos, no puede introducir costes para meses futuros, pero puede introducir costes para meses anteriores a su asociación con [!DNL Marketo Measure].
+El intervalo de fechas predeterminado comenzará desde la fecha de inicio con [!DNL Marketo Measure] hasta el mes actual. Para asegurarse de que los costos siguen siendo correctos, no puede especificar los costos de los meses futuros, pero puede especificar los costos de los meses anteriores a su asociación con [!DNL Marketo Measure].
 
-**Filtrar**
+**Filtro**
 
 Para reducir los resultados en la tabla Gasto en marketing, seleccione un canal en la parte superior para filtrar otros canales. Esto resulta útil cuando tiene un equipo centrado en un canal singular.
 
@@ -67,15 +67,15 @@ El error más común es el formato de las columnas de fecha, que ocurre si se ca
 
 [!DNL Marketo Measure] viene con 13 canales predeterminados que se pueden usar o expandir. Además, se pueden crear hasta 40 canales en línea y sin conexión para adaptarse a su estructura de marketing única. Partiendo de esto, se pueden crear un total de 200 subcanales para admitir también estos canales en línea y sin conexión.
 
-[!DNL Marketo Measure] descargará automáticamente los costes de canal de marketing desde plataformas con las que tenga una integración de API, como Bing Ads y Google AdWords. Costes de las plataformas que no están integradas con [!DNL Marketo Measure] debe cargarse manualmente. Los canales de marketing deben configurarse antes de cargar los datos de costes.
+[!DNL Marketo Measure] descargará automáticamente los costos de canal de mercadotecnia de las plataformas con las que tenga una integración de API, como Bing Ads y Google AdWords. Los costos de las plataformas que no están integradas con [!DNL Marketo Measure] deben cargarse manualmente. Los canales de marketing deben configurarse antes de cargar los datos de costes.
 
 ## Carga de costes de marketing {#uploading-marketing-costs}
 
 Una vez configurados o actualizados los canales y las reglas de marketing, pueden cargarse los costes asociados. Para ello, siga los pasos a continuación:
 
-**Paso 1: Vaya a la página Gasto en marketing en [!DNL Marketo Measure] Aplicación.**
+**Paso 1: Vaya a la página Gasto en mercadotecnia en la aplicación [!DNL Marketo Measure].**
 
-Vaya a la **[!UICONTROL Mi cuenta]** , haga clic en **[!UICONTROL Configuración]** y, a continuación, vaya al **[!UICONTROL Gasto en marketing]** en la barra lateral izquierda debajo de la opción **[!UICONTROL Informes]** sección.
+Vaya al menú **[!UICONTROL Mi cuenta]**, haga clic en **[!UICONTROL Configuración]** y luego vaya a la opción **[!UICONTROL Gasto en marketing]** en la barra lateral izquierda debajo de la sección **[!UICONTROL Informes]**.
 
 ![](assets/1.png)
 
@@ -87,7 +87,7 @@ Vaya a la derecha de la pantalla y haga clic en **[!UICONTROL Descargar costos a
 
 **Paso 3: Abrir el archivo CSV y realizar cambios**
 
-Puede importar el archivo y abrirlo utilizando Google Sheets, Apple Numbers, Microsoft Excel o el software que prefiera. [!DNL Marketo Measure] recomienda utilizar hojas de Google.
+Puede importar el archivo y abrirlo utilizando Google Sheets, Apple Numbers, Microsoft Excel o el software que prefiera. [!DNL Marketo Measure] recomienda usar hojas de Google.
 
 Después de importar la hoja, realice los cambios que desee, como agregar costos a los canales y subcanales o actualizar la información existente.
 
@@ -103,21 +103,21 @@ No modifique las fechas de la hoja de cálculo, ya que esto puede causar problem
 
 No deje ningún campo en blanco. Incluso si no hay ningún valor en dólares que agregar, escriba 0 $ como la cantidad en dólares.
 
-No es necesario introducir ni actualizar los costes de Bing Ads y Google AdWords porque [!DNL Marketo Measure] extrae automáticamente estos datos de su conexión API con estas plataformas.
+No es necesario introducir ni actualizar los costes de Bing Ads y Google AdWords, ya que [!DNL Marketo Measure] extrae automáticamente estos datos de su conexión API con estas plataformas.
 
-**Paso 4: Guardar archivo en formato CSV**
+**Paso 4: guardar archivo en formato CSV**
 
-Si está trabajando en Hojas de cálculo de Google, asegúrese de descargar primero el archivo. No excluya ni elimine datos mensuales, ya que esto causa dificultades al intentar cargar el archivo CSV en [!DNL Marketo Measure] más tarde.
+Si está trabajando en Hojas de cálculo de Google, asegúrese de descargar primero el archivo. No excluya ni elimine ningún dato mensual, ya que esto causa dificultades al intentar cargar el archivo CSV a [!DNL Marketo Measure] más adelante.
 
 **Paso 5: cargar el archivo CSV**
 
-Vaya a la **[!UICONTROL Coste]** de la sección [!DNL Marketo Measure] aplicación y clic **[!UICONTROL Upload.CSV]**. El sistema se actualizará y reflejará la nueva información.
+Vaya a la sección **[!UICONTROL Cost]** de la aplicación [!DNL Marketo Measure] y haga clic en **[!UICONTROL Upload.CSV]**. El sistema se actualizará y reflejará la nueva información.
 
 ## Preguntas frecuentes {#faq}
 
-**¿Por qué los números aparecen en el CSV?**
+**Por qué los números aparecen en el archivo CSV**
 
-Si no se introduce ningún valor en un nivel superior como Canal o Subcanal, [!DNL Marketo Measure] Sumará automáticamente los niveles secundarios que se le presentarán una vez que se haya cargado el archivo. Además, si la suma de los hijos es menor que un valor introducido para el padre, [!DNL Marketo Measure] agrega una fila &quot;Otro&quot; para mostrar la diferencia en el total.
+Si no se introduce ningún valor en un nivel superior como Canal o Subcanal, [!DNL Marketo Measure] sumará automáticamente los niveles secundarios, que se presentarán una vez que se cargue el archivo. Además, si la suma de los elementos secundarios es menor que el valor introducido para el elemento principal, [!DNL Marketo Measure] agrega una fila &quot;Otro&quot; para mostrar la diferencia en el total.
 
 **¿Cómo se determinan las campañas en la lista que estoy viendo?**
 
@@ -129,4 +129,4 @@ Con la capacidad de cambiar el intervalo de fechas, filtrar el canal o buscar va
 
 **¿Por qué no puedo cargar un archivo?**
 
-Tenemos diferentes conjuntos de permisos dentro de [!DNL Marketo Measure] Aplicación. Para cargar un archivo, debe ser un &quot;Administrador de cuentas&quot;. Para evitarlo, solicite acceso a su administrador de cuentas o haga que el administrador de cuentas cargue el archivo en su nombre. Puede encontrar una lista de usuarios y sus funciones en **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ver/Agregar usuarios de cuenta]**.
+Tenemos diferentes conjuntos de permisos dentro de la aplicación [!DNL Marketo Measure]. Para cargar un archivo, debe ser un &quot;Administrador de cuentas&quot;. Para evitarlo, solicite acceso a su administrador de cuentas o haga que el administrador de cuentas cargue el archivo en su nombre. Encontrará una lista de usuarios y sus funciones en **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ver o agregar usuarios de la cuenta]**.

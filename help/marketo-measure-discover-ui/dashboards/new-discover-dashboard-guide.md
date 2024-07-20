@@ -1,5 +1,5 @@
 ---
-description: 'Nueva guía del panel de Discover: [!DNL Marketo Measure] - Producto'
+description: Nueva guía de paneles de Discover - [!DNL Marketo Measure]  - Producto
 title: Nueva guía del panel Discover
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
@@ -28,8 +28,8 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
       <td>Información general</td>
       <td><ul><li><strong>Ingresos</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
           <li><strong>Información general</strong>:<ul>              <li>Tablero de ingresos atribuidos: Gráfico de ingresos atribuidos por canal a lo largo del tiempo</li>
-            <li>Tablero de ROI: gráfico de coste con el tiempo</li></ul></li><li><strong>Gasto</strong>: Tablero de ROI</li>
-          <li><strong>Acuerdos</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
+            <li>Tablero de ROI: gráfico de coste con el tiempo</li></ul></li><li><strong>Gasto</strong>: panel de ROI</li>
+          <li><strong>Ofertas</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
           <li>
             <strong>Coste por acuerdo: </strong>Tablero de ROI</li>
           <li>
@@ -37,46 +37,46 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>Resumen de ROI y ROI:</strong>Tablero de ROI</li>
           <li>
-            <strong>Ingresos de canalización:</strong>Obsoleto (consulte más abajo)</li>
+            <strong>Ingresos de canalización:</strong>Obsoleto (ver más abajo)</li>
           <li>
-            <strong>Tamaño medio de la oferta: </strong>Obsoleto (consulte más abajo)</li></ul>
+            <strong>Tamaño medio de la oferta: </strong>Obsoleto (ver más abajo)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Crecimiento</td>
       <td><ul>
           <li>
-            <strong>Ingresos e ingresos con el tiempo</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
+            <strong>Ingresos e ingresos a lo largo del tiempo</strong>: Ingresos atribuidos, Información general de ingresos, paneles de ROI</li>
           <li>
-            <strong>Acuerdos</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
+            <strong>Ofertas</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
           <li>
             <strong>Posibles clientes</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
           <li>
             <strong>Oportunidades</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
           <li>
-            <strong>Visitas y visitas a lo largo del tiempo</strong>: Tablero de tráfico web</li>
+            <strong>Visitas Y Visitas A Lo Largo Del Tiempo</strong>: Tablero De Tráfico Web</li>
           <li>
-            <strong>Visitas únicas y visitas únicas a lo largo del tiempo</strong>: Tablero de tráfico web</li>
+            <strong>Visitas Únicas Y Visitas Únicas A Lo Largo Del Tiempo</strong>: Tablero De Tráfico Web</li>
           <li>
-            <strong>Forms del sitio y Forms del sitio con el tiempo</strong>: Tablero de tráfico web</li>
+            <strong>Forms Del Sitio Y Forms Del Sitio Con El Tiempo</strong>: Tablero De Tráfico Web</li>
           <li>
-            <strong>Acuerdos a lo largo del tiempo</strong>
-            <strong>: </strong>Obsoleto (consulte más abajo)</li>
+            <strong>Ofertas con el tiempo</strong>
+            <strong>: </strong>obsoleto (ver a continuación)</li>
           <li>
             <strong>Ingresos de canalización</strong>
-            <strong>: </strong>Obsoleto (consulte más abajo)</li>
+            <strong>: </strong>obsoleto (ver a continuación)</li>
           <li>
-            <strong>Ingresos de canalización con el tiempo</strong>
-            <strong>: </strong>Obsoleto (consulte más abajo)</li>
+            <strong>Ingresos de canalización a lo largo del tiempo</strong>
+            <strong>: </strong>obsoleto (ver a continuación)</li>
           <li>
-            <strong>Posibles clientes con el tiempo</strong>
-            <strong>: </strong>Obsoleto (consulte más abajo)</li>
+            <strong>Posibles clientes a lo largo del tiempo</strong>
+            <strong>: </strong>obsoleto (ver a continuación)</li>
           <li>
             <strong>Contactos y contactos a lo largo del tiempo</strong>
-            <strong>: </strong>Obsoleto (consulte más abajo)</li>
+            <strong>: </strong>obsoleto (ver a continuación)</li>
           <li>
-            <strong>Oportunidades con el tiempo</strong>
-            <strong>: </strong>Obsoleto (consulte más abajo)</li>
+            <strong>Oportunidades a lo largo del tiempo</strong>
+            <strong>: </strong>obsoleto (ver a continuación)</li>
         </ul>
       </td>
     </tr>
@@ -87,7 +87,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>Resumen de ROI de canal/subcanal/campaña:</strong> Tablero de ROI</li>
           <li>
-            <strong>Resumen de ROI creativo y palabras clave:</strong>Obsoleto (consulte más abajo)</li>
+            <strong>Resumen de retorno de la inversión de palabras clave y creativo:</strong>Obsoleto (ver a continuación)</li>
         </ul>
       </td>
     </tr>
@@ -98,25 +98,25 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>Ingresos</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
           <li>
-            <strong>Posibles clientes coincidentes</strong>: Tablero de ROI</li>
+            <strong>Clientes potenciales coincidentes</strong>: Tablero de ROI</li>
           <li>
-            <strong>Recuento de Touchpoint:</strong>Tablero de ROI</li>
+            <strong>Recuento de puntos de contacto:</strong>Tablero de ROI</li>
           <li>
-            <strong>Cuentas implicadas:</strong>Tablero de participación</li>
+            <strong>Cuentas Involucradas:</strong>Tablero De Participación</li>
           <li>
             <strong>Oportunidades involucradas</strong>
             <strong>:</strong>Tablero de participación</li>
           <li>
-            <strong>Personas comprometidas</strong>
+            <strong>Particulares comprometidos</strong>
             <strong>:</strong>Tablero de participación</li>
           <li>
             <strong>Cantidad promedio de toques por cuenta: </strong>Tablero de participación</li>
           <li>
             <strong>Puntos de contacto con el tiempo:</strong>Tablero de participación</li>
           <li>
-            <strong>Cuentas por recuento de Touchpoint: </strong>Tablero de participación</li>
+            <strong>Cuentas por recuento de puntos de contacto: </strong>Tablero de participación</li>
           <li>
-            <strong>Ingresos de canalización:</strong>Obsoleto (consulte más abajo)</li>
+            <strong>Ingresos de canalización:</strong>Obsoleto (ver más abajo)</li>
         </ul>
       </td>
     </tr>
@@ -127,11 +127,11 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>Ingresos</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
           <li>
-            <strong>Gasto</strong>: Tablero de ROI</li>
+            <strong>Gasto</strong>: panel de ROI</li>
           <li>
             <strong>ROI: </strong>Tablero de ROI</li>
           <li>
-            <strong>Gasto por canal/subcanal/campaña: </strong>Tablero de ROI</li>
+            <strong>Gasto por canal/subcanal/campaña: </strong>Tablero de retorno de la inversión</li>
         </ul>
       </td>
     </tr>
@@ -150,20 +150,20 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>Información general:</strong>Tablero de tráfico web</li>
           <li>
-            <strong>Resumen de tráfico web:</strong>Tablero de tráfico web</li>
+            <strong>Resumen de tráfico web:</strong>Panel de tráfico web</li>
           <li>
             <strong>Resumen de referente:</strong>Tablero de tráfico web</li>
           <li>
-            <strong>Visitas únicas por origen:</strong>Tablero de tráfico web</li>
+            <strong>Visitas únicas de Source:</strong>Tablero de tráfico web</li>
           <li>
-            <strong>Visitas por origen:</strong>Tablero de tráfico web</li>
+            <strong>Visitas de Source:</strong>Tablero de tráfico web</li>
           <li>
-            <strong>Posibles clientes por dirección URL del formulario:</strong>Tablero de tráfico web</li>
+            <strong>Posibles clientes por dirección URL de formulario:</strong>Tablero de tráfico web</li>
           <li>
-            <strong>Coste por visita única</strong>
+            <strong>Costo por visita única</strong>
           </li>
           <li>
-            <strong>Coste por visita</strong>
+            <strong>Costo por visita</strong>
           </li>
           <li>
             <strong>Ingresos por visita única</strong>
@@ -190,23 +190,23 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
             </ul>
           </li>
           <li>
-            <strong>Gasto</strong>: Tablero de ROI</li>
+            <strong>Gasto</strong>: panel de ROI</li>
           <li>
-            <strong>Acuerdos</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
+            <strong>Ofertas</strong>: Ingresos atribuidos, Información general de ingresos, Paneles de ROI</li>
           <li>
             <strong>Coste por acuerdo: </strong>Tablero de ROI</li>
           <li>
             <strong>Resumen de canal/subcanal/campaña:</strong>Tablero de ROI</li>
           <li>
-            <strong>Ingresos de canalización:</strong>Obsoleto (consulte más abajo)</li>
+            <strong>Ingresos de canalización:</strong>Obsoleto (ver más abajo)</li>
           <li>
-            <strong>Tamaño medio de la oferta: </strong>Obsoleto (consulte más abajo)</li>
+            <strong>Tamaño medio de la oferta: </strong>Obsoleto (ver más abajo)</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Medios pagados</td>
-      <td>Los usuarios pueden aplicar filtros para los canales de medios de pago en la <strong>Tablero de tráfico web</strong>.</td>
+      <td>Los usuarios pueden aplicar filtros para los canales de medios de pago en <strong>Panel de tráfico web</strong>.</td>
     </tr>
     <tr>
       <td>Marketing de contenido</td>
@@ -238,17 +238,17 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
             <strong>Resumen de tráfico web:</strong>
             <strong></strong>Tablero de tráfico web</li>
           <li>
-            <strong>URL de formularios por canal</strong>
+            <strong>URL de formulario por canal</strong>
             <strong>:</strong>
             <strong></strong>Tablero de tráfico web (filtre el mosaico Forms del sitio por canal)</li>
           <li>
-            <strong>Páginas de destino por ingresos: </strong>Obsoleto (consulte más abajo)</li>
+            <strong>Páginas de destino por ingresos: </strong>Obsoleto (ver más abajo)</li>
           <li>
-            <strong>Ingresos de canalización: </strong>Obsoleto (consulte más abajo)</li>
+            <strong>Ingresos de canalización: </strong>Obsoleto (ver más abajo)</li>
           <li>
-            <strong>Páginas de destino por ingresos de canalización:</strong>Obsoleto (consulte más abajo)</li>
+            <strong>Páginas de aterrizaje por ingresos de canalización:</strong>Obsoleto (ver más abajo)</li>
           <li>
-            <strong>Páginas de destino por recuento de oportunidades:</strong>Obsoleto (consulte más abajo)</li>
+            <strong>Páginas de aterrizaje por recuento de oportunidades:</strong>Obsoleto (ver más abajo)</li>
           <li>
             <strong>Resumen de canalización de posibles clientes: </strong>En revisión</li>
           <li>
@@ -267,7 +267,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
       <td>
         <ul>
           <li>
-            <strong>Velocidad (días):</strong> Tablero de velocidad</li>
+            <strong>Velocidad (Días):</strong> Tablero De Velocidad</li>
           <li>
             <strong>Velocidad de acuerdo por canal: </strong>Tablero de velocidad</li>
           <li>
@@ -279,24 +279,24 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>Velocidad de oportunidad con el tiempo: </strong>Tablero de velocidad</li>
           <li>
-            <strong>Velocidad de plomo con el tiempo: </strong>Tablero de velocidad</li>
+            <strong>Velocidad De Plomo Con El Tiempo: </strong>Tablero De Velocidad</li>
           <li>
-            <strong>BT/BAT con el tiempo:</strong>Tablero de participación</li>
+            BT BAT <strong>/Con El Tiempo:</strong>Tablero De Participación</li>
           <li>
-            <strong>Abrir oportunidades:</strong>
-            <strong> </strong>Obsoleto (consulte más abajo)</li>
+            <strong>Oportunidades abiertas:</strong>
+            <strong> </strong>obsoleto (ver a continuación)</li>
           <li>
-            <strong>Tamaño medio de la oferta:</strong>
-            <strong></strong>Obsoleto (consulte más abajo)</li>
+            <strong>Tamaño promedio de la oferta:</strong>
+            <strong></strong>Obsoleto (ver más abajo)</li>
           <li>
-            <strong>Tasa de victorias:</strong>
-            <strong> </strong>Obsoleto (consulte más abajo)</li>
+            <strong>Velocidad de victorias:</strong>
+            <strong> </strong>obsoleto (ver a continuación)</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Instantánea</td>
-      <td>Los usuarios pueden obtener una instantánea de los registros filtrando por una fecha específica en la <strong>Panel de Passport.</strong>
+      <td>Los usuarios pueden obtener una instantánea de los registros filtrando una fecha específica en el <strong>Panel de Passport.</strong>
       </td>
     </tr>
     <tr>
@@ -304,7 +304,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
       <td>
         <ul>
           <li>
-            <strong>Oportunidades y posibles clientes/contactos: </strong>Panel de Passport</li>
+            <strong>Oportunidades, posibles clientes o contactos: </strong>Panel de Passport</li>
         </ul>
       </td>
     </tr>
@@ -321,7 +321,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>Canal de cohorte:</strong>Tablero de Recorrido de cohorte</li>
           <li>
-            <strong>Impacto de cohorte e ingresos:</strong>Obsoleto (consulte más abajo)</li>
+            <strong>Impacto de cohorte e ingresos:</strong>Obsoleto (ver más abajo)</li>
         </ul>
       </td>
     </tr>
@@ -360,21 +360,21 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Ingresos de canalización con el tiempo</strong>
+          <strong>Ingresos de canalización a lo largo del tiempo</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Páginas de aterrizaje por PipelineRevenue</strong>
+          <strong>Páginas de destino por PipelineRevenue</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Tamaño medio de la oferta</strong>
+          <strong>Tamaño promedio de la oferta</strong>
         </p>
       </td>
       <td rowspan="3">Hemos optado por no duplicar estos puntos de datos CRM en nuestros paneles para resaltar las perspectivas de atribución.</td>
@@ -399,7 +399,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Acuerdos a lo largo del tiempo</strong>
+          <strong>Ofertas con el tiempo</strong>
         </p>
       </td>
       <td rowspan="4">Estas métricas ya se proporcionan en los mosaicos de KPI. Hemos excluido su vista de series temporales de nuestro panel para evitar redundancias y mantener la claridad.
@@ -407,23 +407,23 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     </tr>
     <tr>
       <td>
-        <strong>Contactos con el tiempo</strong>
+        <strong>Contactos con el paso del tiempo</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Oportunidades con el tiempo</strong>
+        <strong>Oportunidades a lo largo del tiempo</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Posibles clientes con el tiempo</strong>
+        <strong>Posibles clientes a lo largo del tiempo</strong>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Resumen de ROI creativo y palabras clave</strong>
+          <strong>Resumen de retorno de la inversión de palabras clave y creativo</strong>
         </p>
       </td>
       <td>
@@ -434,7 +434,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     <tr>
       <td>
         <p>
-          <strong>Coste por visita única</strong>
+          <strong>Costo por visita única</strong>
         </p>
       </td>
       <td rowspan="7">
@@ -479,7 +479,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
     </tr>
     <tr>
       <td>
-        <strong>Impacto de cohorte e ingresos</strong>
+        <strong>Impacto e ingresos de cohorte</strong>
       </td>
       <td>Obsoleto debido a su potencial para confundir a los usuarios. Nuestro objetivo es la claridad y el valor inmediato de los datos.</td>
     </tr>
@@ -488,15 +488,15 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
 
 ## Funciones que hemos eliminado gradualmente {#features-weve-phased-out}
 
-**Filtrar actualizaciones**: Para optimizar su experiencia, hemos ajustado nuestras selecciones de filtros de la siguiente manera.
+**Actualizaciones de filtros**: para optimizar tu experiencia, hemos ajustado nuestras selecciones de filtros como se muestra a continuación.
 
-* **Tipo de fecha, métrica, Dimension, agrupar por**: Esta configuración ahora está predefinida para cada panel con el fin de optimizar la entrega de perspectivas. Se puede acceder a los detalles específicos mediante la información sobre herramientas y la documentación adjunta.
-* **Origen de campaña**
-* **ID y nombre de la cuenta**: En revisión.
+* **Tipo de fecha, métrica, Dimension, agrupar por**: esta configuración ahora está predefinida para cada tablero a fin de optimizar la entrega de perspectivas. Se puede acceder a los detalles específicos mediante la información sobre herramientas y la documentación adjunta.
+* **Source de campaña**
+* **Nombre e ID de cuenta**: En revisión.
 
 ## Nuevas adiciones y mejoras {#new-additions-and-improvements}
 
-Las nuevas funciones se encuentran en [Descubra los conceptos básicos del panel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} artículo.
+Encontrará nuevas características en el artículo [Descubrir conceptos básicos del panel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}.
 
 ## Comentarios {#feedback}
 

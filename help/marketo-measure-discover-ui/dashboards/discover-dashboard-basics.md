@@ -1,5 +1,5 @@
 ---
-description: 'Descubra los conceptos básicos del tablero: [!DNL Marketo Measure] - Producto'
+description: Descubrimiento de conceptos básicos del tablero - [!DNL Marketo Measure]  - Producto
 title: Descubra los conceptos básicos del panel
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
