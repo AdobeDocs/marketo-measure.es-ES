@@ -4,10 +4,10 @@ description: "[!DNL Microsoft Dynamics] Guía de instalación de CRM: Marketo Me
 title: "[!DNL Microsoft Dynamics] Guía de instalación de CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '970'
+ht-degree: 98%
 
 ---
 
@@ -56,6 +56,8 @@ Si su organización utiliza funciones de seguridad de Dynamics, asegúrese de qu
 Las funciones de seguridad se encuentran aquí: **[!UICONTROL Configuración]** > **[!UICONTROL Seguridad]** > **[!UICONTROL Funciones de seguridad]**.
 
 Para entidades personalizadas de [!DNL Marketo Measure], necesitamos permisos completos en todas nuestras entidades.
+
+También se requieren permisos de &quot;creación&quot; de Campaign, además de los permisos de lectura y escritura para entidades estándar.
 
 >[!NOTE]
 >
