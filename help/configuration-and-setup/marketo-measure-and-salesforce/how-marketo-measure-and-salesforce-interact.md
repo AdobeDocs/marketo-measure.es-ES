@@ -5,9 +5,9 @@ title: Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Al modificar esta configuración, tenga en cuenta que los tamaños de lote más 
 
 **Ver y editar conjunto de permisos de posibles clientes convertidos**: esto permite a Marketo Measure decorar posibles clientes después de convertirlos en contactos.
 
-**Casilla de verificación de usuario de marketing de Salesforce**: permite a los usuarios crear campañas y utilizar los asistentes para importación de campañas.
+**Casilla de verificación Usuario de marketing de Salesforce** permite al usuario crear campañas y utilizar el asistente para importación de campañas.
 * Se requieren permisos adicionales para la creación de campañas.
 
 **Usuario estándar de Marketo Measure**: otorga a un usuario la capacidad de leer registros de objetos de Marketo Measure.
