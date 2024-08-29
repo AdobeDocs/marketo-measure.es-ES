@@ -3,7 +3,7 @@ description: Notas de la versión actual de  [!DNL Marketo Measure]
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9d1001306a3e98ca85af5839ad4ea3ff662d1886
+source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 67%
@@ -42,7 +42,7 @@ Pausa de la activación del trabajo el 1 de octubre: a partir del 1 de octubre d
 
 Para ayudarle a adaptarse a este cambio, hemos creado documentación sobre la nueva función y descripciones claras de los errores con pasos exhaustivos para la resolución de problemas.
 
-* NUEVO DOCUMENTO: Configuración de control de errores para exportaciones de CRM
+* Nueva documentación: [Configuración de control de errores para exportaciones de CRM](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Notificaciones de errores](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Versión del tercer trimestre {#q3-release}
