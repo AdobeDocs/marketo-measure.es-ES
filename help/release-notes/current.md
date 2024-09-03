@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 67%
+ht-degree: 99%
 
 ---
 
@@ -18,11 +18,11 @@ A continuación, encontrará todas las funciones nuevas y actualizadas de nuestr
 
 ### Reglas de segmentos mejoradas
 
-Ahora puede crear segmentos utilizando los campos Campaña y Miembro de campaña, además de los campos Punto de contacto y Contacto. Esta mejora le permite analizar y diseccionar los datos de forma más eficaz en Discover.
+Ahora puede crear segmentos utilizando los campos Campaña y Miembro de campaña, además de los campos Touchpoint y Contacto. Esta mejora le permite analizar y diseccionar los datos de forma más eficaz en Discover.
 
 ![Reglas de segmento para miembros](assets/campaign-member.png)
 
-### Actualización: Configuración de control de errores para exportaciones de CRM
+### Actualización: configuración de control de errores para exportaciones de CRM
 
 Hemos escuchado sus comentarios sobre el método de detener el trabajo y estamos introduciendo una nueva función en la interfaz de usuario. A partir de hoy, puede elegir si los trabajos de exportación deben pausarse cuando se producen errores. Use la nueva opción en **Mi cuenta** > **Configuración** → **CRM** → **General**. Este conmutador está activado de forma predeterminada para mejorar la integridad y visibilidad de los datos. Sin embargo, si prefiere no utilizar esta función, puede desactivarla en la interfaz de usuario y se reanudarán los trabajos de exportación. Esta actualización está diseñada para mejorar la fiabilidad de los procesos de administración de datos y, al mismo tiempo, ofrecerle un mayor control.
 
@@ -30,17 +30,17 @@ Hemos escuchado sus comentarios sobre el método de detener el trabajo y estamos
 
 Disponibilidad de alternancia inmediata: la opción está ahora activa en la interfaz de usuario y está habilitada de forma predeterminada para evitar que los datos se omitan durante los trabajos de exportación. Si prefiere que los trabajos de exportación sigan ejecutándose a pesar de que se encuentren errores, deshabilite la opción.
 
-Pausa de la activación del trabajo el 1 de octubre: a partir del 1 de octubre de 2024, si la opción está activa y se encuentra un error de nivel de registro durante un trabajo de exportación, el trabajo se pausa para garantizar que no se pierdan datos. Estos errores suelen deberse a la falta de permisos, a reglas de validación personalizadas aplicadas incorrectamente o a problemas en flujos de trabajo/déclencheur. Recibirá notificaciones sobre el problema y, una vez corregido, el trabajo de exportación se reanudará desde el punto de interrupción. Si decide excluirse de la pausa del trabajo, seguirá recibiendo notificaciones de problemas y, cuando se hayan corregido, los registros omitidos se vuelven a exportar automáticamente.
+Pausa de la activación del trabajo el 1 de octubre: a partir del 1 de octubre de 2024, si la opción está activa y se encuentra un error de nivel de registro durante un trabajo de exportación, el trabajo se pausa para garantizar que no se pierdan datos. Estos errores suelen deberse a la falta de permisos, a reglas de validación personalizadas aplicadas incorrectamente o a problemas en flujos de trabajo/activadores. Recibirá notificaciones sobre el problema y, una vez corregido, el trabajo de exportación se reanudará desde el punto de interrupción. Si decide excluirse de la pausa del trabajo, seguirá recibiendo notificaciones de problemas y, cuando se hayan corregido, los registros omitidos se vuelven a exportar automáticamente.
 
-#### Por qué esto importa
+#### Por qué es importante
 
-**Integridad de datos mejorada y protección de futuro de su integración:** Al pausar el trabajo la primera vez que se produce un problema, evitamos la pérdida de datos y garantizamos la precisión. Esto permite una rápida resolución de errores, lo que mejora la calidad de la exportación de datos y la fiabilidad general del sistema.
+**Mejor integridad de los datos e integración a prueba de futuro:** deteniendo el trabajo a la primera señal de que haya problemas para evitar la pérdida de datos y garantizar la precisión. Esto permite una rápida resolución de errores, lo que mejora la calidad de la exportación de datos y la fiabilidad general del sistema.
 
-**Visibilidad inmediata:** Mediante las notificaciones de pulso, recibirá alertas oportunas por errores de permisos, lo que permitirá respuestas rápidas y minimizará los posibles impactos en sus operaciones.
+**Visibilidad inmediata:** mediante las notificaciones de pulso, recibirá alertas oportunas por errores de permisos, lo que permitirá respuestas rápidas y minimizará los posibles impactos en sus operaciones.
 
 #### Apoyo a la transición
 
-Para ayudarle a adaptarse a este cambio, hemos creado documentación sobre la nueva función y descripciones claras de los errores con pasos exhaustivos para la resolución de problemas.
+Para ayudarle a adaptarse a este cambio, hemos creado una documentación sobre la nueva función con descripciones claras de los errores y pasos exhaustivos para la resolución de problemas.
 
 * Nueva documentación: [Configuración de control de errores para exportaciones de CRM](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Notificaciones de errores](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
