@@ -3,10 +3,10 @@ description: Notas de la versión actual de  [!DNL Marketo Measure]
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 99%
+ht-degree: 94%
 
 ---
 
@@ -28,15 +28,15 @@ Hemos escuchado sus comentarios sobre el método de detener el trabajo y estamos
 
 #### Fechas clave y despliegue gradual
 
-Disponibilidad de alternancia inmediata: la opción está ahora activa en la interfaz de usuario y está habilitada de forma predeterminada para evitar que los datos se omitan durante los trabajos de exportación. Si prefiere que los trabajos de exportación sigan ejecutándose a pesar de que se encuentren errores, deshabilite la opción.
+1. **Disponibilidad de alternancia inmediata:** La alternancia ahora está activa en la interfaz de usuario y está habilitada de manera predeterminada para evitar que los datos se omitan durante los trabajos de exportación. Si prefiere que los trabajos de exportación sigan ejecutándose a pesar de que se encuentren errores, deshabilite la opción.
 
-Pausa de la activación del trabajo el 1 de octubre: a partir del 1 de octubre de 2024, si la opción está activa y se encuentra un error de nivel de registro durante un trabajo de exportación, el trabajo se pausa para garantizar que no se pierdan datos. Estos errores suelen deberse a la falta de permisos, a reglas de validación personalizadas aplicadas incorrectamente o a problemas en flujos de trabajo/activadores. Recibirá notificaciones sobre el problema y, una vez corregido, el trabajo de exportación se reanudará desde el punto de interrupción. Si decide excluirse de la pausa del trabajo, seguirá recibiendo notificaciones de problemas y, cuando se hayan corregido, los registros omitidos se vuelven a exportar automáticamente.
+1. **Activación de pausa del trabajo el 1 de octubre:** A partir del 1 de octubre de 2024, si la opción está activa y se encuentra un error de nivel de registro durante un trabajo de exportación, el trabajo se pausa para garantizar que no se pierdan datos. Estos errores suelen deberse a la falta de permisos, a reglas de validación personalizadas aplicadas incorrectamente o a problemas en flujos de trabajo/activadores. Recibirá notificaciones sobre el problema y, una vez corregido, el trabajo de exportación se reanudará desde el punto de interrupción. Si decide excluirse de la pausa del trabajo, seguirá recibiendo notificaciones de problemas y, cuando se hayan corregido, los registros omitidos se vuelven a exportar automáticamente.
 
 #### Por qué es importante
 
-**Mejor integridad de los datos e integración a prueba de futuro:** deteniendo el trabajo a la primera señal de que haya problemas para evitar la pérdida de datos y garantizar la precisión. Esto permite una rápida resolución de errores, lo que mejora la calidad de la exportación de datos y la fiabilidad general del sistema.
+* **Mejor integridad de los datos e integración a prueba de futuro:** deteniendo el trabajo a la primera señal de que haya problemas para evitar la pérdida de datos y garantizar la precisión. Esto permite una rápida resolución de errores, lo que mejora la calidad de la exportación de datos y la fiabilidad general del sistema.
 
-**Visibilidad inmediata:** mediante las notificaciones de pulso, recibirá alertas oportunas por errores de permisos, lo que permitirá respuestas rápidas y minimizará los posibles impactos en sus operaciones.
+* **Visibilidad inmediata:** mediante las notificaciones de pulso, recibirá alertas oportunas por errores de permisos, lo que permitirá respuestas rápidas y minimizará los posibles impactos en sus operaciones.
 
 #### Apoyo a la transición
 
