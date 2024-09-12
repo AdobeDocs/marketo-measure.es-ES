@@ -4,9 +4,9 @@ title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1183'
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Hemos escuchado sus comentarios sobre el método de detener el trabajo y estamos
 
 #### Fechas clave y despliegue gradual
 
-1. **Disponibilidad de alternancia inmediata:** La alternancia ahora está activa en la interfaz de usuario y está habilitada de manera predeterminada para evitar que los datos se omitan durante los trabajos de exportación. Si prefiere que los trabajos de exportación sigan ejecutándose a pesar de que se encuentren errores, deshabilite la opción.
+1. **Disponibilidad de alternancia inmediata:** el conmutador ya está incluido en la interfaz de usuario y está habilitado de forma predeterminada para evitar que los datos se omitan durante los trabajos de exportación. Si prefiere que los trabajos de exportación sigan ejecutándose a pesar de que se encuentren errores, deshabilite la opción.
 
-1. **Activación de pausa del trabajo el 1 de octubre:** A partir del 1 de octubre de 2024, si la opción está activa y se encuentra un error de nivel de registro durante un trabajo de exportación, el trabajo se pausa para garantizar que no se pierdan datos. Estos errores suelen deberse a la falta de permisos, a reglas de validación personalizadas aplicadas incorrectamente o a problemas en flujos de trabajo/activadores. Recibirá notificaciones sobre el problema y, una vez corregido, el trabajo de exportación se reanudará desde el punto de interrupción. Si decide excluirse de la pausa del trabajo, seguirá recibiendo notificaciones de problemas y, cuando se hayan corregido, los registros omitidos se vuelven a exportar automáticamente.
+1. **Activación de pausa de trabajos el 1 de octubre:** a partir del 1 de octubre de 2024, si el conmutador está activado y se encuentra un error de nivel de registro durante un trabajo de exportación, el trabajo se pausa para garantizar que no se pierdan datos. Estos errores suelen deberse a la falta de permisos, a reglas de validación personalizadas aplicadas incorrectamente o a problemas en flujos de trabajo/activadores. Recibirá notificaciones sobre el problema y, una vez corregido, el trabajo de exportación se reanudará desde el punto de interrupción. Si decide excluirse de la pausa del trabajo, seguirá recibiendo notificaciones de problemas y, cuando se hayan corregido, los registros omitidos se vuelven a exportar automáticamente.
 
 #### Por qué es importante
 
