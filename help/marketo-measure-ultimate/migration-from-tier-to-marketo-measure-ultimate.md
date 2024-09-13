@@ -2,7 +2,7 @@
 description: Obtenga información acerca del proceso de migración al pasar de la  [!DNL Marketo Measure] suscripción por niveles a [!DNL Marketo Measure] Ultimate.
 title: Migración de nivel a  [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
-source-git-commit: 9c3c3c75a9a505bb078da18e13f210add8699c24
+source-git-commit: d62eb377a6abe8a01de7ad2aba34b85fb74ad461
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 1%
