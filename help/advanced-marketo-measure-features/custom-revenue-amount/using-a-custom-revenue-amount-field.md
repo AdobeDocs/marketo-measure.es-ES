@@ -4,9 +4,9 @@ description: Uso de un campo de importe de ingresos personalizado - [!DNL Market
 title: Uso de un campo de importe de ingresos personalizado
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ A partir de aquí, empezaremos a crear el flujo de trabajo.
 
 ## Creación del flujo de trabajo en Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
 
-Los siguientes pasos están destinados a los usuarios de Salesforce Lightning. Si todavía usa Salesforce Classic, esos pasos [se enumeran a continuación](#create-the-workflow-in-salesforce-classic).
+Los siguientes pasos son para usuarios de Salesforce Lightning. Si todavía usa Salesforce Classic, esos pasos [se enumeran a continuación](#create-the-workflow-in-salesforce-classic).
 
 1. En Configuración, escriba &quot;Flujos&quot; en el Cuadro de búsqueda rápida y seleccione **[!UICONTROL Flujos]** para iniciar el Generador de flujos. En el panel derecho, haga clic en el botón **[!UICONTROL Nuevo flujo]**.
 
@@ -62,8 +62,8 @@ Los siguientes pasos están destinados a los usuarios de Salesforce Lightning. S
    * Introduzca una etiqueta: el nombre de la API se generará automáticamente
    * En &quot;Cómo buscar registros para actualizar y establecer sus valores&quot;, seleccione **[!UICONTROL Usar el registro de oportunidad que activó el flujo]**.
    * En la sección &quot;[!UICONTROL Establecer condiciones de filtro]&quot;, seleccione **[!UICONTROL Actualizar siempre el registro]** como requisito de condición para actualizar el registro.
-   * En &quot;[!UICONTROL Establecer valores de campo para el registro de campaña]&quot;, en el campo, seleccione el valor de Importe de oportunidad de Marketo Measure y desde. A continuación, seleccione el campo Importe personalizado.
-   * Haga clic en **[!UICONTROL Listo]**.
+   * En el campo &quot;[!UICONTROL Establecer valores de campo para el registro de campaña]&quot;, en, seleccione el importe de oportunidad de Marketo Measure (**bizible2__Bizible_Opportunity_Amount__c**) y el valor inicial. A continuación, seleccione el campo Importe personalizado.
+   * Haga clic en **[!UICONTROL Finalizado]**.
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
 
@@ -77,7 +77,7 @@ Los siguientes pasos están destinados a los usuarios de Salesforce Lightning. S
 
 ## Creación del flujo de trabajo en Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
-Los siguientes pasos están destinados a los usuarios de Salesforce Classic. Si ha cambiado a Salesforce Lightning, los pasos [se encuentran arriba](#create-the-workflow-in-salesforce-lightning).
+Los siguientes pasos son para usuarios de Salesforce Classic. Si has cambiado a Salesforce Lightning, esos pasos [se pueden encontrar arriba](#create-the-workflow-in-salesforce-lightning).
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Crear]** > **[!UICONTROL Flujo de trabajo y aprobaciones]** > **[!UICONTROL Reglas de flujo de trabajo]**.
 
@@ -104,6 +104,6 @@ Los siguientes pasos están destinados a los usuarios de Salesforce Classic. Si 
 
    Una vez que haya completado estos pasos, las oportunidades deberán actualizarse para que el flujo de trabajo almacene en déclencheur el nuevo valor del campo [!UICONTROL oportunidad personalizada].
 
-   Esto se puede lograr ejecutando sus oportunidades a través del Data Loader dentro de SFDC. Encuentre detalles sobre el uso del cargador de datos en [este artículo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Esto se puede lograr ejecutando las oportunidades a través del Cargador de datos dentro de SFDC. Encuentre detalles sobre el uso del cargador de datos en [este artículo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
 Si tiene alguna pregunta, no dude en ponerse en contacto con el equipo de la cuenta de Adobe (su administrador de cuentas) o con [[!DNL Marketo] Asistencia](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
