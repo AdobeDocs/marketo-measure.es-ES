@@ -4,9 +4,9 @@ description: Preguntas frecuentes sobre la atribución de actividades - [!DNL Ma
 title: Preguntas frecuentes sobre la atribución de actividades
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # Preguntas frecuentes sobre la atribución de actividades {#activities-attribution-faq}
 
 [!DNL Marketo Measure] actividades importa todos sus registros de actividad y genera puntos de contacto para ellos, lo que permite que estas actividades reciban crédito de atribución. El caso de uso más común es rastrear Actividades del equipo de ventas, ya que comúnmente crean un registro de llamadas telefónicas o correos electrónicos que se envían a los posibles clientes. Otras cosas únicas de las que se puede realizar un seguimiento son las interacciones de contenido, como las descargas de recursos o las vistas de vídeos.
+
+>[!AVAILABILITY]
+>
+>Esta función solo está habilitada para clientes de nivel 2. Para solicitar un nivel de cuenta superior, póngase en contacto con el equipo de cuenta de Adobe (su administrador de cuentas).
 
 **¿En qué se diferencia esto de las campañas sin conexión?**
 

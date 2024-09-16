@@ -4,9 +4,9 @@ description: Campos de Touchpoint - [!DNL Marketo Measure]
 title: Campos de puntos de contacto
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Históricamente, cuando los clientes se incorporan con [!DNL Marketo Measure] y 
 
 >[!AVAILABILITY]
 >
->Ahora disponible con segmentación completa en los niveles 2 y 3.
+>Disponible con segmentación completa en suscripciones de nivel 2.
 
 >[!NOTE]
 >

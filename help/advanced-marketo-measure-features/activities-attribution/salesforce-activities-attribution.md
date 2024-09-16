@@ -4,18 +4,22 @@ description: Atribución de actividades de Salesforce - [!DNL Marketo Measure]
 title: Atribución de actividades de Salesforce
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '617'
 ht-degree: 1%
 
 ---
 
 # Atribución de actividades de Salesforce {#salesforce-activities-attribution}
 
-La integración de [!DNL Marketo Measure] actividades de Salesforce trae registros específicos de tarea y evento al modelo de atribución. Empiece a realizar el seguimiento de elementos como correos electrónicos de ventas o llamadas telefónicas de ventas que no recibían el crédito debido. Para configurar la regla de actividades, ve a [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Desde allí, ve a la ficha **[!UICONTROL Configuración]** y haz clic en la ficha **[!UICONTROL Actividades]**.
+La integración de actividades de Salesforce [!DNL Marketo Measure] incorpora registros de tareas y eventos específicos en el modelo de atribución. Empiece a realizar el seguimiento de elementos como correos electrónicos de ventas o llamadas telefónicas de ventas que no recibían el crédito debido. Para configurar la regla de actividades, ve a [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Desde allí, ve a la ficha **[!UICONTROL Configuración]** y haz clic en la ficha **[!UICONTROL Actividades]**.
 
 ![](assets/1.png)
+
+>[!AVAILABILITY]
+>
+>Esta función solo está habilitada para clientes de nivel 2. Para solicitar un nivel de cuenta superior, póngase en contacto con el equipo de cuenta de Adobe (su administrador de cuentas).
 
 Para empezar, presentamos un nuevo concepto llamado Campaña [!DNL Marketo Measure]. Para cada regla que defina, va a agrupar los registros en una [!DNL Marketo Measure] campaña a la que pueda asignar un nombre. Añada varias campañas según sea necesario. Imagine medir la eficacia de una campaña de ventas salientes junto a una campaña de medios de pago.
 
@@ -77,7 +81,7 @@ Ningún comodín significa básicamente &quot;es igual a&quot;, por lo que aseg�
 | **Operador** | **Caso de uso** |
 |---|---|
 | Is Equal To | Valor único: coincidencia exacta |
-| contiene | Valor único: contiene un valor |
+| Contains | Valor único: contiene un valor |
 | Coincide con Cualquiera | Varios valores: coincidencia exacta |
 | Coincide Con Cualquiera (Contiene) | Varios valores: &#42;value&#42;, &#42;value, &#42;value&#42; |
 
