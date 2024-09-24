@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guía de [!DNL Marketo Measure]”
 user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
-source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
-workflow-type: ht
-source-wordcount: '817'
-ht-degree: 100%
+source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 99%
 
 ---
 
@@ -160,6 +160,7 @@ ht-degree: 100%
       + [Panel de oportunidades atribuidas](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
       + [Panel de ingresos atribuidos](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Panel de participación](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Tablero de ROI de palabras clave](marketo-measure-discover-ui/dashboards/keyword-roi-dashboard.md)
       + [Panel de velocidad del posible cliente](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
       + [Panel de velocidad de oportunidad](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
       + [Panel de Passport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
