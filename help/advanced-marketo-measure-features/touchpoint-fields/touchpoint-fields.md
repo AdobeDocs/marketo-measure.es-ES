@@ -4,9 +4,9 @@ description: Campos de Touchpoint - [!DNL Marketo Measure]
 title: Campos de puntos de contacto
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
+source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ En el menú Configuración de [!DNL Marketo Measure], vaya a la página Campos d
 
 Para crear un campo calculado, tenga en cuenta que hay tres acciones diferentes que un usuario puede realizar: extracciones, asignaciones y concatenaciones. Estos también se conocen como los operadores para definir un campo calculado.
 
-Extractos
+### Extractos {#extracts}
 
-El operador [!UICONTROL extrae] extrae el valor de un campo de otra ubicación, como: un campo de campaña, un campo de posible cliente o, en un caso de uso más avanzado, [extrae parámetros personalizados de la página de aterrizaje](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. Luego lo coloca en un campo de punto de contacto (vea [Asignaciones al ejemplo](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+El operador [!UICONTROL extrae] extrae el valor de un campo desde otra ubicación, como un campo de Campaign, un campo de posible cliente o, en un caso de uso más avanzado, extrae parámetros personalizados de la página de aterrizaje. A continuación, lo coloca en un campo de Touchpoint.
 
 **Ejemplo #1**
 
@@ -121,7 +121,7 @@ A medida que las páginas de aterrizaje se complican y tiene varios parámetros 
 
 ![](assets/five.png)
 
-**Asignaciones a**
+### Mapas a {#maps-to}
 
 El operador [!UICONTROL asigna a] crea una tabla de valores que deben traducirse o agruparse en otro valor. Normalmente, adopta la forma de un valor clave donde un código representa un nombre descriptivo y debe asignarse a ese nombre descriptivo.
 
@@ -169,7 +169,7 @@ Ahora que hemos aprendido a extraer y asignar campos, combinemos esas acciones p
 
 ![](assets/seven.png)
 
-**Concatenaciones**
+### Concatenaciones {#concatenates}
 
 El operador [!UICONTROL concatenates] combina valores de varios campos en un único campo. Esto resulta útil para crear un valor personalizado que extrae datos de varios campos para realizar
 
