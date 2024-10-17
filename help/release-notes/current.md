@@ -3,10 +3,10 @@ description: Notas de la versión actual de  [!DNL Marketo Measure]
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
-workflow-type: ht
-source-wordcount: '1183'
-ht-degree: 100%
+source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 86%
 
 ---
 
@@ -15,6 +15,22 @@ ht-degree: 100%
 A continuación, encontrará todas las funciones nuevas y actualizadas de nuestras versiones de 2024.
 
 ## Versión del cuarto trimestre {#q4-release}
+
+### Comportamiento de transferencia de canal de nueva sesión
+
+El canal de la sesión anterior ahora se transferirá si una nueva sesión se inicia dentro de los siete días posteriores a 30 minutos de inactividad, aplicándose solo a las visitas directas (sin referente ni referentes internos). Después de siete días de inactividad, la sesión será Directa/Otros de forma predeterminada. Los datos de sesiones anteriores no anularán los canales no directos.
+
+Además, las sesiones que utilizan el inicio de sesión social (Google, Microsoft o Apple) ahora se combinan en una sesión continua, lo que garantiza una experiencia más fluida. Sin esta opción de transferencia, los inicios de sesión sociales podrían crear sesiones independientes debido a diferencias de referentes externos.
+
+Para los clientes nuevos, la transferencia del canal de sesión es ahora el comportamiento predeterminado. Los clientes existentes pueden habilitarlo activando la opción Transferencia de canal de sesión en Configuración → Atribución por contacto. Una vez activada, esta configuración no se puede deshacer.
+
+Documentación: [Definición de sesiones web de Marketo Measure](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+
+### Panel de control del retorno de la inversión de palabra clave
+
+El nuevo Tablero de ROI de palabras clave ofrece una perspectiva detallada del rendimiento de las campañas de búsqueda de pago, y proporciona una vista completa de los costes a nivel de palabra clave, los ingresos atribuidos, y los posibles clientes y las oportunidades generadas. Este tablero le ayuda a evaluar el ROI de cada palabra clave en Google AdWords, LinkedIn y Bing Ads, etc.
+
+Documentación: [Panel de ROI de palabras clave](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Reglas de segmentos mejoradas
 
