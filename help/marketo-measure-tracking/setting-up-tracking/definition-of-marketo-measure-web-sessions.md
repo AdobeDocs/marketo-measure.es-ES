@@ -5,9 +5,9 @@ title: Definición de sesiones web de  [!DNL Marketo Measure]
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
 source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Hay algunas cosas que determinan cuándo termina una sesión y cuándo comienza 
 
 **¿Cuánto dura una sesión?**
 
-Las sesiones de [!UICONTROL Marketo Measure] finalizarán tras 30 minutos de inactividad en el sitio web. Por ejemplo:
+Las sesiones de [!UICONTROL Marketo Measure] finalizarán transcurridos 30 minutos de inactividad en el sitio web. Por ejemplo:
 
 Cuando Haley visita adobe.com, comienza una sesión. Explora el sitio web durante unos minutos y luego se aleja de su ordenador, pero deja el sitio web abierto. Tras 30 minutos de inactividad, la sesión finaliza.
 

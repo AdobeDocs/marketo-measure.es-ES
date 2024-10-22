@@ -4,9 +4,9 @@ title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Además, las sesiones que utilizan el inicio de sesión social (Google, Microsof
 
 Para los clientes nuevos, la transferencia del canal de sesión es ahora el comportamiento predeterminado. Los clientes existentes pueden habilitarlo activando la opción Transferencia de canal de sesión en Configuración → Atribución por contacto. Una vez activada, esta configuración no se puede deshacer.
 
-Documentación: [Definición de sesiones web de Marketo Measure](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+Documentación: [Definición de sesiones web de Marketo Measure](https://experienceleague.adobe.com/es/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### Panel de control del retorno de la inversión de palabra clave
 
-El nuevo Tablero de ROI de palabras clave ofrece una perspectiva detallada del rendimiento de las campañas de búsqueda de pago, y proporciona una vista completa de los costes a nivel de palabra clave, los ingresos atribuidos, y los posibles clientes y las oportunidades generadas. Este tablero le ayuda a evaluar el ROI de cada palabra clave en Google AdWords, LinkedIn y Bing Ads, etc.
+El nuevo tablero de ROI de palabras clave ofrece una perspectiva detallada del rendimiento de las campañas de búsqueda de pago, y proporciona una vista completa de los costes a nivel de palabra clave, los ingresos atribuidos, y los posibles clientes y las oportunidades generadas. Este tablero le ayuda a evaluar el ROI de cada palabra clave en Google AdWords, LinkedIn y Bing Ads, etc.
 
-Documentación: [Panel de ROI de palabras clave](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+Documentación: [Panel de control del retorno de la inversión de palabra clave](https://experienceleague.adobe.com/es/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Reglas de segmentos mejoradas
 
