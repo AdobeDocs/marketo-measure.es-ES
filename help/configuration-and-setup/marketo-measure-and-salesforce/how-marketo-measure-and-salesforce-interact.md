@@ -4,9 +4,9 @@ description: 'Cómo [!DNL Marketo Measure] y [!DNL Salesforce] interactúan: Mar
 title: Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
-workflow-type: ht
-source-wordcount: '1317'
+source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+workflow-type: tm+mt
+source-wordcount: '1284'
 ht-degree: 100%
 
 ---
@@ -188,49 +188,6 @@ Esta sección enumera los objetos estándar de [!DNL Salesforce] con los que int
    <td>x</td> 
    <td> </td> 
   </tr>
- </tbody> 
-</table>
-
-**Caso**
-
-<table> 
- <tbody> 
-  <tr> 
-   <th>Campos</th> 
-   <th>Estándar/Personalizado</th> 
-   <th>Lectura</th> 
-   <th>Escritura</th> 
-  </tr> 
-  <tr> 
-   <td>Identificación</td> 
-   <td>Estándar</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>Estándar</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Estándar</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>SuppliedEmail</td> 
-   <td>Estándar</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Estándar</td> 
-   <td>x</td> 
-   <td> </td>
-  </tr> 
  </tbody> 
 </table>
 
@@ -466,30 +423,6 @@ Esta sección enumera los objetos estándar de [!DNL Salesforce] con los que int
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Estándar</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedDate</td> 
-   <td>Estándar</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedContactId</td> 
-   <td>Estándar</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedOpportunityId</td> 
-   <td>Estándar</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsConverted</td> 
    <td>Estándar</td> 
    <td>x</td> 
    <td> </td> 
