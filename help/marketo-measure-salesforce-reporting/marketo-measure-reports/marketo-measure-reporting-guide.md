@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Guía de informes - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Guía de informes"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 3119b1754bba49139c1a6756851ada580e09c1ef
 workflow-type: tm+mt
-source-wordcount: '6437'
+source-wordcount: '5602'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 >
 >Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
-Antes de crear un informe de [!DNL Marketo Measure], es fundamental que confirmes que la configuración de la cuenta de [!DNL Marketo Measure] se ha revisado y configurado para garantizar que los datos de los informes sean precisos y reflejen las características específicas de tu negocio. Además, los proyectos de creación de informes funcionan mejor cuando siguen un proceso estructurado. Justin Norris, un usuario experto de [!DNL Marketo Measure], defensor y socio de [Perkuto](https://perkuto.com/) resumió de manera experta [cómo abordar la creación de informes en [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
+Antes de crear un informe de [!DNL Marketo Measure], es fundamental que confirmes que la configuración de la cuenta de [!DNL Marketo Measure] se ha revisado y configurado para garantizar que los datos de los informes sean precisos y reflejen las características específicas de tu negocio. Además, los proyectos de creación de informes funcionan mejor cuando siguen un proceso estructurado. Justin Norris, un usuario experto de [!DNL Marketo Measure], defensor y socio de [Perkuto](https://perkuto.com/){target="_blank"} resumió de manera experta [cómo abordar la creación de informes en [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/){target="_blank"}:
 
-**Establecer metas**: &quot;La primera pregunta que hay que hacerse es &#39;¿por qué medimos?&#39; Lori Wizdo de [Forrester Research](https://go.forrester.com/) lo resumió muy bien en un [seminario web de Marketo](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). Según ella, &quot;medimos para probar o validar una decisión o el valor del marketing o para mejorar (mejora de procesos)&quot;. Añadimos que las perspectivas de una buena medición también proporcionan insumos y orientación para el proceso de planificación de marketing.
+**Establecer metas**: &quot;La primera pregunta que hay que hacerse es &#39;¿por qué medimos?&#39; Lori Wizdo de [Forrester Research](https://go.forrester.com/) lo resumió muy bien en un [seminario web de Marketo](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/){target="_blank"}. Según ella, &quot;medimos para probar o validar una decisión o el valor del marketing o para mejorar (mejora de procesos)&quot;. Añadimos que las perspectivas de una buena medición también proporcionan insumos y orientación para el proceso de planificación de marketing.
 
 Así que antes de empezar, es esencial ser muy claro en sus objetivos, las preguntas que está tratando de responder, o los problemas que está tratando de resolver. ¿Qué historia quieres contar? ¿Qué decisiones se tomarán como resultado? Con demasiada frecuencia estos fundamentos no están bien pensados, lo que lleva a la frustración de todos los involucrados&quot;.
 
@@ -47,7 +47,7 @@ una campaña o actividad sin conexión.
 >
 >BAT BT Los se crean a partir de la. BT Básicamente, el seguimiento comienza en el nivel individual a través de la. BT BAT BT BAT Una vez que se crea una oportunidad en una cuenta, se hace referencia a todos los contactos de la misma cuenta y todos son aptos para crear relacionados con la oportunidad, por lo que querrá utilizar una o la otra según las preguntas que esté intentando responder: preguntas relacionadas con las métricas de Personas (informes) o preguntas relacionadas con las métricas de Oportunidad (informes). También puede usar preguntas relacionadas con las métricas de Oportunidad (informes).
 
-Artículo de soporte: [Diferencia entre los puntos de contacto del comprador y los puntos de contacto de atribución del comprador](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
+Artículo de soporte: [Diferencia entre los puntos de contacto del comprador y los puntos de contacto de atribución del comprador](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup){target="_blank"}
 
 ## Punto de contacto de comprador (BT) {#buyer-touchpoint-bt}
 
@@ -67,7 +67,7 @@ Los puntos de contacto del comprador se utilizan para responder preguntas relaci
 
 Principalmente, las empresas deben saber: &quot;¿de dónde provienen mis posibles clientes o contactos?&quot;. Históricamente, se respondió con un valor único dimensional (Source de posibles clientes, por ejemplo). Sin embargo, como se describe en #1 y #2 anteriores, sabemos que los posibles clientes pueden tener varios puntos de contacto durante su recorrido de convertirse en posibles clientes. El Buyer Touchpoint nos permite obtener una perspectiva de las dos interacciones más cruciales que representan cómo se generó un posible cliente: su primer contacto y su contacto de creación de posibles clientes. Los puntos de contacto del comprador también son _multidimensionales_, lo que significa que transportan una gran cantidad de datos de marketing, principalmente de dónde proviene la persona (canal de marketing) y con qué se ha involucrado la persona (contenido).
 
-Los [modelos de atribución](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) que proporcionan la mejor perspectiva de las métricas basadas en personas son:
+Los [modelos de atribución](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"} que proporcionan la mejor perspectiva de las métricas basadas en personas son:
 
 * **Primer contacto**: 100% de crédito de atribución al primer contacto (FT) del posible cliente
 * **Creación de posibles clientes**: 100% de crédito de atribución al contacto de creación de posibles clientes (LC) del posible cliente
@@ -110,7 +110,7 @@ Resumiendo los datos de Buyer Touchpoint del posible cliente por el campo &quot;
    <td>Fecha de creación del posible cliente (CRM) / Fecha de creación (Discover)</td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -149,7 +149,7 @@ Para obtener una perspectiva más granular de los datos resumidos en el informe 
    <td>Fecha de creación del posible cliente (CRM) / Fecha de creación (Discover)</td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -188,7 +188,7 @@ Para obtener una perspectiva más granular de los datos resumidos en el informe 
    <td>Fecha de creación del posible cliente (CRM) / Fecha de creación (Discover)</td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -211,7 +211,7 @@ El nivel de granularidad puede variar según el canal. El enfoque recomendado se
 
 Sin embargo, los administradores de eventos pueden estar más interesados en qué eventos específicos o en qué tipos de eventos influyeron en la creación de la mayoría de los posibles clientes:
 
-* Nombre de la campaña de publicidad/Campaña de Salesforce = evento específico
+* Nombre de la campaña de publicidad / Salesforce Campaign = evento específico
 * Medium = &quot;Tipo&quot; de campaña
 
 **RECORDATORIO**: es posible que se deban agregar filtros adicionales a cualquiera de las variaciones de informe descritas arriba o abajo. Estos filtros serían específicos de su organización y los equipos de operaciones de marketing u operaciones de ventas podrían ayudarle a aconsejarlos. No es raro que una organización ejecute los mismos filtros en todos los informes para asegurarse de que el informe sea lo más limpio y preciso posible. Algunos ejemplos comunes son:
@@ -236,7 +236,7 @@ Sin embargo, los administradores de eventos pueden estar más interesados en qu�
    <td>Fecha de creación de cliente potencial</td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -288,7 +288,7 @@ Los informes basados en &quot;Contenido&quot; son ideales para obtener informaci
    <td>Fecha de Touchpoint</td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -333,7 +333,7 @@ Este enfoque para medir el impacto del marketing en la influencia de los MQL es 
    <td>Fecha de MQL (o equivalente) / Fecha de creación ([!DNL Marketo Measure] Discover)<br> <i>La fecha de creación del posible cliente también se puede usar en los informes de CRM si 'Fecha de MQL' no es una opción en su CRM. Es importante tener en cuenta qué campo de fecha está utilizando para definir el conjunto de datos cohortado.</i></td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -376,7 +376,7 @@ Este enfoque para medir el impacto del marketing en la influencia de MQL se cent
    <td>Fecha de MQL (o equivalente)</td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -396,9 +396,9 @@ Este enfoque para medir el impacto del marketing en la influencia de MQL se cent
 
 **3. [!DNL MARKETO MEASURE] PERSONAS con PUNTOS DE CONTACTO DEL COMPRADOR**
 
-Hay un tercer objeto personalizado [!DNL Marketo Measure] en Salesforce que puede ser muy útil al generar informes sobre métricas relacionadas con personas: **la persona [!DNL Marketo Measure] (BP)**. La BP soluciona el antiguo problema de cómo representar la información de contactos y posibles clientes en el mismo informe. BT Une todas las direcciones relacionadas con una &quot;persona&quot; (el ID de una persona de [!DNL Marketo Measure] es su dirección de correo electrónico). Tanto si existen como clientes potenciales o de contacto, la BP actúa como objeto puente para ayudar a los informes a abarcar a ambos, y es muy útil para producir informes más sofisticados sobre las personas.
+Hay un tercer objeto personalizado [!DNL Marketo Measure] en Salesforce que puede resultar muy útil al generar informes sobre métricas relacionadas con personas: **la persona [!DNL Marketo Measure] (BP)**. La BP soluciona el antiguo problema de cómo representar la información de contactos y posibles clientes en el mismo informe. BT Une todas las direcciones relacionadas con una &quot;persona&quot; (el ID de una persona de [!DNL Marketo Measure] es su dirección de correo electrónico). Tanto si existen como clientes potenciales o de contacto, la BP actúa como objeto puente para ayudar a los informes a abarcar a ambos, y es muy útil para producir informes más sofisticados sobre las personas.
 
-La persona [!DNL Marketo Measure] solo se relaciona con uno de los objetos de punto de contacto, el Buyer Touchpoint BT (). Esto significa que no se puede utilizar para métricas relacionadas con oportunidades o ingresos. BT BT Un tipo de informe de &#39;[!DNL Marketo Measure] puntos de contacto de persona y comprador&#39; es ideal para comprender _la participación total_, ya que se muestra todo el tiempo, ya sea que la relación entre el cliente potencial o el contacto se relacione de forma más específica con el cliente potencial o el contacto. Por ejemplo: si utiliza una campaña de Salesforce para rastrear un evento, puede tener miembros de la campaña dentro de la campaña de CRM que existan como posibles clientes O como contactos. [!DNL Marketo Measure] creará puntos de contacto para los miembros de la campaña independientemente, pero sin la persona [!DNL Marketo Measure], los informes estándar de Salesforce necesitarían dos informes independientes para comprender cuántos puntos de contacto _totales_ tiene del evento: uno que es &quot;Posibles clientes con puntos de contacto de comprador&quot; y otro que es &quot;Contactos con puntos de contacto de comprador&quot;. A continuación se enumeran algunos otros [!DNL Marketo Measure] casos de uso de creación de informes basados en personas:
+La persona [!DNL Marketo Measure] solo se relaciona con uno de los objetos de punto de contacto, el Buyer Touchpoint BT (). Esto significa que no se puede utilizar para métricas relacionadas con oportunidades o ingresos. BT BT Un tipo de informe de &#39;[!DNL Marketo Measure] puntos de contacto de persona y comprador&#39; es ideal para comprender _la participación total_, ya que se muestra todo el tiempo, ya sea que la relación entre el cliente potencial o el contacto se relacione de forma más específica con el cliente potencial o el contacto. Por ejemplo: si utiliza una campaña de Salesforce para realizar el seguimiento de un evento, puede tener miembros de la campaña dentro de la campaña de CRM que existan como posibles clientes o como contactos. [!DNL Marketo Measure] creará puntos de contacto para los miembros de la campaña independientemente, pero sin la persona [!DNL Marketo Measure], los informes estándar de Salesforce requerirían dos informes independientes para comprender cuántos puntos de contacto _totales_ tiene del evento: uno que es &quot;Posibles clientes con puntos de contacto del comprador&quot; y otro que es &quot;Contactos con puntos de contacto del comprador&quot;. A continuación se enumeran algunos otros [!DNL Marketo Measure] casos de uso de creación de informes basados en personas:
 
 **3.1 [!DNL Marketo Measure] personas que han descargado &quot;libros electrónicos&quot; o &quot;documentos técnicos&quot; (descargas totales)**
 
@@ -426,7 +426,7 @@ Este informe sería igual que un informe basado en &quot;Contenido&quot; a nivel
    <td>Fecha de punto de contacto <i>(cuando se descargó el recurso)</i></td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -473,7 +473,7 @@ _Este informe solamente es aplicable si los formularios de registro están hospe
    <td>Fecha de punto de contacto <i>(cuando se envió el formulario de registro)</i></td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -498,16 +498,16 @@ La clave de este informe es que los datos de Buyer Touchpoint también proporcio
 
 Teniendo en cuenta que la persona [!DNL Marketo Measure] nos permite informar sobre todos los puntos de contacto en un solo informe, es el tipo de informe ideal que usar cuando quiera validar los datos. Queremos asegurarnos de no pasar por alto ningún punto de contacto que pueda revelar, por ejemplo, dónde hay un problema en la configuración de sus &quot;Canales de marketing&quot; (consulte los artículos de asistencia vinculados a continuación para obtener más información sobre la configuración de sus &quot;Canales de marketing&quot;).
 
-* [Configuración de canales personalizados en línea](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
-* [Configuración de canales personalizados sin conexión](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+* [Configuración de canal personalizado en línea](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}
+* [Configuración de canal personalizado sin conexión](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md){target="_blank"}
 
-Básicamente, los datos de punto de contacto reflejarán lo que ha sido rastreado por [!DNL Marketo Measure] y se podrán auditar para garantizar que la configuración coincida con las entradas en función de elementos como: valores de parámetros de UTM, páginas de referencia o tipos de campaña. Si los datos del punto de contacto no coinciden con la configuración, es muy probable que haya que ajustar algo. Más allá de la configuración de &quot;Canal de marketing&quot;, puede ver los datos de puntos de contacto para determinar qué puntos de contacto pueden necesitar [suprimirse](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) o [segmentarse](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). Se recomienda auditar los datos de puntos de contacto dentro de un informe de &#39;[!DNL Marketo Measure] personas y puntos de contacto del comprador&#39; al final de cada mes o trimestre, si es posible. Esto garantizará que su atribución sea lo más precisa posible. El &#39;[!DNL Marketo Measure] 101 | El informe &quot;Posibles clientes/contactos por canal&quot; disponible de forma predeterminada es un buen punto de partida. Incluya los siguientes campos si aún no se han incluido para revisar algunos de los elementos de configuración más cruciales:
+Básicamente, los datos de punto de contacto reflejarán lo que ha sido rastreado por [!DNL Marketo Measure] y se podrán auditar para garantizar que la configuración coincida con las entradas en función de elementos como: valores de parámetros de UTM, páginas de referencia o tipos de campaña. Si los datos del punto de contacto no coinciden con la configuración, es muy probable que haya que ajustar algo. Más allá de la configuración de &quot;Canal de marketing&quot;, puede ver los datos de puntos de contacto para determinar qué puntos de contacto pueden necesitar [suprimirse](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) o [segmentarse](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md){target="_blank"}. Se recomienda auditar los datos de puntos de contacto dentro de un informe de &#39;[!DNL Marketo Measure] personas y puntos de contacto del comprador&#39; al final de cada mes o trimestre, si es posible. Esto garantizará que su atribución sea lo más precisa posible. El &#39;[!DNL Marketo Measure] 101 | El informe &quot;Posibles clientes/contactos por canal&quot; disponible de forma predeterminada es un buen punto de partida. Incluya los siguientes campos si aún no se han incluido para revisar algunos de los elementos de configuración más cruciales:
 
 * **Canal de mercadotecnia** - Ruta = Canal de mercadotecnia.Subcanal (valores establecidos en [!DNL Marketo Measure])
 * **Touchpoint Source** = utm_source
 * **Medium** = utm_medium (puntos de contacto en línea) O Tipo de campaña de CRM (puntos de contacto sin conexión)
 * **Página de referente** (se utilizó la configuración &#39;Canales en línea&#39;)
-* **Página de aterrizaje - Sin procesar** (usado en la configuración de &#39;Canales en línea&#39;) también es una entrada común para la supresión de puntos de contacto en la pestaña &#39;Configuración de punto de contacto&#39; de Configuración)
+* **Página de aterrizaje - Sin procesar** (se utilizó la configuración de &#39;Canales en línea&#39;) también es una entrada común para la supresión de puntos de contacto en la pestaña &#39;Configuración de punto de contacto&#39; de su Configuración
 * **URL del formulario** (una entrada común para la supresión de puntos de contacto en la pestaña &#39;Configuración de punto de contacto&#39; de Configuración)
 
 **BUYER ATTRIBUTION TOUCHPOINT BAT ()**
@@ -522,7 +522,7 @@ BAT Teniendo en cuenta que la relación principal es con la oportunidad, se util
 * ¿Cuántos ingresos de canalización nuevos puedo atribuir a cada uno de mis canales de marketing?
 * ¿Cuál de mis campañas obtuvo el retorno de la inversión más alto el trimestre pasado?
 
-Los [modelos de atribución](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) que proporcionan la mejor perspectiva de las métricas basadas en oportunidades son:
+Los [modelos de atribución](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"} que proporcionan la mejor perspectiva de las métricas basadas en oportunidades son:
 
 **Forma W** - El &#39;_Modelo De Canalización_&#39;. El modelo en forma de W incluye tres puntos de contacto de hitos. En este modelo, los puntos de contacto FT, LC y OC se atribuyen cada uno el 30 % del crédito de atribución. El 10 % restante se atribuye por igual a cualquier punto de contacto intermedio que se produzca entre los tres puntos de contacto de hito.
 
@@ -591,7 +591,7 @@ Resumir los datos de Buyer Attribution Touchpoint de sus oportunidades por el ca
    <td>Fecha de creación de la oportunidad (CRM) / Fecha de creación (Discover)</td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -643,7 +643,7 @@ Resumir los datos de Buyer Attribution Touchpoint de sus oportunidades por el ca
    <td>Fecha de creación de la oportunidad</td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -687,7 +687,7 @@ Este informe sería esencialmente el mismo que el primer ejemplo de Buyer Attrib
    <td>Fecha de cierre de oportunidad</td> 
   </tr>
   <tr>
-   <td>Intervalo de fechas</td> 
+   <td>Date Range</td> 
    <td><i>seleccione el intervalo de fechas deseado</i></td> 
   </tr>
   <tr>
@@ -704,47 +704,6 @@ Este informe sería esencialmente el mismo que el primer ejemplo de Buyer Attrib
 
 BAT **RECORDATORIO**: Es crucial que recuerde filtrar por las oportunidades específicas que desee incluir en los informes basados en la, especialmente cuando se trata de &quot;Oportunidades abiertas e ingresos de canalización&quot; vs. &quot;Ofertas e ingresos ganados cerrados&quot;. Esto se suele hacer mediante un filtro &quot;Fase de oportunidad&quot; (el filtro &quot;Oportunidad ganada&quot; = true/false también puede ser muy útil aquí).
 
-**5. ROI ([!DNL Marketo Measure] solo Discover)**
-
-Los paneles de detección [!DNL Marketo Measure] proporcionan una vista de alto nivel del rendimiento de marketing mediante los datos de atribución [!DNL Marketo Measure]. Estos paneles agregados proporcionan datos clave sobre el gasto en marketing y el retorno de la inversión que no están disponibles en los informes de CRM. Este entorno creado previamente le permite ver el rendimiento de marketing en consonancia con los datos de ROI, lo que le permite tomar decisiones procesables en relación con el marketing.
-
->[!TIP]
+>[!MORELIKETHIS]
 >
->Siempre que tenga alguna pregunta relacionada con el retorno de la inversión, el gasto o el costo, [!DNL Marketo Measure] Discover será el mejor lugar para generar informes.
-
-Los paneles de detección de [!DNL Marketo Measure] están compuestos por datos de puntos de contacto de atribución de Buyer Touchpoint y Comprador, así como datos clave de CRM. La principal diferencia entre los informes de CRM y los informes de [!DNL Marketo Measure] Discover es que los datos de punto de contacto en Discover se presentan más de forma &quot;agregada&quot; y se resumen por dimensión (canal de marketing, campaña, etc.) a diferencia de los registros de puntos de contacto individuales, que se pueden resumir a continuación. [!DNL Marketo Measure] Discover se usa para entender a alto nivel cuál de sus esfuerzos está teniendo el mayor impacto en los posibles clientes, las oportunidades de negocio, las ofertas y cuántos ingresos se les deben atribuir. Una vez que hayamos calculado los ingresos atribuidos a través de los distintos modelos de atribución (se recomienda Ruta completa para atribuir ingresos/reservas ganados cerrados), podemos medirlos con respecto a cuánto se gastó en la misma dimensión (Canal de marketing, Subcanal o Campaña). Esto nos da el **ROI**.
-
->[!TIP]
->
->Una de las cosas más importantes que debe recordar al realizar informes en Discover es qué tipo de datos está utilizando para filtrar. El tipo de fecha dictará qué conjunto de datos [!DNL Marketo Measure] está usando en los distintos mosaicos.
-
-* **Fecha de punto de contacto**: Muestra los datos relacionados que tenían una &quot;Fecha de punto de contacto&quot; en el periodo de tiempo especificado
-* **Fecha de creación**: muestra los datos relacionados que tenían una &quot;Fecha de creación&quot; en el periodo de tiempo especificado
-* **Fecha de cierre**: muestra los datos relacionados que tenían una &quot;Fecha de cierre&quot; en el periodo de tiempo especificado
-
-Al informar sobre el retorno de la inversión en [!DNL Marketo Measure] Discover, se recomienda usar un &quot;Tipo de fecha&quot; = &quot;Fecha de punto de contacto&quot;. Para determinar el retorno de cada dólar invertido, debemos asegurarnos de que los ingresos se atribuyan de nuevo a la fecha en que se hizo la inversión. &quot;Tipo de fecha&quot; = &quot;Fecha de punto de contacto&quot; garantiza que los informes estén estructurados de esta manera, en lugar de cuando se creó la oportunidad (fecha de creación) o se cerró (fecha de cierre). Echemos un vistazo más de cerca:
-
-Los filtros que se resaltan a continuación son cruciales para un informe centrado en el retorno de la inversión en [!DNL Marketo Measure] (lo más probable es que establezca estos filtros en los tableros &quot;Información general&quot;, &quot;CMO&quot; o &quot;ROI&quot;):
-
-**5.1 | ROI en el tablero &#39;Información general&#39;**
-
-![](assets/bizible-reporting-guide-4.png)
-
-El intervalo &quot;Fecha&quot; no solo establece la cohorte de puntos de contacto (por fecha de punto de contacto) que reciben atribución, sino que también define el intervalo que representan el mosaico o las columnas &quot;Gastar&quot;.
-[!DNL Marketo Measure] simplemente observa el intervalo &quot;Fecha&quot; para determinar cuánto se gastó en total o en los niveles de Canal de mercadotecnia, Subcanal o Campaña. Vea lo siguiente:
-
-![](assets/bizible-reporting-guide-5.png)
-
-La captura de pantalla anterior muestra los datos de gasto en marketing de los últimos 3 meses completos. En este ejemplo, se gastaron 12 970 $ en todos los canales. Este número está compuesto por los datos de gasto en marketing [!DNL Marketo Measure] procedentes de integraciones con cualquiera de las cuentas de anuncios conectadas (Google AdWords, Bing Ads, Facebook Ads, LinkedIn, DoubleClick) y cualquier gasto de marketing adicional que se haya cargado en su cuenta o que se haya extraído automáticamente de los registros de Campaign en su CRM. El ejemplo también muestra cuánto won cerrados &#39;Ingresos&#39; también pueden atribuirse a puntos de contacto que se produjeron durante el mismo intervalo de fechas (cuadros verdes). Así es como se calcula el retorno de la inversión: ingresos atribuidos a puntos de contacto procedentes de la inversión en el mismo intervalo de fechas:
-
-![](assets/bizible-reporting-guide-6.png)
-
-**RECORDATORIO**: [!DNL Marketo Measure] define &quot;Ingresos&quot; como ingresos ganados cerrados o reservas y define &quot;Ingresos de canalización&quot; como _ingresos abiertos o potenciales de oportunidades abiertas_.
-
-Otra conclusión importante del informe de ROI anterior es que los &quot;ingresos de la canalización&quot; se representan dentro del cuadro rojo. Esto significa que de los 12.970 dólares invertidos en los últimos 3 meses completos, actualmente estamos atribuyendo 705.199 dólares de &quot;Ingresos&quot; ganados cerrados, pero también estamos atribuyendo 6.905.532 dólares de ingresos potenciales abiertos (&quot;Ingresos de tubería&quot;) a puntos de contacto creados a partir de la misma inversión. Lo que esperaríamos ver es que una parte de los &quot;ingresos de la canalización&quot; se cierre con el tiempo, alimentando el número &quot;ingresos&quot;, y por lo tanto, el número de ROI aumentaría con el tiempo. El número &quot;Gastar&quot; está fijo porque no podemos retroceder en el tiempo para gastar más en los últimos 3 meses completos. Esta es la importancia de usar un &quot;Tipo de fecha&quot; de &quot;Fecha de punto de contacto&quot; en cualquier informe de ROI: define la cantidad (**I**)invertida y garantiza que la cantidad de (**R**)ingresos atribuidos se atribuya de nuevo a los mismos puntos de contacto que se originaron de la inversión (por cada dólar gastado, ¿cuánto se hizo?).
-
->[!TIP]
->
->Filtre en Canales de marketing, Subcanales o Campañas en los que sepa que los datos de gasto en marketing son completos y precisos. El ejemplo anterior es para todos los canales de marketing, pero si algunos canales no tienen cargados los datos de gasto en marketing relacionados, los informes de ROI podrían ser inexactos. Consulte el ejemplo siguiente, esta vez en el panel ROI, que se centra en las campañas dentro del canal de marketing de Búsqueda de pago, un canal con datos de gasto en marketing muy granulares a través de las integraciones.
-
-![](assets/bizible-reporting-guide-7.png)
+>[Nueva guía del panel Discover](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
