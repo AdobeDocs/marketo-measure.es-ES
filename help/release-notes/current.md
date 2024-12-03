@@ -3,10 +3,10 @@ description: Notas de la versión actual de  [!DNL Marketo Measure]
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
-workflow-type: ht
-source-wordcount: '1376'
-ht-degree: 100%
+source-git-commit: 9ea72d0e1cf0f754cc8fe844944b93705fb2b12f
+workflow-type: tm+mt
+source-wordcount: '1375'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ El canal de la sesión anterior ahora se transferirá si una nueva sesión se in
 
 Además, las sesiones que utilizan el inicio de sesión social (Google, Microsoft o Apple) ahora se combinan en una sesión continua, lo que garantiza una experiencia más fluida. Sin esta opción de transferencia, los inicios de sesión sociales podrían crear sesiones independientes debido a diferencias de referentes externos.
 
-Para los clientes nuevos, la transferencia del canal de sesión es ahora el comportamiento predeterminado. Los clientes existentes pueden habilitarlo activando la opción Transferencia de canal de sesión en Configuración → Atribución por contacto. Una vez activada, esta configuración no se puede deshacer.
+Para los clientes nuevos, la transferencia del canal de sesión es ahora el comportamiento predeterminado. Los clientes existentes pueden habilitarlo activando la opción Transferencia de canal de sesión en Configuración > Atribución Everytouch. Una vez activada, esta configuración no se puede deshacer.
 
 Documentación: [Definición de sesiones web de Marketo Measure](https://experienceleague.adobe.com/es/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
@@ -36,11 +36,11 @@ Documentación: [Panel de control del retorno de la inversión de palabra clave]
 
 Ahora puede crear segmentos utilizando los campos Campaña y Miembro de campaña, además de los campos Touchpoint y Contacto. Esta mejora le permite analizar y diseccionar los datos de forma más eficaz en Discover.
 
-![Reglas de segmento para miembros](assets/campaign-member.png)
+![Reglas de segmentos mejoradas](assets/mm-q4-release-1.png)
 
 ### Actualización: configuración de control de errores para exportaciones de CRM
 
-Hemos escuchado sus comentarios sobre el método de detener el trabajo y estamos introduciendo una nueva función en la interfaz de usuario. A partir de hoy, puede elegir si los trabajos de exportación deben pausarse cuando se producen errores. Use la nueva opción en **Mi cuenta** > **Configuración** → **CRM** → **General**. Este conmutador está activado de forma predeterminada para mejorar la integridad y visibilidad de los datos. Sin embargo, si prefiere no utilizar esta función, puede desactivarla en la interfaz de usuario y se reanudarán los trabajos de exportación. Esta actualización está diseñada para mejorar la fiabilidad de los procesos de administración de datos y, al mismo tiempo, ofrecerle un mayor control.
+Hemos escuchado sus comentarios sobre el método de detener el trabajo y estamos introduciendo una nueva función en la interfaz de usuario. A partir de hoy, puede elegir si los trabajos de exportación deben pausarse cuando se producen errores. Use la nueva opción en **Mi cuenta** > **Configuración** > **CRM** > **General**. Este conmutador está activado de forma predeterminada para mejorar la integridad y visibilidad de los datos. Sin embargo, si prefiere no utilizar esta función, puede desactivarla en la interfaz de usuario y se reanudarán los trabajos de exportación. Esta actualización está diseñada para mejorar la fiabilidad de los procesos de administración de datos y, al mismo tiempo, ofrecerle un mayor control.
 
 #### Fechas clave y despliegue gradual
 
@@ -65,7 +65,7 @@ Para ayudarle a adaptarse a este cambio, hemos creado una documentación sobre l
 
 <p>
 
-**Recordatorio: obsolescencia de campos de Salesforce, 14 de junio**
+### Recordatorio: Degradaciones en el campo de Salesforce, 14 de junio
 
 Como se anunció el año pasado, [eliminaremos gradualmente nuestros trabajos de exportación a objetos de contacto/posible cliente](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} para simplificar nuestra integración y eliminar la necesidad de exportar a objetos estándar de Salesforce. Puede obtener los mismos datos de los objetos Touchpoint siguiendo los pasos [documentados aquí](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. También se compartirá documentación sobre la creación de flujos de trabajo para añadir estos datos al objeto de posible cliente/contacto. La obsolescencia entrará en vigor el 14 de junio de 2024.
 
@@ -74,18 +74,18 @@ Este cambio traerá dos ventajas clave:
 * **Costes reducidos de API de Salesforce**: los clientes pueden esperar ver reducidos sus costes de API de Salesforce en aproximadamente un 10 %.
 * **Integración optimizada**: el mayor número de errores en nuestros trabajos de exportación está relacionado con estos procesos. Su eliminación agilizará considerablemente nuestra integración.
 
-**Panel de oportunidades atribuidas**
+### Panel de oportunidades atribuidas
 
 Estamos encantados de presentar el nuevo [Panel de oportunidades atribuidas](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, diseñado para proporcionarle una visión completa de cómo sus esfuerzos de marketing contribuyen a las oportunidades de canalización incipientes y maduras. Este panel le permite profundizar en los detalles de cada oportunidad abierta y cerrada atribuible a sus estrategias, con la flexibilidad de filtrar por etapa de oportunidad. Proporciona información sobre los canales, subcanales o campañas que ocupan los primeros puestos en términos de la cantidad de oportunidades atribuidas y muestra la cantidad total de oportunidades atribuidas junto con el recuento de oportunidades atribuidas abiertas y cerradas.
 
-**Sincronización de cookies de Marketo Engage para Marketo Measure Ultimate**
+### Sincronización de cookies de Marketo Engage para Marketo Measure Ultimate
 
 La sincronización de cookies de Marketo Engage ya está disponible para Marketo Measure Ultimate. Para utilizar esta función:
 
 1. En la página Esquemas de AEP, edite el esquema Persona B2B y añada el grupo de campos “Detalles de persona del Marketo Engage”.
 1. Al ingerir los datos en MMU, asigne el campo ID de cookie del grupo de campos al campo Cookies de Marketo Engage.
 
-**Fases de Boomerang habilitadas para clientes de nivel 2**
+### Fases de boomerang habilitadas para clientes de nivel 2
 
 Anteriormente, solo disponible para clientes de nivel 3, la función Fase de Boomerang también estará disponible para todos los clientes de nivel 2 a partir del 13 de junio de 2024. Para obtener información más detallada sobre esta funcionalidad, consulte la documentación siguiente.
 
@@ -99,14 +99,14 @@ Anteriormente, solo disponible para clientes de nivel 3, la función Fase de Boo
 
 <p>
 
-**Desuso de las funciones de Marketo Measure en respuesta a la eliminación gradual de las cookies de terceros**
+### Obsolescencia de las funciones de Marketo Measure en respuesta a la eliminación gradual de las cookies de terceros
 
 En respuesta a la creciente preocupación por la privacidad, las cookies de terceros se están eliminando gradualmente, y la fecha límite del tercer trimestre de 2024 de Google Chrome señala su fin. Marketo Measure dejará de utilizar determinadas funciones que dependen de cookies de terceros, específicamente el seguimiento entre dominios y la atribución de visualizaciones, que dependen de la cookie de impresión Google/DoubleClick. Este cambio no afectará a otras funcionalidades de Marketo Measure ni al uso de cookies de terceros. Siguiendo la cronología de Google, se espera que estas funcionalidades estén en desuso el 1 de junio, aunque los datos recopilados antes de esta fecha seguirán siendo accesibles para los clientes.
 
 * [Adaptación al desuso de las cookies de terceros en Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Cookies de Marketo Measure](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
-**Despliegue gradual de nuestra gestión de errores mejorada**
+### Despliegue gradual de nuestra gestión de errores mejorada
 
 Presentamos un despliegue por fases de la gestión de errores mejorada para los trabajos de exportación, comenzando con las notificaciones inmediatas en la aplicación para los errores de permisos y la transición a un nuevo enfoque en el que los trabajos de exportación se detendrán en el punto del error. Este cambio tiene como objetivo mejorar la integridad y visibilidad de los datos, lo que garantiza procesos de administración de datos más fluidos y fiables para nuestros usuarios. Para garantizar una transición sin problemas y una interrupción mínima de sus operaciones, estamos implementando estos cambios en dos fases:
 
@@ -125,7 +125,6 @@ Para ayudarle a adaptarse a este cambio, [hemos creado una documentación](/help
 
 <br>
 
-**Acción necesaria para la integración con LinkedIn**
+### Acción necesaria para la integración de LinkedIn
 
 LinkedIn ha lanzado recientemente una versión actualizada de su API de sincronización de posibles clientes. Vuelva a autenticar la conexión de LinkedIn en su instancia de Marketo Measure antes del 20 de mayo para evitar interrupciones.
-
