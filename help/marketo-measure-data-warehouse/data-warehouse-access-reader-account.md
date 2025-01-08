@@ -3,9 +3,9 @@ description: Acceso a la Data Warehouse - Cuenta de Reader - Documentación del 
 title: 'Acceso a Data Warehouse: Cuenta de Reader'
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: e9861f8032475d3e60a3bb3ebf67dfee520bbb75
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ Debe introducir algunos datos para conectar el almacén de datos de Snowflake a 
 
 >[!NOTE]
 >
->Cada herramienta tiene diferentes requisitos de conexión; se recomienda consultar la documentación de la herramienta específica que está intentando conectar.
+>Cada herramienta tiene diferentes requisitos de conexión; se recomienda que consulte la documentación de la herramienta específica que está intentando conectar.
 
 * **URI** (siempre obligatorio)
    * Es el nombre de dominio de la cuenta de Snowflake. Está contenido en una parte del vínculo de inicio de sesión del Snowflake.
