@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Integración de actividades - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] integración de actividades"
+description: Integración de actividades de [!DNL Marketo Engage] - [!DNL Marketo Measure]
+title: Integración de actividades de [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1660'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -86,13 +86,13 @@ Como parte de la integración general de [!DNL Marketo Measure] y [!DNL Marketo 
    * Página de formulario
    * Fecha de formulario
    * Plataforma
-   * Navegador
+   * Explorador
 
    >[!NOTE]
    >
    >Los campos de publicidad como Contenido de publicidad o Palabra clave no están disponibles en esta lista, ya que se reservan para las integraciones de nuestra plataforma de publicidad.
 
-## Tipos de actividades {#activity-types}
+## Tipos de actividad {#activity-types}
 
 Algunos tipos de actividades nos proporcionan el ID y el nombre del programa, por lo que es fácil asignarlos al ID y al nombre de la campaña en Buyer Touchpoint. Para otros, no hay ninguna asociación de programa, por lo que parte de la definición de reglas requiere que cree un Nombre de campaña de [!DNL Marketo Measure]. A continuación se muestran listas de cada categoría:
 
@@ -135,9 +135,9 @@ Enviar alerta (38)\
 Enviar correo electrónico de ventas (39)\
 Abrir correo electrónico de ventas (40)\
 Haga clic en Correo electrónico de ventas (41)\
-Añadir a la campaña de SFDC (42)\
-Eliminación de la campaña de SFDC (43)\
-Cambiar estado en la campaña de SFDC (44)\
+Añadir a SFDC Campaign (42)\
+Eliminar de SFDC Campaign (43)\
+Cambiar estado en SFDC Campaign (44)\
 Correo electrónico de recepción de ventas (45)\
 Campaña de solicitud (47)\
 Correo electrónico de ventas devuelto (48)\
@@ -159,9 +159,9 @@ Actividad personalizada (xxx)
 
 ## Asignación de canales {#channel-mapping}
 
-Para cualquiera de las reglas de un tipo de actividad con un ID de programa, el canal de programa de Marketo se determina a partir del programa. Utilizamos el canal de programa para asignarlo a sus canales sin conexión personalizados, por lo que debe asegurarse de que sus canales estén configurados correctamente [según se indica aquí](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+Para cualquiera de las reglas de un tipo de actividad con un ID de programa, el canal de programa de Marketo se determina a partir del programa. Utilizamos el canal de programa para asignarlo a sus canales sin conexión personalizados, por lo que debe asegurarse de que sus canales estén configurados correctamente [según se indica aquí](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}.
 
-Y para cualquiera de las reglas de un tipo de actividad sin un ID de programa, el primer paso fue crear un nombre de campaña. Use este nombre de campaña para configurar sus canales en línea personalizados [aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Y para cualquiera de las reglas de un tipo de actividad sin un ID de programa, el primer paso fue crear un nombre de campaña. Use este nombre de campaña para configurar sus canales en línea personalizados [aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}.
 
 Si los canales de sus actividades de Marketo no están correctamente configurados, es probable que sus nuevos puntos de contacto entren en el canal &quot;Otro&quot;.
 

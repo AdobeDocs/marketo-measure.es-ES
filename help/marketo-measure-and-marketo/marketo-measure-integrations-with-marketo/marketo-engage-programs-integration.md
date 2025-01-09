@@ -1,10 +1,10 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Integración de programas - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] programas de integración"
+description: Integración de programas de [!DNL Marketo Engage] - [!DNL Marketo Measure]
+title: Integración de programas de [!DNL Marketo Engage]
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 1%
@@ -99,16 +99,12 @@ Mediante la importación de datos de los programas de Marketo, los costes se des
 
 **Asignaciones de campos**
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
+<table><thead>
   <tr> 
    <th>biz_ad_campaigns</th> 
    <th>Marketo</th> 
-  </tr> 
+  </tr></thead>
+<tbody>
   <tr> 
    <td>ID</td> 
    <td>Identificación</td> 
@@ -118,24 +114,60 @@ Mediante la importación de datos de los programas de Marketo, los costes se des
    <td>(compruebe si el programa sigue existiendo a través de la API)</td> 
   </tr> 
   <tr> 
-   <td><p>NAME</p></td> 
+   <td>NAME</td> 
    <td>name</td> 
   </tr> 
  </tbody> 
 </table>
 
-| biz_campaign_members | Marketo |
-|---|---|
-| ID | &quot;MarketoProgramMembership&quot;_ProgramId_Lead Id |
-| MODIFIED_DATE | updatedAt |
-| CREATED_DATE | memberDate |
-| LEAD_ID | ID (inscripción a la lista) |
-| LEAD_EMAIL | Correo electrónico (miembros de lista) |
-| STATUS | progressionStatus |
-| HAS_RESPONDED | reachedStatus |
-| CAMPAIGN_NAME | programName |
-| CAMPAIGN_ID | programId |
-| CAMPAIGN_TYPE | canal |
+<table><thead>
+  <tr>
+    <th>biz_campaign_members</th>
+    <th>Marketo</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>ID</td>
+    <td>"MarketoProgramMembership"_ProgramId_Lead Id</td>
+  </tr>
+  <tr>
+    <td>MODIFIED_DATE</td>
+    <td>updatedAt</td>
+  </tr>
+  <tr>
+    <td>CREATED_DATE</td>
+    <td>memberDate</td>
+  </tr>
+  <tr>
+    <td>LEAD_ID</td>
+    <td>ID (inscripción a la lista)</td>
+  </tr>
+  <tr>
+    <td>LEAD_EMAIL</td>
+    <td>Correo electrónico (miembros de lista)</td>
+  </tr>
+  <tr>
+    <td>STATUS</td>
+    <td>progressionStatus</td>
+  </tr>
+  <tr>
+    <td>HAS_RESPONDED</td>
+    <td>reachedStatus</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_NAME</td>
+    <td>programName</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_ID</td>
+    <td>programId</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_TYPE</td>
+    <td>canal</td>
+  </tr>
+</tbody>
+</table>
 
 ## Asignación de cookies {#cookie-mapping}
 
