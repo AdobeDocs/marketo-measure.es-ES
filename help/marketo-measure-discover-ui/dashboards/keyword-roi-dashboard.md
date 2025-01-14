@@ -2,9 +2,10 @@
 description: Tablero de ROI de palabras clave - [!DNL Marketo Measure] - Producto
 title: Panel de control del retorno de la inversión de palabra clave
 feature: Reporting
-source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
+exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
+source-git-commit: f1adf53a9bf3adbc77d52c12dbafb09a28e51178
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '403'
 ht-degree: 3%
 
 ---
@@ -31,10 +32,10 @@ Desglose por palabras clave específicas para ver las oportunidades influenciada
 
 * **Palabra clave**
 * **Campaña**
-* **ID de cuenta de publicidad** (próximamente)
-* **Nombre de cuenta de anuncio** (próximamente)
-* **ID del grupo de anuncios** (próximamente)
-* **Nombre del grupo de anuncios** (próximamente)
+* **ID de cuenta de publicidad**
+* **Nombre de cuenta de publicidad**
+* **Id. de grupo de anuncios**
+* **Nombre del grupo de anuncios**
 * **Costo**: costos totales de orígenes de datos conectados.
 * **Ingresos atribuidos**: Contribución de ingresos total, basada en el modelo de atribución elegido, de Oportunidades con puntos de contacto que se cerraron dentro del período de fecha filtrado
 * **Ingresos atribuidos realizados**: Contribución de ingresos totales, basada en el modelo de atribución elegido, de Oportunidades con puntos de contacto dentro del período de fecha filtrado, independientemente del momento en que se cerraron.
@@ -52,10 +53,10 @@ Desglose por palabras clave específicas para ver las oportunidades influenciada
 
 * **Palabra clave**
 * **Campaña**
-* **ID de cuenta de publicidad** (próximamente)
-* **Nombre de cuenta de anuncio** (próximamente)
-* **ID del grupo de anuncios** (próximamente)
-* **Nombre del grupo de anuncios** (próximamente)
+* **ID de cuenta de publicidad**
+* **Nombre de cuenta de publicidad**
+* **Id. de grupo de anuncios**
+* **Nombre del grupo de anuncios**
 * **Costo**
 * **Nuevos posibles clientes**: Número total de nuevos posibles clientes generados, incluidos los posibles clientes tocados y no tocados.
 * **Costo por nuevo cliente potencial**: El costo promedio por nuevo cliente potencial, derivado del costo total dividido por el número total de nuevos clientes potenciales.
