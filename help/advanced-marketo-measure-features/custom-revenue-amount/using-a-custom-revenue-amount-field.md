@@ -4,7 +4,7 @@ description: Uso de un campo de importe de ingresos personalizado - [!DNL Market
 title: Uso de un campo de importe de ingresos personalizado
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
+source-git-commit: 03342bde87b75ab702eea4c63b581479a7e303c1
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 2%
@@ -104,6 +104,6 @@ Los siguientes pasos son para usuarios de Salesforce Classic. Si has cambiado a 
 
    Una vez que haya completado estos pasos, las oportunidades deberán actualizarse para que el flujo de trabajo almacene en déclencheur el nuevo valor del campo [!UICONTROL oportunidad personalizada].
 
-   Esto se puede lograr ejecutando las oportunidades a través del Cargador de datos dentro de SFDC. Encuentre detalles sobre el uso del cargador de datos en [este artículo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Esto se puede lograr ejecutando las oportunidades a través del Cargador de datos dentro de SFDC. Encuentre detalles sobre el uso del cargador de datos en [este artículo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
 
 Si tiene alguna pregunta, no dude en ponerse en contacto con el equipo de la cuenta de Adobe (su administrador de cuentas) o con [[!DNL Marketo] Asistencia](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
