@@ -4,9 +4,9 @@ description: Integración de programas de [!DNL Marketo Engage] - [!DNL Marketo 
 title: Integración de programas de [!DNL Marketo Engage]
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
+source-git-commit: c0fca7f9a91763aeb211973630bbe7a5fd3dc880
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1297'
 ht-degree: 1%
 
 ---
@@ -94,6 +94,10 @@ En la lista de canales de programa de Marketo, deseará asignar los valores a lo
 ## Costos de programa {#program-costs}
 
 Mediante la importación de datos de los programas de Marketo, los costes se descargan automáticamente de los costes del periodo y el coste notificado en Marketo se distribuye a lo largo del mes asignado. Por ejemplo, si se informa de 1000 $ para enero de 2021, los 1000 $ se dividen en 31 días. Los costos se pueden encontrar en [!DNL Marketo Measure Discover].
+
+>[!NOTE]
+>
+>Marketo Measure solo admite una entrada de coste de período por mes. Para asegurarse de que se importan todos los costes, añada el coste mensual total en una sola entrada. No se admiten varios movimientos de coste de período para el mismo mes.
 
 ## Cómo funciona {#how-it-works}
 
