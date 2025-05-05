@@ -16,7 +16,7 @@ ht-degree: 6%
 ## Direcciones {#directions}
 
 1. En el formulario que está editando, seleccione la opción **[!UICONTROL Configuración]** en la esquina derecha.
-1. Busque un área etiquetada [!UICONTROL  como &quot;Análisis de web externo&quot;.] Aquí es donde suelta el fragmento de código de seguimiento [!DNL Marketo Measure].
+1. Busque un área etiquetada [!UICONTROL &#x200B; como &quot;Análisis de web externo&quot;.] Aquí es donde suelta el fragmento de código de seguimiento [!DNL Marketo Measure].
 
 ## JavaScript de [!DNL Marketo Measure] {#marketo-measure-javascript}
 

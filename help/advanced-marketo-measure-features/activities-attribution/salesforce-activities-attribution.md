@@ -72,11 +72,11 @@ Probablemente quiera colocar estos nuevos puntos de contacto en su [canal de mer
 >
 >empieza por ( saliente&#42; )
 >
-contiene ( &#42;saliente&#42; )
+>contiene ( &#42;saliente&#42; )
 >
-termina por ( &#42;saliente )
+>termina por ( &#42;saliente )
 >
-Ningún comodín significa básicamente &quot;es igual a&quot;, por lo que asegúrese de utilizarlos según sea necesario.
+>Ningún comodín significa básicamente &quot;es igual a&quot;, por lo que asegúrese de utilizarlos según sea necesario.
 
 | **Operador** | **Caso de uso** |
 |---|---|
@@ -93,4 +93,4 @@ Y por último, pero no menos importante, tiene la opción de ingresar costos par
 
 >[!MORELIKETHIS]
 >
-[Preguntas frecuentes sobre la atribución de actividades](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[Preguntas frecuentes sobre la atribución de actividades](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

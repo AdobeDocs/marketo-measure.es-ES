@@ -56,7 +56,7 @@ Se recomienda utilizar una utilidad de generación automática para crear diez e
 
 * Los pasos para descargar y configurar la utilidad [los puede encontrar aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígenes.
+Para los que tengan un _&#x200B;**derecho de CDP**&#x200B;_: cree esquemas en la página Orígenes.
 
 * Desde un origen, seleccione Añadir datos > Usar plantillas
 
