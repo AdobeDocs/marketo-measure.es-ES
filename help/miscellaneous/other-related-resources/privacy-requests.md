@@ -16,10 +16,10 @@ Este documento proporciona información general sobre la administración de soli
 
 Puede enviar solicitudes individuales para acceder a los datos de consumidores y eliminarlos de [!DNL Marketo Measure] de dos maneras:
 
-* A través de la [[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Mediante la API **[!DNL Privacy Service]**. Consulte la documentación [aquí](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} y la referencia de API [aquí](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* A través de la [[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=es){target="_blank"}.
+* Mediante la API **[!DNL Privacy Service]**. Consulte la documentación [aquí](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es){target="_blank"} y la referencia de API [aquí](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-El [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} admite dos tipos de solicitudes: acceso a datos y eliminación de datos.
+El [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"} admite dos tipos de solicitudes: acceso a datos y eliminación de datos.
 
 Veamos cómo se pueden crear solicitudes de acceso y eliminación.
 

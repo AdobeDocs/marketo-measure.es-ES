@@ -35,4 +35,4 @@ Este informe muestra el número de oportunidades que generan sus canales de mark
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Informes de SFDC de existencias](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Informes de SFDC de existencias](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
