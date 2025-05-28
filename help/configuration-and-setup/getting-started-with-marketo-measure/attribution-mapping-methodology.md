@@ -4,10 +4,10 @@ description: 'Metodología de asignación de atribución:  [!DNL Marketo Measure
 title: Metodología de asignación de atribuciones
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
+source-git-commit: 90d0d6481e5b338d08a56f555ca3addea8bdd304
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '611'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,10 @@ Ventajas: Este método de atribución es muy eficaz para la mayoría de las empr
 Desventajas: Si hay SLA de marketing y ventas sólidos que definen quién debería recibir crédito por qué, este método podría resultar problemático. Además, si los usuarios no utilizan jerarquías de cuenta para definir unidades de negocio específicas dentro de una cuenta más grande (por ejemplo: IBM), las interacciones de marketing específicas de una unidad de negocio pueden propagarse entre otras oportunidades de unidad de negocio.
 
 ## Asignación de funciones de contacto de oportunidad {#opportunity-contact-role-mapping}
+
+>[!NOTE]
+>
+>Los métodos de asignación de funciones de contacto solo están disponibles para los que utilizan Salesforce como CRM. No está disponible para los usuarios de Microsoft Dynamics debido a la falta de un objeto de función de contacto dentro de ese CRM.
 
 Aunque la mayoría de los clientes utilizan la asignación de Id. de cuenta, [!DNL Marketo Measure] puede buscar los roles de contacto (contactos asociados a la oportunidad) dentro de una oportunidad para desglosar el proceso de atribución. Esto significa que [!DNL Marketo Measure] solo insertará interacciones de marketing asociadas a los roles de contacto en la oportunidad como puntos de contacto de atribución del comprador. A continuación se presenta una representación de este proceso.
 
