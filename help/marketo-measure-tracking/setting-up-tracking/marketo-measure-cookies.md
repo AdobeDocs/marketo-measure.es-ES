@@ -1,19 +1,19 @@
 ---
 unique-page-id: 18874590
-description: “Cookies de [!DNL Marketo Measure] - [!DNL Marketo Measure]"
-title: “Cookies de [!DNL Marketo Measure]”
+description: '[!DNL Marketo Measure] cookies:  [!DNL Marketo Measure]'
+title: Cookies de [!DNL Marketo Measure]
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Cookies de Marketo Measure {#marketo-measure-cookies}
 
-Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que se cargan en el sitio al aplicar el JavaScript de [!DNL Marketo Measure] a las páginas de aterrizaje. Esta información puede resultar útil para el equipo de desarrollo web durante la implementación.
+Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que se cargan en el sitio al aplicar el JavaScript de [!DNL Marketo Measure] a las páginas de destino. Esta información puede resultar útil para el equipo de desarrollo web durante la implementación.
 
 >[!IMPORTANT]
 >
@@ -106,7 +106,7 @@ Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que s
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Terceros, dominio=.<a href="http://bizibly.com/">bizibly.com</a></td>
+    <td>Terceros, dominio=.<a href="https://bizibly.com/">bizibly.com</a></td>
     <td>Asignación entre el ID de cookie de Marketo Measure en el dominio del inquilino y su ID de cookie de impresión Doubleclick.</td>
     <td>1 año</td>
     <td>Sí</td>

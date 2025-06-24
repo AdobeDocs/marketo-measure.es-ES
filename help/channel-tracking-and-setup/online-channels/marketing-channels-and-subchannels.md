@@ -4,9 +4,9 @@ description: Canales y subcanales de marketing de  [!DNL Marketo Measure]
 title: Canales y subcanales de marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Cada vez que reciba un visitante a una de las páginas de Contenido de su sitio 
 * Medio
 * Origen
 * Campaña
-* Página de aterrizaje
+* Página de destino
 * Sitio web de referencia
 
 Para personalizar el “bloque” en el que se ubicarán sus Clientes potenciales en función de sus parámetros de UTM, puede utilizar Reglas de canal. Para obtener más información sobre la configuración y el mantenimiento de sus Reglas del canal, [haga clic aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
@@ -45,7 +45,7 @@ Los subcanales son la segunda pieza del rompecabezas al agrupar los Clientes pot
 
 El diagrama siguiente ilustra un ejemplo de un Canal de marketing, Subcanal y Contenido basado en una página web con la siguiente URL:
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial)*
+`http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial`
 
 En este caso, el Contenido al que el usuario intenta acceder es la Guía de introducción a la atribución de marketing B2B. [!DNL Marketo Measure] analizará la URL que lleva a este Contenido mediante las Reglas de canal configuradas en esta organización y las utilizará para “agrupar” este cliente potencial en el Canal de marketing “Social de pago” y el Subcanal “LinkedIn”.
 
