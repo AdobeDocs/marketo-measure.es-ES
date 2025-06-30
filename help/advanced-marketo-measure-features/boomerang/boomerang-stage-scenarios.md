@@ -4,9 +4,9 @@ description: 'Escenarios de escenario de boomerang:  [!DNL Marketo Measure]'
 title: Escenarios de fases de Boomerang
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: ce54eb497c55c4ab8da55e9b2803dc59a87c7267
+source-git-commit: 855ae5abe6f8782ed1883f85be545c11bf86e7ce
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ El MQL-01 (último) del posible cliente 2 se convertirá en el primer MQL de la 
 
 El seguimiento de la fase SQL se realiza con fases personalizadas y no con fases boomerang. Aunque hay tres incidencias de la fase SQL entre el posible cliente 1 y el posible cliente 2, solo la última incidencia SQL se incluirá como punto de contacto en la oportunidad.
 
-El punto de contacto SAL-01 (último) del cliente potencial 1 se transfiere como punto de contacto en la oportunidad. El posible cliente 1 se convierte en un contacto con una oportunidad, que se considera el contacto OC. El punto de contacto SAL-01 (último) del posible cliente 2 se creará como punto de contacto porque esta transición de fase se produjo _después_ del contacto OC.
+El punto de contacto SAL-01 (último) del cliente potencial 1 se transfiere como punto de contacto en la oportunidad. El posible cliente 1 se convierte en un contacto con una oportunidad, que se considera el contacto OC. El punto de contacto SAL-01 (último) del posible cliente 2 no se creará como punto de contacto porque esta transición de fase se produjo _después_ del contacto OC.
 
 Los puntos de contacto FT, LC y MQL, SQL, SAL (naranja) del posible cliente 3 se produjeron después del punto de contacto OC en la oportunidad. Estos puntos de contacto se incluyen en la oportunidad, pero se consideran &quot;toques intermedios&quot;.
 
