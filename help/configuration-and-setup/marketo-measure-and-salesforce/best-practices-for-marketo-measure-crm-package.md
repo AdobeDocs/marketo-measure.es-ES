@@ -50,11 +50,11 @@ Otras razones que podrían déclencheur una revisión...
 
 >[!NOTE]
 >
->Cuando deshabilita la exportación de datos de Marketo Measure a Salesforce, no se eliminará ningún dato existente. Para quitarlo, siga los pasos de [este artículo de ayuda de Salesforce](https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
+>Cuando deshabilita la exportación de datos de Marketo Measure a Salesforce, no se eliminará ningún dato existente. Para quitarlo, siga los pasos de [este artículo de ayuda de Salesforce](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Actualizar paquete de Buyer Touchpoint](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] Conjuntos de permisos](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [Carpeta para compartir informes y paneles](https://help.salesforce.com/s/articleView?language=en_US&amp;id=analytics_share_folder.htm&amp;type=0)
+>* [Carpeta para compartir informes y paneles](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 >* [Conectar Marketo Measure a Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

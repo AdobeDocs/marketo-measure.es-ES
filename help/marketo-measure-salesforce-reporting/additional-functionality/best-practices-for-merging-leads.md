@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Al combinar posibles clientes en [!DNL Salesforce], siempre es mejor tener cuidado de no perder datos.
 
-Para tu referencia, aquí hay un desglose de [cómo combinar posibles clientes](https://help.salesforce.com/s/articleView?id=leads_merge.htm&amp;language=en_US&amp;type=5) de la asistencia de [!DNL Salesforce].
+Para tu referencia, aquí hay un desglose de [cómo combinar posibles clientes](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5) de la asistencia de [!DNL Salesforce].
 
 En [!DNL Marketo Measure] aparece cuando es el momento de seleccionar los campos que se rellenan en el registro combinado. Al seleccionar el registro maestro, compruebe que los campos [!DNL Marketo Measure] estén seleccionados para trasladarse al nuevo registro.
 

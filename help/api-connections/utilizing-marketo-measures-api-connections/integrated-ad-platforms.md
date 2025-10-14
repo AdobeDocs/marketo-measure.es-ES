@@ -101,7 +101,7 @@ El Generador de URL de Google es una herramienta estándar para crear direccione
 
 **Hoja de cálculo de Google generada por EpikOne**
 
-Esta hoja de cálculo tiene una fórmula que genera automáticamente las direcciones URL de destino etiquetadas. Es una buena herramienta si necesita etiquetar un gran número de vínculos. Obtenga acceso a la hoja de cálculo [aquí](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
+Esta hoja de cálculo tiene una fórmula que genera automáticamente las direcciones URL de destino etiquetadas. Es una buena herramienta si necesita etiquetar un gran número de vínculos. Obtenga acceso a la hoja de cálculo [aquí](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"}.
 
 **Herramienta de etiquetado de vínculos de Rafflecopter**
 

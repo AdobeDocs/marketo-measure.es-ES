@@ -27,7 +27,7 @@ El conjunto de permisos administrados permite a un administrador de SFDC crear, 
 
 * Ver y editar conjunto de permisos de posibles clientes convertidos
 
-Esto permite a [!DNL Marketo Measure] decorar posibles clientes después de convertirlos en contactos. Si este conjunto de permisos no está habilitado, puede haber brechas significativas en el seguimiento de datos. Encontrará más información en [[!DNL Salesforce Trailblazer] la comunidad](https://help.salesforce.com/s/articleView?language=en_US&amp;id=leads_view_edit_converted.htm&amp;type=5).
+Esto permite a [!DNL Marketo Measure] decorar posibles clientes después de convertirlos en contactos. Si este conjunto de permisos no está habilitado, puede haber brechas significativas en el seguimiento de datos. Encontrará más información en [[!DNL Salesforce Trailblazer] la comunidad](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
 
 * Casilla de verificación de usuario de marketing [!DNL Salesforce]
 

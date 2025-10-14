@@ -64,7 +64,7 @@ No olvide establecer reglas diferentes para Tareas o Eventos. Debe saber qué ob
 
 ![](assets/5.png)
 
-Probablemente quiera colocar estos nuevos puntos de contacto en su [canal de mercadotecnia](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"} correspondiente. Para ello, defina el Canal con su nueva asignación de Campaña que acaba de crear.
+Probablemente quiera colocar estos nuevos puntos de contacto en su [canal de mercadotecnia](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"} correspondiente. Para ello, defina el Canal con su nueva asignación de Campaña que acaba de crear.
 
 >[!TIP]
 >
@@ -87,7 +87,7 @@ Probablemente quiera colocar estos nuevos puntos de contacto en su [canal de mer
 
 ![](assets/6.png)
 
-Y por último, pero no menos importante, tiene la opción de ingresar costos para sus nuevos canales. La [carga de gasto en mercadotecnia](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} le permite ingresar su gasto a nivel de canal, subcanal o campaña. Con sus nuevas [!DNL Marketo Measure] campañas, puede agregar esos costos relacionados por mes y luego ver el ROI de cada campaña.
+Y por último, pero no menos importante, tiene la opción de ingresar costos para sus nuevos canales. La [carga de gasto en mercadotecnia](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} le permite ingresar su gasto a nivel de canal, subcanal o campaña. Con sus nuevas [!DNL Marketo Measure] campañas, puede agregar esos costos relacionados por mes y luego ver el ROI de cada campaña.
 
 ![](assets/7.png)
 

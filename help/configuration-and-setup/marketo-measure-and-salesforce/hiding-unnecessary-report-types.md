@@ -29,4 +29,4 @@ Una vez finalizada la instalación y comenzado a usar los informes, su organizac
 
 >[!MORELIKETHIS]
 >
->[Salesforce - Ocultar Tipos De Informes No Utilizados](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&amp;type=5&amp;language=en_us)
+>[Salesforce - Ocultar Tipos De Informes No Utilizados](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

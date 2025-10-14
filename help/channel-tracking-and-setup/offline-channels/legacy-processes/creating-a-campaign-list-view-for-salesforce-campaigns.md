@@ -44,4 +44,4 @@ La vista de lista de campañas que se puede crear le permite tener una ubicació
 
 >[!MORELIKETHIS]
 >
->[Resolución de problemas comunes con la edición en línea de la vista de lista](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}
+>[Resolución de problemas comunes con la edición en línea de la vista de lista](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

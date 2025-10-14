@@ -29,7 +29,7 @@ como parte del proyecto. [Firme nuestro contrato de licencia de colaborador](htt
 ## Reseñas de código
 
 Todas las solicitudes deben llegar en forma de solicitudes de extracción y el comité de proyectos
-deberá revisarlas. Consulte la [documentación de las solicitudes de extracción ](https://help.github.com/articles/about-pull-requests/) para obtener más información sobre cómo enviar solicitudes de extracción.
+deberá revisarlas. Consulte la [documentación de las solicitudes de extracción &#x200B;](https://help.github.com/articles/about-pull-requests/) para obtener más información sobre cómo enviar solicitudes de extracción.
 
 <!--
 Lastly, follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
