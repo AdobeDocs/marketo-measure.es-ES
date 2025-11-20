@@ -2,12 +2,12 @@
 cloud: Experience Cloud
 product: Bizible
 audience: end-user
-user-guide-title: “Guía de [!DNL Marketo Measure]”
-user-guide-description: “[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía”.
+user-guide-title: Guía de [!DNL Marketo Measure]
+user-guide-description: '[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía.'
 source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
       + [Adición del script de  [!DNL Marketo Measure] ](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Adición del script de  [!DNL Marketo Measure]  a través del administrador de etiquetas de Google](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
       + [Datos recopilados por JavaScript](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
-      + Adición del script de [!DNL Marketo Measure] a diferentes proveedores de formularios {#adding-marketo-measure-script-to-different-form-providers}
+      + Agregando script [!DNL Marketo Measure] a diferentes proveedores de formularios {#adding-marketo-measure-script-to-different-form-providers}
          + [Adición del JavaScript de  [!DNL Marketo Measure]  a Pardot](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Adición del script de  [!DNL Marketo Measure]  a formularios de Lightbox](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
          + [Adición del script de  [!DNL Marketo Measure]  a páginas de Sitecore](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-sitecore-pages.md)
@@ -42,7 +42,7 @@ ht-degree: 100%
       + [Cookies de [!DNL Marketo Measure]](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
       + [Definición de sesiones web de  [!DNL Marketo Measure] ](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [Prácticas recomendadas para pruebas](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
-+ Configuración e instalación {#configuration-and-setup}
++ Configuración y configuración {#configuration-and-setup}
    + Introducción a [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Generación y asignación de puntos de contacto](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [Metodología de asignación de atribuciones](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
@@ -69,7 +69,7 @@ ht-degree: 100%
    + Pruebas de zona protegida {#sandbox-testing}
       + [Pruebas de la integración de  [!DNL Marketo Measure]  con una zona protegida de Salesforce](configuration-and-setup/sandbox-testing/testing-the-marketo-measure-integration-with-a-salesforce-sandbox.md)
       + [Migración de zona protegida de Salesforce a producción](configuration-and-setup/sandbox-testing/salesforce-sandbox-to-production-migration.md)
-   + Información de [!DNL Marketo Measure] (aplicación Canvas) {#marketo-measure-insights-canvas-app}
+   + [!DNL Marketo Measure] perspectivas (aplicación de lienzo) {#marketo-measure-insights-canvas-app}
       + [Información explicada de [!DNL Marketo Measure]](configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-explained.md)
       + [Configuración de información de [!DNL Marketo Measure]](configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md)
 + Seguimiento y configuración de canales {#channel-tracking-and-setup}
@@ -79,7 +79,7 @@ ht-degree: 100%
       + [Parámetros UTM](channel-tracking-and-setup/online-channels/utm-parameters.md)
       + [Canales y subcanales de marketing](channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
       + [Prácticas recomendadas para configurar parámetros UTM](channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-   + Canales sin conexión {#offline-channels}
+   + Canales fuera de línea {#offline-channels}
       + [Prácticas recomendadas para canales sin conexión](channel-tracking-and-setup/offline-channels/best-practices-for-offline-channels.md)
       + [Configuración de canales personalizados sin conexión](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Sincronización de campañas personalizadas](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
@@ -91,8 +91,8 @@ ht-degree: 100%
          + [Listas de marketing y campañas de Dynamics](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
          + [Sincronización de datos históricos](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
          + [Sincronización de campañas sin conexión](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
-+ Conexiones de API {#api-connections}
-   + Uso conexiones de API de [!DNL Marketo Measure] {#utilizing-marketo-measures-api-connections}
++ Conexiones API {#api-connections}
+   + Utilizando las conexiones API de [!DNL Marketo Measure] {#utilizing-marketo-measures-api-connections}
       + [Plataformas de anuncios integradas](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
       + [Información general sobre permisos de integración](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [Prácticas recomendadas para conexiones de API](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
@@ -108,14 +108,14 @@ ht-degree: 100%
       + [Costes de canales de marketing](marketing-spend/spend-management/marketing-channel-costs.md)
       + [Informe de gastos de marketing](marketing-spend/spend-management/report-marketing-spend.md)
       + [Costes de campañas de CRM](marketing-spend/spend-management/crm-campaign-costs.md)
-+ Funciones avanzadas de [!DNL Marketo Measure] {#advanced-marketo-measure-features}
++ Características avanzadas de [!DNL Marketo Measure] {#advanced-marketo-measure-features}
    + Modelos de atribución personalizados {#custom-attribution-models}
       + [Modelo de atribución personalizado y configuración](advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
       + [Prácticas recomendadas para el modelo personalizado](advanced-marketo-measure-features/custom-attribution-models/best-practices-for-custom-model.md)
       + [Prácticas recomendadas para la asignación de fases](advanced-marketo-measure-features/custom-attribution-models/best-practices-for-stage-mapping.md)
       + [Configuración de modelo personalizado: Habilitar el seguimiento del historial de campos](advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
       + [Preguntas frecuentes sobre el modelo de aprendizaje automático](advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
-   + Configuración de puntos de contacto {#touchpoint-settings}
+   + Configuración de Touchpoint {#touchpoint-settings}
       + [Prácticas recomendadas para la configuración de puntos de contacto](advanced-marketo-measure-features/touchpoint-settings/best-practices-for-touchpoint-settings.md)
       + [Eliminación de puntos de contacto y supresión de puntos de contacto](advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
       + [Por qué nunca se deben eliminar los puntos de contacto](advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
@@ -130,16 +130,16 @@ ht-degree: 100%
       + [Fases y puntos de contacto de Boomerang](advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md)
       + [Configuración de fases de Boomerang](advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md)
       + [Escenarios de fases de Boomerang](advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md)
-   + Importe de ingresos personalizado {#custom-revenue-amount}
+   + Importe de ingresos personalizados {#custom-revenue-amount}
       + [Prácticas recomendadas para utilizar un importe de ingresos personalizado](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [Uso de un campo de importe de ingresos personalizado](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
       + [Uso del cargador de datos para actualizar el campo de importe personalizado de  [!DNL Marketo Measure] ](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
-   + Atribución de visualizaciones {#view-through-attribution}
+   + Ver mediante atribución {#view-through-attribution}
       + [Preguntas frecuentes sobre la atribución de visualizaciones de [!DNL Marketo Measure]](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
       + [Configuración de la atribución de visualizaciones del administrador de campañas de DoubleClick](advanced-marketo-measure-features/view-through-attribution/configuring-doubleclick-campaign-manager-view-through-attribution.md)
    + Campos de puntos de contacto {#touchpoint-fields}
       + [Campos de puntos de contacto](advanced-marketo-measure-features/touchpoint-fields/touchpoint-fields.md)
-   + Marketing basado en cuentas {#account-based-marketing}
+   + Marketing basado en la cuenta {#account-based-marketing}
       + [Atribución basada en cuentas](advanced-marketo-measure-features/account-based-marketing/account-based-attribution.md)
       + [Información general sobre el marketing basado en cuentas](advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)
    + Pruebas A/B {#a-b-testing}
@@ -152,21 +152,21 @@ ht-degree: 100%
       + [Configuración](advanced-marketo-measure-features/multi-currency/settings.md)
       + [Informes de Discover](advanced-marketo-measure-features/multi-currency/discover-reporting.md)
       + [Preguntas frecuentes (multidivisa)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
-+ Interfaz de usuario de Discover de [!DNL Marketo Measure] {#marketo-measure-discover-ui}
-   + Tableros {#dashboards}
-      + [Descubra los conceptos básicos del panel](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
-      + [Nueva guía del panel Discover](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Directiva de visibilidad de datos del panel](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
-      + [Panel de oportunidades atribuidas](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
-      + [Panel de ingresos atribuidos](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-      + [Panel de participación](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
++ IU de detección [!DNL Marketo Measure] {#marketo-measure-discover-ui}
+   + Paneles de control {#dashboards}
+      + [Descubra los conceptos básicos del panel de control](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Nueva guía del panel de control Discover](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
+      + [Directiva de visibilidad de datos del panel de control](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Panel de control de oportunidades atribuidas](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
+      + [Panel de control de ingresos atribuidos](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Panel de control de participación](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
       + [Panel de control del retorno de la inversión de palabra clave](marketo-measure-discover-ui/dashboards/keyword-roi-dashboard.md)
-      + [Panel de velocidad del posible cliente](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
-      + [Panel de velocidad de oportunidad](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
-      + [Panel de Passport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Panel de información general sobre ingresos](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Panel de ROI ](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Panel de tráfico web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+      + [Panel de control de velocidad del posible cliente](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Panel de control de velocidad de oportunidad](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Panel de control de Passport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Panel de control de información general sobre ingresos](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Panel de control de ROI ](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Panel de control de tráfico web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
 + [!DNL Marketo Measure] y Adobe {#marketo-measure-and-adobe}
    + [Integraciones de [!DNL Marketo Measure] con Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [Integraciones de [!DNL Marketo Measure] con Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
@@ -187,11 +187,11 @@ ht-degree: 100%
       + [Integración de actividades de Marketo Engage](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-activities-integration.md)
       + [Integración de personas de Marketo Engage](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-people-integration.md)
       + [Integración de programas de Marketo Engage](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md)
-+ Informes de Salesforce de [!DNL Marketo Measure] {#marketo-measure-salesforce-reporting}
++ Informes de [!DNL Marketo Measure] Salesforce {#marketo-measure-salesforce-reporting}
    + Nuevos tipos de informes {#new-report-types}
       + [Creación de tipos de informes personalizados de  [!DNL Marketo Measure] ](marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)
       + [Tipo de informe de contactos sin oportunidades](marketo-measure-salesforce-reporting/new-report-types/report-type-for-contacts-without-opportunities.md)
-   + Informes de [!DNL Marketo Measure] {#marketo-measure-reports}
+   + [!DNL Marketo Measure] informes {#marketo-measure-reports}
       + [Guía de informes de [!DNL Marketo Measure]](marketo-measure-salesforce-reporting/marketo-measure-reports/marketo-measure-reporting-guide.md)
       + [Información general sobre los informes 101 de [!DNL Marketo Measure]](marketo-measure-salesforce-reporting/marketo-measure-reports/marketo-measure-101-reports-overview.md)
       + [Oportunidades por canal de marketing](marketo-measure-salesforce-reporting/marketo-measure-reports/opportunities-by-marketing-channel.md)
@@ -204,16 +204,16 @@ ht-degree: 100%
       + [Duplicar registros y  [!DNL Marketo Measure]](marketo-measure-salesforce-reporting/additional-functionality/duplicate-records-and-marketo-measure.md)
       + [Tamaños de almacenamiento de registros de Salesforce](marketo-measure-salesforce-reporting/additional-functionality/salesforce-record-storage-sizes.md)
       + [Prácticas recomendadas para combinar posibles clientes](marketo-measure-salesforce-reporting/additional-functionality/best-practices-for-merging-leads.md)
-      + [Activación del permiso para editar posibles clientes convertidos](marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md)
-+ Data Warehouse de [!DNL Marketo Measure] {#marketo-measure-data-warehouse}
+      + [Habilitación del permiso para editar posibles clientes convertidos](marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md)
++ [!DNL Marketo Measure] Data Warehouse {#marketo-measure-data-warehouse}
    + [Acceso a Data Warehouse: Cuenta de Reader](marketo-measure-data-warehouse/data-warehouse-access-reader-account.md)
    + [Acceso a Data Warehouse: Uso compartido directo](marketo-measure-data-warehouse/data-warehouse-access-direct-share.md)
    + [Esquema de Data Warehouse](marketo-measure-data-warehouse/data-warehouse-schema.md)
 + Plantillas de informe de BI {#bi-report-templates}
    + [Plantilla de informe de [!DNL Marketo Measure]: Power BI](bi-report-templates/marketo-measure-report-template-power-bi.md)
    + [Plantilla de informe de [!DNL Marketo Measure]: Cuadro](bi-report-templates/marketo-measure-report-template-tableau.md)
-+ Seguridad y cumplimiento normativo {#security-and-compliance}
-   + Recursos relacionados con el cumplimiento normativo {#compliance-related-resources}
++ Seguridad y cumplimiento {#security-and-compliance}
+   + Recursos relacionados con el cumplimiento {#compliance-related-resources}
       + [Control de acceso de descarga de datos de Discover](security-and-compliance/compliance-related-resources/discover-data-download-access-control.md)
       + [Garantizar el consentimiento para el RGPD en JS de  [!DNL Marketo Measure] ](security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
       + [Restricciones de sesión de seguridad: Direcciones IP a lista de permitidos](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
@@ -236,5 +236,5 @@ ht-degree: 100%
    + [Prueba](miscellaneous/test.md)
 + Notas de la versión {#release-notes}
    + [Notas de la versión actual](release-notes/current.md)
-   + Versiones anteriores {#previous-releases}
+   + Versiones anteriores  {#previous-releases}
       + [Notas de la versión: 2023](release-notes/previous-releases/2023.md)
