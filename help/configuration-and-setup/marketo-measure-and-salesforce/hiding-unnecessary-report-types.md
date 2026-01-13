@@ -25,7 +25,7 @@ Una vez finalizada la instalación y comenzado a usar los informes, su organizac
 
 1. Haga clic en los informes marcados a continuación con una X naranja para que la lista de informes tenga el mismo aspecto que la imagen siguiente.
 
-   ![ 4](assets/1-4.png)
+   ![&#x200B; 4](assets/1-4.png)
 
 >[!MORELIKETHIS]
 >[Salesforce - Ocultar tipos de informe sin usar](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

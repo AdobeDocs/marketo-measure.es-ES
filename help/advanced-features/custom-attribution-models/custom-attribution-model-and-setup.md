@@ -32,7 +32,7 @@ El modelo de atribución personalizada [!DNL Marketo Measure] permite a los usua
    >[!NOTE]
    >Se le permiten hasta seis fases personalizadas (sin incluir las predeterminadas: FT, LC, OC y Cerrado).
 
-   ![ 1](assets/1-1.png)
+   ![&#x200B; 1](assets/1-1.png)
 
    >[!NOTE]
    >_Todos_ los posibles clientes/contactos y las fases de oportunidad aparecerán aquí, aunque la fase esté inactiva o ya no se utilice en [!DNL Salesforce]. Si desea eliminar estas fases, deberá eliminarlas en [!DNL Salesforce].
@@ -43,7 +43,7 @@ El modelo de atribución personalizada [!DNL Marketo Measure] permite a los usua
 
    En el ejemplo siguiente, se define una fase &quot;MQL&quot; personalizada mediante un campo de fecha. La regla simplemente establece que si el campo Fecha de MQL no está vacío, debe considerarse un MQL y debe incluirse en el modelo personalizado. También es importante ordenar las fases personalizadas una vez creadas para que sigan la progresión del ciclo de ventas.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
    >[!CAUTION]
    >No olvide habilitar el seguimiento del historial para los campos personalizados.

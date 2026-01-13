@@ -20,11 +20,11 @@ Crea un nuevo tipo de informe para incluir todas las oportunidades con o sin pun
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Crear]** > **[!UICONTROL Tipos de informes]**.
 
-   ![ 1](assets/1-1.jpg)
+   ![&#x200B; 1](assets/1-1.jpg)
 
 1. Seleccione **[!UICONTROL Nuevo tipo de informe personalizado]**.
 
-   ![ 1](assets/2-1.jpg)
+   ![&#x200B; 1](assets/2-1.jpg)
 
 1. Establecer el objeto principal como &quot;[!UICONTROL Oportunidades]&quot;.
 
@@ -32,11 +32,11 @@ Crea un nuevo tipo de informe para incluir todas las oportunidades con o sin pun
    * Utilice el mismo nombre para el Nombre del tipo de informe. Dentro de la entrada de descripción, &quot;Oportunidades con o sin puntos de contacto de atribución de comprador&quot;.
    * Guarde el informe dentro de &quot;[!UICONTROL Otro]&quot; y establezca el informe en &quot;[!UICONTROL Implementado]&quot;.
 
-   ![ 1](assets/3-1.jpg)
+   ![&#x200B; 1](assets/3-1.jpg)
 
 1. A partir de ahí, vinculará el objeto de oportunidades al objeto de puntos de contacto de atribución del comprador. Asegúrese de elegir el botón &quot;&#39;A&#39; registros pueden o no tener registros &#39;B&#39; relacionados.&quot; Haga clic en **[!UICONTROL Guardar]** cuando termine.
 
-   ![ 1](assets/4-1.jpg)
+   ![&#x200B; 1](assets/4-1.jpg)
 
 >[!MORELIKETHIS]
 >[[!DNL Marketo Measure] Tutoriales: Informes adicionales de SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

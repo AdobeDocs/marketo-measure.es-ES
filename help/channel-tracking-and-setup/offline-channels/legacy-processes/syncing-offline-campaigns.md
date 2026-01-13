@@ -36,7 +36,7 @@ En [!DNL Salesforce], el campo Fecha de creación del objeto de miembro de campa
 
 La fecha de carga sería tres semanas después de la fecha de la conferencia. Para solucionar esta diferencia, se puede usar el botón [!UICONTROL Fecha de punto de contacto de actualización masiva] para establecer la fecha apropiada. El botón se muestra en la siguiente imagen.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 En este caso, rellenaría la fecha de carga en tres semanas. Este paso debe realizarse antes de establecer el campo &quot;[!UICONTROL Habilitar puntos de contacto del comprador]&quot;.
 
@@ -47,17 +47,17 @@ También puede actualizar las fechas de todos los miembros de una campaña exist
 >[!CAUTION]
 >Asegúrese de actualizar la fecha del punto de contacto _antes de_ para habilitar los puntos de contacto para todos los miembros de la campaña.
 
-![ 3](assets/2-3.png)
+![&#x200B; 3](assets/2-3.png)
 
 ## Cómo crear una campaña y sincronizar los puntos de contacto del comprador {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
 Para crear una campaña en [!DNL Salesforce], vaya a la pestaña [!UICONTROL Campañas] y seleccione &#39;[!UICONTROL Nuevo]&#39; como se muestra en la siguiente imagen. Según la configuración de [!DNL Salesforce], es posible que deba agregar Campañas a la barra superior haciendo clic en el icono de signo más (+).
 
-![ 3](assets/3-3.png)
+![&#x200B; 3](assets/3-3.png)
 
 Al crear esta campaña, haz clic en el campo &quot;[!UICONTROL Habilitar puntos de contacto del comprador]&quot; y selecciona una de las siguientes opciones de la lista de selección:
 
-![ 3](assets/4-3.png)
+![&#x200B; 3](assets/4-3.png)
 
 * **Incluir todos los miembros de la campaña**
    * Esta opción permite que [!DNL Marketo Measure] atribuya un punto de contacto a cada miembro de la campaña.

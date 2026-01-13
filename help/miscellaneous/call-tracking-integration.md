@@ -39,7 +39,7 @@ Cuando un visitante llega a su sitio y realiza una llamada telefónica, es tarea
 
 A continuación se muestra un ejemplo de un registro de tarea con [!DNL BizibleId] rellenado.
 
-![Ejemplo de registro de tarea de Salesforce que muestra el campo BizibleId con el valor ](assets/3.png)
+![Ejemplo de registro de tarea de Salesforce que muestra el campo BizibleId con el valor &#x200B;](assets/3.png)
 
 Cuando [!DNL Marketo Measure] encuentra un registro de tarea con un valor [!DNL BizibleId] conocido rellenado, [!DNL Marketo Measure] puede asignar ese usuario a una sesión web con el mismo [!DNL BizibleId] y atribuir esa sesión a una llamada telefónica en lugar de a una visita web.
 

@@ -17,16 +17,16 @@ Obtenga información sobre cómo habilitar el permiso para editar registros de p
 
 1. Vaya a [!UICONTROL Configuración] y expanda la agrupación [!UICONTROL Administrar usuarios] para seleccionar perfiles.
 
-   ![ 2](assets/1-2.png)
+   ![&#x200B; 2](assets/1-2.png)
 
 1. Seleccione el perfil del usuario al que estamos conectados.
 
 1. Busque el permiso para ver y editar posibles clientes convertidos.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. Marque la casilla para permitir ver y editar posibles clientes convertidos.
 
-   ![ 1](assets/3-1.png)
+   ![&#x200B; 1](assets/3-1.png)
 
 ¡Y has terminado!

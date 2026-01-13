@@ -52,4 +52,4 @@ Otras razones que podrían déclencheur revisar las reglas de actividad son...
 
 >[!MORELIKETHIS]
 > [Atribución de actividades](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [Preguntas frecuentes sobre la atribución de actividades de ventas ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+> [Preguntas frecuentes sobre la atribución de actividades de ventas &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

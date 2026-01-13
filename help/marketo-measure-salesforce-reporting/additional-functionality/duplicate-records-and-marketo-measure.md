@@ -22,7 +22,7 @@ ht-degree: 12%
 
 _Informe de ejemplo: [!DNL Marketo Measure] personas con puntos de contacto de comprador._
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 Puede ver para el ID de persona [!DNL Marketo Measure] de kelsey@adobe.com que existe un posible cliente y un contacto con esa dirección de correo electrónico. En este informe, se han notificado dos primeros toques, dos toques de creación de posibles clientes y dos interacciones PostLC. Estos registros duplicados comparten la fecha del punto de contacto y la información del punto de contacto, lo que podría llevar a la conclusión de que son dos personas diferentes a pesar de ser la misma persona.
 

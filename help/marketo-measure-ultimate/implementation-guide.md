@@ -54,9 +54,9 @@ Obtenga más información sobre [Marketo Measure Ultimate](/help/marketo-measure
 
 Se recomienda utilizar una utilidad de generación automática para crear diez esquemas B2B estándar.
 
-* Los pasos para descargar y configurar la utilidad [ se encuentran aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
+* Los pasos para descargar y configurar la utilidad [&#x200B; se encuentran aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígenes.
+Para los que tengan un _&#x200B;**derecho de CDP**&#x200B;_: cree esquemas en la página Orígenes.
 
 * Desde un origen, seleccione Añadir datos > Usar plantillas
 

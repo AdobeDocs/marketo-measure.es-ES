@@ -15,7 +15,7 @@ ht-degree: 5%
 
 A continuación se muestra un diagrama de flujo que representa cómo se relacionan [!DNL Marketo Measure] objetos personalizados con [!DNL Salesforce] objetos estándar.
 
-![ 2](assets/1-2.png)
+![&#x200B; 2](assets/1-2.png)
 
 Para la imagen de tamaño completo, [haga clic aquí](assets/bizible-object-and-field-taxonomy-graph-full.png).
 

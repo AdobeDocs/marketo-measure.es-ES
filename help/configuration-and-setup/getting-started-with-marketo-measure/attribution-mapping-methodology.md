@@ -19,7 +19,7 @@ La metodología de asignación de atribución es el proceso de buscar ciertos ob
 
 De serie, [!DNL Marketo Measure] proporciona la asignación de ID de cuenta. Esto significa que [!DNL Marketo Measure] busca la información de marketing de la cuenta y sus contactos para crear puntos de contacto de atribución asociados a la oportunidad. A continuación se presenta una representación sencilla de ese proceso.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 Tenga en cuenta que **no todos los** puntos de contacto de sus contactos se insertan en la oportunidad como puntos de contacto de atribución. La cronología de la oportunidad (su fecha de primer contacto: fecha de cierre) determina si un punto de contacto cuenta como factor de influencia en la oportunidad. Por lo tanto, si se produce un punto de contacto en el contacto A después de cerrar la oportunidad ganada/perdida, [!DNL Marketo Measure] no insertará ese punto de contacto en la oportunidad. Este procedimiento de cronología se sigue en todas las demás asignaciones de objetos de atribución.
 
@@ -35,7 +35,7 @@ Desventajas: Si hay SLA de marketing y ventas sólidos que definen quién deber�
 
 Aunque la mayoría de los clientes utilizan la asignación de Id. de cuenta, [!DNL Marketo Measure] puede buscar los roles de contacto (contactos asociados a la oportunidad) dentro de una oportunidad para desglosar el proceso de atribución. Esto significa que [!DNL Marketo Measure] solo insertará interacciones de marketing asociadas a los roles de contacto en la oportunidad como puntos de contacto de atribución del comprador. A continuación se presenta una representación de este proceso.
 
-![ 1](assets/2-1.png)
+![&#x200B; 1](assets/2-1.png)
 
 Profesionales: Si su equipo tiene un proceso de funciones de contacto bien definido, este tipo de asignación de atribución puede ser ideal para usted. Ayuda a alinear las ventas y el marketing un poco más, ya que todos entenderían perfectamente cómo se desglosa la atribución. Este proceso también es útil cuando las organizaciones se dirigen a varias unidades de negocio dentro de una gran compañía y cuando venden diferentes productos al mismo tiempo.
 

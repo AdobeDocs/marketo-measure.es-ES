@@ -44,7 +44,7 @@ En cuanto a la configuración, hay siete pasos por completar en la aplicación [
 >[!NOTE]
 >Si habilita el etiquetado automático, restableceremos el historial de conversión y la prueba social de todos los anuncios que etiquetamos. Se recomienda [exportar estos datos como CSV](https://www.facebook.com/business/help/205067636197240) antes de habilitar el etiquetado automático.
 
-![ 2](assets/2-2.png)
+![&#x200B; 2](assets/2-2.png)
 
 Una vez habilitada la integración, [!DNL Marketo Measure] empezará a descargar el costo a nivel de anuncio en el panel [!DNL Marketo Measure Marketing ROI].
 

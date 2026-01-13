@@ -69,5 +69,5 @@ Otras razones que podrían déclencheur una revisión de su modelo personalizado
 
 >[!MORELIKETHIS]
 > [Modelo de atribución personalizada y configuración](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
-> [Habilitar El Seguimiento Del Historial De Campos Para El Modelo Personalizado ](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
-> [Modelo de aprendizaje automático ](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+> [Habilitar El Seguimiento Del Historial De Campos Para El Modelo Personalizado &#x200B;](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+> [Modelo de aprendizaje automático &#x200B;](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

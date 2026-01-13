@@ -16,7 +16,7 @@ ht-degree: 57%
 El JavaScript de [!DNL Marketo Measure] que le gustaría rastrear mediante [!DNL Marketo Measure] debe añadirse a todas las propiedades web lo antes posible. Una vez implementado JavaScript, [!DNL Marketo Measure] comienza a recopilar los datos digitales. Este artículo describe los métodos para implementar [!DNL Marketo Measure] JavaScript y otros aspectos.
 
 >[!NOTE]
->Asegúrese de que haber reclamado todos los dominios adecuados de [ en  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} además de implementar el JavaScript de [!DNL Marketo Measure].
+>Asegúrese de que haber reclamado todos los dominios adecuados de [&#x200B; en  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} además de implementar el JavaScript de [!DNL Marketo Measure].
 
 Al comenzar con [!DNL Marketo Measure], hay dos maneras de añadir el JavaScript de [!DNL Marketo Measure] a su sitio web:
 

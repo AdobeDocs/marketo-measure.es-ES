@@ -34,7 +34,7 @@ Comience por añadir una regla y seleccionar el Campo que debe definir los crite
 
 Elija de una lista de Operadores que se relacionarán con el siguiente conjunto de valores, que agregará en la siguiente columna.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 >[!TIP]
 >Para añadir varios valores en un campo, utilice el operador &quot;coincide con cualquier&quot; con comas que separan cada valor.

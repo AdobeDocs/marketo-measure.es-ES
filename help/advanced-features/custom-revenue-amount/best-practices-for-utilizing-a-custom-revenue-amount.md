@@ -51,6 +51,6 @@ Además de una revisión anual, ciertos cambios organizativos pueden indicar la 
 
 >[!MORELIKETHIS]
 > [Uso de un campo de monto de ingresos personalizado](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-> [Usando el cargador de datos para actualizar el campo de importe personalizado ](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+> [Usando el cargador de datos para actualizar el campo de importe personalizado &#x200B;](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 > [Información general sobre Multi-Currency](/help/advanced-features/multi-currency/overview.md)
 > [Configuración de múltiples monedas](/help/advanced-features/multi-currency/settings.md)
