@@ -21,11 +21,11 @@ Cuando se instala y configura en Adobe Launch, la extensión [!DNL Marketo Measu
 
 >[!PREREQUISITES]
 >Consulte los siguientes vínculos para obtener más información sobre Adobe Launch y sus extensiones:
-> [[!DNL Marketo Measure] Extensión](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
-> [Información general de Adobe Launch](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
-> [Información general sobre la extensión Adobe Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+> [[!DNL Marketo Measure] Extensión](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=es#catalog){target="_blank"}
+> [Información general de Adobe Launch](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=es){target="_blank"}
+> [Información general sobre la extensión Adobe Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=es){target="_blank"}
 
-1. Cree una propiedad siguiendo los pasos [de este artículo](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
+1. Cree una propiedad siguiendo los pasos [de este artículo](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=es#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Haga clic en la propiedad que ha creado.
 

@@ -34,4 +34,4 @@ Este informe muestra el número de oportunidades que generan sus canales de mark
    Este es un informe de oportunidades resumido por canal de marketing. Este informe se centra en todas las aplicaciones, pero no dude en filtrar según la fase o el tipo de oportunidad. Además, no dude en agregar cualquier campo del que desee informar.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Tutoriales: Informes de SFDC de Stock](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriales: Informes de SFDC de Stock](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

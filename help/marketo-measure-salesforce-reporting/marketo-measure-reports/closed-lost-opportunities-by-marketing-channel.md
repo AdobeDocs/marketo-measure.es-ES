@@ -46,4 +46,4 @@ Aunque este informe puede depender de las fases de oportunidad, en este informe 
    Este es un informe de oportunidades resumido por Canal de marketing que mide las oportunidades perdidas cerradas en sus canales. Este informe le permite comprender qué canales pueden tener un bajo rendimiento. No dude en agregar cualquier filtro o campo del que desee informar.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Tutoriales: Informes adicionales de SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutoriales: Informes adicionales de SFDC](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
