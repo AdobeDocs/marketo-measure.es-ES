@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874785
 description: Ocultar tipos de informes innecesarios - [!DNL Marketo Measure]
 title: Ocultar tipos de informes innecesarios
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 5%
 
 ---
+
 
 # Ocultar tipos de informes innecesarios {#hiding-unnecessary-report-types}
 
@@ -25,8 +25,7 @@ Una vez finalizada la instalación y comenzado a usar los informes, su organizac
 
 1. Haga clic en los informes marcados a continuación con una X naranja para que la lista de informes tenga el mismo aspecto que la imagen siguiente.
 
-   ![](assets/1-4.png)
+   ![ 4](assets/1-4.png)
 
 >[!MORELIKETHIS]
->
->[Salesforce - Ocultar Tipos De Informes No Utilizados](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
+>[Salesforce - Ocultar tipos de informe sin usar](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

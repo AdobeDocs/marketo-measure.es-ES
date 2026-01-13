@@ -1,14 +1,15 @@
 ---
-description: '[!DNL Marketo Measure] Guía de implementación definitiva - [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] Guía de implementación de Ultimate'
+description: '[!DNL Marketo Measure] Guía de implementación de Ultimate - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure]Guía de implementación de Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
-source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 70%
+source-wordcount: '1052'
+ht-degree: 61%
 
 ---
+
 
 # [!DNL Marketo Measure]Guía de implementación de Ultimate {#marketo-measure-ultimate-implementation-guide}
 
@@ -16,7 +17,7 @@ Este artículo sirve como guía de implementación para Marketo Measure Ultimate
 
 ## Diferencias principales del uso de Ultimate con respecto a los niveles estándar {#main-differences-when-using-ultimate-over-standard-tiers}
 
-Importar datos B2B a través de AEP: Se espera que los especialistas en marketing traigan sus datos B2B (por ejemplo, cuenta, oportunidad, contacto, posible cliente, campaña, miembro de la campaña, actividad) a través de AEP. Realiza la ingesta desde casi cualquier fuente de datos y desde varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
+Importación de datos B2B mediante AEP: Se espera que los especialistas en marketing traigan sus datos B2B (por ejemplo, cuenta, oportunidad, contacto, posible cliente, campaña, miembro de la campaña, actividad) a través de AEP. Realiza la ingesta desde casi cualquier fuente de datos y desde varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
 
 * Se utiliza con casi cualquier CRM, no solo con Salesforce y Dynamics.
 * Conecte varias instancias de CRM y/o instancias de MAP a una instancia de Marketo Measure.
@@ -27,17 +28,16 @@ Las conexiones directas de CRM y Marketo Engage ya no están disponibles en Ulti
 * Ultimate no devuelve los datos al CRM. Los clientes pueden consumir datos del almacén de datos.
 * Los especialistas en marketing siguen trayendo datos de Ad Platform a través de conexiones directas y rastreando actividades web a través de Marketo Measure javascript.
 
-Los usuarios finales se aprovisionan en AEP. Si ya tienen AEP, no reaprovisionaremos una nueva instancia.
+Los usuarios de Ultimate están aprovisionados en AEP. Si ya tiene AEP, no se reaprovisionará una nueva instancia.
 
 * La versión de AEP aprovisionada incluye todos los conectores de origen, el modelado de datos de esquema, los conjuntos de datos, el servicio de consultas ad hoc y un destino solo para Marketo Measure.
 
-Obtenga más información sobre [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
+Obtenga más información sobre [Marketo Measure Ultimate](/help/marketo-measure-ultimate/overview.md){target="_blank"}.
 
 ## Esquemas y conjuntos de datos {#schemas-and-datasets}
 
 >[!NOTE]
->
->Desproteja [Bloques de creación de un esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#building-blocks-of-a-schema){target="_blank"} para obtener una descripción general de los esquemas, las clases y los grupos de campos.
+>Consulte [Bloques de creación de un esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#building-blocks-of-a-schema){target="_blank"} para obtener una descripción general de esquemas, clases y grupos de campos.
 
 **Esquema XDM = Clase + Grupo de campos de esquema&#42;**
 
@@ -46,33 +46,32 @@ Obtenga más información sobre [Marketo Measure Ultimate](/help/marketo-measure
 
 &#42; _Un esquema consta de una clase y cero o más grupos de campos de esquema. Esto significa que podría componer un esquema del conjunto de datos sin utilizar grupos de campos._
 
-![](assets/marketo-measure-ultimate-implementation-guide-1.png)
+![Diagrama de estructura de esquema que muestra las relaciones de clase y grupo de campos](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[Información general sobre conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}: todos los datos introducidos correctamente en AEP se conservan dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+[Información general de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}: Todos los datos ingeridos correctamente en AEP se mantienen dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
 
 ## Creación de un esquema {#creating-a-schema}
 
 Se recomienda utilizar una utilidad de generación automática para crear diez esquemas B2B estándar.
 
-* Los pasos para descargar y configurar la utilidad [los puede encontrar aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
+* Los pasos para descargar y configurar la utilidad [ se encuentran aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Para los que tengan un _&#x200B;**derecho de CDP**&#x200B;_: cree esquemas en la página Orígenes.
+Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígenes.
 
 * Desde un origen, seleccione Añadir datos > Usar plantillas
 
-![](assets/marketo-measure-ultimate-implementation-guide-2.png)
+![Página de fuentes con las opciones Agregar datos y Usar plantillas](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
 * Seleccione una cuenta y todas las plantillas B2B para crear diez esquemas B2B estándar.
 
-![](assets/marketo-measure-ultimate-implementation-guide-3.png)
+![Selección de plantilla que muestra plantillas de esquema B2B para la configuración de cuenta](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## Flujos de datos {#dataflows}
 
 >[!IMPORTANT]
->
 >Al agregar un nuevo conjunto de datos, se recomienda crear un flujo en lugar de utilizar uno existente.
 
-[Información general de flujos de datos](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=es){target="_blank"}
+[Información general sobre flujos de datos](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=es){target="_blank"}
 
 **Pasos para crear un flujo de datos:**
 
@@ -83,19 +82,16 @@ Para los que tengan un _&#x200B;**derecho de CDP**&#x200B;_: cree esquemas en la
 1. Asigne los campos del origen al esquema.
 
    >[!NOTE]
-   >
-   >* Si asigna un tipo de esquema a otro idéntico, se realiza automáticamente.
-   >* También puede importar la asignación desde otro flujo del sistema.
-   >* Puede asignar un campo de origen a varios campos de destino, pero no puede hacer lo contrario.
-   >* Puede crear campos calculados ([Funciones de asignación de preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=es){target="_blank"}).
+   > Si asigna un tipo de esquema a otro idéntico, se realiza automáticamente.
+   > También puede importar la asignación desde otro flujo del sistema.
+   > Puede asignar un campo de origen a varios campos de destino, pero no puede hacer lo contrario.
+   > Puede crear campos calculados ([Funciones de asignación de preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=es){target="_blank"}).
 
    >[!CAUTION]
-   >
-   >* Puede editar un flujo de datos, pero los datos no se rellenan cuando se cambia una asignación.
-   >* Si un campo obligatorio es NULL, se rechaza todo el flujo.
+   > Puede editar un flujo de datos, pero los datos no se rellenan cuando se cambia una asignación.
+   > Si un campo obligatorio es NULL, se rechaza todo el flujo.
 
    >[!NOTE]
-   >
    >[Requisito de integridad de datos de Marketo Measure Ultimate](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. Establezca una cadencia de carga de datos.
@@ -113,16 +109,15 @@ Página Orígenes > Flujos de datos para comprobar el estado de los flujos de da
 
 Opción 1: para ejecutar consultas directamente desde la interfaz de usuario, acceda a la pestaña Consultas en Administración de datos.
 
-![](assets/marketo-measure-ultimate-implementation-guide-4.png)
+![La pestaña Consultas de la Administración de datos muestra la interfaz de consultas](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Opción 2: [Descargue y utilice PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=es){target="_blank"} (más rápido y fiable).
+Opción 2: [Descargar y usar PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=es){target="_blank"} (más rápido y confiable).
 
 ## Activación del conjunto de datos para Marketo Measure {#activate-dataset-for-marketo-measure}
 
 Antes de empezar, vaya a la sección &quot;Experience Platform > Asignación de zona protegida&quot; en la configuración de la interfaz de usuario de Measure y asigne una zona protegida.
 
 >[!CAUTION]
->
 >Esto no se puede cambiar una vez seleccionado.
 
 1. En AEP, vaya a “Destinos > Página de Marketo Measure” para exportar conjuntos de datos.
@@ -131,12 +126,11 @@ Antes de empezar, vaya a la sección &quot;Experience Platform > Asignación de 
 1. Consulte la página “Estado de la cuenta” en la configuración de la IU de Measure para ver el estado del flujo de datos.
 
 >[!NOTE]
->
->* Se recomienda incluir solo un conjunto de datos por flujo de datos.
->* Los datos de una entidad determinada (por ejemplo, Account) de una fuente determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detendrán el flujo de datos en el tiempo de ejecución.
->* Elimine todo el destino en AEP para eliminar datos en Measure. Al deshabilitar, se detienen las nuevas exportaciones de datos y se conservan los datos antiguos.
->* La configuración de la medida será básicamente la misma, pero algunas partes, como la Asignación de fases, tendrán un aspecto diferente.
->* Un nuevo flujo de datos tarda unas horas en generar una ejecución de flujo y, a continuación, se produce a intervalos regulares por hora.
+> Se recomienda incluir solo un conjunto de datos por flujo de datos.
+> Los datos de una entidad determinada (por ejemplo, Account) de una fuente determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detendrán el flujo de datos en el tiempo de ejecución.
+> Elimine todo el destino en AEP para eliminar datos en Measure. Al deshabilitar, se detienen las nuevas exportaciones de datos y se conservan los datos antiguos.
+> La configuración de la medida será básicamente la misma, pero algunas partes, como la Asignación de fases, tendrán un aspecto diferente.
+> Un nuevo flujo de datos tarda unas horas en generar una ejecución de flujo y, a continuación, se produce a intervalos regulares por hora.
 
 En Measure, la moneda predeterminada debe configurarse en la sección &quot;Moneda&quot;.
 
@@ -148,11 +142,11 @@ No importamos automáticamente las fases de los datos de usuario, por lo que tod
 
 * Se pueden asignar fases desde diferentes orígenes.
 
-![](assets/marketo-measure-ultimate-implementation-guide-5.png)
+![Interfaz de asignación de etapas que muestra la configuración de etapas de varios orígenes](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 Si las fases no están asignadas, el sistema no funcionará porque no habrá ningún lugar adónde puedan ir los datos.
 
-Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel de control predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

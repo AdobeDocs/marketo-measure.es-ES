@@ -1,14 +1,15 @@
 ---
-description: Data Warehouse Access - Uso compartido directo - Documentación del producto
+description: 'Acceso a Data Warehouse: Uso compartido directo'
 title: 'Acceso a Data Warehouse: Uso compartido directo'
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: bff10626589aba8c3dfe995dabde6eac1fc7809f
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 4%
+source-wordcount: '288'
+ht-degree: 5%
 
 ---
+
 
 # Acceso a Data Warehouse: Uso compartido directo {#data-warehouse-access-direct-share}
 
@@ -28,14 +29,13 @@ Para que [!DNL Marketo Measure] configure un recurso compartido directo en Data 
 
 Abra la sección **Configuración** en la aplicación Marketo Measure y vaya a la página **Data Warehouse**. En la sección **Uso compartido directo**, escribe tu [id de cuenta de Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} en el cuadro proporcionado y haz clic en **Conectar**.
 
-![](assets/data-warehouse-access-direct-share-1.png)
+![Configuración de Marketo Measure Data Warehouse que muestra el formulario de uso compartido directo de Snowflake](assets/data-warehouse-access-direct-share-1.png)
 
 ## Acceso al recurso compartido {#accessing-the-share}
 
 Una vez creado el recurso compartido para el identificador de cuenta proporcionado, debe completar los [pasos de configuración](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} en la instancia de Snowflake para acceder a los datos.
 
 >[!NOTE]
->
 >Puede elegir cualquier nombre de base de datos que desee. Puede asignar los privilegios a cualquier función que elija, siempre y cuando exista en la instancia de Snowflake.
 
 * Usar la función Administrador de cuentas

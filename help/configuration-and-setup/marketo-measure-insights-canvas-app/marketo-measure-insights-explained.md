@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874676
-description: "[!DNL Marketo Measure] datos explicados - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] perspectivas explicadas"
+description: '[!DNL Marketo Measure] datos explicados - [!DNL Marketo Measure]'
+title: Información explicada de [!DNL Marketo Measure]
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
+
 
 # Información explicada de [!DNL Marketo Measure] {#marketo-measure-insights-explained}
 
@@ -19,7 +19,7 @@ Una vez que [!DNL Marketo Measure] JavaScript ha realizado el seguimiento de alg
 
 En primer lugar, verá en la parte central de sus perspectivas, el número de sesiones que la persona ha tenido en su sitio web. Puede desplazarse por estas sesiones y navegar a su antojo.
 
-![](assets/1.png)
+![Lista de sesiones de Insights que muestra la cantidad de sesiones rastreadas](assets/1.png)
 
 Puede ver el resumen de todas las sesiones si hace clic en &quot;Todas&quot; en la parte superior central de sus perspectivas. Aquí puede comprender las fechas de las sesiones individuales, qué canal o fuente las impulsó y un conjunto de iconos que especifican más información.
 
@@ -27,15 +27,15 @@ Lo primero que se ve son los iconos FT o LC. Representan la posición del punto 
 
 Los iconos que parecen papel indican que se produjo una vista de página dentro de la sesión. Es probable que todas las sesiones incluyan este icono.
 
-![](assets/2.png)
+![Vista resumen de perspectivas con posiciones de puntos de contacto y detalles de canal](assets/2.png)
 
 El icono que parece un vaso de precipitados indica que se ha producido un experimento de prueba A/B. Nos integramos con Optimizely y VWO en este punto. Con esta integración, podemos impulsar el experimento y la variación que vio el usuario en su sesión específica.
 
-![](assets/3.png)
+![Icono de marcador de prueba A/B resaltado en la lista de sesiones de Insights](assets/3.png)
 
 Si hace clic en cualquier sesión específica (puede hacerlo haciendo clic en la fecha real de la sesión o en la parte media superior de las sesiones agrupadas), podrá ver los detalles de la sesión. En cada sesión, puede ver todas las páginas específicas que vio el usuario ordenadas por fecha y hora.
 
-![](assets/4.png)
+![Panel de detalles de la sesión que muestra vistas de página en una sesión](assets/4.png)
 
 En el lado derecho de cada sesión, puede ver más datos de marketing granulares que insertan los campos [!DNL Marketo Measure] en su SFDC. En este ejemplo, puede ver Grupo de publicidad, Contenido de publicidad, Campaña, Palabra clave, Medium. También puede desplazarse hacia abajo para ver más de los [!DNL Marketo Measure] datos que proporcionamos.
 

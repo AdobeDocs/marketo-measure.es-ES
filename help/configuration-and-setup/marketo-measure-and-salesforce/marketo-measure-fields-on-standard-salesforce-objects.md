@@ -1,20 +1,19 @@
 ---
-unique-page-id: 18874574
-description: "Campos de [!DNL Marketo Measure] en objetos de  [!DNL Salesforce] estándar - [!DNL Marketo Measure]"
-title: "Campos de [!DNL Marketo Measure] en objetos de  [!DNL Salesforce]  estándar"
+description: '[!DNL Marketo Measure] campos en objetos estándar  [!DNL Salesforce] - [!DNL Marketo Measure]'
+title: 'Campos de [!DNL Marketo Measure] en objetos estándar de  [!DNL Salesforce] '
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
+
 
 # Campos de [!DNL Marketo Measure] en objetos de [!DNL Salesforce] estándar {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
->
 >Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Obtenga información sobre los distintos campos de [!DNL Marketo Measure] que se añaden a objetos de [!DNL Salesforce] estándar.
@@ -33,7 +32,7 @@ Habilitar Buyer Touchpoints: este campo es para la sincronización real de campa
 
 Fecha de inicio de Touchpoint: este campo se utiliza para establecer una fecha de inicio de la aplicación de Touchpoints a campañas históricas.
 
-Fecha de finalización de Touchpoint: este campo se utiliza para establecer una fecha de finalización para aplicar puntos de contacto a campañas históricas. Un ejemplo común sería la inclusión de campañas digitales previas a [!DNL Marketo Measure] y, a continuación, establecer la fecha final como el día en que se aplicó el script.
+Fecha de finalización de Touchpoint: este campo se utiliza para establecer una fecha de finalización para aplicar puntos de contacto a campañas históricas. Un ejemplo común sería la inclusión de campañas digitales previas a [!DNL Marketo Measure] y, a continuación, establecer la fecha de finalización como el día en que se aplicó el script.
 
 Fecha de Tourchpoint de actualización masiva (botón): este botón se utiliza para administrar la fecha de Touchpoint de los miembros de la campaña cuando se sincroniza la campaña, ya que se hace referencia a la fecha de abono a la campaña o a la primera fecha de respuesta predeterminada. En caso de que esos campos de fecha no sean una representación precisa de la fecha del punto de contacto real, utilizaríamos este botón para establecer la fecha del punto de contacto.
 

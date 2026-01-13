@@ -1,14 +1,15 @@
 ---
-description: '[!DNL Salesforce] consolidación de paquetes - [!DNL Marketo Measure]'
-title: '[!DNL Salesforce] consolidación de paquetes'
+description: Consolidación de paquetes de [!DNL Salesforce] - [!DNL Marketo Measure]
+title: Consolidación de paquetes de [!DNL Salesforce]
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 5%
+source-wordcount: '449'
+ht-degree: 6%
 
 ---
+
 
 # Consolidación de paquetes de [!DNL Salesforce] {#salesforce-package-consolidation}
 
@@ -29,9 +30,9 @@ Existen dos nuevos campos para mejorar las capacidades de creación de informes:
 
 ## Soporte y transición {#support-and-transition}
 
-El [equipo de soporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} está disponible para responder cualquier pregunta y ayudar a garantizar una transición sin problemas al nuevo paquete consolidado.
+El [equipo de atención al cliente](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} está disponible para responder cualquier pregunta y ayudar a garantizar una transición sin problemas al nuevo paquete consolidado.
 
-## Acciones requeridas {#retired-actions}
+## Acciones necesarias {#retired-actions}
 
 * Si ya tiene instalado el paquete V2, debe actualizarlo a la nueva versión consolidada.
 * Si tiene informes o tableros de cualquier paquete de informes, puede volver a crearlos fácilmente sin necesidad de realizar modificaciones, ya que todos los campos existen en el paquete consolidado.
@@ -41,13 +42,13 @@ El [equipo de soporte](https://nation.marketo.com/t5/support/ct-p/Support){targe
       * Consulta V2_EXT:
          * bizible2_ext__Ad_Content_FT__c contiene Alcance
 
-![](assets/package-consolidation-1.png)
+![Filtro de informe de muestra con el campo FT V2_EXT Ad Content](assets/package-consolidation-1.png)
 
 * Consulta correspondiente en el paquete consolidado:
    * bizible2__Touchpoint_Position__c contiene FT AND
    * bizible2__Ad_Content__c contiene Alcance
 
-![](assets/salesforce-package-consolidation-2.png)
+![Filtro de informe equivalente que usa campos de punto de contacto consolidados](assets/salesforce-package-consolidation-2.png)
 
 ## Preguntas frecuentes {#faq}
 
@@ -57,7 +58,7 @@ No es necesario desinstalar el paquete antes de instalar el paquete consolidado.
 
 **¿Cómo puedo rellenar los datos de mis paquetes actuales?**
 
-BT BAT Puede enviar un ticket [con soporte técnico](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para rellenar y volver a procesar los datos de los campos de ID de punto de contacto y de ID de formulario, con el fin de que se puedan rellenar los campos de ID de formulario y de ID de punto de contacto.
+Puede presentar un ticket [con soporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para rellenar y reprocesar los datos de BT/BAT a fin de rellenar los campos ID de Touchpoint e ID de formulario.
 
 **¿Estarán disponibles los campos de los paquetes V1 y V2_EXT en el paquete consolidado?**
 

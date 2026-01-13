@@ -2,12 +2,14 @@
 description: Obtenga información sobre cómo gestionar errores en exportaciones de CRM
 title: Gestión de errores para exportaciones de CRM
 feature: Salesforce
-source-git-commit: ce5170330fb1d9f944762f401d29be4da5c0bd43
+exl-id: 7452bff0-4bf1-474b-a705-446c29882230
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 8%
 
 ---
+
 
 # Gestión de errores para exportaciones de CRM
 
@@ -18,7 +20,6 @@ La configuración se encuentra en **Mi cuenta** > **Configuración** > **CRM** >
 ![Pausa en errores de exportación](assets/stop-progress.png)
 
 >[!NOTE]
->
 >Esta función solo está visible si tiene habilitada la función &quot;Exportar a CRM&quot;.
 
 Cuando esta función está habilitada, el trabajo de exportación deja de progresar y permanece en el registro donde se produjo el error hasta que se resuelva el problema. Estos errores suelen deberse a la falta de permisos, a reglas de validación personalizadas aplicadas incorrectamente o a problemas en flujos de trabajo/activadores. El trabajo seguirá ejecutándose según lo programado y volverá a intentar exportar automáticamente el registro fallido hasta que se realice correctamente.

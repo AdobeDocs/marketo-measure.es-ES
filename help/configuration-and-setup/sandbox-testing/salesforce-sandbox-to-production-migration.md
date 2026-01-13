@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874694
 description: Migración de zona protegida de Salesforce a producción,  [!DNL Marketo Measure]
 title: Migración de zona protegida de Salesforce a producción
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 95%
 
 ---
+
 
 # Migración de zona protegida de Salesforce a producción {#salesforce-sandbox-to-production-migration}
 
@@ -31,7 +31,7 @@ Si eligió realizar la prueba de [!DNL Marketo Measure] en un entorno de zona p
 * Haga clic en el icono de papelera situado junto a la conexión de SFDC para eliminarlo.
 * Se le pedirá que confirme la eliminación.  Asegúrese de leer la indicación con cuidado y comprender las consecuencias de la eliminación.
 
-  ![](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![Página de conexiones de Marketo Measure que confirma la eliminación de una zona protegida de Salesforce](assets/salesforce-sandbox-to-production-migration-1.png)
 
    * Escriba el nombre de la empresa como se le indica en el modelo de confirmación y haga clic en “Entiendo las consecuencias, eliminar esta conexión”.
 * Esto desencadena el proceso de eliminación y tardará algún tiempo en finalizar.
@@ -51,8 +51,8 @@ Si eligió realizar la prueba de [!DNL Marketo Measure] en un entorno de zona p
 
 [Conjuntos de permisos](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Uso compartido de informes](https://help.salesforce.com/s/articleView?language=en_US&amp;id=analytics_share_folder.htm&amp;type=0){target="_blank"}
+[Compartir informes](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [Ocultar tipos de informes innecesarios](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 
-[Flujo de trabajo personalizado si corresponde](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+[Flujo de trabajo personalizado si corresponde](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)

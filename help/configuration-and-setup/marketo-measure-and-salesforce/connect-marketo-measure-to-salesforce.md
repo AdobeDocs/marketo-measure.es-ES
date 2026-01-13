@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874580
-description: Conectar Marketo Measure a Salesforce - [!DNL Marketo Measure]
+description: 'Conectar Marketo Measure a Salesforce:  [!DNL Marketo Measure]'
 title: Conectar Marketo Measure a Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
+
 
 # Conectar Marketo Measure a Salesforce {#connect-marketo-measure-to-salesforce}
 
@@ -23,33 +23,31 @@ Este artículo proporciona información general sobre cómo conectar la cuenta d
 
 1. En la columna de opciones de configuración de la izquierda, haga clic en **[!UICONTROL Conexiones]** ubicadas en la sección [!UICONTROL Integraciones].
 
-   ![](assets/connect-marketo-measure-to-salesforce-1.png)
+   ![Menú de configuración que muestra la opción Conexiones en la sección Integraciones](assets/connect-marketo-measure-to-salesforce-1.png)
 
 1. En la sección CRM de Conexiones, haga clic en **[!UICONTROL Configurar nueva conexión CRM]**.
 
-   ![](assets/connect-marketo-measure-to-salesforce-2.png)
+   ![Página Conexiones CRM con el botón Configurar nueva conexión CRM](assets/connect-marketo-measure-to-salesforce-2.png)
 
 1. Aparece una ventana emergente que le pide que seleccione una conexión CRM. Haga clic en **[!UICONTROL Conectar]** junto al logotipo de [!DNL Salesforce].
 
-   ![](assets/connect-marketo-measure-to-salesforce-3.png)
+   ![Seleccione la ventana emergente de conexión de CRM con el logotipo de Salesforce y el botón Conectar](assets/connect-marketo-measure-to-salesforce-3.png)
 
 1. Aparece una última ventana emergente que le pide sus credenciales de [!DNL Salesforce], su zona protegida o su producción. Escriba su información y haga clic en **[!UICONTROL Autorizar]** para conectar la cuenta a [!DNL Marketo Measure].
 
 >[!NOTE]
->
 >[!DNL Marketo Measure] solo se puede conectar a una instancia de [!DNL Salesforce] a la vez.
->
->* Se puede conectar una instancia de [!DNL Marketo Measure] a una instancia de zona protegida de SFDC para probar la integración antes de cambiar la conexión a la instancia de producción de SFDC.
->* Si realiza la prueba primero con una zona protegida de SFDC, le recomendamos encarecidamente que realice la prueba con una que sea una réplica exacta de la instancia de producción de SFDC en términos de campos en los objetos de posible cliente, contacto, cuenta, oportunidad, campaña y caso. Si tiene déclencheur APEX activos en producción que se activan al actualizar los objetos de posible cliente, contacto, cuenta, oportunidad, campaña y caso, debe intentar tenerlos activos en su zona protegida.
->* Una vez que haya terminado la prueba, actualice su cuenta de [!DNL Marketo Measure] para que apunte a su [!DNL Salesforce] de producción (en lugar de a la zona protegida [!DNL Salesforce]). Debido a la forma en que se creó la integración, una vez que una cuenta de [!DNL Marketo Measure] esté conectada a la producción [!DNL Salesforce], no podrá retroceder y conectarse a una organización de espacio aislado [!DNL Salesforce].
+> Se puede conectar una instancia de [!DNL Marketo Measure] a una instancia de zona protegida de SFDC para probar la integración antes de cambiar la conexión a la instancia de producción de SFDC.
+> Si realiza la prueba primero con una zona protegida de SFDC, le recomendamos encarecidamente que realice la prueba con una que sea una réplica exacta de la instancia de producción de SFDC en términos de campos de los objetos Posible cliente, Contacto, Cuenta, Oportunidad, Campaña y Caso. Si tiene déclencheur APEX activos en producción que se activan al actualizar los objetos de posible cliente, contacto, cuenta, oportunidad, campaña y caso, debe intentar tenerlos activos en su zona protegida.
+> Una vez que haya terminado la prueba, actualice su cuenta de [!DNL Marketo Measure] para que apunte a su [!DNL Salesforce] de producción (en lugar de a la zona protegida [!DNL Salesforce]). Debido a la forma en que se creó la integración, una vez que una cuenta de [!DNL Marketo Measure] esté conectada a la producción [!DNL Salesforce], no podrá retroceder y conectarse a una organización de espacio aislado [!DNL Salesforce].
 
 ## Uso de créditos de API {#api-credits-usage}
 
-Marketo Measure emplea una tarea de integración de CRM para interactuar con Salesforce de un cliente a través de un usuario integrado. Todos los intercambios de datos a través de este usuario utilizan créditos de API de Salesforce. Tiene la capacidad de asignar una cuota de crédito a un usuario de integración, lo que sirve para regular llamadas de API excesivas. Esta cuota o límite se restablece cada 24 horas.
+Marketo Measure emplea una tarea de integración de CRM para interactuar con el Salesforce de un cliente a través de un usuario integrado. Todos los intercambios de datos a través de este usuario utilizan créditos de la API de Salesforce. Tiene la capacidad de asignar una cuota de crédito a un usuario de integración, lo que sirve para regular llamadas de API excesivas. Esta cuota o límite se restablece cada 24 horas.
 
 Puede acceder a este límite en Marketo Measure a través de: **Mi cuenta** > **Configuración** > **CRM** > **General** > **Límite diario de API de CRM**, y puede configurarlo para sus inquilinos.
 
-![](assets/connect-marketo-measure-to-salesforce-4.png)
+![Ajuste diario de límite de API de CRM que muestra el campo de configuración para la cuota de crédito de API](assets/connect-marketo-measure-to-salesforce-4.png)
 
 ### Configuración de un límite para créditos de API {#setting-a-limit-for-api-credits}
 
@@ -59,16 +57,14 @@ Puede acceder a este límite en Marketo Measure a través de: **Mi cuenta** > **
 
 1. Haga clic en el icono Bloquear para editarlo.
 
-   ![](assets/connect-marketo-measure-to-salesforce-5.png)
+   ![Icono de bloqueo para editar el campo Límite diario de API de CRM](assets/connect-marketo-measure-to-salesforce-5.png)
 
 1. Introduzca un límite deseado igual o superior a 100 000. Haga clic en **Guardar** cuando termine.
 
-   ![](assets/connect-marketo-measure-to-salesforce-6.png)
+   ![Campo de entrada de límite diario de API de CRM con valor introducido y botón Guardar](assets/connect-marketo-measure-to-salesforce-6.png)
 
 >[!NOTE]
->
 >Para aumentar los créditos de la API de Salesforce disponibles para su solución conectada, póngase en contacto con su administrador de Salesforce y haga referencia a [este documento de Salesforce](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm?lang=es){target="_blank"}.
 
 >[!MORELIKETHIS]
->
 >[Notificaciones de errores](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

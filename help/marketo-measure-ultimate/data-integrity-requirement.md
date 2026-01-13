@@ -3,12 +3,13 @@ description: '[!DNL Marketo Measure] requisito de integridad de datos de Ultimat
 title: '[!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 4f504bd940e2d28603af65b75151d8143cdcbea8
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 86%
+source-wordcount: '1610'
+ht-degree: 84%
 
 ---
+
 
 # [!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
@@ -201,7 +202,7 @@ ht-degree: 86%
       <td>Para el coste de campaña</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Miembro de campaña</strong> (miembro de la campaña para Salesforce, miembros del programa para Marketo)</td>
+      <td colspan="7"><strong>Miembro de campaña</strong> (miembro de la campaña para Salesforce, abonos al programa para Marketo)</td>
     </tr>
     <tr>
       <td rowspan="14">Miembros de la campaña empresarial de XDM</td>
@@ -646,7 +647,7 @@ ht-degree: 86%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Función de contacto de oportunidad (solo es necesario si piensa utilizar la función de contacto de oportunidad como grupo comprador para la atribución)</strong></td>
+      <td colspan="7"><strong>Función de contacto de oportunidad (solo es necesario si piensa utilizar la función de contacto de oportunidad como grupo de compras para la atribución)</strong></td>
     </tr>
     <tr>
       <td rowspan="16">Relación de persona de oportunidad de negocio de XDM</td>
@@ -894,10 +895,9 @@ ht-degree: 86%
 **Tasas de conversión**: Cada par (moneda de origen, moneda de destino) puede tener múltiples tasas de conversión para diferentes períodos de fecha. Las tasas deben cubrir todo el lapso de tiempo desde 0001-01-01 hasta 9999-12-31, según el objeto DatedConversionRate de Salesforce.
 
 **Intervalo de fecha**:
+
 * No se superponen intervalos de fechas dentro de un conjunto de tasas (moneda de origen, moneda de destino) (por ejemplo, 2023-01-01 a 2023-02-01 y 2023-01-01 a 2024-01-01).
 * No hay espacios entre intervalos de fechas. La fecha de inicio es inclusiva y la fecha de finalización es exclusiva.
-
-<p>
 
 ## ExperienceEvent {#experienceevent}
 
@@ -1133,7 +1133,7 @@ Para los registros de personas “Posibles clientes”, no existe una clave exte
 
 ### Cuenta empresarial de XDM {#xdm-business-account}
 
-```
+```sql
 select 'account source id', count(*) from salesforce_account where accountKey.sourceId is null
 union all
 select 'account source type', count(*) from salesforce_account where accountKey.sourceType is null
@@ -1151,7 +1151,7 @@ select 'last updated date', count(*) from salesforce_account where extSourceSyst
 
 ### Campaña empresarial de XDM {#xdm-business-campaign}
 
-```
+```sql
 select 'campaign source id', count(*) from salesforce_campaign where campaignKey.sourceId is null
 union all
 select 'campaign source type', count(*) from salesforce_campaign where campaignKey.sourceType is null
@@ -1169,7 +1169,7 @@ select 'last updated date', count(*) from salesforce_campaign where extSourceSys
 
 ### Miembro de campaña empresarial de XDM {#xdm-business-campaign-member}
 
-```
+```sql
 select 'campaign member source id', count(*) from salesforce_campaign_member where campaignMemberKey.sourceId is null
 union all
 select 'campaign member source type', count(*) from salesforce_campaign_member where campaignMemberKey.sourceType is null
@@ -1207,7 +1207,7 @@ select 'last updated date', count(*) from salesforce_campaign_member where extSo
 
 ### Persona empresaria de XDM {#xdm-business-person}
 
-```
+```sql
 select 'person source id', count(*) from marketo_person where b2b.personKey.sourceId is null
 union all
 select 'person source type', count(*) from marketo_person where b2b.personKey.sourceType is null
@@ -1229,7 +1229,7 @@ union all
 select 'last updated date', count(*) from marketo_person where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-```
+```sql
 select 'person source id', count(*) from salesforce_contact where b2b.personKey.sourceId is null
 union all
 select 'person source type', count(*) from salesforce_contact where b2b.personKey.sourceType is null
@@ -1261,7 +1261,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 
 ### Oportunidad de negocio de XDM {#xdm-business-opportunity}
 
-```
+```sql
 select 'opportunity source id', count(*) from salesforce_opportunity where opportunityKey.sourceId is null
 union all
 select 'opportunity source type', count(*) from salesforce_opportunity where opportunityKey.sourceType is null
@@ -1299,7 +1299,7 @@ select 'last updated date', count(*) from salesforce_opportunity where extSource
 
 ### ExperienceEvent de XDM {#xdm-experienceevent}
 
-```
+```sql
 select 'id', count(*) from marketo_activity where _id is null
 union all
 select 'event type', count(*) from marketo_activity where eventType is null
@@ -1331,7 +1331,7 @@ union all
 select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
-```
+```sql
 select 'id', count(*) from salesforce_task where _id is null
 union all
 select 'event type', count(*) from salesforce_task where eventType is null
@@ -1349,7 +1349,7 @@ select 'person source key', count(*) from salesforce_task where personKey.source
 
 ### Conversión {#conversion}
 
-```
+```sql
 select 'conversion rate', count(*) from currency_conversion_rate where conversionRate is null
 union all
 select 'end date', count(*) from currency_conversion_rate where endDate is null
@@ -1377,8 +1377,8 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 
 Se recomienda utilizar un campo calculado en la asignación de campos para establecer el campo de forma predeterminada en un valor no NULL. A continuación, se muestran dos ejemplos:
 
-* Si el OpportunityName de algunos registros de oportunidad es nulo, cree y utilice el siguiente campo calculado en la asignación de campos
+* Si `opportunityName` de algunos registros de oportunidad son nulos, cree y utilice el siguiente campo calculado en la asignación de campos
    * `iif(name != null && trim(name) != "", name, "Unknown")`
 
-* Si el leadOperation.campaignProgression.campaignID de algunos registros experienceevent es nulo, cree y utilice el siguiente campo calculado en la asignación de campos
+* Si `leadOperation.campaignProgression.campaignID` de algunos registros de evento de experiencia son nulos, cree y utilice el siguiente campo calculado en la asignación de campos
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874732
 description: Prácticas recomendadas para configurar parámetros UTM de  [!DNL Marketo Measure]
 title: Prácticas recomendadas para configurar parámetros UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 91%
+ht-degree: 86%
 
 ---
+
 
 # Prácticas recomendadas para configurar parámetros UTM {#best-practices-for-setting-up-utm-parameters}
 
@@ -69,4 +69,4 @@ fakewebsite.com/
 
 Observe que los términos/canal no están duplicados y que utm_term no se utiliza en este caso.
 
-Si tiene alguna pregunta, póngase en contacto con el equipo de cuentas de Adobe (su administrador de cuentas) o el [equipo de soporte de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Si tiene alguna pregunta, comuníquese con el equipo de cuenta de Adobe (su administrador de cuentas) o con [Soporte técnico de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

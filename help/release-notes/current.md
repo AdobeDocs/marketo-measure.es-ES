@@ -3,12 +3,13 @@ description: Notas de la versión actual de  [!DNL Marketo Measure]
 title: Notas de la versión actual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9ea72d0e1cf0f754cc8fe844944b93705fb2b12f
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 91%
+source-wordcount: '1376'
+ht-degree: 88%
 
 ---
+
 
 # Notas de la versión: 2024 {#release-notes-2024}
 
@@ -63,8 +64,6 @@ Para ayudarle a adaptarse a este cambio, hemos creado una documentación sobre l
 
 ## Versión del tercer trimestre {#q3-release}
 
-<p>
-
 ### Recordatorio: Degradaciones en el campo de Salesforce, 14 de junio
 
 Como se anunció el año pasado, [eliminaremos gradualmente nuestros trabajos de exportación a objetos de cliente potencial/contacto](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} para simplificar nuestra integración y eliminar la necesidad de exportar a objetos estándar de Salesforce. Puede obtener los mismos datos de los objetos Touchpoint siguiendo los pasos [documentados aquí](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. También se compartirá documentación sobre la creación de flujos de trabajo para añadir estos datos al objeto de posible cliente/contacto. La obsolescencia entrará en vigor el 14 de junio de 2024.
@@ -76,7 +75,7 @@ Este cambio traerá dos ventajas clave:
 
 ### Panel de control de oportunidades atribuidas
 
-Estamos encantados de presentar el nuevo [Panel de control de oportunidades atribuidas](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, diseñado para proporcionarle una visión completa de cómo sus esfuerzos de marketing contribuyen a las oportunidades de canalización incipientes y maduras. Este panel de control le permite profundizar en los detalles de cada oportunidad abierta y cerrada atribuible a sus estrategias, con la flexibilidad de filtrar por etapa de oportunidad. Proporciona información sobre los canales, subcanales o campañas que ocupan los primeros puestos en términos de la cantidad de oportunidades atribuidas y muestra la cantidad total de oportunidades atribuidas junto con el recuento de oportunidades atribuidas abiertas y cerradas.
+Nos complace presentar el nuevo [Tablero de oportunidades atribuidas](/help/marketo-measure-discover-ui/attributed-opportunity-dashboard.md){target="_blank"}, diseñado para ofrecerle una visión completa de cómo sus esfuerzos de marketing contribuyen a las oportunidades de canalización nacientes y maduras. Este panel de control le permite profundizar en los detalles de cada oportunidad abierta y cerrada atribuible a sus estrategias, con la flexibilidad de filtrar por etapa de oportunidad. Proporciona información sobre los canales, subcanales o campañas que ocupan los primeros puestos en términos de la cantidad de oportunidades atribuidas y muestra la cantidad total de oportunidades atribuidas junto con el recuento de oportunidades atribuidas abiertas y cerradas.
 
 ### Sincronización de cookies de Marketo Engage para Marketo Measure Ultimate
 
@@ -89,22 +88,18 @@ La sincronización de cookies de Marketo Engage ya está disponible para Marketo
 
 Anteriormente, solo disponible para clientes de nivel 3, la función Fase de Boomerang también estará disponible para todos los clientes de nivel 2 a partir del 13 de junio de 2024. Para obtener información más detallada sobre esta funcionalidad, consulte la documentación siguiente.
 
-* [Fases y puntos de contacto de Boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
-* [Configuración de fases de Boomerang](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
-* [Escenarios de fases de Boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
-
-<p>
+* [Fases y puntos de contacto de Boomerang](/help/advanced-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Configuración de fases de Boomerang](/help/advanced-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [Escenarios de fases de Boomerang](/help/advanced-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 ## Versión del segundo trimestre {#q2-release}
-
-<p>
 
 ### Obsolescencia de las funciones de Marketo Measure en respuesta a la eliminación gradual de las cookies de terceros
 
 En respuesta a la creciente preocupación por la privacidad, las cookies de terceros se están eliminando gradualmente, y la fecha límite del tercer trimestre de 2024 de Google Chrome señala su fin. Marketo Measure dejará de utilizar determinadas funciones que dependen de cookies de terceros, específicamente el seguimiento entre dominios y la atribución de visualizaciones, que dependen de la cookie de impresión Google/DoubleClick. Este cambio no afectará a otras funcionalidades de Marketo Measure ni al uso de cookies de terceros. Siguiendo la cronología de Google, se espera que estas funcionalidades estén en desuso el 1 de junio, aunque los datos recopilados antes de esta fecha seguirán siendo accesibles para los clientes.
 
 * [Adaptación a la obsolescencia de cookies de terceros en Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
-* [Cookies de Marketo Measure](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
+* [Cookies de Marketo Measure](/help/marketo-measure-tracking/marketo-measure-cookies.md){target="_blank"}
 
 ### Despliegue gradual de nuestra gestión de errores mejorada
 
@@ -122,8 +117,6 @@ Visibilidad inmediata: la introducción de las notificaciones pulse permite una 
 _Apoyo a la transición_
 
 Para ayudarle a adaptarse a este cambio, [hemos creado una documentación](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} con descripciones claras de los errores y pasos exhaustivos para la resolución de problemas.
-
-<br>
 
 ### Acción necesaria para la integración de LinkedIn
 

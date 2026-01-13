@@ -1,19 +1,19 @@
 ---
 description: Prácticas recomendadas para  [!DNL Marketo Measure] Paquete CRM - [!DNL Marketo Measure]
-title: Prácticas recomendadas para el paquete CRM de  [!DNL Marketo Measure]
+title: 'Prácticas recomendadas para el paquete CRM de  [!DNL Marketo Measure] '
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 7%
 
 ---
 
+
 # Prácticas recomendadas para el paquete CRM [!DNL Marketo Measure] {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
->
 >Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Se ha actualizado y el cambio de marca se reflejará próximamente en su CRM.
 
 ## Información general {#overview}
@@ -49,12 +49,10 @@ Otras razones que podrían déclencheur una revisión...
 * Compruebe que tiene instalada la versión más reciente del paquete de puntos de contacto del comprador en [!DNL Salesforce]
 
 >[!NOTE]
->
 >Cuando deshabilita la exportación de datos de Marketo Measure a Salesforce, no se eliminará ningún dato existente. Para quitarlo, siga los pasos de [este artículo de ayuda de Salesforce](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
->
->* [Actualizar paquete de Buyer Touchpoint](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure] Conjuntos de permisos](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [Carpeta para compartir informes y paneles](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
->* [Conectar Marketo Measure a Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+> [Actualizar paquete de Buyer Touchpoint](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
+> [[!DNL Marketo Measure] Conjuntos de permisos](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+> [Compartiendo carpeta de informes y paneles](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Conectar Marketo Measure a Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

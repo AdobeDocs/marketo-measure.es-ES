@@ -1,33 +1,32 @@
 ---
-unique-page-id: 18874578
 description: Campañas y miembros de campañas de  [!DNL Marketo Measure]
 title: Campañas y miembros de campañas
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 100%
+source-wordcount: '1252'
+ht-degree: 88%
 
 ---
+
 
 # Campañas y miembros de campañas {#campaigns-and-campaign-members}
 
 Las campañas de [!DNL Salesforce] están pensadas para rastrear listas de posibles clientes y contactos asociados a un programa o una actividad de marketing. Esto ha sido, por lo general, seminarios web, inscripciones o visitas en ambos sitios, por ejemplo. Los especialistas en marketing pueden seleccionar si una campaña debe recibir crédito en un recorrido de touchpoint.
 
 >[!NOTE]
->
 >Este artículo trata sobre un proceso obsoleto. Recomendamos a los usuarios que utilicen el [proceso en la aplicación nuevo y mejorado](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Habilitar touchpoints {#enabling-touchpoints}
 
 El paquete [!DNL Marketo Measure] [!DNL Salesforce] incluirá un campo denominado “Habilitar touchpoints del comprador” en el objeto de campaña. Una vez añadido el campo al diseño de página, aparece de forma similar a esto:
 
-![](assets/1.png)
+![Diseño de página de Salesforce Campaign que muestra el campo Habilitar puntos de contacto del comprador](assets/1.png)
 
 Las opciones disponibles en la lista desplegable son las siguientes:
 
-![](assets/2.png)
+![Habilitar lista desplegable de puntos de contacto del comprador con opciones de inclusión de miembros de la campaña](assets/2.png)
 
 * Incluir todos los miembros de la campaña: cada posible cliente o contacto añadido a la campaña recibirá un touchpoint asociado a esa campaña.
 * Incluir solo los miembros de la campaña “Respondidos”: solo los posibles clientes o contactos que tengan el estado de miembro de campaña “Respondido” recibirán un touchpoint asociado a esa campaña.
@@ -47,9 +46,9 @@ La fecha de inicio se puede utilizar en el caso de una campaña existente para r
 
 ## Caso de uso para la fecha de finalización de Touchpoint {#use-case-for-touchpoint-end-date}
 
-Si antes de usar [!DNL Marketo Measure], ha utilizado una plataforma de automatización de marketing que realiza un seguimiento de las interacciones digitales de los posibles clientes (es decir, los envíos de formularios) y, a continuación, ha cargado dichos posibles clientes en una campaña de [!DNL Saleforce], puede utilizar el campo Fecha de finalización de Touchpoint. Se establece la fecha de finalización de Touchpoint como la fecha de inicio con [!DNL Marketo Measure] y se activan los Buyer Touchpoints. Después, la interacción digital de cada uno de estos posibles clientes se crea como un Touchpoint. El motivo por el que configurará la fecha de finalización del punto de contacto como la fecha de inicio con [!DNL Marketo Measure] se debe a que, en adelante, rastrearemos estas interacciones digitales a través de JavaScript.
+Si antes de usar [!DNL Marketo Measure], ha utilizado una plataforma de automatización de marketing que realiza un seguimiento de las interacciones digitales de los posibles clientes (es decir, los envíos de formularios) y, a continuación, ha cargado dichos posibles clientes en una campaña de [!DNL Saleforce], puede utilizar el campo Fecha de finalización de Touchpoint. Se establece la fecha de finalización de Touchpoint como la fecha de inicio con [!DNL Marketo Measure] y se habilitan los Buyer Touchpoints. Después, la interacción digital de cada uno de estos posibles clientes se crea como un Touchpoint. El motivo por el que configurará la fecha de finalización del punto de contacto como la fecha de inicio con [!DNL Marketo Measure] se debe a que, en adelante, rastrearemos estas interacciones digitales a través de JavaScript.
 
-![](assets/3.png)
+![Registro de campaña que muestra los campos Fecha de inicio de Touchpoint y Fecha de finalización de Touchpoint](assets/3.png)
 
 ## Miembros de la campaña {#campaign-members}
 
@@ -57,9 +56,9 @@ Los miembros de la campaña están anidados en [!UICONTROL Campañas] y están r
 
 ## Estado de Buyer Touchpoint {#buyer-touchpoint-status}
 
-Si está activado, [!DNL Marketo Measure] insertará un valor de estado en el miembro de la campaña en cuatro campos diferentes que se incluyen en el paquete instalado: estado de Touchpoint (posible cliente), estado de Touchpoint (contacto), estado de Touchpoint (oportunidad) y fecha de estado de Touchpoint. Esto ayuda a los clientes a auditar si se ha creado o no un Touchpoint como Buyer Touchpoint o Buyer Attribution Touchpoint, según el objeto con el que esté relacionado. La fecha de estado de Touchpoint es simplemente la última fecha en la que se actualizó el estado en el miembro de la campaña.
+Si está habilitado, [!DNL Marketo Measure] insertará un valor de estado en el miembro de la campaña en cuatro campos diferentes que se incluyen en el paquete instalado: estado de Touchpoint (posible cliente), estado de Touchpoint (contacto), estado de Touchpoint (oportunidad) y fecha de estado de Touchpoint. Esto ayuda a los clientes a auditar si se ha creado o no un Touchpoint como Buyer Touchpoint o Buyer Attribution Touchpoint, según el objeto con el que esté relacionado. La fecha de estado de Touchpoint es simplemente la última fecha en la que se actualizó el estado en el miembro de la campaña.
 
-![](assets/4.png)
+![Registro de miembro de campaña que muestra los campos de estado de Touchpoint para posible cliente, contacto, oportunidad y fecha de estado](assets/4.png)
 
 ## Fecha de Buyer Touchpoint {#buyer-touchpoint-date}
 
@@ -67,7 +66,7 @@ Con la instalación del paquete, [!DNL Marketo Measure] también incluye un camp
 
 Esto podría ser necesario si se cargó una lista de días/semanas/meses después de que se produjera un evento. Existen maneras de actualizar todos los registros a la vez, que se explican a continuación.
 
-![](assets/5.png)
+![Registro de miembro de campaña con campo Buyer Touchpoint Date para sobrescribir la fecha](assets/5.png)
 
 Para saber si necesita utilizar o no la fecha de Buyer Touchpoint, así es como se determinan las fechas en [!DNL Marketo Measure] según el [!UICONTROL Tipo de sincronización] que se selecciona para la campaña.
 
@@ -88,19 +87,18 @@ Si la variable [!UICONTROL Tipo de sincronización] se establece en “Incluir
 
 La fecha de Touchpoint de actualización masiva se incluye en el paquete [!DNL Marketo Measure] [!DNL Salesforce] instalado y el botón deberá añadirse al diseño de página.
 
-![](assets/6.png)
+![Diseño de página de campaña con botón Fecha de punto de contacto de actualización masiva](assets/6.png)
 
 Si es necesario actualizar un gran número de registros de miembros de la campaña, puede utilizar el botón [!UICONTROL Fecha de Touchpoint de actualización masiva] para la edición masiva.
 
-Si hay casos de uso únicos que esta interfaz no cubre, también puede utilizar el [Cargador de datos](https://dataloader.io/){target="_blank"} para exportar los registros, realizar el cambio y volver a cargar los registros.
+Si hay casos de uso únicos que esta interfaz no cubre, también puede usar el [Cargador de datos](https://dataloader.io/){target="_blank"} para exportar los registros, realizar el cambio y volver a cargar los registros en.
 
 Comience por buscar los registros y filtrar aquellos para los que desea establecer una fecha de Buyer Touchpoint.
 
 >[!CAUTION]
->
 >Hay una búsqueda que no funciona y que se muestra en el ejemplo siguiente. La IU no admite la búsqueda de fechas de Buyer Touchpoint nulas (la siguiente búsqueda no funcionaría):
 
-![](assets/7.png)
+![Interfaz de actualización masiva que muestra una búsqueda no admitida de fechas nulas de Buyer Touchpoint](assets/7.png)
 
 Si no necesita utilizar la búsqueda y tan solo aplica las fechas a cada registro del miembro de la campaña, utilice la casilla de verificación “[!UICONTROL Incluir todos los registros]” (véase la captura de pantalla siguiente), que comprobará todos los registros de todas las páginas.
 
@@ -108,11 +106,11 @@ Seleccione la fecha y la hora en el selector de calendario. Si desea seleccionar
 
 Una vez que haya establecido la fecha y la hora, haga clic en **[!UICONTROL Actualizar registros seleccionados]** para aplicar los cambios.
 
-![](assets/8.png)
+![Interfaz de fecha de contacto de actualización masiva con selector de calendario y botón Actualizar registros seleccionados](assets/8.png)
 
 ## Costes de campaña {#campaign-costs}
 
-Obtenga más información sobre los costes de campaña [en este artículo](/help/marketing-spend/spend-management/crm-campaign-costs.md){target="_blank"}.
+Obtenga más información sobre los costes de campaña [en este artículo](/help/marketing-spend/crm-campaign-costs.md){target="_blank"}.
 
 ## Eliminación de miembros de la campaña {#campaign-member-removal}
 
@@ -121,11 +119,8 @@ La forma en que [!DNL Marketo Measure] se mantiene al día de los registros elim
 Para evitar este problema, [!DNL Marketo Measure] creó un objeto Historial de [!DNL Marketo Measure] y un activador para rastrear cada vez que se borran miembros de la campaña y luego eliminar el Touchpoint correspondiente. **Necesitará el paquete de [!DNL Marketo Measure] Marketing Analytics V6.15 o superior** para utilizar esta función.
 
 >[!CAUTION]
->
->Tenga en cuenta que este activador no rastrea ningún miembro de la campaña que se haya borrado en el pasado, por lo que solo funciona de cara al futuro. Si necesita quitar un gran número de Touchpoints de miembros de campañas anteriores, póngase en contacto con [Asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+>Tenga en cuenta que este activador no rastrea ningún miembro de la campaña que se haya borrado en el pasado, por lo que solo funciona de cara al futuro. Si necesita eliminar un gran número de puntos de contacto de miembros de campañas anteriores, comuníquese con [Soporte técnico de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
->
->[[!DNL Marketo Measure] Tutoriales: Campos de objetos de campaña](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
->
+>[[!DNL Marketo Measure] Tutoriales: Campos de objetos de Campaign](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >[[!DNL Marketo Measure] Tutoriales: Asignación de canales sin conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

@@ -1,20 +1,19 @@
 ---
-unique-page-id: 18874799
 description: Instrucciones de diseño de página,  [!DNL Marketo Measure]
 title: Instrucciones de diseño de página
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 91%
 
 ---
+
 
 # Instrucciones de diseño de página {#page-layout-instructions}
 
 >[!NOTE]
->
 >Puede que vea instrucciones que especifican “[!DNL Marketo Measure]” en la documentación, pero seguirá viendo “Bizible” en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Para ver fácilmente datos de [!DNL Marketo Measure], se recomienda actualizar los diseños de página para los objetos [!UICONTROL Cuenta], [!UICONTROL Contacto], [!UICONTROL Posible cliente], [!UICONTROL Oportunidad], y [!UICONTROL Campaña]. Las instrucciones se desglosan para cada Diseño de página de objeto siguiente.
@@ -29,27 +28,26 @@ Se recomienda añadir los campos de [!DNL Marketo Measure] a su campaña de SFD
 
 1. Haga clic en **[!UICONTROL Diseños de página]**.
 
-   ![](assets/1-1.jpg)
+   ![Configuración de Salesforce que muestra la opción Diseños de página en Campañas](assets/1-1.jpg)
 
 1. Haga clic en **[!UICONTROL Editar]** situado junto al diseño de página que desea actualizar.
 
-   ![](assets/2-1.jpg)
+   ![Lista de diseños de página de campaña con el botón Editar junto al nombre del diseño](assets/2-1.jpg)
 
 1. Dentro de la opción [!UICONTROL campos], seleccione la opción **[!UICONTROL Habilitar Buyer Touchpoints]** y arrástrela a cualquier lugar de la página que desee. A continuación, añada los campos **[!UICONTROL Fecha de inicio de Touchpoint]** y **[!UICONTROL Fecha de finalización de Touchpoint]**.
 
-   ![](assets/3-2.png)
+   ![Editor de diseño de página que muestra el campo Habilitar puntos de contacto del comprador con los campos Fecha de inicio y finalización del punto de contacto](assets/3-2.png)
 
 1. A continuación, en la parte superior de la página, haga clic en la opción &quot;[!UICONTROL Botones]&quot; en el menú búsqueda rápida.
 
 1. Arrastre el botón **[!UICONTROL Fecha de Touchpoint de actualización masiva]** a la sección de botones personalizados.
 
-   ![](assets/4-1.jpg)
+   ![Editor de diseño de página con botón Fecha de punto de contacto de actualización masiva en la sección de botones personalizados](assets/4-1.jpg)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    >[!NOTE]
-   >
-   >Si utiliza varios tipos de registros de campaña, debe actualizar los valores de la lista de selección para el campo **[!UICONTROL Habilitar Buyer Touchpoints]**. Consulte [este artículo](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) para obtener instrucciones.
+   >Si utiliza varios tipos de registros de campaña, debe actualizar los valores de la lista de selección para el campo **[!UICONTROL Habilitar Buyer Touchpoints]**. Consulte [este artículo](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md) para obtener instrucciones.
 
 ## Clientes potenciales {#leads}
 
@@ -64,32 +62,28 @@ Se recomienda añadir los campos de [!DNL Marketo Measure] a su campaña de SFD
 1. Cree una sección y asígnele el nombre “Buyer Touchpoints”.
 
    >[!NOTE]
-   >
    >Seleccione el formato &quot;una columna&quot; para cada una de estas secciones.
 
 1. Arrastre la página **[!UICONTROL Lista relacionada con posibles clientes de Marketo Measure]** de VisualForce en la sección de diseño de página.
 
-   ![](assets/5-1.png)
+   ![Editor de diseño de página de posible cliente con página VisualForce de lista relacionada con posible cliente de Marketo Measure](assets/5-1.png)
 
 1. Haga clic en la llave en la página de [!DNL VisualForce], cambie la altura a 100 y habilite las barras de desplazamiento.
 
 1. En el menú, seleccione la opción [!UICONTROL Aplicaciones de lienzo] y cree una sección denominada “Marketo Measure Insights” bajo la sección Touchpoints de [!DNL VisualForce].
 
    >[!NOTE]
-   >
    >Seleccione el formato &quot;una columna&quot; para cada una de estas secciones.
 
 1. Arrastre la aplicación de lienzo de [!DNL Marketo Measure Insights] a esa sección recién creada. Haga clic en **Guardar**. A veces es necesario guardar primero el diseño de la página antes de soltarlo en la aplicación de lienzo porque Salesforce no lo reconoce instantáneamente. Por consiguiente, después de crear la sección, guarde el diseño de página y vuelva a editarlo para arrastrar la aplicación de lienzo dentro de esa sección.  Esto se aplica a cada objeto.
 
    >[!NOTE]
-   >
    >Para que la aplicación de lienzo de [!DNL Marketo Measure Insights] funcione correctamente, [los permisos deben configurarse correctamente](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
-   >
    >La mayoría de los clientes no utilizan los campos que terminan en (FT) o (LC) porque son campos heredados de antes de que el Touchpoint de [!DNL Marketo Measure] existiera como objeto.
 
-Si está utilizando la funcionalidad ABM de [!DNL Marketo Measure], [haga clic aquí para obtener instrucciones adicionales sobre el diseño de la página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Si está utilizando la funcionalidad ABM de [!DNL Marketo Measure], [haga clic aquí para obtener instrucciones adicionales sobre el diseño de la página](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contactos {#contacts}
 
@@ -112,11 +106,11 @@ Si está utilizando la funcionalidad ABM de [!DNL Marketo Measure], [haga clic 
 
 1. Ordenar Por: fecha de Touchpoint, ascendente.
 
-   ![](assets/6.jpg)
+   ![Configuración de la lista relacionada con los puntos de contacto del comprador con las columnas y la configuración del criterio de ordenación](assets/6.jpg)
 
 1. Expanda la opción Botones y deseleccione **[!UICONTROL Nuevo]**.
 
-   ![](assets/7.png)
+   ![Propiedades de lista relacionada que muestran el botón Nuevo deseleccionado en la sección Botones](assets/7.png)
 
 1. Vuelva a la opción [!UICONTROL Lista relacionada] en el menú y, a continuación, añada la lista relacionada **[!UICONTROL Buyer Attribution Touchpoint]**.
 
@@ -190,4 +184,4 @@ Si está utilizando la funcionalidad ABM de [!DNL Marketo Measure], [haga clic 
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Si está utilizando la funcionalidad ABM de [!DNL Marketo Measure], revise las [instrucciones adicionales de diseño de página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Si está utilizando la funcionalidad ABM de [!DNL Marketo Measure], revise las [instrucciones adicionales de diseño de página](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
