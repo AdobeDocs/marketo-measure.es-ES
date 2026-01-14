@@ -34,4 +34,4 @@ Si desea comprender el &quot;recuento de contactos&quot;, puede utilizar los cam
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriales: Informes de SFDC de Stock](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriales: Informes de SFDC de Stock](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
