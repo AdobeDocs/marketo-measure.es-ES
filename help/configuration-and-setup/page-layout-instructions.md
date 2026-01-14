@@ -42,7 +42,7 @@ Se recomienda añadir los campos de [!DNL Marketo Measure] a su campaña de SFD
 
 1. Arrastre el botón **[!UICONTROL Fecha de Touchpoint de actualización masiva]** a la sección de botones personalizados.
 
-   ![1. Arrastre el botón Fecha de punto de contacto de actualización masiva a su ](assets/bizible-taxonomy-1.png) personalizado
+   ![1. Arrastre el botón Fecha de punto de contacto de actualización masiva a su &#x200B;](assets/bizible-taxonomy-1.png) personalizado
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -64,7 +64,7 @@ Se recomienda añadir los campos de [!DNL Marketo Measure] a su campaña de SFD
 
 1. Arrastre la página **[!UICONTROL Lista relacionada con posibles clientes de Marketo Measure]** de VisualForce en la sección de diseño de página.
 
-   ![1. Arrastre la página Marketo Measure Lead Related List de VisualForce a ](assets/connect-salesforce-1.png)
+   ![1. Arrastre la página Marketo Measure Lead Related List de VisualForce a &#x200B;](assets/connect-salesforce-1.png)
 
 1. Haga clic en la llave en la página de [!DNL VisualForce], cambie la altura a 100 y habilite las barras de desplazamiento.
 

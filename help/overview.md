@@ -47,7 +47,7 @@ Se espera que ![los especialistas en marketing traigan sus datos B2B (por ejempl
 
 [!DNL Marketo Measure Ultimate] establece la moneda predeterminada en USD hasta que el usuario la cambie. Si se establece una nueva moneda predeterminada, los datos se actualizan sin necesidad de volver a procesarlos. Siempre que la moneda seleccionada esté presente como código ISO de destino, no es necesario enviar las tasas de conversión.
 
-![Marketo Measure Ultimate establece la divisa predeterminada en USD hasta el ](assets/marketo-overview-7.png)
+![Marketo Measure Ultimate establece la divisa predeterminada en USD hasta el &#x200B;](assets/marketo-overview-7.png)
 
 **[!DNL Marketo Measure Ultimate]zona protegida**
 
@@ -92,7 +92,7 @@ Las condiciones de la regla son específicas del conjunto de datos. Las reglas d
 
 No hay selección para el modelo de canal frente a búmeran o personalizado. Todas las fases se seleccionan para el modelo de canal, búmeran y personalizado. Hay un límite de cuántas fases admitimos: 15 fases personalizadas más 6 fases integradas.
 
-![No hay selección para funnel frente a boomerang frente a modelo personalizado. Todas las etapas son ](assets/marketo-overview-4.png)
+![No hay selección para funnel frente a boomerang frente a modelo personalizado. Todas las etapas son &#x200B;](assets/marketo-overview-4.png)
 
 Las reglas de punto de contacto de miembro de campaña y las reglas de punto de contacto de actividad son específicas del conjunto de datos.
 

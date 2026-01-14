@@ -20,4 +20,4 @@ Hay dos bits de características independientes vinculados a esta característic
 
 En su [!UICONTROL configuración de usuario] en la aplicación [!DNL Marketo Measure], se mostrará la moneda corporativa y todas las monedas compatibles que se hayan extraído del CRM. Como todos estos valores se extraen del CRM, estos campos son de solo lectura y no se pueden cambiar. La moneda del panel es la moneda predeterminada cada vez que se carga un panel. Puede volver y cambiar la moneda según sea necesario.
 
-![En la configuración de usuario de la aplicación Marketo Measure, ](assets/multi-currency-1.png)
+![En la configuración de usuario de la aplicación Marketo Measure, &#x200B;](assets/multi-currency-1.png)

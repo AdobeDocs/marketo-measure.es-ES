@@ -31,7 +31,7 @@ Los siguientes pasos son para usuarios de Salesforce Lightning. Si todavía usa 
 
 1. En Configuración, escriba &quot;Flujos&quot; en el Cuadro de búsqueda rápida y seleccione **[!UICONTROL Flujos]** para iniciar el Generador de flujos. En el panel derecho, haga clic en el botón **[!UICONTROL Nuevo flujo]**.
 
-   ![1. En Configuración, escriba &quot;Flujos&quot; en el Cuadro de búsqueda rápida y seleccione ](assets/custom-amount-1.png)
+   ![1. En Configuración, escriba &quot;Flujos&quot; en el Cuadro de búsqueda rápida y seleccione &#x200B;](assets/custom-amount-1.png)
 
 1. Seleccione **[!UICONTROL Flujo activado por registros]** y haga clic en **[!UICONTROL Crear]** en la parte inferior derecha.
 
@@ -39,7 +39,7 @@ Los siguientes pasos son para usuarios de Salesforce Lightning. Si todavía usa 
 
 1. En la ventana Configurar inicio, seleccione el objeto Oportunidad. En la sección [!UICONTROL Configurar Déclencheur], seleccione **[!UICONTROL Se ha creado o actualizado un registro]**.
 
-   ![1. En la ventana Configurar inicio, seleccione el objeto Oportunidad. De ](assets/custom-amount-11.png)
+   ![1. En la ventana Configurar inicio, seleccione el objeto Oportunidad. De &#x200B;](assets/custom-amount-11.png)
 
 1. En la sección Establecer condiciones de entrada, en [!UICONTROL Requisitos de condición], seleccione **[!UICONTROL Se cumple la lógica de condición personalizada]**.
    * En el campo de búsqueda, seleccione el campo Importe personalizado.
@@ -54,7 +54,7 @@ Los siguientes pasos son para usuarios de Salesforce Lightning. Si todavía usa 
 
 1. Para agregar el elemento, haga clic en el icono de signo más (+) y seleccione **[!UICONTROL Actualizar registro de activación]**.
 
-   ![1. Para agregar el elemento, haga clic en el icono de signo más (+) y seleccione ](assets/custom-amount-14.png)
+   ![1. Para agregar el elemento, haga clic en el icono de signo más (+) y seleccione &#x200B;](assets/custom-amount-14.png)
 
 1. En la ventana Nuevos registros de actualización, introduzca lo siguiente:
 
@@ -68,7 +68,7 @@ Los siguientes pasos son para usuarios de Salesforce Lightning. Si todavía usa 
 
 1. Haga clic en **[!UICONTROL Guardar]**. Aparecerá una ventana emergente. Escriba &quot;Flow Label&quot; en la ventana Save the Flow (el nombre de la API de flujo se generará automáticamente). Vuelva a hacer clic en **[!UICONTROL Guardar]**.
 
-   ![1. Haga clic en Guardar. Aparecerá una ventana emergente. Escriba &quot;Etiqueta de flujo&quot; en ](assets/custom-amount-2.png)
+   ![1. Haga clic en Guardar. Aparecerá una ventana emergente. Escriba &quot;Etiqueta de flujo&quot; en &#x200B;](assets/custom-amount-2.png)
 
 1. Haga clic en el botón **[!UICONTROL Activar]** para activar el flujo.
 

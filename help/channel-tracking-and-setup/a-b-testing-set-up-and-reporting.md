@@ -25,7 +25,7 @@ Añada las Secciones de prueba A/B de [!DNL Marketo Measure] sobre cliente poten
 
 1. Haga clic en el botón [!UICONTROL Llave inglesa]. Elimine el campo &quot;Id&quot; de stock de la lista de Campos seleccionados. Añada los campos **[!UICONTROL Experimento]**, **[!UICONTROL Variación]**, y **[!UICONTROL DateReported]**. Cambie de “[!UICONTROL ordenar por]” a **[!UICONTROL fecha del informe]** y seleccione **[!UICONTROL Descendente]** en la lista desplegable.
 
-   ![1. Haga clic en el botón Llave inglesa. Quitar el campo &quot;Id&quot; de stock de ](assets/advanced-features-3.png)
+   ![1. Haga clic en el botón Llave inglesa. Quitar el campo &quot;Id&quot; de stock de &#x200B;](assets/advanced-features-3.png)
 
 1. En [!UICONTROL Botones], desmarque **[!UICONTROL Nuevo]**.
 

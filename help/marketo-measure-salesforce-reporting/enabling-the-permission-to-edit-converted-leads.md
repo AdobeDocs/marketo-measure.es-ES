@@ -26,6 +26,6 @@ Obtenga información sobre cómo habilitar el permiso para editar registros de p
 
 1. Marque la casilla para permitir ver y editar posibles clientes convertidos.
 
-   ![1. Marque la casilla para habilitar el permiso para ver y editar ](assets/additional-functionality-3.png)
+   ![1. Marque la casilla para habilitar el permiso para ver y editar &#x200B;](assets/additional-functionality-3.png)
 
 ¡Y has terminado!

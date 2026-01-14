@@ -60,11 +60,11 @@ Una vez que tenga una plantilla de seguimiento, siga las instrucciones a continu
 
 1. Haga clic en el icono de lápiz junto a la cuenta de AdWords que tendrá habilitado el etiquetado automático de [!DNL Marketo Measure].
 
-   ![1. Haga clic en el icono de lápiz junto a la cuenta de AdWords que ](assets/utilizing-connections-9.png)
+   ![1. Haga clic en el icono de lápiz junto a la cuenta de AdWords que &#x200B;](assets/utilizing-connections-9.png)
 
 1. En la esquina superior derecha, cambie el conmutador **[!UICONTROL Etiquetado automático]** a **[!UICONTROL Sí]**. En la parte inferior de la página, haz clic en **[!UICONTROL Más información]** para expandir el cuadro de texto y haz clic en **[!UICONTROL Guardar]**. Se ha completado la configuración del etiquetado automático.
 
-   ![1. En la esquina superior derecha, cambie el conmutador de etiquetado automático a ](assets/utilizing-connections-10.png)
+   ![1. En la esquina superior derecha, cambie el conmutador de etiquetado automático a &#x200B;](assets/utilizing-connections-10.png)
 
 ## Cómo configurar una plantilla de seguimiento en AdWords con [!DNL Marketo Measure] parámetros {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 

@@ -62,7 +62,7 @@ Cuando se instala y configura en Adobe Launch, la extensión [!DNL Marketo Measu
 
 1. En la lista desplegable Extensión, seleccione **[!UICONTROL Principal]**. A continuación, en la lista desplegable Tipo de evento, seleccione **[!UICONTROL Biblioteca cargada (Principio de página)]**. Si no le asigna un nombre al evento, se aplica uno predeterminado. Haga clic en **[!UICONTROL Conservar cambios]** cuando haya terminado.
 
-   ![1. En la lista desplegable Extensión, seleccione Principal. Luego, en el evento ](assets/marketo-launch-1.png)
+   ![1. En la lista desplegable Extensión, seleccione Principal. Luego, en el evento &#x200B;](assets/marketo-launch-1.png)
 
 1. Haga clic en el botón **[!UICONTROL Agregar]** en Acciones.
 
@@ -70,7 +70,7 @@ Cuando se instala y configura en Adobe Launch, la extensión [!DNL Marketo Measu
 
 1. En el menú desplegable Extensión, seleccione **[!UICONTROL Bizible Analytics]**. A continuación, en la lista desplegable Tipo de acción, seleccione **[!UICONTROL Inicializar]**. Si no asigna un nombre a la acción, se aplica uno predeterminado. Haga clic en **[!UICONTROL Conservar cambios]** cuando haya terminado.
 
-   ![1. En el menú desplegable Extensión, seleccione Bizible Analytics. Luego, en la acción ](assets/marketo-launch-4.png)
+   ![1. En el menú desplegable Extensión, seleccione Bizible Analytics. Luego, en la acción &#x200B;](assets/marketo-launch-4.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 

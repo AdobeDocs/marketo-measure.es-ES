@@ -17,7 +17,7 @@ El JavaScript de [!DNL Marketo Measure] que le gustaría rastrear mediante [!DNL
 
 >[!NOTE]
 >
->Asegúrese de que haber reclamado todos los dominios adecuados de [ en  [!DNL Adobe Admin Console]](/help/domain-management.md){target="_blank"} además de implementar el JavaScript de [!DNL Marketo Measure].
+>Asegúrese de que haber reclamado todos los dominios adecuados de [&#x200B; en  [!DNL Adobe Admin Console]](/help/domain-management.md){target="_blank"} además de implementar el JavaScript de [!DNL Marketo Measure].
 
 Al comenzar con [!DNL Marketo Measure], hay dos maneras de añadir el JavaScript de [!DNL Marketo Measure] a su sitio web:
 
@@ -66,7 +66,7 @@ Asegúrese de tener una conversación con su equipo web para que sepan que el Ja
 
 Si se activa una advertencia [!DNL Web Application Firewall (WAF)] durante la configuración de JavaScript, los usuarios pueden deshabilitar esa regla de WAF o lista de permitidos las cookies, como se muestra en el siguiente ejemplo:
 
-![Si se activa una advertencia de Firewall de aplicaciones web (WAF) durante la ](assets/adding-script-1.png)
+![Si se activa una advertencia de Firewall de aplicaciones web (WAF) durante la &#x200B;](assets/adding-script-1.png)
 
 ## Formularios a los que debe prestarse especial atención {#forms-to-pay-extra-attention-to}
 

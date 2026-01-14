@@ -30,7 +30,7 @@ El lenguaje de marcado para confirmaciones de seguridad (SAML) para el inicio de
 
 Para empezar, vaya a la página Configuración > Seguridad > Autenticación en la aplicación de [!DNL Marketo Measure]. A continuación, cambie el tipo de inicio de sesión a SSO personalizado para ver las opciones de configuración.  Los cambios no surtirán efecto hasta que pruebe la autenticación y haga clic en el botón **[!UICONTROL Guardar]** en la parte inferior de la página.
 
-![Para empezar, vaya a la página Autenticación de seguridad de configuración en ](assets/compliance-resources-1.png)
+![Para empezar, vaya a la página Autenticación de seguridad de configuración en &#x200B;](assets/compliance-resources-1.png)
 
 ## Procesar {#process}
 
@@ -52,7 +52,7 @@ Cambie a SSO personalizado en la aplicación de [!DNL Marketo Measure]
 
 Rellene la configuración de conexión de la configuración del proveedor de identidad
 
-    a. El proveedor de identidad puede proporcionar un documento .xml de metadatos de IdP que extraerá los campos de configuración requeridos.  Cargue el contenido del documento .xml o complete los tres campos a continuación con el resultado obtenido durante el proceso de configuración del proveedor de identidad. ** No es necesario completar ambas operaciones.** 
+    a. El proveedor de identidad puede proporcionar un documento .xml de metadatos de IdP que extraerá los campos de configuración requeridos.  Cargue el contenido del documento .xml o complete los tres campos a continuación con el resultado obtenido durante el proceso de configuración del proveedor de identidad. **&#x200B; No es necesario completar ambas operaciones.** 
     
     i. URL de IdP: la URL a la que  [!DNL Marketo Measure]  debe apuntar para autenticar a los usuarios en la aplicación de  [!DNL Marketo Measure] .  A veces se denomina “URL de redireccionamiento”.
     ii. Emisor de IdP: identificador único del proveedor de identidad.  A veces se denomina “Clave externa”.
@@ -110,7 +110,7 @@ Pruébelo.
     
     c. ¡Felicitaciones! Ha configurado correctamente el inicio de sesión único en la Solicitud de su cuenta de  [!DNL Marketo Measure] .
 
-![c. ¡Felicitaciones! Ha configurado correctamente el inicio de sesión único en ](assets/discover-control-3.png)
+![c. ¡Felicitaciones! Ha configurado correctamente el inicio de sesión único en &#x200B;](assets/discover-control-3.png)
 
 >[!NOTE]
 >

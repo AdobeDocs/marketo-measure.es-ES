@@ -305,7 +305,7 @@ Este campo muestra el grupo general de actividad de marketing o el canal de mark
 
 Este campo muestra el canal de marketing y el subcanal al que pertenece un punto de contacto. En el ejemplo siguiente, el “Canal de marketing: ruta” es Social.Linkedin, donde el canal de marketing es Social y el subcanal es LinkedIn.
 
-![Este campo muestra el canal de mercadotecnia y el subcanal que ](assets/overview-resources-16.png)
+![Este campo muestra el canal de mercadotecnia y el subcanal que &#x200B;](assets/overview-resources-16.png)
 
 **Medio** | Punto de contacto de comprador, Punto de contacto de atribución de comprador
 

@@ -19,7 +19,7 @@ ht-degree: 74%
    + [Modelos de atribución](/help/attribution-models.md)
    + [Marco de trabajo de [!DNL Marketo Measure]](/help/marketo-measure-framework.md)
    + [Atribuciones de marketing](/help/marketing-attribution.md)
-   + [Glosario de campos de  [!DNL Marketo Measure] ](/help/glossary.md)
+   + [Glosario de campos de  [!DNL Marketo Measure] &#x200B;](/help/glossary.md)
 + Seguimiento de [!DNL Marketo Measure] {#marketo-measure-tracking}
    + [Adición del script de seguimiento](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
    + [Prácticas recomendadas para implementar JavaScript](/help/marketo-measure-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
@@ -49,12 +49,12 @@ ht-degree: 74%
    + [!DNL Marketo Measure] y Salesforce {#marketo-measure-and-salesforce}
       + [Consolidación de paquetes de [!DNL Salesforce]](/help/configuration-and-setup/salesforce-package-consolidation.md)
       + [Conexión de  [!DNL Marketo Measure]  a Salesforce](/help/configuration-and-setup/connect-marketo-measure-to-salesforce.md)
-      + [Prácticas recomendadas para el paquete CRM de  [!DNL Marketo Measure] ](/help/configuration-and-setup/best-practices-for-marketo-measure-crm-package.md)
-      + [Objetos de Salesforce de [!DNL Marketo Measure] ](/help/configuration-and-setup/marketo-measure-salesforce-objects.md)
+      + [Prácticas recomendadas para el paquete CRM de  [!DNL Marketo Measure] &#x200B;](/help/configuration-and-setup/best-practices-for-marketo-measure-crm-package.md)
+      + [Objetos de Salesforce de [!DNL Marketo Measure] &#x200B;](/help/configuration-and-setup/marketo-measure-salesforce-objects.md)
       + [Gestión de errores para exportaciones de CRM](/help/configuration-and-setup/crm-error-handling.md)
-      + [Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce] ](/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md)
+      + [Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce] &#x200B;](/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md)
       + [Taxonomía de objetos y campos de [!DNL Marketo Measure]](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md)
-      + [Campos de [!DNL Marketo Measure] en objetos estándar de  [!DNL Salesforce] ](/help/configuration-and-setup/marketo-measure-fields-on-standard-salesforce-objects.md)
+      + [Campos de [!DNL Marketo Measure] en objetos estándar de  [!DNL Salesforce] &#x200B;](/help/configuration-and-setup/marketo-measure-fields-on-standard-salesforce-objects.md)
       + [Instrucciones de diseño de página](/help/configuration-and-setup/page-layout-instructions.md)
       + [Ocultar tipos de informes innecesarios](/help/configuration-and-setup/hiding-unnecessary-report-types.md)
       + [Instalación de paquetes de Salesforce](/help/configuration-and-setup/install-set-up.md)
@@ -82,7 +82,7 @@ ht-degree: 74%
    + Procesos heredados {#legacy-processes}
       + [[!UICONTROL Campañas y miembros de campañas]](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
       + [Fechas de sincronización de campañas](/help/channel-tracking-and-setup/campaign-sync-dates.md)
-      + [Creación de una vista de lista de campañas para campañas de  [!DNL Salesforce] ](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+      + [Creación de una vista de lista de campañas para campañas de  [!DNL Salesforce] &#x200B;](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
       + [Listas de marketing y campañas de Dynamics](/help/channel-tracking-and-setup/dynamics-campaigns-and-marketing-lists.md)
       + [Sincronización de datos históricos](/help/channel-tracking-and-setup/syncing-historical-data.md)
       + [Sincronización de campañas sin conexión](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)
@@ -153,7 +153,7 @@ ht-degree: 74%
    + [Panel de control de velocidad de oportunidad](/help/opportunity-velocity-dashboard.md)
    + [Panel de control de Passport](/help/passport-dashboard.md)
    + [Panel de control de información general sobre ingresos](/help/revenue-overview-dashboard.md)
-   + [Panel de control de ROI ](/help/roi-dashboard.md)
+   + [Panel de control de ROI &#x200B;](/help/roi-dashboard.md)
    + [Panel de control de tráfico web](/help/web-traffic-dashboard.md)
 + [!DNL Marketo Measure] y Adobe {#marketo-measure-and-adobe}
    + [Administración de dominios](/help/domain-management.md)
@@ -164,10 +164,10 @@ ht-degree: 74%
    + [Esquema de Dynamics [!DNL Marketo Measure]](/help/marketo-measure-dynamics-schema.md)
    + [Guía de instalación de CRM de Microsoft Dynamics](/help/microsoft-dynamics-crm-installation-guide.md)
    + [Flujos de trabajo de ingresos para  [!DNL Dynamics]](/help/marketo-measure-revenue-workflows-for-dynamics.md)
-   + [OAuth con Azure Active Directory para CRM de  [!DNL Dynamics] ](/help/oauth-with-azure-active-directory-for-dynamics-crm.md)
+   + [OAuth con Azure Active Directory para CRM de  [!DNL Dynamics] &#x200B;](/help/oauth-with-azure-active-directory-for-dynamics-crm.md)
    + [Informes de stock y tableros en  [!DNL Dynamics]](/help/stock-reports-and-dashboards-in-dynamics.md)
 + [!DNL Marketo Measure] y Marketo {#marketo-measure-and-marketo}
-   + [Configuración de conexión de  [!DNL Marketo] ](/help/set-up-marketo-connection.md)
+   + [Configuración de conexión de  [!DNL Marketo] &#x200B;](/help/set-up-marketo-connection.md)
    + [Integración de actividades de Marketo Engage](/help/marketo-engage-activities-integration.md)
    + [Integración de programas de Marketo Engage](/help/marketo-engage-programs-integration.md)
 + Informes de [!DNL Marketo Measure] Salesforce {#marketo-measure-salesforce-reporting}
@@ -192,7 +192,7 @@ ht-degree: 74%
    + [Plantilla de informe - Power BI](/help/report-template-power-bi.md)
    + [Plantilla de informe: Tableau](/help/report-template-tableau.md)
 + Seguridad y cumplimiento {#security}
-   + [Garantizar el consentimiento para el RGPD en JS de  [!DNL Marketo Measure] ](/help/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
+   + [Garantizar el consentimiento para el RGPD en JS de  [!DNL Marketo Measure] &#x200B;](/help/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
    + [Migración de nivel a  [!DNL Marketo Measure] Ultimate](/help/migration-from-tier-to-marketo-measure-ultimate.md)
    + [Requisito sobre la integridad de datos](/help/data-integrity-requirement.md)
@@ -203,7 +203,7 @@ ht-degree: 74%
    + [Integración de seguimiento de llamadas](/help/call-tracking-integration.md)
    + [Diferencia entre una conversión de Google Analytics y un punto de contacto de comprador](/help/difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint.md)
    + [Parámetro de seguimiento de correo electrónico](/help/email-tracking-parameter.md)
-   + [Concesión de acceso de  [!DNL Salesforce]  a asistencia de  [!DNL Marketo Measure] ](/help/salesforce-access.md)
+   + [Concesión de acceso de  [!DNL Salesforce]  a asistencia de  [!DNL Marketo Measure] &#x200B;](/help/salesforce-access.md)
    + [Solicitud de privacidad](/help/privacy-requests.md)
    + [Elimine los parámetros de seguimiento de la dirección URL de la página de aterrizaje en Google Analytics](/help/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
    + [Transición desde un círculo completo](/help/transitioning-to-marketo-measure-from-full-circle.md)

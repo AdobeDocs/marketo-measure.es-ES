@@ -46,7 +46,7 @@ Obtenga más información sobre [Marketo Measure Ultimate](/help/migration-from-
 
 &#42; _Un esquema consta de una clase y cero o más grupos de campos de esquema. Esto significa que podría componer un esquema del conjunto de datos sin utilizar grupos de campos._
 
-![&amp;42; un esquema consta de una clase y cero o más campos de esquema](assets/marketo-guide-1.png)
+![&42; un esquema consta de una clase y cero o más campos de esquema](assets/marketo-guide-1.png)
 
 [Información general de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Todos los datos ingeridos correctamente en AEP se mantienen dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
 
@@ -54,9 +54,9 @@ Obtenga más información sobre [Marketo Measure Ultimate](/help/migration-from-
 
 Se recomienda utilizar una utilidad de generación automática para crear diez esquemas B2B estándar.
 
-* Los pasos para descargar y configurar la utilidad [ se encuentran aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
+* Los pasos para descargar y configurar la utilidad [&#x200B; se encuentran aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígenes.
+Para los que tengan un _&#x200B;**derecho de CDP**&#x200B;_: cree esquemas en la página Orígenes.
 
 * Desde un origen, seleccione Añadir datos > Usar plantillas
 

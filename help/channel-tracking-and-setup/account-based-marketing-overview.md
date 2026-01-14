@@ -87,7 +87,7 @@ Para empezar a utilizar la PES, debe añadir el campo PES y la lista relacionada
 1. A continuación, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Clientes potenciales]** > **[!UICONTROL Diseño de página]** y seleccione los diseños de página adecuados que desee editar.
 1. Haga clic en **[!UICONTROL Campos]** y añada el campo [!UICONTROL Cuenta] donde crea conveniente en la página.
 
-   ![1. Haga clic en Campos y agregue el campo Cuenta donde ](assets/account-marketing-5.png)
+   ![1. Haga clic en Campos y agregue el campo Cuenta donde &#x200B;](assets/account-marketing-5.png)
 
 Ya está todo listo.
 

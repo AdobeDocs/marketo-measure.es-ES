@@ -36,7 +36,7 @@ El Objeto [!UICONTROL Buyer Touchpoint] (BT) cuenta la historia de marketing de 
 
 El objeto BT es visible en las páginas de posibles clientes y contactos como **Lista relacionada** (véase la imagen siguiente).
 
-![El objeto BT está visible en las páginas de contactos y posibles clientes como ](assets/bizible-taxonomy-1.png)
+![El objeto BT está visible en las páginas de contactos y posibles clientes como &#x200B;](assets/bizible-taxonomy-1.png)
 
 La lista relacionada de BT muestra todos los Touchpoints que pertenecen al posible cliente o contacto. Dentro de la lista están los campos de [!DNL Marketo Measure] personalizados que proporcionan más detalles sobre cada Touchpoint. Al hacer clic en el número de ID del Buyer Touchpoint, accederá a la página Detalles del Buyer Touchpoint, que proporciona todavía más detalles sobre el Touchpoint, como la primera página web que visitó el posible cliente/contacto durante esa sesión web (**página de destino**).
 

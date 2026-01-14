@@ -30,7 +30,7 @@ Si eligió realizar la prueba de [!DNL Marketo Measure] en un entorno de zona p
 * Haga clic en el icono de papelera situado junto a la conexión de SFDC para eliminarlo.
 * Se le pedirá que confirme la eliminación.  Asegúrese de leer la indicación con cuidado y comprender las consecuencias de la eliminación.
 
-  ![Se le pedirá que confirme la eliminación. Asegúrese de leer más de ](assets/salesforce-migration-1.png)
+  ![Se le pedirá que confirme la eliminación. Asegúrese de leer más de &#x200B;](assets/salesforce-migration-1.png)
 
    * Escriba el nombre de la empresa como se le indica en el modelo de confirmación y haga clic en “Entiendo las consecuencias, eliminar esta conexión”.
 * Esto desencadena el proceso de eliminación y tardará algún tiempo en finalizar.

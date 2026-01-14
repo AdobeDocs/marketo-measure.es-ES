@@ -51,7 +51,7 @@ Objetivo: Utilice el valor de un campo personalizado y colóquelo en el objeto T
    * **)** marca el final de la extracción
    * **.&#42;** nos indica que estamos extrayendo la cadena completa
 
-![.&amp;42; indica que se está extrayendo la cadena completa ](assets/touchpoint-fields-10.png)
+![.&42; indica que se está extrayendo la cadena completa &#x200B;](assets/touchpoint-fields-10.png)
 
 **Ejemplo #2**
 
@@ -190,7 +190,7 @@ Para facilitar la creación de segmentos, ahora es posible crear segmentos diná
 
 Su configuración se parecería a la captura de pantalla siguiente. El nombre del segmento extrae dinámicamente el valor del campo de punto de contacto utilizando llaves para buscar el campo.
 
-![Su configuración se parecería a la captura de pantalla siguiente. El nombre del segmento ](assets/touchpoint-fields-6.png)
+![Su configuración se parecería a la captura de pantalla siguiente. El nombre del segmento &#x200B;](assets/touchpoint-fields-6.png)
 
 La regla hace referencia al mismo campo de punto de contacto y busca valores que &quot;no son iguales a nulos&quot;.
 

@@ -80,7 +80,7 @@ Probablemente quiera colocar estos nuevos puntos de contacto en su [Canal de mer
 | Coincide con Cualquiera | Varios valores: coincidencia exacta |
 | Coincide Con Cualquiera (Contiene) | Varios valores: &#42;value&#42;, &#42;value, &#42;value&#42; |
 
-![| Coincide Con Cualquiera (Contiene) | Varios valores: &amp;42;valor&amp;42;, &amp;42;valor, &amp;42;valor&amp;42; |](assets/activities-attribution-8.png)
+![| Coincide Con Cualquiera (Contiene) | Varios valores: &42;valor&42;, &42;valor, &42;valor&42; |](assets/activities-attribution-8.png)
 
 Y por último, pero no menos importante, tiene la opción de ingresar costos para sus nuevos canales. La [carga de gasto en mercadotecnia](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} le permite ingresar su gasto en los niveles de canal, subcanal o campaña. Con sus nuevas [!DNL Marketo Measure] campañas, puede agregar esos costos relacionados por mes y luego ver el ROI de cada campaña.
 

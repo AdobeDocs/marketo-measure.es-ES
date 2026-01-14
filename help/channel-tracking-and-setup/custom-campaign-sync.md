@@ -44,7 +44,7 @@ Hoy, con el paquete [!DNL Marketo Measure] instalado, puede indicar qué campañ
 
 1. Haga clic en la marca de verificación y luego agregue reglas adicionales para campañas adicionales según sea necesario.
 
-   ![1. Haga clic en la marca de verificación y luego agregue reglas adicionales para campañas adicionales como ](assets/offline-channels-12.png)
+   ![1. Haga clic en la marca de verificación y luego agregue reglas adicionales para campañas adicionales como &#x200B;](assets/offline-channels-12.png)
 
    >[!NOTE]
    >
@@ -68,15 +68,15 @@ Puede comprobar fácilmente los puntos de contacto del comprador y los registros
 
 1. La función Campaign Sync viene con una función de prueba para que pueda comprobar si las reglas que ha creado se ajustan realmente a los criterios de Campaign. Comience por hacer clic en el botón [!UICONTROL Probar]. Las reglas deben guardarse primero para poder iniciar la prueba.
 
-   ![1. La característica de sincronización de Campaign viene con una característica de prueba para que ](assets/offline-channels-15.jpg)
+   ![1. La característica de sincronización de Campaign viene con una característica de prueba para que &#x200B;](assets/offline-channels-15.jpg)
 
    Aparecerá una ventana emergente en la que puede introducir un ID de campaña (15 o 18 caracteres desde CRM) para probar. El punto es introducir el ID de campaña desde el CRM que intentaba sincronizar para asegurarse de que coincida con la regla creada.
 
-   ![Aparecerá una ventana emergente en la que podrás ingresar un identificador de campaña (ya sea ](assets/offline-channels-16.png)
+   ![Aparecerá una ventana emergente en la que podrás ingresar un identificador de campaña (ya sea &#x200B;](assets/offline-channels-16.png)
 
 1. Después de hacer clic en [!UICONTROL Prueba], verá el nombre de la campaña y el número de miembros de la campaña que cumplen los requisitos para los puntos de contacto. A continuación aparece una tabla con todas las reglas que coinciden con su ID de campaña. Solo aparecerán las coincidencias.
 
-   ![1. Después de hacer clic en Probar, verá el nombre de ](assets/offline-channels-17.png)
+   ![1. Después de hacer clic en Probar, verá el nombre de &#x200B;](assets/offline-channels-17.png)
 
 1. También puede hacer clic en el recuento de miembros para ver una lista de los posibles clientes y contactos y sus ID que forman parte de la idoneidad de la regla de campaña. Este es solo un conjunto de muestras y mostrará hasta 50 para que pueda tener una idea de qué registros cumplen los requisitos.
 

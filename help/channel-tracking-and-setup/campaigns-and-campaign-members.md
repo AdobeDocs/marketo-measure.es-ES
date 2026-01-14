@@ -67,7 +67,7 @@ Con la instalación del paquete, [!DNL Marketo Measure] también incluye un camp
 
 Esto podría ser necesario si se cargó una lista de días/semanas/meses después de que se produjera un evento. Existen maneras de actualizar todos los registros a la vez, que se explican a continuación.
 
-![Esto podría ser necesario si se cargó una lista días/semanas/meses después de ](assets/dynamics-lists-4.png)
+![Esto podría ser necesario si se cargó una lista días/semanas/meses después de &#x200B;](assets/dynamics-lists-4.png)
 
 Para saber si necesita utilizar o no la fecha de Buyer Touchpoint, así es como se determinan las fechas en [!DNL Marketo Measure] según el [!UICONTROL Tipo de sincronización] que se selecciona para la campaña.
 
