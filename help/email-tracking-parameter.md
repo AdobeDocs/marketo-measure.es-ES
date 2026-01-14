@@ -32,7 +32,7 @@ Marketo Measure acepta los siguientes valores: Dirección de correo electrónico
 
 | Automatización de marketing | Token/etiqueta/macro | Ejemplo | Material de apoyo |
 | --- | --- | --- | --- |
-| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [Información general de tokens](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
+| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [Información general de tokens](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=es) |
 | Pardot | %%email%% o %%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Referencia de etiquetas de variables Pardot](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
 | Hubspot | (insertado mediante el editor) | N/A | [Contenido personalizado de HubSpot](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
 | Act-On | (insertado a través del Compositor de mensajes) | N/A | [Actuar en el contenido del correo electrónico personalizado](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
