@@ -4,10 +4,10 @@ title: Plataformas de anuncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
 hidefromtoc: true
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 0%
+source-wordcount: '1734'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,11 @@ Antes de entrar en detalles específicos de cada plataforma, veremos cómo conec
 
 Como se muestra en la siguiente imagen, verá un botón para configurar nuevas conexiones de anuncios.
 
-![](assets/bizible-guide-1.png)
+![Como se muestra en la imagen siguiente, verá un botón para](assets/bizible-guide-1.png)
 
 Después de hacer clic en el botón [!UICONTROL Configurar nueva conexión de anuncios], aparecerá una ventana (que se muestra a continuación) con cuatro tipos de iconos de [!UICONTROL conexión]de anuncios. Haga clic en conectar y aparecerá otra ventana en la que se solicitarán credenciales. Escriba las credenciales y haga clic en [!UICONTROL autorizar] para conectar la cuenta a [!DNL Marketo Measure].
 
-![](assets/five-five-1.png)
+![Después de hacer clic en el botón Configurar nueva conexión de anuncios, a](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -56,15 +56,15 @@ Una vez que tenga una plantilla de seguimiento, siga las instrucciones a continu
 
 1. Vaya a [!UICONTROL Mi cuenta] > [!UICONTROL Configuración] > [!UICONTROL Integraciones] > [!UICONTROL Conexiones].
 
-   ![](assets/utilizing-connections-8.png)
+   ![1. Ir a la configuración de Mi cuenta Integraciones Conexiones.](assets/utilizing-connections-8.png)
 
 1. Haga clic en el icono de lápiz junto a la cuenta de AdWords que tendrá habilitado el etiquetado automático de [!DNL Marketo Measure].
 
-   ![](assets/utilizing-connections-9.png)
+   ![1. Haga clic en el icono de lápiz junto a la cuenta de AdWords que ](assets/utilizing-connections-9.png)
 
 1. En la esquina superior derecha, cambie el conmutador **[!UICONTROL Etiquetado automático]** a **[!UICONTROL Sí]**. En la parte inferior de la página, haz clic en **[!UICONTROL Más información]** para expandir el cuadro de texto y haz clic en **[!UICONTROL Guardar]**. Se ha completado la configuración del etiquetado automático.
 
-   ![](assets/utilizing-connections-10.png)
+   ![1. En la esquina superior derecha, cambie el conmutador de etiquetado automático a ](assets/utilizing-connections-10.png)
 
 ## Cómo configurar una plantilla de seguimiento en AdWords con [!DNL Marketo Measure] parámetros {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 

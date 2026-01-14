@@ -3,7 +3,7 @@ description: Guía de administración de formularios de AJAX para usuarios de Ma
 title: Gestión de formularios AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -23,21 +23,21 @@ Si administra sus propios envíos de formularios, puede llamar explícitamente a
 **A continuación se muestra un ejemplo de código que utiliza JQuery (suponiendo que el ID del formulario es &quot;formId&quot;):**
 
 ```javascript
-///////////////////////////////////////////////////////////////////////  
-// Preamble for all API usage.  
-window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-  
-// Give Marketo Measure the JQuery Selector for the form and we'll collect the data automatically.  
+///////////////////////////////////////////////////////////////////////
+// Preamble for all API usage.
+window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
+
+// Give Marketo Measure the JQuery Selector for the form and we'll collect the data automatically.
 Bizible.Push('Form',$('#*formId*'));
 ```
 
 **A continuación se muestra un ejemplo de código que no utiliza JQuery (suponiendo que el ID del formulario es &quot;formId&quot;):**
 
 ```javascript
-///////////////////////////////////////////////////////////////////////  
-// Preamble for all API usage.  
-window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-  
+///////////////////////////////////////////////////////////////////////
+// Preamble for all API usage.
+window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
+
 // Give Marketo Measure the Form ID and we'll collect the data automatically.
 Bizible.Push('Form','MyFormID');
 ```
@@ -47,14 +47,14 @@ Bizible.Push('Form','MyFormID');
 Si la información de un posible cliente convertido se recopila mediante JavaScript o campos de texto simples sin formulario HTML, esta solución funciona por usted. A continuación se comparte la API que se debe utilizar en este caso:
 
 ```javascript
-///////////////////////////////////////////////////////////////////////  
-// Preamble for all API usage.  
-window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-  
-// If your site is using Ajax, or you are running a secure site, it is best to send us the data directly.  
+///////////////////////////////////////////////////////////////////////
+// Preamble for all API usage.
+window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
+
+// If your site is using Ajax, or you are running a secure site, it is best to send us the data directly.
 Bizible.Push('User', {
-eMail: 'user@gmail.com' // required  
-});  
+eMail: 'user@gmail.com' // required
+});
 ```
 
 En este código, el campo [!UICONTROL correo electrónico] es obligatorio. [!DNL Marketo Measure] publica estos datos de manera asincrónica en nuestros servidores.
@@ -66,8 +66,8 @@ A veces, es más conveniente informar la información de posibles clientes a [!D
 **Por ejemplo:**
 
 ```html
-<div id="bizible.reportUser" style="display:none"  
-data-email="user@gmail.com">  
+<div id="bizible.reportUser" style="display:none"
+data-email="user@gmail.com">
 ```
 
 No importa si el elemento oculto es un tipo de etiqueta div, script o cualquier otro. [!DNL Marketo Measure] busca id=&quot;bizible.reportUser&quot; para leer la información.

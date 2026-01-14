@@ -3,9 +3,9 @@ description: Entender las instrucciones de etiquetado de  [!DNL Marketo Measure]
 title: 'Información sobre el etiquetado de AdWords de  [!DNL Marketo Measure] '
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '657'
 ht-degree: 6%
 
 ---
@@ -60,11 +60,11 @@ Hay dos plantillas de seguimiento que [!DNL Marketo Measure] recomienda usar. Ut
 
 1. Haga clic en **[!UICONTROL Todas las campañas]** y, a continuación, en **[!UICONTROL Configuración]** en la ventana de ampliación.
 
-   ![](assets/utilizing-connections-13.png)
+   ![1. Haga clic en Todas las campañas y luego en Configuración en el ](assets/utilizing-connections-13.png) en expansión
 
 1. Haga clic en **[!UICONTROL Configuración de la cuenta]** en la parte superior y luego en **[!UICONTROL Plantilla de seguimiento]**. Escriba la plantilla de seguimiento [!DNL Marketo Measure].
 
-   ![](assets/bizible-guide-1.png)
+   ![1. Haga clic en Configuración de cuenta en la parte superior y, a continuación, en Seguimiento](assets/bizible-guide-1.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -72,11 +72,11 @@ Hay dos plantillas de seguimiento que [!DNL Marketo Measure] recomienda usar. Ut
 
 1. Haga clic en **[!UICONTROL Todas las campañas]** y luego en **[!UICONTROL Campañas]** en la ventana de expansión.
 
-   ![](assets/utilizing-connections-12.png)
+   ![1. Haga clic en Todas las campañas y luego en Campañas en el ](assets/utilizing-connections-12.png) en expansión
 
 1. Seleccione todas las campañas aplicables o **[!UICONTROL Seleccionar todo]**, haga clic en **[!UICONTROL Editar]** y luego haga clic en **[!UICONTROL Cambiar plantillas de seguimiento]**.
 
-   ![](assets/five-five-1.png)
+   ![1. Seleccione todas las campañas aplicables o seleccione todas, haga clic en Editar,](../assets/marketo-engage-activities-05.png)
 
 1. Escriba la plantilla de seguimiento [!DNL Marketo Measure] y haga clic en **[!UICONTROL Aplicar]**.
 
@@ -84,13 +84,13 @@ Hay dos plantillas de seguimiento que [!DNL Marketo Measure] recomienda usar. Ut
 
 1. Haga clic en **[!UICONTROL Todas las campañas]** y, a continuación, en **[!UICONTROL Grupos de publicidad]** en la ventana de ampliación.
 
-   ![](assets/four-four-1.png)
+   ![1. Haga clic en Todas las campañas y luego en Agregar grupos en ](assets/api-connections-01.png)
 
 1. Seleccione todos los grupos de anuncios aplicables o Seleccionar todo, haga clic en **[!UICONTROL Editar]** y, a continuación, haga clic en **[!UICONTROL Plantillas de seguimiento de cambios]**.
 
 1. Escriba la plantilla de seguimiento [!DNL Marketo Measure] y haga clic en **[!UICONTROL Aplicar]**.
 
-   ![](assets/one-one-1.png)
+   ![1. Escriba la plantilla de seguimiento de Marketo Measure y haga clic en Aplicar.](../assets/marketo-engage-activities-01.png)
 
 ## Preguntas frecuentes {#faq}
 

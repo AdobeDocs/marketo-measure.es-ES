@@ -3,9 +3,9 @@ description: Agregando  [!DNL Marketo Measure] a la guía de páginas de aterriz
 title: Adición de  [!DNL Marketo Measure]  a las páginas de destino de Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Ejemplo en la captura de pantalla siguiente
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   ![](assets/adding-pages-1.png)
+   ![1. Haga clic en Guardar.](assets/adding-pages-1.png)
 
 ## Notas adicionales {#additional-notes}
 
@@ -41,4 +41,4 @@ Ejemplo en la captura de pantalla siguiente
 
 * Es probable que tenga varias plantillas de página de aterrizaje en uso. Asegúrese de agregar el código a todas las plantillas que tengan formularios.
 
-* En ocasiones, cuando edita la plantilla para páginas de aterrizaje, debe volver a aprobar las páginas en las que utiliza la página de aterrizaje. Este artículo explica [cómo realizar la aprobación masiva](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=es){target="_blank"}.
+* En ocasiones, cuando edita la plantilla para páginas de aterrizaje, debe volver a aprobar las páginas en las que utiliza la página de aterrizaje. Este artículo explica [cómo realizar la aprobación masiva](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
