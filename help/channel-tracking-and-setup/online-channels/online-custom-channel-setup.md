@@ -1,15 +1,15 @@
 ---
-description: Configuración de canales personalizados en línea,  [!DNL Marketo Measure]
+description: Guía de configuración personalizada de canales en línea para usuarios de Marketo Measure
 title: Configuración de canales personalizados en línea
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 93%
+source-wordcount: '1224'
+ht-degree: 99%
 
 ---
-
 
 # Configuración de canales personalizados en línea {#online-custom-channel-setup}
 
@@ -32,11 +32,11 @@ Cosas que hay que tener en cuenta:
 
 El primer paso es descargar la hoja de cálculo de canales personalizados desde la aplicación [!DNL Marketo Measure]. Vaya a **Configuración** en la pestaña **Mi cuenta** y seleccione **En línea**. Puede seleccionar **Descargar plantilla original** o **Descargar reglas actuales**.
 
-![Página de configuración que muestra la configuración del canal en línea con las opciones Descargar plantilla original y Descargar reglas actuales](assets/1.png)
+![](assets/online-channels-1.png)
 
 La hoja de cálculo tiene siete columnas:
 
-![Hoja de cálculo de canal personalizado que muestra siete columnas: Canal, Subcanal, Campaña, Medium, Source, Página de aterrizaje y Sitio web de referencia](assets/2.png)
+![](assets/online-channels-2.png)
 
 * **Canal:** agregue los distintos canales de marketing aquí
 * **Subcanal:** agregue los subcanales correspondientes aquí
@@ -50,11 +50,11 @@ La octava columna indica qué reglas no se pueden eliminar de la hoja de cálcul
 
 Las filas representan reglas y el orden en el que [!DNL Marketo Measure] da prioridad a los datos. La primera fila tiene prioridad sobre la segunda fila, la segunda tiene prioridad sobre la tercera y así sucesivamente. Al determinar en qué canal y subcanal de marketing se incluirán los puntos de contacto, [!DNL Marketo Measure] lee de arriba a abajo, de izquierda a derecha, hasta que encuentra una fila que cumple los criterios del punto de contacto. (Si un punto de contacto tiene un elemento `utm_source=Facebook`, el punto de contacto se incluye en el canal Social.Facebook debido a la regla 15 de la captura de pantalla).
 
-![Hoja de cálculo de reglas de canal que muestra el orden de prioridad descendente con el ejemplo de regla Social.Facebook resaltado](assets/3.png)
+![](assets/online-channels-3.png)
 
 [!DNL Marketo Measure] incluye 12 canales predeterminados para su uso. Estos canales se correlacionan con plataformas con las que [!DNL Marketo Measure] está totalmente integrado. Tanto si los usa como si no, no los elimine. Si utiliza una de estas plataformas (por ejemplo, Bing Ads), pero prefiere usar una convención de nombres diferente para el canal o subcanal, puede actualizar el nombre. Se muestra un ejemplo en la siguiente imagen.
 
-![Reglas de canal predeterminadas que muestran 12 plataformas integradas con nombres de canal y subcanal personalizables](assets/4.png)
+![](assets/online-channels-4.png)
 
 La estructura de las reglas también es importante. Es posible que parezca que las reglas contengan información repetida y que falten datos en ellas, pero esta estructura es intencional. Para obtener una clasificación de datos precisa, es necesario asignar cada fuente individual al canal apropiado por separado, incluso las fuentes que comparten subcanales y canales. Cuanto más detalladas y granulares sean las reglas, más esclarecedores serán los resultados. Básicamente, se recomienda escribir una regla detallada para cada esfuerzo de marketing que se desee rastrear.
 
@@ -62,13 +62,13 @@ Consideremos la siguiente situación: tiene otros anuncios que no desea rastrear
 
 Cada parámetro o componente de la regla se asigna por separado al canal. Por ejemplo, cuando [!DNL Marketo Measure] tiene datos de [!DNL Facebook] para ordenar, busca reglas relacionadas con [!DNL Facebook]. Analiza de arriba a abajo. En el ejemplo que se muestra a continuación, [!DNL Marketo Measure] entendería eso para el primer subcanal de [!DNL Facebook], todo lo que tiene que leer es el parámetro de origen para soltar datos en el bloque de esa regla.
 
-![Ejemplo de reglas de canal de Facebook que muestra varias filas con parámetros diferentes asignados a subcanales](assets/5.png)
+![](assets/online-channels-5.png)
 
 La siguiente regla solo solicita el parámetro Medio, por lo que todos los datos con ese parámetro se agrupan en este canal. Por último, para [!DNL Facebook], cualquier dato proveniente de la URL de Facebook se coloca en el último bloque de Facebook.
 
 El canal predeterminado “Otros” existe para capturar datos que no cumplen los criterios de ninguna regla. Observe que algunos de los bloques del canal Otros contienen asteriscos (&#42;). Estos asteriscos representan caracteres comodín que actúan como captador global.
 
-![Otras reglas de canal que muestran asteriscos comodín como contenedores para datos sin coincidencias](assets/6.png)
+![](assets/online-channels-6.jpg)
 
 Dado que la lógica de [!DNL Marketo Measure] funciona al máximo, tenga en cuenta de que la regla comodín, indicada con un asterisco (&#42;), debe colocarse al final de la hoja de reglas.  Todos los datos que el resto de reglas no hayan capturado o clasificado se agregan automáticamente a este bloque comodín.
 

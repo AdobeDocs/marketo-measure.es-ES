@@ -1,19 +1,19 @@
 ---
-description: 'Probando la integración de Marketo Measure con una zona protegida de Salesforce:  [!DNL Marketo Measure]'
+description: Prueba de la integración de Marketo Measure con una guía de zona protegida de Salesforce para usuarios de Marketo Measure
 title: Prueba de la integración de Marketo Measure con una zona protegida de Salesforce
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '358'
 ht-degree: 10%
 
 ---
 
-
 # Prueba de la integración de Marketo Measure con una zona protegida de Salesforce {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
+>
 >Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Una de las funcionalidades principales de [!DNL Marketo Measure] es su capacidad para rastrear los esfuerzos de marketing digital a través de acciones en el sitio web y luego enviar esos datos a su producción [!DNL Salesforce org] a través de posibles clientes y contactos. Sin embargo, normalmente no hay posibles clientes entrantes creados desde el sitio web dentro de una integración de zona protegida, por lo que el enfoque en los datos se centrará en ellos desde un punto de vista puramente sin conexión.

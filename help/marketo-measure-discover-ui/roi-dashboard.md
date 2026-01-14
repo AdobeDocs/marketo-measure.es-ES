@@ -1,15 +1,15 @@
 ---
-description: Tablero de ROI - [!DNL Marketo Measure]  - Producto
+description: Explore el panel ROI para comparar costes, ingresos y ROI entre canales, subcanales y campañas a lo largo del tiempo
 title: 'Panel de control de ROI '
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '739'
 ht-degree: 2%
 
 ---
-
 
 # Panel de control de ROI  {#roi-dashboard}
 
@@ -36,7 +36,7 @@ El panel ROI proporciona a los especialistas en marketing una vista granular de 
 * **ROI simple**: Ingresos atribuidos divididos por costos en el período de fecha filtrado.
 * **ROI realizado**: Ingresos atribuidos realizados divididos por los costos en el período de fecha filtrado.
 
-![Mosaicos KPI del panel de retorno de la inversión para costo, ingresos atribuidos y retorno de la inversión](assets/roi-dashboard-1.png)
+![](assets/roi-dashboard-9.png)
 
 ### Gráfico de costes e ingresos por canal {#cost-and-revenue-by-channel-graph}
 
@@ -50,7 +50,7 @@ Gráfico de barras que ilustra el coste y los ingresos, diseñado para ofrecer u
 * ¿Cuáles fueron los valores de ROI de cada canal, subcanal y campaña?
 * ¿Existen canales o subcanales periféricos con costes inusualmente altos o bajos en relación con sus ingresos?
 
-![Gráfico de barras apiladas de costos e ingresos por canal](assets/roi-dashboard-2.png)
+![](assets/roi-dashboard-8.png)
 
 ### ROI realizado frente a simple con el tiempo {#realized-vs-simple-roi-over-time}
 
@@ -63,7 +63,7 @@ Gráfico de líneas de series temporales que muestra la comparación entre el RO
 * ¿Cómo se compara el ROI realizado con el ROI simple en periodos de tiempo específicos?
 * ¿Cómo se relaciona la tendencia del ROI realizado con cualquier evento de marketing significativo durante el mismo periodo?
 
-![Gráfico de líneas de tendencia de ROI realizado versus simple](assets/roi-dashboard-3.png)
+![](assets/roi-dashboard-7.png)
 
 ### Gráfico de coste con el tiempo {#cost-over-time-graph}
 
@@ -77,7 +77,7 @@ Gráfico de barras apiladas que muestra los costos totales, segmentados por cana
 * ¿En qué se diferencia el coste combinado de todos los canales de un trimestre/mes al siguiente?
 * ¿Cómo han evolucionado los costes de un canal específico con el paso del tiempo?
 
-![Gráfico de barras apiladas de costo en tiempo con controles de detalle](assets/roi-dashboard-4.png)
+![](assets/roi-dashboard-6.png)
 
 ### Gráfico de coste por canal {#cost-by-channel-graph}
 
@@ -90,7 +90,7 @@ Gráfico de barras que muestra el gasto de marketing segmentado por canal, subca
 * ¿Qué subcanales o campañas dentro de un canal principal tienen la asignación más alta?
 * ¿Qué vías de marketing (canal, subcanal o campaña) parecen no tener fondos suficientes en comparación con otras?
 
-![Gasto de marketing por gráfico de barras de canal](assets/roi-dashboard-5.png)
+![](assets/roi-dashboard-5.png)
 
 ### Tabla de resumen de ROI {#roi-summary-table}
 
@@ -140,6 +140,7 @@ Este tablero está equipado con los siguientes ajustes y filtros:
 * Campaña
 
 >[!MORELIKETHIS]
-> [Descubra los conceptos básicos del panel de control](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Descubra los conceptos básicos del panel de control](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

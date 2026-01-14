@@ -1,15 +1,14 @@
 ---
-description: Cambiando a  [!DNL Marketo Measure] desde círculo completo - [!DNL Marketo Measure]
+description: Se está realizando la transición a  [!DNL Marketo Measure] desde la guía de círculo completo para usuarios de Marketo Measure
 title: Transición a  [!DNL Marketo Measure]  desde “Full Circle”
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
-
 
 # Cambiando a [!DNL Marketo Measure] desde círculo completo {#transitioning-to-marketo-measure-from-full-circle}
 

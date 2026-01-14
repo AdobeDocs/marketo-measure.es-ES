@@ -1,15 +1,15 @@
 ---
-description: Costes de canales de marketing
+description: Guía de costes de canal de marketing para usuarios de Marketo Measure
 title: Costes de canales de marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
-
 
 # Costes de canales de marketing {#marketing-channel-costs}
 
@@ -77,13 +77,13 @@ Una vez configurados o actualizados los canales y las reglas de marketing, puede
 
 Vaya al menú **[!UICONTROL Mi cuenta]**, haga clic en **[!UICONTROL Configuración]** y luego vaya a la opción **[!UICONTROL Gasto en marketing]** en la barra lateral izquierda debajo de la sección **[!UICONTROL Informes]**.
 
-![Página de configuración de gastos de marketing en Marketo Measure](assets/1.png)
+![](assets/spend-management-4.png)
 
 **Paso 2: Descargue el CSV de costos actuales**
 
 Vaya a la derecha de la pantalla y haga clic en **[!UICONTROL Descargar costos actuales].** Esta opción le permite descargar una hoja de cálculo en formato CSV.
 
-![Descargar la opción de costos actuales en la página de gastos de mercadotecnia](assets/2.png)
+![](assets/spend-management-1.png)
 
 **Paso 3: Abrir el archivo CSV y realizar cambios**
 
@@ -95,7 +95,7 @@ Compruebe las reglas lógicas de la hoja. Cada fila debe contener un canal y uno
 
 Por ejemplo, para indicar que Facebook es el subcanal y social es el canal, la regla debe escribirse de la siguiente manera: &quot;Social.Facebook&quot;. Del mismo modo, para rastrear un evento sin conexión, la sintaxis del canal debe ser: &quot;Events.Big Conference&quot;. En la siguiente imagen se muestran ejemplos:
 
-![Ejemplo de CSV que muestra las entradas de coste de canal y subcanal](assets/3.png)
+![](assets/spend-management-2.png)
 
 _Notas adicionales_:
 

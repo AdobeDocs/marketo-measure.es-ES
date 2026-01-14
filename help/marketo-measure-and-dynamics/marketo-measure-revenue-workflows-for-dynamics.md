@@ -1,15 +1,14 @@
 ---
-description: '[!DNL Marketo Measure] flujos de trabajo de ingresos para Dynamics - [!DNL Marketo Measure]'
+description: Flujos de trabajo para alinear los campos de ingresos y fechas de cierre de Dynamics para los informes de Marketo Measure
 title: '[!DNL Marketo Measure] flujos de trabajo de ingresos para Dynamics'
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] flujos de trabajo de ingresos para Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
 
@@ -20,11 +19,13 @@ ht-degree: 0%
 Paso 1: Crear un campo de cantidad de oportunidad personalizado en Dynamics
 
 >[!NOTE]
+>
 >Todos los campos de ingresos de Dynamics tienen un campo base y un campo regular. Ignore el campo base.
 
 Paso 2: Cree un flujo de trabajo que actualice el campo de cantidad de oportunidad personalizada creado en el paso 1 y el campo de cantidad de oportunidad [!DNL Marketo Measure].
 
 >[!NOTE]
+>
 >No podemos señalar al campo Importe de oportunidad [!DNL Marketo Measure] (bizible2_bizible_Opportunity_amount) en Discover con cuentas de Dynamics. Los clientes de Dynamics deben crear un campo de cantidad de oportunidad personalizada para que [!DNL Marketo Measure] apunte en Discover. Una vez finalizado, el cliente debe crear un flujo de trabajo que actualice **tanto** la cantidad de oportunidad [!DNL Marketo Measure] (bizible2_bizible_Opportunity_amount) **como** el campo de cantidad de oportunidad personalizada. El campo Cantidad de oportunidad [!DNL Marketo Measure] viene con el paquete, pero se debe crear un campo personalizado.
 
 Cantidad de instrucciones de flujo de trabajo:
@@ -65,6 +66,8 @@ Para actualizar las oportunidades cerradas...
 1. Compruebe si se han producido errores al importar el archivo.
 
 >[!NOTE]
+>
 >Los flujos de trabajo descritos en este documento son solo una forma de actualizar los campos para que [!DNL Marketo Measure] pueda mostrar los datos correctos en Discover. Si tienes otra forma de lograr la misma tarea, puedes ir por ella. Básicamente, lo que necesitamos de ellos es algún tipo de flujo de trabajo que logre lo siguiente:
+>
 > * Si Opp = Abrir, actualice el campo de fecha de cierre personalizado, el campo de cantidad de opp personalizado y el campo de cantidad de opp [!DNL Marketo Measure] para que sean iguales a Fecha de cierre estimada e Ingresos estimados, respectivamente.
 > * Si Opp = Ganado cerrado, actualice el campo de fecha de cierre personalizado, el campo de cantidad de opp personalizado y el campo de cantidad de opp [!DNL Marketo Measure] para que sean iguales a Fecha de cierre real e Ingresos reales, respectivamente.

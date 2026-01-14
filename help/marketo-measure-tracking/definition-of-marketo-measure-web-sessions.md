@@ -1,15 +1,14 @@
 ---
-description: Definición de sesiones web de  [!DNL Marketo Measure]  - [!DNL Marketo Measure]
+description: Definición de la guía de  [!DNL Marketo Measure] sesiones web para usuarios de Marketo Measure
 title: 'Definición de sesiones web de  [!DNL Marketo Measure] '
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 98%
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
-
 
 # Definición de sesiones web de [!DNL Marketo Measure] {#definition-of-marketo-measure-web-sessions}
 
@@ -30,29 +29,13 @@ Hay algunas cosas que determinan cuándo termina una sesión y cuándo comienza 
 
 ## Caducidad basada en el tiempo {#time-based-expiration}
 
-### Comportamiento heredado {#legacy-behavior}
-
 **¿Cuánto dura una sesión?**
 
-Las sesiones de [!UICONTROL Marketo Measure] finalizarán transcurridos 30 minutos de inactividad en el sitio web. Por ejemplo:
+Las sesiones de [!DNL Marketo Measure] finalizarán transcurridos 30 minutos de inactividad en el sitio web. Por ejemplo:
 
 Cuando Haley visita adobe.com, comienza una sesión. Explora el sitio web durante unos minutos y luego se aleja de su ordenador, pero deja el sitio web abierto. Tras 30 minutos de inactividad, la sesión finaliza.
 
-Actualmente, [!UICONTROL Marketo Measure] solo considera la navegación por páginas y los envíos de formularios como actividad. El desplazamiento por la página web o sobre un elemento de la página no se consideran actividades. Por lo tanto, si Haley visita adobe.com para leer una publicación del blog, y tarda una hora leerla, su sesión web terminará transcurridos 30 minutos, incluso si se está desplazando por el contenido de la página.
-
-### Nuevo comportamiento {#new-behavior}
-
-Para los nuevos usuarios, este será el comportamiento predeterminado.
-
-Los usuarios existentes pueden adoptar el nuevo comportamiento activando la opción en **Configuración** > **Atribución por contacto** > **Transferencia de canal de sesión**. Una vez activado, este ajuste no se puede revertir.
-
-Cuando se crea una nueva sesión después de 30 minutos de inactividad, el canal de la sesión anterior se transfiere si la nueva sesión se inicia en un plazo de siete días. Esta prórroga solo se aplica a las visitas directas (sin referente ni referentes internos). Si la inactividad supera los siete días, el canal de la nueva sesión será Directo/Otro de forma predeterminada. Por ejemplo, si Haley visita landingpage.com desde Google, está inactivo durante más de 30 minutos y regresa en un plazo de siete días, la nueva sesión conservará el canal de Google. Sin embargo, si el mismo usuario vuelve a visitar la página a través de un canal diferente, el canal que no sea Directo no se anulará con el canal de Google anterior.
-
-Solo se transmitirá el canal, excepto los detalles de la campaña o del remitente del reenvío. Esto se debe a que la clasificación de canales la gestiona Marketo Measure, mientras que otros puntos de datos se recopilan por separado.
-
-**Inicio de sesión social**
-
-Cuando un visitante utiliza el inicio de sesión social mediante Google, Microsoft o Apple, la sesión se combina en una sesión continua. Por ejemplo, si un visitante llega a una página desde LinkedIn, completa un inicio de sesión social de Google y llega a una página de agradecimiento, todo se contará como una sola sesión. Sin la opción de transferencia de canal de sesión activada, el inicio de sesión social crearía sesiones independientes debido al referente externo.
+Actualmente, [!DNL Marketo Measure] solo considera la navegación por páginas y los envíos de formularios como actividad. El desplazamiento por la página web o sobre un elemento de la página no se consideran actividades. Por lo tanto, si Haley visita adobe.com para leer una publicación del blog, y tarda una hora leerla, su sesión web terminará transcurridos 30 minutos, incluso si se está desplazando por el contenido de la página.
 
 ## Caducidad basada en el canal {#channel-based-expiration}
 

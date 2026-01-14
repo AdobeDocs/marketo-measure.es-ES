@@ -1,21 +1,25 @@
 ---
-description: Inicio de sesión único,  [!DNL Marketo Measure]
+description: Guía de inicio de sesión único para usuarios de Marketo Measure
 title: Inicio de sesión único
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 93%
+source-wordcount: '1281'
+ht-degree: 99%
 
 ---
-
 
 # Inicio de sesión único {#single-sign-on}
 
 El lenguaje de marcado para confirmaciones de seguridad (SAML) para el inicio de sesión único (SSO) permite autenticarse a través del proveedor de identidad de una compañía cuando se inicia sesión en la aplicación de [!DNL Marketo Measure]. SSO permite a un usuario autenticarse una vez, sin necesidad de autenticar aplicaciones independientes.  SAML es una necesidad para los clientes empresariales, ya que no todos los usuarios tienen una cuenta de [!DNL Salesforce] o [!DNL Google] en su organización. Para escalar, [!DNL Marketo Measure] ha desarrollado una solución SAML compatible con los proveedores de identidad de la empresa.
 
+>[!CAUTION]
+>
+>Este artículo describe el inicio de sesión único (SSO) y CRM User Management avanzado. Si su cuenta se aprovisionó **después del 10/9/2020**, haga caso omiso de este artículo, ya que Identity Management y el SSO se configurarán dentro de [Adobe Admin Console para su [!DNL Marketo Measure] integración](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md).
+
 >[!NOTE]
->Es probable que las empresas utilicen diferentes proveedores de identidad (por ejemplo, Ping Identity, Okta). Es posible que los términos utilizados en las siguientes instrucciones de configuración y en la IU no coincidan directamente con los utilizados por su proveedor de identidad.
+>
+>Es probable que las empresas utilicen diferentes proveedores de identidad (por ejemplo, Ping Identity, Okta, etc.).  Es posible que los términos utilizados en las siguientes instrucciones de configuración y en la IU no coincidan directamente con los utilizados por su proveedor de identidad.
 
 ## Requisitos {#requirements}
 
@@ -26,7 +30,7 @@ El lenguaje de marcado para confirmaciones de seguridad (SAML) para el inicio de
 
 Para empezar, vaya a la página Configuración > Seguridad > Autenticación en la aplicación de [!DNL Marketo Measure]. A continuación, cambie el tipo de inicio de sesión a SSO personalizado para ver las opciones de configuración.  Los cambios no surtirán efecto hasta que pruebe la autenticación y haga clic en el botón **[!UICONTROL Guardar]** en la parte inferior de la página.
 
-![Página de configuración de autenticación con la opción de tipo de inicio de sesión SSO personalizado](assets/single-sign-on-1.png)
+![](assets/compliance-resources-1.png)
 
 ## Procesar {#process}
 
@@ -48,7 +52,7 @@ Cambie a SSO personalizado en la aplicación de [!DNL Marketo Measure]
 
 Rellene la configuración de conexión de la configuración del proveedor de identidad
 
-    a. El proveedor de identidad puede proporcionar un documento .xml de metadatos de IdP que extraerá los campos de configuración requeridos.  Cargue el contenido del documento .xml o complete los tres campos a continuación con el resultado obtenido durante el proceso de configuración del proveedor de identidad. **&#x200B; No es necesario completar ambas operaciones.** 
+    a. El proveedor de identidad puede proporcionar un documento .xml de metadatos de IdP que extraerá los campos de configuración requeridos.  Cargue el contenido del documento .xml o complete los tres campos a continuación con el resultado obtenido durante el proceso de configuración del proveedor de identidad. ** No es necesario completar ambas operaciones.** 
     
     i. URL de IdP: la URL a la que  [!DNL Marketo Measure]  debe apuntar para autenticar a los usuarios en la aplicación de  [!DNL Marketo Measure] .  A veces se denomina “URL de redireccionamiento”.
     ii. Emisor de IdP: identificador único del proveedor de identidad.  A veces se denomina “Clave externa”.
@@ -68,7 +72,7 @@ Configure y asigne la configuración de atributos del usuario a los campos Nombr
     
     b. Sugerencia: Si prueba la configuración de SAML ahora, se analizan los atributos de correo electrónico, nombre y apellidos que puede utilizar para esta sección.
 
-![Formulario de configuración de SAML con campos de asignación de atributos de usuario](assets/single-sign-on-2.png)
+![](assets/discover-control-1.png)
 
 Configure y asigne la configuración de la función de usuario a las funciones o grupos respectivos clasificados de su IdP.
 
@@ -82,7 +86,7 @@ Configure y asigne la configuración de la función de usuario a las funciones o
     
     c. Si se deben asignar varios roles o grupos a un rol, introduzca cada valor separado por una coma.
 
-![Configuración de asignación de funciones de usuario con opciones de usuario y administrador estándar](assets/single-sign-on-3.png)
+![](assets/discover-control-2.png)
 
 Prueba de la configuración de inicio de sesión único
 
@@ -90,13 +94,13 @@ Prueba de la configuración de inicio de sesión único
     
     b. Si ve un error de “failure”, siga el mensaje e inténtelo de nuevo.
 
-![Botón Probar autenticación SAML y mensaje de estado de validación](assets/single-sign-on-4.png)
+![](assets/discover-control-3.png)
 
 Guarde la configuración e indique a sus compañeros que utilicen [!UICONTROL Inicio de sesión único] con la nueva URL de inicio de sesión personalizado.
 
     a. Importante: Una vez que guarde la nueva configuración de autenticación, es posible que la sesión termine una vez que navegue a una página nueva porque ha deshabilitado el inicio de sesión de los usuarios de CRM y ha habilitado el SSO personalizado.
 
-![Botón Guardar para la configuración de autenticación y el mensaje de confirmación](assets/single-sign-on-5.png)
+![](assets/discover-control-3.png)
 
 Pruébelo.
 
@@ -106,9 +110,10 @@ Pruébelo.
     
     c. ¡Felicitaciones! Ha configurado correctamente el inicio de sesión único en la Solicitud de su cuenta de  [!DNL Marketo Measure] .
 
-![Pantalla de confirmación de inicio de sesión SSO correcta](assets/single-sign-on-6.png)
+![](assets/discover-control-3.png)
 
 >[!NOTE]
+>
 >Después de configurar el SSO, ya no tendrá que agregar usuarios dentro de la aplicación de [!DNL Marketo Measure]. El aprovisionamiento de usuarios debe gestionarse directamente dentro del proveedor de identidad.
 
 ## Usuarios de CRM (configuración avanzada) {#crm-users-advanced-setup}
@@ -126,21 +131,21 @@ Si se deben asignar varias funciones o grupos a una función, introduzca cada va
 
 Para las funciones de [!DNL Salesforce], utilice el nombre de cada función. Todas las funciones se encuentran en el menú [!UICONTROL Configuración] >[!UICONTROL Administrar usuarios] > [!UICONTROL Funciones].
 
-![Menú de configuración de Salesforce que muestra los roles bajo Administrar usuarios](assets/6.png)
+![](assets/discover-control-3.png)
 
 **Funciones de Dynamics**
 
 Para las funciones de [!DNL Dynamics], utilice el nombre de cada función de seguridad. Todas las funciones de seguridad se encuentran en el menú [!UICONTROL Configuración] > [!UICONTROL Seguridad] > [!UICONTROL Funciones de seguridad].
 
-![Navegación del menú de configuración de Dynamics a los roles de seguridad](assets/7.png)
+![](assets/discover-control-3.png)
 
-![Lista de roles de seguridad de Dynamics que muestra las opciones de rol disponibles](assets/8.png)
+![](assets/discover-control-3.png)
 
 **Usuarios de Google**
 
 Una vez configurado el SSO personalizado, la página [!UICONTROL Usuarios] se actualiza para mostrar únicamente los usuarios externos que se han añadido con los inicios de sesión de Google. Dado que todos los usuarios con acceso a se definen mediante la configuración de SSO, aquí se enumeran los usuarios externos adicionales.
 
-![Página de usuarios que muestra usuarios de inicio de sesión de Google externos](assets/9.png)
+![](assets/discover-control-3.png)
 
 Solo pueden agregarse cuentas de [!DNL Google] válidas y deben tener una función de usuario definida.
 

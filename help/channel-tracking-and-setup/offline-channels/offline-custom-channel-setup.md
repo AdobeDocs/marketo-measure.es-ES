@@ -1,15 +1,15 @@
 ---
-description: Configuración de canal personalizado sin conexión - [!DNL Marketo Measure]
+description: Guía de configuración de canales personalizados sin conexión para usuarios de Marketo Measure
 title: Configuración de canales personalizados sin conexión
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
-
 
 # Configuración de canales personalizados sin conexión {#offline-custom-channel-setup}
 
@@ -19,7 +19,7 @@ En comparación con el modo en que [!DNL Marketo Measure] gestiona las reglas de
 
 La hoja de cálculo tiene tres columnas:
 
-![Plantilla de hoja de cálculo que muestra tres columnas para el tipo, canal y subcanal de Salesforce Campaign](assets/1-2.png)
+![](assets/offline-channels-1.png)
 
 **[!UICONTROL Salesforce] Tipo de campaña** - agregar tipos de campaña identificados en [!DNL Salesforce] aquí
 
@@ -35,11 +35,11 @@ La lógica del canal sin conexión [!DNL Marketo Measure] está determinada por 
 
 Los tipos de campañas de SFDC aparecerán en la pestaña del canal sin conexión, enumerados en [!DNL Salesforce] Tipo de campaña. Tenga en cuenta que [!DNL Marketo Measure] solo puede importar tipos de campañas de SFDC para campañas que tengan puntos de contacto de comprador asociados a ellos.
 
-![Pestaña Canales sin conexión que muestra la lista de tipos de Salesforce Campaign](assets/2-2.png)
+![](assets/offline-channels-10.jpg)
 
 Aquí es donde puede crear la asignación de canal/subcanal en la aplicación [!DNL Marketo Measure]. Es probable que esto implique la creación de nuevos canales y subcanales en la aplicación [!DNL Marketo Measure], lo cual se hace en la sección Crear canales de la aplicación, que se muestra en la siguiente imagen. Es necesario crear nuevos canales y subcanales para [!DNL Marketo Measure] a fin de saber dónde insertar los puntos de contacto. Puede decidir cómo desea que se asignen los tipos de campaña.
 
-![Crear canales mostrando la interfaz para crear nuevos canales y subcanales](assets/3-2.png)
+![](assets/offline-channels-11.png)
 
 ## Ejemplo de asignación de canal {#channel-mapping-example}
 
@@ -49,11 +49,11 @@ Ahora desea hacer lo mismo para la conferencia de junio. Como también es una co
 
 A continuación se muestra un ejemplo de lógica que [!DNL Marketo Measure] no podría leer:
 
-![Asignación de canal incorrecta que muestra el mismo tipo de campaña asignado a diferentes subcanales](assets/4-2.png)
+![](assets/offline-channels-12.png)
 
 En el escenario anterior, se desea crear un tipo de campaña único porque no se puede asignar el mismo tipo de campaña a dos subcanales diferentes. En su lugar, le recomendamos configurar tipos únicos como los siguientes:
 
-![Corregir asignación de canal que muestra tipos de campaña únicos para diferentes subcanales](assets/5-2.png)
+![](assets/offline-channels-13.png)
 
 Cualquier tipo de campaña existente debe incluirse en el mapa de canal y se debe agregar &quot;NULL&quot; como canal.
 
@@ -67,20 +67,24 @@ Es habitual que los equipos de marketing creen [!DNL Salesforce] campañas para 
 
 Otra sugerencia para administrar campañas para actividades en línea es asignar el tipo de campaña [!DNL Salesforce] a NULL. Para ello, cree primero un canal en la aplicación [!DNL Marketo Measure] con el título NULL, como se muestra en la siguiente imagen. Esto se encuentra en la aplicación [!DNL Marketo Measure] en la sección **Crear canales**. Esto resulta útil en caso de que una campaña que no debería sincronizarse se sincronice accidentalmente. Es fácil encontrar la campaña y corregir el estado de sincronización mirando todo lo agrupado en NULL.
 
-![Crear canales mostrando la creación de canales nulos para campañas en línea](assets/6-2.png)
+![](assets/offline-channels-14.png)
 
 ## Introducción de las reglas de canal sin conexión en la aplicación {#entering-your-offline-channel-rules-to-the-app}
 
 Una vez que haya editado y actualizado la hoja de cálculo con sus reglas personalizadas, el siguiente paso es volver a crear esta asignación de canal en la aplicación [!DNL Marketo Measure]; en realidad, no cargará una hoja de cálculo para canales sin conexión. En su lugar, debe introducir la información en los cuadros de la lista de selección tal como se muestra en la imagen siguiente. Se encuentra haciendo clic en **[!UICONTROL Canales sin conexión]** en la sección **[!UICONTROL Canales]**.
 
-![Interfaz de canales sin conexión con cuadros de lista de selección para introducir reglas de asignación de canales](assets/7-2.png)
+![](assets/offline-channels-20.png)
 
 >[!TIP]
+>
 >¿Quiere determinar _cuándo_ se extrae un tipo de campaña [!DNL Salesforce] en la asignación de canal [!DNL Marketo Measure]? Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Campañas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. A continuación, puede ver qué valores se encuentran en la lista de selección y cuáles están inactivos. Los inactivos no aparecerán como un tipo seleccionable en nuestra sección &quot;[!UICONTROL Canales sin conexión]&quot;. Tenga en cuenta que este proceso puede tardar entre unos minutos y 48 horas.
 
 Haga clic en **[!UICONTROL Guardar]** cuando haya terminado y [!DNL Marketo Measure] cargará los cambios y volverá a procesar los datos.
 
 >[!MORELIKETHIS]
-> [[!DNL Marketo Measure] Tutoriales: Asignación de canales sin conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
-> [[!DNL Marketo Measure] Tutoriales: Sincronizando campañas sin conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
-> [Integración de programas de Marketo Engage](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
+>
+>* [[!DNL Marketo Measure] Tutoriales: Asignación de canales sin conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>
+>* [[!DNL Marketo Measure] Tutoriales: Sincronizando Campañas Sin Conexión](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>
+>* [Integración de programas de Marketo Engage](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

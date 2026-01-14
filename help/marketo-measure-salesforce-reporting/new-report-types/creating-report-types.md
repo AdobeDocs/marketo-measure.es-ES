@@ -1,19 +1,20 @@
 ---
-description: 'Creación de tipos de informes personalizados de  [!DNL Marketo Measure] '
+description: Creando guía de tipos de informes  [!DNL Marketo Measure] personalizados para usuarios de Marketo Measure
 title: 'Creación de tipos de informes personalizados de  [!DNL Marketo Measure] '
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '377'
 ht-degree: 5%
 
 ---
 
-
 # Creando tipos de informe [!DNL Marketo Measure] personalizados {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
+>
 >Puede ver instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en la documentación, pero aún así ve &quot;[!DNL Bizible]&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Salesforce]. Hay tres tipos de informes diferentes que recomendamos crear: Posibles clientes con puntos de contacto del comprador (personalizado), [!DNL Marketo Measure] persona con puntos de contacto del comprador (personalizado), Oportunidades con Buyer Attribution Touchpoint (personalizado).
@@ -22,7 +23,7 @@ Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Sa
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Compilación]** > **[!UICONTROL Tipos de informes]** > **[!UICONTROL Nuevos tipos de informes personalizados]**.
 
-   ![Navegación del menú de configuración de Salesforce a nuevos tipos de informes personalizados](assets/1.png)
+   ![](assets/new-types-1.png)
 
 1. Defina el Tipo de informe personalizado.
 
@@ -31,7 +32,7 @@ Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Sa
    * [!UICONTROL Almacenar en categoría]: otros informes
    * [!UICONTROL Implementación] > [!UICONTROL Estado de implementación]: implementado
 
-   ![Formulario de definición de tipo de informe personalizado con posible cliente como objeto principal](assets/2.png)
+   ![](assets/new-types-10.jpg)
 
 1. Definir las relaciones de objetos.
 
@@ -39,13 +40,13 @@ Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Sa
    * Asegúrese de que &quot;[!UICONTROL Cada registro A/B debe tener al menos un registro B/C]&quot; seleccionado
    * [!UICONTROL Guardar]
 
-   ![Diagrama de relaciones de objetos que muestra conexiones de cliente potencial a punto de contacto](assets/3.png)
+   ![](assets/new-types-11.png)
 
 ## [!DNL Marketo Measure] persona con puntos de contacto de comprador (personalizado) {#marketo-measure-person-with-buyer-touchpoints-custom}
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Compilación]** > **[!UICONTROL Tipos de informes]** > **[!UICONTROL Nuevos tipos de informes personalizados]**.
 
-   ![Navegación del menú de configuración de Salesforce a nuevos tipos de informes personalizados](assets/4.png)
+   ![](assets/new-types-12.png)
 
 1. Defina el Tipo de informe personalizado.
 
@@ -54,7 +55,7 @@ Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Sa
    * [!UICONTROL Almacenar en categoría]: otros informes
    * [!UICONTROL Implementación] > [!UICONTROL Estado de implementación]: implementado
 
-   ![Formulario de definición de tipo de informe personalizado con la persona de Marketo Measure como objeto principal](assets/5.png)
+   ![](assets/new-types-13.jpg)
 
 1. Definir las relaciones de objetos.
 
@@ -62,13 +63,13 @@ Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Sa
    * Asegúrese de que &quot;[!UICONTROL Cada registro A debe tener al menos un registro B]&quot; seleccionado
    * [!UICONTROL Guardar]
 
-   ![Diagrama de relaciones de objetos que muestra la conexión de persona a punto de contacto](assets/6.png)
+   ![](assets/new-types-9.png)
 
 ## Oportunidades con Buyer Attribution Touchpoint (personalizado) {#opportunities-with-buyer-attribution-touchpoint-custom}
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Compilación]** > **[!UICONTROL Tipos de informes]** > **[!UICONTROL Nuevos tipos de informes personalizados]**.
 
-   ![Navegación del menú de configuración de Salesforce a nuevos tipos de informes personalizados](assets/7.png)
+   ![](assets/new-types-8.png)
 
 1. Defina el Tipo de informe personalizado.
 
@@ -77,7 +78,7 @@ Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Sa
    * [!UICONTROL Almacenar en categoría]: otros informes
    * [!UICONTROL Implementación] > [!UICONTROL Estado de implementación]: implementado
 
-   ![Formulario de definición de tipo de informe personalizado con oportunidades como objeto principal](assets/8.png)
+   ![](assets/new-types-14.jpg)
 
 1. Definir las relaciones de objetos.
 
@@ -85,14 +86,14 @@ Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Sa
    * Asegúrese de que &quot;[!UICONTROL Cada registro A debe tener al menos un registro B]&quot; seleccionado
    * [!UICONTROL Guardar]
 
-   ![Diagrama de relaciones de objetos que muestra la oportunidad para la conexión de punto de contacto de atribución](assets/9.png)
+   ![](assets/new-types-15.png)
 
 ## Adición de campos personalizados a tipos de informes personalizados {#adding-custom-fields-to-custom-report-types}
 
 1. Una vez creados los informes, se le redirigirá a una descripción general del tipo de informe. Haga clic en **[!UICONTROL Editar diseño]**.
 
-   ![Pantalla de información general de tipo de informe con el botón Editar diseño](assets/10.png)
+   ![](assets/new-types-2.png)
 
 1. Asegúrese de que los campos personalizados que desee agregar al informe aparezcan en la sección Propiedades de diseño de campo. Si desea agregar otros campos, use la opción &quot;[!UICONTROL Agregar campos relacionados mediante la búsqueda]&quot;.
 
-   ![Sección Propiedades de diseño de campo con campos personalizados disponibles](assets/11.png)
+   ![](assets/new-types-3.png)

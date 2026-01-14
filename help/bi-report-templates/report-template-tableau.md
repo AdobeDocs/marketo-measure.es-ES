@@ -3,13 +3,12 @@ description: Plantilla de informe [!DNL Marketo Measure] - Tableau - [!DNL Marke
 title: 'Plantilla de informe de [!DNL Marketo Measure]: Tableau'
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 95%
+source-wordcount: '2302'
+ht-degree: 99%
 
 ---
-
 
 # Plantilla de informe de [!DNL Marketo Measure]: Tableau {#marketo-measure-report-template-tableau}
 
@@ -21,17 +20,17 @@ Abra el archivo de libro de trabajo de Tableau de plantilla de creación de info
 
 Deberá actualizar los datos de conexión existentes con la información de conexión específica de Snowflake. Haga clic en el botón [!UICONTROL Editar conexión] y siga los pasos descritos en la sección [[!UICONTROL Conexión de datos]](#data-connection) de esta documentación.
 
-![Libro en tablero que muestra el botón Editar conexión](assets/marketo-measure-report-template-tableau-1.png)
+![](assets/marketo-tableau-7.png)
 
 ## Conexión de datos {#data-connection}
 
-Debe configurar una conexión de datos con la instancia de Snowflake. Para ello, necesitará el nombre del servidor junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar esta información y restablecer su contraseña, si es necesario, están documentados [aquí](/help/data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Debe configurar una conexión de datos con la instancia de Snowflake. Para ello, necesitará el nombre del servidor junto con su nombre de usuario y contraseña. Los detalles sobre dónde encontrar esta información y restablecer su contraseña, si es necesario, están documentados [aquí](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
-![Cuadro de diálogo de conexión de Snowflake con los campos de servidor y autenticación](assets/marketo-measure-report-template-tableau-2.png)
+![](assets/marketo-tableau-5.png)
 
 También deberá introducir un comando de SQL inicial. Esto admite el uso de consultas personalizadas en este modelo de datos. El comando a introducir es “Usar esquema `<your schema name>`”. Puede localizar el nombre del esquema en la página [!UICONTROL conexiones de data warehouse]; consulte la documentación a la que se hace referencia arriba.
 
-![Campo de comando SQL inicial para la especificación de esquema](assets/marketo-measure-report-template-tableau-3.png)
+![](assets/marketo-tableau-6.png)
 
 ### Consultas de SQL personalizadas {#custom-sql-queries}
 
@@ -39,11 +38,11 @@ Dado que [!DNL Tableau] aplica filtros de fuente de datos a la consulta general 
 
 **Filtros añadidos a la fuente de datos**
 
-```
+```sql
 --A deleted session removes this row completely and the touchpoint data is lost. Select *
    From Touchpoint    tp
       join Session sn
-      on tp.session_id = sn.session_id
+      on tp.session_id = sn.session_id 
  Where tp._deleted_date is null
     and sn._deleted_date is null
 ```
@@ -52,11 +51,11 @@ Sin embargo, esto no es correcto, ya que si se eliminó una sesión, pero no el 
 
 **Filtros aplicados mediante SQL personalizado**
 
-```
+```sql
 --A deleted session only removes the session related data, and the touchpoint data is preserved. Select *
    From Touchpoint       tp
       join Session sn
-      on tp.session_id          = sn.session_id
+      on tp.session_id          = sn.session_id 
       and sn._deleted_date      is null
   Where tp._deleted_date is null
 ```
@@ -65,15 +64,16 @@ Sin embargo, esto no es correcto, ya que si se eliminó una sesión, pero no el 
 
 Se han aplicado algunas transformaciones a los datos de [!DNL Tableau] a partir de su estado original en Snowflake. La mayoría de estas transformaciones se aplican en las consultas de SQL personalizado que generan las tablas en el modelo de [!DNL Tableau]. Para ver el SQL personalizado utilizado para generar una tabla, haga clic con el botón derecho en el nombre de la tabla y seleccione “Editar consulta de SQL personalizado”. A continuación se describen algunas de las transformaciones específicas.
 
-![Menú contextual que muestra la opción Editar consulta SQL personalizada](assets/marketo-measure-report-template-tableau-4.png)
+![](assets/marketo-tableau-1.png)
 
-![Cuadro de diálogo del editor de consultas SQL personalizado en Tableau](assets/marketo-measure-report-template-tableau-5.png)
+![](assets/marketo-tableau-2.png)
 
 ### Columnas eliminadas {#removed-columns}
 
 Para simplificar el modelo de datos y eliminar datos redundantes e innecesarios, hemos reducido el número de columnas importadas en Tableau desde la tabla de Snowflake original. Las columnas eliminadas incluyen claves externas innecesarias, datos dimensionales desnormalizados que se usan mejor mediante relaciones con otras tablas del modelo, columnas de auditoría y campos utilizados para procesamiento interno de [!DNL Marketo Measure]. Puede añadir o quitar columnas según sea necesario para sus necesidades comerciales, editando la lista de columnas importadas en la sección Seleccionar del SQL personalizado.
 
 >[!NOTE]
+>
 >La mayoría de las tablas de data warehouse contienen datos dimensionales desnormalizados. Hemos trabajado para normalizar y limpiar el modelo en [!DNL Tableau] lo más posible para mejorar el rendimiento y la precisión de los datos. Tenga cuidado al incluir campos sin normalizar adicionales en tablas de hechos, ya que esto podría interrumpir el filtrado dimensional en todas las tablas y también podría generar una creación de informes inexactos.
 
 ### Columnas renombradas {#renamed-columns}
@@ -84,11 +84,11 @@ Se ha cambiado el nombre de las tablas y columnas para facilitar su uso y estand
 
 Para añadir funciones de conversión de moneda a los cálculos del modelo, hemos añadido una columna de tasa de conversión corporativa y una columna de tasa de conversión de público destinatario a las tablas Oportunidad y Coste. El valor de estas columnas se añade al nivel de fila y se evalúa al unirse a la tabla Tasa de conversión tanto en la fecha como en el identificador de moneda. Dado que Tableau no permite que las tablas de hechos compartan más de una tabla de dimensiones, las tasas de conversión se han añadido directamente a las tablas que lo utilizan. Para obtener más información sobre cómo funciona la conversión de moneda en este modelo, consulte la [Conversión de moneda](#currency-conversion) de esta documentación.
 
-![Tabla de oportunidades con columnas de tasa de conversión](assets/marketo-measure-report-template-tableau-6.png)
+![](assets/marketo-tableau-4.png)
 
 Hay algunos lugares donde dos tablas de [!DNL Snowflake] se han combinado con una unión para crear una tabla en el modelo de datos de [!DNL Tableau]. En estos casos, se ha añadido una columna “Tipo” para indicar de qué tabla de [!DNL Snowflake] procede y designar qué entidad representa la fila. Para obtener más información sobre las tablas que se han combinado, consulte la sección Relación y flujo de datos en esta documentación.
 
-![Tabla combinada que muestra la columna Tipo para la identificación de la entidad](assets/marketo-measure-report-template-tableau-7.png)
+![](assets/marketo-tableau-3.png)
 
 ### Nombres de los segmentos {#segment-names}
 
@@ -96,21 +96,21 @@ Dado que los nombres de segmentos se pueden personalizar, tienen nombres de colu
 
 La columna [!UICONTROL CATEGORÍA] muestra el número de categoría, y la columna SEGMENT_NAME tiene el nombre de segmento personalizado al que se asigna.
 
-![Tabla de asignación de nombres de segmentos que muestra nombres de categorías y personalizados](assets/marketo-measure-report-template-tableau-8.png)
+![](assets/marketo-tableau-13.png)
 
 Los nombres se pueden actualizar de dos formas. La primera opción es actualizar el SQL personalizado. En este ejemplo, se ha cambiado el nombre de las categorías 1 a 6 en función de la asignación de la tabla Nombres de segmentos.
 
-![SQL personalizado con categorías de segmento renombradas](assets/marketo-measure-report-template-tableau-9.png)
+![](assets/marketo-tableau-14.png)
 
 La otra opción es cambiar el nombre de las columnas directamente en la tabla de [!DNL Tableau].
 
-![Tabla con columnas de segmento renombradas](assets/marketo-measure-report-template-tableau-10.png)
+![](assets/marketo-tableau-9.png)
 
 ## Modelo de datos {#data-model}
 
 Haga clic en la imagen siguiente para ver la versión a tamaño completo.
 
-[![Diagrama del modelo de datos Tableau que muestra las relaciones de tabla](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
+[![](assets/marketo-tableau-8.png)](/help/bi-report-templates/assets/tableau-model-1.png){target="_blank"}
 
 ### Relaciones y flujo de datos {#relationships-and-data-flow}
 
@@ -122,11 +122,12 @@ Las transiciones de fase de oportunidad y las transiciones de etapa de posible c
 
 Tanto los datos de coste como los de punto de contacto comparten las dimensiones de canal y campaña. Sin embargo, Tableau tiene una capacidad limitada para modelar dimensiones compartidas entre tablas de hechos. Dado que estamos limitados a una sola tabla de dimensiones compartida, los datos de canal y campaña se han combinado en una tabla. Se combinan utilizando una combinación cruzada de las dos dimensiones en una tabla de Tableau: Canal y Campaña. El ID único se crea concatenando los ID de canal y de campaña. Este mismo valor de ID se añade a las tablas Punto de contacto y Coste para crear una relación con esta tabla de dimensión combinada.
 
-![Tabla combinada de dimensiones de canal y campaña](assets/marketo-measure-report-template-tableau-12.png)
+![](assets/marketo-tableau-10.png)
 
 En este modelo, las dimensiones Campaña y Canal están vinculadas al Touchpoint, por lo que todas las creaciones de informes sobre estas dimensiones se realizan a través de este vínculo, lo que significa que la creación de informes dimensionales sobre los datos de evento pueden estar incompletos. Esto se debe a que muchos eventos no tienen vínculos a estas dimensiones hasta que se procesan en puntos de contacto.
 
 >[!NOTE]
+>
 >Algunos eventos, como las Sesiones, tienen vínculos directos a las dimensiones Campaña y Canal. Si se desea crear informes sobre estas dimensiones en el nivel de sesión, se recomienda crear un modelo de datos independiente para este fin.
 
 Los datos de coste se almacenan en diferentes niveles de agregación dentro de la tabla de coste de Snowflake Data Warehouse. Para todos los proveedores de publicidad, los datos de nivel de campaña se pueden resumir en el nivel de canal. Por este motivo, este modelo extrae los datos de los costes en función del indicador &quot;campaign_is_aggregatable_cost&quot;. Los costes autoinformados se pueden enviar solo a nivel de canal y no es necesario que tengan datos de Campaña. Para ofrecer una creación de informes de costes más precisos posibles, los costes autoinformados se extraen en función del indicador &quot;channel_is_aggregatable_cost&quot;. La consulta que importa los datos de costes se escribe con la siguiente lógica: si ad_provider = &quot;SelfReported&quot;, channel_is_aggregatable_cost = true; de lo contrario, campaign_is_aggregatable_cost = true.
@@ -140,19 +141,19 @@ Las tasas de la tabla Tasa de conversión representan el valor necesario para co
 * Convertir el valor original al valor en moneda corporativa/tasa de conversión corporativa = valor en moneda corporativa
 * Convertir el valor de moneda corporativa al valor de moneda seleccionado en moneda corporativa `*` tasa de conversión de la moneda seleccionada = valor en la moneda seleccionada
 
-![Campos de cálculo de conversión de moneda en Tableau](assets/marketo-measure-report-template-tableau-13.png)
+![](assets/marketo-tableau-11.png)
 
 Las medidas de conversión de moneda de este modelo sustituyen la tasa por un valor de 1.0 si no se puede identificar ninguna tasa de conversión. Se han creado medidas independientes para mostrar el valor de moneda de la medida y avisar si un cálculo incluye más de un valor de moneda (es decir, no se ha podido convertir un valor a la moneda seleccionada). Estas medidas, Moneda de coste y Moneda de ingresos, se incluyen como información sobre herramientas en cualquier imagen que muestre datos de Costes o Ingresos.
 
-![Información sobre herramientas que muestra medidas de conversión de moneda](assets/marketo-measure-report-template-tableau-14.png)
+![](assets/marketo-tableau-12.png)
 
 ## Definiciones de datos {#data-definitions}
 
 Se han añadido definiciones a [!DNL Tableau model] para parámetros, columnas personalizadas y medidas.
 
-![Definiciones de campo en el modelo Tableau que muestra descripciones](assets/marketo-measure-report-template-tableau-15.png)
+![](assets/marketo-tableau-15.png)
 
-Para ver las definiciones de columnas procedentes directamente de [!DNL Snowflake], consulte la [documentación de data warehouse](/help/data-warehouse/data-warehouse-schema.md){target="_blank"}.
+Para ver las definiciones de columnas procedentes directamente de [!DNL Snowflake], consulte la [documentación de data warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Discrepancias entre plantillas y Discover {#discrepancies-between-templates-and-discover}
 
@@ -161,6 +162,7 @@ Para ver las definiciones de columnas procedentes directamente de [!DNL Snowflak
 Los Touchpoints de posible cliente y de atribución heredan los datos dimensionales del Touchpoint original. El modelo de plantilla de creación de informes obtiene todos los datos dimensionales heredados de la relación con Touchpoint, mientras que en el modelo Discover, los datos dimensionales se desnormalizan en los registros de Touchpoint de posible cliente y de atribución. Los valores generales de ingresos atribuidos o de canalización atribuidos deben alinearse entre los dos informes. Sin embargo, pueden observarse discrepancias cuando los ingresos se desglosan o filtran por datos dimensionales (canal, subcanal o campaña). Si las cantidades de ingresos dimensionales no coinciden entre la plantilla y Discover, es probable que falten registros de Touchpoint o en el conjunto de datos del informe de plantilla. Esto sucede cuando hay un registro de un Touchpoint de posible cliente o de atribución, pero no hay ningún registro correspondiente en la tabla Touchpoint dentro del conjunto de datos importado al informe. Dado que estas tablas se filtran por fecha de modificación, es posible que el registro de Touchpoint de posible cliente/atribución se haya modificado más recientemente que el registro de Touchpoint. Por consiguiente, el Touchpoint de posible cliente/atribución se haya importado al conjunto de datos, mientras que el registro de Touchpoint original no. Para solucionar este problema, amplíe el intervalo de fechas filtrado para la tabla Punto de contacto o considere la posibilidad de eliminar la restricción de fecha en su totalidad.
 
 >[!NOTE]
+>
 >Punto de contacto es una tabla grande, así que considere las alternativas de un conjunto de datos más completo frente a la cantidad de datos que deben importarse.
 
 ### Coste {#cost}

@@ -1,21 +1,21 @@
 ---
-description: Agregando  [!DNL Marketo Measure] a [!DNL Marketo] páginas de aterrizaje - [!DNL Marketo Measure]
+description: Agregando  [!DNL Marketo Measure] a la guía de páginas de aterrizaje de Marketo para usuarios de Marketo Measure
 title: Adición de  [!DNL Marketo Measure]  a las páginas de destino de Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '219'
 ht-degree: 3%
 
 ---
-
 
 # Agregando [!DNL Marketo Measure] a las páginas de aterrizaje de Marketo {#adding-marketo-measure-to-marketo-landing-pages}
 
 Aprenda a agregar el seguimiento a [!DNL Marketo Engage] páginas de aterrizaje, ya que requieren una administración adicional. [!DNL Marketo Measure] JavaScript debe estar configurado tanto en la página de aterrizaje como en el propio formulario [!DNL Marketo Engage]. Para ello, debe cargar el JavaScript [!DNL Marketo Measure] en [!DNL Marketo Engage], tal como se explica en las siguientes instrucciones.
 
 >[!NOTE]
+>
 >Si está implementando JavaScript a través de un proveedor de administración de etiquetas como [!DNL Google Tag Manager], no necesita agregar manualmente el JS [!DNL Marketo Measure] a [!DNL Marketo Engage].
 
 ## Cómo agregar el script [!DNL Marketo Measure] a las páginas de aterrizaje [!DNL Marketo Engage] {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
@@ -31,7 +31,7 @@ Ejemplo en la captura de pantalla siguiente
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   ![Editor de página de aterrizaje de Marketo con script Bizible agregado al encabezado](assets/adding-bizible-to-marketo-landing-pages-1.png)
+   ![](assets/adding-pages-1.png)
 
 ## Notas adicionales {#additional-notes}
 
@@ -41,4 +41,4 @@ Ejemplo en la captura de pantalla siguiente
 
 * Es probable que tenga varias plantillas de página de aterrizaje en uso. Asegúrese de agregar el código a todas las plantillas que tengan formularios.
 
-* En ocasiones, cuando edita la plantilla para páginas de aterrizaje, debe volver a aprobar las páginas en las que utiliza la página de aterrizaje. Este artículo explica [cómo realizar la aprobación masiva](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=es){target="_blank"}.
+* En ocasiones, cuando edita la plantilla para páginas de aterrizaje, debe volver a aprobar las páginas en las que utiliza la página de aterrizaje. Este artículo explica [cómo realizar la aprobación masiva](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

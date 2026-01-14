@@ -1,15 +1,14 @@
 ---
-description: 'Información general de la interfaz de Adobe Experience Cloud:  [!DNL Marketo Measure]'
+description: Guía general de la interfaz de Adobe Experience Cloud para usuarios de Marketo Measure
 title: Información general sobre la interfaz de Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 19%
+source-wordcount: '285'
+ht-degree: 23%
 
 ---
-
 
 # Información general sobre la interfaz de Adobe Experience Cloud {#experience-cloud-interface-overview}
 
@@ -19,9 +18,10 @@ La interfaz de Adobe Experience Cloud alinea la apariencia de las aplicaciones y
 
 Si ya inició sesión en un producto de Adobe Experience Cloud, haga clic en el icono de menú y seleccione **[!DNL Marketo Measure]**.
 
-![Menú Adobe Experience Cloud con opción de selección Marketo Measure](assets/unified-shell-overview-4.png)
+![](assets/unified-overview-6.png)
 
 >[!NOTE]
+>
 >El menú desplegable puede tener un aspecto diferente en función de los productos de Adobe Experience Cloud a los que esté suscrito.
 
 Si _no_ ha iniciado sesión en un producto de Adobe Experience Cloud, inicie sesión directamente en [!DNL Marketo Measure] aquí: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
@@ -34,33 +34,33 @@ Además del aspecto actualizado, observe las siguientes funciones:
 
 [Administre sus [!DNL Marketo Measure] dominios](/help/marketo-measure-and-adobe/domain-management.md) sin asistencia de [!DNL Marketo Measure].
 
-![Interfaz de administración de dominios que muestra las opciones de configuración de dominio](assets/unified-shell-overview-5.png)
+![](assets/unified-overview-9.png)
 
 **Centro de ayuda integrado**
 
 Busque artículos de asistencia, envíe tickets, proporcione comentarios, todo desde la aplicación [!DNL Marketo Measure].
 
-![Centro de ayuda integrado con opciones de búsqueda y soporte técnico](assets/unified-shell-overview-6.png)
+![](assets/unified-overview-5.png)
 
 **Conmutador de aplicación**
 
 Las personas con acceso a varios productos de Adobe pueden alternarlos fácilmente.
 
-![Conmutador de aplicaciones que muestra los productos Adobe disponibles](assets/unified-shell-overview-7.png)
+![](assets/unified-overview-4.png)
 
 **Notificaciones y anuncios**
 
 Vea e interactúe con notificaciones específicas de productos y anuncios generales de productos de Adobe directamente en la aplicación.
 
-![Icono de notificaciones con indicadores de alerta](assets/unified-shell-overview-8.png)
+![](assets/unified-overview-10.png)
 
-![Panel de notificaciones que muestra anuncios y actualizaciones de productos](assets/unified-shell-overview-9.png)
+![](assets/unified-overview-11.png)
 
 **Configuración de Adobe**
 
 Para cambiar el idioma u otras preferencias de Adobe, haga clic en el icono de perfil. También puede realizar [!DNL Marketo Measure] cambios específicos haciendo clic en **Mi configuración**.
 
-![Menú de perfil con opciones de configuración de Adobe y Mi configuración](assets/unified-shell-overview-10.png)
+![](assets/unified-overview-8.png)
 
 ## Preguntas frecuentes {#faq}
 
@@ -72,6 +72,6 @@ Los marcadores se redirigen. Por ejemplo, si tuviera que navegar a https://apps.
 
 Si puede iniciar sesión en Adobe Experience Cloud pero ve una página como la siguiente, el problema podría estar en el lado [!DNL Marketo Measure]:
 
-![Página de error que muestra el problema de conexión de Marketo Measure](assets/unified-shell-overview-11.png)
+![](assets/unified-overview-7.png)
 
 Si recibe el error anterior, [póngase en contacto con el soporte técnico](https://nation.marketo.com/t5/support/ct-p/Support) para obtener ayuda.

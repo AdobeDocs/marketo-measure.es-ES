@@ -1,15 +1,14 @@
 ---
-description: Información general - [!DNL Marketo Measure]
+description: Directrices generales para usuarios de Marketo Measure
 title: Información general
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
 feature: Multi-Currency
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 2%
+source-wordcount: '339'
+ht-degree: 1%
 
 ---
-
 
 # Información general {#overview}
 
@@ -29,11 +28,11 @@ En Dynamics, el cliente puede establecer tasas de cambio estáticas en su Config
 
 ## Términos {#terms}
 
-| Término | Descripción |
+| **Término** | Descripción |
 |---|---|
-| Moneda avanzada | El cliente tiene activada la gestión avanzada de divisas y la opción Varias Divisas, lo que significa que puede tener diferentes tasas de conversión para diferentes períodos de tiempo. |
-| Moneda corporativa | Son las distintas monedas que enumera y declara una organización en CRM, todas con tasas de conversión. [!DNL Marketo Measure] importará estos valores y pondrá estas monedas a disposición de los usuarios dentro de nuestro producto. |
-| Configuración regional de moneda | La moneda única que se utiliza para una organización, establecida en la página Información de la compañía. |
-| Moneda local (o Moneda de usuario) | La moneda establecida para un solo usuario en el perfil de usuario, de modo que pueda ver cualquier cantidad en su propia moneda local. La organización tendrá que declarar y configurar la moneda antes de que un usuario pueda seleccionar su moneda local. |
-| Moneda única | Se utiliza para los clientes que no utilizan varias monedas en CRM, pero cuya organización se ejecuta en una moneda diferente, por lo que tienen una configuración regional de moneda. Sigue siendo una moneda única para la organización, pero sin ninguna conversión. |
-| Moneda simple | El cliente tiene habilitada la opción Varias monedas, pero tiene una tasa de conversión estática por moneda. |
+| **Moneda avanzada** | El cliente tiene activada la gestión avanzada de divisas y la opción Varias Divisas, lo que significa que puede tener diferentes tasas de conversión para diferentes períodos de tiempo. |
+| **Moneda corporativa** | Son las distintas monedas que enumera y declara una organización en CRM, todas con tasas de conversión. [!DNL Marketo Measure] importará estos valores y pondrá estas monedas a disposición de los usuarios dentro de nuestro producto. |
+| **Configuración regional de moneda** | La moneda única que se utiliza para una organización, establecida en la página Información de la compañía. |
+| **Moneda local (o Moneda de usuario)** | La moneda establecida para un solo usuario en el perfil de usuario, de modo que pueda ver cualquier cantidad en su propia moneda local. La organización tendrá que declarar y configurar la moneda antes de que un usuario pueda seleccionar su moneda local. |
+| **Moneda única** | Se utiliza para los clientes que no utilizan varias monedas en CRM, pero cuya organización se ejecuta en una moneda diferente, por lo que tienen una configuración regional de moneda. Sigue siendo una moneda única para la organización, pero sin ninguna conversión. |
+| **Moneda simple** | El cliente tiene habilitada la opción Varias monedas, pero tiene una tasa de conversión estática por moneda. |

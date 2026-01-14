@@ -1,15 +1,14 @@
 ---
-description: Explicación del etiquetado de  [!DNL Marketo Measure] AdWords - [!DNL Marketo Measure]
+description: Entender las instrucciones de etiquetado de  [!DNL Marketo Measure] AdWords para usuarios de Marketo Measure
 title: 'Información sobre el etiquetado de AdWords de  [!DNL Marketo Measure] '
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 5%
+source-wordcount: '597'
+ht-degree: 6%
 
 ---
-
 
 # Explicación del etiquetado de AdWords [!DNL Marketo Measure] {#understanding-marketo-measure-adwords-tagging}
 
@@ -61,11 +60,11 @@ Hay dos plantillas de seguimiento que [!DNL Marketo Measure] recomienda usar. Ut
 
 1. Haga clic en **[!UICONTROL Todas las campañas]** y, a continuación, en **[!UICONTROL Configuración]** en la ventana de ampliación.
 
-   ![Navegación de Google AdWords que muestra el menú Todas las campañas con la opción Configuración](assets/1.png)
+   ![](assets/utilizing-connections-13.png)
 
 1. Haga clic en **[!UICONTROL Configuración de la cuenta]** en la parte superior y luego en **[!UICONTROL Plantilla de seguimiento]**. Escriba la plantilla de seguimiento [!DNL Marketo Measure].
 
-   ![Página de configuración de cuenta con campo de plantilla de seguimiento para introducir parámetros de Marketo Measure](assets/2-1.png)
+   ![](assets/bizible-guide-1.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -73,11 +72,11 @@ Hay dos plantillas de seguimiento que [!DNL Marketo Measure] recomienda usar. Ut
 
 1. Haga clic en **[!UICONTROL Todas las campañas]** y luego en **[!UICONTROL Campañas]** en la ventana de expansión.
 
-   ![Navegación de Google AdWords que muestra el menú Todas las campañas con la opción Campañas](assets/3.png)
+   ![](assets/utilizing-connections-12.png)
 
 1. Seleccione todas las campañas aplicables o **[!UICONTROL Seleccionar todo]**, haga clic en **[!UICONTROL Editar]** y luego haga clic en **[!UICONTROL Cambiar plantillas de seguimiento]**.
 
-   ![Página de selección de la campaña con el menú Edición que muestra la opción Cambiar plantillas de seguimiento](assets/4-1.png)
+   ![](assets/five-five-1.png)
 
 1. Escriba la plantilla de seguimiento [!DNL Marketo Measure] y haga clic en **[!UICONTROL Aplicar]**.
 
@@ -85,13 +84,13 @@ Hay dos plantillas de seguimiento que [!DNL Marketo Measure] recomienda usar. Ut
 
 1. Haga clic en **[!UICONTROL Todas las campañas]** y, a continuación, en **[!UICONTROL Grupos de publicidad]** en la ventana de ampliación.
 
-   ![Navegación de Google AdWords que muestra el menú Todas las campañas con la opción Grupos de anuncios](assets/5-1.png)
+   ![](assets/four-four-1.png)
 
 1. Seleccione todos los grupos de anuncios aplicables o Seleccionar todo, haga clic en **[!UICONTROL Editar]** y, a continuación, haga clic en **[!UICONTROL Plantillas de seguimiento de cambios]**.
 
 1. Escriba la plantilla de seguimiento [!DNL Marketo Measure] y haga clic en **[!UICONTROL Aplicar]**.
 
-   ![Página de selección del grupo de anuncios con el menú Edición que muestra la opción Cambiar plantillas de seguimiento y el botón Aplicar](assets/6-1.png)
+   ![](assets/one-one-1.png)
 
 ## Preguntas frecuentes {#faq}
 
@@ -112,6 +111,7 @@ A: 4 horas
 R: No podemos recuperar detalles creativos individuales para anuncios dinámicos de búsqueda, pero si el etiquetado automático está habilitado, aún podemos obtener el ID creativo y los ingresos de atributos.
 
 >[!NOTE]
+>
 >Una vez realizados los cambios, habrá terminado. Póngase en contacto con el [Soporte técnico de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} si tiene alguna pregunta durante la instalación.
 
 [Haga clic aquí](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} para recibir instrucciones de Google sobre cómo crear plantillas de seguimiento a nivel de cuenta.

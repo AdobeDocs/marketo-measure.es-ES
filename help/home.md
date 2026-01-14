@@ -2,13 +2,12 @@
 description: Busque documentación del producto y artículos de autoayuda para Adobe Marketo Measure.
 title: Documentación del producto de Marketo Measure
 exl-id: cc5d46e6-9dc6-493d-a6c4-13c5fe371b9a
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 100%
 
 ---
-
 
 # Documentación de ayuda de Marketo Measure
 
@@ -18,13 +17,13 @@ Marketo Measure (anteriormente Bizible) unifica los datos de comportamiento y pu
 
 ## Introducción
 
-* [Atribución de marketing](/help/marketing-attribution.md)
+* [Atribución de marketing](/help/introduction/marketing-attribution.md)
 
-* [Modelos de atribución de Marketo Measure](/help/attribution-models.md)
+* [Modelos de atribución de Marketo Measure](/help/introduction/attribution-models.md)
 
-* [Marco de trabajo de Marketo Measure](/help/marketo-measure-framework.md)
+* [Marco de trabajo de Marketo Measure](/help/introduction/marketo-measure-framework.md)
 
-* [Glosario de campos de Marketo Measure](/help/glossary.md)
+* [Glosario de campos de Marketo Measure](/help/introduction/glossary.md)
 
 ## Artículos populares
 

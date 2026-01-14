@@ -1,15 +1,14 @@
 ---
-description: 'Por qué nunca debe eliminar los puntos de contacto:  [!DNL Marketo Measure]'
+description: Por qué no debe eliminar nunca la guía de puntos de contacto para usuarios de Marketo Measure
 title: Por qué nunca se deben eliminar los puntos de contacto
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '227'
 ht-degree: 5%
 
 ---
-
 
 # Por qué nunca se deben eliminar los puntos de contacto {#why-you-should-never-delete-touchpoints}
 
@@ -19,6 +18,6 @@ El sistema de procesamiento [!DNL Marketo Measure] no registrará que un punto d
 
 Cuando se elimina un punto de contacto, se crea un agujero en los datos de atribución. Normalmente, esto se manifiesta en los puntos de contacto de atribución de una oportunidad. En la siguiente imagen, se ha eliminado el punto de contacto que habría recibido el contacto de Creación de oportunidad. Como resultado, a esta oportunidad le falta el punto de contacto OC y el porcentaje de atribución para esta Opp no sumará el 100%.
 
-![Falta el punto de contacto de creación de oportunidad tras la eliminación](assets/1.png)
+![](assets/touchpoint-settings-10.png)
 
 Si se han eliminado puntos de contacto de tu SFDC, ponte en contacto con el [Soporte técnico de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para solicitar que se vuelvan a importar tus datos.

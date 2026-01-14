@@ -3,13 +3,12 @@ description: Obtenga información acerca de Account-Based Marketing (ABM) y cóm
 title: Información general sobre el marketing basado en cuentas
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 96%
+source-wordcount: '822'
+ht-degree: 98%
 
 ---
-
 
 # Información general sobre el marketing basado en cuentas {#account-based-marketing-overview}
 
@@ -27,6 +26,7 @@ Para que nuestro modelo de marketing basado en cuentas empiece a rellenarse en s
 * En la otra cara de la moneda, su CRM necesita al menos 25 cuentas sin ninguna oportunidad ganada cerrada (todas las oportunidades deben estar en nuestra categoría de etapa “abierta” o en una categoría “perdida cerrada”). Esto nos ayuda a medir lo que hace una cuenta de menor grado en su organización.
 
 >[!NOTE]
+>
 >Las cuentas “malas” anteriores deben estar abiertas durante al menos 12 meses sin acumular una oportunidad Cerrada ganada; esa es la guía básica para saber si una oportunidad se ha quedado obsoleta para los fines del modelo.
 
 ## Asignación de cliente potencial a cuenta {#lead-to-account-mapping}
@@ -45,6 +45,7 @@ La asignación de cliente potencial a cuenta es una parte crucial de un enfoque 
 Los posibles clientes/contactos de las cuentas se validan mediante los dominios de correo electrónico/sitio web y se comparan con el dominio o subdominio del correo electrónico/sitio web del posible cliente. Se utiliza la cuenta con la mayor cantidad de coincidencias.
 
 >[!NOTE]
+>
 >Se intenta hacer coincidir cada posible cliente con una cuenta en el orden preferencial de métodos anterior. Una vez que se establece una coincidencia, se establece inmediatamente el AccountId en el posible cliente y no se establecerá una coincidencia con otro método.
 
 ## Puntuación de participación predictiva {#predictive-engagement-score}
@@ -64,6 +65,7 @@ Hay muchos componentes que entran en el algoritmo que calcula la PES. La actuali
 * Probabilidades de que se cierre perdida/ganada
 
 >[!NOTE]
+>
 >Puede observar una calificación “N/A” o “-” (el símbolo del guion) en su Puntuación de participación predictiva para algunas cuentas.
 
 _Una calificación de “N/A” simplemente significa que no hay datos suficientes aún en esa cuenta para que el modelo genere una calificación verdadera; con más datos, se asignará una calificación._
@@ -76,16 +78,16 @@ Para empezar a utilizar la PES, debe añadir el campo PES y la lista relacionada
 1. Vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Cuentas]** > **[!UICONTROL Diseño de página]**. A continuación, seleccione el diseño de página que desee editar.
 1. Vaya a [!UICONTROL Campos] y mueva el campo “Puntuación de participación predictiva” a la sección Información de la cuenta.
 
-   ![Diseño de página de cuenta que muestra el campo Puntuación de participación predictiva](assets/1.png)
+   ![](assets/account-marketing-3.png)
 
 1. Finalmente, vaya a [!UICONTROL Listas relacionadas] y mueva la Lista relacionada “Clientes potenciales” a su diseño de página.
 
-   ![Agregando lista relacionada con posibles clientes al diseño de página de la cuenta](assets/2.png)
+   ![](assets/account-marketing-4.jpg)
 
 1. A continuación, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Clientes potenciales]** > **[!UICONTROL Diseño de página]** y seleccione los diseños de página adecuados que desee editar.
 1. Haga clic en **[!UICONTROL Campos]** y añada el campo [!UICONTROL Cuenta] donde crea conveniente en la página.
 
-   ![Diseño de página de posible cliente con campo de cuenta agregado](assets/3.png)
+   ![](assets/account-marketing-5.png)
 
 Ya está todo listo.
 

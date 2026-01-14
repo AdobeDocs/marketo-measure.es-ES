@@ -1,15 +1,14 @@
 ---
-description: 'Prácticas recomendadas para la asignación de etapas:  [!DNL Marketo Measure]'
+description: Prácticas recomendadas para la asignación de etapas para usuarios de Marketo Measure
 title: Prácticas recomendadas para la asignación de fases
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '484'
 ht-degree: 4%
 
 ---
-
 
 # Prácticas recomendadas para la asignación de fases {#best-practices-for-stage-mapping}
 
@@ -52,4 +51,5 @@ Otras razones que podrían déclencheur una revisión de su asignación de etapa
 * Ver datos de ingresos incorrectos en su informe de [!DNL Marketo Measure]
 
 >[!MORELIKETHIS]
+>
 >[Diferencia entre las fases de Funnel y las fases de modelo personalizadas](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md#the-difference-between-funnel-stages-and-custom-model-stages)

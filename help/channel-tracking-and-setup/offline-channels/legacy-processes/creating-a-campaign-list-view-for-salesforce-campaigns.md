@@ -1,21 +1,21 @@
 ---
-description: Creando una vista de lista de campaña para  [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
+description: Creación de una vista de lista de campañas para  [!DNL Salesforce] Guía de campañas para usuarios de Marketo Measure
 title: 'Creación de una vista de lista de campañas para campañas de  [!DNL Salesforce] '
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '437'
 ht-degree: 5%
 
 ---
-
 
 # Creando una vista de lista de campaña para [!DNL Salesforce] campañas {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Aprenda a crear una vista de lista para las campañas que desee sincronizar con los puntos de contacto del comprador.
 
 >[!NOTE]
+>
 >Este artículo trata sobre un proceso obsoleto. Recomendamos a los usuarios que utilicen el [proceso en la aplicación nuevo y mejorado](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 La vista de lista de campañas que se puede crear le permite tener una ubicación de &quot;visita&quot; para ver y administrar los campos &quot;Tipo&quot; y &quot;Habilitar puntos de contacto del comprador&quot; a fin de garantizar que cada una de sus campañas de [!DNL Salesforce] que informan a sus canales de marketing sin conexión esté configurada correctamente.
@@ -42,4 +42,5 @@ La vista de lista de campañas que se puede crear le permite tener una ubicació
    * Asegúrese de tener permisos en los campos
 
 >[!MORELIKETHIS]
+>
 >[Resolución de problemas comunes con la edición en línea de la vista de lista](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

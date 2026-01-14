@@ -1,15 +1,14 @@
 ---
-description: Usando el cargador de datos para actualizar  [!DNL Marketo Measure] campo de cantidad personalizada - [!DNL Marketo Measure]
+description: Uso del cargador de datos para actualizar la guía del campo de cantidad personalizada de Marketo Measure para los usuarios de Marketo Measure
 title: Uso del cargador de datos para actualizar el campo de cantidad personalizada de Marketo Measure
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
-
 
 # Usando el cargador de datos para actualizar el campo de cantidad personalizada [!DNL Marketo Measure] {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 

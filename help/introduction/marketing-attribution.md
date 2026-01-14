@@ -3,7 +3,8 @@ description: Atribución de marketing
 title: Atribución de marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 97%
@@ -23,7 +24,7 @@ Marketo Measure ofrece a los expertos en marketing un conocimiento detallado de 
 
 **Touchpoints** hace referencia a las interacciones que un cliente potencial o posible efectúa con sus medidas de marketing en línea o sin conexión. Hay cuatro **puntos de contacto principales** que se tienen en cuenta en la atribución de marketing. Reflejan las diferentes fases del recorrido del cliente. Estos puntos de contacto principales, también denominados **puntos de contacto de hitos**, son los siguientes: Primer contacto (FT), Creación de posibles clientes (LC), Creación de oportunidades (OC), Acuerdo ganado cerrado (CW).
 
-![Diagrama de puntos de contacto de hito desde el primer contacto hasta el cerrado ganado](assets/1.png)
+![Diagrama de puntos de contacto de hito desde el primer contacto hasta el cerrado ganado](assets/overview-resources-8.png)
 
 Estos contactos de hitos son la base de los **modelos de atribución** de Marketo Measure. Marketo Measure ofrece seis modelos de atribución. Cada modelo se centra en diferentes fases del recorrido del cliente y ofrece una estructura general para atribuir crédito de ingresos a los puntos de contacto de marketing. El modelo que utilice dependerá de qué fases del recorrido le interese más medir y y de la cantidad de datos sobre los que desee crear informes.  Los modelos de atribución que ofrece Marketo Measure son los siguientes:
 
@@ -35,7 +36,7 @@ Estos contactos de hitos son la base de los **modelos de atribución** de Market
 * Modelo personalizado
 
 >[!NOTE]
->[Obtenga más información sobre cada modelo de atribución](/help/attribution-models.md).
+>[Obtenga más información sobre cada modelo de atribución](/help/introduction/attribution-models.md).
 
 ## Por qué la atribución es importante {#why-attribution-is-important}
 

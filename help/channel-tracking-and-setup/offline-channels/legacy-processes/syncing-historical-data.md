@@ -1,21 +1,21 @@
 ---
-description: 'Sincronizando datos históricos:  [!DNL Marketo Measure]'
+description: Sincronización de directrices de datos históricos para usuarios de Marketo Measure
 title: Sincronización de datos históricos
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1516'
 ht-degree: 3%
 
 ---
-
 
 # Sincronización de datos históricos {#syncing-historical-data}
 
 [!DNL Marketo Measure] es una solución que proporciona los datos más granulares y procesables. Sin embargo, entendemos que es posible que tenga datos existentes para los que le gustaría tener atribución. Es posible generar puntos de contacto para datos históricos, pero es importante tener en cuenta algunos factores antes de continuar con este proceso.
 
 >[!NOTE]
+>
 >Este artículo trata sobre un proceso obsoleto. Recomendamos a los usuarios que utilicen el [proceso en la aplicación nuevo y mejorado](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Factores a considerar {#factors-to-consider}
@@ -50,11 +50,12 @@ Este es un tema que recomendamos encarecidamente que hable primero con su contac
 
 Para sincronizar datos en línea históricos, los datos deben estar organizados en campañas de Salesforce que luego sincronizaría con [!DNL Marketo Measure] mediante reglas de sincronización de campañas [!DNL Salesforce] en la aplicación [!DNL Marketo Measure]. Es importante asegurarse de que los puntos de contacto no se generen a partir de ninguna de estas campañas después de la fecha en que su JavaScript se lanzó. El motivo es evitar puntos de contacto duplicados. Una vez que el JavaScript está activo, los esfuerzos en línea se rastrean automáticamente, por lo que no queremos rastrearlos también a través de una campaña de SFDC. Para evitar este problema, asegúrese de añadir un sentido del tiempo a la regla. Tal vez algo como &quot;Fecha de creación del miembro de campaña es menor que [Fecha de lanzamiento de JavaScript]&quot;.
 
-![Ejemplo de regla de sincronización de campaña de Salesforce para datos históricos](assets/syncing-historical-data-1.png)
+![](assets/dynamics-lists-1.png)
 
 El componente de asignación de canales para datos en línea históricos puede ser un poco complicado. Queremos que coincida con las reglas actuales del canal en línea (de la hoja de reglas en línea) lo más fielmente posible para generar informes limpios. A continuación se muestra un ejemplo de asignación de canal ideal.
 
 >[!NOTE]
+>
 >Esta asignación de canal se realizó en la sección [!UICONTROL Canales sin conexión] de la aplicación [!DNL Marketo Measure], ya que estamos usando campañas de SFDC.
 
 | Tipo de campaña de Salesforce | Canal | Subcanal |
@@ -89,13 +90,14 @@ Los datos digitales históricos deben organizarse en [!DNL Dynamics] campañas p
 
 Si los datos se hospedan en otro lugar (por ejemplo, si aún residen en la automatización de marketing), deberán insertarse en [!DNL Dynamics] y organizarse en las campañas correspondientes. A continuación, deberá tener en cuenta la fecha de punto de contacto tal como desea que refleje la fecha del pasado, no la fecha en la que la insertó en [!DNL Dynamics]. Para anular esta fecha, puede utilizar el campo personalizado &quot;Fecha de Buyer Touchpoint&quot; para cambiar la fecha. Deberá agregar esto al formulario de lista de marketing.
 
-![Configuración de la lista de marketing de Dynamics con el campo Buyer Touchpoint Date](assets/syncing-historical-data-2.png)
+![](assets/dynamics-lists-10.png)
 
 Como resultado, puede establecer de forma masiva la fecha para todos los usuarios de la lista de marketing que se utilizará para la fecha de Touchpoint. Para tener fechas históricas más precisas, cree varias listas de marketing para la misma campaña, cada una con su propia fecha de punto de contacto. Si la campaña tiene un lapso de tiempo corto, tal vez valdría la pena crear una lista de marketing para cada día. Si la campaña tiene un periodo de tiempo más largo, puede ser recomendable crear una lista de marketing semanalmente.
 
 Encontrará más información sobre la sincronización de listas de marketing aquí: [[!DNL Dynamics] Campañas y listas de marketing](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
+>
 >Si, por cualquier motivo, tiene una actividad en línea de seguimiento de campañas activa después de la fecha de activación de JavaScript, asegúrese de establecer el campo &quot;[!UICONTROL Fecha de finalización del punto de contacto]&quot; en la fecha en la que se activó el JS. Esto sirve para evitar tener puntos de contacto duplicados para la misma interacción.
 
 Consideraciones: los datos en línea agregados de esta manera serán inherentemente menos granulares que los datos en línea que [!DNL Marketo Measure] rastrea a través de JavaScript. Por ejemplo, los campos como: URL del formulario, Página de aterrizaje, Página de referente, etc., no se rellenarán. Por lo tanto, se recomienda dividir las campañas en cada fuente si es posible. A continuación se muestra un ejemplo de asignación ideal.

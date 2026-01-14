@@ -1,15 +1,15 @@
 ---
-description: Tablero de información general de ingresos - [!DNL Marketo Measure] - Producto
+description: Resume el panel Información general de ingresos que muestra los ingresos totales y atribuidos y los recuentos de operaciones a lo largo del tiempo
 title: Panel de control de información general sobre ingresos
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 2%
+source-wordcount: '294'
+ht-degree: 3%
 
 ---
-
 
 # Panel de control de información general sobre ingresos {#revenue-overview-dashboard}
 
@@ -41,7 +41,7 @@ Este gráfico de barras de series temporales en paralelo contrasta los ingresos 
 * ¿Qué % de nuestros ingresos de agosto de 2022 se puede atribuir a nuestras iniciativas de marketing?
 * ¿En qué se parecen los ingresos atribuidos en el tercer trimestre del año pasado y los del cuarto trimestre?
 
-![Gráfico de resumen de ingresos que compara los ingresos totales y atribuidos en el tiempo](assets/revenue-overview-dashboard-1.png)
+![](assets/revenue-dashboard-1.png)
 
 ### Gráfico de cobertura de atribución {#attribution-coverage-chart}
 
@@ -51,7 +51,7 @@ Este gráfico circular visualiza de forma distintiva la cobertura de atribución
 
 * ¿Cuál fue el % de cobertura de ingresos atribuido a nuestros esfuerzos de marketing el año pasado?
 
-![División de gráfico circular de cobertura de atribución entre ingresos atribuidos y no atribuidos](assets/revenue-overview-dashboard-2.png)
+![](assets/revenue-dashboard-2.png)
 
 ## Panel de filtro {#filter-pane}
 
@@ -60,5 +60,6 @@ Este tablero está equipado con los siguientes ajustes y filtros:
 * Fecha (basada en la fecha de cierre)
 
 >[!MORELIKETHIS]
-> [Descubra los conceptos básicos del panel de control](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Descubra los conceptos básicos del panel de control](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

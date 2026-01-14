@@ -1,15 +1,14 @@
 ---
-description: Diferencia entre Buyer Touchpoints y Buyer Attribution Touchpoints - [!DNL Marketo Measure]
+description: Diferencia entre los puntos de contacto del comprador y los puntos de contacto de atribución del comprador para usuarios de Marketo Measure
 title: Diferencia entre Buyer Touchpoints y Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 96%
 
 ---
-
 
 # Diferencia entre Buyer Touchpoints y Buyer Attribution Touchpoints {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
@@ -21,31 +20,31 @@ Mientras que el objeto Buyer Attribution Touchpoint está relacionado con los ob
 
 Diferencia entre BT y BAT:
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <td>Punto de contacto de comprador (BT)</td>
-   <td>Punto de contacto de atribución de comprador (BAT)</td>
-  </tr>
-  <tr>
-   <td>
-    <ul>
-     <li>Se relaciona con los objetos Posible cliente, Contacto y Caso</li>
-     <li>No se relaciona con el objeto Oportunidad</li>
-     <li>Los ingresos no están asociados a un punto de contacto de comprador</li>
-    </ul></td>
-   <td>
-    <ul>
-     <li>Se relaciona con los objetos Contacto, Cuenta y Oportunidad</li>
-     <li>No se relaciona con el objeto Posible cliente</li>
-     <li>Dado que un punto de contacto de atribución de comprador está asociado a una oportunidad, todos los BAT tienen ingresos asociados a ellos</li>
-    </ul></td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <td>Punto de contacto de comprador (BT)</td> 
+   <td>Punto de contacto de atribución de comprador (BAT)</td> 
+  </tr> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Se relaciona con los objetos Posible cliente, Contacto y Caso</li> 
+     <li>No se relaciona con el objeto Oportunidad</li> 
+     <li>Los ingresos no están asociados a un punto de contacto de comprador</li> 
+    </ul></td> 
+   <td> 
+    <ul> 
+     <li>Se relaciona con los objetos Contacto, Cuenta y Oportunidad</li> 
+     <li>No se relaciona con el objeto Posible cliente</li> 
+     <li>Dado que un punto de contacto de atribución de comprador está asociado a una oportunidad, todos los BAT tienen ingresos asociados a ellos</li> 
+    </ul></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 ## Preguntas frecuentes {#faq}
@@ -66,10 +65,10 @@ Por lo general, los clientes emplean los datos de Buyer Touchpoing para comprend
 
 Esta es una captura de pantalla de un BT en [!DNL Salesforce]:
 
-![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
+![](assets/adobe-setup-1.png)
 
 **¿Qué aspecto tiene un punto de contacto de atribución de comprador en Salesforce?**
 
 Esta es una captura de pantalla de un BAT en [!DNL Salesforce]:
 
-![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
+![](assets/adobe-setup-2.png)

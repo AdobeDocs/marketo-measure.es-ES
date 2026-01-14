@@ -1,41 +1,40 @@
 ---
-description: Campos de Touchpoint - [!DNL Marketo Measure]
+description: Guía de campos de Touchpoint para usuarios de Marketo Measure
 title: Campos de puntos de contacto
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
-
 
 # Campos de puntos de contacto {#touchpoint-fields}
 
 Históricamente, cuando los clientes se incorporan con [!DNL Marketo Measure] y en el caso de que no tengamos una integración de etiquetado directo, nuestro equipo de éxito del cliente instruye a nuestros clientes sobre cómo etiquetar apropiadamente sus páginas de aterrizaje para que utilicen el formato UTM correcto y podamos resolver sus anuncios. Algunos de estos clientes no utilizan UTM, sino que utilizan sus propios parámetros de etiquetado, lo que significa que puede llevar mucho tiempo editar todas las páginas de aterrizaje en todas las redes de anuncios con una nueva estructura de etiquetado que [!DNL Marketo Measure] aplica. Para adaptarse a su estructura de etiquetado, ahora aceptamos parámetros personalizados que se pueden asignar con nuestras definiciones de reglas. El objetivo es adaptarse al uso que hacen los clientes de sus parámetros de seguimiento personalizados, de modo que no tengamos que pedirles que cambien su estructura de URL.
 
 >[!AVAILABILITY]
->Ahora disponible con segmentación completa en los niveles 2 y 3.
 >
->Disponible con segmentación completa en suscripciones de nivel 2.
+>Ahora disponible con segmentación completa en los niveles 2 y 3.
 
 >[!NOTE]
+>
 >Se trata de una función avanzada y sólo debe configurarla Professional Services.
 
 ## Activación de la función {#enabling-the-feature}
 
 En el menú Configuración de [!DNL Marketo Measure], vaya a la página Campos de punto de contacto. Desde allí, puede habilitar la característica seleccionando **Sí** en **Habilitar campos calculados**. Una vez habilitada la función, puede crear campos de punto de contacto.
 
-![Página de configuración de campos de punto de contacto con la opción Habilitar campos calculados](assets/one.png)
+![](assets/touchpoint-fields-1.png)
 
 ## Cómo. {#how-to}
 
 Para crear un campo calculado, tenga en cuenta que hay tres acciones diferentes que un usuario puede realizar: extracciones, asignaciones y concatenaciones. Estos también se conocen como los operadores para definir un campo calculado.
 
-### Extractos {#extracts}
+Extractos
 
-El operador [!UICONTROL extrae] extrae el valor de un campo desde otra ubicación, como un campo de Campaign, un campo de posible cliente o, en un caso de uso más avanzado, extrae parámetros personalizados de la página de aterrizaje. A continuación, lo coloca en un campo de Touchpoint.
+El operador [!UICONTROL extrae] extrae el valor de un campo de otra ubicación, como: un campo de campaña, un campo de posible cliente o, en un caso de uso más avanzado, [extraer parámetros personalizados de la página de aterrizaje](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. Luego lo coloca en un campo de punto de contacto (vea [Asignaciones al ejemplo](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Ejemplo #1**
 
@@ -52,7 +51,7 @@ Objetivo: Utilice el valor de un campo personalizado y colóquelo en el objeto T
    * **)** marca el final de la extracción
    * **.&#42;** nos indica que estamos extrayendo la cadena completa
 
-![Configuración del campo calculado para la extracción de campos de Source de Campaign](assets/two.png)
+![](assets/touchpoint-fields-10.png)
 
 **Ejemplo #2**
 
@@ -72,7 +71,7 @@ Un caso de uso común que habilita esta función es extraer valores de parámetr
    * **+** extraerá el valor completo del parámetro sin límite de caracteres
    * Tenga en cuenta que está utilizando una barra diagonal y no una barra diagonal inversa
 
-![Configuración del campo Código de descuento al extraer el parámetro de promoción de la URL](assets/three.png)
+![](assets/touchpoint-fields-11.png)
 
 **Ejemplo #3**
 
@@ -90,7 +89,7 @@ Probemos un ejemplo similar en el que extraigamos un código de seguimiento como
    * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
    * **{6}** es el número de caracteres que extraemos
 
-![Campo de ID de Adobe Campaign que extrae el parámetro de 6 dígitos del CID](assets/four.png)
+![](assets/touchpoint-fields-12.png)
 
 **Ejemplo #4**
 
@@ -119,9 +118,9 @@ A medida que las páginas de aterrizaje se complican y tiene varios parámetros 
    * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
    * **{6}** es el número de caracteres que extraemos
 
-![Varios campos calculados que extraen los parámetros de país e ID de campaña](assets/five.png)
+![](assets/touchpoint-fields-13.png)
 
-### Mapas a {#maps-to}
+**Asignaciones a**
 
 El operador [!UICONTROL asigna a] crea una tabla de valores que deben traducirse o agruparse en otro valor. Normalmente, adopta la forma de un valor clave donde un código representa un nombre descriptivo y debe asignarse a ese nombre descriptivo.
 
@@ -129,7 +128,7 @@ El operador [!UICONTROL asigna a] crea una tabla de valores que deben traducirse
 
 Hay campañas que ha creado para una &quot;promoción de fin de verano&quot; y una &quot;promoción de Black Friday&quot; que se ejecutan en varios canales. Desea crear un campo calculado llamado &quot;Iniciativa&quot; y desea asignar cualquier punto de contacto con un valor de Iniciativa como &quot;Promoción de fin de verano&quot; o &quot;Promoción de Black Friday&quot; a un valor de Iniciativa como &quot;Promociones&quot;, además de otros valores posibles.
 
-![Campañas de asignación de campos de iniciativa a categorías de promoción](assets/six.png)
+![](assets/touchpoint-fields-2.png)
 
 **Ejemplo #2**
 
@@ -151,6 +150,8 @@ Ahora que hemos aprendido a extraer y asignar campos, combinemos esas acciones p
    * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
    * **{2}** es el número de caracteres que extraemos
 
+
+
 * Haga clic en [!UICONTROL Guardar]. Debe guardar el nuevo campo para que pueda estar disponible para utilizarlo en la siguiente regla.
 * A continuación, queremos asignar todos los valores posibles para los primeros dígitos a sus nombres descriptivos
 * Cree un campo calculado y etiquete &quot;Region_Name&quot;
@@ -165,9 +166,9 @@ Ahora que hemos aprendido a extraer y asignar campos, combinemos esas acciones p
    * Para extraer el 03, debe definir el valor como &quot;BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;
    * Para extraer los 10, defina el valor como &quot;BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;
 
-![Tabla de asignación de nombres de región con códigos numéricos a nombres de región](assets/seven.png)
+![](assets/touchpoint-fields-3.png)
 
-### Concatenaciones {#concatenates}
+**Concatenaciones**
 
 El operador [!UICONTROL concatenates] combina valores de varios campos en un único campo. Esto resulta útil para crear un valor personalizado que extrae datos de varios campos para realizar
 
@@ -175,7 +176,7 @@ El operador [!UICONTROL concatenates] combina valores de varios campos en un ún
 
 Existen campos independientes en el objeto de oportunidad para Segment__c y Grade__c que el usuario desea combinar en un único campo del objeto Touchpoint para la creación de informes. Al concatenar los campos, verá valores como Enterprise_A o Mid-Market_B.
 
-![Configuración de concatenación que combina los campos Segmento y Grado](assets/eight.png)
+![](assets/touchpoint-fields-4.png)
 
 ## Campos y segmentos de Touchpoint {#touchpoint-fields-and-segments}
 
@@ -183,17 +184,17 @@ Ahora que los valores de la URL se han analizado y existen en el punto de contac
 
 La capacidad de crear segmentos mediante campos de Touchpoint está disponible con esta versión del producto. Los segmentos no se podían crear con campos de Touchpoint anteriores.
 
-![Interfaz de creación de segmentos que muestra los campos de punto de contacto disponibles](assets/nine.png)
+![](assets/touchpoint-fields-5.png)
 
 Para facilitar la creación de segmentos, ahora es posible crear segmentos dinámicos a partir de los campos de punto de contacto que se crearon. Por ejemplo, si ha creado un campo de punto de contacto que ha analizado una región geográfica, en lugar de crear un segmento para cada región posible, puede configurar un segmento y crearemos segmentos para cada instancia en la que aparezca un nuevo valor. Esto es extremadamente útil si un atributo como código postal necesitaba analizarse y utilizarse como segmento.
 
 Su configuración se parecería a la captura de pantalla siguiente. El nombre del segmento extrae dinámicamente el valor del campo de punto de contacto utilizando llaves para buscar el campo.
 
-![Configuración de segmento dinámico con referencia de campo de llave](assets/ten.png)
+![](assets/touchpoint-fields-6.png)
 
 La regla hace referencia al mismo campo de punto de contacto y busca valores que &quot;no son iguales a nulos&quot;.
 
-![Regla de segmento con condición nula](assets/eleven.png) distinta a
+![](assets/touchpoint-fields-7.png)
 
 ## Preguntas frecuentes {#faq}
 
@@ -206,6 +207,7 @@ Hay un límite de 100 campos.
 No olvide guardar las reglas después de crearlas. Si no ve el nuevo campo, compruebe si se ha guardado. Debe guardar el nuevo campo para que pueda estar disponible para utilizarlo en la siguiente regla.
 
 >[!NOTE]
+>
 >Debido al nivel de complejidad, un campo de punto de contacto que utilice el operador &quot;se asigna a&quot; no está disponible para utilizarse en otro campo de punto de contacto.
 
 **¿Qué expresión se utiliza para extraer varios parámetros de una sola página de aterrizaje?**
@@ -220,6 +222,6 @@ Se necesita trabajo adicional para exponer los nuevos campos en el esquema de Da
 
 Hay una herramienta en línea ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) que le permite ejecutar y probar la expresión. La expresión aparece en verde si es válida o en rojo si no lo es. Además, el cuadro [!UICONTROL explicación] de la parte superior derecha es útil y le indica lo que está extrayendo.
 
-![Herramienta de validación de regex que muestra una expresión válida en verde](assets/twelve.png)
+![](assets/touchpoint-fields-8.png)
 
-![Herramienta de validación de regex que muestra una expresión no válida en rojo](assets/thirteen.png)
+![](assets/touchpoint-fields-9.png)

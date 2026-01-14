@@ -1,15 +1,14 @@
 ---
-description: Configuración y modelo de atribución personalizados - [!DNL Marketo Measure]
+description: Modelo de atribución personalizado y directrices de configuración para usuarios de Marketo Measure
 title: Modelo de atribución personalizado y configuración
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
-
 
 # Modelo de atribución personalizado y configuración {#custom-attribution-model-and-setup}
 
@@ -30,11 +29,13 @@ El modelo de atribución personalizada [!DNL Marketo Measure] permite a los usua
    A continuación, elija qué fases de posibles clientes/contactos y oportunidad desea incluir seleccionando el cuadro **[!UICONTROL Incluir en modelo]**.
 
    >[!NOTE]
+   >
    >Se le permiten hasta seis fases personalizadas (sin incluir las predeterminadas: FT, LC, OC y Cerrado).
 
-   ![&#x200B; 1](assets/1-1.png)
+   ![](assets/custom-models-1.png)
 
    >[!NOTE]
+   >
    >_Todos_ los posibles clientes/contactos y las fases de oportunidad aparecerán aquí, aunque la fase esté inactiva o ya no se utilice en [!DNL Salesforce]. Si desea eliminar estas fases, deberá eliminarlas en [!DNL Salesforce].
 
    Cuando hayas seleccionado las fases, asegúrate de hacer clic en el botón **[!UICONTROL Guardar y procesar]** en la parte inferior de la página. Las fases ahora aparecerán en la pestaña **[!UICONTROL Configuración de atribución]** y podrá asignar porcentajes de atribución a cada fase. Las fases personalizadas también se mostrarán en el conjunto de rendimiento de marketing como una fase de posible cliente u oportunidad dentro de la cascada de la demanda.
@@ -43,9 +44,10 @@ El modelo de atribución personalizada [!DNL Marketo Measure] permite a los usua
 
    En el ejemplo siguiente, se define una fase &quot;MQL&quot; personalizada mediante un campo de fecha. La regla simplemente establece que si el campo Fecha de MQL no está vacío, debe considerarse un MQL y debe incluirse en el modelo personalizado. También es importante ordenar las fases personalizadas una vez creadas para que sigan la progresión del ciclo de ventas.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![](assets/custom-models-10.png)
 
    >[!CAUTION]
+   >
    >No olvide habilitar el seguimiento del historial para los campos personalizados.
 
 Si se utiliza un campo personalizado en el modelo personalizado, el seguimiento del historial de campos DEBE estar habilitado en CRM. Para obtener instrucciones para habilitar el seguimiento del historial de campos, consulte [Configuración del modelo personalizado: Habilitar el seguimiento del historial de campos](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
@@ -58,13 +60,13 @@ Si se utiliza un campo personalizado en el modelo personalizado, el seguimiento 
 
    A la izquierda de la columna _Personalizado_ se encuentra el modelo de aprendizaje automático **[!DNL Marketo Measure]**. El modelo de aprendizaje automático calcula la ponderación de atribución en función de la importancia relativa para ganar un acuerdo, según lo que haya sucedido en cada fase personalizada. Para obtener más información sobre el modelo de aprendizaje automático, consulte [Preguntas frecuentes sobre el modelo de aprendizaje automático](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md).
 
-   ![Tabla de configuración de atribución que muestra la ponderación del modelo personalizado](assets/3.png)
+   ![](assets/custom-models-2.png)
 
 ## Posiciones de Touchpoint {#touchpoint-positions}
 
 Una vez guardados y procesados los porcentajes de atribución, los puntos de contacto se actualizarán y recibirán sus nuevas fases y posiciones. El punto de contacto que se haya producido más recientemente, antes de una transición de fase, recibirá crédito por esa fase (como se muestra a continuación). La ponderación personalizada y los ingresos también se redistribuyen.
 
-![Posiciones de punto de contacto con fases personalizadas aplicadas](assets/4.png)
+![](assets/custom-models-3.png)
 
 ## La diferencia entre las etapas de Funnel y las etapas de modelo personalizadas {#the-difference-between-funnel-stages-and-custom-model-stages}
 
@@ -74,7 +76,8 @@ Las etapas de funnel seguirán rastreándose como puntos de contacto y seguirán
 
 Como puede ver a continuación, hemos incluido la fase de diligencia como parte de nuestras fases de Funnel. Esto significa que tendremos puntos de contacto en los que la posición contenga Diligencia, pero esos puntos de contacto solo recibirán crédito de atribución de contacto medio si el modelo personalizado no está habilitado (como máximo un 10 %).
 
-![Marketing funnel, incluidos los puntos de contacto de fase de diligencia personalizada](assets/5.png)
+![](assets/custom-models-7.png)
 
 >[!NOTE]
+>
 >El comportamiento de los modelos personalizados de BAT es dividir el porcentaje de contacto medio del modelo personalizado de forma uniforme en otras fases, siempre que no haya toques intermedios.

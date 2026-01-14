@@ -1,15 +1,14 @@
 ---
-description: Formularios iframe y  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: IFrame Forms y [!DNL Marketo Measure] directrices para usuarios de Marketo Measure
 title: Formularios IFrame y  [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 85%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
-
 
 # Formularios IFrame y [!DNL Marketo Measure] {#iframe-forms-and-marketo-measure}
 
@@ -21,6 +20,6 @@ En muchos casos, vemos que iframe se administra a través de un proveedor de aut
 
 Se recomienda colocar el JavaScript dentro del encabezado del iframe y, a partir de ahí, se adjunta automáticamente a los formularios dentro de dicho marco.
 
-![Código HTML](assets/1-1.png)
+![](assets/adding-pages-1.png)
 
 Si tiene alguna pregunta sobre cómo agregar JavaScript a los formularios de IFrame, póngase en contacto con el equipo de cuenta de Adobe (su administrador de cuentas) o con el [equipo de asistencia de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

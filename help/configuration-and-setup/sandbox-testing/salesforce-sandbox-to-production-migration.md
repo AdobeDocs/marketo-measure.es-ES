@@ -1,15 +1,14 @@
 ---
-description: Migración de zona protegida de Salesforce a producción,  [!DNL Marketo Measure]
+description: Guía de migración de zona protegida de Salesforce a producción para usuarios de Marketo Measure
 title: Migración de zona protegida de Salesforce a producción
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '317'
 ht-degree: 95%
 
 ---
-
 
 # Migración de zona protegida de Salesforce a producción {#salesforce-sandbox-to-production-migration}
 
@@ -31,7 +30,7 @@ Si eligió realizar la prueba de [!DNL Marketo Measure] en un entorno de zona p
 * Haga clic en el icono de papelera situado junto a la conexión de SFDC para eliminarlo.
 * Se le pedirá que confirme la eliminación.  Asegúrese de leer la indicación con cuidado y comprender las consecuencias de la eliminación.
 
-  ![Página de conexiones de Marketo Measure que confirma la eliminación de una zona protegida de Salesforce](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![](assets/salesforce-migration-1.png)
 
    * Escriba el nombre de la empresa como se le indica en el modelo de confirmación y haga clic en “Entiendo las consecuencias, eliminar esta conexión”.
 * Esto desencadena el proceso de eliminación y tardará algún tiempo en finalizar.

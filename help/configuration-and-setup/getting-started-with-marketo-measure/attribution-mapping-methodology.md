@@ -1,15 +1,14 @@
 ---
-description: 'Metodología de asignación de atribución:  [!DNL Marketo Measure]'
+description: Guía de metodología de asignación de atribución para usuarios de Marketo Measure
 title: Metodología de asignación de atribuciones
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 0%
+source-wordcount: '582'
+ht-degree: 1%
 
 ---
-
 
 # Metodología de asignación de atribuciones {#attribution-mapping-methodology}
 
@@ -19,7 +18,7 @@ La metodología de asignación de atribución es el proceso de buscar ciertos ob
 
 De serie, [!DNL Marketo Measure] proporciona la asignación de ID de cuenta. Esto significa que [!DNL Marketo Measure] busca la información de marketing de la cuenta y sus contactos para crear puntos de contacto de atribución asociados a la oportunidad. A continuación se presenta una representación sencilla de ese proceso.
 
-![&#x200B; 1](assets/1-1.png)
+![](assets/adobe-setup-1.png)
 
 Tenga en cuenta que **no todos los** puntos de contacto de sus contactos se insertan en la oportunidad como puntos de contacto de atribución. La cronología de la oportunidad (su fecha de primer contacto: fecha de cierre) determina si un punto de contacto cuenta como factor de influencia en la oportunidad. Por lo tanto, si se produce un punto de contacto en el contacto A después de cerrar la oportunidad ganada/perdida, [!DNL Marketo Measure] no insertará ese punto de contacto en la oportunidad. Este procedimiento de cronología se sigue en todas las demás asignaciones de objetos de atribución.
 
@@ -29,13 +28,9 @@ Desventajas: Si hay SLA de marketing y ventas sólidos que definen quién deber�
 
 ## Asignación de funciones de contacto de oportunidad {#opportunity-contact-role-mapping}
 
->[!NOTE]
->
->Los métodos de asignación de funciones de contacto solo están disponibles para los que utilizan Salesforce como CRM. No está disponible para los usuarios de Microsoft Dynamics debido a la falta de un objeto de función de contacto dentro de ese CRM.
-
 Aunque la mayoría de los clientes utilizan la asignación de Id. de cuenta, [!DNL Marketo Measure] puede buscar los roles de contacto (contactos asociados a la oportunidad) dentro de una oportunidad para desglosar el proceso de atribución. Esto significa que [!DNL Marketo Measure] solo insertará interacciones de marketing asociadas a los roles de contacto en la oportunidad como puntos de contacto de atribución del comprador. A continuación se presenta una representación de este proceso.
 
-![&#x200B; 1](assets/2-1.png)
+![](assets/adobe-setup-2.png)
 
 Profesionales: Si su equipo tiene un proceso de funciones de contacto bien definido, este tipo de asignación de atribución puede ser ideal para usted. Ayuda a alinear las ventas y el marketing un poco más, ya que todos entenderían perfectamente cómo se desglosa la atribución. Este proceso también es útil cuando las organizaciones se dirigen a varias unidades de negocio dentro de una gran compañía y cuando venden diferentes productos al mismo tiempo.
 
@@ -45,7 +40,7 @@ Inconvenientes: Sin embargo, si no hay ningún proceso de función de contacto e
 
 Más allá de simplemente mirar los roles de contacto en la oportunidad, [!DNL Marketo Measure] puede centrarse aún más en mirar solamente los Contactos principales en una oportunidad. Con esta configuración en mente, [!DNL Marketo Measure] solo obtiene el punto de contacto de marketing asociado a los contactos principales de una oportunidad e inserta esa información en la historia de atribución de esa oportunidad específica. Consulte la siguiente imagen.
 
-![Diagrama de asignación de atribución que solo usa funciones de contacto principal](assets/3.png)
+![](assets/adobe-setup-3.png)
 
 Profesionales: Si su equipo solo está interesado en comprender la influencia de marketing en los contactos que se establecen como &quot;principales&quot; en la oportunidad, este tipo de asignación se adapta mejor al equipo.
 

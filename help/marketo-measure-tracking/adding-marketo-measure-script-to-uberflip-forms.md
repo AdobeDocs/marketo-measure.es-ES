@@ -1,21 +1,20 @@
 ---
-description: Agregando  [!DNL Marketo Measure] script a [!DNL Uberflip] Forms - [!DNL Marketo Measure]
+description: Agregando  [!DNL Marketo Measure] script a [!DNL Uberflip] instrucciones de Forms para usuarios de Marketo Measure
 title: Agregando  [!DNL Marketo Measure] script a [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
-
 
 # Agregando script [!DNL Marketo Measure] a Forms [!DNL Uberflip] {#adding-marketo-measure-script-to-uberflip-forms}
 
 Si actualmente usa [!DNL Uberflip] para administrar el contenido, es importante que realice los pasos necesarios para asegurarse de que [!DNL Marketo Measure] realiza un seguimiento de los envíos de formularios. El administrador de éxito de [!DNL Uberflip] también debe poder ayudarle con esto.
 
-1. Agregue este script a la sección [!DNL Uberflip]Código personalizado>HTML[!UICONTROL &#x200B; de &#x200B;].
+1. Agregue este script a la sección [!DNL Uberflip]Código personalizado>HTML[!UICONTROL  de ].
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
@@ -25,27 +24,28 @@ Si actualmente usa [!DNL Uberflip] para administrar el contenido, es importante 
 
    Agregue este preámbulo a los vínculos de evento [!DNL Hubs.onLoad] y [!DNL Hubs.onPageChange] de AJAX JavaScript por debajo de. (Nota: Es posible que también tenga otro código en estos vínculos de eventos. Asegúrese de incluir también el preámbulo).
 
-```javascript
-   Hubs.onLoad = function () {
-    window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
-   }
-   Hubs.onPageChange = function () {
-   window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
-   }
-```
+   `Hubs.onLoad = function () {`
+
+   `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
+
+   `}`
+
+   `Hubs.onPageChange = function () {`
+
+   `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
+
+   `}`
 
 1. Cree y defina una función que dirija los datos a Bizible tras un envío de Form CTA. Esto va a la sección [!UICONTROL Código personalizado>JavaScript]. (Nota: Esta función solo requiere el parámetro ctaData que proporciona Uberflip, pero puede incluir los demás parámetros ctaId y ctaName en caso de que el usuario desee personalizar su código para pasar estos datos también).
 
-```javascript
-function bizibleFormCode(ctaId, ctaData, ctaName) {
-   var email = ctaData["email"];
-   if (email) {
-      Bizible.Push('User', {
-         eMail: email, // required
-      });
-   }
-}
-```
+   `function bizibleFormCode(ctaId, ctaData, ctaName) {`
+   `var email = ctaData["email"];`
+   `if(email){`
+   `Bizible.Push('User', {`
+   `eMail: email, // required`
+   `}); }`
+
+   `}`
 
 1. Cuando se envía un formulario CTA, asegúrese de que la función [!DNL Marketo Measure] se ejecuta según se indica a continuación. Esto se hace dentro de la sección [!UICONTROL Custom Code>JS]. (Nota: Es posible que tenga otro código dentro del vínculo de evento Hubs.onCtaFormSubmitSuccess de JavaScript; asegúrese de incluir también esta llamada de función).
 

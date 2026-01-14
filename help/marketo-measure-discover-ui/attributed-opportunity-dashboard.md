@@ -1,15 +1,15 @@
 ---
-description: Tablero de oportunidad con atributo - [!DNL Marketo Measure]  - Producto
+description: Abarca el panel Oportunidad atribuida que muestra las cantidades y los recuentos de oportunidades por subcanal de canal y campaña a lo largo del tiempo
 title: Panel de control de oportunidades atribuidas
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
-
 
 # Panel de control de oportunidades atribuidas {#attributed-opportunity-dashboard}
 
@@ -39,7 +39,7 @@ Gráfico de barras apiladas que muestra el importe total de la oportunidad atrib
 * ¿Qué canales generaron la cantidad de oportunidad atribuida más cada trimestre?
 * ¿Cuál fue el desglose del importe de la oportunidad atribuida por canal el mes pasado?
 
-![Gráfico de cantidad de oportunidad atribuida por canal a lo largo del tiempo](assets/attributed-opportunity-dashboard-1.png)
+![](assets/attributed-dashboard-3.png)
 
 ### Tabla de importe de oportunidad atribuida {#attributed-opportunity-amount-table}
 
@@ -56,7 +56,7 @@ La vista tabular ofrece perspectivas claras y organizadas sobre la distribución
 
 Haga clic en el icono **+** junto a cada canal para mostrar el desglose por subcanal y campaña.
 
-![Vista tabular de cantidad de oportunidad atribuida por canal y campaña](assets/attributed-opportunity-dashboard-2.png)
+![](assets/attributed-dashboard-1.png)
 
 #### Vista de árbol {#tree-view}
 
@@ -64,7 +64,7 @@ La vista de árbol permite una exploración de datos más interactiva y granular
 
 Haga clic en una rama para profundizar en la capa de jerarquía posterior.
 
-![Jerarquía de vista de árbol de la cantidad de oportunidades atribuidas](assets/attributed-opportunity-dashboard-3.png)
+![](assets/attributed-dashboard-2.png)
 
 ### Panel de filtro
 

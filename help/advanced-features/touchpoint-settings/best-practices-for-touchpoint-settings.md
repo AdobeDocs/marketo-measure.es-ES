@@ -1,15 +1,14 @@
 ---
-description: 'Prácticas recomendadas para la configuración de Touchpoint:  [!DNL Marketo Measure]'
+description: Recomendaciones para la configuración de Touchpoint para usuarios de Marketo Measure
 title: Prácticas recomendadas para la configuración de puntos de contacto
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 6%
 
 ---
-
 
 # Prácticas recomendadas para la configuración de puntos de contacto {#best-practices-for-touchpoint-settings}
 
@@ -55,7 +54,8 @@ Las razones para revisar la configuración de [!UICONTROL Touchpoint] son...
 * Cambios en los campos utilizados para definir las reglas de supresión o eliminación
 
 >[!MORELIKETHIS]
-> [Información general sobre eliminación y supresión de puntos de contacto](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
-> [Por qué los puntos de contacto nunca deben eliminarse](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
-> [Puntos de contacto del comprador (BT) frente a puntos de contacto de atribución del comprador (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-differences.md)
+>
+>* [Información general sobre eliminación y supresión de puntos de contacto](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+>* [Por qué los puntos de contacto nunca deben eliminarse](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [Puntos de contacto del comprador (BT) frente a puntos de contacto de atribución del comprador (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

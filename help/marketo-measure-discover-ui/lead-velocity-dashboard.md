@@ -1,15 +1,14 @@
 ---
-description: Tablero de velocidad del posible cliente -  [!DNL Marketo Measure]  - Producto
+description: Utilice el panel Velocidad del posible cliente para medir el tiempo en cada etapa de funnel y comparar el ritmo por canal a lo largo del tiempo
 title: Panel de control de velocidad del posible cliente
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '378'
 ht-degree: 3%
 
 ---
-
 
 # Panel de control de velocidad del posible cliente {#lead-velocity-dashboard}
 
@@ -33,7 +32,7 @@ Preguntas que responde el gráfico:
 * ¿Qué fase de ventas suele tener la mayor duración para los posibles clientes/contactos?
 * ¿En qué se diferencia el tiempo empleado en la fase de &quot;Primer contacto&quot; del de &quot;MQL&quot;?
 
-![Velocidad de cliente potencial o contacto por gráfico de barras de fase de ventas](assets/lead-velocity-dashboard-1.png)
+![](assets/lead-dashboard-1.png)
 
 ### Velocidad de cliente potencial/contacto a lo largo del tiempo {#lead-contact-velocity-over-time}
 
@@ -47,7 +46,7 @@ Preguntas que responde el gráfico:
 * ¿Cuáles son las tendencias del tiempo empleado en cada fase para posibles clientes o contactos a lo largo de los meses observados?
 * ¿En qué mes experimentaron los posibles clientes/contactos la progresión más rápida en las fases de venta?
 
-![Gráfico de líneas de tiempo de tendencias de velocidad de posible cliente](assets/lead-velocity-dashboard-2.png)
+![](assets/lead-dashboard-2.png)
 
 ### Velocidad de cliente potencial/contacto por canal {#lead-contact-velocity-by-channel}
 
@@ -60,7 +59,7 @@ Preguntas que responde el gráfico:
 * ¿Qué canal muestra la progresión de posibles clientes más rápida en las fases de funnel?
 * ¿Cómo varía la velocidad del posible cliente en la fase &quot;MQL&quot; entre los distintos canales?
 
-![Gráfico de comparación de velocidad de posible cliente por canal](assets/lead-velocity-dashboard-3.png)
+![](assets/lead-dashboard-3.png)
 
 ## Panel de filtro {#filter-pane}
 

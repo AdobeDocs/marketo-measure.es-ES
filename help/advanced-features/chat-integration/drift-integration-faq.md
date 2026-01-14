@@ -1,15 +1,14 @@
 ---
-description: Preguntas frecuentes sobre la integración de Drift - [!DNL Marketo Measure]
+description: Guía de preguntas frecuentes sobre la integración de Drift para usuarios de Marketo Measure
 title: Preguntas frecuentes sobre la integración de Drift
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 feature: Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
-
 
 # Preguntas frecuentes sobre la integración de Drift {#drift-integration-faq}
 
@@ -41,4 +40,4 @@ Si hay campañas CRM en marcha para crear puntos de contacto para interacciones 
 
 Si existen reglas de actividad para crear puntos de contacto para las interacciones de chat de Drift, se debe añadir una parte adicional de lógica a las reglas. Agregue lógica utilizando el campo Fecha de creación de la tarea para evitar la duplicación de puntos de contacto (IE CrmTask.CreatedDate es menor que la fecha en la que se habilitó el bit de característica). Vea la captura de pantalla siguiente para ver un ejemplo.
 
-![Ejemplo de regla de actividad de CRM configurada para puntos de contacto de chat de deriva](assets/activity-rule-drift.png)
+![](assets/chat-integration-1.png)

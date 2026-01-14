@@ -1,15 +1,14 @@
 ---
-description: Habilitando el permiso para editar posibles clientes convertidos - [!DNL Marketo Measure]
+description: Habilitación del permiso para editar directrices de posibles clientes convertidos para usuarios de Marketo Measure
 title: Habilitación del permiso para editar posibles clientes convertidos
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '154'
 ht-degree: 9%
 
 ---
-
 
 # Habilitación del permiso para editar posibles clientes convertidos {#enabling-the-permission-to-edit-converted-leads}
 
@@ -17,16 +16,16 @@ Obtenga información sobre cómo habilitar el permiso para editar registros de p
 
 1. Vaya a [!UICONTROL Configuración] y expanda la agrupación [!UICONTROL Administrar usuarios] para seleccionar perfiles.
 
-   ![&#x200B; 2](assets/1-2.png)
+   ![](assets/additional-functionality-1.png)
 
 1. Seleccione el perfil del usuario al que estamos conectados.
 
 1. Busque el permiso para ver y editar posibles clientes convertidos.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![](assets/additional-functionality-2.png)
 
 1. Marque la casilla para permitir ver y editar posibles clientes convertidos.
 
-   ![&#x200B; 1](assets/3-1.png)
+   ![](assets/additional-functionality-3.png)
 
 ¡Y has terminado!

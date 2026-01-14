@@ -1,15 +1,14 @@
 ---
-description: Prácticas recomendadas para la atribución de actividades - [!DNL Marketo Measure]
+description: Prácticas recomendadas para las actividades Guía de atribución para usuarios de Marketo Measure
 title: Prácticas recomendadas para la atribución de actividades
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
-
 
 # Prácticas recomendadas para la atribución de actividades {#best-practices-for-activities-attribution}
 
@@ -30,6 +29,7 @@ Tanto si define reglas de actividad por primera vez como si simplemente revisa l
    * Como se ha mencionado, el caso de uso principal de esta función es crear puntos de contacto que realicen un seguimiento de la eficacia de su equipo de desarrollo de ventas, específicamente llamadas telefónicas salientes y correos electrónicos salientes
 
 >[!NOTE]
+>
 >Se recomienda **NO** rastrear las actividades de ventas que ocurren después de que se cree la oportunidad, ya que rastrear un proceso de ejecutivos de ventas no ofrece mucho insight. El objetivo es rastrear la influencia de las ventas junto con la influencia del marketing, principalmente en el desarrollo de una nueva generación de oportunidad/canalización
 
 * No utilice campos de fórmula para definir las reglas
@@ -51,5 +51,6 @@ Otras razones que podrían déclencheur revisar las reglas de actividad son...
 * Cambios o actualizaciones en las herramientas de ventas
 
 >[!MORELIKETHIS]
-> [Atribución de actividades](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [Preguntas frecuentes sobre la atribución de actividades de ventas &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+>
+>* [Atribución de actividades](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
+>* [Preguntas frecuentes sobre la atribución de actividades de ventas](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

@@ -1,15 +1,14 @@
 ---
-description: Agregando  [!DNL Marketo Measure] script a las páginas de Sitecore - [!DNL Marketo Measure]
+description: Agregando  [!DNL Marketo Measure] script a la guía de páginas de Sitecore para usuarios de Marketo Measure
 title: Adición del script de  [!DNL Marketo Measure]  a páginas de Sitecore
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
-
 
 # Agregando script [!DNL Marketo Measure] a las páginas de SiteCore {#adding-marketo-measure-script-to-sitecore-pages}
 

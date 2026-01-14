@@ -3,13 +3,12 @@ description: Integración de actividades de [!DNL Marketo Engage] - [!DNL Market
 title: Integración de actividades de [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1660'
 ht-degree: 1%
 
 ---
-
 
 # Integración de actividades de [!DNL Marketo Engage] {#marketo-engage-activities-integration}
 
@@ -28,19 +27,19 @@ Como parte de la integración general de [!DNL Marketo Measure] y [!DNL Marketo 
 
 1. Para comenzar a configurar actividades de Marketo, vaya a **Mi cuenta** > **Configuración** > **Actividades**.
 
-   ![Página de configuración de actividades en la cuenta de Marketo Measure](assets/one-1.png)
+   ![](assets/one-one-1.png)
 
-   ![Pantalla de configuración de actividades con selección de tipo de actividad](assets/two-1.png)
+   ![](assets/two-two-2.png)
 
    Lo primero que debe hacer es seleccionar la lista de tipos de actividades en los que planea crear reglas. No se requiere un número elevado de tipos de actividades, pero se recomienda que no sobrecargue los puntos de contacto y diluya la importancia de los hitos significativos. Dicho esto, es posible que no necesite más de cinco tipos de actividades para rastrear las participaciones relevantes.
 
 1. Haga clic en el menú desplegable debajo de [!UICONTROL Seleccionar tipos de actividades] para comenzar a elegir los distintos tipos.
 
-   ![Menú desplegable que muestra los tipos de actividades de Marketo disponibles](assets/three-1.png)
+   ![](assets/three-three-2.png)
 
 1. Cuando haya seleccionado todas las actividades que necesita, podrá verlas rellenadas en su [!UICONTROL Lista de actividades seleccionadas] y en [!UICONTROL Definir reglas].
 
-   ![Lista de actividades seleccionadas que muestra los tipos de actividades elegidos](assets/four-1.png)
+   ![](assets/four-four-2.png)
 
 1. Para cada tipo de actividad, debe definir una o más reglas que determinen qué registros cumplen los requisitos para los puntos de contacto. En este ejemplo, agregamos una regla para el tipo de actividad &quot;Cambiar puntuación&quot; para que el sistema cree un punto de contacto cuando una persona de Marketo alcance una puntuación de 90 o superior.
 
@@ -48,27 +47,27 @@ Como parte de la integración general de [!DNL Marketo Measure] y [!DNL Marketo 
 
    A continuación se muestra un ejemplo del aspecto que tendría ese paso adicional:
 
-   ![Campo de configuración de nombre de campaña para regla de actividad](assets/five-1.png)
+   ![](assets/five-five-1.png)
 
 1. En el ejemplo &quot;Cambiar puntuación&quot;, es necesario introducir un Nombre de campaña, ya que esa información se extrae del Programa de Marketo. Ahora cree la expresión de regla. Siguiendo este ejemplo, seleccione el campo &quot;[!UICONTROL Nuevo valor]&quot; con un operador de &quot;[!UICONTROL es mayor que]&quot; con un valor de 90.
 
    Puede ampliar las reglas y agregar filtros o criterios adicionales agregando instrucciones &quot;and&quot; u &quot;or&quot; para reducir los resultados.
 
-   ![Generador de reglas para la actividad de puntuación de cambio con selección de campo y operador](assets/six-1.png)
+   ![](assets/six-six-2.png)
 
-   ![Expresión de regla que muestra un valor nuevo mayor que 90 condición](assets/seven-1.png)
+   ![](assets/seven-seven-1.png)
 
 1. Por último, elija qué utilizar como fecha de punto de contacto. Todos los campos de fecha y hora disponibles aparecen aquí desde Marketo. A menos que tenga campos de fecha personalizados, verá &quot;[!UICONTROL Fecha de actividad]&quot;.
 
-   ![Selector de campo de fecha de punto de contacto que muestra la opción Fecha de actividad](assets/eight-1.png)
+   ![](assets/eight-eight-2.png)
 
 1. Asegúrese de hacer clic en **[!UICONTROL Guardar como borrador]** durante el recorrido para no perder los cambios.
 
-   ![Botón Guardar como borrador en la configuración de reglas de actividad](assets/nine-1.png)
+   ![](assets/nine-nine-1.png)
 
 1. Vaya a la pestaña **[!UICONTROL Asignación de atributos]**.
 
-   ![Ficha Asignación de atributos en la configuración de actividades](assets/ten-1.png)
+   ![](assets/ten-ten-2.png)
 
 1. Para cada tipo de actividad que seleccionó, tiene la opción de asignar atributos de Marketo adicionales a los campos de Touchpoint para poder ver y crear informes de esos valores en [!DNL Marketo Measure Discover] o en CRM.
 
@@ -89,6 +88,7 @@ Como parte de la integración general de [!DNL Marketo Measure] y [!DNL Marketo 
    * Explorador
 
    >[!NOTE]
+   >
    >Los campos de publicidad como Contenido de publicidad o Palabra clave no están disponibles en esta lista, ya que se reservan para las integraciones de nuestra plataforma de publicidad.
 
 ## Tipos de actividad {#activity-types}
@@ -111,6 +111,7 @@ Añadir a Nutrir (113)\
 Cambio de la cadencia de la nutrición (115)
 
 >[!NOTE]
+>
 >De los tipos de actividades para los que se espera un id. de programa, si se detecta una actividad sin un programa, [!DNL Marketo Measure] no la aceptará como punto de contacto elegible, ya que no podemos tener valores de campaña nulos.
 
 **Tipos de actividades sin Id. de programa**
@@ -157,9 +158,9 @@ Actividad personalizada (xxx)
 
 ## Asignación de canales {#channel-mapping}
 
-Para cualquiera de las reglas de un tipo de actividad con un ID de programa, el canal de programa de Marketo se determina a partir del programa. Utilizamos el canal de programa para asignarlo a sus canales sin conexión personalizados, por lo que debe asegurarse de que sus canales estén configurados correctamente [según se indica aquí](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}.
+Para cualquiera de las reglas de un tipo de actividad con un ID de programa, el canal de programa de Marketo se determina a partir del programa. Utilizamos el canal de programa para asignarlo a sus canales sin conexión personalizados, por lo que debe asegurarse de que sus canales estén configurados correctamente [según se indica aquí](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping).
 
-Y para cualquiera de las reglas de un tipo de actividad sin un ID de programa, el primer paso fue crear un nombre de campaña. Use este nombre de campaña para configurar sus canales en línea personalizados [aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}.
+Y para cualquiera de las reglas de un tipo de actividad sin un ID de programa, el primer paso fue crear un nombre de campaña. Use este nombre de campaña para configurar sus canales en línea personalizados [aquí](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 Si los canales de sus actividades de Marketo no están correctamente configurados, es probable que sus nuevos puntos de contacto entren en el canal &quot;Otro&quot;.
 
@@ -184,6 +185,7 @@ La implementación de hoy crearía un único punto de contacto FT y LC para `mar
 Con esta mejora de la asignación de cookies, el FTP regresaría y se acreditaría al anuncio de Facebook y la LC se acreditaría al correo electrónico.
 
 >[!NOTE]
+>
 >Con el comportamiento de asignación de cookies, puede encontrar algunos puntos de contacto LC que provienen de una visita web. Es posible que un posible cliente apareciera en Marketo sin ninguna actividad asociada, que luego [!DNL Marketo Measure] descargara ese posible cliente, que coincidiera con las cookies asociadas y que luego lo rastreara hasta la sesión web más reciente, incluso si no había ninguna actividad de formulario que creara el posible cliente.
 
 ## Preguntas frecuentes {#faq}

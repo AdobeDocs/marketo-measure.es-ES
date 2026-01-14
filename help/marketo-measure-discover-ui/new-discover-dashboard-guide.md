@@ -1,17 +1,17 @@
 ---
-description: Nueva guía de paneles de Discover - [!DNL Marketo Measure]  - Producto
-title: Nueva guía del panel de control Discover
+description: Asigna los paneles de Discover heredados a las versiones rediseñadas y resalta los cambios clave en la navegación y las métricas
+title: Guía de Discover Dashboard
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 4%
+source-wordcount: '1085'
+ht-degree: 3%
 
 ---
 
-
-# Nueva guía del panel de control Discover {#new-discover-dashboard-guide}
+# Guía de Discover Dashboard {#new-discover-dashboard-guide}
 
 Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuestro objetivo principal es ofrecerle una experiencia más ágil e intuitiva. Con imágenes más limpias y una navegación más sencilla, esta renovación no solo conserva la mayoría de las métricas existentes, sino que también introduce perspectivas nuevas. Sumérjase y descubra la claridad mejorada y el valor añadido.
 
@@ -504,6 +504,7 @@ Encontrará nuevas características en el artículo [Descubrir conceptos básico
 Como nos esforzamos continuamente por mejorar su experiencia, le agradeceríamos enormemente sus comentarios sobre esta última actualización. Sus pensamientos influirán directamente en futuros refinamientos, asegurando que nuestra plataforma siempre se ajuste a sus necesidades. Esté atento a un formulario de comentarios en Marketo Measure.
 
 >[!MORELIKETHIS]
->[Descubra los conceptos básicos del panel de control](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
->[Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Descubra los conceptos básicos del panel de control](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

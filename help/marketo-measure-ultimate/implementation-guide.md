@@ -1,15 +1,14 @@
 ---
-description: '[!DNL Marketo Measure] Guía de implementación de Ultimate - [!DNL Marketo Measure]'
+description: '''[!DNL Marketo Measure] Guía de implementación de Ultimate - [!DNL Marketo Measure]'''
 title: '[!DNL Marketo Measure]Guía de implementación de Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 61%
+source-wordcount: '1008'
+ht-degree: 63%
 
 ---
-
 
 # [!DNL Marketo Measure]Guía de implementación de Ultimate {#marketo-measure-ultimate-implementation-guide}
 
@@ -37,6 +36,7 @@ Obtenga más información sobre [Marketo Measure Ultimate](/help/marketo-measure
 ## Esquemas y conjuntos de datos {#schemas-and-datasets}
 
 >[!NOTE]
+>
 >Consulte [Bloques de creación de un esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#building-blocks-of-a-schema){target="_blank"} para obtener una descripción general de esquemas, clases y grupos de campos.
 
 **Esquema XDM = Clase + Grupo de campos de esquema&#42;**
@@ -46,29 +46,30 @@ Obtenga más información sobre [Marketo Measure Ultimate](/help/marketo-measure
 
 &#42; _Un esquema consta de una clase y cero o más grupos de campos de esquema. Esto significa que podría componer un esquema del conjunto de datos sin utilizar grupos de campos._
 
-![Diagrama de estructura de esquema que muestra las relaciones de clase y grupo de campos](assets/marketo-measure-ultimate-implementation-guide-1.png)
+![](assets/marketo-guide-1.png)
 
-[Información general de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}: Todos los datos ingeridos correctamente en AEP se mantienen dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+[Información general de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Todos los datos ingeridos correctamente en AEP se mantienen dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
 
 ## Creación de un esquema {#creating-a-schema}
 
 Se recomienda utilizar una utilidad de generación automática para crear diez esquemas B2B estándar.
 
-* Los pasos para descargar y configurar la utilidad [&#x200B; se encuentran aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
+* Los pasos para descargar y configurar la utilidad [ se encuentran aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Para los que tengan un _&#x200B;**derecho de CDP**&#x200B;_: cree esquemas en la página Orígenes.
+Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígenes.
 
 * Desde un origen, seleccione Añadir datos > Usar plantillas
 
-![Página de fuentes con las opciones Agregar datos y Usar plantillas](assets/marketo-measure-ultimate-implementation-guide-2.png)
+![](assets/marketo-guide-2.png)
 
 * Seleccione una cuenta y todas las plantillas B2B para crear diez esquemas B2B estándar.
 
-![Selección de plantilla que muestra plantillas de esquema B2B para la configuración de cuenta](assets/marketo-measure-ultimate-implementation-guide-3.png)
+![](assets/marketo-guide-3.png)
 
 ## Flujos de datos {#dataflows}
 
 >[!IMPORTANT]
+>
 >Al agregar un nuevo conjunto de datos, se recomienda crear un flujo en lugar de utilizar uno existente.
 
 [Información general sobre flujos de datos](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=es){target="_blank"}
@@ -82,16 +83,19 @@ Para los que tengan un _&#x200B;**derecho de CDP**&#x200B;_: cree esquemas en la
 1. Asigne los campos del origen al esquema.
 
    >[!NOTE]
-   > Si asigna un tipo de esquema a otro idéntico, se realiza automáticamente.
-   > También puede importar la asignación desde otro flujo del sistema.
-   > Puede asignar un campo de origen a varios campos de destino, pero no puede hacer lo contrario.
-   > Puede crear campos calculados ([Funciones de asignación de preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=es){target="_blank"}).
+   >
+   >* Si asigna un tipo de esquema a otro idéntico, se realiza automáticamente.
+   >* También puede importar la asignación desde otro flujo del sistema.
+   >* Puede asignar un campo de origen a varios campos de destino, pero no puede hacer lo contrario.
+   >* Puede crear campos calculados ([Funciones de asignación de preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=es){target="_blank"}).
 
    >[!CAUTION]
-   > Puede editar un flujo de datos, pero los datos no se rellenan cuando se cambia una asignación.
-   > Si un campo obligatorio es NULL, se rechaza todo el flujo.
+   >
+   >* Puede editar un flujo de datos, pero los datos no se rellenan cuando se cambia una asignación.
+   >* Si un campo obligatorio es NULL, se rechaza todo el flujo.
 
    >[!NOTE]
+   >
    >[Requisito de integridad de datos de Marketo Measure Ultimate](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. Establezca una cadencia de carga de datos.
@@ -109,7 +113,7 @@ Página Orígenes > Flujos de datos para comprobar el estado de los flujos de da
 
 Opción 1: para ejecutar consultas directamente desde la interfaz de usuario, acceda a la pestaña Consultas en Administración de datos.
 
-![La pestaña Consultas de la Administración de datos muestra la interfaz de consultas](assets/marketo-measure-ultimate-implementation-guide-4.png)
+![](assets/marketo-guide-4.png)
 
 Opción 2: [Descargar y usar PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=es){target="_blank"} (más rápido y confiable).
 
@@ -118,6 +122,7 @@ Opción 2: [Descargar y usar PSQL](https://experienceleague.adobe.com/docs/exper
 Antes de empezar, vaya a la sección &quot;Experience Platform > Asignación de zona protegida&quot; en la configuración de la interfaz de usuario de Measure y asigne una zona protegida.
 
 >[!CAUTION]
+>
 >Esto no se puede cambiar una vez seleccionado.
 
 1. En AEP, vaya a “Destinos > Página de Marketo Measure” para exportar conjuntos de datos.
@@ -126,11 +131,12 @@ Antes de empezar, vaya a la sección &quot;Experience Platform > Asignación de 
 1. Consulte la página “Estado de la cuenta” en la configuración de la IU de Measure para ver el estado del flujo de datos.
 
 >[!NOTE]
-> Se recomienda incluir solo un conjunto de datos por flujo de datos.
-> Los datos de una entidad determinada (por ejemplo, Account) de una fuente determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detendrán el flujo de datos en el tiempo de ejecución.
-> Elimine todo el destino en AEP para eliminar datos en Measure. Al deshabilitar, se detienen las nuevas exportaciones de datos y se conservan los datos antiguos.
-> La configuración de la medida será básicamente la misma, pero algunas partes, como la Asignación de fases, tendrán un aspecto diferente.
-> Un nuevo flujo de datos tarda unas horas en generar una ejecución de flujo y, a continuación, se produce a intervalos regulares por hora.
+>
+>* Se recomienda incluir solo un conjunto de datos por flujo de datos.
+>* Los datos de una entidad determinada (por ejemplo, Account) de una fuente determinada solo pueden entrar en un conjunto de datos. Cada conjunto de datos solo puede incluirse en un flujo de datos. Las infracciones detendrán el flujo de datos en el tiempo de ejecución.
+>* Elimine todo el destino en AEP para eliminar datos en Measure. Al deshabilitar, se detienen las nuevas exportaciones de datos y se conservan los datos antiguos.
+>* La configuración de la medida será básicamente la misma, pero algunas partes, como la Asignación de fases, tendrán un aspecto diferente.
+>* Un nuevo flujo de datos tarda unas horas en generar una ejecución de flujo y, a continuación, se produce a intervalos regulares por hora.
 
 En Measure, la moneda predeterminada debe configurarse en la sección &quot;Moneda&quot;.
 
@@ -142,7 +148,7 @@ No importamos automáticamente las fases de los datos de usuario, por lo que tod
 
 * Se pueden asignar fases desde diferentes orígenes.
 
-![Interfaz de asignación de etapas que muestra la configuración de etapas de varios orígenes](assets/marketo-measure-ultimate-implementation-guide-5.png)
+![](assets/marketo-guide-5.png)
 
 Si las fases no están asignadas, el sistema no funcionará porque no habrá ningún lugar adónde puedan ir los datos.
 

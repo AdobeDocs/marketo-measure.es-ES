@@ -1,11 +1,11 @@
 ---
-description: Tablero de participación - [!DNL Marketo Measure] - Producto
+description: Descubra el panel Participación para rastrear los puntos de contacto que tocaron las personas y la participación por canal a lo largo del tiempo
 title: Panel de participación
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---

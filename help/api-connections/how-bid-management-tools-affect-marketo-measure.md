@@ -1,15 +1,14 @@
 ---
-description: Cómo afectan las herramientas de administración de ofertas a  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Cómo afectan las herramientas de administración de ofertas [!DNL Marketo Measure] a las directrices para usuarios de Marketo Measure
 title: Cómo afectan a  [!DNL Marketo Measure] las herramientas de administración de ofertas
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
-
 
 # Cómo afectan las herramientas de administración de ofertas a [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
@@ -31,6 +30,7 @@ Configure una plantilla de seguimiento como se indica a continuación:
       * `{lpurl}&_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
    * Si NINGUNA de las URL de anuncio tiene un &quot;?&quot; en ellos, utilice esta dirección URL:
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
+
 
 ## Para [!DNL Bing Ads] cuentas {#for-bing-ads-accounts}
 

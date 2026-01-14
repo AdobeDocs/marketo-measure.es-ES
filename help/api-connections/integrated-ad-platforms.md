@@ -1,15 +1,15 @@
 ---
-description: 'Plataformas de publicidad integradas:  [!DNL Marketo Measure]'
+description: Guía de plataformas de publicidad integradas para usuarios de Marketo Measure
 title: Plataformas de anuncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
-
 
 # Plataformas de anuncios integradas {#integrated-ad-platforms}
 
@@ -21,11 +21,11 @@ Antes de entrar en detalles específicos de cada plataforma, veremos cómo conec
 
 Como se muestra en la siguiente imagen, verá un botón para configurar nuevas conexiones de anuncios.
 
-![Página Conexiones con el botón Configurar nueva conexión de anuncios](assets/2.png)
+![](assets/bizible-guide-1.png)
 
 Después de hacer clic en el botón [!UICONTROL Configurar nueva conexión de anuncios], aparecerá una ventana (que se muestra a continuación) con cuatro tipos de iconos de [!UICONTROL conexión]de anuncios. Haga clic en conectar y aparecerá otra ventana en la que se solicitarán credenciales. Escriba las credenciales y haga clic en [!UICONTROL autorizar] para conectar la cuenta a [!DNL Marketo Measure].
 
-![Modo de conexión de Marketo Measure ads con tipos de cuenta disponibles](assets/select-account-type.png)
+![](assets/five-five-1.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -56,15 +56,15 @@ Una vez que tenga una plantilla de seguimiento, siga las instrucciones a continu
 
 1. Vaya a [!UICONTROL Mi cuenta] > [!UICONTROL Configuración] > [!UICONTROL Integraciones] > [!UICONTROL Conexiones].
 
-   ![Lista de conexiones con cuentas de anuncios existentes](assets/4.png)
+   ![](assets/utilizing-connections-8.png)
 
 1. Haga clic en el icono de lápiz junto a la cuenta de AdWords que tendrá habilitado el etiquetado automático de [!DNL Marketo Measure].
 
-   ![Agregar panel de configuración de cuenta con opción de etiquetado automático](assets/5.png)
+   ![](assets/utilizing-connections-9.png)
 
 1. En la esquina superior derecha, cambie el conmutador **[!UICONTROL Etiquetado automático]** a **[!UICONTROL Sí]**. En la parte inferior de la página, haz clic en **[!UICONTROL Más información]** para expandir el cuadro de texto y haz clic en **[!UICONTROL Guardar]**. Se ha completado la configuración del etiquetado automático.
 
-   ![Modo de confirmación de etiquetado automático en Marketo Measure](assets/6.png)
+   ![](assets/utilizing-connections-10.png)
 
 ## Cómo configurar una plantilla de seguimiento en AdWords con [!DNL Marketo Measure] parámetros {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
@@ -88,6 +88,7 @@ Tenga en cuenta que debe agregar plantillas de seguimiento a nivel de [!UICONTRO
    Para evitar que se produzcan errores al etiquetar manualmente las direcciones URL, normalmente se recomienda generar los parámetros de UTM automáticamente. Esto no tiene que significar el etiquetado automático con AdWords o [!DNL Marketo Measure] parámetros, existen varias herramientas que simplifican el proceso al generar automáticamente los parámetros para la URL en función de la información que proporcione.
 
    >[!TIP]
+   >
    >Si se produce un error que indica que la plantilla de seguimiento no es válida, intente borrar la caché del explorador y volver a intentarlo, lo que a menudo soluciona el problema.
 
 ## Cómo generar automáticamente etiquetas de UTM para [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
@@ -121,6 +122,7 @@ Nuestra integración es compatible con los siguientes tipos de anuncios:
 * Anuncio de texto
 * Anuncio móvil
 * Anuncio de texto ampliado
+
 
 La función de etiquetado automático de Bing Ads agrega los siguientes parámetros de UTM:
 

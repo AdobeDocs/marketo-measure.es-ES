@@ -1,11 +1,10 @@
 ---
-description: Preguntas frecuentes sobre el modelo de aprendizaje automático - [!DNL Marketo Measure]
+description: Guía de preguntas frecuentes sobre el modelo de aprendizaje automático para usuarios de Marketo Measure
 title: Preguntas frecuentes sobre el modelo de aprendizaje automático
-exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -29,7 +28,7 @@ Los porcentajes de atribución de cada fase reflejan el impacto potencial de sus
 
 El peso final de una fase personalizada se calcula de esta manera:
 
-**_Porcentaje del modelo = Precisión del modelo x Tasa de conversión x Peso de unicidad del punto de contacto_**
+`Model Percentage = Model Accuracy x Conversion Rate x Touchpoint Uniqueness Weight`
 
 Al final, todas las ponderaciones de escenario personalizadas se normalizan y se convierten a % como se muestra a continuación.
 

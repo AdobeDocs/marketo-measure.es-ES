@@ -1,19 +1,19 @@
 ---
-description: 'Fases y puntos de contacto de boomerang:  [!DNL Marketo Measure]'
+description: Guía de puntos de contacto y etapas boomerang para usuarios de Marketo Measure
 title: Fases y puntos de contacto de Boomerang
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '728'
 ht-degree: 1%
 
 ---
 
-
 # Fases y puntos de contacto de Boomerang {#boomerang-stages-and-touchpoints}
 
 >[!AVAILABILITY]
+>
 >La función Boomerang solo está habilitada para clientes de nivel 2 y 3. Para solicitar un nivel de cuenta superior, póngase en contacto con el equipo de cuenta de Adobe (su administrador de cuentas).
 
 [!DNL Marketo Measure] ha lanzado la función Escenario boomerang. La característica Boomerang Stage se creó para dar mayor visibilidad al recorrido del cliente para [!DNL Marketo Measure] clientes con ciclos de ventas largos. Esta función permite a los especialistas en marketing crear puntos de contacto para todas las transiciones de etapa que se producen en el recorrido de oportunidad, como cuando un contacto usa MQL, luego se mueve a SAL y luego vuelve al escenario de MQL. Cuando los contactos &quot;vuelven a entrar en la fase MQL&quot; o &quot;re-MQL&quot;, el MQL se considera una fase boomerang. La función Escenario boomerang funciona junto con las fases personalizadas de [!DNL Marketo Measure].
@@ -26,13 +26,14 @@ ht-degree: 1%
 * Si es usuario de un modelo personalizado, puede determinar la ponderación de atribución y el porcentaje de crédito que desea asignar a cada una de estas fases (por ejemplo, designar la ponderación de atribución a la primera o la última ocurrencia de MQL, o distribuir la ponderación de atribución equitativamente entre todas las ocurrencias)
 
 >[!NOTE]
+>
 >[Instrucciones sobre cómo configurar las fases de boomerang](/help/advanced-features/boomerang/setting-up-boomerang-stages.md).
 
 ## Aspecto de las etapas y los puntos de contacto de Boomerang en su CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
 Sin las fases de Boomerang (el &quot;antes&quot;), solo ve el punto de contacto de SQL más reciente o el MQL más reciente asociado a un registro de posible cliente/contacto.
 
-![Registro de oportunidad que muestra solo los puntos de contacto de fase más recientes sin boomerang](assets/1.png)
+![](assets/boomerang-boomerang-18.png)
 
 Con las etapas de Boomerang y los puntos de contacto, verá los puntos de contacto que se producen para cada transición de etapa. La convención de nombres para estos puntos de contacto boomerang es:
 
@@ -40,7 +41,7 @@ Con las etapas de Boomerang y los puntos de contacto, verá los puntos de contac
 
 En el ejemplo siguiente, esta cuenta de [!DNL Marketo Measure] ha incluido MQL y SQL en las fases del boomerang y ha elegido mostrar 2 puntos de contacto del boomerang por fase.
 
-![Puntos de contacto boomerang enumerados para varias transiciones de etapa SQL y MQL](assets/2.png)
+![](assets/boomerang-boomerang-19.png)
 
 **MQL-01** es la primera transición de etapa de MQL.
 

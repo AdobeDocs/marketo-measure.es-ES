@@ -3,13 +3,12 @@ description: Configuración de [!DNL Marketo Measure] perspectivas - [!DNL Marke
 title: Configuración de información de [!DNL Marketo Measure]
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
-
 
 # Configuración de información de [!DNL Marketo Measure] {#marketo-measure-insights-configuration}
 
@@ -21,10 +20,10 @@ La aplicación de lienzo de perspectivas [!DNL Marketo Measure] debe agregarse a
 
 1. En la sección de directivas de [!UICONTROL OAuth], cambie la opción Usuarios permitidos a &quot;Los usuarios aprobados por el administrador están preautorizados&quot;. Aparece una ventana emergente, haz clic en **[!UICONTROL Aceptar]** y luego **[!UICONTROL Guardar]**.
 
-   ![&#x200B; 1](assets/1-1.png)
+   ![](assets/marketo-app-1.png)
 
 1. Una vez guardada la página, puede hacer clic en el botón **[!UICONTROL Administrar perfiles]**.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![](assets/marketo-app-2.png)
 
 1. Seleccione todos los perfiles que deberían tener acceso a [!DNL Marketo Measure] Insights y haga clic en **[!UICONTROL Guardar]**.

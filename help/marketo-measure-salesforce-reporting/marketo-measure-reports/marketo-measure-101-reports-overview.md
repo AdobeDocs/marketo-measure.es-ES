@@ -3,22 +3,22 @@ description: '[!DNL Marketo Measure] 101 Información general de informes - [!DN
 title: Información general sobre los informes 101 de [!DNL Marketo Measure]
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '926'
 ht-degree: 5%
 
 ---
 
-
 # Información general sobre los informes 101 de [!DNL Marketo Measure] {#marketo-measure-101-reports-overview}
 
 >[!NOTE]
+>
 >Puede que vea instrucciones que especifican &quot;[!DNL Marketo Measure]&quot; en nuestra documentación, pero seguirá viendo &quot;Bizible&quot; en su CRM. Estamos trabajando para que se actualice y el cambio de marca se reflejará pronto en su CRM.
 
 Todos los clientes de [!DNL Marketo Measure] que usan [!DNL Marketo Measure] y [!DNL Salesforce] tienen acceso a la carpeta &quot;Informes de puntos de contacto del comprador&quot; en su instancia de SFDC. Esta carpeta contiene varios informes creados previamente que pueden ayudarle a empezar a crear informes con datos de Buyer Touchpoint.
 
-![Informes de puntos de contacto del comprador de Salesforce en Marketo Measure 101](assets/bizible-101-reports-overview-1.png)
+![](assets/bizible-guide-1.png)
 
 Aunque muchos de estos informes ya tienen establecidos objetivos específicos de generación de informes, existen seis &quot;_[!DNL Marketo Measure]101..._&quot; representados por tres tipos de informes clave que cubren la mayoría de las necesidades de generación de informes.
 
@@ -26,7 +26,7 @@ Aunque muchos de estos informes ya tienen establecidos objetivos específicos de
 * [!DNL Marketo Measure] personas con puntos de contacto de comprador
 * Puntos de contacto de atribución de comprador con oportunidades
 
-![Ejemplo de lista de informes de Marketo Measure 101 en Salesforce](assets/bizible-101-reports-overview-2.png)
+![](assets/bizible-guide-2.png)
 
 Estos informes le proporcionan los campos básicos y la infraestructura necesaria para cualquier informe relacionado con [!DNL Marketo Measure] que desee crear. Recomendamos a todos los clientes, tanto nuevos como antiguos, que empiecen con estos informes cuando exploren las preguntas de atribución de marketing. A continuación encontrará una explicación de cada uno de los seis informes &quot;_[!DNL Marketo Measure]101..._&quot;.
 

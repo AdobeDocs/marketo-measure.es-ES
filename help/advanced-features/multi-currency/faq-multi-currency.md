@@ -1,15 +1,14 @@
 ---
-description: Preguntas más frecuentes (multidivisa) - [!DNL Marketo Measure]
+description: Guía de preguntas frecuentes (en varias monedas) para los usuarios de Marketo Measure
 title: Preguntas frecuentes (multidivisa)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
-
 
 # Preguntas frecuentes (multidivisa) {#faq-multi-currency}
 
@@ -60,4 +59,5 @@ Para el lector interesado, he aquí la razón por la que funciona de esta manera
 Dado que nuestra oferta ahora gestiona las conversiones para el cliente, recomendamos que elimine los flujos de trabajo y el campo personalizado y nos permita importar su valor de cantidad sin procesar.
 
 >[!MORELIKETHIS]
+>
 >[Notificaciones de errores](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

@@ -1,21 +1,21 @@
 ---
-description: Fechas de sincronización de campaña - [!DNL Marketo Measure]
+description: Guía de fechas de sincronización de Campaign para usuarios de Marketo Measure
 title: Fechas de sincronización de campañas
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '491'
 ht-degree: 5%
 
 ---
-
 
 # Fechas de sincronización de campañas {#campaign-sync-dates}
 
 Descubra lo que hace la función Fechas de sincronización de Campaign, así como algunos casos de uso para esta función.
 
 >[!NOTE]
+>
 >Este artículo trata sobre un proceso obsoleto. Recomendamos a los usuarios que utilicen el [proceso en la aplicación nuevo y mejorado](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 Se requiere el paquete **[!DNL Marketo Measure]: 6.9 o superior**
@@ -27,7 +27,7 @@ Esta característica consta de dos campos de fecha simples en el objeto de campa
 
 Una vez que los puntos de contacto del comprador están activados en una campaña en particular, las fechas de sincronización de campaña le permiten establecer los parámetros de fecha de punto de contacto en la campaña individual. Por lo tanto, si agregara una fecha de finalización de punto de contacto del 1 de marzo de 2017, [!DNL Marketo Measure] solo creará puntos de contacto en los miembros de la campaña que se agregaron a la campaña antes de esa fecha. [!DNL Marketo Measure] no creará puntos de contacto para los miembros de la campaña que se agregaron después del 1 de marzo de 2017.
 
-![Campaña de Salesforce que muestra los campos Fecha de inicio y Fecha de finalización de Touchpoint](assets/1.gif)
+![](assets/legacy-processes-3.gif)
 
 Del mismo modo, si agregara una fecha de inicio del punto de contacto en una campaña (por ejemplo, el 1 de enero de 2017), [!DNL Marketo Measure] no creará puntos de contacto en los miembros de la campaña que se agregaron a la campaña antes del 1 de enero de 2017. No es necesario añadir una Fecha de inicio de punto de contacto si se añade una Fecha de finalización de punto de contacto y viceversa.
 

@@ -3,13 +3,12 @@ description: Obtenga información acerca de la atribución basada en cuentas y c
 title: Atribución basada en cuentas
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '279'
 ht-degree: 12%
 
 ---
-
 
 # Atribución basada en cuentas {#account-based-attribution}
 
@@ -21,7 +20,7 @@ Cuando hay varias oportunidades en una cuenta, las diferentes oportunidades comp
 
 Por ejemplo, la Cuenta siguiente tiene dos Oportunidades. La primera Oportunidad solo tiene un Punto de contacto. Ese Punto de contacto abarca FT, LC y el Punto de contacto de creación de oportunidad (OC). La segunda oportunidad tiene la misma FT y LC que la primera oportunidad, pero el punto de contacto de OC es diferente. Además, la segunda oportunidad tiene puntos de contacto adicionales que no están asociados a la primera oportunidad, debido a que se producen después de la fecha de cierre de la primera oportunidad.
 
-![Cuenta con dos oportunidades para compartir puntos de contacto de FT y LC](assets/1.jpg)
+![](assets/account-marketing-4.jpg)
 
 ## ¿Cómo ayuda esto? {#how-does-this-help}
 

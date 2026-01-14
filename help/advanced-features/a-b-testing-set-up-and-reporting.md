@@ -10,6 +10,7 @@ ht-degree: 86%
 
 ---
 
+
 # Configuración e informes de pruebas A/B {#a-b-testing-set-up-and-reporting}
 
 La integración de la prueba A/B [!DNL Marketo Measure] le permite rastrear el impacto en los ingresos de sus experimentos de sitio de [Optimizely](https://www.optimizely.com/){target="_blank"} y VWO. Este artículo contiene instrucciones sobre cómo añadir Secciones de prueba A/B de [!DNL Marketo Measure] a los diseños de páginas de Cliente potencial, [!UICONTROL Contacto], Caso y [!UICONTROL Oportunidad]. También se tratan las prácticas generales de creación de informes y recomendaciones para la ejecución de Tipos de informes A/B de [!DNL Marketo Measure].
@@ -21,15 +22,15 @@ Añada las Secciones de prueba A/B de [!DNL Marketo Measure] sobre cliente poten
 1. Compruebe que está utilizando el paquete [!DNL Marketo Measure] v3.9 o posterior. Para ello, vaya a [!UICONTROL Salesforce] >[!UICONTROL Configurar] > [!UICONTROL Paquetes instalados].
 1. Edite el diseño de la página de posible cliente y añada la lista relacionada de **[!DNL Marketo Measure]pruebas A/B** a la página.
 
-   ![](../assets/advanced-features-2.png)
+   ![](assets/advanced-features-10.png)
 
 1. Haga clic en el botón [!UICONTROL Llave inglesa]. Elimine el campo &quot;Id&quot; de stock de la lista de Campos seleccionados. Añada los campos **[!UICONTROL Experimento]**, **[!UICONTROL Variación]**, y **[!UICONTROL DateReported]**. Cambie de “[!UICONTROL ordenar por]” a **[!UICONTROL fecha del informe]** y seleccione **[!UICONTROL Descendente]** en la lista desplegable.
 
-   ![](../assets/advanced-features-3.png)
+   ![](assets/advanced-features-2.png)
 
 1. En [!UICONTROL Botones], desmarque **[!UICONTROL Nuevo]**.
 
-   ![](../assets/advanced-features-7.png)
+   ![](assets/advanced-features-3.png)
 
 1. Póngase en contacto con su representante de [!DNL Marketo Measure] o con el [Soporte técnico de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para habilitar la característica.
 
@@ -42,7 +43,7 @@ Los clientes tienen acceso a un par de Tipos de informes A/B de [!DNL Marketo Me
 * Pruebas A/B de [!DNL Marketo Measure] con cliente potencial
 * Pruebas A/B de [!DNL Marketo Measure] con oportunidad
 
-![](../assets/advanced-features-8.png)
+![](assets/advanced-features-7.png)
 
 Los tipos de informes A/B se utilizan para informar sobre qué cliente potencial, contacto u oportunidad se ha expuesto a una prueba A/B. Estos informes también muestran la cantidad de ingresos vinculados a una oportunidad expuesta a una prueba A/B.
 
@@ -61,8 +62,8 @@ Estos son algunos campos recomendados para usar en la creación de informes de u
 
 Prueba A/B de **[!DNL Marketo Measure]con cliente potencial**
 
-![](../assets/advanced-features-9.png)
+![](assets/advanced-features-8.png)
 
 Prueba A/B de **[!DNL Marketo Measure]con oportunidad**
 
-![](../assets/advanced-features-10.png)
+![](assets/advanced-features-9.png)

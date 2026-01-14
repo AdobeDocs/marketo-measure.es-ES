@@ -1,15 +1,14 @@
 ---
-description: 'Acceso a Data Warehouse: Uso compartido directo'
+description: Conozca los requisitos y pasos para habilitar el acceso compartido directo al almacén de datos de Marketo Measure en Snowflake
 title: 'Acceso a Data Warehouse: Uso compartido directo'
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
-
 
 # Acceso a Data Warehouse: Uso compartido directo {#data-warehouse-access-direct-share}
 
@@ -23,42 +22,43 @@ Para que [!DNL Marketo Measure] configure un recurso compartido directo en Data 
 
 ## Limitaciones {#limitations}
 
-[!DNL Marketo Measure] solo podrá configurar Snowflake Direct Shares con cuentas ubicadas en Azure East US 2 (se trata de una limitación de Marketo Measure, no de Snowflake). Si necesita que los datos estén disponibles en otras regiones de Snowflake, le recomendamos que realice una copia de los datos en una cuenta de Snowflake ubicada en Azure East US 2 y que use la característica [Replicación de la base de datos de Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} para copiar los datos en la región o cuenta de Snowflake que elija.
+[!DNL Marketo Measure] solo podrá configurar Snowflake Direct Share con cuentas ubicadas en Azure East US 2 debido a las limitaciones actuales de Snowflake Direct Share. Si necesita que los datos estén disponibles en otras regiones de Snowflake, le recomendamos que realice una copia de los datos en una cuenta de Snowflake ubicada en Azure East US 2 y que use la característica [Replicación de la base de datos de Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} para copiar los datos en la región o cuenta de Snowflake que elija.
 
 ## Introducir ID de cuenta de Snowflake {#enter-snowflake-account-id}
 
 Abra la sección **Configuración** en la aplicación Marketo Measure y vaya a la página **Data Warehouse**. En la sección **Uso compartido directo**, escribe tu [id de cuenta de Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} en el cuadro proporcionado y haz clic en **Conectar**.
 
-![Configuración de Marketo Measure Data Warehouse que muestra el formulario de uso compartido directo de Snowflake](assets/data-warehouse-access-direct-share-1.png)
+![](assets/data-share-1.png)
 
 ## Acceso al recurso compartido {#accessing-the-share}
 
 Una vez creado el recurso compartido para el identificador de cuenta proporcionado, debe completar los [pasos de configuración](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} en la instancia de Snowflake para acceder a los datos.
 
 >[!NOTE]
+>
 >Puede elegir cualquier nombre de base de datos que desee. Puede asignar los privilegios a cualquier función que elija, siempre y cuando exista en la instancia de Snowflake.
 
 * Usar la función Administrador de cuentas
 
-```
+```sql
 USE ROLE ACCOUNTADMIN
 ```
 
 * Ver los recursos compartidos disponibles (muestra el nombre del recurso compartido concedido)
 
-```
+```sql
 SHOW SHARES
 ```
 
 * Crear una base de datos para el recurso compartido
 
-```
+```sql
 CREATE DATABASE <database_name> FROM SHARE <provider_account>.<share_name>
 ```
 
 * Conceder privilegios en la base de datos compartida
 
-```
+```sql
 GRANT IMPORTED PRIVILEGES ON DATABASE <database_name> TO ROLE <role_name>
 GRANT IMPORTED PRIVILEGES ON ALL SCHEMAS IN DATABASE <database_name> TO ROLE <role_name>
 ```

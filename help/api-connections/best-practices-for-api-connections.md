@@ -1,15 +1,14 @@
 ---
-description: Prácticas recomendadas para conexiones de API - [!DNL Marketo Measure]
+description: Prácticas recomendadas para las conexiones de API para usuarios de Marketo Measure
 title: Prácticas recomendadas para conexiones de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 96%
 
 ---
-
 
 # Prácticas recomendadas para conexiones de API {#best-practices-for-api-connections}
 
@@ -40,6 +39,7 @@ Siguiendo nuestra recomendación de prácticas recomendadas, la API [!DNL Market
 * Descargar información de coste de publicidad en todos los anuncios de [!DNL Facebook] activos
 
 >[!NOTE]
+>
 >No hay ninguna plantilla de seguimiento para [!DNL Facebook], la API se basa en el parámetro de etiquetado automático (_bf) para recopilar los detalles del anuncio.
 
 **AdWord**: implemente una plantilla de seguimiento en el nivel de cuenta y habilite el etiquetado automático
@@ -56,7 +56,6 @@ Siguiendo nuestra recomendación de prácticas recomendadas, la API de AdWords d
 No hay riesgo de perder el historial de anuncios al configurar su conexión de API de [!DNL Bing], a diferencia de algunas de nuestras otras conexiones de API.
 
 Siguiendo nuestra recomendación de prácticas recomendadas, la API de Bing de [!DNL Marketo Measure] podrá:
-
 * Etiquetar automáticamente todos los anuncios de Bing con los siguientes parámetros de `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
 * Descargar información de coste de anuncio en todos los anuncios activos de Bing
 
@@ -70,6 +69,7 @@ Siguiendo nuestra recomendación de prácticas recomendadas, la API de LinkedIn 
 * Descargar información de coste de publicidad en todos los anuncios de [!DNL LinkedIn] activos y admitidos
 
 >[!NOTE]
+>
 >No hay ninguna plantilla de seguimiento para [!DNL LinkedIn], la API se basa en el parámetro de etiquetado automático (_bl) para recopilar todos los detalles posibles del anuncio.
 
 ## Práctica recomendada para el mantenimiento {#best-practice-for-maintenance}
@@ -87,10 +87,11 @@ Las razones para la desconexión y reautorización incluyen...
 Si su equipo ha experimentado cualquiera de los casos anteriores, compruebe las conexiones de API en la aplicación de [!DNL Marketo Measure] para asegurarse de que no necesitan volver a autorizarse.
 
 >[!MORELIKETHIS]
-> [Plataformas de anuncios integradas (API)](/help/api-connections/integrated-ad-platforms.md)
-> [Cómo afectan a  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md) las herramientas de administración de ofertas
-> [[!DNL Marketo Measure] Parámetros de API explicados](/help/api-connections/marketo-measure-parameters.md)
-> [Información general de la API de Facebook](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] Resumen de integración](/help/api-connections/linkedin-integration.md)
-> [Resumen de integración de AdWords](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [Reautorizando cuentas de API conectadas](/help/api-connections/reauthorizing-connected-accounts.md)
+>
+>* [Plataformas de anuncios integradas (API)](/help/api-connections/integrated-ad-platforms.md)
+>* [Cómo afectan las herramientas de administración de ofertas [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure] Parámetros de API explicados](/help/api-connections/marketo-measure-parameters.md)
+>* [Información general de API de Facebook](/help/api-connections/facebook-api.md)
+>* [[!DNL LinkedIn] Información general de integración](/help/api-connections/linkedin-integration.md)
+>* [Información general de integración de AdWords](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [Volver a autorizar cuentas de API conectadas](/help/api-connections/reauthorizing-connected-accounts.md)

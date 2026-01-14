@@ -1,15 +1,14 @@
 ---
-description: Prácticas recomendadas para utilizar una cantidad de ingresos personalizada - [!DNL Marketo Measure]
+description: Prácticas recomendadas para utilizar una guía de cantidad de ingresos personalizada para usuarios de Marketo Measure
 title: Prácticas recomendadas para utilizar un importe de ingresos personalizado
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '436'
 ht-degree: 7%
 
 ---
-
 
 # Prácticas recomendadas para utilizar un importe de ingresos personalizado {#best-practices-for-utilizing-a-custom-revenue-amount}
 
@@ -50,7 +49,8 @@ Además de una revisión anual, ciertos cambios organizativos pueden indicar la 
 * Cambios de organización en la forma en que se generan los informes de ingresos
 
 >[!MORELIKETHIS]
-> [Uso de un campo de monto de ingresos personalizado](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-> [Usando el cargador de datos para actualizar el campo de importe personalizado &#x200B;](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
-> [Información general sobre Multi-Currency](/help/advanced-features/multi-currency/overview.md)
-> [Configuración de múltiples monedas](/help/advanced-features/multi-currency/settings.md)
+>
+>* [Uso de un campo de monto de ingresos personalizado](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [Uso del cargador de datos para actualizar el campo de importe personalizado](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Información general sobre Multi-Currency](/help/advanced-features/multi-currency/overview.md)
+>* [Configuración de múltiples monedas](/help/advanced-features/multi-currency/settings.md)

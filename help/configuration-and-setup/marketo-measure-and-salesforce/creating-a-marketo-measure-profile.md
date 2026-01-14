@@ -1,15 +1,14 @@
 ---
-description: Creando un  [!DNL Marketo Measure] perfil - [!DNL Marketo Measure]
+description: Creando  [!DNL Marketo Measure] guía de perfil para usuarios de Marketo Measure
 title: 'Creación de un perfil de  [!DNL Marketo Measure] '
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '186'
 ht-degree: 3%
 
 ---
-
 
 # Creando un perfil [!DNL Marketo Measure] {#creating-a-marketo-measure-profile}
 
@@ -21,6 +20,7 @@ Obtenga información sobre cómo crear un perfil de [!DNL Marketo Measure]. La c
    * Habilitar el permiso para ver y editar posibles clientes convertidos
 
    >[!NOTE]
+   >
    >Este perfil puede ser un clon de un perfil [!DNL System Admin]
 
 1. Se creó un usuario [!DNL Marketo Measure] dedicado:

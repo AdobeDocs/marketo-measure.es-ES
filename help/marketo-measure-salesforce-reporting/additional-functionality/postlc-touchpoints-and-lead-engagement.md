@@ -1,32 +1,33 @@
 ---
-description: Puntos de contacto de PostLC y participación de posibles clientes
+description: Descubra cómo se crean, actualizan y limitan los puntos de contacto de PostLC para posibles clientes y contactos
 title: Puntos de contacto de PostLC y participación de posibles clientes
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 4%
+source-wordcount: '388'
+ht-degree: 3%
 
 ---
-
 
 # Puntos de contacto de PostLC y participación de posibles clientes {#postlc-touchpoints-and-lead-engagement}
 
 Los puntos de contacto de creación posterior al posible cliente (PostLC) de [!DNL Marketo Measure] están disponibles para los clientes que utilizan modelos de atribución multitáctil (W-Shape y posteriores). Cuando un posible cliente o contacto vuelve a su sitio web y continúa rellenando formularios, estos envíos de formularios se registran como puntos de contacto de PostLC. Estos puntos de contacto le permiten ver qué contenido está impulsando a los posibles clientes a seguir interactuando con el sitio mucho después de su primera conversión. Los puntos de contacto de PostLC comparten el crédito de atribución con todos los puntos de contacto intermedios dentro de una oportunidad; el 10 % del crédito de atribución se asigna a los puntos de contacto intermedios y se distribuye equitativamente entre todos los toques.
 
-![Registro de posible cliente que muestra puntos de contacto PostLC en Salesforce](assets/1.png)
+![](assets/additional-functionality-1.png)
 
 Puede ajustar el número de puntos de contacto PostLC que se muestran en [!DNL SFDC]. Normalmente, recomendamos insertar hasta cinco puntos de contacto PostLC; cada punto de contacto ocupa 1 KB en [!DNL SFDC].
 
 >[!NOTE]
+>
 >Las instrucciones para ajustar la configuración del punto de contacto PostLC se encuentran al final de este artículo.
 
 Los puntos de contacto de PostLC son dinámicos. A medida que un posible cliente o contacto continúa enviando formularios PostLC, [!DNL Marketo Measure] actualiza los puntos de contacto PostLC en su CRM para mostrarle los envíos de formularios más recientes. En concreto, si ha establecido un límite de 5 puntos de contacto PostLC, [!DNL Marketo Measure] siempre inserta los cinco puntos de contacto _más recientes_ en su CRM.  En este ejemplo, esta cuenta ha establecido su límite de PostLC en cuatro puntos de contacto. Este posible cliente ya ha alcanzado el número máximo de puntos de contacto PostLC que puede tener en su CRM. El último contacto con PostLC fue el 6/2/2018. Si esta persona rellenara otro formulario al día siguiente, [!DNL Marketo Measure] quitará el primer punto de contacto de PostLC a partir del 9/11/2017 para agregar el último punto de contacto a partir del 7/2/2018.
 
-![Lista de puntos de contacto PostLC limitada a cuatro envíos más recientes](assets/2.png)
+![](assets/additional-functionality-2.png)
 
 >[!NOTE]
+>
 >[!DNL Marketo Measure] solo actualiza los puntos de contacto PostLC en el posible cliente o contacto, y no actualiza los puntos de contacto de atribución PostLC en una oportunidad. Todos los puntos de contacto PostLC relevantes en un contacto se incluyen en la oportunidad.
 
 ## Cómo cambiar la configuración de PostLC Touchpoint {#how-to-change-postlc-touchpoint-settings}
@@ -41,7 +42,7 @@ Para ajustar la configuración del punto de contacto PostLC para sus posibles cl
 
 1. Introduzca el número de puntos de contacto postLC que desee insertar en sus posibles clientes y haga clic en **[!UICONTROL Guardar]**.
 
-   ![La página de configuración del posible cliente establece el límite del punto de contacto PostLC](assets/3.png)
+   ![](assets/additional-functionality-3.png)
 
 **Contactos**
 
@@ -51,4 +52,4 @@ Para ajustar la configuración del punto de contacto PostLC para sus posibles cl
 
 1. Escriba el número de puntos de contacto postLC que desee insertar en Contactos y haga clic en **[!UICONTROL Guardar]**.
 
-   ![Página de configuración de contacto para establecer el límite de puntos de contacto de PostLC](assets/4.png)
+   ![](assets/additional-functionality-4.png)

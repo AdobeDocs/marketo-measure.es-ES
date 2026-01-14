@@ -1,15 +1,14 @@
 ---
-description: Eliminar parámetros de seguimiento de  [!DNL Marketo Measure]  de la dirección URL de la página de destino en Google Analytics
+description: Elimine  [!DNL Marketo Measure] Parámetros de seguimiento de la URL de la página de aterrizaje en las directrices de Google Analytics para usuarios de Marketo Measure
 title: Eliminar parámetros de seguimiento de  [!DNL Marketo Measure]  de la dirección URL de la página de destino en Google Analytics
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 19%
+source-wordcount: '120'
+ht-degree: 9%
 
 ---
-
 
 # Eliminar [!DNL Marketo Measure] parámetros de seguimiento de la dirección URL de la página de aterrizaje en Google Analytics {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
 

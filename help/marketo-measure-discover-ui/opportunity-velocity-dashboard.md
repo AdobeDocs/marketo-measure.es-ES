@@ -1,15 +1,14 @@
 ---
-description: Tablero de velocidad de oportunidad - [!DNL Marketo Measure] - Producto
+description: Describe el panel Velocidad de oportunidad para rastrear el tiempo en cada fase de ventas y comparar las tendencias por canal a lo largo del tiempo
 title: Panel de control de velocidad de oportunidad
 feature: Reporting
 exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '394'
 ht-degree: 4%
 
 ---
-
 
 # Panel de control de velocidad de oportunidad {#opportunity-velocity-dashboard}
 
@@ -36,9 +35,10 @@ Preguntas que responde el gráfico:
 * ¿En qué se diferencia la duración promedio de las oportunidades en la fase de &quot;Creación de oportunidades&quot; de las fases &quot;Perspectivas&quot; y &quot;Cualificaciones de las oportunidades&quot;?
 
 >[!NOTE]
+>
 >Las etapas anteriores a &quot;Creación de oportunidad&quot; utilizarán la fecha de punto de contacto más reciente como fecha de &quot;transición en&quot;.
 
-![Velocidad de oportunidad por gráfico de barras de fase de ventas](assets/lead-velocity-dashboard-1.png)
+![](assets/lead-dashboard-1.png)
 
 ### Velocidad de oportunidad en el tiempo {#opportunity-velocity-over-time}
 
@@ -52,7 +52,7 @@ Preguntas que responde el gráfico:
 * ¿Cuáles son las tendencias del tiempo empleado en cada etapa para las oportunidades a lo largo de los meses observados?
 * ¿En qué mes experimentaron las oportunidades la progresión más rápida en las fases de venta?
 
-![Gráfico de tendencias de velocidad de oportunidad a lo largo del tiempo](assets/lead-velocity-dashboard-2.png)
+![](assets/lead-dashboard-2.png)
 
 ### Velocidad de oportunidad por canal {#opportunity-velocity-by-channel}
 
@@ -65,7 +65,7 @@ Preguntas que responde el gráfico:
 * ¿Qué canal muestra la progresión más rápida en las fases de funnel?
 * ¿Cómo varía la velocidad de oportunidad en la fase &quot;Canalización potencial&quot; en los distintos canales?
 
-![Gráfico de comparación de velocidad de oportunidad por canal](assets/lead-velocity-dashboard-3.png)
+![](assets/lead-dashboard-3.png)
 
 ## Panel de filtro {#filter-pane}
 

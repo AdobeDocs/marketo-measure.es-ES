@@ -1,15 +1,15 @@
 ---
-description: Tablero de Passport - [!DNL Marketo Measure] - Producto
+description: Describe el panel Passport que realiza un seguimiento de cómo los contactos de posibles clientes y las oportunidades se mueven por fases a lo largo del tiempo
 title: Panel de control de Passport
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
-
 
 # Panel de control de Passport {#passport-dashboard}
 
@@ -31,7 +31,7 @@ El panel Passport ofrece a los especialistas en marketing una vista dinámica de
 * Se excluyen las fases de terminal como &quot;Cerrado ganado&quot; y &quot;Cerrado perdido&quot;.
 * Las fechas de inicio y finalización son ambas inclusivas.
 
-![Tablero de Passport que muestra las oportunidades en la fase por nombre de etapa](assets/passport-dashboard-1.png)
+![](assets/passport-dashboard-1.png)
 
 ### Posibles clientes o contactos en la fase por nombre de fase {#leads-or-contacts-in-stage-by-stage-name}
 
@@ -41,7 +41,7 @@ El panel Passport ofrece a los especialistas en marketing una vista dinámica de
 * Se excluyen las fases de terminal como &quot;Cerrado ganado&quot; y &quot;Cerrado perdido&quot;.
 * Las fechas de inicio y finalización son ambas inclusivas.
 
-![Panel Passport que muestra los posibles clientes o contactos en la fase por nombre de fase](assets/passport-dashboard-2.png)
+![](assets/passport-dashboard-2.png)
 
 ## Panel de filtro {#filter-pane}
 
@@ -53,5 +53,6 @@ Este tablero está equipado con los siguientes ajustes y filtros:
 * Segmentos
 
 >[!MORELIKETHIS]
-> [Descubra los conceptos básicos del panel de control](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Descubra los conceptos básicos del panel de control](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Directiva de visibilidad de datos del panel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
