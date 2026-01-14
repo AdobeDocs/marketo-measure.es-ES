@@ -52,7 +52,7 @@ Cambie a SSO personalizado en la aplicación de [!DNL Marketo Measure]
 
 Rellene la configuración de conexión de la configuración del proveedor de identidad
 
-    a. El proveedor de identidad puede proporcionar un documento .xml de metadatos de IdP que extraerá los campos de configuración requeridos.  Cargue el contenido del documento .xml o complete los tres campos a continuación con el resultado obtenido durante el proceso de configuración del proveedor de identidad. ** No es necesario completar ambas operaciones.** 
+    a. El proveedor de identidad puede proporcionar un documento .xml de metadatos de IdP que extraerá los campos de configuración requeridos.  Cargue el contenido del documento .xml o complete los tres campos a continuación con el resultado obtenido durante el proceso de configuración del proveedor de identidad. **&#x200B; No es necesario completar ambas operaciones.** 
     
     i. URL de IdP: la URL a la que  [!DNL Marketo Measure]  debe apuntar para autenticar a los usuarios en la aplicación de  [!DNL Marketo Measure] .  A veces se denomina “URL de redireccionamiento”.
     ii. Emisor de IdP: identificador único del proveedor de identidad.  A veces se denomina “Clave externa”.
