@@ -113,4 +113,4 @@ Los servicios ABM ML de [!DNL Marketo Measure] (coincidencia de cliente potencia
 >
 >* [Destino de Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=es){target="_blank"}
 >
->* [VÍDEO: Información general sobre Marketo Measure Ultimate](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>* [VÍDEO: Información general sobre Marketo Measure Ultimate](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

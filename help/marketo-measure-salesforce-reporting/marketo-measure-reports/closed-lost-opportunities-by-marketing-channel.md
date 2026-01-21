@@ -47,4 +47,4 @@ Aunque este informe puede depender de las fases de oportunidad, en este informe 
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriales: Informes adicionales de SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutoriales: Informes adicionales de SFDC](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
