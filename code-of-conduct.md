@@ -1,5 +1,5 @@
 ---
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -8,6 +8,7 @@ ht-degree: 100%
 # Código de conducta de Adobe
 
 ## Nuestro compromiso
+
 
 En el interés de fomentar una comunidad abierta y acogedora, nosotros como colaboradores y administradores nos comprometemos a hacer de la participación en nuestro proyecto y nuestra comunidad una experiencia libre de acoso para todos, independientemente de la edad, dimensión corporal, discapacidad, etnia, identidad y expresión de género, nivel de experiencia, nacionalidad, apariencia física, raza, religión, identidad u orientación sexual.
 
