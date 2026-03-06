@@ -85,6 +85,6 @@ Haga clic en **[!UICONTROL Guardar]** cuando haya terminado y [!DNL Marketo Meas
 >
 >* [[!DNL Marketo Measure] Tutoriales: Asignación de canales sin conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutoriales: Sincronizando Campañas Sin Conexión](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutoriales: Sincronizando Campañas Sin Conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [Integración de programas de Marketo Engage](/help/marketo-engage-programs-integration.md){target="_blank"}

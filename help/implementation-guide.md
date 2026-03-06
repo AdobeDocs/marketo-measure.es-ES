@@ -48,7 +48,7 @@ Obtenga más información sobre [Marketo Measure Ultimate](/help/migration-from-
 
 ![&42; un esquema consta de una clase y cero o más campos de esquema](assets/marketo-guide-1.png)
 
-[Información general de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Todos los datos ingeridos correctamente en AEP se mantienen dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+[Información general de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Todos los datos ingeridos correctamente en AEP se mantienen dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
 
 ## Creación de un esquema {#creating-a-schema}
 
