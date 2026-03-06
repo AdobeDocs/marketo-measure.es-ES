@@ -21,10 +21,10 @@ Cada panel tiene una amplia gama de filtros, acompañados de los siguientes cont
 
 | Nombre | Descripción |
 | --- | --- |
-| Botón de alternancia de filtro | Cambie el panel de filtro a abierto o cerrado. ![| --- | --- |](assets/discover-basics-9.png) |
-| Barra de búsqueda | Utilice la búsqueda de la parte superior del panel de filtros para buscar un filtro específico. Cada filtro también tiene su propia barra de búsqueda. ![| --- | --- |](assets/discover-basics-10.png) |
-| Botón Borrar filtro | Para borrar un filtro, haga clic en el icono de borrador situado en la esquina superior derecha de cada filtro. ![| --- | --- |](assets/discover-basics-11.png) |
-| Botón Aplicar | Haga clic en para confirmar e implementar los cambios de filtro en el panel. ![| --- | --- |](assets/discover-3a-1.png) |
+| Botón de alternancia de filtro | Cambie el panel de filtro a abierto o cerrado. |||![&#x200B; ---  --- &#x200B;](assets/discover-basics-9.png) |
+| Barra de búsqueda | Utilice la búsqueda de la parte superior del panel de filtros para buscar un filtro específico. Cada filtro también tiene su propia barra de búsqueda. |||![&#x200B; ---  --- &#x200B;](assets/discover-basics-10.png) |
+| Botón Borrar filtro | Para borrar un filtro, haga clic en el icono de borrador situado en la esquina superior derecha de cada filtro. |||![&#x200B; ---  --- &#x200B;](assets/discover-basics-11.png) |
+| Botón Aplicar | Haga clic en para confirmar e implementar los cambios de filtro en el panel. |||![&#x200B; ---  --- &#x200B;](assets/discover-3a-1.png) |
 
 ## Filtros en Visual Studio {#filters-on-visual}
 
@@ -65,7 +65,7 @@ Para explorar los datos detrás del elemento visual, haga clic con el botón der
 ### Exportar datos {#export-data}
 
 Para exportar los datos subyacentes de una imagen, pase el ratón sobre su esquina superior derecha. Haga clic en el botón &quot;más opciones&quot;, seleccione &quot;exportar datos&quot;, seleccione el formato que prefiera y haga clic en &quot;exportar&quot;.
-![Para exportar los datos subyacentes de una imagen visual, pase el ratón sobre su parte superior derecha ](assets/discover-basics-6.gif)
+![Para exportar los datos subyacentes de una imagen visual, pase el ratón sobre su parte superior derecha &#x200B;](assets/discover-basics-6.gif)
 
 ### Modo de enfoque {#focus-mode}
 
@@ -83,4 +83,4 @@ Si se selecciona un valor o una etiqueta de eje en una visualización, se filtra
 
 La información sobre herramientas ofrece detalles adicionales acerca de los datos mostrados. Pase el ratón sobre un elemento visual y aparecerá una información sobre herramientas contextual que proporciona perspectivas o explicaciones relacionadas con ese punto de datos específico.
 
-![La información sobre herramientas ofrece detalles adicionales acerca de los datos mostrados. Pase el ratón sobre una imagen ](assets/discover-basics-4.gif)
+![La información sobre herramientas ofrece detalles adicionales acerca de los datos mostrados. Pase el ratón sobre una imagen &#x200B;](assets/discover-basics-4.gif)

@@ -42,7 +42,7 @@ Para ajustar la configuración del punto de contacto PostLC para sus posibles cl
 
 1. Introduzca el número de puntos de contacto postLC que desee insertar en sus posibles clientes y haga clic en **[!UICONTROL Guardar]**.
 
-   ![1. Escriba el número de puntos de contacto postLC que desee insertar en ](assets/additional-functionality-3.png)
+   ![1. Escriba el número de puntos de contacto postLC que desee insertar en &#x200B;](assets/additional-functionality-3.png)
 
 **Contactos**
 
@@ -52,4 +52,4 @@ Para ajustar la configuración del punto de contacto PostLC para sus posibles cl
 
 1. Escriba el número de puntos de contacto postLC que desee insertar en Contactos y haga clic en **[!UICONTROL Guardar]**.
 
-   ![1. Escriba el número de puntos de contacto postLC que desee insertar en ](assets/additional-functionality-4.png)
+   ![1. Escriba el número de puntos de contacto postLC que desee insertar en &#x200B;](assets/additional-functionality-4.png)

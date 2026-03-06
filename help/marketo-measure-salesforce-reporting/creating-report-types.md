@@ -92,8 +92,8 @@ Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Sa
 
 1. Una vez creados los informes, se le redirigirá a una descripción general del tipo de informe. Haga clic en **[!UICONTROL Editar diseño]**.
 
-   ![1. Una vez creados los informes, se le redirigirá a ](assets/new-types-2.png)
+   ![1. Una vez creados los informes, se le redirigirá a &#x200B;](assets/new-types-2.png)
 
 1. Asegúrese de que los campos personalizados que desee agregar al informe aparezcan en la sección Propiedades de diseño de campo. Si desea agregar otros campos, use la opción &quot;[!UICONTROL Agregar campos relacionados mediante la búsqueda]&quot;.
 
-   ![1. Asegúrese de que los campos personalizados que desea agregar a ](assets/new-types-3.png)
+   ![1. Asegúrese de que los campos personalizados que desea agregar a &#x200B;](assets/new-types-3.png)

@@ -35,11 +35,11 @@ Como parte de la integración general de [!DNL Marketo Measure] y [!DNL Marketo 
 
 1. Haga clic en el menú desplegable debajo de [!UICONTROL Seleccionar tipos de actividades] para comenzar a elegir los distintos tipos.
 
-   ![1. Haga clic en el menú desplegable debajo de Seleccionar tipos de actividades para comenzar ](assets/marketo-engage-activities-03.png)
+   ![1. Haga clic en el menú desplegable debajo de Seleccionar tipos de actividades para comenzar &#x200B;](assets/marketo-engage-activities-03.png)
 
 1. Cuando haya seleccionado todas las actividades que necesita, podrá verlas rellenadas en su [!UICONTROL Lista de actividades seleccionadas] y en [!UICONTROL Definir reglas].
 
-   ![1. Cuando se seleccionen todas las actividades que necesita, podrá ver ](assets/marketo-engage-activities-04.png)
+   ![1. Cuando se seleccionen todas las actividades que necesita, podrá ver &#x200B;](assets/marketo-engage-activities-04.png)
 
 1. Para cada tipo de actividad, debe definir una o más reglas que determinen qué registros cumplen los requisitos para los puntos de contacto. En este ejemplo, agregamos una regla para el tipo de actividad &quot;Cambiar puntuación&quot; para que el sistema cree un punto de contacto cuando una persona de Marketo alcance una puntuación de 90 o superior.
 

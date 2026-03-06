@@ -60,7 +60,7 @@ Hay dos plantillas de seguimiento que [!DNL Marketo Measure] recomienda usar. Ut
 
 1. Haga clic en **[!UICONTROL Todas las campañas]** y, a continuación, en **[!UICONTROL Configuración]** en la ventana de ampliación.
 
-   ![1. Haga clic en Todas las campañas y luego en Configuración en el ](assets/utilizing-connections-13.png) en expansión
+   ![1. Haga clic en Todas las campañas y luego en Configuración en el &#x200B;](assets/utilizing-connections-13.png) en expansión
 
 1. Haga clic en **[!UICONTROL Configuración de la cuenta]** en la parte superior y luego en **[!UICONTROL Plantilla de seguimiento]**. Escriba la plantilla de seguimiento [!DNL Marketo Measure].
 
@@ -72,7 +72,7 @@ Hay dos plantillas de seguimiento que [!DNL Marketo Measure] recomienda usar. Ut
 
 1. Haga clic en **[!UICONTROL Todas las campañas]** y luego en **[!UICONTROL Campañas]** en la ventana de expansión.
 
-   ![1. Haga clic en Todas las campañas y luego en Campañas en el ](assets/utilizing-connections-12.png) en expansión
+   ![1. Haga clic en Todas las campañas y luego en Campañas en el &#x200B;](assets/utilizing-connections-12.png) en expansión
 
 1. Seleccione todas las campañas aplicables o **[!UICONTROL Seleccionar todo]**, haga clic en **[!UICONTROL Editar]** y luego haga clic en **[!UICONTROL Cambiar plantillas de seguimiento]**.
 
@@ -84,7 +84,7 @@ Hay dos plantillas de seguimiento que [!DNL Marketo Measure] recomienda usar. Ut
 
 1. Haga clic en **[!UICONTROL Todas las campañas]** y, a continuación, en **[!UICONTROL Grupos de publicidad]** en la ventana de ampliación.
 
-   ![1. Haga clic en Todas las campañas y luego en Agregar grupos en ](assets/api-connections-01.png)
+   ![1. Haga clic en Todas las campañas y luego en Agregar grupos en &#x200B;](assets/api-connections-01.png)
 
 1. Seleccione todos los grupos de anuncios aplicables o Seleccionar todo, haga clic en **[!UICONTROL Editar]** y, a continuación, haga clic en **[!UICONTROL Plantillas de seguimiento de cambios]**.
 

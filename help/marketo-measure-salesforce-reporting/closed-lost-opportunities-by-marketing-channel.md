@@ -20,7 +20,7 @@ Aunque este informe puede depender de las fases de oportunidad, en este informe 
 
 1. En la búsqueda rápida, escriba &quot;Atribución Bizible&quot; y seleccione el tipo de informe **[!UICONTROL Atribución Bizible Touchpoint con oportunidad]**; a continuación, seleccione **[!UICONTROL Crear]**.
 
-   ![1. En la búsqueda rápida, escriba &quot;Atribución Bizible&quot; y seleccione ](assets/bizible-guide-2.png)
+   ![1. En la búsqueda rápida, escriba &quot;Atribución Bizible&quot; y seleccione &#x200B;](assets/bizible-guide-2.png)
 
 1. Desde la parte superior del informe, muestre &quot;[!UICONTROL Todos los puntos de contacto de atribución de Bizible]&quot; y ajuste el campo de fecha según el periodo de tiempo sobre el que desee informar. En nuestro ejemplo, estamos mirando Todo el tiempo. Además, cambie el formato del informe de Tabular a Summary.
 
@@ -30,11 +30,11 @@ Aunque este informe puede depender de las fases de oportunidad, en este informe 
 
 1. Ahora, se agregarán campos al informe. En la búsqueda rápida de la izquierda, escriba &quot;Canal de marketing&quot; y agréguelo a la agrupación Resumen del informe.
 
-   ![1. Ahora, se agregarán campos al informe. En ](assets/bizible-guide-4.png)
+   ![1. Ahora, se agregarán campos al informe. En &#x200B;](assets/bizible-guide-4.png)
 
 1. A continuación, agregaremos un filtro para ver solo las operaciones cerradas perdidas. En la búsqueda rápida de la izquierda, busque el campo &quot;Stage&quot; y arrástrelo al área de filtro.
 
-   ![1. A continuación, agregaremos un filtro para ver solamente ](assets/marketo-reports-16.jpg)
+   ![1. A continuación, agregaremos un filtro para ver solamente &#x200B;](assets/marketo-reports-16.jpg)
 
 1. A partir de ahí, seleccionará la lupa para elegir cualquier etapa que utilice para las oportunidades de &quot;Pérdida cerrada&quot;. En nuestro caso, utilizaremos el nombre estándar de &quot;Cerrado perdido&quot;.
 

@@ -48,7 +48,7 @@ ht-degree: 6%
 
 Aquí hay un par de vídeos    le ayudará a ponerse al día:
 
-* [[!DNL Marketo Measure] Curso de introducción](¿https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutos)
+* [[!DNL Marketo Measure] Curso de introducción] (¿https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutos)
 * [[!DNL Marketo Measure] Creación de informes en SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (de 30 a 45 minutos)
 
 **[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 minutos)**

@@ -18,7 +18,7 @@ Nuestra integración con [!DNL CallTrackingMetrics] está pensada para combinar 
 
 En general, el &quot;seguimiento de llamadas&quot; es un producto de compañías como [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca] o [!DNL CallRail], por nombrar algunas. Los usuarios ven números de teléfono únicos en función de los diferentes canales de marketing o campañas de las que proceden. Esto permite a los especialistas en marketing ver el rendimiento de esos canales o campañas.
 
-![ &quot;Seguimiento de llamadas&quot; en el sentido general es un producto de compañías como ](assets/other-resources-6.png)
+![&#x200B; &quot;Seguimiento de llamadas&quot; en el sentido general es un producto de compañías como &#x200B;](assets/other-resources-6.png)
 
 ## Antes y después de {#before-and-after}
 

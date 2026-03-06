@@ -20,7 +20,7 @@ De serie, tiene muchas capacidades de creación de informes al alcance de su man
 
 1. Vaya a la opción de instalación en [!DNL Salesforce]. Desde allí, expanda la agrupación &quot;Crear&quot; y seleccione **[!UICONTROL Tipos de informes]**.
 
-   ![1. Vaya a la opción Configuración en Salesforce. A partir de ahí, expanda ](assets/bizible-guide-1.png)
+   ![1. Vaya a la opción Configuración en Salesforce. A partir de ahí, expanda &#x200B;](assets/bizible-guide-1.png)
 
 1. Seleccione **[!UICONTROL Nuevo tipo de informe personalizado]**.
 

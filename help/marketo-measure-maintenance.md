@@ -42,7 +42,7 @@ Haga referencia a [este artículo](/help/channel-tracking-and-setup/online-custo
 
 **Evalúe la configuración de supresión de Touchpoints (1x/trimestre)**
 
-Si está viendo muchos Touchpoints que preferiría que no se tuvieran en cuenta en la historia de atribución (de un [!DNL Login] o [!DNL Unsubscribe forms], una página Empleo o una aplicación interna, por ejemplo), es posible que desee evaluar la configuración de supresión de Touchpoints existente. Una vez al trimestre, localice cualquier grupo de puntos de contacto que estén creando ruido innecesario y actualice correctamente la lógica de supresión. [Este es un artículo ](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) útil con el procedimiento.
+Si está viendo muchos Touchpoints que preferiría que no se tuvieran en cuenta en la historia de atribución (de un [!DNL Login] o [!DNL Unsubscribe forms], una página Empleo o una aplicación interna, por ejemplo), es posible que desee evaluar la configuración de supresión de Touchpoints existente. Una vez al trimestre, localice cualquier grupo de puntos de contacto que estén creando ruido innecesario y actualice correctamente la lógica de supresión. [Este es un artículo &#x200B;](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) útil con el procedimiento.
 
 **Revise la asignación de etapas personalizada para comprobar su precisión (1 x/trimestre) (si corresponde)**
 

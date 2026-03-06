@@ -18,7 +18,7 @@ Para acceder a su Snowflake Data Warehouse, debe ir a la URL específica de su c
 
 1. En [!DNL Marketo Measure], en la parte superior de la página, haga clic en **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]**.
 
-   ![1. En Marketo Measure, en la parte superior de la página, haga clic en ](assets/data-account-7.png)
+   ![1. En Marketo Measure, en la parte superior de la página, haga clic en &#x200B;](assets/data-account-7.png)
 
 1. En el menú del lado izquierdo, debajo de Seguridad, haga clic en **[!UICONTROL Data Warehouse]**.
 
@@ -26,7 +26,7 @@ Para acceder a su Snowflake Data Warehouse, debe ir a la URL específica de su c
 
 1. Esta página incluye el enlace a su almacén de datos de Snowflake y su nombre de usuario.
 
-   ![1. Esta página tiene el enlace a su almacén de datos de Snowflake y ](assets/data-account-9.png)
+   ![1. Esta página tiene el enlace a su almacén de datos de Snowflake y &#x200B;](assets/data-account-9.png)
 
    >[!NOTE]
    >
@@ -34,15 +34,15 @@ Para acceder a su Snowflake Data Warehouse, debe ir a la URL específica de su c
 
 1. Haga clic en el vínculo proporcionado en la URL de Snowflake, que le lleva a la página de inicio de sesión de Snowflake donde introduce su nombre de usuario y contraseña. _Si no tienes tu contraseña, consulta los pasos a continuación para restablecerla_.
 
-   ![1. Haga clic en el vínculo proporcionado en la dirección URL de Snowflake, le lleva ](assets/data-account-5.png)
+   ![1. Haga clic en el vínculo proporcionado en la dirección URL de Snowflake, le lleva &#x200B;](assets/data-account-5.png)
 
 1. Cuando haya iniciado sesión, haga clic en **[!UICONTROL Hojas de cálculo]** en la parte superior de la página.
 
-   ![1. Cuando haya iniciado sesión, haga clic en Hojas de cálculo en la parte superior de ](assets/data-account-6.png)
+   ![1. Cuando haya iniciado sesión, haga clic en Hojas de cálculo en la parte superior de &#x200B;](assets/data-account-6.png)
 
 1. Los objetos de base de datos BIZIBLE_ROI_V3 se encuentran en el lado izquierdo de la pantalla. Introduzca el almacén, la base de datos y el esquema en las opciones desplegables de la parte superior de la ventana de consulta. Solo debe haber una opción para cada uno. Ahora está listo para ejecutar consultas dentro del editor de consultas de Snowflake.
 
-   ![1. Los objetos de base de datos BIZIBLEROIV3 se encuentran en el lado izquierdo de ](assets/data-account-4.png)
+   ![1. Los objetos de base de datos BIZIBLEROIV3 se encuentran en el lado izquierdo de &#x200B;](assets/data-account-4.png)
 
 ## Restablezca su contraseña {#reset-your-password}
 
@@ -53,9 +53,9 @@ Para acceder a su Snowflake Data Warehouse, debe ir a la URL específica de su c
 >* Restablecer la contraseña la restablece para todos los usuarios de [!DNL Marketo Measure] de su organización, no solo para el usuario que ha iniciado sesión actualmente.
 >* Solo se muestra la contraseña temporal en la interfaz de usuario. No se enviará un correo electrónico.
 
-![Solo se muestra la contraseña temporal en la interfaz de usuario. Un correo electrónico ](assets/data-account-3.png)
+![Solo se muestra la contraseña temporal en la interfaz de usuario. Un correo electrónico &#x200B;](assets/data-account-3.png)
 
-![Solo se muestra la contraseña temporal en la interfaz de usuario. Un correo electrónico ](assets/data-account-1.png)
+![Solo se muestra la contraseña temporal en la interfaz de usuario. Un correo electrónico &#x200B;](assets/data-account-1.png)
 
 ## Conexión a Snowflake mediante herramientas de terceros {#connecting-to-snowflake-via-third-party-tools}
 
@@ -76,4 +76,4 @@ Debe introducir algunos datos para conectar el almacén de datos de Snowflake a 
 * **Nombre de almacén** (no siempre es obligatorio)
    * El almacén es lo que ejecuta consultas en Snowflake. Es el recurso calculado. El nombre del almacén aparece en la página de información de Data Warehouse en [!DNL Marketo Measure].
 
-  ![El almacén es el que ejecuta las consultas en Snowflake. Es el elemento calculado ](assets/data-account-2.png)
+  ![El almacén es el que ejecuta las consultas en Snowflake. Es el elemento calculado &#x200B;](assets/data-account-2.png)

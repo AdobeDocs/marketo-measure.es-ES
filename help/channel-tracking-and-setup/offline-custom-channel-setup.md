@@ -49,7 +49,7 @@ Ahora desea hacer lo mismo para la conferencia de junio. Como también es una co
 
 A continuación se muestra un ejemplo de lógica que [!DNL Marketo Measure] no podría leer:
 
-![A continuación se muestra un ejemplo de lógica que Marketo Measure no ](assets/offline-channels-12.png)
+![A continuación se muestra un ejemplo de lógica que Marketo Measure no &#x200B;](assets/offline-channels-12.png)
 
 En el escenario anterior, se desea crear un tipo de campaña único porque no se puede asignar el mismo tipo de campaña a dos subcanales diferentes. En su lugar, le recomendamos configurar tipos únicos como los siguientes:
 
@@ -67,7 +67,7 @@ Es habitual que los equipos de marketing creen [!DNL Salesforce] campañas para 
 
 Otra sugerencia para administrar campañas para actividades en línea es asignar el tipo de campaña [!DNL Salesforce] a NULL. Para ello, cree primero un canal en la aplicación [!DNL Marketo Measure] con el título NULL, como se muestra en la siguiente imagen. Esto se encuentra en la aplicación [!DNL Marketo Measure] en la sección **Crear canales**. Esto resulta útil en caso de que una campaña que no debería sincronizarse se sincronice accidentalmente. Es fácil encontrar la campaña y corregir el estado de sincronización mirando todo lo agrupado en NULL.
 
-![Otra sugerencia para administrar campañas para actividades en línea es asignar ](assets/offline-channels-14.png)
+![Otra sugerencia para administrar campañas para actividades en línea es asignar &#x200B;](assets/offline-channels-14.png)
 
 ## Introducción de las reglas de canal sin conexión en la aplicación {#entering-your-offline-channel-rules-to-the-app}
 

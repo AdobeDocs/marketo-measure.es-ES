@@ -46,15 +46,15 @@ Paso 3: Comprender los componentes.
 
 Paso 4: Adición De Reglas De Filtro.
 
-* En primer lugar, introduzca el nombre de la categoría. [!UICONTROL El tipo de negocio ] es un ejemplo. Haga clic en la marca de verificación cuando haya terminado. Debe introducir un nombre de categoría para poder añadir segmentos
+* En primer lugar, introduzca el nombre de la categoría. [!UICONTROL El tipo de negocio &#x200B;] es un ejemplo. Haga clic en la marca de verificación cuando haya terminado. Debe introducir un nombre de categoría para poder añadir segmentos
 * Haga clic en el signo más para agregar un segmento
 * Introduzca un nombre de segmento. Por ejemplo: puede tener un segmento para Nuevos negocios, Socios, Renovación o Ampliación de venta
 
-![Escriba un nombre de segmento. Por ejemplo, podría tener un segmento para ](assets/custom-segmentation-2.png)
+![Escriba un nombre de segmento. Por ejemplo, podría tener un segmento para &#x200B;](assets/custom-segmentation-2.png)
 
 * Haga clic en el icono &quot;+&quot; para mostrar los campos de entrada de la regla. Las opciones de la lista desplegable Campo extrae campos directamente de su CRM
 
-![Haga clic en el icono de signo más para mostrar los campos de entrada de la regla. Las opciones ](assets/custom-segmentation-3.png)
+![Haga clic en el icono de signo más para mostrar los campos de entrada de la regla. Las opciones &#x200B;](assets/custom-segmentation-3.png)
 
 >[!NOTE]
 >

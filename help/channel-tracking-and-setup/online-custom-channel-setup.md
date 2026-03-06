@@ -32,7 +32,7 @@ Cosas que hay que tener en cuenta:
 
 El primer paso es descargar la hoja de cálculo de canales personalizados desde la aplicación [!DNL Marketo Measure]. Vaya a **Configuración** en la pestaña **Mi cuenta** y seleccione **En línea**. Puede seleccionar **Descargar plantilla original** o **Descargar reglas actuales**.
 
-![El primer paso es descargar la hoja de cálculo de canal personalizada desde ](assets/online-channels-1.png)
+![El primer paso es descargar la hoja de cálculo de canal personalizada desde &#x200B;](assets/online-channels-1.png)
 
 La hoja de cálculo tiene siete columnas:
 

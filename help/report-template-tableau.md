@@ -30,7 +30,7 @@ Debe configurar una conexión de datos con la instancia de Snowflake. Para ello,
 
 También deberá introducir un comando de SQL inicial. Esto admite el uso de consultas personalizadas en este modelo de datos. El comando a introducir es “Usar esquema `<your schema name>`”. Puede localizar el nombre del esquema en la página [!UICONTROL conexiones de data warehouse]; consulte la documentación a la que se hace referencia arriba.
 
-![También deberá escribir un comando SQL inicial. Esto admite ](assets/marketo-tableau-6.png)
+![También deberá escribir un comando SQL inicial. Esto admite &#x200B;](assets/marketo-tableau-6.png)
 
 ### Consultas de SQL personalizadas {#custom-sql-queries}
 
@@ -100,7 +100,7 @@ La columna [!UICONTROL CATEGORÍA] muestra el número de categoría, y la column
 
 Los nombres se pueden actualizar de dos formas. La primera opción es actualizar el SQL personalizado. En este ejemplo, se ha cambiado el nombre de las categorías 1 a 6 en función de la asignación de la tabla Nombres de segmentos.
 
-Los nombres de ![se pueden actualizar de dos maneras. La primera opción es ](assets/marketo-tableau-14.png)
+Los nombres de ![se pueden actualizar de dos maneras. La primera opción es &#x200B;](assets/marketo-tableau-14.png)
 
 La otra opción es cambiar el nombre de las columnas directamente en la tabla de [!DNL Tableau].
 

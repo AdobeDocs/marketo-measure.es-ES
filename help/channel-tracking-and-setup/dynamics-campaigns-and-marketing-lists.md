@@ -60,7 +60,7 @@ Las listas de marketing son otra forma de incluir posibles clientes o contactos 
 
 [!DNL Marketo Measure] solo admite listas de marketing estáticas. No se admiten listas de marketing dinámicas porque nuestro procesamiento requiere que comprobemos la fecha de modificación de un registro, pero como una lista dinámica cambia con frecuencia, no hay ninguna fecha de modificación para [!DNL Marketo Measure] con la que comprobar. Esto requeriría una descarga constante del conjunto de datos completo a lo largo del día.
 
-![Marketo Measure solo admite listas de marketing estáticas. No se admite ](assets/dynamics-lists-5.png)
+![Marketo Measure solo admite listas de marketing estáticas. No se admite &#x200B;](assets/dynamics-lists-5.png)
 
 La captura de pantalla anterior es una lista de marketing para posibles clientes. Las listas de marketing están asociadas a campañas y pueden asociarse a varias campañas. A menos que en algún momento cree solamente una lista de mercadotecnia para una campaña, [!DNL Marketo Measure] no recomienda que los clientes usen listas de mercadotecnia para hacer un seguimiento de sus campañas. Es poco probable que la misma lista exacta de posibles clientes/contactos sea apta para puntos de contacto en varias campañas.
 

@@ -28,7 +28,7 @@ Una vez que haya iniciado sesión en su cuenta de [!DNL Pardot], siga los pasos 
 
 1. Determine la plantilla de diseño adecuada y haga clic en **[!UICONTROL Editar]** a la derecha.
 
-   ![1. Determine la plantilla de diseño adecuada y haga clic en Editar en ](assets/adding-pages-1.png)
+   ![1. Determine la plantilla de diseño adecuada y haga clic en Editar en &#x200B;](assets/adding-pages-1.png)
 
 1. Copie y pegue el código de JavaScript [!DNL Marketo Measure] justo antes de la etiqueta de encabezado de cierre de la página de HTML.
 

@@ -41,9 +41,9 @@ Los clientes tienen la opción de informar sobre el conjunto completo de persona
 
 Al informar sobre posibles clientes (personas) en [!DNL Marketo Measure Discover], verá el total de sus posibles clientes de Marketo y CRM. Para informar solo sobre las personas de Marketo o solo los posibles clientes de CRM, querrá crear una Categoría de segmento para su origen y luego crear Reglas de segmento para Marketo y CRM usando el campo &quot;Sistema de Source&quot; para definir la regla. Una vez creados los segmentos, verá la categoría Source disponible para filtrar en los paneles de [!DNL Marketo Measure Discover].
 
-![Al informar sobre clientes potenciales (personas) en Marketo Measure Discover, ](assets/bizible-discover-1.png)
+![Al informar sobre clientes potenciales (personas) en Marketo Measure Discover, &#x200B;](assets/bizible-discover-1.png)
 
-![Al informar sobre clientes potenciales (personas) en Marketo Measure Discover, ](assets/bizible-discover-2.png)
+![Al informar sobre clientes potenciales (personas) en Marketo Measure Discover, &#x200B;](assets/bizible-discover-2.png)
 
 ## Asignación de campos {#field-mappings}
 

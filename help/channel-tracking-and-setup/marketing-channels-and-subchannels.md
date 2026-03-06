@@ -45,7 +45,7 @@ Los subcanales son la segunda pieza del rompecabezas al agrupar los Clientes pot
 
 El diagrama siguiente ilustra un ejemplo de un Canal de marketing, Subcanal y Contenido basado en una página web con la siguiente URL:
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
 En este caso, el contenido al que el usuario intenta acceder es la Guía de introducción a la atribución de marketing B2B. [!DNL Marketo Measure] Analizará la URL que lleva a este contenido mediante las reglas de canal configuradas en esta organización y las utilizará para &quot;agrupar&quot; este posible cliente en el canal de marketing &quot;Social de pago&quot; y el subcanal &quot;LinkedIn&quot;.
 

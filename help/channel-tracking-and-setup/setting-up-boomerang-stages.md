@@ -22,11 +22,11 @@ Para habilitar las fases [!UICONTROL Boomerang] para tu cuenta, debes ser admini
 
 1. Vaya a [!UICONTROL Asignación de etapas]. En la columna titulada &quot;[!UICONTROL Boomerang]&quot;, seleccione las casillas situadas junto a las fases que desee rastrear.
 
-   ![1. Vaya a Asignación de fases. En la columna titulada &quot;Boomerang&quot;, ](assets/boomerang-stages-18.png)
+   ![1. Vaya a Asignación de fases. En la columna titulada &quot;Boomerang&quot;, &#x200B;](assets/boomerang-stages-18.png)
 
 1. Vaya a la pestaña [!UICONTROL Configuración de atribución] e introduzca el número de puntos de contacto para cada fase que desee ver. Permitimos un máximo de 10. El valor predeterminado es 1.
 
-   ![1. Vaya a la pestaña Configuración de atribución e introduzca el número ](assets/boomerang-stages-19.png)
+   ![1. Vaya a la pestaña Configuración de atribución e introduzca el número &#x200B;](assets/boomerang-stages-19.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -38,7 +38,7 @@ Para habilitar las fases [!UICONTROL Boomerang] para tu cuenta, debes ser admini
 
 1. Vaya a [!UICONTROL Asignación de etapas]. En la columna titulada &quot;[!UICONTROL Boomerang]&quot;, seleccione las casillas situadas junto a las fases que desee rastrear.
 
-   ![1. Vaya a Asignación de fases. En la columna titulada &quot;Boomerang&quot;, ](assets/boomerang-stages-20.png)
+   ![1. Vaya a Asignación de fases. En la columna titulada &quot;Boomerang&quot;, &#x200B;](assets/boomerang-stages-20.png)
 
 1. Si también desea que estas fases de Boomerang se incluyan en el modelo personalizado y reciban crédito de atribución, asegúrese de seleccionar también la casilla debajo de la columna &quot;[!UICONTROL Modelo personalizado]&quot;.
 
@@ -50,11 +50,11 @@ Para habilitar las fases [!UICONTROL Boomerang] para tu cuenta, debes ser admini
 
 1. Introduzca el número de incidencias de cada fase que desee ver. Podemos permitir un máximo de diez. El valor predeterminado es 1.
 
-   ![1. Escriba el número de veces que se produjo cada fase que desee ](assets/boomerang-stages-23.png)
+   ![1. Escriba el número de veces que se produjo cada fase que desee &#x200B;](assets/boomerang-stages-23.png)
 
 1. Establezca el porcentaje de atribución que desee asignar a las etapas de boomerang que ha incluido en el modelo personalizado. Asegúrese de que la atribución total de todas las etapas sume el 100 %. Haga clic en **[!UICONTROL Guardar y procesar]**.
 
-   ![1. Establezca el porcentaje de atribución que desee asignar a ](assets/boomerang-stages-24.png)
+   ![1. Establezca el porcentaje de atribución que desee asignar a &#x200B;](assets/boomerang-stages-24.png)
 
    >[!NOTE]
    >

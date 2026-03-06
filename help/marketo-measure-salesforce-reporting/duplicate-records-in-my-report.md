@@ -24,7 +24,7 @@ Veamos el siguiente informe como ejemplo:
 
 Este es un informe de **Contactos con puntos de contacto del comprador**. De nuevo, esto significa que estamos viendo el recuento de puntos de contacto asociados a un contacto individual.
 
-![Es un informe de contactos con puntos de contacto del comprador. De nuevo, esto significa que ](assets/marketo-reports-1.gif)
+![Es un informe de contactos con puntos de contacto del comprador. De nuevo, esto significa que &#x200B;](assets/marketo-reports-1.gif)
 
 Como puede ver, parece que hay tres contactos de James Williams en el informe y, por lo tanto, podría estar pensando: &quot;¡duplicados!&quot;
 

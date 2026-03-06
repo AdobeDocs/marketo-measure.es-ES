@@ -51,7 +51,7 @@ Objetivo: Utilice el valor de un campo personalizado y colóquelo en el objeto T
    * **)** marca el final de la extracción
    * **.&#42;** nos dice que estamos extrayendo la cadena completa
 
-![.&amp;42; nos indica que estamos extrayendo la cadena completa](assets/touchpoint-fields-10.png)
+![.&42; nos indica que estamos extrayendo la cadena completa](assets/touchpoint-fields-10.png)
 
 **Ejemplo #2**
 
@@ -106,7 +106,7 @@ A medida que las páginas de aterrizaje se complican y tiene varios parámetros 
    * **(**) marca el inicio de la extracción
    * **)** marca el final de la extracción
    * **\w** nos indica que estamos extrayendo una &quot;palabra&quot;
-   * ****** es el número de caracteres que estamos extrayendo
+   * **&#x200B;**&#x200B;** es el número de caracteres que estamos extrayendo
 
 * Cree un campo calculado y etiquete &quot;ID de campaña personalizado&quot;
 * Defina la regla empezando por buscar el campo Touchpoint.Session.LandingPage
@@ -148,7 +148,7 @@ Ahora que hemos aprendido a extraer y asignar campos, combinemos esas acciones p
 
       * Observe que, como solo extraemos los 4, solo los primeros dígitos tienen el paréntesis cerrado
    * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
-   * ****** es el número de caracteres que estamos extrayendo
+   * **&#x200B;**&#x200B;** es el número de caracteres que estamos extrayendo
 
 
 
@@ -161,12 +161,12 @@ Ahora que hemos aprendido a extraer y asignar campos, combinemos esas acciones p
 * En función de la asignación y la URL anterior, el valor de región para un punto de contacto con esta página de aterrizaje sería EMEA
 * Repita la extracción y la asignación para los 4 conjuntos de dígitos restantes
 
-   * Para extraer el 01, debe definir el valor como &quot;BZ=\d-**(\d**)**-\d**-\d**-\d**-\d**&quot;
+   * Para extraer el 01, debe definir el valor como &quot;BZ=\d-**(\d**)**-\d**-\d&#x200B;**-\d**-\d**&quot;
    * Para extraer el 09, debe definir el valor como &quot;BZ=\d **-\d**-**(\d**)**-\d**-\d**&quot;
-   * Para extraer el 03, debe definir el valor como &quot;BZ=\d **-\d**-\d**-**(\d**)**-\d**&quot;
-   * Para extraer los 10, debe definir el valor como &quot;BZ=\d-\d **-\d**-\d**-\d**-**(\d**)**&quot;
+   * Para extraer el 03, debe definir el valor como &quot;BZ=\d **-\d**-\d&#x200B;**-**(\d&#x200B;**)**-\d**&quot;
+   * Para extraer los 10, debe definir el valor como &quot;BZ=\d-\d **-\d**-\d&#x200B;**-\d**-**(\d**)**&quot;
 
-![Para extraer los 10, debe definir el valor como &quot;BZ=\d-\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-(\d](assets/touchpoint-fields-3.png))&quot;](assets/touchpoint-fields-3.png)
+![Para extraer los 10, debe definir el valor como &quot;BZ=\d-\d](assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-(\d&rbrack;(assets/touchpoint-fields-3.png))&quot;&rbrack;(assets/touchpoint-fields-3.png)
 
 **Concatenaciones**
 
@@ -190,7 +190,7 @@ Para facilitar la creación de segmentos, ahora es posible crear segmentos diná
 
 Su configuración se parecería a la captura de pantalla siguiente. El nombre del segmento extrae dinámicamente el valor del campo de punto de contacto utilizando llaves para buscar el campo.
 
-![Su configuración se parecería a la captura de pantalla siguiente. El nombre del segmento ](assets/touchpoint-fields-6.png)
+![Su configuración se parecería a la captura de pantalla siguiente. El nombre del segmento &#x200B;](assets/touchpoint-fields-6.png)
 
 La regla hace referencia al mismo campo de punto de contacto y busca valores que &quot;no son iguales a nulos&quot;.
 

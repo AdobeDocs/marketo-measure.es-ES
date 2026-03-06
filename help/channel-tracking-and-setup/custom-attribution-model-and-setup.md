@@ -44,7 +44,7 @@ El modelo de atribución personalizada [!DNL Marketo Measure] permite a los usua
 
    En el ejemplo siguiente, se define una fase &quot;MQL&quot; personalizada mediante un campo de fecha. La regla simplemente establece que si el campo Fecha de MQL no está vacío, debe considerarse un MQL y debe incluirse en el modelo personalizado. También es importante ordenar las fases personalizadas una vez creadas para que sigan la progresión del ciclo de ventas.
 
-   ![En el ejemplo siguiente, se define una etapa de &quot;MQL&quot; personalizada usando ](assets/custom-models-10.png)
+   ![En el ejemplo siguiente, se define una etapa de &quot;MQL&quot; personalizada usando &#x200B;](assets/custom-models-10.png)
 
    >[!CAUTION]
    >
