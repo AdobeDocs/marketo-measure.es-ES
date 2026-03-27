@@ -4,10 +4,10 @@ description: Parámetro de seguimiento de correo electrónico - [!DNL Marketo Me
 title: Parámetro de seguimiento de correo electrónico
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 4%
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
@@ -47,26 +47,26 @@ Marketo Measure acepta los siguientes valores: Dirección de correo electrónico
   </tr> 
   <tr> 
    <td><p>Marketo</p></td> 
-   <td><p>{{lead.Email Address}} </p></td> 
-   <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</p></td> 
-   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=es</p></td> 
+   <td><p>`{{lead.Email Address}}` </p></td> 
+   <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{`lead.EmailAddress`}`</p></td> 
+   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html</p></td> 
   </tr> 
   <tr> 
    <td><p>Pardot</p></td> 
    <td><p>%%email%% </p><p>o</p><p>%%user_crm_id%%</p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td> 
-   <td><p>https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5</p></td> 
+   <td><p>https://help.salesforce.com/s/articleView?language=en_US&amp;id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
   </tr> 
   <tr> 
    <td><p>Hubspot</p></td> 
    <td><p>(insertado mediante el editor)</p></td> 
-   <td><p>N/A</p></td> 
+   <td><p>n/a</p></td> 
    <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td> 
   </tr> 
   <tr> 
    <td><p>Act-On</p></td> 
    <td><p>(insertado a través del Compositor de mensajes)</p></td> 
-   <td><p>N/A</p></td> 
+   <td><p>n/a</p></td> 
    <td><p>https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data</p></td> 
   </tr> 
  </tbody> 
