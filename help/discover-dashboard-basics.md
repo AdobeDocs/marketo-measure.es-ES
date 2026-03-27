@@ -65,7 +65,7 @@ Para explorar los datos detrás del elemento visual, haga clic con el botón der
 ### Exportar datos {#export-data}
 
 Para exportar los datos subyacentes de una imagen, pase el ratón sobre su esquina superior derecha. Haga clic en el botón &quot;más opciones&quot;, seleccione &quot;exportar datos&quot;, seleccione el formato que prefiera y haga clic en &quot;exportar&quot;.
-![Para exportar los datos subyacentes de una imagen visual, pase el ratón sobre su parte superior derecha ](assets/discover-basics-6.gif)
+![Para exportar los datos subyacentes de una imagen visual, pase el ratón sobre su parte superior derecha &#x200B;](assets/discover-basics-6.gif)
 
 ### Modo de enfoque {#focus-mode}
 
@@ -83,4 +83,4 @@ Si se selecciona un valor o una etiqueta de eje en una visualización, se filtra
 
 La información sobre herramientas ofrece detalles adicionales acerca de los datos mostrados. Pase el ratón sobre un elemento visual y aparecerá una información sobre herramientas contextual que proporciona perspectivas o explicaciones relacionadas con ese punto de datos específico.
 
-![La información sobre herramientas ofrece detalles adicionales acerca de los datos mostrados. Pase el ratón sobre una imagen ](assets/discover-basics-4.gif)
+![La información sobre herramientas ofrece detalles adicionales acerca de los datos mostrados. Pase el ratón sobre una imagen &#x200B;](assets/discover-basics-4.gif)
