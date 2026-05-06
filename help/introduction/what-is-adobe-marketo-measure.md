@@ -3,7 +3,7 @@ description: ¿Qué es Adobe Marketo Measure?
 title: ¿Qué es Adobe Marketo Measure?
 hide: true
 hidefromtoc: true
-source-git-commit: 7c3f586e308ba885d10f3f9b8925af93277ad2e0
+source-git-commit: 3f04c21a6990f61000418642713217a490d10f86
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -26,10 +26,10 @@ Hablemos más acerca de cómo se hace esto
 Cómo funciona Marketo Measure
 Marketo Measure se integra con muchas de las herramientas de su pila tecnológica. También se integra directamente con las plataformas de publicidad enumeradas a continuación.
 
-●    Google Ads
-●    Bing Ads
-●    Facebook/Meta
-●    LinkedIn
+● anuncios de Google
+● anuncios de Bing
+● Facebook/Meta
+● LinkedIn
 
 Estas integraciones ayudan a resolver el tráfico de campañas de medios pagados a la campaña de publicidad exacta desde estas plataformas, cuando se activa el etiquetado automático.
 
@@ -46,10 +46,10 @@ Con todos esos datos, ahora está creando puntos de contacto a partir de una pl�
 
 Los puntos de contacto también se asignan a una posición. Esta posición se basa en dónde se encuentra el punto de contacto en el proceso de compra y el recorrido. Existen cuatro posiciones estándar y tiene la capacidad de crear posiciones personalizadas. Las posiciones estándar son las siguientes...
 
-●    Primer contacto (FT): el primer punto de contacto (puede ser anónimo)
-●    Creación de posibles clientes (LC): el primer punto de contacto en el que capturamos una dirección de correo electrónico
-●    Creación de Oportunidades (OC): El último contacto antes de la creación de una Oportunidad
-●    Cerrado: el último contacto antes del cierre (cerrado, ganado o cerrado, perdido) de una oportunidad
+● primer contacto (FT): el primer punto de contacto (puede ser anónimo)
+● Creación de posibles clientes (LC): el primer punto de contacto en el que capturamos una dirección de correo electrónico
+● Creación de oportunidad (OC): el último contacto antes de la creación de una oportunidad
+● cerrado: el último contacto antes del cierre (cerrado ganó o cerrado perdió) de una oportunidad
 
 A continuación, las posiciones dictan el peso en función de los diferentes modelos de atribución.
 
