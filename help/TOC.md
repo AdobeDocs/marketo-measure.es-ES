@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: Guía de [!DNL Marketo Measure]
 user-guide-description: '[!DNL Marketo Measure] ofrece a los expertos en marketing un conocimiento detallado de las medidas de marketing más eficaces para generar ingresos para su compañía.'
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+source-git-commit: 5eb42c797a34163504fe24fef19949d2c647793b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 88%
+source-wordcount: '787'
+ht-degree: 87%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 88%
       + [Consolidación de paquetes de [!DNL Salesforce]](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
       + [Conexión de  [!DNL Marketo Measure]  a Salesforce](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Prácticas recomendadas para el paquete CRM de  [!DNL Marketo Measure] &#x200B;](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
-      + [Objetos de Salesforce de [!DNL Marketo Measure] &#x200B;](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
+      + [Objetos de Salesforce de [!DNL Marketo Measure]](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
       + [Gestión de errores para exportaciones de CRM](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [Cómo interactúan  [!DNL Marketo Measure]  y  [!DNL Salesforce] &#x200B;](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [Taxonomía de objetos y campos de [!DNL Marketo Measure]](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
@@ -165,7 +165,7 @@ ht-degree: 88%
       + [Panel de control de velocidad de oportunidad](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
       + [Panel de control de Passport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
       + [Panel de control de información general sobre ingresos](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Panel de control de ROI &#x200B;](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Panel de control de ROI](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Panel de control de tráfico web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
 + [!DNL Marketo Measure] y Adobe {#marketo-measure-and-adobe}
    + [Integraciones de [!DNL Marketo Measure] con Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
@@ -233,8 +233,8 @@ ht-degree: 88%
       + [Solicitud de privacidad](miscellaneous/other-related-resources/privacy-requests.md)
       + [Eliminar parámetros de seguimiento de  [!DNL Marketo Measure]  de la dirección URL de la página de destino en Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Transición a  [!DNL Marketo Measure]  desde “Full Circle”](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
-   + [Prueba](miscellaneous/test.md)
+   + {hide-from-toc}[Prueba](miscellaneous/test.md)
 + Notas de la versión {#release-notes}
    + [Notas de la versión actual](release-notes/current.md)
-   + Versiones anteriores  {#previous-releases}
+   + Versiones anteriores {#previous-releases}
       + [Notas de la versión: 2023](release-notes/previous-releases/2023.md)
