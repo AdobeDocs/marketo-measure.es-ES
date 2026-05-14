@@ -4,10 +4,16 @@ description: Lista de medios [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Lista de recursos de [!DNL Marketo Measure]
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 5%
+source-wordcount: 341
+ht-degree: 6%
 
 ---
 
@@ -47,9 +53,9 @@ ht-degree: 5%
 
 ## Vídeos {#videos}
 
-Aquí hay un par de vídeos    le ayudará a ponerse al día:
+Aquí hay un par de vídeos que le ayudarán a ponerse al día:
 
-* [[!DNL Marketo Measure] Curso de introducción](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutos)
+* [[!DNL Marketo Measure] Curso de introducción] (¿https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutos)
 * [[!DNL Marketo Measure] Creación de informes en SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=es) (de 30 a 45 minutos)
 
 **[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=es) (~30 minutos)**

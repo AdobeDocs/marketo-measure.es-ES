@@ -4,9 +4,12 @@ description: Agregando  [!DNL Marketo Measure] script a [!DNL Uberflip] Forms - 
 title: Agregando  [!DNL Marketo Measure] script a [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/5G801toR2LSXxPwnXjLE-bw92pwe0gPc7HDFq-Bi5oU
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: 212
 ht-degree: 0%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 0%
 
 Si actualmente usa [!DNL Uberflip] para administrar el contenido, es importante que realice los pasos necesarios para asegurarse de que [!DNL Marketo Measure] realiza un seguimiento de los envíos de formularios. El administrador de éxito de [!DNL Uberflip] también debe poder ayudarle con esto.
 
-1. Agregue este script a la sección [!DNL Uberflip]Código personalizado>HTML[!UICONTROL &#x200B; de &#x200B;].
+1. Agregue este script a la sección [!UICONTROL Código personalizado>HTML] de [!DNL Uberflip].
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 

@@ -4,9 +4,14 @@ description: Atribución de marketing - Marketo Measure - Documentación del pro
 title: Atribución de marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/KmQcMmJ5n6h1cHZcG-GtJPhMT9gt3BzNqGr4gRoytzQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: 465
 ht-degree: 100%
 
 ---
@@ -25,7 +30,7 @@ Marketo Measure ofrece a los expertos en marketing un conocimiento detallado de 
 
 ![](assets/1.png)
 
-Estos contactos de hitos son la base de los **modelos de atribución** de Marketo Measure. Marketo Measure ofrece seis modelos de atribución. Cada modelo se centra en diferentes fases del recorrido del cliente y ofrece una estructura general para atribuir crédito de ingresos a los puntos de contacto de marketing. El modelo que utilice dependerá de qué fases del recorrido le interese más medir y y de la cantidad de datos sobre los que desee crear informes.  Los modelos de atribución que ofrece Marketo Measure son los siguientes:
+Estos contactos de hitos son la base de los **modelos de atribución** de Marketo Measure. Marketo Measure ofrece seis modelos de atribución. Cada modelo se centra en diferentes fases del recorrido del cliente y ofrece una estructura general para atribuir crédito de ingresos a los puntos de contacto de marketing. El modelo que utilice dependerá de qué fases del recorrido le interese más medir y y de la cantidad de datos sobre los que desee crear informes. Los modelos de atribución que ofrece Marketo Measure son los siguientes:
 
 * Primer contacto
 * Creación de posibles clientes
@@ -47,4 +52,4 @@ Los equipos de marketing suelen informar sobre participación, actividad y otras
 * Identificar qué canales de marketing son los mayores responsables de convertir posibles clientes en clientes
 * Pronosticar los objetivos de marketing en relación con los ingresos
 
-Además, la atribución de marketing aborda el desajuste entre los equipos de ventas y marketing.  Dado que los equipos de ventas informan sobre ingresos y canalización, y los equipos de marketing se basan principalmente en métricas leves, los expertos en marketing no pueden determinar cuál de sus esfuerzos fue el más influyente en la realización de una venta. Vincular los esfuerzos de marketing a los ingresos permite que ambos equipos hablen el mismo idioma y permite a los expertos en marketing demostrar cómo sus esfuerzos ayudaron a influir en los posibles clientes para convertirse en clientes.
+Además, la atribución de marketing aborda el desajuste entre los equipos de ventas y marketing. Dado que los equipos de ventas informan sobre ingresos y canalización, y los equipos de marketing se basan principalmente en métricas leves, los expertos en marketing no pueden determinar cuál de sus esfuerzos fue el más influyente en la realización de una venta. Vincular los esfuerzos de marketing a los ingresos permite que ambos equipos hablen el mismo idioma y permite a los expertos en marketing demostrar cómo sus esfuerzos ayudaron a influir en los posibles clientes para convertirse en clientes.

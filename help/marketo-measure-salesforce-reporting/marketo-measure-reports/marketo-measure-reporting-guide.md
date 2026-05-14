@@ -3,10 +3,17 @@ description: Guía de informes de [!DNL Marketo Measure] - [!DNL Marketo Measure
 title: Guía de informes de [!DNL Marketo Measure]
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/qdhOT569T3OyHBOuwBGbxAV-kYaCJnfP6qJ8Mb-A4Wk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '5602'
-ht-degree: 2%
+source-wordcount: 5685
+ht-degree: 3%
 
 ---
 
@@ -127,7 +134,7 @@ Resumiendo los datos de Buyer Touchpoint del posible cliente por el campo &quot;
 
 >[!TIP]
 >
->Para cualquier tipo de informe &quot;Posibles clientes con puntos de contacto de comprador&quot;, comience personalizando el informe generado previamente titulado &#39;[!DNL Marketo Measure] 101 | Posibles clientes por canal&quot;. Este informe está disponible de forma predeterminada y es una excelente zona protegida prediseñada tal como se describe en la tabla anterior, y se puede personalizar rápidamente para satisfacer necesidades de creación de informes más específicas.
+>Para cualquier tipo de informe &quot;Posibles clientes con puntos de contacto de comprador&quot;, comience personalizando el informe generado previamente titulado &#39;[!DNL Marketo Measure] 101 | Posibles clientes por canal&#39;. Este informe está disponible de forma predeterminada y es una excelente zona protegida prediseñada tal como se describe en la tabla anterior, y se puede personalizar rápidamente para satisfacer necesidades de creación de informes más específicas.
 
 **1,2 | Nuevos posibles clientes por campaña (o perspectivas más detalladas)**
 
@@ -219,7 +226,7 @@ Sin embargo, los administradores de eventos pueden estar más interesados en qu�
 * Filtrado de registros internos de pruebas, normalmente por dirección de correo electrónico
 * Filtrado basado en ciertos &quot;tipos de registro&quot; que pueden ser específicos de su unidad comercial
 
-**1,3 | Nuevos posibles clientes por contenido (solo informes de CRM)**
+**1,3 | Nuevos posibles clientes por contenido (solo informes CRM)**
 
 <table> 
  <tbody>
@@ -242,7 +249,7 @@ Sin embargo, los administradores de eventos pueden estar más interesados en qu�
   <tr>
    <td>Grupo/Dimension</td> 
    <td>Página de aterrizaje<br> 
-   URL del formulario</td> 
+   Formulario/URL</td> 
   </tr>
   <tr>
    <td>Modelos óptimos</td> 
@@ -416,7 +423,7 @@ Este informe sería igual que un informe basado en &quot;Contenido&quot; a nivel
   </tr>
   <tr>
    <td>Filtros</td> 
-   <td>'URL del formulario' CONTIENE (por ejemplo)<br>
+   <td>"URL del formulario" CONTIENE (por ejemplo)<br>
    <li>/ebook</li>
    <li>/documento técnico</li>
    <i>Los valores de filtro anteriores son solo ejemplos. El valor real se basará en la estructura de direcciones URL de cada organización.</i></td> 
@@ -464,7 +471,7 @@ _Este informe solamente es aplicable si los formularios de registro están hospe
   </tr>
   <tr>
    <td>Filtros</td> 
-   <td>'URL del formulario' CONTIENE (por ejemplo)<br>
+   <td>"URL del formulario" CONTIENE (por ejemplo)<br>
    <li>/event</li>
    <i>El valor de filtro anterior es solo de ejemplo. El valor real se basará en la estructura de direcciones URL de cada organización.</i></td> 
   </tr>
@@ -478,7 +485,7 @@ _Este informe solamente es aplicable si los formularios de registro están hospe
   </tr>
   <tr>
    <td>Grupo/Dimension</td> 
-   <td>URL de formulario <br>
+   <td>Formulario/URL<br>
    Canal de marketing</td> 
   </tr>
   <tr>
@@ -498,8 +505,8 @@ La clave de este informe es que los datos de Buyer Touchpoint también proporcio
 
 Teniendo en cuenta que la persona [!DNL Marketo Measure] nos permite informar sobre todos los puntos de contacto en un solo informe, es el tipo de informe ideal que usar cuando quiera validar los datos. Queremos asegurarnos de no pasar por alto ningún punto de contacto que pueda revelar, por ejemplo, dónde hay un problema en la configuración de sus &quot;Canales de marketing&quot; (consulte los artículos de asistencia vinculados a continuación para obtener más información sobre la configuración de sus &quot;Canales de marketing&quot;).
 
-* [Configuración de canal personalizado en línea](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}
-* [Configuración de canal personalizado sin conexión](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md){target="_blank"}
+* [Configuración de canales personalizados en línea](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}
+* [Configuración de canales personalizados sin conexión](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md){target="_blank"}
 
 Básicamente, los datos de punto de contacto reflejarán lo que ha sido rastreado por [!DNL Marketo Measure] y se podrán auditar para garantizar que la configuración coincida con las entradas en función de elementos como: valores de parámetros de UTM, páginas de referencia o tipos de campaña. Si los datos del punto de contacto no coinciden con la configuración, es muy probable que haya que ajustar algo. Más allá de la configuración de &quot;Canal de marketing&quot;, puede ver los datos de puntos de contacto para determinar qué puntos de contacto pueden necesitar [suprimirse](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) o [segmentarse](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md){target="_blank"}. Se recomienda auditar los datos de puntos de contacto dentro de un informe de &#39;[!DNL Marketo Measure] personas y puntos de contacto del comprador&#39; al final de cada mes o trimestre, si es posible. Esto garantizará que su atribución sea lo más precisa posible. El &#39;[!DNL Marketo Measure] 101 | El informe &quot;Posibles clientes/contactos por canal&quot; disponible de forma predeterminada es un buen punto de partida. Incluya los siguientes campos si aún no se han incluido para revisar algunos de los elementos de configuración más cruciales:
 
@@ -564,7 +571,7 @@ Normalmente, los especialistas en marketing necesitan saber: &quot;¿de dónde v
 
 ## INFORMES RECOMENDADOS CON BUYER ATTRIBUTION TOUCHPOINT (BAT) {#recommended-reports-using-the-buyer-attribution-touchpoint}
 
-**4.1 | Nuevas oportunidades por canal de mercadotecnia**
+**4.1 | Nuevas oportunidades por canal de marketing**
 
 Resumir los datos de Buyer Attribution Touchpoint de sus oportunidades por el campo &quot;Canal de marketing&quot; es la vista de nivel superior que representa qué canales/tácticas influyen en las nuevas oportunidades en la creación. Estructurar este informe en torno a un &quot;Tipo de fecha&quot; = &quot;Fecha de creación de la oportunidad&quot; garantiza que también se esté resumiendo el informe en función de cuándo se creó la oportunidad en su CRM. Es posible que los puntos de contacto hayan sido anteriores, pero seguirán estando relacionados con las oportunidades que se hayan creado dentro del intervalo de fechas definido y, por lo tanto, recibirán crédito de atribución a medida que se reconozca que influyen en la oportunidad.
 
@@ -679,7 +686,7 @@ Este informe sería esencialmente el mismo que el primer ejemplo de Buyer Attrib
    <td>
    <li>Fase de oportunidad (<i>solamente las oportunidades ganadas cerradas deben estar en el informe</i>) O,</li>
    <li>Oportunidad ganada = verdadero</li>
-   <li>Tipo de oportunidad (es común filtrar ciertas oportunidades, es decir, 'Nuevo negocio' en lugar de todas las oportunidades)<br>
+   <li>Tipo de oportunidad (es común filtrar ciertas oportunidades, es decir, "nuevos negocios" en lugar de todas las oportunidades)<br>
    </td> 
   </tr>
   <tr>

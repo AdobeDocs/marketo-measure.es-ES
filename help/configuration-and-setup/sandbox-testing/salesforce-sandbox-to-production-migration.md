@@ -4,9 +4,14 @@ description: Migración de zona protegida de Salesforce a producción,  [!DNL Ma
 title: Migración de zona protegida de Salesforce a producción
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/tdO2AE1dXfriuURbldKa0NB6wzc0o6NBH0CdgolkqSc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: 327
 ht-degree: 98%
 
 ---
@@ -29,7 +34,7 @@ Si eligió realizar la prueba de [!DNL Marketo Measure] en un entorno de zona p
 * Inicie sesión en la aplicación de [!DNL Marketo Measure] en experience.adobe.com/marketo-measure
 * Vaya a Mi cuenta >[!UICONTROL Configuración] >[!UICONTROL Conexiones].
 * Haga clic en el icono de papelera situado junto a la conexión de SFDC para eliminarlo.
-* Se le pedirá que confirme la eliminación.  Asegúrese de leer la indicación con cuidado y comprender las consecuencias de la eliminación.
+* Se le pedirá que confirme la eliminación. Asegúrese de leer la indicación con cuidado y comprender las consecuencias de la eliminación.
 
   ![](assets/salesforce-sandbox-to-production-migration-1.png)
 
@@ -51,7 +56,7 @@ Si eligió realizar la prueba de [!DNL Marketo Measure] en un entorno de zona p
 
 [Conjuntos de permisos](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Compartir informes](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
+[Uso compartido de informes](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [Ocultar tipos de informes innecesarios](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

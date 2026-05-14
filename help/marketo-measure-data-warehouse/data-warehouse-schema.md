@@ -4,9 +4,16 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentación del pr
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: 21775
 ht-degree: 99%
 
 ---
@@ -825,7 +832,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>06/09/2018 12:54:37,000</p>
+        <p>2018-09-06 12:54:37.000</p>
       </td>
     </tr>
     <tr>
@@ -837,7 +844,7 @@ Cuentas de anuncios importadas desde cualquier cuenta de anuncios conectada.
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
       <td>
-        <p>02/08/2018 06:35:58,000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1223,7 +1230,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>02/08/2018 06:35:58,000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1235,7 +1242,7 @@ Campañas importadas desde cuentas de anuncios conectadas, sistemas de origen, U
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
       <td>
-        <p>02/08/2018 06:35:58,000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1457,7 +1464,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>02/08/2018 06:35:58,000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1469,7 +1476,7 @@ Formularios de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
       <td>
-        <p>02/08/2018 06:35:58,000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1752,7 +1759,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>02/08/2018 06:36:14,000</p>
+        <p>2018-08-02 06:36:14.000</p>
       </td>
     </tr>
     <tr>
@@ -1764,7 +1771,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>La fecha en la que se importó por primera vez el registro desde el sistema de origen.</p>
       </td>
       <td>
-        <p>02/08/2018 06:36:14,000</p>
+        <p>2018-08-02 06:36:14.000</p>
       </td>
     </tr>
     <tr>
@@ -2007,7 +2014,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>01/09/2018 04:53:53,000</p>
+        <p>2018-09-01 04:53:53.000</p>
       </td>
     </tr>
     <tr>
@@ -2367,7 +2374,7 @@ Grupos de anuncios importados desde cualquier cuenta de anuncios conectada.
         <p>La fecha en la que se realizó el envío del formulario.</p>
       </td>
       <td>
-        <p>20/06/2017 01:06:41,000</p>
+        <p>2017-06-20 01:06:41.000</p>
       </td>
     </tr>
     <tr>
@@ -3069,7 +3076,7 @@ Datos generados a partir de la integración de Attribution AI. Estos campos solo
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
     <td>ID de evento MM original para el evento de conversión 
-    <br>se asigna a un punto de contacto del usuario o a una transición de fase</td>
+    <br> se asigna a un punto de contacto de usuario o a una transición de fase</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3225,7 +3232,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
         <p>La fecha de creación del miembro de campaña, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>31/08/2018 20:49:54,000</p>
+        <p>2018-08-31 20:49:54.000</p>
       </td>
     </tr>
     <tr>
@@ -3237,7 +3244,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
         <p>La fecha y la hora que el cliente establece para anular la fecha de campaña, utilice este valor para la fecha del punto de contacto en su lugar.</p>
       </td>
       <td>
-        <p>30/08/2018 18:00:00,000</p>
+        <p>2018-08-30 18:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -3317,7 +3324,7 @@ Miembros de campaña importados desde el sistema de origen. Esta tabla estará v
         <p>La fecha en la que el miembro de campaña respondió por primera vez.</p>
       </td>
       <td>
-        <p>30/08/2018 07:00:00,000</p>
+        <p>2018-08-30 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -3553,7 +3560,7 @@ Contactos importados desde el sistema de origen.
         <p>La fecha en la que se creó el registro de contacto, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>05/09/2018 05:17:51,000</p>
+        <p>2018-09-05 05:17:51.000</p>
       </td>
     </tr>
     <tr>
@@ -3821,7 +3828,7 @@ Datos de costes importados desde cuentas de anuncios conectadas o gasto de marke
       <td>ID</td>
       <td>varchar</td>
       <td>Un id. único para el registro de costes.</td>
-      <td>aw.6601259029.285114995.21703163075.[AdWords Display]_2018-09-06</td>
+      <td>aw.6601259029.285114995.21703163075.[Visualización de AdWords]_2018-09-06</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -4796,7 +4803,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
         <p>La fecha en la que se modificó por última vez el evento, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>03/09/2018 08:39:51.000</p>
+        <p>2018-09-03 08:39:51.000</p>
       </td>
     </tr>
     <tr>
@@ -4878,7 +4885,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
         <p>La fecha de inicio del evento, una de las opciones utilizadas para determinar la fecha del punto de contacto.</p>
       </td>
       <td>
-        <p>16/12/2016 19:30:00,000</p>
+        <p>2016-12-16 19:30:00.000</p>
       </td>
     </tr>
     <tr>
@@ -4890,7 +4897,7 @@ Eventos importados desde el sistema de origen. Esta tabla estará vacía si la s
         <p>La fecha de finalización del evento, una de las opciones utilizadas para determinar la fecha del punto de contacto.</p>
       </td>
       <td>
-        <p>16/12/2016 21:30:00,000</p>
+        <p>2016-12-16 21:30:00.000</p>
       </td>
     </tr>
     <tr>
@@ -4971,7 +4978,7 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
         <p>La fecha en la que se modificó por última vez la tarea, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>27/08/2018 18:31:53.000</p>
+        <p>2018-08-27 18:31:53.000</p>
       </td>
     </tr>
     <tr>
@@ -5041,7 +5048,7 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
         <p>El nombre del tipo de actividad, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>Llamar a un</p>
+        <p>Llamar</p>
       </td>
     </tr>
     <tr>
@@ -5053,7 +5060,7 @@ Tareas importadas desde el sistema de origen. Esta tabla se rellenará si están
         <p>La fecha en la que se realizó la tarea, una de las opciones utilizadas para determinar la fecha del punto de contacto.</p>
       </td>
       <td>
-        <p>27/08/2018 07:00:00,000</p>
+        <p>2018-08-27 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -5732,7 +5739,7 @@ La tabla de asignación para direcciones de correo electrónico e id. de visitan
         <p>La fecha de la última modificación de la fila</p>
       </td>
       <td>
-        <p>14/08/2018 23:55:03,000</p>
+        <p>2018-08-14 23:55:03.000</p>
       </td>
     </tr>
     <tr>
@@ -5742,7 +5749,7 @@ La tabla de asignación para direcciones de correo electrónico e id. de visitan
         <p>La fecha de creación de la fila.</p>
       </td>
       <td>
-        <p>14/08/2018 23:55:03,000</p>
+        <p>2018-08-14 23:55:03.000</p>
       </td>
     </tr>
     <tr>
@@ -6135,7 +6142,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>La fecha en la que se modificó la fila por última vez.</p>
       </td>
       <td>
-        <p>29/08/2018 00:46:47,000</p>
+        <p>2018-08-29 00:46:47.000</p>
       </td>
     </tr>
     <tr>
@@ -6213,7 +6220,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>El porcentaje calculado asignado a este punto de contacto porque forma parte de un contacto en forma de U.</p>
       </td>
       <td>
-        <p>100,0000000000000000000</p>
+        <p>100.0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -6269,7 +6276,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>El importe de la oportunidad, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>42000,00000000</p>
+        <p>42000.00000000</p>
       </td>
     </tr>
     <tr>
@@ -6321,7 +6328,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>La fecha de creación de la oportunidad, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>31/08/2018 15:45:47.000</p>
+        <p>2018-08-31 15:45:47.000</p>
       </td>
     </tr>
     <tr>
@@ -6333,7 +6340,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>La fecha de cierre de la oportunidad, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>31/12/2018 07:00:00,000</p>
+        <p>2018-12-31 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -6371,7 +6378,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
         <p>La fecha en la que se creó el registro de posible cliente, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>28/04/2017 00:21:52,000</p>
+        <p>2017-04-28 00:21:52.000</p>
       </td>
     </tr>
     <tr>
@@ -6640,7 +6647,7 @@ Envíos de formulario capturados.
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>07/08/2018 23:09:52,000</p>
+        <p>2018-08-07 23:09:52.000</p>
       </td>
     </tr>
     <tr>
@@ -7056,7 +7063,7 @@ Impresiones activadas y registradas. Esta tabla requiere una conexión DoubleCli
       </td>
       <td>varchar</td>
       <td>Se espera que sea nulo porque el campo está obsoleto.</td>
-      <td>NULO</td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8176,7 +8183,7 @@ Posibles clientes importados desde el sistema de origen.
         <p>La fecha en la que el posible cliente se convirtió en un contacto.</p>
       </td>
       <td>
-        <p>27/08/2018 07:00:00,000</p>
+        <p>2018-08-27 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -8425,7 +8432,7 @@ Transiciones de fase para posibles clientes o contactos.
         <p>La fecha en la que el registro realizó la transición a la fase.</p>
       </td>
       <td>
-        <p>27/08/2018 16:05:34,000</p>
+        <p>2018-08-27 16:05:34.000</p>
       </td>
     </tr>
     <tr>
@@ -8551,7 +8558,7 @@ Transiciones de fase para posibles clientes o contactos.
         <p>La fecha de la última modificación del registro.</p>
       </td>
       <td>
-        <p>28/08/2018 15:31:10.000</p>
+        <p>2018-08-28 15:31:10.000</p>
       </td>
     </tr>
     <tr>
@@ -8688,7 +8695,7 @@ Oportunidades importadas desde el sistema de origen.
         <p>La fecha de cierre prevista o real de la oportunidad, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>28/08/2019 07:00:00,000</p>
+        <p>2019-08-28 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -8714,7 +8721,7 @@ Oportunidades importadas desde el sistema de origen.
         <p>Importe del acuerdo que se espera o se cierra de la oportunidad, desde el sistema de origen.</p>
       </td>
       <td>
-        <p>8988,00000000</p>
+        <p>8988.00000000</p>
       </td>
     </tr>
     <tr>
@@ -8968,7 +8975,7 @@ Transiciones de fase para oportunidades.
         <p>La fecha en la que el registro realizó la transición a la fase.</p>
       </td>
       <td>
-        <p>26/05/2018 07:29:43,000</p>
+        <p>2018-05-26 07:29:43.000</p>
       </td>
     </tr>
     <tr>
@@ -9070,7 +9077,7 @@ Transiciones de fase para oportunidades.
         <p>La fecha de transición para la fase anterior, según la clasificación de la fase.</p>
       </td>
       <td>
-        <p>16/07/2015 17:41:49,000</p>
+        <p>2015-07-16 17:41:49.000</p>
       </td>
     </tr>
     <tr>
@@ -9092,7 +9099,7 @@ Transiciones de fase para oportunidades.
         <p>La fecha de la última modificación del registro.</p>
       </td>
       <td>
-        <p>28/08/2018 03:53:33,000</p>
+        <p>2018-08-28 03:53:33.000</p>
       </td>
     </tr>
     <tr>
@@ -9207,7 +9214,7 @@ Vistas de página recopiladas de las visitas web. Varias vistas de página puede
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>19/08/2018 16:55:37,000</p>
+        <p>2018-08-19 16:55:37.000</p>
       </td>
     </tr>
     <tr>
@@ -9747,7 +9754,7 @@ Asigna el nombre del segmento personalizado a su valor de categoría. (Esto asig
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>28/02/2022 18:12:35,000</p>
+        <p>2022-02-28 18:12:35.000</p>
       </td>
     </tr>
     <tr>
@@ -9846,7 +9853,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
         <p>La fecha de la sesión.</p>
       </td>
       <td>
-        <p>01/08/2016 14:24:21,000</p>
+        <p>2016-08-01 14:24:21.000</p>
       </td>
     </tr>
     <tr>
@@ -10424,7 +10431,7 @@ Sesiones procesadas desde las vistas de página. Varias vistas de página pueden
       <td>varchar</td>
       <td>Se espera que sea nulo porque el campo está obsoleto.</td>
       <td>
-        <p>NULO</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>
@@ -10955,7 +10962,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
         <p>La fecha de la última modificación de la fila</p>
       </td>
       <td>
-        <p>02/08/2018 06:36:50.000</p>
+        <p>2018-08-02 06:36:50.000</p>
       </td>
     </tr>
     <tr>
@@ -10967,7 +10974,7 @@ Vínculos de sitios desde cualquier cuenta de anuncios conectada.
         <p>La fecha en la que Marketo Measure descargó por primera vez el vínculo del sitio [!DNL Marketo Measure]</p>
       </td>
       <td>
-        <p>02/08/2018 06:36:50.000</p>
+        <p>2018-08-02 06:36:50.000</p>
       </td>
     </tr>
     <tr>
@@ -11114,7 +11121,7 @@ La lista de fases tal como se importan o definen en la aplicación [!DNL Marketo
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>22/08/2018 17:27:27,000</p>
+        <p>2018-08-22 17:27:27.000</p>
       </td>
     </tr>
     <tr>
@@ -11297,7 +11304,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>29/08/2018 22:29:30.000</p>
+        <p>2018-08-29 22:29:30.000</p>
       </td>
     </tr>
     <tr>
@@ -11381,7 +11388,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
         <p>La fecha del punto de contacto.</p>
       </td>
       <td>
-        <p>27/08/2018 20:04:40,000</p>
+        <p>2018-08-27 20:04:40.000</p>
       </td>
     </tr>
     <tr>
@@ -11665,7 +11672,7 @@ Puntos de contacto de comprador, todos los puntos de contacto asociados a un pos
         <p>La fecha en la que se realizó el envío del formulario.</p>
       </td>
       <td>
-        <p>20/06/2017 01:06:41,000</p>
+        <p>2017-06-20 01:06:41.000</p>
       </td>
     </tr>
     <tr>
@@ -12432,7 +12439,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
         <p>La fecha en la que se modificó el registro por última vez.</p>
       </td>
       <td>
-        <p>05/09/2018 23:30:53,000</p>
+        <p>2018-09-05 23:30:53.000</p>
       </td>
     </tr>
     <tr>
@@ -12532,7 +12539,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
         <p>La fecha en la que se produjo el punto de contacto del usuario.</p>
       </td>
       <td>
-        <p>05/01/2018 16:47:02,000</p>
+        <p>2018-01-05 16:47:02.000</p>
       </td>
     </tr>
     <tr>
@@ -12688,7 +12695,7 @@ Todos los puntos de contacto creados a partir de cualquier evento vinculado a un
         <p>La fecha en la que se realizó el envío del formulario.</p>
       </td>
       <td>
-        <p>03/06/2015 17:49:10,000</p>
+        <p>2015-06-03 17:49:10.000</p>
       </td>
     </tr>
     <tr>

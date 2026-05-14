@@ -3,10 +3,21 @@ description: Notificaciones de error - [!DNL Marketo Measure]
 title: Notificaciones de errores
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+subfeature_v2:
+  - id: ec526b86-7a6d-4fae-87bd-f61c37b9b506
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 30%
+source-wordcount: 1915
+ht-degree: 27%
 
 ---
 
@@ -180,11 +191,11 @@ La documentación de Salesforce sobre los déclencheur de flujo <a href="https:/
       <td>Se ha producido un error durante la exportación de CRM: MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Marketo Measure no tiene el permiso para ver/editar posibles clientes convertidos</td>
       <td>Consulte el siguiente documento de Experience League para obtener ayuda sobre cómo habilitar este permiso en su CRM<br/>
-          <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">Habilitación del permiso para editar posibles clientes convertidos</a></td>
+          <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">Habilitando el permiso para editar posibles clientes convertidos</a></td>
     </tr>
     <tr>
       <td>MISSING_FIELD_READ_PERMISSION</td>
-      <td>Se ha producido un error durante la importación de CRM: MISSING_FIELD_READ_PERMISSION: Tipo de entidad 'Event': INVALID_FIELD:<br/>
+      <td>Error durante la importación de Crm: MISSING_FIELD_READ_PERMISSION : Tipo de entidad 'Evento': INVALID_FIELD:<br/>
     SystemModstamp,IsDeleted,WhoId,bizible2__Bizible_Touchpoint_Date__c</td>
       <td>Marketo Measure carece de permisos de lectura en un campo obligatorio.</td>
       <td>Consulte los siguientes artículos de ayuda para obtener ayuda sobre los permisos que requiere Marketo Measure:
@@ -247,7 +258,7 @@ La documentación de Salesforce sobre los déclencheur de flujo <a href="https:/
       <td>La configuración de CRM no permite a Marketo Measure consultar un conjunto de datos lo suficientemente grande</td>
       <td>Conceda permisos para "Ver todos los datos" a Marketo Measure en el objeto designado.
       <p>
-       <a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">Aquí puede encontrar</a> más información sobre el permiso "Ver todos los datos".</td>
+      <a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">Aquí puede encontrar</a> más información sobre el permiso "Ver todos los datos".</td>
     </tr>
     <tr>
       <td>RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES</td>
@@ -285,7 +296,7 @@ La documentación de Salesforce sobre los déclencheur de flujo <a href="https:/
       <td>El paquete actual detectado ya no es compatible.</td>
       <td>Actualice el paquete a la versión más reciente:
         <ul>
-          <li> <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md">Prácticas recomendadas</a>
+          <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md">Prácticas recomendadas</a>
           </li>
           <li><a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md">Dynamics</a>
           </li>

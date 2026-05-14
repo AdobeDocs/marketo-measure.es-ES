@@ -4,10 +4,15 @@ description: Obtenga información acerca de Account-Based Marketing (ABM) y cóm
 title: Información general sobre el marketing basado en cuentas
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/iYWfa6eSeqICk5K3p2mVPRf2xt3UybpRFIJxSYzRmAA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 98%
+source-wordcount: 837
+ht-degree: 95%
 
 ---
 
@@ -70,7 +75,7 @@ Hay muchos componentes que entran en el algoritmo que calcula la PES. La actuali
 >Puede observar una calificación “N/A” o “-” (el símbolo del guion) en su Puntuación de participación predictiva para algunas cuentas.
 
 _Una calificación de “N/A” simplemente significa que no hay datos suficientes aún en esa cuenta para que el modelo genere una calificación verdadera; con más datos, se asignará una calificación._
-_Un grado de “-” (el símbolo de guion) significa que esta cuenta aún no ha sido procesada por el proceso de ABM, debido a limitaciones de tiempo, procesos ocasionalmente incumplidos, etc. Si cree que una cuenta debe tener una calificación basada en otras cuentas o marcos de tiempo similares, póngase en contacto e informe a [!DNL Marketo Measure]._
+_Un grado de &quot;-&quot; (símbolo de guión) significa que el proceso ABM aún no ha procesado esta cuenta, debido a restricciones de tiempo, procesos fallidos ocasionalmente, etc. Si cree que una cuenta debe tener una calificación basada en otras cuentas o marcos de tiempo similares, póngase en contacto e informe a [!DNL Marketo Measure]._
 
 ## Configuración del diseño de página de ABM en [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 

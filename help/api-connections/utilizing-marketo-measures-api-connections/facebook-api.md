@@ -4,9 +4,17 @@ description: API [!DNL Facebook] - [!DNL Marketo Measure]
 title: API [!DNL Facebook]
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/yW6j0Ha8-O0-AQo2ledBBpzji3hy7UHxFPa5L-9WNEg
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: 498
 ht-degree: 3%
 
 ---
@@ -34,7 +42,7 @@ En cuanto a la configuración, hay siete pasos por completar en la aplicación [
    >La persona que conecta la cuenta de [!DNL Facebook Ads] debe ser un administrador dentro de la cuenta de [!DNL Facebook Ads].
 
 1. Una vez que [!DNL Marketo Measure] esté conectado a su cuenta de Facebook, haga clic en el icono de lápiz situado junto a la cuenta.
-1. Dentro de esta vista, mueva el icono &quot;¿Etiquetado automático?&quot; Cambie a &#39;Sí&#39;. A continuación, active la casilla que se encuentra en la sección [!UICONTROL Más información] para aceptar los términos y condiciones. Asegúrese de que la opción [!UICONTROL Etiquetado automático] sigue establecida en &#39;[!UICONTROL Sí]&#39;.
+1. Dentro de esta vista, cambie el botón &#39;Etiquetado automático?&#39; a &#39;Sí&#39;. A continuación, active la casilla que se encuentra en la sección [!UICONTROL Más información] para aceptar los términos y condiciones. Asegúrese de que la opción [!UICONTROL Etiquetado automático] sigue establecida en &#39;[!UICONTROL Sí]&#39;.
 
 ## Conexión de la cuenta {#connecting-the-account}
 
@@ -83,7 +91,7 @@ Para que la integración funcione correctamente, debe habilitar el etiquetado au
    <td><p>[[!DNL Facebook] nombre del conjunto de anuncios]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Origen del Touchpoint</p></td> 
+   <td><p>Fuente del Punto de contacto</p></td> 
    <td><p>"[!DNL Facebook]" o [utm_source] si se proporcionan</p></td> 
   </tr> 
   <tr> 

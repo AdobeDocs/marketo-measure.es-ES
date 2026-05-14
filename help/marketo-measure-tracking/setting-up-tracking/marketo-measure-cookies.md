@@ -4,10 +4,16 @@ description: '[!DNL Marketo Measure] cookies:  [!DNL Marketo Measure]'
 title: Cookies de [!DNL Marketo Measure]
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/QOjNe0Eu2irVrpZVkbf5SVe-3COP1nhRqPg6oDlFhGY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 99%
+source-wordcount: 409
+ht-degree: 97%
 
 ---
 
@@ -106,7 +112,7 @@ Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que s
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Terceros, dominio=.<a href="https://bizibly.com/">bizibly.com</a></td>
+    <td>Terceros, dominio=.<a href="https://bizibly.com/">bizibble.com</a></td>
     <td>Asignación entre el ID de cookie de Marketo Measure en el dominio del inquilino y su ID de cookie de impresión Doubleclick.</td>
     <td>1 año</td>
     <td>Sí</td>
