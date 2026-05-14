@@ -3,9 +3,12 @@ description: '[!DNL Marketo Measure] 101 Información general de informes - [!DN
 title: Información general sobre los informes 101 de [!DNL Marketo Measure]
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/13R7Z5YTxgq5QdoT4O90MHzgva5e-cXf50V9jH75-TE
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: 930
 ht-degree: 5%
 
 ---
@@ -32,10 +35,10 @@ Estos informes le proporcionan los campos básicos y la infraestructura necesari
 
 _Si no encuentra la carpeta Informe de puntos de contacto del comprador o los seis informes &quot;_[!DNL Marketo Measure] 101..._&quot; que contiene esa carpeta, póngase en contacto con el servicio de asistencia para obtener ayuda._
 
-**Posibles clientes con puntos de contacto del comprador** | Las dos variaciones siguientes informan sobre los posibles clientes y sus puntos de contacto del comprador. Aunque utilizan el mismo tipo de informe base, se agrupan por distintas métricas, ID de posible cliente o canal de marketing, para proporcionar dos vistas clave de los datos. Este tipo de informe está diseñado para los informes principales de funnel y es ideal cuando desea explorar cómo los posibles clientes interactúan con los esfuerzos de marketing. Antes de cualquier personalización, los dos informes siguientes muestran lo siguiente:
+**Posibles clientes con puntos de contacto del comprador** | Las dos variaciones siguientes informan sobre posibles clientes y sus puntos de contacto del comprador. Aunque utilizan el mismo tipo de informe base, se agrupan por distintas métricas, ID de posible cliente o canal de marketing, para proporcionar dos vistas clave de los datos. Este tipo de informe está diseñado para los informes principales de funnel y es ideal cuando desea explorar cómo los posibles clientes interactúan con los esfuerzos de marketing. Antes de cualquier personalización, los dos informes siguientes muestran lo siguiente:
 
-**[!DNL Marketo Measure]101: Posibles clientes por canal** | Una vista de alto nivel de cómo los canales de marketing influyen en la creación de posibles clientes y en sus participaciones adicionales.
-**[!DNL Marketo Measure]101: posibles clientes por id.** | Muestra la historia de posibles clientes y es un informe mucho más granular que muestra cada posible cliente individual y los puntos de contacto del comprador relacionados.
+**[!DNL Marketo Measure]101: Posibles clientes por canal** | Una visión de alto nivel de cómo los canales de marketing influyen en la creación de posibles clientes y en sus participaciones adicionales.
+**[!DNL Marketo Measure]101: posibles clientes por id.** | Muestra la historia de posibles clientes y es un informe mucho más granular, que muestra cada posible cliente individual y sus puntos de contacto de comprador relacionados.
 
 **Posibles clientes/contactos con puntos de contacto del comprador** | Estos informes se denominan comúnmente informes de [!DNL Marketo Measure] personas. Utilizan el objeto personalizado [!DNL Marketo Measure] _[!DNL Marketo Measure]persona_ en lugar del objeto de posible cliente de los informes mencionados anteriormente.
 
@@ -44,11 +47,11 @@ El Objeto Persona de [!DNL Marketo Measure] relaciona los objetos Posible client
 Las dos variaciones de informes siguientes utilizan el mismo tipo de informe, pero se agrupan por distintas métricas, ID de persona (correo electrónico) frente a canal de marketing. Estos son los informes principales/secundarios de funnel de funnel que son ideales para explorar cómo los posibles clientes y contactos se relacionan con los esfuerzos de marketing. Antes de cualquier personalización, los dos informes siguientes muestran lo siguiente:
 
 **[!DNL Marketo Measure]101: posible cliente/contactos por canal** | Una vista de alto nivel de cómo los canales de marketing influyen en la creación de posibles clientes o contactos y en sus participaciones adicionales. Este informe es ideal para comprender la participación total en los canales de marketing y en los canales de marketing que están generando nuevos nombres en la instancia de Salesforce.
-**[!DNL Marketo Measure]101: posible cliente/contactos por id.** | Esto muestra la historia de cada persona [!DNL Marketo Measure] y es un informe mucho más granular que muestra a cada individuo y sus puntos de contacto de comprador, independientemente de si el punto de contacto se produjo cuando era un posible cliente o como contacto.
+**[!DNL Marketo Measure]101: posible cliente/contactos por id.** | Muestra la historia de cada [!DNL Marketo Measure] persona y es un informe mucho más granular que muestra a cada individuo y sus puntos de contacto de comprador, independientemente de si el punto de contacto se produjo cuando era un posible cliente o como contacto.
 
 **Oportunidades con puntos de contacto de atribución de comprador** | Los dos últimos informes &quot;_[!DNL Marketo Measure]101..._&quot; se encuentran en la parte inferior de los informes de funnel que muestran los datos de Buyer Attribution Touchpoint relacionados con las oportunidades. El principal elemento diferenciador de estos informes es que se basan en _Puntos de contacto de atribución del comprador_ que están relacionados con los datos de nivel de oportunidad y oportunidad, como los ingresos. Siempre que busque informar sobre Oportunidades o ingresos atribuidos, se debe utilizar este tipo de informe. Los dos informes siguientes utilizan el mismo tipo de informe; sin embargo, se agrupan por distintas métricas, ID de oportunidad o canal de marketing. Antes de cualquier personalización, los dos informes siguientes muestran lo siguiente:
 
-**[!DNL Marketo Measure]101: Oportunidades por canal** | Una vista de alto nivel de cómo los canales de marketing influyen en los ingresos atribuidos a través de las oportunidades y los impulsan.
+**[!DNL Marketo Measure]101: Oportunidades por canal** | Una visión de alto nivel de cómo los canales de marketing influyen en los ingresos atribuidos a través de las oportunidades y los impulsan.
 **[!DNL Marketo Measure]101: Oportunidades por identificador** | Esta versión pormenorizada del informe muestra el recorrido completo de las oportunidades. En este informe puede ver todas las Buyer Attribution Touchpoint asociadas a una oportunidad y sus ingresos atribuidos a través de los distintos modelos de atribución.
 
 Se considera una práctica recomendada tratar los informes &quot;_[!DNL Marketo Measure]101..._&quot; como plantillas para sus necesidades de creación de informes. Comenzar con uno de los informes anteriores le ahorrará tiempo y le garantizará que está trabajando con los campos correctos relacionados con los datos de [!DNL Marketo Measure]. Asegúrese siempre de &quot;Guardar como&quot; siempre que realice personalizaciones en las plantillas &quot;_[!DNL Marketo Measure]101..._&quot; para conservar la variación original del informe.

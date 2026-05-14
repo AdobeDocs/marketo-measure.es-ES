@@ -4,9 +4,12 @@ description: OAuth con [!DNL Azure Active Directory] para Dynamics CRM - [!DNL M
 title: OAuth con [!DNL Azure Active Directory]  para Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/fwFE85VMaQdXhF-w28PofUHxOLR39lb60zLMzEo2GnM
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: 806
 ht-degree: 0%
 
 ---
@@ -25,7 +28,7 @@ Esta configuración es para nuevos clientes de [!DNL Marketo Measure] que usan D
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com/#home).
 
-1. Seleccione el inquilino de Azure AD haciendo clic en su cuenta en la esquina superior derecha de la página, luego en la opción de navegación Cambiar directorio y, a continuación, seleccione el inquilino adecuado. Omita este paso si solo tiene un inquilino de Azure AD en su cuenta o si ya ha seleccionado el inquilino de Azure AD adecuado.
+1. Seleccione el inquilino de Azure AD haciendo clic en su cuenta en la esquina superior derecha de la página, haciendo clic en la navegación del Directorio de switches y, a continuación, seleccionando el inquilino adecuado. Omita este paso si solo tiene un inquilino de Azure AD en su cuenta o si ya ha seleccionado el inquilino de Azure AD adecuado.
 
    ![](assets/setup-2.png)
 
@@ -42,13 +45,13 @@ Esta configuración es para nuevos clientes de [!DNL Marketo Measure] que usan D
    ![](assets/setup-5.png)
 
 1. Siga las indicaciones y cree una aplicación. No importa si es una aplicación web o una aplicación cliente pública (móvil y de escritorio), pero si desea ejemplos específicos para aplicaciones web o aplicaciones cliente públicas, consulte [quickstarts](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).\
-   a. Nombre es el nombre de la aplicación y describe la aplicación a los usuarios finales.\
+   a. Name es el nombre de la aplicación y describe la aplicación para los usuarios finales.\
    b. En Tipos de cuenta admitidos, seleccione Cuentas en cualquier directorio organizativo y cuentas personales de Microsoft.\
-   c. Proporcione el URI de redireccionamiento. En las aplicaciones web, esta es la dirección URL base de la aplicación en la que los usuarios pueden iniciar sesión. Por ejemplo, `http://localhost:12345`. Para clientes públicos (móviles y de escritorio), Azure AD lo utiliza para devolver respuestas de token. Introduzca un valor específico para la aplicación. Por ejemplo, `http://MyFirstAADApp`.
+   c. Proporcione el URI de redireccionamiento. En las aplicaciones web, esta es la dirección URL base de la aplicación en la que los usuarios pueden iniciar sesión. Por ejemplo, `http://localhost:12345`. Para los clientes públicos (móviles y de escritorio), Azure AD lo utiliza para devolver respuestas de token. Introduzca un valor específico para la aplicación. Por ejemplo, `http://MyFirstAADApp`.
 
 1. Una vez completado el registro, Azure AD asigna a su aplicación un identificador de cliente único (el ID de aplicación). Necesita este valor en la siguiente sección, así que cópielo desde la página de la aplicación.
 
-1. Para encontrar su aplicación en el portal de Azure, haga clic en **[!UICONTROL Registros de aplicación]** y, a continuación, haga clic en **[!UICONTROL Todas las aplicaciones]**. Abra la aplicación recién creada
+1. Para encontrar la aplicación en el portal de Azure, haga clic en **[!UICONTROL Registros de aplicación]** y, a continuación, haga clic en **[!UICONTROL Todas las aplicaciones]**. Abra la aplicación recién creada
 
 1. Haga clic en **[!UICONTROL Autenticación]** en el menú de la izquierda.
 
@@ -100,7 +103,7 @@ Una vez finalizado el registro de la aplicación, se puede crear un usuario de l
    >
    >* En el campo ID de aplicación, introduzca el ID de aplicación de la aplicación que registró anteriormente en Azure AD.
 
-1. Si la configuración es correcta, después de seleccionar **[!UICONTROL Guardar]**, los campos **[!UICONTROL ID de aplicación URI]** y **[!UICONTROL ID de objeto de Azure AD]** se rellenarán automáticamente con los valores correctos.
+1. Si la configuración es correcta, después de seleccionar **[!UICONTROL Guardar]**, los campos **[!UICONTROL ID de aplicación URI]** e **[!UICONTROL ID de objeto de Azure AD]** se rellenarán automáticamente con los valores correctos.
 
 1. Antes de salir del formulario de usuario, elija **[!UICONTROL Administrar funciones]** y asigne una función de seguridad a este usuario de la aplicación para que el usuario de la aplicación pueda acceder a los datos de organización deseados.
 
@@ -110,13 +113,13 @@ Una vez finalizado el registro de la aplicación, se puede crear un usuario de l
 
 1. Cuando se le soliciten credenciales de OAuth, rellene los campos ID de cliente, Secreto de cliente y URI de ID de aplicación que se configuraron en la sección anterior.
 
-a. El ID de cliente es el ID del paso #7 de la sección anterior. Si no lo ha anotado, el ID de aplicación se muestra en la Configuración del registro de la aplicación.
+a. ID de cliente es el ID del paso #7 en la sección anterior. Si no lo ha anotado, el ID de aplicación se muestra en la Configuración del registro de la aplicación.
 
-b. Secreto de cliente es el secreto de aplicación creado en Azure Portal para su aplicación en Certificados y secretos.
+b. Secreto de cliente es el secreto de aplicación que se crea en el portal de Azure para su aplicación en Certificados y secretos.
 
 ![](assets/creating-2e.png)
 
-c. El URI del ID de aplicación es la dirección URL de la API web de destino (recurso protegido). Para encontrar la dirección URL del id. de aplicación, en Azure Portal, haga clic en [!DNL Azure Active Directory], luego en Registros de aplicaciones, abra la página Configuración de la aplicación y haga clic en Propiedades. También puede ser un recurso externo como `https://graph.microsoft.com`. Normalmente, es la dirección URL de la instancia de Dynamics.
+c. El URI del ID de aplicación es la dirección URL de la API web de destino (recurso protegido). Para encontrar la dirección URL del id. de aplicación, en el portal de Azure, haga clic en [!DNL Azure Active Directory], luego en Registros de aplicaciones, abra la página Configuración de la aplicación y haga clic en Propiedades. También puede ser un recurso externo como `https://graph.microsoft.com`. Normalmente, es la dirección URL de la instancia de Dynamics.
 
 1. Después de hacer clic en **[!UICONTROL Enviar]**, se le pedirá que inicie sesión con [!DNL Azure Active Directory]. Si la autenticación se realiza correctamente, su cuenta de Dynamics se conectará como proveedor de datos en [!DNL Marketo Measure].
 

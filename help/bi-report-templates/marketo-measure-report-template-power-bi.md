@@ -3,10 +3,13 @@ description: Plantilla de informe [!DNL Marketo Measure] - Power BI - [!DNL Mark
 title: 'Plantilla de informe de [!DNL Marketo Measure]: Power BI'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/xoNrfpeiDzwSGh1Ii3Anl1O78vaRrvmHlzYTrPG7k5I
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 99%
+source-wordcount: 2565
+ht-degree: 97%
 
 ---
 
@@ -106,8 +109,8 @@ Dado que los nombres de segmentos se pueden personalizar, tienen nombres de colu
 ### Conversión de ID que distingue entre mayúsculas y minúsculas {#case-sensitive-id-conversion}
 
 Los datos de [!DNL Marketo Measure] tienen un par de tablas en las que los valores de clave principal (ID) distinguen entre mayúsculas y minúsculas, concretamente Touchpoint y Campaign. El motor de datos que impulsa la capa de modelado de Power BI no distingue entre mayúsculas y minúsculas, lo que da como resultado valores de ID “duplicados”. Para preservar la distinción entre mayúsculas y minúsculas en estos valores clave, hemos implementado pasos de transformación que adjuntan caracteres invisibles a caracteres en minúsculas, preservando la exclusividad del ID cuando se evalúa en la capa del motor de datos. Encontrará más detalles sobre el problema y los pasos detallados del método que hemos empleado [aquí] (https://blog.crossjoin.co.uk/2019
-/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Estos valores de ID con distinción de mayúsculas y minúsculas están etiquetados como “ID de unión” y se utilizan como claves de unión en la capa de relación. Hemos ocultado los ID de unión de la capa de creación de informes, manteniendo los valores de ID originales visibles para su uso en la creación de informes, ya que los caracteres invisibles pueden interferir con las funciones 
-de cortar/pegar y el filtrado.
+/10/06/power-bi-and-case-sibility/){target="_blank"}. Estos valores de ID con distinción de mayúsculas y minúsculas están etiquetados como “ID de unión” y se utilizan como claves de unión en la capa de relación. Hemos ocultado los ID de unión de la capa de creación de informes, manteniendo los valores de ID originales visibles para su uso en la creación de informes, ya que los caracteres invisibles pueden interferir con el corte
+Funciones y filtrado /paste.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -214,7 +217,7 @@ Todos los recuentos de posibles clientes en Discover se atribuyen a los recuento
 
 ### Ruta de participación {#engagement-path}
 
-No hay comparación directa entre el informe [!UICONTROL Ruta de participación] en Discover y la plantilla. El informe en [!DNL Discover] se modela a partir del Punto de contacto, mientras que el informe de la plantilla se modela a partir del Punto de contacto de atribución. La plantilla se centra únicamente en las oportunidades y sus puntos de contactos relacionados, en lugar de mostrarlos a todos.
+No hay comparación directa entre el informe [!UICONTROL Ruta de participación] en Discover y la plantilla. El informe en [!DNL Discover] se modela a partir del punto de contacto, mientras que el informe de la plantilla se modela a partir del punto de contacto de atribución. La plantilla se centra únicamente en las oportunidades y sus puntos de contactos relacionados, en lugar de mostrarlos a todos.
 
 ### Velocidad del acuerdo {#deal-velocity}
 

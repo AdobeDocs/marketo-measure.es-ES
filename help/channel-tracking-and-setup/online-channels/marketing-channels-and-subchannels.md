@@ -4,10 +4,13 @@ description: Canales y subcanales de marketing de  [!DNL Marketo Measure]
 title: Canales y subcanales de marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: 453
+ht-degree: 93%
 
 ---
 
@@ -39,7 +42,7 @@ El Canal de marketing es el nivel de clasificación más amplio y puede cubrir u
 
 **Subcanal**
 
-Los subcanales son la segunda pieza del rompecabezas al agrupar los Clientes potenciales entrantes. Los subcanales cuentan la historia de exactamente _qué_ iteración de su Canal de marketing se utilizó. Por ejemplo, dentro del Canal de marketing social de pago, puede tener Subcanales para **AdWord**, **BingAds**, **Facebook**, etc. El Subcanal suele corresponder al valor del parámetro utm_source encontrado en su dirección URL.
+Los subcanales son la segunda pieza del rompecabezas al agrupar los Clientes potenciales entrantes. Los subcanales cuentan la historia de exactamente _qué_ iteración de su Canal de marketing se utilizó. Por ejemplo, en el canal de marketing social de pago, es posible que tengas subcanales para **AdWords**, **BingAds**, **Facebook**, etc. El subcanal suele corresponder al valor del parámetro utm_source encontrado en la dirección URL.
 
 ## Ejemplo de caso de uso {#use-case-example}
 

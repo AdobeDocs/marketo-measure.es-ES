@@ -4,9 +4,13 @@ description: Integración de actividades de [!DNL Marketo Engage] - [!DNL Market
 title: Integración de actividades de [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/X0GAwexe-IPzGn-ITUglGHhbiwVWtTy1uHEnfDNpQCI
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: 1662
 ht-degree: 1%
 
 ---
@@ -44,7 +48,7 @@ Como parte de la integración general de [!DNL Marketo Measure] y [!DNL Marketo 
 
 1. Para cada tipo de actividad, debe definir una o más reglas que determinen qué registros cumplen los requisitos para los puntos de contacto. En este ejemplo, agregamos una regla para el tipo de actividad &quot;Cambiar puntuación&quot; para que el sistema cree un punto de contacto cuando una persona de Marketo alcance una puntuación de 90 o superior.
 
-1. En primer lugar, según el tipo de actividad, es posible que tenga que configurar un [!DNL Marketo Measure] Nombre de campaña que se pueda usar más adelante para la asignación de canales. Los nombres de campaña [!DNL Marketo Measure] se pueden reutilizar en varias reglas. Esto ayuda a tener nombres más amplios que se pueden utilizar en una sola regla de canal. No todos los tipos de actividades contienen un programa de Marketo, por lo que es necesario especificar un nombre como primer paso.
+1. En primer lugar, según el tipo de actividad, es posible que tenga que configurar un [!DNL Marketo Measure] Nombre de campaña que se pueda usar más adelante para la asignación de canales. [!DNL Marketo Measure] Los nombres de campaña se pueden reutilizar en varias reglas. Esto ayuda a tener nombres más amplios que se pueden utilizar en una sola regla de canal. No todos los tipos de actividades contienen un programa de Marketo, por lo que es necesario especificar un nombre como primer paso.
 
    A continuación se muestra un ejemplo del aspecto que tendría ese paso adicional:
 

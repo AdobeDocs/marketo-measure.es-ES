@@ -4,10 +4,13 @@ description: Agregando  [!DNL Marketo Measure] script - [!DNL Marketo Measure]
 title: 'Adición del script de  [!DNL Marketo Measure] '
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 57%
+source-wordcount: 1292
+ht-degree: 53%
 
 ---
 
@@ -17,7 +20,7 @@ El JavaScript de [!DNL Marketo Measure] que le gustaría rastrear mediante [!DNL
 
 >[!NOTE]
 >
->Asegúrese de que haber reclamado todos los dominios adecuados de [&#x200B; en  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} además de implementar el JavaScript de [!DNL Marketo Measure].
+>Asegúrese de que haber reclamado todos los dominios adecuados de [ en  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} además de implementar el JavaScript de [!DNL Marketo Measure].
 
 Al comenzar con [!DNL Marketo Measure], hay dos maneras de añadir el JavaScript de [!DNL Marketo Measure] a su sitio web:
 
@@ -116,7 +119,7 @@ Si se activa una advertencia [!DNL Web Application Firewall (WAF)] durante la co
 
 **Segundo dominio**
 
-* Problema: [!DNL Marketo Measure] JavaScript es un dominio específico, por lo que se deben realizar pasos adicionales para cualquier dominio independiente o internacional. [!DNL Marketo Measure] JS puede administrar subdominios en el mismo dominio raíz.
+* Problema: [!DNL Marketo Measure] JavaScript es un dominio específico, por lo que se deben realizar pasos adicionales para cualquier dominio independiente o internacional. [!DNL Marketo Measure] JS puede gestionar subdominios en el mismo dominio raíz.
 * Solución: si es propietario de varios dominios raíz, que le gustaría que [!DNL Marketo Measure] rastreara, asegúrese de añadir JS a los dominios y permita que su consultor de [!DNL Marketo Measure] sepa qué dominios deben asociarse manualmente a su cuenta de [!DNL Marketo Measure].
 
 ## Pruebas de el JavaScript de [!DNL Marketo Measure] {#testing-marketo-measure-javascript}
@@ -129,12 +132,12 @@ Para probar un formulario usted mismo, siga estos pasos:
 
 1. Utilice siempre un explorador de incógnito o borre la caché entre cada prueba de envío de formulario y utilice una dirección de correo electrónico diferente cada vez.
 
-   a. Una práctica recomendada es utilizar un correo electrónico falso que contenga la hora del día y algo que indique que es una prueba. Por ejemplo: testing830am@test.com.
+   a. Una práctica recomendada es utilizar un correo electrónico falso que contenga algo que indique que es una prueba y la hora del día. Por ejemplo: testing830am@test.com.
 
 1. Registre la dirección URL de la página que está enviando el formulario y el correo electrónico utilizado.
 
 1. Busque el registro creado en su CRM (posible cliente o contacto) para dicho envío de formulario y compruebe que se creó correctamente un punto de contacto.
 
-   a. Puede utilizar un informe de existencias de [!DNL Marketo Measure] como posibles clientes con Buyer Touchpoints u observe el diseño de la página de posible cliente/contacto si decide actualizar los diseños de página con detalles de [!DNL Marketo Measure].
+   a. Puede usar un informe de existencias de [!DNL Marketo Measure], como posibles clientes con puntos de contacto del comprador, o mirar el diseño de página de posible cliente/contacto si decide actualizar los diseños de página con [!DNL Marketo Measure] detalles.
 
    b. Los datos podrían tardar un poco en procesarse.

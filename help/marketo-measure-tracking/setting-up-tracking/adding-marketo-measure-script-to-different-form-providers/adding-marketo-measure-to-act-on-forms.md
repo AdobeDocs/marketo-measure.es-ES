@@ -4,9 +4,11 @@ description: Agregando  [!DNL Marketo Measure] a Forms de inicio de sesión - [!
 title: Adición de  [!DNL Marketo Measure]  a formularios Act-On
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/BUdHiCxfaG7a8Tays-Oqg9ZJQjSZJMM4-ChPHuF0RCg
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 77
 ht-degree: 6%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 6%
 ## Direcciones {#directions}
 
 1. En el formulario que está editando, seleccione la opción **[!UICONTROL Configuración]** en la esquina derecha.
-1. Busque un área etiquetada [!UICONTROL &#x200B; como &quot;Análisis de web externo&quot;.] Aquí es donde suelta el fragmento de código de seguimiento [!DNL Marketo Measure].
+1. Busque un área denominada [!UICONTROL &quot;Análisis de Web externo&quot;.] Aquí es donde suelta el fragmento de código de seguimiento [!DNL Marketo Measure].
 
 ## JavaScript de [!DNL Marketo Measure] {#marketo-measure-javascript}
 

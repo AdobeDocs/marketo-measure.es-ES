@@ -3,9 +3,13 @@ description: Prácticas recomendadas para canales en línea de  [!DNL Marketo Me
 title: Prácticas recomendadas para canales en línea
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/USJRMuxX8gBPFwCYWb5ujG-158EWyVpwwy47studXK0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: 613
 ht-degree: 100%
 
 ---
@@ -32,7 +36,7 @@ Cosas que hay que tener en cuenta:
    * Si el canal no lleva personas a su sitio, no es un Canal en línea
 * Es aceptable tener varias reglas para un canal o subcanal
    * Se pueden considerar que varias reglas “proyectan una red más amplia” para garantizar que cada punto de contacto se asigne correctamente. A menudo, los parámetros se pueden añadir incorrectamente o pasar por alto por completo, por lo que tener varias reglas para capturar un canal/subcanal es una buena idea para garantizar la precisión de la asignación.
-* La lógica de [!DNL Marketo Measure] da prioridad a la asignación de puntos de contacto en orden descendente, empezando por la fila superior de la hoja de cálculo y bajando 
+* La lógica de [!DNL Marketo Measure] da prioridad a la asignación de puntos de contacto en orden descendente, empezando por la fila superior de la hoja de cálculo y bajando
    * [!DNL Marketo Measure] lee cada regla (fila), buscando el primer ajuste verdadero. A continuación, el punto de contacto se asigna a ese canal/subcanal
    * No ordene la hoja en orden alfabético, ya que esto interfiere con las reglas lógicas.
 * Mantener las reglas entre corchetes; no editar ni agregar a las reglas entre corchetes (ejemplo; [búsqueda de pago de AdWords] o [Facebook de pago])

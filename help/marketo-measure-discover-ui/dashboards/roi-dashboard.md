@@ -1,16 +1,19 @@
 ---
 description: Tablero de ROI - [!DNL Marketo Measure]  - Producto
-title: 'Panel de control de ROI '
+title: Panel de control de ROI
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/fPjoTK2sNSt8lOg4qePjqJIL8vOPhWy-GK5gQLqeSc4
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: 736
 ht-degree: 2%
 
 ---
 
-# Panel de control de ROI  {#roi-dashboard}
+# Panel de control de ROI {#roi-dashboard}
 
 El panel ROI proporciona a los especialistas en marketing una vista granular de la rentabilidad de la inversión en canales, subcanales y campañas. Desglosa meticulosamente los patrones de coste e ingresos, a la vez que destaca métricas como coste por cliente potencial, acuerdo y oportunidad, lo que garantiza una comprensión integral de la atribución de marketing.
 

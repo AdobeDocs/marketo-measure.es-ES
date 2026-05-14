@@ -4,16 +4,20 @@ description: Configuración de canales personalizados en línea,  [!DNL Marketo 
 title: Configuración de canales personalizados en línea
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/8mxa4BFlZDGPRecGF-ZYDIf5pzPpistFv2kOUF0Se88
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: 1225
 ht-degree: 100%
 
 ---
 
 # Configuración de canales personalizados en línea {#online-custom-channel-setup}
 
-Para disponer de un sistema de informes preciso, se deben configurar canales de marketing para que reflejen la estrategia de UTM de su organización.  Esta guía le orienta acerca de la mejor manera de configurar sus reglas de canales personalizados.
+Para disponer de un sistema de informes preciso, se deben configurar canales de marketing para que reflejen la estrategia de UTM de su organización. Esta guía le orienta acerca de la mejor manera de configurar sus reglas de canales personalizados.
 
 ## Antes de empezar {#before-you-begin}
 
@@ -46,7 +50,7 @@ La hoja de cálculo tiene siete columnas:
 * **Página de destino:** agregue la página de destino aquí
 * **Sitio web de referencia:** las direcciones URL de los sitios web que hacen referencia al tráfico de sus páginas o la lógica integrada de [!DNL Marketo Measure] (indicada entre corchetes)
 
-La octava columna indica qué reglas no se pueden eliminar de la hoja de cálculo con “No eliminar”.  La parte superior de la hoja de cálculo tiene reglas de canal predeterminadas que [!DNL Marketo Measure] recomienda no cambiar ni eliminar aunque no utilice estos canales. [!DNL Marketo Measure] tiene integraciones profundas con estas plataformas, por lo que se incluyen de forma predeterminada.
+La octava columna indica qué reglas no se pueden eliminar de la hoja de cálculo con “No eliminar”. La parte superior de la hoja de cálculo tiene reglas de canal predeterminadas que [!DNL Marketo Measure] recomienda no cambiar ni eliminar aunque no utilice estos canales. [!DNL Marketo Measure] tiene integraciones profundas con estas plataformas, por lo que se incluyen de forma predeterminada.
 
 Las filas representan reglas y el orden en el que [!DNL Marketo Measure] da prioridad a los datos. La primera fila tiene prioridad sobre la segunda fila, la segunda tiene prioridad sobre la tercera y así sucesivamente. Al determinar en qué canal y subcanal de marketing se incluirán los puntos de contacto, [!DNL Marketo Measure] lee de arriba a abajo, de izquierda a derecha, hasta que encuentra una fila que cumple los criterios del punto de contacto. (Si un punto de contacto tiene un elemento `utm_source=Facebook`, el punto de contacto se incluye en el canal Social.Facebook debido a la regla 15 de la captura de pantalla).
 
@@ -70,7 +74,7 @@ El canal predeterminado “Otros” existe para capturar datos que no cumplen lo
 
 ![](assets/6.png)
 
-Dado que la lógica de [!DNL Marketo Measure] funciona al máximo, tenga en cuenta de que la regla comodín, indicada con un asterisco (&#42;), debe colocarse al final de la hoja de reglas.  Todos los datos que el resto de reglas no hayan capturado o clasificado se agregan automáticamente a este bloque comodín.
+Dado que la lógica de [!DNL Marketo Measure] funciona al máximo, tenga en cuenta de que la regla comodín, indicada con un asterisco (&#42;), debe colocarse al final de la hoja de reglas. Todos los datos que el resto de reglas no hayan capturado o clasificado se agregan automáticamente a este bloque comodín.
 
 A continuación se muestran más ejemplos de lógica comodín:
 
@@ -78,11 +82,11 @@ A continuación se muestran más ejemplos de lógica comodín:
 * &#42;correo = termina con “correo”
 * correo&#42; = [!UICONTROL comienza con correo]
 
-Además, tenga en cuenta que si crea un subcanal para uno de los canales, deberá crear un subcanal para todas las reglas de dicho canal.  En otras palabras, si crea un subcanal, no puede dejar en blanco el resto de las columnas.
+Además, tenga en cuenta que si crea un subcanal para uno de los canales, deberá crear un subcanal para todas las reglas de dicho canal. En otras palabras, si crea un subcanal, no puede dejar en blanco el resto de las columnas.
 
 ## Configuración de las reglas de canales personalizados {#setting-up-your-custom-channels-rules}
 
-Una vez que haya decidido cómo desea organizar y priorizar los datos, estará listo para agregar las reglas a la hoja de cálculo.  A continuación se indican algunas prácticas recomendadas:
+Una vez que haya decidido cómo desea organizar y priorizar los datos, estará listo para agregar las reglas a la hoja de cálculo. A continuación se indican algunas prácticas recomendadas:
 
 * Mantenga las reglas tan sencillas como sea posible desde el principio. Siempre puede basarse en las reglas a medida que avanza.
 * No agregue ningún carácter especial en los nombres de canal (por ejemplo, $%#&amp;&#42;@)
@@ -96,6 +100,6 @@ Una vez que haya decidido cómo desea organizar y priorizar los datos, estará l
 
 ## Cargar las reglas de los canales personalizados {#uploading-your-custom-channels-rules}
 
-Asegúrese de que los nuevos valores de canal y subcanal que está agregando en el CSV ya se hayan agregado en el área de configuración de canal de la cuenta Bizible.  Compruebe si todos los nombres de canal y subcanal coinciden en el CSV con el área de configuración de canal de su cuenta de [!DNL Marketo Measure]. Asegúrese de comprobar la existencia de comas y espacios.
+Asegúrese de que los nuevos valores de canal y subcanal que está agregando en el CSV ya se hayan agregado en el área de configuración de canal de la cuenta Bizible. Compruebe si todos los nombres de canal y subcanal coinciden en el CSV con el área de configuración de canal de su cuenta de [!DNL Marketo Measure]. Asegúrese de comprobar la existencia de comas y espacios.
 
-Si recibe un mensaje de error durante la carga, corrija el problema y vuelva a cargar.  Si no recibe ningún mensaje de error, haga clic en **Guardar y procesar** en la parte inferior de la página.
+Si recibe un mensaje de error durante la carga, corrija el problema y vuelva a cargar. Si no recibe ningún mensaje de error, haga clic en **Guardar y procesar** en la parte inferior de la página.

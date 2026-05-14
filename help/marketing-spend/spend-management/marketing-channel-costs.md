@@ -4,9 +4,13 @@ description: Costos de canal de mercadotecnia - [!DNL Marketo Measure]
 title: Costes de canales de marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Mjpr4y4vxdeefsbULVxjk3Gf6jdy7Q2ST70gg73dfqk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: 1295
 ht-degree: 1%
 
 ---
@@ -91,7 +95,7 @@ Puede importar el archivo y abrirlo utilizando Google Sheets, Apple Numbers, Mic
 
 Después de importar la hoja, realice los cambios que desee, como agregar costos a los canales y subcanales o actualizar la información existente.
 
-Compruebe las reglas lógicas de la hoja. Cada fila debe contener un canal y uno de sus subcanales separados por un punto (.) al final. Es importante utilizar este formato de forma coherente.
+Compruebe las reglas lógicas de la hoja. Cada fila debe contener un canal y uno de sus subcanales separados por un (.) punto al final. Es importante utilizar este formato de forma coherente.
 
 Por ejemplo, para indicar que Facebook es el subcanal y social es el canal, la regla debe escribirse de la siguiente manera: &quot;Social.Facebook&quot;. Del mismo modo, para rastrear un evento sin conexión, la sintaxis del canal debe ser: &quot;Events.Big Conference&quot;. En la siguiente imagen se muestran ejemplos:
 

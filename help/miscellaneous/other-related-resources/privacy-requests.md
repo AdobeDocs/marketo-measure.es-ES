@@ -3,10 +3,14 @@ description: Solicitudes de privacidad - [!DNL Marketo Measure]
 title: Solicitudes de privacidad
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 25%
+source-wordcount: 284
+ht-degree: 26%
 
 ---
 
@@ -16,8 +20,8 @@ Este documento proporciona información general sobre la administración de soli
 
 Puede enviar solicitudes individuales para acceder a los datos de consumidores y eliminarlos de [!DNL Marketo Measure] de dos maneras:
 
-* A través de la [[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=es){target="_blank"}.
-* Mediante la API **[!DNL Privacy Service]**. Consulte la documentación [aquí](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es){target="_blank"} y la referencia de la API [aquí](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* A través de la [[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Mediante la API **[!DNL Privacy Service]**. Consulte la documentación [aquí](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} y la referencia de la API [aquí](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"} admite dos tipos de solicitudes: acceso a datos y eliminación de datos.
 
@@ -29,7 +33,7 @@ Para realizar solicitudes de acceso y eliminación de datos para [!DNL Marketo M
 
 1. Identificar lo siguiente:
 
-   a. ID de organización de IMS
+   a. ID de organización IMS
 
    b. Dirección de correo electrónico de la persona sobre la que desea actuar
 

@@ -3,10 +3,14 @@ description: '[!DNL Marketo Measure] integraciones con Adobe Analytics - [!DNL M
 title: '[!DNL Marketo Measure] integraciones con  [!DNL Adobe Analytics]'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 1%
+source-wordcount: 968
+ht-degree: 2%
 
 ---
 
@@ -34,11 +38,11 @@ La integración de Atributos del cliente B2B permite a los usuarios de [!DNL Mar
 
    Introduzca su ID de organización de Adobe IMS. Este ID se muestra en la esquina inferior derecha de su Admin Console de Adobe Experience Cloud. Para obtener más ayuda para encontrar este ID, consulte con el equipo de cuenta de Adobe (su administrador de cuentas).
 
-1. Cuando haya terminado de crear la conexión en su cuenta de [!DNL Marketo Measure], debe volver a la consola de Experience Cloud para [validar el esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=es). No es necesario que se preocupe por la carga del archivo FTP, [!DNL Marketo Measure] ha automatizado esa parte por usted. Vaya a la pantalla de esquema &quot;Ver/Editar&quot; del Source de atributos del cliente que creó en el paso 1 y especifique a Adobe cuáles son los tipos de datos para cada uno de los atributos que [!DNL Marketo Measure] ha cargado en su nombre. También puede crear nuevos nombres descriptivos para mostrar para los atributos cargados, si lo desea.
+1. Cuando haya terminado de crear la conexión en su cuenta de [!DNL Marketo Measure], debe volver a la consola de Experience Cloud para [validar el esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). No es necesario que se preocupe por la carga del archivo FTP, [!DNL Marketo Measure] ha automatizado esa parte por usted. Vaya a la pantalla de esquema &quot;Ver/Editar&quot; del Source de atributos del cliente que creó en el paso 1 y especifique a Adobe cuáles son los tipos de datos para cada uno de los atributos que [!DNL Marketo Measure] ha cargado en su nombre. También puede crear nuevos nombres descriptivos para mostrar para los atributos cargados, si lo desea.
 
    Si seleccionó sincronizar atributos de su objeto de cuenta de CRM, es muy recomendable que elija nuevos nombres para mostrar para ellos, ya que [!DNL Marketo Measure] solo rellena los nombres de nivel de API para estos atributos, que generalmente no son compatibles con la creación de informes.
 
-1. El último paso es configurar Suscripciones de atributos para las aplicaciones de Experience Cloud en las que desea utilizar los atributos. Puede configurar suscripciones para [!DNL Adobe Analytics] o [!DNL Adobe Target].  Encontrará más información sobre cómo hacerlo [aquí](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html?lang=es).
+1. El último paso es configurar Suscripciones de atributos para las aplicaciones de Experience Cloud en las que desea utilizar los atributos. Puede configurar suscripciones para [!DNL Adobe Analytics] o [!DNL Adobe Target].  Encontrará más información sobre cómo hacerlo [aquí](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
 
 ## Descripciones de atributos {#attribute-descriptions}
 

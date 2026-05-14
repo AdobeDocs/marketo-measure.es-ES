@@ -4,10 +4,13 @@ description: Configuración de la vista del administrador de campañas de doble 
 title: Configuración de la atribución de visualizaciones del administrador de campañas de DoubleClick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/RekX4OsH-i5HHm-KyRNTp8r6SHhJRGM14trA7XXaJNQ
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 27%
+source-wordcount: 425
+ht-degree: 28%
 
 ---
 
@@ -41,7 +44,7 @@ Agregue la etiqueta a Doubleclick en la configuración Anunciante y cree una Eti
 
 1. Una vez agregado, confirme que los delimitadores se asignan de la siguiente manera. Debe ser automático una vez que se aplique la etiqueta:
 
-   v = %eadv! ID de anunciante [!DNL Expand]\
+   v = %eadv! [!DNL Expand] ID del anunciante\
    a = %eaid! Expandir ID de anuncio\
    c = %ecid! Expandir ID de Creative\
    s = %esid! Expandir ID del sitio\

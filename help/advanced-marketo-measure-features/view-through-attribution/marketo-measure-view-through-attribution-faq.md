@@ -4,10 +4,13 @@ description: Preguntas frecuentes sobre la atribución de vista [!DNL Marketo Me
 title: Preguntas frecuentes sobre la atribución de visualizaciones de [!DNL Marketo Measure]
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 27%
+source-wordcount: 506
+ht-degree: 33%
 
 ---
 
@@ -59,56 +62,56 @@ Hemos realizado un análisis cuidadoso de los datos de impresión y su influenci
   </tr> 
   <tr> 
    <td><strong>Impresiones</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>10 %</td> 
-   <td>10 %</td> 
-   <td>10 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>10%</td> 
+   <td>10%</td> 
+   <td>10%</td> 
    <td>Personalizado</td> 
   </tr> 
   <tr> 
    <td><strong>FT</strong></td> 
    <td>100 %</td> 
-   <td>0 %</td> 
-   <td>35 %</td> 
-   <td>26,6 %</td> 
+   <td>0%</td> 
+   <td>35%</td> 
+   <td>26.6%</td> 
    <td>20 %</td> 
    <td>Personalizado</td> 
   </tr> 
   <tr> 
    <td><strong>LC</strong></td> 
-   <td>0 %</td> 
+   <td>0%</td> 
    <td>100 %</td> 
-   <td>35 %</td> 
-   <td>26,6 %</td> 
+   <td>35%</td> 
+   <td>26.6%</td> 
    <td>20 %</td> 
    <td>Personalizado</td> 
   </tr> 
   <tr> 
    <td><strong>OC</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>26,6 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>26.6%</td> 
    <td>20 %</td> 
    <td>Personalizado</td> 
   </tr> 
   <tr> 
    <td><strong>Cerrado</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>20 %</td> 
    <td>Personalizado</td> 
   </tr> 
   <tr> 
    <td><strong>Segundo nombre</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>20 %</td> 
-   <td>10 %</td> 
-   <td>10 %</td> 
+   <td>10%</td> 
+   <td>10%</td> 
    <td>Personalizado</td> 
   </tr> 
  </tbody> 

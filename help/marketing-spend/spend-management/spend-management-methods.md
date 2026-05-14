@@ -3,9 +3,13 @@ description: Métodos de administración de gastos - [!DNL Marketo Measure]
 title: Métodos de administración de gastos
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/HdGBr6tPbjbLrO71Zr1MWN6i19TuDIaqvEhgWcNNxAY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: 423
 ht-degree: 1%
 
 ---
@@ -28,7 +32,7 @@ Cada cuenta de [!DNL Marketo Measure] tiene acceso a una característica llamada
 
 Cuando está habilitada, esta función extrae automáticamente el gasto de cualquier campaña o programa de CRM que cumpla los siguientes criterios:
 
-i. [!DNL Marketo Measure] busca primero si la campaña o el programa está creando puntos de contacto, ya sea a partir de una [regla de sincronización de campañas](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) que se haya creado, o a partir de una [regla de sincronización de programas](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) que se haya creado, o bien si el valor [Habilitar puntos de contacto del comprador](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) es &quot;Incluir todos los miembros de la campaña&quot; o &quot;Incluir miembros de la campaña que hayan respondido&quot;.&quot;
+i. [!DNL Marketo Measure] busca primero si la campaña o el programa está creando puntos de contacto, ya sea a partir de una [regla de sincronización de campañas](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) que se haya creado, o de una [regla de sincronización de programas](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) que se haya creado, que coincida con la coincidencia, o si el valor [Habilitar puntos de contacto del comprador](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) es &quot;Incluir todos los miembros de la campaña&quot; o &quot;Incluir los miembros de la campaña &quot;Respondidos&quot;.&quot;
 
 ii. Se debe completar una Fecha de inicio en la campaña o programa
 
