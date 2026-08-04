@@ -5,8 +5,7 @@ title: Sincronización de campañas sin conexión
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
 TQID: https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 752
@@ -65,13 +64,13 @@ Al crear esta campaña, haz clic en el campo &quot;[!UICONTROL Habilitar puntos 
 ![](assets/4-3.png)
 
 * **Incluir todos los miembros de la campaña**
-   * Esta opción permite que [!DNL Marketo Measure] atribuya un punto de contacto a cada miembro de la campaña.
+  * Esta opción permite que [!DNL Marketo Measure] atribuya un punto de contacto a cada miembro de la campaña.
 
 * **Incluir miembros de la campaña &quot;Respondidos&quot;.**
-   * Esta opción aplica puntos de contacto a los miembros de la campaña que tienen el estado Respondido.
+  * Esta opción aplica puntos de contacto a los miembros de la campaña que tienen el estado Respondido.
 
 * **Excluir todos los miembros de la campaña.**
-   * Esta opción no atribuye puntos de contacto a ningún miembro de la campaña y actúa como indicador de que la campaña se ha excluido deliberadamente de [!DNL Marketo Measure]. Si alguna vez sincronizas una campaña con puntos de contacto del comprador en caso de accidente, puedes cambiar el estado a &quot;Excluir todos los miembros de la campaña&quot; y se eliminarán los puntos de contacto.
+  * Esta opción no atribuye puntos de contacto a ningún miembro de la campaña y actúa como indicador de que la campaña se ha excluido deliberadamente de [!DNL Marketo Measure]. Si alguna vez sincronizas una campaña con puntos de contacto del comprador en caso de accidente, puedes cambiar el estado a &quot;Excluir todos los miembros de la campaña&quot; y se eliminarán los puntos de contacto.
 
 Una vez que se elija una de estas selecciones, [!DNL Marketo Measure] asignará a cada miembro de la campaña un punto de contacto, si corresponde. El posible cliente o contacto que se agrega a la campaña _debe_ tener una dirección de correo electrónico asociada a su registro para que [!DNL Marketo Measure] cree un punto de contacto. Sin una dirección de correo electrónico, [!DNL Marketo Measure] no se asigna ningún touchpoint al miembro de la campaña.
 
