@@ -43,7 +43,7 @@ En el nivel más alto, hay dos categorías de informes basadas en los dos objeto
 
    * Se usa comúnmente para las métricas &quot;parte superior de la funnel&quot; (TOFU) y los informes relacionados con _individuos_ (posibles clientes, contactos, [!DNL Marketo Measure] personas)
    * Los BT se utilizan para comprender todas las interacciones de marketing relacionadas con **personas**, ya que contienen el historial completo de puntos de contacto de cada persona. Como recordatorio, estos puntos de contacto se crean en CRM para el primer contacto anónimo, el contacto de creación de posibles clientes y cualquier envío de formulario o punto de contacto posterior desde el que decida sincronizar
-una campaña o actividad sin conexión.
+     una campaña o actividad sin conexión.
 
 1. **Puntos de contacto de atribución del comprador** (BAT) / Oportunidad / Nivel de cuenta / Ingresos
 
