@@ -5,7 +5,7 @@ exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
-source-wordcount: '6597'
+source-wordcount: '6600'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ En el nivel más alto, hay dos categorías de informes basadas en los dos objeto
 
    * Se usa comúnmente para las métricas &quot;parte superior de la funnel&quot; (TOFU) y los informes relacionados con _individuos_ (posibles clientes, contactos, [!DNL Marketo Measure] personas)
    * Los BT se utilizan para comprender todas las interacciones de marketing relacionadas con **personas**, ya que contienen el historial completo de puntos de contacto de cada persona. Como recordatorio, estos puntos de contacto se crean en CRM para el primer contacto anónimo, el contacto de creación de posibles clientes y cualquier envío de formulario o punto de contacto posterior desde el que decida sincronizar
-una campaña o actividad sin conexión.
+     una campaña o actividad sin conexión.
 
 1. **Puntos de contacto de atribución del comprador** (BAT) / Oportunidad / Nivel de cuenta / Ingresos
 
@@ -127,7 +127,7 @@ Resumiendo los datos de Buyer Touchpoint del posible cliente por el campo &quot;
 
 >[!TIP]
 >
->Para cualquier tipo de informe &quot;Posibles clientes con puntos de contacto de comprador&quot;, comience personalizando el informe generado previamente titulado &#39;[!DNL Marketo Measure] 101 | Posibles clientes por canal&quot;. Este informe está disponible de forma predeterminada y es una excelente zona protegida prediseñada tal como se describe en la tabla anterior, y se puede personalizar rápidamente para satisfacer necesidades de creación de informes más específicas.
+>Para cualquier tipo de informe &quot;Posibles clientes con puntos de contacto de comprador&quot;, comience personalizando el informe generado previamente titulado &#39;[!DNL Marketo Measure] 101 | Posibles clientes por canal&#39;. Este informe está disponible de forma predeterminada y es una excelente zona protegida prediseñada tal como se describe en la tabla anterior, y se puede personalizar rápidamente para satisfacer necesidades de creación de informes más específicas.
 
 **1,2 | Nuevos posibles clientes por campaña (o perspectivas más detalladas)**
 
@@ -219,7 +219,7 @@ Sin embargo, los administradores de eventos pueden estar más interesados en qu�
 * Filtrado de registros internos de pruebas, normalmente por dirección de correo electrónico
 * Filtrado basado en ciertos &quot;tipos de registro&quot; que pueden ser específicos de su unidad comercial
 
-**1,3 | Nuevos posibles clientes por contenido (solo informes de CRM)**
+**1,3 | Nuevos posibles clientes por contenido (solo informes CRM)**
 
 <table>
  <tbody>
@@ -241,7 +241,7 @@ Sin embargo, los administradores de eventos pueden estar más interesados en qu�
   </tr>
   <tr>
    <td>Grupo/Dimension</td>
-   <td>Página de aterrizaje<br>
+   <td>Página de destino<br>
    URL del formulario</td>
   </tr>
   <tr>
@@ -256,13 +256,13 @@ Sin embargo, los administradores de eventos pueden estar más interesados en qu�
 Incluya insight en un &quot;contenido&quot; específico con filtros adicionales.
 
 * Filtrar por: &#39;Página de aterrizaje&#39; CONTIENE (por ejemplo):
-   * /blog
-   * /ebook
-   * /seminario web
+  * /blog
+  * /ebook
+  * /seminario web
 
 * OR: &quot;URL del formulario&quot; CONTIENE (por ejemplo)
-   * /contact
-   * /demo
+  * /contact
+  * /demo
 
 Los informes basados en &quot;Contenido&quot; proporcionan un gran valor al realizar informes en cualquier parte de funnel; sin embargo, se utilizan principalmente en la parte superior de funnel para proporcionar insight adicional a una participación inicial de posibles clientes. Teniendo en cuenta que la &quot;Búsqueda orgánica&quot; tiende a ser el canal más sólido para impulsar la participación inicial (FT), no hay tantos datos de nivel de &quot;Campaña&quot;.
 
@@ -396,7 +396,7 @@ Este enfoque para medir el impacto del marketing en la influencia de MQL se cent
 
 Hay un tercer objeto personalizado [!DNL Marketo Measure] en Salesforce que puede resultar muy útil al generar informes sobre métricas relacionadas con personas: **la persona [!DNL Marketo Measure] (BP)**. La BP soluciona el antiguo problema de cómo representar la información de contactos y posibles clientes en el mismo informe. Une todos los BT relacionados con una &quot;persona&quot; (el ID de una persona de [!DNL Marketo Measure] es su dirección de correo electrónico). Tanto si existen como clientes potenciales o de contacto, la BP actúa como objeto puente para ayudar a los informes a abarcar a ambos, y es muy útil para producir informes más sofisticados sobre las personas.
 
-La persona [!DNL Marketo Measure] solo está relacionada con uno de los objetos de punto de contacto, Buyer Touchpoint (BT). Esto significa que no se puede utilizar para métricas relacionadas con oportunidades o ingresos. Un tipo de informe de &#39;[!DNL Marketo Measure] puntos de contacto de persona y comprador&#39; es ideal para comprender _la participación total_, ya que muestra todos los puntos de contacto, ya sea que el BT esté relacionado con un posible cliente o contacto de forma más específica. Por ejemplo: si utiliza una campaña de Salesforce para realizar el seguimiento de un evento, puede tener miembros de la campaña dentro de la campaña de CRM que existan como posibles clientes o como contactos. [!DNL Marketo Measure] Creará puntos de contacto para los miembros de la campaña independientemente, pero sin la persona [!DNL Marketo Measure], los informes estándar de Salesforce requerirían dos informes separados para comprender cuántos puntos de contacto _totales_ tiene del evento: uno que es &quot;Posibles clientes con puntos de contacto del comprador&quot; y otro que es &quot;Contactos con puntos de contacto del comprador&quot;. A continuación se enumeran algunos otros [!DNL Marketo Measure] casos de uso de creación de informes basados en personas:
+La persona [!DNL Marketo Measure] solo está relacionada con uno de los objetos de punto de contacto, Buyer Touchpoint (BT). Esto significa que no se puede utilizar para métricas relacionadas con oportunidades o ingresos. Un tipo de informe de &#39;[!DNL Marketo Measure] puntos de contacto de persona y comprador&#39; es ideal para comprender _la participación total_, ya que muestra todos los puntos de contacto, ya sea que el BT esté relacionado con un posible cliente o contacto de forma más específica. Por ejemplo: si utiliza una campaña de Salesforce para realizar el seguimiento de un evento, puede tener miembros de la campaña dentro de la campaña de CRM que existan como posibles clientes o como contactos. [!DNL Marketo Measure] creará puntos de contacto para los miembros de la campaña independientemente, pero sin la persona [!DNL Marketo Measure], los informes estándar de Salesforce requerirían dos informes independientes para comprender cuántos puntos de contacto _totales_ tiene del evento: uno que es &quot;Posibles clientes con puntos de contacto del comprador&quot; y otro que es &quot;Contactos con puntos de contacto del comprador&quot;. A continuación se enumeran algunos otros [!DNL Marketo Measure] casos de uso de creación de informes basados en personas:
 
 **3.1 [!DNL Marketo Measure] personas que han descargado &quot;libros electrónicos&quot; o &quot;documentos técnicos&quot; (descargas totales)**
 
@@ -414,7 +414,7 @@ Este informe sería igual que un informe basado en &quot;Contenido&quot; a nivel
   </tr>
   <tr>
    <td>Filtros</td>
-   <td>'URL del formulario' CONTIENE (por ejemplo)<br>
+   <td>"URL del formulario" CONTIENE (por ejemplo)<br>
    <li>/ebook</li>
    <li>/documento técnico</li>
    <i>Los valores de filtro anteriores son solo ejemplos. El valor real se basará en la estructura de direcciones URL de cada organización.</i></td>
@@ -462,7 +462,7 @@ _Este informe solamente es aplicable si los formularios de registro están hospe
   </tr>
   <tr>
    <td>Filtros</td>
-   <td>'URL del formulario' CONTIENE (por ejemplo)<br>
+   <td>"URL del formulario" CONTIENE (por ejemplo)<br>
    <li>/event</li>
    <i>El valor de filtro anterior es solo de ejemplo. El valor real se basará en la estructura de direcciones URL de cada organización.</i></td>
   </tr>
@@ -476,7 +476,7 @@ _Este informe solamente es aplicable si los formularios de registro están hospe
   </tr>
   <tr>
    <td>Grupo/Dimension</td>
-   <td>URL de formulario <br>
+   <td>Formulario/URL<br>
    Canal de marketing</td>
   </tr>
   <tr>
@@ -512,7 +512,7 @@ Básicamente, los datos de punto de contacto reflejarán lo que ha sido rastread
 
 Los puntos de contacto de atribución del comprador (BAT) representan los puntos de contacto relevantes de todos los contactos conectados a la oportunidad (a través de las funciones de contacto de la oportunidad o a través de un ID de cuenta compartido, según la configuración). A diferencia de los MTD (que están principalmente conectados a personas), los MTD pueden asociarse con ingresos. Por lo tanto, usará las MTD para responder preguntas relacionadas con oportunidades, principalmente _Oportunidades/Ingresos de canalización_ abiertas y _Oportunidades/Acuerdos/Ingresos_ cerrados. Se crea una BAT a través de los registros BT de un contacto en cuanto se crea una oportunidad en la misma cuenta que el contacto (BT no se convierte en una BAT). Se hace referencia a los datos de BT simplemente para crear un registro adicional (el BAT que luego se relaciona con la oportunidad).
 
-Buyer Attribution Touchpoint permite medir el impacto del marketing en una ubicación más profunda de funnel. _La profundidad de funnel a la que desea medir puede representarse mediante los distintos modelos de atribución multitáctil_.
+Buyer Attribution Touchpoint permite medir el impacto del marketing en una ubicación más profunda de funnel. _La profundidad del funnel que desea medir puede representarse mediante los distintos modelos de atribución multitáctil_.
 
 Teniendo en cuenta que la relación principal de las MTD es con la oportunidad, se utilizan para responder preguntas como las siguientes:
 
@@ -562,7 +562,7 @@ Normalmente, los especialistas en marketing necesitan saber: &quot;¿de dónde v
 
 ## INFORMES RECOMENDADOS CON BUYER ATTRIBUTION TOUCHPOINT (BAT) {#recommended-reports-using-the-buyer-attribution-touchpoint}
 
-**4.1 | Nuevas oportunidades por canal de mercadotecnia**
+**4.1 | Nuevas oportunidades por canal de marketing**
 
 Resumir los datos de Buyer Attribution Touchpoint de sus oportunidades por el campo &quot;Canal de marketing&quot; es la vista de nivel superior que representa qué canales/tácticas influyen en las nuevas oportunidades en la creación. Estructurar este informe en torno a un &quot;Tipo de fecha&quot; = &quot;Fecha de creación de la oportunidad&quot; garantiza que también se esté resumiendo el informe en función de cuándo se creó la oportunidad en su CRM. Es posible que los puntos de contacto hayan sido anteriores, pero seguirán estando relacionados con las oportunidades que se hayan creado dentro del intervalo de fechas definido y, por lo tanto, recibirán crédito de atribución a medida que se reconozca que influyen en la oportunidad.
 
@@ -677,7 +677,7 @@ Este informe sería esencialmente el mismo que el primer ejemplo de Buyer Attrib
    <td>
    <li>Fase de oportunidad (<i>solamente las oportunidades ganadas cerradas deben estar en el informe</i>) O,</li>
    <li>Oportunidad ganada = verdadero</li>
-   <li>Tipo de oportunidad (es común filtrar ciertas oportunidades, es decir, 'Nuevo negocio' en lugar de todas las oportunidades)<br>
+   <li>Tipo de oportunidad (es común filtrar ciertas oportunidades, es decir, "nuevos negocios" en lugar de todas las oportunidades)<br>
    </td>
   </tr>
   <tr>
@@ -724,12 +724,12 @@ Al informar sobre el retorno de la inversión en [!DNL Marketo Measure] Discover
 
 Los filtros que se resaltan a continuación son cruciales para un informe centrado en el retorno de la inversión en [!DNL Marketo Measure] (lo más probable es que establezca estos filtros en los tableros &quot;Información general&quot;, &quot;CMO&quot; o &quot;ROI&quot;):
 
-**5.1 | ROI en el tablero &#39;Información general&#39;**
+**5.1 | ROI en el tablero de &quot;Información general&quot;**
 
-![5.1 | ROI en el tablero &#39;Información general&#39;](assets/bizible-guide-1.png)
+![5.1 | ROI en el tablero de &quot;Información general&quot;](assets/bizible-guide-1.png)
 
 El intervalo &quot;Fecha&quot; no solo establece la cohorte de puntos de contacto (por fecha de punto de contacto) que reciben atribución, sino que también define el intervalo que representan el mosaico o las columnas &quot;Gastar&quot;.
-[!DNL Marketo Measure] simplemente consulta el intervalo &quot;Fecha&quot; para determinar cuánto se gastó en total o en los niveles de canal de marketing, subcanal o campaña. Consulte lo siguiente:
+[!DNL Marketo Measure] simplemente observa el intervalo &quot;Fecha&quot; para determinar cuánto se gastó en total o en los niveles de Canal de mercadotecnia, Subcanal o Campaña. Vea lo siguiente:
 
 ![Marketo Measure simplemente observa el intervalo &#39;Fecha&#39; para determinar cómo](assets/bizible-guide-2.png)
 
@@ -739,7 +739,7 @@ La captura de pantalla anterior muestra los datos de gasto en marketing de los �
 
 **RECORDATORIO**: [!DNL Marketo Measure] define &quot;Ingresos&quot; como ingresos ganados cerrados o reservas y define &quot;Ingresos de canalización&quot; como _ingresos abiertos o potenciales de oportunidades abiertas_.
 
-Otra conclusión importante del informe de ROI anterior es que los &quot;ingresos de la canalización&quot; se representan dentro del cuadro rojo. Esto significa que de los 12.970 dólares invertidos en los últimos 3 meses completos, actualmente estamos atribuyendo 705.199 dólares de &quot;Ingresos&quot; ganados cerrados, pero también estamos atribuyendo 6.905.532 dólares de ingresos potenciales abiertos (&quot;Ingresos de tubería&quot;) a puntos de contacto creados a partir de la misma inversión. Lo que esperaríamos ver es que una parte de los &quot;ingresos de la canalización&quot; se cierre con el tiempo, alimentando el número &quot;ingresos&quot;, y por lo tanto, el número de ROI aumentaría con el tiempo. El número &quot;Gastar&quot; está fijo porque no podemos retroceder en el tiempo para gastar más en los últimos 3 meses completos. Esta es la importancia de usar un &quot;Tipo de fecha&quot; de &quot;Fecha de punto de contacto&quot; en cualquier informe de ROI: define la cantidad (**I**)invertida y garantiza que la cantidad de (**R**)ingresos atribuidos se atribuya de nuevo a los mismos puntos de contacto que se originaron de la inversión (por cada dólar gastado, ¿cuánto se hizo?).
+Otra conclusión importante del informe de ROI anterior es que los &quot;ingresos de la canalización&quot; se representan dentro del cuadro rojo. Esto significa que de los 12.970 dólares invertidos por USD en los últimos 3 meses completos, actualmente estamos atribuyendo 705.199 dólares de &quot;Ingresos&quot; ganados cerrados, pero también estamos atribuyendo 6.905.532 dólares de ingresos potenciales abiertos (&quot;Ingresos de tubería&quot;) a puntos de contacto creados a partir de la misma inversión. Lo que esperaríamos ver es que una parte de los &quot;ingresos de la canalización&quot; se cierre con el tiempo, alimentando el número &quot;ingresos&quot;, y por lo tanto, el número de ROI aumentaría con el tiempo. El número &quot;Gastar&quot; está fijo porque no podemos retroceder en el tiempo para gastar más en los últimos 3 meses completos. Esta es la importancia de usar un &quot;Tipo de fecha&quot; de &quot;Fecha de punto de contacto&quot; en cualquier informe de ROI: define la cantidad (**I**)invertida y garantiza que la cantidad de (**R**)ingresos atribuidos se atribuya de nuevo a los mismos puntos de contacto que se originaron de la inversión (por cada dólar gastado, ¿cuánto se hizo?).
 
 >[!TIP]
 >
