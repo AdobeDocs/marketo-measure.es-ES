@@ -3,13 +3,17 @@ description: Prácticas recomendadas para la guía de canales sin conexión para
 title: Prácticas recomendadas para canales sin conexión
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1072'
 ht-degree: 4%
-
 ---
-
 
 # Prácticas recomendadas para canales sin conexión {#best-practices-for-offline-channels}
 
@@ -33,24 +37,24 @@ El valor &quot;Canal de marketing&quot; para estos puntos de contacto se basa en
 Tanto si asigna los canales sin conexión por primera vez como si solo los revisa para comprobar su precisión, tenga en cuenta las siguientes prácticas recomendadas.
 
 * Crear un marco de trabajo deliberado para los canales sin conexión
-   * Dedique un tiempo a pensar en la organización de sus campañas de marketing y en cómo encajan en el marco de trabajo de [!DNL Marketo Measure]. Determine qué canales y subcanales deben representarse en sus canales sin conexión y qué tipos de campañas de CRM diferencian esos canales entre sí
+  * Dedique un tiempo a pensar en la organización de sus campañas de marketing y en cómo encajan en el marco de trabajo de [!DNL Marketo Measure]. Determine qué canales y subcanales deben representarse en sus canales sin conexión y qué tipos de campañas de CRM diferencian esos canales entre sí
 * Trabaje para utilizar primero los valores &quot;Type&quot; de la campaña de CRM actual
-   * Los canales sin conexión se definen mediante la campaña de CRM &quot;Tipo&quot;; sin embargo, es posible que sea necesario crear un valor &quot;Tipo&quot; de campaña de CRM personalizado para dar cabida a los valores ideales de canal sin conexión y subcanal. Los valores &quot;Tipo&quot; de campaña de CRM personalizada ideal deben llevar la convención de nombres que se muestra a continuación:
-      * CANAL: SUBCANAL
-      * Ejemplo: Evento - Feria
-      * Esto garantiza que la asignación al nivel de subcanal sea lo más fácil y limpia posible
+  * Los canales sin conexión se definen mediante la campaña de CRM &quot;Tipo&quot;; sin embargo, es posible que sea necesario crear un valor &quot;Tipo&quot; de campaña de CRM personalizado para dar cabida a los valores ideales de canal sin conexión y subcanal. Los valores &quot;Tipo&quot; de campaña de CRM personalizada ideal deben llevar la convención de nombres que se muestra a continuación:
+    * CANAL: SUBCANAL
+    * Ejemplo: Evento - Feria
+    * Esto garantiza que la asignación al nivel de subcanal sea lo más fácil y limpia posible
 * Un subcanal solo se puede asignar a un tipo de campaña de CRM
-   * Se pueden asignar varios &quot;tipos&quot; de campañas CRM a un solo canal, pero solo se puede asignar un &quot;tipo&quot; de campaña CRM a cada subcanal dentro de cada canal
+  * Se pueden asignar varios &quot;tipos&quot; de campañas CRM a un solo canal, pero solo se puede asignar un &quot;tipo&quot; de campaña CRM a cada subcanal dentro de cada canal
 * Solo los &quot;tipos&quot; de campañas de CRM SIN CONEXIÓN deben asignarse a canales sin conexión, ya que solo las campañas sin conexión deben sincronizarse con [!DNL Marketo Measure] para crear puntos de contacto:
-   * Los &#39;Tipos&#39; de campañas de CRM EN LÍNEA deben asignarse a un [!UICONTROL Canal de mercadotecnia] = &quot;NULL&quot;. Se recomienda este valor, ya que actúa como un &quot;indicador rojo&quot; que indica que sus canales sin conexión se han revisado y que cualquier &quot;tipo&quot; de campaña de CRM asignado a &quot;NULL&quot; es un &quot;tipo&quot; en LÍNEA y no debe sincronizarse con [!DNL Marketo Measure]. Los puntos de contacto relacionados con los &quot;tipos&quot; de campañas de CRM en línea ya se rastrearían mediante la funcionalidad y los canales en línea de [!DNL Marketo Measure]. La sincronización de estas campañas corre el riesgo de &quot;duplicar&quot; puntos de contacto/recuento doble
+  * Los &#39;Tipos&#39; de campañas de CRM EN LÍNEA deben asignarse a un [!UICONTROL Canal de mercadotecnia] = &quot;NULL&quot;. Se recomienda este valor, ya que actúa como un &quot;indicador rojo&quot; que indica que sus canales sin conexión se han revisado y que cualquier &quot;tipo&quot; de campaña de CRM asignado a &quot;NULL&quot; es un &quot;tipo&quot; en LÍNEA y no debe sincronizarse con [!DNL Marketo Measure]. Los puntos de contacto relacionados con los &quot;tipos&quot; de campañas de CRM en línea ya se rastrearían mediante la funcionalidad y los canales en línea de [!DNL Marketo Measure]. La sincronización de estas campañas corre el riesgo de &quot;duplicar&quot; puntos de contacto/recuento doble
 
 ## Práctica recomendada | Sincronización de campañas sin conexión {#best-practice-offline-campaign-sync}
 
 * Asegúrese de que el campo Tipo sea preciso en cada campaña de CRM
-   * &quot;Tipo&quot; determina el canal de marketing y el subcanal para cualquier punto de contacto procedente de la campaña una vez sincronizados
+  * &quot;Tipo&quot; determina el canal de marketing y el subcanal para cualquier punto de contacto procedente de la campaña una vez sincronizados
 * Tanto si utiliza el método de sincronización de campaña basado en CRM (Habilitar puntos de contacto del comprador) como el método de sincronización basado en la aplicación [!DNL Marketo Measure] (Sincronización de campaña personalizada en la pestaña &quot;[!UICONTROL Campañas]&quot; de la configuración de la cuenta de [!UICONTROL Marketo Measure]&quot;), los puntos de contacto sin conexión solo deben crearse si el miembro de la campaña tuvo una participación sin conexión real con la campaña y su marca:
-   * Para canales sin conexión como eventos o seminarios web: el seguimiento de los &quot;registros&quot; suele realizarse mediante los envíos de formularios en el sitio web y la funcionalidad en línea de [!DNL Marketo Measure]. Por lo tanto, los miembros de la campaña con el estado &quot;Registrados&quot; no deben recibir un punto de contacto sin conexión de la campaña para evitar el recuento doble. Los puntos de contacto sin conexión solo deben ser representativos de la &quot;asistencia&quot; al evento o al seminario web.
-   * Algunos canales sin conexión, como la distribución de contenido, son más directos, ya que cada miembro de la campaña tiene el mismo estado &quot;respondido&quot; que representa que efectivamente respondió a la campaña, en este caso, descargue contenido en un sitio de terceros y, por lo tanto, debe recibir un punto de contacto sin conexión
+  * Para canales sin conexión como eventos o seminarios web: el seguimiento de los &quot;registros&quot; suele realizarse mediante los envíos de formularios en el sitio web y la funcionalidad en línea de [!DNL Marketo Measure]. Por lo tanto, los miembros de la campaña con el estado &quot;Registrados&quot; no deben recibir un punto de contacto sin conexión de la campaña para evitar el recuento doble. Los puntos de contacto sin conexión solo deben ser representativos de la &quot;asistencia&quot; al evento o al seminario web.
+  * Algunos canales sin conexión, como la distribución de contenido, son más directos, ya que cada miembro de la campaña tiene el mismo estado &quot;respondido&quot; que representa que efectivamente respondió a la campaña, en este caso, descargue contenido en un sitio de terceros y, por lo tanto, debe recibir un punto de contacto sin conexión
 * Al usar el método de sincronización de campaña personalizada en la aplicación [!DNL Marketo Measure], asegúrese de que el campo &quot;Fecha de punto de contacto&quot; se base en el campo de fecha del miembro de la campaña o del miembro de la campaña que indique más cuándo se produjo realmente la interacción del punto de contacto
 * Utilice el botón &quot;Actualización masiva de fecha de punto de contacto&quot; si necesita anular la &quot;Fecha de punto de contacto&quot; para cualquiera de los puntos de contacto sin conexión procedentes de una campaña CRM. La &quot;Fecha del punto de contacto&quot; debe ser lo más precisa posible para garantizar que el punto de contacto tenga la &quot;Posición del punto de contacto&quot; más precisa posible y, por lo tanto, la cantidad adecuada de crédito de atribución
 
@@ -71,10 +75,10 @@ Si su equipo ha experimentado recientemente cualquiera de lo anterior, [!DNL Mar
 
 >[!MORELIKETHIS]
 > [Configuración de canal sin conexión](/help/channel-tracking-and-setup/offline-custom-channel-setup.md)
-> [Sincronización de campaña personalizada - Sincronización de aplicación](/help/channel-tracking-and-setup/custom-campaign-sync.md)
-> [Sincronizando campañas sin conexión - Sincronización de CRM](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)
-> [Miembros de Campaign y Campaign sin conexión - Sincronización de CRM](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
-> [Fechas de sincronización de Campaign - Sincronización de CRM](/help/channel-tracking-and-setup/campaign-sync-dates.md)
+> [Sincronización de campaña personalizada: sincronización de aplicación](/help/channel-tracking-and-setup/custom-campaign-sync.md)
+> [Sincronización de campañas sin conexión: sincronización CRM](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)
+> [Campaign y miembros de Campaign sin conexión: sincronización de CRM](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
+> [Fechas de sincronización de Campaign: sincronización de CRM](/help/channel-tracking-and-setup/campaign-sync-dates.md)
 > [Configuraciones para varios tipos de registros de campaña](/help/channel-tracking-and-setup/configurations-record-types.md)
-> [Creando una vista de lista de campaña](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+> [Creación de una vista de lista de campaña](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
 > [Sincronizando datos históricos](/help/channel-tracking-and-setup/syncing-historical-data.md)

@@ -4,18 +4,21 @@ description: 'Puntos de contacto PostLC y participación del posible cliente: Ma
 title: Puntos de contacto de PostLC y participación de posibles clientes
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/n4xUxE4OCjGuKWUwV5Gi-KA9xC7ChzpdhjXjuqbzlIA
+TQID: 'https://experienceleague.adobe.com/n4xUxE4OCjGuKWUwV5Gi-KA9xC7ChzpdhjXjuqbzlIA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 4%
-
 ---
-
 # Puntos de contacto de PostLC y participación de posibles clientes {#postlc-touchpoints-and-lead-engagement}
 
 Los puntos de contacto de creación posterior al posible cliente (PostLC) de [!DNL Marketo Measure] están disponibles para los clientes que utilizan modelos de atribución multitáctil (W-Shape y posteriores). Cuando un posible cliente o contacto vuelve a su sitio web y continúa rellenando formularios, estos envíos de formularios se registran como puntos de contacto de PostLC. Estos puntos de contacto le permiten ver qué contenido está impulsando a los posibles clientes a seguir interactuando con el sitio mucho después de su primera conversión. Los puntos de contacto de PostLC comparten el crédito de atribución con todos los puntos de contacto intermedios dentro de una oportunidad; el 10 % del crédito de atribución se asigna a los puntos de contacto intermedios y se distribuye equitativamente entre todos los toques.

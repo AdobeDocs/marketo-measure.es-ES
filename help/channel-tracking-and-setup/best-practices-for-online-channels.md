@@ -3,13 +3,17 @@ description: Recomendaciones para la guía de canales en línea para usuarios de
 title: Prácticas recomendadas para canales en línea
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 92%
-
+source-wordcount: '617'
+ht-degree: 96%
 ---
-
 
 # Prácticas recomendadas para canales en línea {#best-practices-for-online-channels}
 
@@ -30,16 +34,16 @@ Dedique un tiempo a pensar en la organización de sus campañas de marketing y e
 Cosas que hay que tener en cuenta:
 
 * Todos los canales digitales y subcanales deben representarse con al menos una regla
-   * Si el canal no lleva personas a su sitio, no es un Canal en línea
+  * Si el canal no lleva personas a su sitio, no es un Canal en línea
 * Es aceptable tener varias reglas para un canal o subcanal
-   * Se pueden considerar que varias reglas “proyectan una red más amplia” para garantizar que cada punto de contacto se asigne correctamente. A menudo, los parámetros se pueden añadir incorrectamente o pasar por alto por completo, por lo que tener varias reglas para capturar un canal/subcanal es una buena idea para garantizar la precisión de la asignación.
+  * Se pueden considerar que varias reglas “proyectan una red más amplia” para garantizar que cada punto de contacto se asigne correctamente. A menudo, los parámetros se pueden añadir incorrectamente o pasar por alto por completo, por lo que tener varias reglas para capturar un canal/subcanal es una buena idea para garantizar la precisión de la asignación.
 * La lógica de [!DNL Marketo Measure] da prioridad a la asignación de puntos de contacto en orden descendente, empezando por la fila superior de la hoja de cálculo y bajando
-   * [!DNL Marketo Measure] lee cada regla (fila), buscando el primer ajuste verdadero. A continuación, el punto de contacto se asigna a ese canal/subcanal
-   * No ordene la hoja en orden alfabético, ya que esto interfiere con las reglas lógicas.
+  * [!DNL Marketo Measure] lee cada regla (fila), buscando el primer ajuste verdadero. A continuación, el punto de contacto se asigna a ese canal/subcanal
+  * No ordene la hoja en orden alfabético, ya que esto interfiere con las reglas lógicas.
 * Mantener las reglas entre corchetes; no editar ni agregar a las reglas entre corchetes (ejemplo; [búsqueda de pago de AdWords] o [Facebook de pago])
-   * Se trata de reglas de [!DNL Marketo Measure] listas para usarse, que tienen lógica integrada y están vinculadas a integraciones de [!DNL Marketo Measure]. Asigne a estas reglas la prioridad principal para esa sección de canal/subcanal para garantizar que las integraciones de [!DNL Marketo Measure] pueden funcionar según lo diseñado.
+  * Se trata de reglas de [!DNL Marketo Measure] listas para usarse, que tienen lógica integrada y están vinculadas a integraciones de [!DNL Marketo Measure]. Asigne a estas reglas la prioridad principal para esa sección de canal/subcanal para garantizar que las integraciones de [!DNL Marketo Measure] pueden funcionar según lo diseñado.
 * Una vez cargado el archivo, no se puede cambiar ninguna de las reglas durante siete días
-   * [!DNL Marketo Measure] utiliza este tiempo para procesar y actualizar los puntos de contacto; por lo tanto, asegúrese de comprobar las reglas antes de cargar.
+  * [!DNL Marketo Measure] utiliza este tiempo para procesar y actualizar los puntos de contacto; por lo tanto, asegúrese de comprobar las reglas antes de cargar.
 
 ## Práctica recomendada para el mantenimiento {#best-practice-for-maintenace}
 
@@ -55,7 +59,7 @@ Otros elementos que podrían activar a su equipo para realizar el mantenimiento 
 Si su equipo ha experimentado cualquiera de los problemas anteriores recientemente, [!DNL Marketo Measure] recomienda revisar las reglas de canales en línea y realizar los cambios correspondientes.
 
 >[!MORELIKETHIS]
-> [Configuración del canal en línea](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
-> [Parámetros de UTM](/help/channel-tracking-and-setup/utm-parameters.md)
-> [Canal y subcanal de mercadotecnia](/help/channel-tracking-and-setup/marketing-channels-and-subchannels.md)
+> [Configuración de canal en línea](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
+> [Parámetros UTM](/help/channel-tracking-and-setup/utm-parameters.md)
+> [Canal y subcanal de marketing](/help/channel-tracking-and-setup/marketing-channels-and-subchannels.md)
 > [Prácticas recomendadas de UTM](/help/channel-tracking-and-setup/best-practices-for-setting-up-utm-parameters.md)

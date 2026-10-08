@@ -3,14 +3,18 @@ description: Guía de configuración de canales personalizados sin conexión par
 title: Configuración de canales personalizados sin conexión
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 2%
-
 ---
-
 # Configuración de canales personalizados sin conexión {#offline-custom-channel-setup}
 
 ## Introducción {#getting-started}
@@ -45,11 +49,11 @@ Aquí es donde puede crear la asignación de canal/subcanal en la aplicación [!
 
 Por ejemplo, imagine que asiste a dos conferencias de [!DNL Salesforce] al año. Sin embargo, cada conferencia es muy diferente y tiene un público objetivo único. Desea saber cuál de los dos aporta más valor. En su entorno [!DNL Salesforce], puede asignar al evento de enero el tipo de campaña &quot;Conferencia&quot;, asignar un nombre al canal &quot;[!DNL Salesforce]&quot; y al subcanal &quot;Conferencia de enero&quot;.
 
-Ahora desea hacer lo mismo para la conferencia de junio. Como también es una conferencia, se le puede dar el mismo Tipo de campaña, en este caso, &quot;Conferencia&quot;. El canal es el mismo, [!DNL Salesforce], y el subcanal para esta segunda conferencia es &quot;Conferencia de junio&quot;. Esto tiene sentido desde una perspectiva organizacional. Sin embargo, es muy confuso para la lógica [!DNL Marketo Measure] leer y aplicar estas reglas porque ambas campañas tienen el mismo tipo de campaña. [!DNL Marketo Measure] el script no puede asignar datos de un tipo a dos subcanales diferentes. Esto significa que debería crear un nuevo Tipo de campaña para cada subcanal, pero los subcanales pueden tener el mismo canal.
+Ahora desea hacer lo mismo para la conferencia de junio. Como también es una conferencia, se le puede dar el mismo Tipo de campaña, en este caso, &quot;Conferencia&quot;. El canal es el mismo, [!DNL Salesforce], y el subcanal para esta segunda conferencia es &quot;Conferencia de junio&quot;. Esto tiene sentido desde una perspectiva organizacional. Sin embargo, es muy confuso para la lógica [!DNL Marketo Measure] leer y aplicar estas reglas porque ambas campañas tienen el mismo tipo de campaña. El script [!DNL Marketo Measure] no puede asignar datos de un tipo a dos subcanales diferentes. Esto significa que debería crear un nuevo Tipo de campaña para cada subcanal, pero los subcanales pueden tener el mismo canal.
 
 A continuación se muestra un ejemplo de lógica que [!DNL Marketo Measure] no podría leer:
 
-![A continuación se muestra un ejemplo de lógica que Marketo Measure no &#x200B;](assets/offline-channels-12.png)
+![A continuación se muestra un ejemplo de lógica que Marketo Measure no ](assets/offline-channels-12.png)
 
 En el escenario anterior, se desea crear un tipo de campaña único porque no se puede asignar el mismo tipo de campaña a dos subcanales diferentes. En su lugar, le recomendamos configurar tipos únicos como los siguientes:
 
@@ -67,7 +71,7 @@ Es habitual que los equipos de marketing creen [!DNL Salesforce] campañas para 
 
 Otra sugerencia para administrar campañas para actividades en línea es asignar el tipo de campaña [!DNL Salesforce] a NULL. Para ello, cree primero un canal en la aplicación [!DNL Marketo Measure] con el título NULL, como se muestra en la siguiente imagen. Esto se encuentra en la aplicación [!DNL Marketo Measure] en la sección **Crear canales**. Esto resulta útil en caso de que una campaña que no debería sincronizarse se sincronice accidentalmente. Es fácil encontrar la campaña y corregir el estado de sincronización mirando todo lo agrupado en NULL.
 
-![Otra sugerencia para administrar campañas para actividades en línea es asignar &#x200B;](assets/offline-channels-14.png)
+![Otra sugerencia para administrar campañas para actividades en línea es asignar ](assets/offline-channels-14.png)
 
 ## Introducción de las reglas de canal sin conexión en la aplicación {#entering-your-offline-channel-rules-to-the-app}
 
@@ -85,6 +89,6 @@ Haga clic en **[!UICONTROL Guardar]** cuando haya terminado y [!DNL Marketo Meas
 >
 >* [[!DNL Marketo Measure] Tutoriales: Asignación de canales sin conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutoriales: Sincronizando Campañas Sin Conexión](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutoriales: Sincronizando Campañas Sin Conexión](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [Integración de programas de Marketo Engage](/help/marketo-engage-programs-integration.md){target="_blank"}

@@ -4,18 +4,23 @@ description: Integración de seguimiento de llamadas - [!DNL Marketo Measure]
 title: Integración de seguimiento de llamadas
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-TQID: https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE
+TQID: 'https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '694'
 ht-degree: 1%
-
 ---
-
 # Integración de seguimiento de llamadas {#call-tracking-integration}
 
 Nuestra integración con [!DNL CallTrackingMetrics] está pensada para combinar una sesión web con una llamada telefónica. Una llamada telefónica se trata como un envío de formulario a [!DNL Marketo Measure]. Atribuye crédito a una sesión web que, de lo contrario, solo se habría considerado una visita web porque no hubo envío real del formulario.
@@ -76,7 +81,7 @@ Tanto Touchpoint Type como Medium contienen los datos extraídos de Task.Type. E
 
 En primer lugar, compruebe la tarea para asegurarse de que haya un [!DNL BizibleId] rellenado. Si no hay ningún valor, no podemos crear un punto de contacto para él. Esto debe escalarse con CallTrackingMetrics.
 
-Si hay un valor, tenga en cuenta que solo consideramos que todas las sesiones web son de 30 minutos. Si se hizo clic en un anuncio de Google a las 12:17pm (inicio de la sesión en el sitio web), pero la llamada no se realizó hasta las 1:05pm, no combinaremos la sesión web y la llamada telefónica. En su lugar, [!DNL Marketo Measure] crea un punto de contacto [!DNL Salesforce Task] independiente para realizar el seguimiento de la llamada telefónica, pero no tendrá datos de sesión web.
+Si hay un valor, tenga en cuenta que solo consideramos que todas las sesiones web son de 30 minutos. Si se hizo clic en un anuncio de Google a las 12:17 p. m. (inicio de la sesión en el sitio web), pero la llamada telefónica no se produjo hasta la 1:05 p. m., no combinaremos la sesión web y la llamada telefónica. En su lugar, [!DNL Marketo Measure] crea un punto de contacto [!DNL Salesforce Task] independiente para realizar el seguimiento de la llamada telefónica, pero no tendrá datos de sesión web.
 
 ![](assets/6.png)
 

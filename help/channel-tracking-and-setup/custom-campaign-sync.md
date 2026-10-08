@@ -3,13 +3,17 @@ description: Guía de sincronización de Campaign personalizada para usuarios de
 title: Sincronización de campañas personalizadas
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 2%
-
 ---
-
 # Sincronización de campañas personalizadas {#custom-campaign-sync}
 
 Hoy, con el paquete [!DNL Marketo Measure] instalado, puede indicar qué campañas incluir como punto de contacto elegible. Existen múltiples obstáculos a esto, tal como existía anteriormente. Una vez que el paquete [!DNL Marketo Measure] esté instalado en CRM, su equipo de seguridad puede tardar un tiempo en aprobarlo. Además, no hay flexibilidad para utilizar una sola lista de selección en el objeto de campaña. Con esta nueva función, no es necesario instalar el paquete para empezar a utilizar los registros de Campaign y de los miembros de Campaign. Se pueden crear reglas para definir exactamente qué registros se pueden crear para definir exactamente qué registros son aptos.
@@ -44,7 +48,7 @@ Hoy, con el paquete [!DNL Marketo Measure] instalado, puede indicar qué campañ
 
 1. Haga clic en la marca de verificación y luego agregue reglas adicionales para campañas adicionales según sea necesario.
 
-   ![1. Haga clic en la marca de verificación y luego agregue reglas adicionales para campañas adicionales como &#x200B;](assets/offline-channels-12.png)
+   ![1. Haga clic en la marca de verificación y luego agregue reglas adicionales para campañas adicionales como ](assets/offline-channels-12.png)
 
    >[!NOTE]
    >
@@ -68,15 +72,15 @@ Puede comprobar fácilmente los puntos de contacto del comprador y los registros
 
 1. La función Campaign Sync viene con una función de prueba para que pueda comprobar si las reglas que ha creado se ajustan realmente a los criterios de Campaign. Comience por hacer clic en el botón [!UICONTROL Probar]. Las reglas deben guardarse primero para poder iniciar la prueba.
 
-   ![1. La característica de sincronización de Campaign viene con una característica de prueba para que &#x200B;](assets/offline-channels-15.jpg)
+   ![1. La característica de sincronización de Campaign viene con una característica de prueba para que ](assets/offline-channels-15.jpg)
 
    Aparecerá una ventana emergente en la que puede introducir un ID de campaña (15 o 18 caracteres desde CRM) para probar. El punto es introducir el ID de campaña desde el CRM que intentaba sincronizar para asegurarse de que coincida con la regla creada.
 
-   ![Aparecerá una ventana emergente en la que podrás ingresar un identificador de campaña (ya sea &#x200B;](assets/offline-channels-16.png)
+   ![Aparecerá una ventana emergente en la que podrás ingresar un identificador de campaña (ya sea ](assets/offline-channels-16.png)
 
 1. Después de hacer clic en [!UICONTROL Prueba], verá el nombre de la campaña y el número de miembros de la campaña que cumplen los requisitos para los puntos de contacto. A continuación aparece una tabla con todas las reglas que coinciden con su ID de campaña. Solo aparecerán las coincidencias.
 
-   ![1. Después de hacer clic en Probar, verá el nombre de &#x200B;](assets/offline-channels-17.png)
+   ![1. Después de hacer clic en Probar, verá el nombre de ](assets/offline-channels-17.png)
 
 1. También puede hacer clic en el recuento de miembros para ver una lista de los posibles clientes y contactos y sus ID que forman parte de la idoneidad de la regla de campaña. Este es solo un conjunto de muestras y mostrará hasta 50 para que pueda tener una idea de qué registros cumplen los requisitos.
 

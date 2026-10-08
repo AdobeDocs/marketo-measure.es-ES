@@ -3,13 +3,17 @@ description: Pruebas A/B Directrices para la configuración y generación de inf
 title: Configuración e informes de pruebas A/B
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 348f752d-f464-5239-ab5e-c1faaeafb983
+    internal-label: A/B Testing
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 75%
-
 ---
-
 # Configuración e informes de pruebas A/B {#a-b-testing-set-up-and-reporting}
 
 La integración de la prueba A/B [!DNL Marketo Measure] le permite rastrear el impacto en los ingresos de sus experimentos de sitio de [Optimizely](https://www.optimizely.com/){target="_blank"} y VWO. Este artículo contiene instrucciones sobre cómo añadir Secciones de prueba A/B de [!DNL Marketo Measure] a los diseños de páginas de Cliente potencial, [!UICONTROL Contacto], Caso y [!UICONTROL Oportunidad]. También se tratan las prácticas generales de creación de informes y recomendaciones para la ejecución de Tipos de informes A/B de [!DNL Marketo Measure].
@@ -25,7 +29,7 @@ Agregue las secciones Prueba A/B [!DNL Marketo Measure] en Posible cliente, Cont
 
 1. Haga clic en el botón [!UICONTROL Llave inglesa]. Elimine el campo &quot;Id&quot; de stock de la lista de Campos seleccionados. Añada los campos **[!UICONTROL Experimento]**, **[!UICONTROL Variación]**, y **[!UICONTROL DateReported]**. Cambie de “[!UICONTROL ordenar por]” a **[!UICONTROL fecha del informe]** y seleccione **[!UICONTROL Descendente]** en la lista desplegable.
 
-   ![1. Haga clic en el botón Llave inglesa. Quitar el campo &quot;Id&quot; de stock de &#x200B;](assets/advanced-features-3.png)
+   ![1. Haga clic en el botón Llave inglesa. Quitar el campo &quot;Id&quot; de stock de ](assets/advanced-features-3.png)
 
 1. En [!UICONTROL Botones], desmarque **[!UICONTROL Nuevo]**.
 

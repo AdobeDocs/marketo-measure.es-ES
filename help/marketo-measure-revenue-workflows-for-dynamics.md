@@ -3,13 +3,20 @@ description: Flujos de trabajo para alinear los campos de ingresos y fechas de c
 title: '[!DNL Marketo Measure] flujos de trabajo de ingresos para Dynamics'
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] flujos de trabajo de ingresos para Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
 
 ## Parte 1: Ingresos estimados vs. ingresos reales {#part-estimated-revenue-vs-actual-revenue}
@@ -42,7 +49,7 @@ Este flujo de trabajo se inicia cuando un usuario cierra una oportunidad y actua
 
 ## Parte 2: Fecha de cierre estimada frente a fecha de cierre real {#part-estimated-close-date-vs-actual-close-date}
 
-De forma predeterminada, los datos de ingresos de la canalización no están disponibles en el panel porque, de forma predeterminada, Dynamics tiene dos campos de fecha de cierre de existencias: Fecha de cierre estimada y Fecha de cierre real. [!DNL Marketo Measure] solo puede señalar a un campo de fecha de cierre del panel y señala a la fecha de cierre real.
+De forma predeterminada, los datos de ingresos de la canalización no están disponibles en el panel porque, de forma predeterminada, Dynamics tiene dos campos de fecha de cierre de existencias: Fecha de cierre estimada y Fecha de cierre real. [!DNL Marketo Measure] solo puede señalar a un campo de fecha de cierre en el panel y señala a la fecha de cierre real.
 
 Si las oportunidades abiertas no tienen datos en el campo Fecha de cierre real, no hay datos en el panel para las oportunidades abiertas. Dicho esto, se necesita un flujo de trabajo basado en la fase de oportunidad para admitir ambos campos de fecha.
 

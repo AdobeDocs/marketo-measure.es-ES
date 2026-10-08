@@ -3,13 +3,17 @@ description: Diferencia entre los puntos de contacto del comprador y los puntos 
 title: Diferencia entre Buyer Touchpoints y Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 92%
-
 ---
-
 # Diferencia entre Buyer Touchpoints y Buyer Attribution Touchpoints {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
 Conozca lo que define un punto de contacto de comprador (BT) y un punto de contacto de atribución de comprador (BAT), las diferencias entre ambos y responda a las preguntas frecuentes.
@@ -59,7 +63,7 @@ Un punto de contacto de comprador solo tendrá una posición de punto de contact
 
 **¿Cómo se emplean los datos de Buyer Touchpoint?**
 
-Por lo general, los clientes emplean los datos de Buyer Touchpoing para comprender la participación de la parte superior y el centro del canal. Lo que significa que los usuarios de [!DNL Marketo Measure] saben quién envía formularios, quién está viendo su sitio, qué publicación de blog está funcionando bien, qué anuncio de AdWords está ocasionando la conversión de posibles clientes, etc. Los datos de Buyer Touchpoints son ideales para comprender la participación de sus posibles clientes y contactos.
+Por lo general, los clientes emplean los datos de Buyer Touchpoing para comprender la participación de la parte superior y el centro del embudo. Lo que significa que los usuarios de [!DNL Marketo Measure] saben quién envía formularios, quién está viendo su sitio, qué publicación de blog está funcionando bien, qué anuncio de AdWords está ocasionando la conversión de posibles clientes, etc. Los datos de Buyer Touchpoints son ideales para comprender la participación de sus posibles clientes y contactos.
 
 **¿Qué aspecto tiene un punto de contacto de comprador en Salesforce?**
 

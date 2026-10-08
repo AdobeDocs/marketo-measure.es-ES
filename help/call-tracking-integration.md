@@ -3,13 +3,19 @@ description: Guía de integración de seguimiento de llamadas para usuarios de M
 title: Integración de seguimiento de llamadas
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '768'
 ht-degree: 1%
-
 ---
-
 # Integración de seguimiento de llamadas {#call-tracking-integration}
 
 Nuestra integración con [!DNL CallTrackingMetrics] está pensada para combinar una sesión web con una llamada telefónica. Una llamada telefónica se trata como un envío de formulario a [!DNL Marketo Measure]. Atribuye crédito a una sesión web que, de lo contrario, solo se habría considerado una visita web porque no hubo envío real del formulario.
@@ -18,7 +24,7 @@ Nuestra integración con [!DNL CallTrackingMetrics] está pensada para combinar 
 
 En general, el &quot;seguimiento de llamadas&quot; es un producto de compañías como [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca] o [!DNL CallRail], por nombrar algunas. Los usuarios ven números de teléfono únicos en función de los diferentes canales de marketing o campañas de las que proceden. Esto permite a los especialistas en marketing ver el rendimiento de esos canales o campañas.
 
-![&#x200B; &quot;Seguimiento de llamadas&quot; en el sentido general es un producto de compañías como &#x200B;](assets/other-resources-6.png)
+![ &quot;Seguimiento de llamadas&quot; en el sentido general es un producto de compañías como ](assets/other-resources-6.png)
 
 ## Antes y después de {#before-and-after}
 
@@ -70,7 +76,7 @@ Tanto Touchpoint Type como Medium contienen los datos extraídos de Task.Type. E
 
 En primer lugar, compruebe la tarea para asegurarse de que haya un [!DNL BizibleId] rellenado. Si no hay ningún valor, no podemos crear un punto de contacto para él. Esto debe escalarse con CallTrackingMetrics.
 
-Si hay un valor, tenga en cuenta que solo consideramos que todas las sesiones web son de 30 minutos. Si se hizo clic en un anuncio de Google a las 12:17pm (inicio de la sesión en el sitio web), pero la llamada no se realizó hasta las 1:05pm, no combinaremos la sesión web y la llamada telefónica. En su lugar, [!DNL Marketo Measure] crea un punto de contacto [!DNL Salesforce Task] independiente para realizar el seguimiento de la llamada telefónica, pero no tendrá datos de sesión web.
+Si hay un valor, tenga en cuenta que solo consideramos que todas las sesiones web son de 30 minutos. Si se hizo clic en un anuncio de Google a las 12:17 p. m. (inicio de la sesión en el sitio web), pero la llamada telefónica no se produjo hasta la 1:05 p. m., no combinaremos la sesión web y la llamada telefónica. En su lugar, [!DNL Marketo Measure] crea un punto de contacto [!DNL Salesforce Task] independiente para realizar el seguimiento de la llamada telefónica, pero no tendrá datos de sesión web.
 
 ![Si hay un valor, tenga en cuenta que solo consideramos todas las páginas web](assets/other-resources-2.png)
 

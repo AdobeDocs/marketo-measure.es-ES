@@ -3,13 +3,17 @@ description: Guía de administración de formularios de AJAX para usuarios de Ma
 title: Gestión de formularios AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
-
 ---
-
 # Gestión de formularios AJAX {#ajax-form-handling}
 
 Para informar manualmente sobre las conversiones de clientes a [!DNL Marketo Measure], existe una API sencilla que puede usar. Ambas API de JavaScript están disponibles automáticamente en el sitio, si tiene código de seguimiento. No es necesario hacer nada especial para acceder a ellos.
@@ -57,7 +61,7 @@ eMail: 'user@gmail.com' // required
 });
 ```
 
-En este código, el campo [!UICONTROL correo electrónico] es obligatorio. [!DNL Marketo Measure] publica estos datos de forma asíncrona en nuestros servidores.
+En este código, el campo [!UICONTROL correo electrónico] es obligatorio. [!DNL Marketo Measure] publica estos datos de manera asincrónica en nuestros servidores.
 
 ## Escenario 3: informar sobre el usuario desde la página de agradecimiento {#scenario-report-user-information-from-the-thank-you-page}
 

@@ -1,15 +1,19 @@
 ---
-description: Agregando  [!DNL Marketo Measure] instrucciones [!DNL Hubspot] para usuarios de Marketo Measure
+description: Agregando [!DNL Marketo Measure] a la guía [!DNL Hubspot] para usuarios de Marketo Measure
 title: Agregando [!DNL Marketo Measure] a [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '184'
 ht-degree: 1%
-
 ---
-
 # Agregando [!DNL Marketo Measure] a [!DNL Hubspot] {#adding-marketo-measure-to-hubspot}
 
 Aprenda a agregar el JavaScript [!DNL Marketo Measure] para rastrear sus [!DNL Hubspot] páginas de aterrizaje y envíos de formularios.

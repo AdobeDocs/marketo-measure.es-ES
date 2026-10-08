@@ -3,19 +3,23 @@ description: Prácticas recomendadas para utilizar una cantidad de ingresos pers
 title: Prácticas recomendadas para utilizar un importe de ingresos personalizado
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-TQID: https://experienceleague.adobe.com/r0HE7od6BWa4ntQMPyrVqQWwebruGyxM3lhOOu6-RWc
+TQID: 'https://experienceleague.adobe.com/r0HE7od6BWa4ntQMPyrVqQWwebruGyxM3lhOOu6-RWc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 433
+source-wordcount: '433'
 ht-degree: 7%
-
 ---
-
 # Prácticas recomendadas para utilizar un importe de ingresos personalizado {#best-practices-for-utilizing-a-custom-revenue-amount}
 
 ## Información general {#overview}
@@ -31,10 +35,10 @@ Al configurar una cantidad de ingresos personalizados, tenga en cuenta las sigui
 Cosas que hay que tener en cuenta:
 
 * Seleccione el campo de ingresos que sea preciso y se utilice para todas las oportunidades
-   * ARR o valor total del contrato recomendado
+  * ARR o valor total del contrato recomendado
 * No utilice un campo de fórmula
 * Si está usando un importe de ingresos personalizado para las conversiones monetarias, la funcionalidad [!UICONTROL Marketo Measure en varias monedas] es el método preferido en su lugar.
-   * La funcionalidad [!DNL Marketo Measure] múltiples monedas hace referencia a las tasas de conversión establecidas en [!DNL Salesforce] para garantizar mejor la alineación entre las conversiones de moneda. Esto le permite seguir utilizando el &quot;Importe&quot; estándar (SFDC Default) o cualquier otro campo de importe personalizado que esté relacionado con las tasas de conversión de [!DNL Salesforce].
+  * La funcionalidad [!DNL Marketo Measure] múltiples monedas hace referencia a las tasas de conversión establecidas en [!DNL Salesforce] para garantizar mejor la alineación entre las conversiones de moneda. Esto le permite seguir utilizando el &quot;Importe&quot; estándar (SFDC Default) o cualquier otro campo de importe personalizado que esté relacionado con las tasas de conversión de [!DNL Salesforce].
 * Si actualiza el campo Importe al que desea que [!DNL Marketo Measure] haga referencia, utilice el cargador de datos para actualizar las oportunidades anteriores a fin de garantizar que los datos de ingresos sean coherentes y que el campo adecuado se rellene mediante el flujo de trabajo
 
 ## Práctica recomendada para el mantenimiento {#best-practice-for-maintenance}

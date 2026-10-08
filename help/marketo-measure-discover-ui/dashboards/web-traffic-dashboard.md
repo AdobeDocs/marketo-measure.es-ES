@@ -3,20 +3,23 @@ description: Tablero de tráfico web - [!DNL Marketo Measure] - Producto
 title: Panel de control de tráfico web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-TQID: https://experienceleague.adobe.com/-EWWl-FHRDswkwvgJqVoYVA-rvWca7h5iwfcpTvO1LA
+TQID: 'https://experienceleague.adobe.com/-EWWl-FHRDswkwvgJqVoYVA-rvWca7h5iwfcpTvO1LA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 6%
-
 ---
-
 # Panel de control de tráfico web {#web-traffic-dashboard}
 
 El panel de tráfico web proporciona una vista completa de las interacciones del visitante del sitio. Profundice en métricas como recuentos de visitantes únicos por URL, visitas generales, vistas de página y envíos de formularios desde direcciones URL de formularios o páginas de aterrizaje específicos. Monitorice las tendencias mensuales de tráfico e identifique los medios de pago de alto rendimiento, lo que le permite refinar sus estrategias para generar ingresos óptimos.

@@ -3,13 +3,21 @@ description: '''[!DNL Marketo Measure] Guía de implementación de Ultimate - [!
 title: '[!DNL Marketo Measure]Guía de implementación de Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 61%
-
 ---
-
 # [!DNL Marketo Measure]Guía de implementación de Ultimate {#marketo-measure-ultimate-implementation-guide}
 
 Este artículo sirve como guía de implementación para Marketo Measure Ultimate, con pasos y perspectivas claros para garantizar una integración y utilización exitosas.
@@ -46,17 +54,17 @@ Obtenga más información sobre [Marketo Measure Ultimate](/help/migration-from-
 
 &#42; _Un esquema consta de una clase y cero o más grupos de campos de esquema. Esto significa que podría componer un esquema del conjunto de datos sin utilizar grupos de campos._
 
-![&42; un esquema consta de una clase y cero o más campos de esquema](assets/marketo-guide-1.png)
+![&amp;42; un esquema consta de una clase y cero o más campos de esquema](assets/marketo-guide-1.png)
 
-[Información general de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Todos los datos ingeridos correctamente en AEP se mantienen dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+[Información general de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Todos los datos ingeridos correctamente en AEP se mantienen dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
 
 ## Creación de un esquema {#creating-a-schema}
 
 Se recomienda utilizar una utilidad de generación automática para crear diez esquemas B2B estándar.
 
-* Los pasos para descargar y configurar la utilidad [&#x200B; se encuentran aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
+* Los pasos para descargar y configurar la utilidad [ se encuentran aquí](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=es#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Para los que tengan un _&#x200B;**derecho de CDP**&#x200B;_: cree esquemas en la página Orígenes.
+Para los que tengan un _**derecho de CDP**_: cree esquemas en la página Orígenes.
 
 * Desde un origen, seleccione Añadir datos > Usar plantillas
 

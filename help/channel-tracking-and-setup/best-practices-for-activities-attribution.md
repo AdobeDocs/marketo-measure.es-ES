@@ -3,13 +3,17 @@ description: Prácticas recomendadas para las actividades Guía de atribución p
 title: Prácticas recomendadas para la atribución de actividades
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 4%
-
 ---
-
 # Prácticas recomendadas para la atribución de actividades {#best-practices-for-activities-attribution}
 
 ## Información general {#overview}
@@ -25,8 +29,8 @@ Para muchas instancias de [!DNL Salesforce], el objeto Activity puede alojar var
 Tanto si define reglas de actividad por primera vez como si simplemente revisa las reglas de actividad que se han configurado anteriormente, tenga en cuenta las siguientes prácticas recomendadas.
 
 * Inicio simple
-   * Identifique algunos tipos clave de actividades que desee incorporar en los datos de [!DNL Marketo Measure] y, a continuación, agregue más tipos conforme se sienta cómodo con el modo en que se atribuyen estos puntos de contacto
-   * Como se ha mencionado, el caso de uso principal de esta función es crear puntos de contacto que realicen un seguimiento de la eficacia de su equipo de desarrollo de ventas, específicamente llamadas telefónicas salientes y correos electrónicos salientes
+  * Identifique algunos tipos clave de actividades que desee incorporar en los datos de [!DNL Marketo Measure] y, a continuación, agregue más tipos conforme se sienta cómodo con el modo en que se atribuyen estos puntos de contacto
+  * Como se ha mencionado, el caso de uso principal de esta función es crear puntos de contacto que realicen un seguimiento de la eficacia de su equipo de desarrollo de ventas, específicamente llamadas telefónicas salientes y correos electrónicos salientes
 
 >[!NOTE]
 >
@@ -34,11 +38,11 @@ Tanto si define reglas de actividad por primera vez como si simplemente revisa l
 
 * No utilice campos de fórmula para definir las reglas
 * Crear reglas específicas y precisas
-   * El umbral para la creación de un punto de contacto de actividad debe ser el mismo (o similar) que el de un formulario o la pertenencia a una campaña: respuestas a un correo electrónico saliente o conversaciones telefónicas completadas
+  * El umbral para la creación de un punto de contacto de actividad debe ser el mismo (o similar) que el de un formulario o la pertenencia a una campaña: respuestas a un correo electrónico saliente o conversaciones telefónicas completadas
 * Valide siempre las nuevas reglas en [!DNL Salesforce] antes de guardar y procesar
-   * La duplicación de las reglas de actividad en un tipo de informe de &quot;Tareas y eventos&quot; le permite comprender con claridad cuántos puntos de contacto de la regla son exactamente
+  * La duplicación de las reglas de actividad en un tipo de informe de &quot;Tareas y eventos&quot; le permite comprender con claridad cuántos puntos de contacto de la regla son exactamente
 * Trabaje con su equipo de ventas
-   * Al incluir al equipo que más se aproxime a sus registros de actividad o a su herramienta de ventas, se asegurará de que está utilizando los campos correctos para definir sus reglas
+  * Al incluir al equipo que más se aproxime a sus registros de actividad o a su herramienta de ventas, se asegurará de que está utilizando los campos correctos para definir sus reglas
 
 ## Práctica recomendada para el mantenimiento {#best-practice-for-maintenance}
 

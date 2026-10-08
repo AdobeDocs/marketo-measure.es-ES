@@ -4,19 +4,23 @@ description: Campos de Touchpoint - [!DNL Marketo Measure]
 title: Campos de puntos de contacto
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk
+TQID: 'https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Customer experience
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1965
-ht-degree: 0%
-
+source-wordcount: '1979'
+ht-degree: 1%
 ---
-
 # Campos de puntos de contacto {#touchpoint-fields}
 
 Históricamente, cuando los clientes se incorporan con [!DNL Marketo Measure] y en el caso de que no tengamos una integración de etiquetado directo, nuestro equipo de éxito del cliente instruye a nuestros clientes sobre cómo etiquetar apropiadamente sus páginas de aterrizaje para que utilicen el formato UTM correcto y podamos resolver sus anuncios. Algunos de estos clientes no utilizan UTM, sino que utilizan sus propios parámetros de etiquetado, lo que significa que puede llevar mucho tiempo editar todas las páginas de aterrizaje en todas las redes de anuncios con una nueva estructura de etiquetado que [!DNL Marketo Measure] aplica. Para adaptarse a su estructura de etiquetado, ahora aceptamos parámetros personalizados que se pueden asignar con nuestras definiciones de reglas. El objetivo es adaptarse al uso que hacen los clientes de sus parámetros de seguimiento personalizados, de modo que no tengamos que pedirles que cambien su estructura de URL.
@@ -54,9 +58,9 @@ Objetivo: Utilice el valor de un campo personalizado y colóquelo en el objeto T
 * Utilice el operador &quot;extract&quot;, ya que es necesario extraer el valor del parámetro
 * Para extraer la cadena completa del campo, se utiliza la expresión &quot;(.&#42;)&quot;
 
-   * **(**) marca el inicio de la extracción
-   * **)** marca el final de la extracción
-   * **.&#42;** nos dice que estamos extrayendo la cadena completa
+  * **(**) marca el inicio de la extracción
+  * **)** marca el final de la extracción
+  * **.&#42;** nos dice que estamos extrayendo la cadena completa
 
 ![](assets/two.png)
 
@@ -72,11 +76,11 @@ Un caso de uso común que habilita esta función es extraer valores de parámetr
 * Utilice el operador &quot;extract&quot;, ya que es necesario extraer el valor del parámetro
 * Para extraer el valor de la promoción, definiremos el valor como &quot;promo=(\w+)&quot;
 
-   * **(**) marca el inicio de la extracción
-   * **)** marca el final de la extracción
-   * **\w** nos indica que estamos extrayendo una &quot;palabra&quot; que incluye 0-9
-   * **+** extraerá el valor completo del parámetro sin límite de caracteres
-   * Tenga en cuenta que está utilizando una barra diagonal y no una barra diagonal inversa
+  * **(**) marca el inicio de la extracción
+  * **)** marca el final de la extracción
+  * **\w** nos indica que estamos extrayendo una &quot;palabra&quot; que incluye 0-9
+  * **+** extraerá el valor completo del parámetro sin límite de caracteres
+  * Tenga en cuenta que está utilizando una barra diagonal y no una barra diagonal inversa
 
 ![](assets/three.png)
 
@@ -91,10 +95,10 @@ Probemos un ejemplo similar en el que extraigamos un código de seguimiento como
 * Utilice el operador &quot;extract&quot;, ya que es necesario extraer el valor del parámetro
 * Para extraer el valor &quot;123456&quot;, definiremos el valor como &quot;cid=(\d{6})&quot;
 
-   * **(**) marca el inicio de la extracción
-   * **)** marca el final de la extracción
-   * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
-   * **{6}** es el número de caracteres que estamos extrayendo
+  * **(**) marca el inicio de la extracción
+  * **)** marca el final de la extracción
+  * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
+  * **{6}** es el número de caracteres que estamos extrayendo
 
 ![](assets/four.png)
 
@@ -110,20 +114,20 @@ A medida que las páginas de aterrizaje se complican y tiene varios parámetros 
 * Utilice el operador &quot;extract&quot;, ya que es necesario extraer el valor del parámetro
 * Para extraer el valor &quot;US&quot;, definiremos el valor como &quot;country=(\w{2})&quot;
 
-   * **(**) marca el inicio de la extracción
-   * **)** marca el final de la extracción
-   * **\w** nos indica que estamos extrayendo una &quot;palabra&quot;
-   * **{2}** es el número de caracteres que estamos extrayendo
+  * **(**) marca el inicio de la extracción
+  * **)** marca el final de la extracción
+  * **\w** nos indica que estamos extrayendo una &quot;palabra&quot;
+  * **{2}** es el número de caracteres que estamos extrayendo
 
 * Cree un campo calculado y etiquete &quot;ID de campaña personalizado&quot;
 * Defina la regla empezando por buscar el campo Touchpoint.Session.LandingPage
 * Utilice el operador &quot;extract&quot;, ya que es necesario extraer el valor del parámetro
 * Para extraer el valor &quot;123456&quot;, definiremos el valor como &quot;campaign_ID=(\d{6})&quot;
 
-   * **(**) marca el inicio de la extracción
-   * **)** marca el final de la extracción
-   * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
-   * **{6}** es el número de caracteres que estamos extrayendo
+  * **(**) marca el inicio de la extracción
+  * **)** marca el final de la extracción
+  * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
+  * **{6}** es el número de caracteres que estamos extrayendo
 
 ![](assets/five.png)
 
@@ -148,14 +152,14 @@ Ahora que hemos aprendido a extraer y asignar campos, combinemos esas acciones p
 * Utilice el operador &quot;[!UICONTROL extracts]&quot;, ya que es necesario extraer el valor del parámetro
 * Para extraer el valor &quot;04&quot;, definiremos el valor como &quot;BZ=(\d)-\d{2}-\d{2}-\d{2}-\d{2}-\d{2}&quot;
 
-   * **(**) marca el inicio de la extracción
+  * **(**) marca el inicio de la extracción
 
-      * Observe que, como solo extraemos los 4, solo los primeros dígitos tienen el paréntesis de apertura
-   * **)** marca el final de la extracción
+    * Observe que, como solo extraemos los 4, solo los primeros dígitos tienen el paréntesis de apertura
+  * **)** marca el final de la extracción
 
-      * Observe que, como solo extraemos los 4, solo los primeros dígitos tienen el paréntesis cerrado
-   * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
-   * **{2}** es el número de caracteres que estamos extrayendo
+    * Observe que, como solo extraemos los 4, solo los primeros dígitos tienen el paréntesis cerrado
+  * **\d** nos indica que estamos extrayendo un &quot;dígito&quot;
+  * **{2}** es el número de caracteres que estamos extrayendo
 
 
 
@@ -168,10 +172,10 @@ Ahora que hemos aprendido a extraer y asignar campos, combinemos esas acciones p
 * En función de la asignación y la URL anterior, el valor de región para un punto de contacto con esta página de aterrizaje sería EMEA
 * Repita la extracción y la asignación para los 4 conjuntos de dígitos restantes
 
-   * Para extraer el 01, debe definir el valor como &quot;BZ=\d-**(\d{2})**-\d{2}-\d{2}-\d{2}-\d{2}&quot;
-   * Para extraer el 09, debe definir el valor como &quot;BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2}&quot;
-   * Para extraer el 03, debe definir el valor como &quot;BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;
-   * Para extraer los 10, debe definir el valor como &quot;BZ=\d-\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;
+  * Para extraer el 01, debe definir el valor como &quot;BZ=\d-**(\d{2})**-\d{2}-\d{2}-\d{2}-\d{2}&quot;
+  * Para extraer el 09, debe definir el valor como &quot;BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2}&quot;
+  * Para extraer el 03, debe definir el valor como &quot;BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;
+  * Para extraer los 10, debe definir el valor como &quot;BZ=\d-\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;
 
 ![](assets/seven.png)
 

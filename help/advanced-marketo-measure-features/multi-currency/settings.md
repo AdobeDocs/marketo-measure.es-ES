@@ -4,18 +4,21 @@ description: Configuración - [!DNL Marketo Measure]
 title: Configuración
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-TQID: https://experienceleague.adobe.com/UzGt-bX2JvKlHEMod-NOnokTkKkGe66uxKrvorwCda0
+TQID: 'https://experienceleague.adobe.com/UzGt-bX2JvKlHEMod-NOnokTkKkGe66uxKrvorwCda0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 130
+source-wordcount: '130'
 ht-degree: 1%
-
 ---
-
 # Configuración {#settings}
 
 Hay dos bits de características independientes vinculados a esta característica, ubicados en la ficha [!UICONTROL Configuración general] de CRM: Varias monedas y Monedas avanzadas.

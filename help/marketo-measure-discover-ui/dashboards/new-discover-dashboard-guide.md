@@ -1,21 +1,25 @@
 ---
-description: Nueva guía de paneles de Discover - [!DNL Marketo Measure]  - Producto
+description: Nueva guía de paneles de Discover - [!DNL Marketo Measure] - Producto
 title: Nueva guía del panel de control Discover
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-TQID: https://experienceleague.adobe.com/p9wH91818KiCuzb-Nk0QtGA9J6mmpzn2erlxrnQiTk8
+TQID: 'https://experienceleague.adobe.com/p9wH91818KiCuzb-Nk0QtGA9J6mmpzn2erlxrnQiTk8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1057'
 ht-degree: 4%
-
 ---
-
 # Nueva guía del panel de control Discover {#new-discover-dashboard-guide}
 
 Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuestro objetivo principal es ofrecerle una experiencia más ágil e intuitiva. Con imágenes más limpias y una navegación más sencilla, esta renovación no solo conserva la mayoría de las métricas existentes, sino que también introduce perspectivas nuevas. Sumérjase y descubra la claridad mejorada y el valor añadido.
@@ -350,7 +354,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
   <tbody>
     <tr>
       <th scope="col">Métricas obsoletas</th>
-      <th scope="col">Razonar</th>
+      <th scope="col">Razonamiento</th>
     </tr>
     <tr>
       <td>

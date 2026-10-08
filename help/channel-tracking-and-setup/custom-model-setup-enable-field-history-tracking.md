@@ -3,19 +3,23 @@ description: 'Configuración de modelo personalizado: Habilite la guía de segui
 title: 'Configuración de modelo personalizado: Habilitar el seguimiento del historial de campos'
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 78%
-
+ht-degree: 90%
 ---
-
 # Configuración de modelo personalizado: Habilitar el seguimiento del historial de campos {#custom-model-setup-enable-field-history-tracking}
 
 ## Por qué y cuándo habilitar el seguimiento del historial de campos {#why-and-when-to-enable-field-history-tracking}
 
-Si decide incluir un campo personalizado como una fase en el modelo de atribución personalizado, el seguimiento del historial de campos **debe estar habilitado** para este campo. Si habilita el seguimiento del historial de campos, [!DNL Salesforce] podrá realizar el seguimiento cada vez que se edite el campo personalizado creando un registro en la tabla Seguimiento de historial. [!DNL Marketo Measure] Puede descargar esa tabla y utilizar esta información para medir la hora y el día en que se produjo una &quot;transición&quot;. Sin el seguimiento del historial de campos, [!DNL Marketo Measure] no puede realizar un seguimiento de los cambios relacionados con este campo.
+Si decide incluir un campo personalizado como una fase en el modelo de atribución personalizado, el seguimiento del historial de campos **debe estar habilitado** para este campo. Si habilita el seguimiento del historial de campos, permitirá que [!DNL Salesforce] realice un seguimiento de cada vez que se edita el campo personalizado, y crea un registro en la tabla Historial de seguimiento. [!DNL Marketo Measure] puede descargar esa tabla y utilizar esta información para medir la hora y el día en que se produjo una “transición”. Sin el seguimiento del historial de campos, [!DNL Marketo Measure] no puede realizar un seguimiento de los cambios relacionados con este campo.
 
 Si solo se utilizan las Fases de oportunidad o el [!UICONTROL Estado del posible cliente] en el modelo personalizado, no es necesario activar el seguimiento del historial de campos porque se rastreará automáticamente como una transición de fase.
 
@@ -29,7 +33,7 @@ Para habilitar el seguimiento del historial de campos, siga las instrucciones a 
 
 1. Vaya al objeto donde se encuentra el campo personalizado y haga clic en el botón **[!UICONTROL Definir seguimiento de historial]**.
 
-   ![1. Vaya al objeto donde se encuentra el campo personalizado y haga clic en &#x200B;](assets/custom-models-1.png)
+   ![1. Vaya al objeto donde se encuentra el campo personalizado y haga clic en ](assets/custom-models-1.png)
 
 1. Seleccione los campos en los que desea rastrear los cambios.
 

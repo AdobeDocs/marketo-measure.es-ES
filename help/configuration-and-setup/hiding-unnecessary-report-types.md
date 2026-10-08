@@ -3,13 +3,20 @@ description: Ocultación de tipos de informes innecesarios para usuarios de Mark
 title: Ocultar tipos de informes innecesarios
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 5%
-
 ---
-
 # Ocultar tipos de informes innecesarios {#hiding-unnecessary-report-types}
 
 Una vez finalizada la instalación y comenzado a usar los informes, su organización no usará todos los informes que se incluyen en el paquete [!DNL Marketo Measure]. Por lo tanto, es útil ocultar los tipos de informes que no esté utilizando para eliminar cualquier confusión y permitir una apariencia más limpia. Puede ocultar cualquier informe que desee, pero los informes identificados en la siguiente imagen suelen estar ocultos.
@@ -24,7 +31,7 @@ Una vez finalizada la instalación y comenzado a usar los informes, su organizac
 
 1. Haga clic en los informes marcados a continuación con una X naranja para que la lista de informes tenga el mismo aspecto que la imagen siguiente.
 
-   ![1. Haga clic en los informes marcados a continuación con una X naranja para hacer &#x200B;](assets/bizible-full-1.png)
+   ![1. Haga clic en los informes marcados a continuación con una X naranja para hacer ](assets/bizible-full-1.png)
 
 >[!MORELIKETHIS]
 >

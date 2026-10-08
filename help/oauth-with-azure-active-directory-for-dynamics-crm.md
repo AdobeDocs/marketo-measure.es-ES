@@ -1,16 +1,23 @@
 ---
-description: Guía de OAuth with [!DNL Azure Active Directory] for Dynamics CRM para usuarios de Marketo Measure
-title: OAuth con [!DNL Azure Active Directory]  para Dynamics CRM
+description: OAuth con [!DNL Azure Active Directory] para Dynamics CRM, guía para usuarios de Marketo Measure
+title: OAuth con [!DNL Azure Active Directory] para Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '970'
 ht-degree: 1%
-
 ---
-
 # OAuth con [!DNL Azure Active Directory] para Dynamics CRM {#oauth-with-azure-active-directory-for-dynamics-crm}
 
 ## Quién se ve afectado {#who-s-affected}
@@ -27,11 +34,11 @@ Esta configuración es para nuevos clientes de [!DNL Marketo Measure] que usan D
 
 1. Seleccione el inquilino de Azure AD haciendo clic en su cuenta en la esquina superior derecha de la página, haciendo clic en la navegación del Directorio de switches y, a continuación, seleccionando el inquilino adecuado. Omita este paso si solo tiene un inquilino de Azure AD en su cuenta o si ya ha seleccionado el inquilino de Azure AD adecuado.
 
-   ![1. Elija el inquilino de Azure AD al hacer clic en su cuenta en &#x200B;](assets/bizible-taxonomy-1.png)
+   ![1. Elija el inquilino de Azure AD al hacer clic en su cuenta en ](assets/bizible-taxonomy-1.png)
 
 1. Busque &quot;[!DNL Azure Active Directory]&quot; en la barra de búsqueda y haga clic en el nombre para abrir.
 
-   ![1. Busque &quot;Azure Active Directory&quot; en la barra de búsqueda y &#x200B;](assets/microsoft-guide-1.png)
+   ![1. Busque &quot;Azure Active Directory&quot; en la barra de búsqueda y ](assets/microsoft-guide-1.png)
 
 1. Haga clic en **[!UICONTROL Registros de aplicación]** en el menú de la izquierda.
 
@@ -56,21 +63,21 @@ c. Proporcione el URI de redireccionamiento. En las aplicaciones web, esta es la
 
 1. Agregue las direcciones URL de redireccionamiento [!DNL Marketo Measure]: `https://apps.bizible.com/OAuth2` y `https://apps.bizible.com/OAuth2?identityOnly=true` a la lista de direcciones URL de redireccionamiento.
 
-   ![1. Agregue las direcciones URL de redireccionamiento de Marketo Measure: https://apps.bizible.com/OAuth2 y https://apps.bizible.com/OAuth2?identityOnly=true a &#x200B;](assets/microsoft-guide-5.png)
+   ![1. Agregue las direcciones URL de redireccionamiento de Marketo Measure: https://apps.bizible.com/OAuth2 y https://apps.bizible.com/OAuth2?identityOnly=true a ](assets/microsoft-guide-5.png)
 
 1. Vaya a la pestaña Permisos de API y asegúrese de que los permisos correctos están asignados a la aplicación.
 
-   ![1. Vaya a la pestaña Permisos de API y asegúrese de que &#x200B;](assets/microsoft-guide-6.png)
+   ![1. Vaya a la pestaña Permisos de API y asegúrese de que ](assets/microsoft-guide-6.png)
 
 1. Desde aquí, escriba &quot;[!UICONTROL enterprise]&quot; en el cuadro de búsqueda y haga clic en **[!UICONTROL Aplicaciones empresariales]**.
 
-   ![1. Desde aquí, escriba &quot;empresa&quot; en el cuadro de búsqueda y haga clic en &#x200B;](assets/microsoft-guide-7.png)
+   ![1. Desde aquí, escriba &quot;empresa&quot; en el cuadro de búsqueda y haga clic en ](assets/microsoft-guide-7.png)
 
 1. De nuevo, busque y abra la nueva aplicación en la lista de aplicaciones.
 
 1. En la ficha Permisos, haga clic en **[!UICONTROL Conceder consentimiento de administrador para (nombre de instancia)]**.
 
-   ![1. En la ficha Permisos, haga clic en Conceder consentimiento de administrador para (instancia &#x200B;](assets/microsoft-guide-8.png)
+   ![1. En la ficha Permisos, haga clic en Conceder consentimiento de administrador para (instancia ](assets/microsoft-guide-8.png)
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
@@ -78,7 +85,7 @@ c. Proporcione el URI de redireccionamiento. En las aplicaciones web, esta es la
 
 1. En la ficha &quot;[!UICONTROL Usuarios y grupos]&quot;, asegúrese de que los &quot;Usuarios y grupos&quot; válidos estén asignados a la aplicación.
 
-   ![1. En la ficha &quot;Usuarios y grupos&quot;, asegúrese de que &#x200B;](assets/microsoft-guide-10.png)
+   ![1. En la ficha &quot;Usuarios y grupos&quot;, asegúrese de que ](assets/microsoft-guide-10.png)
 
 ## Creación de un usuario de aplicación {#creating-an-application-user}
 
@@ -128,6 +135,6 @@ c. El URI del ID de aplicación es la dirección URL de la API web de destino (r
 
 1. Cuando se hace clic en la tecla, aparece una ventana emergente y se le solicita que introduzca el ID de cliente, el secreto de cliente y el URI de ID de aplicación, de forma similar al flujo de suscripción.
 
-   ![1. Cuando se hace clic en la clave, aparece una ventana emergente y usted es &#x200B;](assets/microsoft-guide-12.png)
+   ![1. Cuando se hace clic en la clave, aparece una ventana emergente y usted es ](assets/microsoft-guide-12.png)
 
 1. Después de hacer clic en **[!UICONTROL Enviar]**, se le pedirá que inicie sesión con [!DNL Azure Active Directory]. Si la autenticación se realiza correctamente, la cuenta de Dynamics se vuelve a autorizar en [!DNL Marketo Measure].

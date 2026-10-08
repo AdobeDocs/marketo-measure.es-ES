@@ -3,18 +3,21 @@ description: Tablero de Passport - [!DNL Marketo Measure] - Producto
 title: Panel de control de Passport
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-TQID: https://experienceleague.adobe.com/SlIfN-Y5sttJQUeLgA-JA-H-lbRJMS8BrgBYdnhmgZk
+TQID: 'https://experienceleague.adobe.com/SlIfN-Y5sttJQUeLgA-JA-H-lbRJMS8BrgBYdnhmgZk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 2%
-
 ---
-
 # Panel de control de Passport {#passport-dashboard}
 
 El panel Passport ofrece a los especialistas en marketing una vista dinámica de los posibles clientes, los contactos y las oportunidades a medida que realizan la transición en varias fases dentro de un periodo especificado. Al filtrar por una fecha específica, los usuarios también pueden obtener una instantánea de los registros de ese día.
@@ -23,7 +26,7 @@ El panel Passport ofrece a los especialistas en marketing una vista dinámica de
 
 * ¿Cuántos posibles clientes, contactos u oportunidades existían en cada etapa no terminal en un día elegido?
 * Durante un periodo especificado, ¿cuántos posibles clientes o contactos distintos han progresado en cada fase transitoria?
-   * _Ejemplo_: Si el posible cliente A estaba en la fase 1 el 1/1/2023 y avanzó a la fase 5 el 31/3/2023, el análisis de Passport del primer trimestre de 2023 contaría el posible cliente A en las fases 1 a 5.
+  * _Ejemplo_: Si el posible cliente A estaba en la fase 1 el 1/1/2023 y avanzó a la fase 5 el 31/3/2023, el análisis de Passport del primer trimestre de 2023 contaría el posible cliente A en las fases 1 a 5.
 * ¿Cuántas oportunidades únicas pasaron por cada etapa transitoria durante un lapso de tiempo determinado?
 
 ## Componentes del panel {#dashboard-components}
@@ -31,7 +34,7 @@ El panel Passport ofrece a los especialistas en marketing una vista dinámica de
 ### Oportunidades en fase por nombre de etapa {#opportunities-in-stage-by-stage-name}
 
 * Cada fase muestra el número de oportunidades con puntos de contacto que han pasado a través de ellas en un periodo de tiempo determinado.
-   * Si una oportunidad progresa a través de múltiples etapas dentro de ese intervalo, se cuenta en cada etapa que pasa.
+  * Si una oportunidad progresa a través de múltiples etapas dentro de ese intervalo, se cuenta en cada etapa que pasa.
 * Se excluyen las fases de terminal como &quot;Cerrado ganado&quot; y &quot;Cerrado perdido&quot;.
 * Las fechas de inicio y finalización son ambas inclusivas.
 
@@ -40,8 +43,8 @@ El panel Passport ofrece a los especialistas en marketing una vista dinámica de
 ### Posibles clientes o contactos en la fase por nombre de fase {#leads-or-contacts-in-stage-by-stage-name}
 
 * Cada fase muestra el número de posibles clientes o contactos con puntos de contacto que han pasado a través de ellos en un periodo de tiempo determinado.
-   * La preferencia establecida en Configuración > Configuración de atribución > Objeto de panel predeterminado determina si se mostrará &quot;Posible cliente&quot; o &quot;Contacto&quot;.
-   * Si un posible cliente o contacto progresa a través de varias etapas dentro de ese intervalo, se cuenta en cada etapa que pasa.
+  * La preferencia establecida en Configuración > Configuración de atribución > Objeto de panel predeterminado determina si se mostrará &quot;Posible cliente&quot; o &quot;Contacto&quot;.
+  * Si un posible cliente o contacto progresa a través de varias etapas dentro de ese intervalo, se cuenta en cada etapa que pasa.
 * Se excluyen las fases de terminal como &quot;Cerrado ganado&quot; y &quot;Cerrado perdido&quot;.
 * Las fechas de inicio y finalización son ambas inclusivas.
 

@@ -3,13 +3,17 @@ description: Tablero de ROI de palabras clave - [!DNL Marketo Measure] - Product
 title: Panel de control del retorno de la inversión de palabra clave
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
-
 ---
-
 # Panel de control del retorno de la inversión de palabra clave {#keyword-roi-dashboard}
 
 El panel ROI de palabras clave proporciona una perspectiva detallada sobre el rendimiento de las campañas de búsqueda de pago. Ofrece un análisis completo de los costes a nivel de palabra clave, los ingresos atribuidos y los nuevos posibles clientes y oportunidades generados, lo que garantiza una comprensión clara del ROI de la palabra clave.
@@ -68,11 +72,11 @@ Desglose por palabras clave específicas para ver las oportunidades influenciada
 Este tablero está equipado con los siguientes ajustes y filtros:
 
 * Fecha
-   * Basado en:
-      * Fecha de creación: Posibles clientes, nuevas oportunidades
-      * Fecha de coste incurrido: coste
-      * Fecha de cierre: ingresos atribuidos (ROI simple), ofertas
-      * Touchpoint date: puntos de contacto de los ingresos atribuidos realizados (ROI realizado)
+  * Basado en:
+    * Fecha de creación: Posibles clientes, nuevas oportunidades
+    * Fecha de coste incurrido: coste
+    * Fecha de cierre: ingresos atribuidos (ROI simple), ofertas
+    * Touchpoint date: puntos de contacto de los ingresos atribuidos realizados (ROI realizado)
 * Modelo de atribución
 * Palabra clave
 * Campaña

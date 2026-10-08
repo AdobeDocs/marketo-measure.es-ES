@@ -3,13 +3,19 @@ description: Permisos de integración Guía general para usuarios de Marketo Mea
 title: Información general sobre permisos de integración
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1476'
 ht-degree: 2%
-
 ---
-
 
 # Información general sobre permisos de integración {#integration-permissions-overview}
 
@@ -158,7 +164,7 @@ Marketo Measure realiza un seguimiento de cuentas, campañas, grupos de publicid
     <p>
     <b>Ámbitos</b>
     <br>
-    <a href="https://www.linkedin.com/campaignmanager/accounts">Configurar la función de usuario en el portal (requiere inicio de sesión en la cuenta de LinkedIn)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Resumen de funciones de usuario</a>: función de usuario, ver y administrar permisos de usuario, asignar funciones como administrador de cuentas o administrador de campañas
+    <a href="https://www.linkedin.com/campaignmanager/accounts">Configure la función de usuario en el portal (requiere inicio de sesión en la cuenta de LinkedIn)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Resumen de funciones de usuario</a>: La función de usuario, ver y administrar el permiso de usuario, asignar funciones como administrador de cuentas o administrador de campañas
     <p>
     <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Configurar el rol de administrador de página - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Definiciones de rol de administrador de página</a>: Rol de administrador de página, en la página de administración deseada
     <p>

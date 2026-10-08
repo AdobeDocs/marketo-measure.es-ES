@@ -3,23 +3,29 @@ description: Directrices para reautorizar cuentas conectadas para usuarios de Ma
 title: Volver a autorizar cuentas conectadas
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 4%
-
 ---
-
 # Volver a autorizar cuentas conectadas {#reauthorizing-connected-accounts}
 
 Cuando una cuenta se desconecta de su cuenta de [!DNL Marketo Measure], el estado de la plataforma cambiará a &quot;Se requiere autorización&quot; y mostrará un icono de llave roja.
 
-Si la plataforma de publicidad se desconecta, [!DNL Marketo Measure] no podrá descargar los datos de costos o, si tiene habilitado el etiquetado automático, anexará los parámetros de UTM [!DNL Marketo Measure] a los anuncios recién creados. [!DNL Marketo Measure] no podrá anexar de forma retroactiva los parámetros de UTM a ningún punto de contacto creado desde la plataforma de publicidad mientras la cuenta estaba desconectada.
+Si la plataforma de publicidad se desconecta, [!DNL Marketo Measure] no podrá descargar los datos de costos o, si tiene habilitado el etiquetado automático, anexará los parámetros de UTM [!DNL Marketo Measure] a los anuncios recién creados. [!DNL Marketo Measure] no podrá anexar de forma retroactiva los parámetros de UTM a ningún punto de contacto creado desde la plataforma de publicidad mientras se desconectó la cuenta.
 
 Si la plataforma CRM se desconecta, [!DNL Marketo Measure] no podrá actualizar los datos de [!DNL Marketo Measure] ni insertar nuevos puntos de contacto en la organización. Una vez restablecida la conexión de CRM, [!DNL Marketo Measure] insertará los datos que se hayan perdido mientras se desconectaba la cuenta.
 
-![Si su plataforma CRM se desconecta, Marketo Measure no se &#x200B;](assets/utilizing-connections-7.png)
+![Si su plataforma CRM se desconecta, Marketo Measure no se ](assets/utilizing-connections-7.png)
 
 ## Volver a autorizar cuentas desconectadas {#re-authorizing-disconnected-accounts}
 

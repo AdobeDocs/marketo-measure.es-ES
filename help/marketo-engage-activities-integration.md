@@ -3,13 +3,17 @@ description: Integración de actividades de [!DNL Marketo Engage] - [!DNL Market
 title: Integración de actividades de [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 1%
-
 ---
-
 # Integración de actividades de [!DNL Marketo Engage] {#marketo-engage-activities-integration}
 
 Como parte de la integración general de [!DNL Marketo Measure] y [!DNL Marketo Engage], este esfuerzo por extraer las actividades de Marketo desempeña un papel fundamental. A través de las actividades de Marketo, el sistema rastrea eventos como `Click Email`, `Change Score` o `Change Status in Progression`; estos tipos de actividades se pueden reducir y definir para seleccionar un subconjunto apto para los puntos de contacto. Una vez creados los puntos de contacto de estas actividades, se rastrean en el recorrido de participación y se miden junto con otros canales de marketing, como la búsqueda de pago o el marketing de socio.
@@ -35,11 +39,11 @@ Como parte de la integración general de [!DNL Marketo Measure] y [!DNL Marketo 
 
 1. Haga clic en el menú desplegable debajo de [!UICONTROL Seleccionar tipos de actividades] para comenzar a elegir los distintos tipos.
 
-   ![1. Haga clic en el menú desplegable debajo de Seleccionar tipos de actividades para comenzar &#x200B;](assets/marketo-engage-activities-03.png)
+   ![1. Haga clic en el menú desplegable debajo de Seleccionar tipos de actividades para comenzar ](assets/marketo-engage-activities-03.png)
 
 1. Cuando haya seleccionado todas las actividades que necesita, podrá verlas rellenadas en su [!UICONTROL Lista de actividades seleccionadas] y en [!UICONTROL Definir reglas].
 
-   ![1. Cuando se seleccionen todas las actividades que necesita, podrá ver &#x200B;](assets/marketo-engage-activities-04.png)
+   ![1. Cuando se seleccionen todas las actividades que necesita, podrá ver ](assets/marketo-engage-activities-04.png)
 
 1. Para cada tipo de actividad, debe definir una o más reglas que determinen qué registros cumplen los requisitos para los puntos de contacto. En este ejemplo, agregamos una regla para el tipo de actividad &quot;Cambiar puntuación&quot; para que el sistema cree un punto de contacto cuando una persona de Marketo alcance una puntuación de 90 o superior.
 

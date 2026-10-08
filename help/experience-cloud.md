@@ -1,22 +1,28 @@
 ---
-description: Guía general de la interfaz de Adobe Experience Cloud para usuarios de Marketo Measure
+description: Guía general sobre la interfaz de Adobe Experience Cloud para usuarios de Marketo Measure
 title: Información general sobre la interfaz de Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 19%
-
 ---
-
 # Información general sobre la interfaz de Adobe Experience Cloud {#experience-cloud-interface-overview}
 
 La interfaz de Adobe Experience Cloud alinea la apariencia de las aplicaciones y servicios de Adobe Experience Cloud. Es más que solo un nuevo diseño. Es una aplicación de una sola página que ofrece la experiencia del usuario en una sola instancia.
 
 ## Flujo de usuarios {#user-flow}
 
-Si ya inició sesión en un producto de Adobe Experience Cloud, haga clic en el icono de menú y seleccione **[!DNL Marketo Measure]**.
+Si ya inició sesión en un producto de Adobe Experience Cloud, haga clic en el icono del menú y seleccione **[!DNL Marketo Measure]**.
 
 ![Si ya inició sesión en un producto de Adobe Experience Cloud,](assets/unified-overview-6.png)
 
@@ -70,7 +76,7 @@ Los marcadores se redirigen. Por ejemplo, si tuviera que navegar a https://apps.
 
 **No puedo iniciar sesión en [!DNL Marketo Measure] mediante la interfaz de Experience Cloud. ¿Cuál podría ser el problema?**
 
-Si puede iniciar sesión en Adobe Experience Cloud pero ve una página como la siguiente, el problema podría estar en el lado [!DNL Marketo Measure]:
+Si puede iniciar sesión en Adobe Experience Cloud, pero ve una página como la siguiente, el problema podría estar en el lado [!DNL Marketo Measure]:
 
 ![Si puedes iniciar sesión en Adobe Experience Cloud, pero ves a](assets/unified-overview-7.png)
 

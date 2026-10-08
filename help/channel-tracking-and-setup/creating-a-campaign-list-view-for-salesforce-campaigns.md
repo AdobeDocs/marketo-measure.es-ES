@@ -1,15 +1,19 @@
 ---
-description: Creación de una vista de lista de campañas para  [!DNL Salesforce] Guía de campañas para usuarios de Marketo Measure
-title: 'Creación de una vista de lista de campañas para campañas de  [!DNL Salesforce] '
+description: Creación de una vista de lista de campañas para [!DNL Salesforce] Guía de campañas para usuarios de Marketo Measure
+title: Creando una vista de lista de campaña para [!DNL Salesforce] campañas
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 6%
-
+source-wordcount: '451'
+ht-degree: 4%
 ---
-
 # Creando una vista de lista de campaña para [!DNL Salesforce] campañas {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Aprenda a crear una vista de lista para las campañas que desee sincronizar con los puntos de contacto del comprador.
@@ -26,7 +30,7 @@ La vista de lista de campañas que se puede crear le permite tener una ubicació
 
    * **Escriba** [ES IGUAL QUE] &#39;Todos los tipos de campaña que hemos asignado a sus canales sin conexión&#39;. Consulte su plan de implementación o la pestaña Canales sin conexión en [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mi cuenta -> Configuración -> Canales sin conexión). Puede seleccionar los tipos que desee (los que estén asignados a un canal de marketing sin conexión) mediante el icono de lupa.
 
-      * Elija 3 tipos como máximo para cada filtro. Hay un límite de caracteres que puede tener en un campo de filtro. Comience con 3 tipos por filtro y añada filas adicionales de filtros &quot;Tipo&quot; si es necesario.
+     * Elija 3 tipos como máximo para cada filtro. Hay un límite de caracteres que puede tener en un campo de filtro. Comience con 3 tipos por filtro y añada filas adicionales de filtros &quot;Tipo&quot; si es necesario.
 
    * **Fecha de creación** [MAYOR O IGUAL QUE] tu fecha de inicio de [!DNL Marketo Measure]. Puede encontrar la fecha de inicio en el panel ROI de la aplicación [!DNL Marketo Measure]. Solo tiene que seleccionar &quot;Desde la fecha de creación&quot; en el intervalo de fechas del guión y se mostrará su fecha de inicio.
    * **&#42;Tipo de registro&#42;**: para poder realizar modificaciones en la vista de lista, debe agregar un filtro para el tipo de registro. Cada registro de campaña que necesite editar debe ser del mismo tipo de registro.

@@ -3,22 +3,33 @@ description: '[!DNL Marketo Measure] Información general de Ultimate - [!DNL Ma
 title: Información general sobre [!DNL Marketo Measure] Ultimate
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-TQID: https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M
+TQID: 'https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: '726'
 ht-degree: 97%
-
 ---
-
 # Información general sobre [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-overview}
 
 [!DNL Marketo Measure] (anteriormente Bizible) ofrece a los especialistas en marketing una perspectiva detallada de las medidas de marketing más eficaces para generar ingresos y maximizar el retorno de la inversión para su compañía. [!DNL Marketo Measure] es una solución de atribución de marketing que realiza automáticamente un seguimiento del rendimiento del canal y genera informes al respecto, lo que proporciona visibilidad sobre los canales que generan la mayor participación de los clientes y le permite optimizar el gasto de marketing en consecuencia.
@@ -26,9 +37,9 @@ ht-degree: 97%
 [!DNL Marketo Measure Ultimate] contiene las siguientes funciones adicionales:
 
 * Realiza la ingesta desde casi cualquier fuente de datos y desde varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
-   * Se utiliza con casi cualquier CRM, no solo con Salesforce y Dynamics.
-   * Conecta varias instancias de CRM y/o instancias de MAP a una instancia de [!DNL Marketo Measure].
-   * Incluya datos de participación y registro de seminarios web de terceros.
+  * Se utiliza con casi cualquier CRM, no solo con Salesforce y Dynamics.
+  * Conecta varias instancias de CRM y/o instancias de MAP a una instancia de [!DNL Marketo Measure].
+  * Incluya datos de participación y registro de seminarios web de terceros.
 
 * Transforme sus datos con gran flexibilidad a través de las capacidades de asignación de campos y transformación para garantizar la forma de datos correcta.
 
@@ -99,7 +110,7 @@ Se deben asignar cuatro fases integradas con reglas (las reglas de asignación p
 
 Las condiciones de la regla son específicas del conjunto de datos. Las reglas de asignación de fases deben crearse para todos los conjuntos de datos y todas las fases, excepto para los Clientes potenciales perdidos y los Clientes potenciales convertidos.
 
-No hay selección para el modelo de canal frente a búmeran o personalizado. Todas las fases se seleccionan para el modelo de canal, búmeran y personalizado. Hay un límite de cuántas fases admitimos: 15 fases personalizadas más 6 fases integradas.
+No hay selección para el modelo de embudo frente a búmeran o personalizado. Todas las fases se seleccionan para el modelo de embudo, búmeran y personalizado. Hay un límite de cuántas fases admitimos: 15 fases personalizadas más 6 fases integradas.
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 
@@ -122,4 +133,4 @@ Los servicios ABM ML de [!DNL Marketo Measure] (coincidencia de cliente potencia
 >
 >* [Destino de Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=es){target="_blank"}
 >
->* [VÍDEO: Información general sobre Marketo Measure Ultimate](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>* [VÍDEO: Información general sobre Marketo Measure Ultimate](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

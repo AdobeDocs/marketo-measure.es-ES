@@ -3,13 +3,17 @@ description: Obtenga información acerca de Account-Based Marketing (ABM) y cóm
 title: Información general sobre el marketing basado en cuentas
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 96ef477f-0ffb-5375-8fca-6d27be6b7c00
+    internal-label: Account-based Marketing
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 83%
-
+source-wordcount: '876'
+ht-degree: 92%
 ---
-
 # Información general sobre el marketing basado en cuentas {#account-based-marketing-overview}
 
 Las siguientes secciones ofrecen información general breve sobre ABM, los componentes de la función ABM de [!DNL Marketo Measure] y cómo añadirla a su diseño de página de [!DNL Salesforce]. Para leer más sobre ABM, revisa el [blog ABM](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"} de Adobe.
@@ -18,7 +22,7 @@ Para obtener instrucciones detalladas sobre la configuración de ABM dentro de s
 
 ## Qué es ABM {#what-is-abm}
 
-El marketing basado en cuentas, ABM, es una estrategia de marketing en la que se dirige y vende a empresas y cuentas en su conjunto, no solo como individuos. [!DNL Marketo Measure] ayuda a los equipos de marketing y ventas a ejecutar estrategias ABM exitosas con su funcionalidad de asignación de cliente potencial a cuenta y su puntuación de participación predictiva.
+El marketing basado en cuentas (ABM) es una estrategia de marketing en la que se segmenta y se vende a empresas y cuentas en su conjunto, no solo como individuos. [!DNL Marketo Measure] ayuda a los equipos de marketing y ventas a ejecutar estrategias de ABM exitosas con su funcionalidad de asignación de clientes potenciales a cuentas y su puntuación de participación predictiva.
 
 Para que nuestro modelo de marketing basado en cuentas empiece a rellenarse en su CRM, [!DNL Marketo Measure] necesita que se cumplan los siguientes criterios:
 
@@ -68,8 +72,8 @@ Hay muchos componentes que entran en el algoritmo que calcula la PES. La actuali
 >
 >Puede observar una calificación “N/A” o “-” (el símbolo del guion) en su Puntuación de participación predictiva para algunas cuentas.
 
-_Una calificación de &quot;N/A&quot; simplemente significa que no hay datos suficientes en esa cuenta para que el modelo genere una calificación verdadera; con más datos, finalmente se otorga una calificación._
-_Un grado de &quot;-&quot; (símbolo de guión) significa que esta cuenta aún no ha sido procesada por el proceso ABM, debido a limitaciones de tiempo, procesos ocasionalmente incumplidos, etc. Si cree que una cuenta debe tener una calificación basada en otras cuentas o marcos de tiempo similares, póngase en contacto e informe a [!DNL Marketo Measure]._
+_Una calificación de “N/A” simplemente significa que no hay datos suficientes aún en esa cuenta para que el modelo genere una calificación verdadera; con más datos, se asignará una calificación._
+_Un grado de &quot;-&quot; (símbolo de guión) significa que el proceso ABM aún no ha procesado esta cuenta, debido a restricciones de tiempo, procesos fallidos ocasionalmente, etc. Si cree que una cuenta debe tener una calificación basada en otras cuentas o marcos de tiempo similares, póngase en contacto e informe a [!DNL Marketo Measure]._
 
 ## Configuración del diseño de página de ABM en [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 
@@ -87,7 +91,7 @@ Para empezar a utilizar la PES, debe añadir el campo PES y la lista relacionada
 1. A continuación, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Clientes potenciales]** > **[!UICONTROL Diseño de página]** y seleccione los diseños de página adecuados que desee editar.
 1. Haga clic en **[!UICONTROL Campos]** y añada el campo [!UICONTROL Cuenta] donde crea conveniente en la página.
 
-   ![1. Haga clic en Campos y agregue el campo Cuenta donde &#x200B;](assets/account-marketing-5.png)
+   ![1. Haga clic en Campos y agregue el campo Cuenta donde ](assets/account-marketing-5.png)
 
 Ya está todo listo.
 

@@ -3,14 +3,18 @@ description: Detalla las reglas de visibilidad de datos aplicadas en los paneles
 title: Directiva de visibilidad de datos del panel de control
 feature: Reporting
 exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 14%
-
 ---
-
 # Directiva de visibilidad de datos del panel de control {#dashboard-data-visibility-policy}
 
 Para ofrecer una mejor experiencia en nuestros paneles, hemos establecido políticas de visibilidad de datos para los objetos sobre los que informamos. Es importante tener en cuenta que, a medida que se familiarice con nuestros nuevos paneles de Discover, es posible que observe números más bajos en comparación con los paneles antiguos. Esto se debe a un cambio en nuestra metodología de representación de datos, en la que los nuevos paneles ahora tienen directrices de visibilidad específicas. A diferencia de nuestros antiguos paneles de Discover, que muestran todos los datos disponibles, la nueva versión solo muestra los datos según la política de visibilidad. El objetivo de este artículo es aclarar cómo se aplican las políticas de visibilidad a los distintos objetos de datos y garantizar la transparencia y la interpretación precisa de los datos a partir de los informes.

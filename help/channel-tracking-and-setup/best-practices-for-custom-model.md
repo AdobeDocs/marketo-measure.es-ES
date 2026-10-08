@@ -3,13 +3,17 @@ description: Prácticas recomendadas para la guía de modelos personalizados par
 title: Prácticas recomendadas para el modelo personalizado
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 2%
-
 ---
-
 # Prácticas recomendadas para el modelo personalizado {#best-practices-for-custom-model}
 
 ## Información general {#overview}
@@ -35,23 +39,23 @@ Es crucial que estos dos aspectos del modelo personalizado se definan correctame
 Tanto si configura el modelo personalizado por primera vez como si revisa lo que se ha establecido anteriormente, es importante tener en cuenta las siguientes prácticas recomendadas.
 
 * Inicio simple
-   * Identifique las etapas clave que desee agregar al modelo personalizado y que son cruciales para los informes de [!DNL Marketo Measure]. Normalmente, estas son etapas con las que se suele medir o con las que se pretende obtener insight
-   * Siempre puede agregar al modelo personalizado con el tiempo
+  * Identifique las etapas clave que desee agregar al modelo personalizado y que son cruciales para los informes de [!DNL Marketo Measure]. Normalmente, estas son etapas con las que se suele medir o con las que se pretende obtener insight
+  * Siempre puede agregar al modelo personalizado con el tiempo
 * Utilizar el modelo de aprendizaje automático [!DNL Marketo Measure]
-   * Si tiene dificultades para decidir el desglose de atribución porcentual, el modelo de aprendizaje automático de [!DNL Marketo Measure] puede ayudarle a tomar decisiones informadas al configurar el modelo de atribución personalizado.
-   * Al ver el modelo de aprendizaje automático, los porcentajes de atribución de cada fase reflejan el impacto potencial de sus esfuerzos de marketing
-      * Un porcentaje mayor significa que el marketing puede influir directamente en el movimiento de la funnel en ese punto
-      * Un porcentaje de atribución menor significa que las fases son menos importantes para que el equipo las supervise
+  * Si tiene dificultades para decidir el desglose de atribución porcentual, el modelo de aprendizaje automático de [!DNL Marketo Measure] puede ayudarle a tomar decisiones informadas al configurar el modelo de atribución personalizado.
+  * Al ver el modelo de aprendizaje automático, los porcentajes de atribución de cada fase reflejan el impacto potencial de sus esfuerzos de marketing
+    * Un porcentaje mayor significa que el marketing puede influir directamente en el movimiento de la funnel en ese punto
+    * Un porcentaje de atribución menor significa que las fases son menos importantes para que el equipo las supervise
 * Debe definir la parte superior de las fases de funnel en función de las fases Posible cliente o Contacto, no en ambas
-   * Esto significa que debe asegurarse de que todas las personas pasen por esa etapa en el objeto relativo
-      * Por ejemplo: si define la etapa MQL a partir del objeto de posible cliente, todas las personas deben entrar en su sistema como posible cliente y marcarse como un MQL en su registro de posible cliente para que [!DNL Marketo Measure] refleje con precisión qué contacto estaba relacionado con la transición del posible cliente a MQL. Si este no es el caso, y algunas personas progresan a Contacto antes de convertirse en MQL como posible cliente, [!DNL Marketo Measure] no podrá explicar esto con precisión en sus datos de Touchpoint y tendremos que suponer que esa persona ya ha cambiado de MQL. [!DNL Marketo Measure] no puede explicar el salto de etapa, por lo que deduciremos que las etapas se han pasado incluso si no lo han hecho.
+  * Esto significa que debe asegurarse de que todas las personas pasen por esa etapa en el objeto relativo
+    * Por ejemplo: si define la etapa MQL a partir del objeto de posible cliente, todas las personas deben entrar en su sistema como posible cliente y marcarse como un MQL en su registro de posible cliente para que [!DNL Marketo Measure] refleje con precisión qué contacto estaba relacionado con la transición del posible cliente a MQL. Si este no es el caso, y algunas personas progresan a Contacto antes de convertirse en MQL como posible cliente, [!DNL Marketo Measure] no podrá explicar esto con precisión en sus datos de Touchpoint y tendremos que suponer que esa persona ya ha cambiado de MQL. [!DNL Marketo Measure] no puede contabilizar el salto de etapa, por lo que deduciremos que las etapas se han pasado aunque no lo hayan hecho.
 * Asegúrese de que el seguimiento del historial de campos esté habilitado para todos los campos utilizados para definir las fases personalizadas que incorpora
 * No utilice campos de fórmula para definir una fase personalizada
-   * Una recomendación de prácticas recomendadas es un campo booleano
+  * Una recomendación de prácticas recomendadas es un campo booleano
 * No incorpore etapas personalizadas al modelo personalizado que coincidan con una posición de punto de contacto de hito [!DNL Marketo Measure] (FT, LC, OC, ganados/perdidos cerrados)
-   * Si lo hace, estas posiciones siempre se producen simultáneamente y pueden causar un crédito de atribución inflado a partes de su funnel.
+  * Si lo hace, estas posiciones siempre se producen simultáneamente y pueden causar un crédito de atribución inflado a partes de su funnel.
 * Trabaje con su equipo de ventas
-   * La inclusión del equipo que trabaja más cerca de las fases y su significado garantiza que está utilizando las fases correctas y que están definidas correctamente
+  * La inclusión del equipo que trabaja más cerca de las fases y su significado garantiza que está utilizando las fases correctas y que están definidas correctamente
 
 ## Práctica recomendada para el mantenimiento {#best-practice-for-maintenance}
 

@@ -3,14 +3,18 @@ description: Guía de campañas y miembros de campaña para usuarios de Marketo 
 title: Campañas y miembros de campañas
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 85%
-
+ht-degree: 88%
 ---
-
 # Campañas y miembros de campañas {#campaigns-and-campaign-members}
 
 Las campañas de [!DNL Salesforce] están pensadas para rastrear listas de posibles clientes y contactos asociados a un programa o una actividad de marketing. Esto ha sido, por lo general, seminarios web, inscripciones o visitas en ambos sitios, por ejemplo. Los especialistas en marketing pueden seleccionar si una campaña debe recibir crédito en un recorrido de touchpoint.
@@ -67,7 +71,7 @@ Con la instalación del paquete, [!DNL Marketo Measure] también incluye un camp
 
 Esto podría ser necesario si se cargó una lista de días/semanas/meses después de que se produjera un evento. Existen maneras de actualizar todos los registros a la vez, que se explican a continuación.
 
-![Esto podría ser necesario si se cargó una lista días/semanas/meses después de &#x200B;](assets/dynamics-lists-4.png)
+![Esto podría ser necesario si se cargó una lista días/semanas/meses después de ](assets/dynamics-lists-4.png)
 
 Para saber si necesita utilizar o no la fecha de Buyer Touchpoint, así es como se determinan las fechas en [!DNL Marketo Measure] según el [!UICONTROL Tipo de sincronización] que se selecciona para la campaña.
 
@@ -80,7 +84,7 @@ Si la variable [!UICONTROL Tipo de sincronización] se establece en “Incluir
 
 * Fecha de Buyer Touchpoint
 * Primera fecha de respuesta
-   * La primera fecha de respuesta se establece automáticamente en cuanto el estado se cambia a &quot;Respondido&quot; y es un campo [!DNL Salesforce] estándar que no se puede cambiar
+  * La primera fecha de respuesta se establece automáticamente en cuanto el estado se cambia a &quot;Respondido&quot; y es un campo [!DNL Salesforce] estándar que no se puede cambiar
 
 * Fecha de creación del miembro de campaña
 
@@ -118,7 +122,7 @@ Obtenga más información sobre los costes de campaña [en este artículo](/help
 
 La forma en que [!DNL Marketo Measure] se mantiene al día de los registros eliminados en Salesforce, ya sean posibles clientes o cuentas u oportunidades eliminados es ver esos registros en la API y realizar un seguimiento de que una entrada se haya marcado como &quot;IsDeleted&quot;. Desafortunadamente con los miembros de la campaña, Salesforce introdujo una forma diferente de eliminar estos miembros de campaña de una campaña y, en realidad, solo están marcados como &quot;borrados&quot; en lugar de &quot;eliminados&quot;, por lo que el problema es que los Touchpoints seguían activos en Salesforce y estaban relacionados con los miembros de campaña eliminados.
 
-Para evitar este problema, [!DNL Marketo Measure] creó un objeto de historial [!DNL Marketo Measure] y un déclencheur para rastrear cada vez que se quitan los miembros de la campaña y luego eliminar el punto de contacto correspondiente. **Necesitará [!DNL Marketo Measure] paquete de Marketing Analytics V6.15 o superior** para usar esta característica.
+Para evitar este problema, [!DNL Marketo Measure] creó un objeto Historial de [!DNL Marketo Measure] y un activador para rastrear cada vez que se borran miembros de la campaña y luego eliminar el Touchpoint correspondiente. **Necesitará el paquete de [!DNL Marketo Measure] Marketing Analytics V6.15 o superior** para utilizar esta función.
 
 >[!CAUTION]
 >

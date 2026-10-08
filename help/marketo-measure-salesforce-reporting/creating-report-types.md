@@ -1,16 +1,20 @@
 ---
-description: Creando guía de tipos de informes  [!DNL Marketo Measure] personalizados para usuarios de Marketo Measure
-title: 'Creación de tipos de informes personalizados de  [!DNL Marketo Measure] '
+description: Creando guía de tipos de informes [!DNL Marketo Measure] personalizados para usuarios de Marketo Measure
+title: Creando tipos de informe [!DNL Marketo Measure] personalizados
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 7%
-
+source-wordcount: '440'
+ht-degree: 6%
 ---
-
 # Creando tipos de informe [!DNL Marketo Measure] personalizados {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
@@ -92,8 +96,8 @@ Aprenda a crear tipos de informes personalizados [!DNL Marketo Measure] [!DNL Sa
 
 1. Una vez creados los informes, se le redirigirá a una descripción general del tipo de informe. Haga clic en **[!UICONTROL Editar diseño]**.
 
-   ![1. Una vez creados los informes, se le redirigirá a &#x200B;](assets/new-types-2.png)
+   ![1. Una vez creados los informes, se le redirigirá a ](assets/new-types-2.png)
 
 1. Asegúrese de que los campos personalizados que desee agregar al informe aparezcan en la sección Propiedades de diseño de campo. Si desea agregar otros campos, use la opción &quot;[!UICONTROL Agregar campos relacionados mediante la búsqueda]&quot;.
 
-   ![1. Asegúrese de que los campos personalizados que desea agregar a &#x200B;](assets/new-types-3.png)
+   ![1. Asegúrese de que los campos personalizados que desea agregar a ](assets/new-types-3.png)

@@ -3,13 +3,20 @@ description: Guía de campañas de Dynamics y listas de marketing para usuarios 
 title: Listas de marketing y campañas de Dynamics
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 3%
-
 ---
-
 # Listas de marketing y campañas de Dynamics {#dynamics-campaigns-and-marketing-lists}
 
 >[!NOTE]
@@ -60,7 +67,7 @@ Las listas de marketing son otra forma de incluir posibles clientes o contactos 
 
 [!DNL Marketo Measure] solo admite listas de marketing estáticas. No se admiten listas de marketing dinámicas porque nuestro procesamiento requiere que comprobemos la fecha de modificación de un registro, pero como una lista dinámica cambia con frecuencia, no hay ninguna fecha de modificación para [!DNL Marketo Measure] con la que comprobar. Esto requeriría una descarga constante del conjunto de datos completo a lo largo del día.
 
-![Marketo Measure solo admite listas de marketing estáticas. No se admite &#x200B;](assets/dynamics-lists-5.png)
+![Marketo Measure solo admite listas de marketing estáticas. No se admite ](assets/dynamics-lists-5.png)
 
 La captura de pantalla anterior es una lista de marketing para posibles clientes. Las listas de marketing están asociadas a campañas y pueden asociarse a varias campañas. A menos que en algún momento cree solamente una lista de mercadotecnia para una campaña, [!DNL Marketo Measure] no recomienda que los clientes usen listas de mercadotecnia para hacer un seguimiento de sus campañas. Es poco probable que la misma lista exacta de posibles clientes/contactos sea apta para puntos de contacto en varias campañas.
 

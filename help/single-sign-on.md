@@ -2,13 +2,14 @@
 description: Guía de inicio de sesión único para usuarios de Marketo Measure
 title: Inicio de sesión único
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 54%
-
 ---
-
 # Inicio de sesión único {#single-sign-on}
 
 El lenguaje de marcado para confirmaciones de seguridad (SAML) para el inicio de sesión único (SSO) permite autenticarse a través del proveedor de identidad de una compañía cuando se inicia sesión en la aplicación de [!DNL Marketo Measure]. SSO permite a un usuario autenticarse una vez, sin necesidad de autenticar aplicaciones independientes. SAML es una necesidad para los clientes empresariales, ya que no todos los usuarios tienen una cuenta de [!DNL Salesforce] o [!DNL Google] en su organización. Para escalar, [!DNL Marketo Measure] ha desarrollado una solución SAML compatible con los proveedores de identidad de la empresa.
@@ -30,7 +31,7 @@ El lenguaje de marcado para confirmaciones de seguridad (SAML) para el inicio de
 
 Para empezar, vaya a la página Configuración > Seguridad > Autenticación en la aplicación de [!DNL Marketo Measure]. A continuación, cambie el tipo de inicio de sesión a SSO personalizado para ver las opciones de configuración. Los cambios no surtirán efecto hasta que pruebe la autenticación y haga clic en el botón **[!UICONTROL Guardar]** en la parte inferior de la página.
 
-![Para empezar, vaya a la página Autenticación de seguridad de configuración en &#x200B;](assets/compliance-resources-1.png)
+![Para empezar, vaya a la página Autenticación de seguridad de configuración en ](assets/compliance-resources-1.png)
 
 ## Procesar {#process}
 
@@ -72,7 +73,7 @@ Configure y asigne la configuración de atributos del usuario a los campos Nombr
     
     b. Sugerencia: si prueba la configuración de SAML ahora, analizaremos los atributos Correo electrónico, Nombre y Apellidos que puede utilizar para esta sección.
 
-![b. Sugerencia: Si prueba la configuración de SAML ahora, analizaremos &#x200B;](assets/discover-control-1.png)
+![b. Sugerencia: Si prueba la configuración de SAML ahora, analizaremos ](assets/discover-control-1.png)
 
 Configure y asigne la configuración de la función de usuario a las funciones o grupos respectivos clasificados de su IdP.
 
@@ -94,13 +95,13 @@ Prueba de la configuración de inicio de sesión único
     
     b. Si ve un error de &quot;error&quot;, siga el mensaje e inténtelo de nuevo.
 
-![b. Si ve un error de &quot;error&quot;, siga el mensaje e intente &#x200B;](assets/discover-control-3.png)
+![b. Si ve un error de &quot;error&quot;, siga el mensaje e intente ](assets/discover-control-3.png)
 
 Guarde la configuración e indique a sus compañeros que utilicen [!UICONTROL Inicio de sesión único] con la nueva URL de inicio de sesión personalizado.
 
     a. Importante: Una vez que guarde la nueva configuración de autenticación, es posible que la sesión termine una vez que navegue a una nueva página porque ha deshabilitado el inicio de sesión de los usuarios de CRM y ha habilitado el SSO personalizado.
 
-![a. Importante: Una vez que guarde la nueva configuración de autenticación, es posible &#x200B;](assets/discover-control-3.png)
+![a. Importante: Una vez que guarde la nueva configuración de autenticación, es posible ](assets/discover-control-3.png)
 
 Pruébelo.
 
@@ -110,7 +111,7 @@ Pruébelo.
     
     c. ¡Felicidades! Ha configurado correctamente el inicio de sesión único en la Solicitud de su cuenta de  [!DNL Marketo Measure] .
 
-![c. ¡Felicidades! Ha configurado correctamente el inicio de sesión único en &#x200B;](assets/discover-control-3.png)
+![c. ¡Felicidades! Ha configurado correctamente el inicio de sesión único en ](assets/discover-control-3.png)
 
 >[!NOTE]
 >

@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874743
 description: Conectando [!DNL Marketo Measure] al Administrador de scripts de devolución - [!DNL Marketo Measure]
-title: Conexión de  [!DNL Marketo Measure]  al administrador de scripts de cancelación de devoluciones
+title: Conectando [!DNL Marketo Measure] al Administrador de scripts de devolución
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-TQID: https://experienceleague.adobe.com/Bo0BFhBLbNfX89BScumswE7WvVzztOak1P38xcXdk1M
+TQID: 'https://experienceleague.adobe.com/Bo0BFhBLbNfX89BScumswE7WvVzztOak1P38xcXdk1M'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 120
-ht-degree: 6%
-
+source-wordcount: '122'
+ht-degree: 3%
 ---
-
 # Conectando [!DNL Marketo Measure] al Administrador de scripts de devolución {#connecting-marketo-measure-to-unbounce-script-manager}
 
 [!DNL Marketo Measure] se integra directamente con Unbounce, lo que le permite rastrear la fuente de marketing digital de las conversiones de su página de aterrizaje directamente en [!DNL Salesforce]. Para establecer la conexión, simplemente agregue el script [!DNL Marketo Measure] a su Administrador de scripts de devolución. Así es cómo se hace.

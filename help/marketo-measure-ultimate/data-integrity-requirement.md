@@ -1,21 +1,29 @@
 ---
-description: '[!DNL Marketo Measure] requisito de integridad de datos de Ultimate - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Requisito de integridad de datos de Ultimate - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-TQID: https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E
+TQID: 'https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: '1703'
 ht-degree: 78%
-
 ---
-
 # [!DNL Marketo Measure] Requisito sobre la integridad de datos de Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
 [!DNL Marketo Measure] valida los conjuntos de datos de AEP entrantes para asegurarse de que los datos sean suficientes y coherentes para la atribución. Si no se cumple el requisito de integridad de datos, el sistema [!DNL Marketo Measure] rechaza el conjunto de datos. Este artículo detalla el requisito de integridad de los datos, proporciona ejemplos de consultas para la inspección de datos y recomienda una solución para los campos obligatorios con un valor nulo.
@@ -895,7 +903,7 @@ ht-degree: 78%
 
 ## Requisitos de datos de conversión de moneda {#currency-conversion-data-requirements}
 
-**Moneda predeterminada**: en Marketo Measure, todos los ingresos y costos se convierten a una moneda predeterminada en el momento de generar los informes. Debe haber un registro con la misma cobertura de fechas para la propia moneda de destino (por ejemplo, USD a USD) con una tasa de conversión de 1.
+**Moneda predeterminada**: en Marketo Measure, todos los ingresos y costos se convierten a una moneda predeterminada en el momento de generar los informes. Debe haber un registro con la misma cobertura de fechas para la propia moneda de destino (por ejemplo, de USD a USD) con una tasa de conversión de 1.
 
 **Tasas de conversión**: Cada par (moneda de origen, moneda de destino) puede tener múltiples tasas de conversión para diferentes períodos de fecha. Las tasas deben cubrir todo el lapso de tiempo desde 0001-01-01 hasta 9999-12-31, según el objeto DatedConversionRate de Salesforce.
 
@@ -1384,7 +1392,7 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 Se recomienda utilizar un campo calculado en la asignación de campos para establecer el campo de forma predeterminada en un valor no NULL. A continuación, se muestran dos ejemplos:
 
 * Si el OpportunityName de algunos registros de oportunidad es nulo, cree y utilice el siguiente campo calculado en la asignación de campos
-   * `iif(name != null && trim(name) != "", name, "Unknown")`
+  * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * Si el leadOperation.campaignProgression.campaignID de algunos registros experienceevent es nulo, cree y utilice el siguiente campo calculado en la asignación de campos
-   * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
+  * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

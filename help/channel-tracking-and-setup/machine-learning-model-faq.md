@@ -2,18 +2,21 @@
 description: Guía de preguntas frecuentes sobre el modelo de aprendizaje automático para usuarios de Marketo Measure
 title: Preguntas frecuentes sobre el modelo de aprendizaje automático
 feature: Custom Models
-TQID: https://experienceleague.adobe.com/GJLwWk-6Gqb8u6lWIwXNx5L2H3OATGd-vCn1xWQqmuo
+TQID: 'https://experienceleague.adobe.com/GJLwWk-6Gqb8u6lWIwXNx5L2H3OATGd-vCn1xWQqmuo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: '683'
 ht-degree: 1%
-
 ---
-
 # Preguntas frecuentes sobre el modelo de aprendizaje automático {#machine-learning-model-faq}
 
 El modelo de aprendizaje automático [!DNL Marketo Measure] utiliza los datos de punto de contacto para calcular la ponderación de atribución que debe asignarse a cada fase. Esto está determinado por la importancia de cada etapa en las ofertas de manejo para cerrar.

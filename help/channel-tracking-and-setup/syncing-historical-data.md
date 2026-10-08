@@ -3,13 +3,17 @@ description: Sincronización de directrices de datos históricos para usuarios d
 title: Sincronización de datos históricos
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 3%
-
 ---
-
 # Sincronización de datos históricos {#syncing-historical-data}
 
 [!DNL Marketo Measure] es una solución que proporciona los datos más granulares y procesables. Sin embargo, entendemos que es posible que tenga datos existentes para los que le gustaría tener atribución. Es posible generar puntos de contacto para datos históricos, pero es importante tener en cuenta algunos factores antes de continuar con este proceso.
@@ -24,7 +28,7 @@ ht-degree: 3%
 
 a. Los datos deben estar organizados en Campañas para sincronizarse con [!DNL Marketo Measure] a fin de que se generen los puntos de contacto. Si actualmente no está organizado en Campañas, se recomienda evaluar si merece la pena el tiempo y los recursos necesarios para segmentar los datos en las campañas adecuadas.
 
-b. La fecha en la que se añadió el miembro a la campaña o se marcó como respondido se utilizará para la fecha de Touchpoint, por lo que esto también debe ser preciso. [!DNL Marketo Measure] ofrece soluciones alternativas tanto en SFDC como en MSD para actualizar las fechas, pero esto podría llevar mucho tiempo en función del volumen.
+b. La fecha en la que se añadió el miembro a la campaña o se marcó como respondido se utilizará para la fecha de Touchpoint, por lo que esto también debe ser preciso. [!DNL Marketo Measure] ofrece soluciones alternativas tanto en SFDC como en MSD para actualizar las fechas, pero esto podría llevar mucho tiempo dependiendo del volumen.
 
 **¿Tiene una cantidad de datos bastante similar organizados en campañas para todos los canales (búsqueda de pago, eventos, orgánicos, etc.)?**
 

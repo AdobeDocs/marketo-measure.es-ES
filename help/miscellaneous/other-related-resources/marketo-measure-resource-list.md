@@ -1,22 +1,26 @@
 ---
 unique-page-id: 37356962
-description: Lista de medios [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Lista de medios de [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Lista de recursos de [!DNL Marketo Measure]
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-TQID: https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU
+TQID: 'https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Troubleshooting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 6%
-
 ---
-
 # Lista de recursos de [!DNL Marketo Measure] {#marketo-measure-resource-list}
 
 ¡Aquí hay varios vínculos a artículos/videos pertinentes para ayudarle a poner en marcha [!DNL Marketo Measure]!
@@ -39,7 +43,7 @@ ht-degree: 6%
 * [Cargando gasto de marketing](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Volver a conectar cuentas de publicidad](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Agregando [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
-   * [Excluir Forms](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
+  * [Excluir Forms](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **Creación de informes**
 
@@ -55,10 +59,10 @@ ht-degree: 6%
 
 Aquí hay un par de vídeos que le ayudarán a ponerse al día:
 
-* [[!DNL Marketo Measure] Curso de introducción] (¿https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutos)
-* [[!DNL Marketo Measure] Creación de informes en SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=es) (de 30 a 45 minutos)
+* [[!DNL Marketo Measure] Curso de introducción](¿https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutos)
+* [[!DNL Marketo Measure] Creación de informes en SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (de 30 a 45 minutos)
 
-**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=es) (~30 minutos)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 minutos)**
 
 Esta serie de cursos está diseñada como una introducción general a los conceptos básicos que necesita conocer para dominar [!DNL Marketo Measure]. Proporciona una introducción al concepto de atribución, lo que hace [!DNL Marketo Measure] como herramienta y el marco general en el que opera [!DNL Marketo Measure].
 
@@ -70,7 +74,7 @@ Temas tratados:
 * Puntos de contacto
 * Modelos de atribución
 
-**[[!DNL Marketo Measure] Creación de informes en SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=es) (de 30 a 45 minutos)**
+**[[!DNL Marketo Measure] Creación de informes en SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (de 30 a 45 minutos)**
 
 Esta serie de cursos está diseñada como una introducción a los [!DNL Marketo Measure] informes de existencias que se han instalado en Salesforce. Estos informes actúan como la base de la mayoría de los informes que realiza con los datos de [!DNL Marketo Measure].
 
@@ -83,7 +87,7 @@ Temas tratados:
 * Informe de oportunidades por ID
 * Informe de oportunidades por canal
 
-**[Administración de canales](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=es)**
+**[Administración de canales](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
 
 Este curso abarca varias formas de personalizar [!DNL Marketo Measure], en términos de seguimiento en línea y sin conexión. Este curso es más avanzado y es posible que no sea relevante para todos los usuarios.
 
@@ -95,4 +99,4 @@ Temas tratados:
 * Campos de campaña y de miembro de campaña
 * Administración de canales sin conexión
 
-Aquí están todos [los videos de aprendizaje en línea para principiantes](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=es).
+Aquí están todos [los videos de aprendizaje en línea para principiantes](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).

@@ -3,13 +3,17 @@ description: Integración de [!DNL Marketo Engage] personas - [!DNL Marketo Meas
 title: Integración de [!DNL Marketo Engage] personas
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 2%
-
 ---
-
 # Integración de [!DNL Marketo Engage] personas {#marketo-engage-people-integration}
 
 La integración de usuarios de Marketo permite que [!DNL Marketo Measure] empiece a descargar usuarios de Marketo y a enlazar las sesiones a las que realiza el seguimiento con el usuario, así como a asignar puntos de contacto a sus participaciones. Históricamente, [!DNL Marketo Measure] solo pudo asignar puntos de contacto a una persona desde CRM, por lo que esto ayuda a los especialistas en marketing a medir sus esfuerzos de marketing antes que esperar una etapa o un déclencheur para sincronizarlo con CRM.
@@ -41,9 +45,9 @@ Los clientes tienen la opción de informar sobre el conjunto completo de persona
 
 Al informar sobre posibles clientes (personas) en [!DNL Marketo Measure Discover], verá el total de sus posibles clientes de Marketo y CRM. Para informar solo sobre las personas de Marketo o solo los posibles clientes de CRM, querrá crear una Categoría de segmento para su origen y luego crear Reglas de segmento para Marketo y CRM usando el campo &quot;Sistema de Source&quot; para definir la regla. Una vez creados los segmentos, verá la categoría Source disponible para filtrar en los paneles de [!DNL Marketo Measure Discover].
 
-![Al informar sobre clientes potenciales (personas) en Marketo Measure Discover, &#x200B;](assets/bizible-discover-1.png)
+![Al informar sobre clientes potenciales (personas) en Marketo Measure Discover, ](assets/bizible-discover-1.png)
 
-![Al informar sobre clientes potenciales (personas) en Marketo Measure Discover, &#x200B;](assets/bizible-discover-2.png)
+![Al informar sobre clientes potenciales (personas) en Marketo Measure Discover, ](assets/bizible-discover-2.png)
 
 ## Asignación de campos {#field-mappings}
 
@@ -58,7 +62,7 @@ Al informar sobre posibles clientes (personas) en [!DNL Marketo Measure Discover
    <th><p><strong>Marketo</strong></p></th>
   </tr>
   <tr>
-   <td><p>Identificación</p></td>
+   <td><p>ID</p></td>
    <td><p>Identificación</p></td>
   </tr>
   <tr>
@@ -71,7 +75,7 @@ Al informar sobre posibles clientes (personas) en [!DNL Marketo Measure Discover
   </tr>
   <tr>
    <td><p>EMAIL</p></td>
-   <td><p>email</p></td>
+   <td><p>correo electrónico</p></td>
   </tr>
   <tr>
    <td><p>WEB_SITE</p></td>
@@ -83,7 +87,7 @@ Al informar sobre posibles clientes (personas) en [!DNL Marketo Measure Discover
   </tr>
   <tr>
    <td><p>IS_CONVERTED</p></td>
-   <td><p>n/a</p></td>
+   <td><p>N/A</p></td>
   </tr>
   <tr>
    <td><p>ACCOUNT_ID</p></td>

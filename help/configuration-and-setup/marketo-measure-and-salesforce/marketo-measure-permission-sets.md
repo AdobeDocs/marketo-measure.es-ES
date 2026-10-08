@@ -4,18 +4,24 @@ description: '[!DNL Marketo Measure] conjuntos de permisos - [!DNL Marketo Measu
 title: Conjuntos de permisos de [!DNL Marketo Measure]
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/Taoe3f0JfNQ6R-zdMVPJsbdswgNuii-XAyzEsb4MdCk
+TQID: 'https://experienceleague.adobe.com/Taoe3f0JfNQ6R-zdMVPJsbdswgNuii-XAyzEsb4MdCk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 271
+source-wordcount: '271'
 ht-degree: 4%
-
 ---
-
 # Conjuntos de permisos de [!DNL Marketo Measure] {#marketo-measure-permission-sets}
 
 Obtenga información sobre cómo acceder y asignar conjuntos de permisos de [!DNL Marketo Measure] en Salesforce.
@@ -40,7 +46,7 @@ Para acceder y asignar conjuntos de permisos en Salesforce:
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Administrador</strong></span></td> 
-   <td><span>Permite a un administrador de SFDC crear, leer, escribir y eliminar registros de [!DNL Marketo Measure] objetos. La licencia bajo la cual [!DNL Marketo Measure] envía datos a SFDC debe tener habilitado este conjunto de permisos. Además, se recomienda que esta licencia tenga la capacidad de editar posibles clientes convertidos en los casos en que el posible cliente se convierta antes de que [!DNL Marketo Measure] aplique los datos al registro. Esto garantiza la precisión en los informes entre Salesforce y [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us">Más información aquí</a>.</span></td> 
+   <td><span>Permite a un administrador de SFDC crear, leer, escribir y eliminar registros de [!DNL Marketo Measure] objetos. La licencia bajo la cual [!DNL Marketo Measure] envía datos a SFDC debe tener habilitado este conjunto de permisos. Además, se recomienda que esta licencia tenga la capacidad de editar posibles clientes convertidos en los casos en que el posible cliente se convierta antes de que [!DNL Marketo Measure] aplique los datos al registro. Esto garantiza la precisión en los informes entre Salesforce y [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">Más información aquí</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Usuario de marketing</strong></span></td> 

@@ -3,19 +3,23 @@ description: Tablero de velocidad de oportunidad - [!DNL Marketo Measure] - Prod
 title: Panel de control de velocidad de oportunidad
 feature: Reporting
 exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
-TQID: https://experienceleague.adobe.com/Jo1bO9vUfT5yYLTe1NQZvNyQQVLnjqr-sbntl14lgX0
+TQID: 'https://experienceleague.adobe.com/Jo1bO9vUfT5yYLTe1NQZvNyQQVLnjqr-sbntl14lgX0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 380
+source-wordcount: '380'
 ht-degree: 4%
-
 ---
-
 # Panel de control de velocidad de oportunidad {#opportunity-velocity-dashboard}
 
 El tablero de Velocity ofrece una vista dinámica del ritmo al que los posibles clientes se mueven a través de funnel de ventas, lo que proporciona a los especialistas en marketing y a los equipos de ventas una perspectiva esencial de los tiempos de conversión en varios canales. Esta herramienta es muy valiosa para responder a preguntas clave sobre el ciclo de vida de la oportunidad y la eficiencia de la progresión a través de las fases de ventas, lo que le permite optimizar sus estrategias de participación para un crecimiento y conversiones acelerados.
@@ -78,7 +82,7 @@ Preguntas que responde el gráfico:
 Este tablero está equipado con los siguientes ajustes y filtros:
 
 * Fecha
-   * Basado en: Transición en fecha
+  * Basado en: Transición en fecha
 * Fase
 * Canal
 * Subcanal

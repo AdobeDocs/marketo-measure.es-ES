@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874773
-description: Configuración y creación de informes de pruebas A/B [!DNL Marketo Measure]
+description: Configuración e informes de pruebas A/B - [!DNL Marketo Measure]
 title: Configuración e informes de pruebas A/B
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
-TQID: https://experienceleague.adobe.com/lMtRvc6owu6vx-FsOjCyd40HGhQefpNIr48cnKP5CmM
+TQID: 'https://experienceleague.adobe.com/lMtRvc6owu6vx-FsOjCyd40HGhQefpNIr48cnKP5CmM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 348f752d-f464-5239-ab5e-c1faaeafb983
+    internal-label: A/B Testing
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 427
-ht-degree: 86%
-
+source-wordcount: '427'
+ht-degree: 84%
 ---
-
 # Configuración e informes de pruebas A/B {#a-b-testing-set-up-and-reporting}
 
 La integración de la prueba A/B [!DNL Marketo Measure] le permite rastrear el impacto en los ingresos de sus experimentos de sitio de [Optimizely](https://www.optimizely.com/){target="_blank"} y VWO. Este artículo contiene instrucciones sobre cómo añadir Secciones de prueba A/B de [!DNL Marketo Measure] a los diseños de páginas de Cliente potencial, [!UICONTROL Contacto], Caso y [!UICONTROL Oportunidad]. También se tratan las prácticas generales de creación de informes y recomendaciones para la ejecución de Tipos de informes A/B de [!DNL Marketo Measure].

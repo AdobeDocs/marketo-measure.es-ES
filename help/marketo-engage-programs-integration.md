@@ -3,13 +3,17 @@ description: Integración de programas de [!DNL Marketo Engage] - [!DNL Marketo 
 title: Integración de programas de [!DNL Marketo Engage]
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 2%
-
 ---
-
 # Integración de programas de [!DNL Marketo Engage] {#marketo-engage-programs-integration}
 
 A través de la integración de [!DNL Marketo Measure] con los programas de [!DNL Marketo Engage], nuestros clientes pueden empezar a crear puntos de contacto para el seguimiento de atribución desde las suscripciones a programas de Marketo. Esta capacidad permite a los especialistas en marketing iniciar el seguimiento de las suscripciones a programas desde programas de correo electrónico o participación que de otra manera no serían vistos por el javascript [!DNL Marketo Measure] y deberían medirse dentro del recorrido de atribución.
@@ -32,13 +36,13 @@ Todos los niveles.
 
 1. Para comenzar a configurar reglas en los programas de Marketo, vaya a **[!UICONTROL Mi cuenta]** > **[!UICONTROL Configuración]** > **[!UICONTROL Programas]**. Haga clic en el icono **+** para comenzar a crear la primera regla.
 
-   ![1. Para comenzar a configurar reglas en programas de Marketo, vaya a &#x200B;](assets/marketo-engage-programs-01.png)
+   ![1. Para comenzar a configurar reglas en programas de Marketo, vaya a ](assets/marketo-engage-programs-01.png)
 
-   ![1. Para comenzar a configurar reglas en programas de Marketo, vaya a &#x200B;](assets/marketo-engage-programs-06.png)
+   ![1. Para comenzar a configurar reglas en programas de Marketo, vaya a ](assets/marketo-engage-programs-06.png)
 
 1. Si lo desea, puede definir un nombre para la regla si resulta útil realizar un seguimiento de la misma. En primer lugar, debe seleccionar el campo para definir la regla en la lista de campos Program y Program Membership. Continúe creando la regla seleccionando el operador y el valor esperado que desea comprobar.
 
-   ![1. Si lo desea, puede establecer un nombre para la regla si &#x200B;](assets/marketo-engage-programs-07.png)
+   ![1. Si lo desea, puede establecer un nombre para la regla si ](assets/marketo-engage-programs-07.png)
 
 1. Añada otra instrucción dentro del mismo cuadro para configurar un criterio &quot;y&quot; en la regla o haga clic en el icono + fuera del cuadro para configurar una instrucción &quot;o&quot;.
 
@@ -46,7 +50,7 @@ Todos los niveles.
 
 1. Elija qué fecha o campo de fecha/hora debe utilizarse para asignar a la fecha del punto de contacto. Para ver la lista de valores disponibles en Marketo, escriba un corchete angular `{` y se mostrarán los campos disponibles.
 
-   ![1. Elija la fecha o el campo de fecha/hora que se debe usar para asignar &#x200B;](assets/marketo-engage-programs-02.png)
+   ![1. Elija la fecha o el campo de fecha/hora que se debe usar para asignar ](assets/marketo-engage-programs-02.png)
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ Después de crear algunas reglas, es posible que desee probarlas para comprobar 
 
 1. Aparecerá un modal donde puede introducir el ID de programa desde Marketo.
 
-   ![1. Aparecerá un modal donde puede introducir datos en el programa &#x200B;](assets/marketo-engage-programs-04.png)
+   ![1. Aparecerá un modal donde puede introducir datos en el programa ](assets/marketo-engage-programs-04.png)
 
    Una vez que ingrese el identificador y haga clic en el botón [!UICONTROL Test], nuestro motor de reglas revisará cada regla y determinará si el programa se ajusta o no a alguna de las reglas. En el ejemplo siguiente, puede ver que el programa 1002, denominado [!DNL Marketo Measure] Ebook, tiene 5 miembros de programa y es elegible debido a la regla que se muestra.
 
@@ -88,7 +92,7 @@ En la lista de canales de programa de Marketo, deseará asignar los valores a lo
 
 1. Seleccione primero el canal que debe asignarse al valor y, a continuación, seleccione opcionalmente el subcanal. Cuando termine, haga clic en **[!UICONTROL Guardar]** en la parte inferior.
 
-   ![1. Seleccione primero el canal que debe asignarse al valor y, a continuación, &#x200B;](assets/marketo-engage-programs-08.png)
+   ![1. Seleccione primero el canal que debe asignarse al valor y, a continuación, ](assets/marketo-engage-programs-08.png)
 
 ## Costos de programa {#program-costs}
 

@@ -1,20 +1,25 @@
 ---
-description: 'Prácticas recomendadas para la asignación de etapas:  [!DNL Marketo Measure]'
+description: 'Prácticas recomendadas para la asignación de etapas: [!DNL Marketo Measure]'
 title: Prácticas recomendadas para la asignación de fases
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-TQID: https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg
+TQID: 'https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '479'
 ht-degree: 4%
-
 ---
-
 # Prácticas recomendadas para la asignación de fases {#best-practices-for-stage-mapping}
 
 ## Información general {#overview}
@@ -30,17 +35,17 @@ Una función adicional que se administra en esta sección es Funnel Stages, que 
 Tanto si está evaluando la asignación de etapas por primera vez como si simplemente está revisando su pedido de funnel, es importante tener en cuenta las siguientes prácticas recomendadas.
 
 * ¡El orden lo es todo!
-   * Teniendo en cuenta que [!DNL Marketo Measure] extrae las etapas activa e inactiva de su CRM, confirme que todas las etapas que se puedan utilizar en un posible cliente/contacto o una oportunidad se agrupen y se ordenen en consecuencia
+  * Teniendo en cuenta que [!DNL Marketo Measure] extrae las etapas activa e inactiva de su CRM, confirme que todas las etapas que se puedan utilizar en un posible cliente/contacto o una oportunidad se agrupen y se ordenen en consecuencia
 * Al definir una fase personalizada, asegúrese de que el seguimiento del historial de campos esté habilitado para cualquier campo utilizado para definir la fase
 * No utilice un campo de fórmula para definir una fase personalizada
-   * Un campo booleano es la recomendación de prácticas recomendadas
+  * Un campo booleano es la recomendación de prácticas recomendadas
 * Tenga en cuenta que la sección de la fase Posible cliente o Contacto se divide en Perdido, Abierto y Convertido; compruebe que las fases se encuentran en la sección de fase adecuada
-   * Tener una fase en la sección de fase incorrecta puede generar datos [!DNL Marketo Measure] muy incorrectos
-   * Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos para posible cliente ([obtener más información](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
-      * b2b.personStatus
-      * b2b.isConverted
+  * Tener una fase en la sección de fase incorrecta puede generar datos [!DNL Marketo Measure] muy incorrectos
+  * Si es cliente de Marketo Measure Ultimate y ha establecido su objeto de panel predeterminado como contacto, no utilice los dos campos siguientes específicos para posible cliente ([obtener más información](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+    * b2b.personStatus
+    * b2b.isConverted
 * Tenga en cuenta que la sección Fase de oportunidad se divide en Perdidas, Abiertas y Ganadas; valide que las fases se encuentren en la sección de fase adecuada
-   * Tener una fase en la sección de fase incorrecta puede generar datos de ingresos de [!DNL Marketo Measure] o canalización altamente incorrectos
+  * Tener una fase en la sección de fase incorrecta puede generar datos de ingresos de [!DNL Marketo Measure] o canalización altamente incorrectos
 * Evite utilizar nombres de fase duplicados (nuestro sistema los detectará y eliminará uno automáticamente).
 * Para establecer una regla que compruebe valores NULL, deje en blanco el cuadro de texto del valor.
 

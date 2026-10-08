@@ -3,13 +3,19 @@ description: Guía de integración de LinkedIn para usuarios de Marketo Measure
 title: Integración de LinkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2778'
 ht-degree: 1%
-
 ---
-
 # Integración de LinkedIn {#linkedin-integration}
 
 ## Información general {#overview}
@@ -87,7 +93,7 @@ Los tipos de formatos de anuncios de contenido patrocinado admitidos por [!DNL M
 
 Con esta integración de [!DNL Marketo Measure/LinkedIn], pedimos a los clientes que no copien, clonen ni dupliquen elementos creativos existentes. Si se encuentran Recursos compartidos y se detectan para que solo se usen en un Creative, [!DNL Marketo Measure] puede etiquetar el Recurso compartido tal cual sin tener que recrear ningún Creativo o Recurso compartido y todo el historial de anuncios (impresiones, clics, recursos compartidos) permanecerá.
 
-Tan pronto como se encuentre que un recurso compartido se comparte entre varios elementos creativos, [!DNL Marketo Measure] tendrá que pasar por un proceso de pausar, copiar y volver a etiquetar para crear un conjunto único. [!DNL Marketo Measure] hará una pausa y archivará los creativos en directo y, por lo tanto, borrará el Historial de anuncios, incluidas las impresiones, los clics y los recursos compartidos en medios sociales, para etiquetar todo automáticamente de forma adecuada.
+Tan pronto como se encuentre que un recurso compartido se comparte entre varios elementos creativos, [!DNL Marketo Measure] tendrá que pasar por un proceso de pausar, copiar y volver a etiquetar para crear un conjunto único. [!DNL Marketo Measure] pausará y archivará los elementos creativos activos y, por lo tanto, borrará el Historial de anuncios, incluidas las impresiones, los clics y los recursos compartidos en medios sociales, para etiquetar automáticamente todo correctamente.
 
 Más adelante, [!DNL Marketo Measure] recomienda que no duplique ningún recurso compartido de [!DNL LinkedIn] y que mantenga todos los elementos creativos y recursos compartidos tan únicos como sea posible para que simplemente podamos agregar nuestro seguimiento sin tener que borrar el historial de anuncios.
 

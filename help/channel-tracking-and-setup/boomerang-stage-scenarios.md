@@ -3,13 +3,17 @@ description: Guía de escenarios de boomerang para usuarios de Marketo Measure
 title: Escenarios de fases de Boomerang
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 0%
-
 ---
-
 # Escenarios de fases de Boomerang {#boomerang-stage-scenarios}
 
 >[!AVAILABILITY]
@@ -38,7 +42,7 @@ En este escenario, un cliente ha elegido solo rastrear la **fase SQL** con punto
 
 Observe que la posición del punto de contacto de MQL no está etiquetada con un número. Esto se debe a que no se seleccionó para rastrearse con puntos de contacto Boomerang. Al crear puntos de contacto para las fases incluidas en el modelo personalizado, pero que no se rastrean con Boomerang, [!DNL Marketo Measure] toma la última incidencia de esa fase.
 
-Para la fase SAL, [!DNL Marketo Measure] ignora las dos primeras ocurrencias de esta fase. [!DNL Marketo Measure] solo crea un punto de contacto SAL para la _última_ incidencia. En el ejemplo anterior, esto sucede justo antes del punto de contacto OC.
+Para la fase SAL, [!DNL Marketo Measure] ignora las dos primeras ocurrencias de esta fase. [!DNL Marketo Measure] solo crea un punto de contacto SAL para la _última_ ocurrencia. En el ejemplo anterior, esto sucede justo antes del punto de contacto OC.
 
 La etapa SQL se rastrea con puntos de contacto boomerang, y se han creado y etiquetado tres puntos de contacto en consecuencia.
 
@@ -48,7 +52,7 @@ El posible cliente 1 se convierte en un contacto con una oportunidad, que se con
 
 Este escenario utiliza los mismos criterios que el escenario 2. Un cliente solo ha elegido rastrear la fase SQL con puntos de contacto boomerang. Se sigue realizando el seguimiento de MQL y SAL, pero con la función de fase personalizada [!DNL Marketo Measure].
 
-![Este escenario usa los mismos criterios que el escenario 2. Un cliente tiene &#x200B;](assets/boomerang-stages-20.png)
+![Este escenario usa los mismos criterios que el escenario 2. Un cliente tiene ](assets/boomerang-stages-20.png)
 
 En este escenario, el posible cliente nunca pasa realmente a la fase de SAL. Se convierte en un Contacto antes de que llegue a la fase de SAL, esencialmente &quot;saltándose&quot; la fase de SAL. En este caso, [!DNL Marketo Measure] supone que la SAL se produce con el punto de contacto OC, y que tanto la posición SAL como la OC aparecerán en el mismo punto de contacto.
 

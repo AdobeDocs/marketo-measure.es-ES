@@ -3,20 +3,28 @@ description: Consolidación de paquetes de [!DNL Salesforce] - [!DNL Marketo Mea
 title: Consolidación de paquetes de [!DNL Salesforce]
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0
+TQID: 'https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 446
+source-wordcount: '446'
 ht-degree: 9%
-
 ---
-
 # Consolidación de paquetes de [!DNL Salesforce] {#salesforce-package-consolidation}
 
 Para mejorar la experiencia del usuario y simplificar el uso, los paquetes existentes se están compilando en un paquete único y completo.
@@ -43,16 +51,16 @@ El [equipo de atención al cliente](https://nation.marketo.com/t5/support/ct-p/S
 * Si ya tiene instalado el paquete V2, debe actualizarlo a la nueva versión consolidada.
 * Si tiene informes o tableros de cualquier paquete de informes, puede volver a crearlos fácilmente sin necesidad de realizar modificaciones, ya que todos los campos existen en el paquete consolidado.
 * Si tiene informes con campos en el paquete V2_EXT, puede volver a crearlos en el paquete consolidado siguiendo los pasos a continuación:
-   * Todos los datos de los campos V2_EXT están disponibles en los campos Touchpoint, por lo que puede modificar los informes para recuperar datos de los campos de punto de contacto V2 correspondientes añadiendo un filtro en la posición del punto de contacto.
-   * Informe de ejemplo que recupera todos los posibles clientes con contenido de publicidad que contiene texto &quot;Divulgación&quot;.
-      * Consulta V2_EXT:
-         * bizible2_ext__Ad_Content_FT__c contiene Alcance
+  * Todos los datos de los campos V2_EXT están disponibles en los campos Touchpoint, por lo que puede modificar los informes para recuperar datos de los campos de punto de contacto V2 correspondientes añadiendo un filtro en la posición del punto de contacto.
+  * Informe de ejemplo que recupera todos los posibles clientes con contenido de publicidad que contiene texto &quot;Divulgación&quot;.
+    * Consulta V2_EXT:
+      * bizible2_ext__Ad_Content_FT__c contiene Alcance
 
 ![](assets/package-consolidation-1.png)
 
 * Consulta correspondiente en el paquete consolidado:
-   * bizible2__Touchpoint_Position__c contiene FT AND
-   * bizible2__Ad_Content__c contiene Alcance
+  * bizible2__Touchpoint_Position__c contiene FT AND
+  * bizible2__Ad_Content__c contiene Alcance
 
 ![](assets/salesforce-package-consolidation-2.png)
 

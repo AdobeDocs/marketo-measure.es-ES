@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874753
-description: Agregando  [!DNL Marketo Measure] a Forms de inicio de sesión - [!DNL Marketo Measure]
-title: Adición de  [!DNL Marketo Measure]  a formularios Act-On
+description: Agregando [!DNL Marketo Measure] a Forms de acción - [!DNL Marketo Measure]
+title: Agregando [!DNL Marketo Measure] a Act-On Forms
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
-TQID: https://experienceleague.adobe.com/BUdHiCxfaG7a8Tays-Oqg9ZJQjSZJMM4-ChPHuF0RCg
+TQID: 'https://experienceleague.adobe.com/BUdHiCxfaG7a8Tays-Oqg9ZJQjSZJMM4-ChPHuF0RCg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 77
-ht-degree: 6%
-
+source-wordcount: '79'
+ht-degree: 1%
 ---
-
 # Agregando [!DNL Marketo Measure] a Act-On Forms {#adding-marketo-measure-to-act-on-forms}
 
 ## Direcciones {#directions}

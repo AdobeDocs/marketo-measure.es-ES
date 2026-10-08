@@ -1,20 +1,24 @@
 ---
-description: Administración de dominio - [!DNL Marketo Measure]
+description: Administración de dominios - [!DNL Marketo Measure]
 title: Administración de dominios
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-TQID: https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY
+TQID: 'https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 562
+source-wordcount: '562'
 ht-degree: 1%
-
 ---
-
 # Administración de dominios {#domain-management}
 
 Para los inquilinos habilitados para IMS que ejecutan [!DNL Marketo Measure] en la interfaz de Experience Cloud, [!DNL Marketo Measure] proporciona una interfaz que permite a los usuarios administrar su propia lista de dominios. [!DNL Marketo Measure] usuarios deben comprobar primero los dominios que desean rastrear en [Adobe Admin Console](https://adminconsole.adobe.com/). Una vez verificados los dominios en Admin Console, los usuarios podrán administrar si [!DNL Marketo Measure] utiliza estos dominios para rastrear el tráfico del sitio web.
@@ -25,7 +29,7 @@ Los usuarios de IMS con acceso a Adobe Admin Console pueden agregar y validar lo
 
 ![](assets/domain-management-1.png)
 
-Encontrará instrucciones para agregar dominios en la [documentación de Admin Console](https://helpx.adobe.com/es/enterprise/using/add-domains-directories.html). Una vez agregado el dominio, debe estar [enlazado a un directorio](https://helpx.adobe.com/es/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
+Encontrará instrucciones para agregar dominios en la [documentación de Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Una vez agregado el dominio, debe estar [enlazado a un directorio](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Administrar dominios en [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 

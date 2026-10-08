@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874578
-description: Campañas y miembros de campañas de  [!DNL Marketo Measure]
+description: 'Campañas y miembros de la campaña: [!DNL Marketo Measure]'
 title: Campañas y miembros de campañas
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-TQID: https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU
+TQID: 'https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1200
+source-wordcount: '1200'
 ht-degree: 95%
-
 ---
-
 # Campañas y miembros de campañas {#campaigns-and-campaign-members}
 
 Las campañas de [!DNL Salesforce] están pensadas para rastrear listas de posibles clientes y contactos asociados a un programa o una actividad de marketing. Esto ha sido, por lo general, seminarios web, inscripciones o visitas en ambos sitios, por ejemplo. Los especialistas en marketing pueden seleccionar si una campaña debe recibir crédito en un recorrido de touchpoint.
@@ -83,7 +85,7 @@ Si la variable [!UICONTROL Tipo de sincronización] se establece en “Incluir
 
 * Fecha de Buyer Touchpoint
 * Primera fecha de respuesta
-   * La primera fecha de respuesta se establece automáticamente en cuanto el estado se cambia a &quot;Respondido&quot; y es un campo [!DNL Salesforce] estándar que no se puede cambiar
+  * La primera fecha de respuesta se establece automáticamente en cuanto el estado se cambia a &quot;Respondido&quot; y es un campo [!DNL Salesforce] estándar que no se puede cambiar
 
 * Fecha de creación del miembro de campaña
 

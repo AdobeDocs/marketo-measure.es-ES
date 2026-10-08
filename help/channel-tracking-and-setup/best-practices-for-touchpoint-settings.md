@@ -3,13 +3,17 @@ description: Recomendaciones para la configuración de Touchpoint para usuarios 
 title: Prácticas recomendadas para la configuración de puntos de contacto
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 6%
-
 ---
-
 # Prácticas recomendadas para la configuración de puntos de contacto {#best-practices-for-touchpoint-settings}
 
 ## Información general {#overview}
@@ -23,13 +27,13 @@ La sección [!UICONTROL Configuración de punto de contacto] de su aplicación [
 En la aplicación [!DNL Marketo Measure], la sección [!UICONTROL Configuración de punto de contacto] se desglosará en cuatro secciones clave. Cada sección suprime o elimina un conjunto diferente de datos. Utilice la siguiente tecla para asegurarse de que las reglas supriman o eliminen los puntos de contacto deseados.
 
 * Suprimir Buyer Touchpoints de CRM
-   * Utilice esta sección cuando quiera crear una regla que elimine **datos de Buyer Touchpoint** (los puntos de contacto asociados a la persona, no a la oportunidad) de su **CRM**
+  * Utilice esta sección cuando quiera crear una regla que elimine **datos de Buyer Touchpoint** (los puntos de contacto asociados a la persona, no a la oportunidad) de su **CRM**
 * Suprimir los Buyer Touchpoints de CRM
-   * Utilice esta sección cuando quiera crear una regla que elimine **datos de Buyer Touchpoint** (los puntos de contacto asociados al individuo, no a la oportunidad) de su **CRM** y de **Discover**
+  * Utilice esta sección cuando quiera crear una regla que elimine **datos de Buyer Touchpoint** (los puntos de contacto asociados al individuo, no a la oportunidad) de su **CRM** y de **Discover**
 * Suprimir los Buyer Attribution Touchpoints de CRM
-   * Utilice esta sección cuando quiera crear una regla que elimine los datos de **Buyer Attribution Touchpoint** (los puntos de contacto asociados con la oportunidad y los ingresos) de su **CRM**
+  * Utilice esta sección cuando quiera crear una regla que elimine los datos de **Buyer Attribution Touchpoint** (los puntos de contacto asociados con la oportunidad y los ingresos) de su **CRM**
 * Suprimir los Buyer Attribution Touchpoints de CRM
-   * Utilice esta sección cuando quiera crear una regla que elimine los datos de **Buyer Attribution Touchpoint** (los puntos de contacto asociados con la oportunidad y los ingresos) de su **CRM** y de **Discover**
+  * Utilice esta sección cuando quiera crear una regla que elimine los datos de **Buyer Attribution Touchpoint** (los puntos de contacto asociados con la oportunidad y los ingresos) de su **CRM** y de **Discover**
 
 ## Práctica recomendada {#best-practice}
 
@@ -50,7 +54,7 @@ Las razones para revisar la configuración de [!UICONTROL Touchpoint] son...
 * Rotación en su equipo de marketing
 * Principales actualizaciones de la estructura del sitio web
 * Identificación de datos de punto de contacto que ya no son útiles
-   * Cada vez que encuentre datos de puntos de contacto que considere que no deberían recibir crédito de atribución, las reglas de [!DNL touchpoint suppression] son la funcionalidad para garantizar que los datos estén lo más limpios y precisos posible.
+  * Cada vez que encuentre datos de puntos de contacto que considere que no deberían recibir crédito de atribución, las reglas de [!DNL touchpoint suppression] son la funcionalidad para garantizar que los datos estén lo más limpios y precisos posible.
 * Cambios en los campos utilizados para definir las reglas de supresión o eliminación
 
 >[!MORELIKETHIS]

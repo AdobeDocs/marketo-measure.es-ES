@@ -3,13 +3,17 @@ description: Prácticas recomendadas para la segmentación para usuarios de Mark
 title: Prácticas recomendadas para la segmentación
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 98%
-
 ---
-
 # Prácticas recomendadas para la segmentación {#best-practices-for-segmentation}
 
 ## Información general {#overview}
@@ -29,12 +33,12 @@ Tanto si define la segmentación por primera vez como si simplemente revisa la s
 * No se complique.
 * Alinee el nombre del segmento con la nomenclatura de la organización, es decir, la categoría = nombre del filtro, segmento = valor del filtro
 * No utilice campos de fórmula en las reglas
-* Siempre que sea posible, genere la segmentación tanto en el posible cliente/contacto como en la oportunidad para que se pueda utilizarla en todo el canal
-   * Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel de control predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/data-integrity-requirement.md){target="_blank"}).
-      * b2b.personStatus
-      * b2b.isConverted
-   * No todas las categorías de segmentos se alinearán en todo el canal
-      * Una categoría de segmento de “Tipo de oportunidad” no se relacionará con posibles clientes, por ejemplo; sin embargo, un segmento relacionado con “Región” es probablemente una categoría que se puede definir a lo largo del canal
+* Siempre que sea posible, genere la segmentación tanto en el posible cliente/contacto como en la oportunidad para que se pueda utilizarla en todo el embudo
+  * Si es cliente de Marketo Measure Ultimate y ha establecido el objeto de panel de control predeterminado como contacto, no utilice los dos campos siguientes específicos de posible cliente ([obtenga más información aquí](/help/data-integrity-requirement.md){target="_blank"}).
+    * b2b.personStatus
+    * b2b.isConverted
+  * No todas las categorías de segmentos se alinearán en todo el embudo
+    * Una categoría de segmento de “Tipo de oportunidad” no se relacionará con posibles clientes, por ejemplo; sin embargo, un segmento relacionado con “Región” es probablemente una categoría que se puede definir a lo largo del embudo
 * Piense en las formas en que le gusta dividir los datos actualmente, ya sea en la herramienta CRM o en una de BI, y considere la posibilidad de crear esto como un segmento en [!DNL Marketo Measure] para que pueda tener los mismos informes en Discover
 
 ## Práctica recomendada para el mantenimiento {#best-practice-for-maintenance}

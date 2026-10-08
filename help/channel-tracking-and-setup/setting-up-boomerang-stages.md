@@ -3,13 +3,17 @@ description: Configuración de las directrices de las fases boomerang para los u
 title: Configuración de fases de Boomerang
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
-
 ---
-
 # Configuración de fases de Boomerang {#setting-up-boomerang-stages}
 
 >[!AVAILABILITY]
@@ -22,11 +26,11 @@ Para habilitar las fases [!UICONTROL Boomerang] para tu cuenta, debes ser admini
 
 1. Vaya a [!UICONTROL Asignación de etapas]. En la columna titulada &quot;[!UICONTROL Boomerang]&quot;, seleccione las casillas situadas junto a las fases que desee rastrear.
 
-   ![1. Vaya a Asignación de fases. En la columna titulada &quot;Boomerang&quot;, &#x200B;](assets/boomerang-stages-18.png)
+   ![1. Vaya a Asignación de fases. En la columna titulada &quot;Boomerang&quot;, ](assets/boomerang-stages-18.png)
 
 1. Vaya a la pestaña [!UICONTROL Configuración de atribución] e introduzca el número de puntos de contacto para cada fase que desee ver. Permitimos un máximo de 10. El valor predeterminado es 1.
 
-   ![1. Vaya a la pestaña Configuración de atribución e introduzca el número &#x200B;](assets/boomerang-stages-19.png)
+   ![1. Vaya a la pestaña Configuración de atribución e introduzca el número ](assets/boomerang-stages-19.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -38,7 +42,7 @@ Para habilitar las fases [!UICONTROL Boomerang] para tu cuenta, debes ser admini
 
 1. Vaya a [!UICONTROL Asignación de etapas]. En la columna titulada &quot;[!UICONTROL Boomerang]&quot;, seleccione las casillas situadas junto a las fases que desee rastrear.
 
-   ![1. Vaya a Asignación de fases. En la columna titulada &quot;Boomerang&quot;, &#x200B;](assets/boomerang-stages-20.png)
+   ![1. Vaya a Asignación de fases. En la columna titulada &quot;Boomerang&quot;, ](assets/boomerang-stages-20.png)
 
 1. Si también desea que estas fases de Boomerang se incluyan en el modelo personalizado y reciban crédito de atribución, asegúrese de seleccionar también la casilla debajo de la columna &quot;[!UICONTROL Modelo personalizado]&quot;.
 
@@ -50,11 +54,11 @@ Para habilitar las fases [!UICONTROL Boomerang] para tu cuenta, debes ser admini
 
 1. Introduzca el número de incidencias de cada fase que desee ver. Podemos permitir un máximo de diez. El valor predeterminado es 1.
 
-   ![1. Escriba el número de veces que se produjo cada fase que desee &#x200B;](assets/boomerang-stages-23.png)
+   ![1. Escriba el número de veces que se produjo cada fase que desee ](assets/boomerang-stages-23.png)
 
 1. Establezca el porcentaje de atribución que desee asignar a las etapas de boomerang que ha incluido en el modelo personalizado. Asegúrese de que la atribución total de todas las etapas sume el 100 %. Haga clic en **[!UICONTROL Guardar y procesar]**.
 
-   ![1. Establezca el porcentaje de atribución que desee asignar a &#x200B;](assets/boomerang-stages-24.png)
+   ![1. Establezca el porcentaje de atribución que desee asignar a ](assets/boomerang-stages-24.png)
 
    >[!NOTE]
    >

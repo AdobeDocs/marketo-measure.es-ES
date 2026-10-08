@@ -3,14 +3,18 @@ description: Guía de parámetros de UTM para usuarios de Marketo Measure
 title: Parámetros UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 92%
-
 ---
-
 # Parámetros UTM {#utm-parameters}
 
 Etiquetar direcciones URL es una forma sencilla y eficaz de capturar datos sobre los esfuerzos de marketing digital. Es el proceso de agregar parámetros al final de las direcciones URL que recopilan y registran datos. Los parámetros más utilizados son los módulos de seguimiento Urchin (UTM, por sus siglas en inglés), que son compatibles con Google. Hay cinco parámetros principales de UTM disponibles: medio, origen, campaña, contenido y término. Estos se tratan con más detalle en la siguiente sección.
@@ -45,7 +49,7 @@ Obtenga información sobre las [prácticas recomendadas para configurar parámet
 * Origen identifica el subcanal que es la fuente del tráfico.
 * Responde a la pregunta: “¿de dónde viene esta persona?”
 * En un ejemplo de medio social, el origen del tráfico es la plataforma de medios sociales que se está utilizando.
-   * En este ejemplo, [!DNL Facebook] es el valor de origen. Otros ejemplos son Twitter e Instagram. Si el medio de UTM es [!DNL Paid Search], por otro lado, el origen de UTM podría ser AdWords o Bing Ads.
+  * En este ejemplo, [!DNL Facebook] es el valor de origen. Otros ejemplos son Twitter e Instagram. Si el medio de UTM es [!DNL Paid Search], por otro lado, el origen de UTM podría ser AdWords o Bing Ads.
 
 * Este parámetro se asigna al campo “Origen del punto de contacto” de [!DNL Marketo Measure] en SFDC.
 * _[!DNL Marketo Measure] Práctica recomendada :_Este parámetro rastrea el origen del tráfico, por lo que no es adecuado utilizarlo para indicar el tipo de anuncio, por ejemplo, de retargeting, patrocinado, etc. Se recomienda utilizarlo para rastrear el subcanal de nivel superior. Recuerde que está respondiendo a la pregunta: “¿de dónde proviene mi tráfico?” Está buscando el referente. En este ejemplo, el origen de UTM es el lugar donde se encuentra el anuncio (no la página web real, ya que se rastrea automáticamente fuera de las etiquetas). Si está realizando un seguimiento de una campaña de correo electrónico por goteo gota, el origen es el correo electrónico por goteo.

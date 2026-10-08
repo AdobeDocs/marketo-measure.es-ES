@@ -1,21 +1,25 @@
 ---
-description: Descubrimiento de conceptos básicos del tablero - [!DNL Marketo Measure]  - Producto
+description: Descubrimiento de conceptos básicos del tablero - [!DNL Marketo Measure] - Producto
 title: Descubra los conceptos básicos del panel de control
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-TQID: https://experienceleague.adobe.com/8BzKWeGZnFCIl-FMrY727kJgu4cw7oOOZMdqWEBRv9o
+TQID: 'https://experienceleague.adobe.com/8BzKWeGZnFCIl-FMrY727kJgu4cw7oOOZMdqWEBRv9o'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 400
+source-wordcount: '400'
 ht-degree: 2%
-
 ---
-
 # Descubra los conceptos básicos del panel de control {#discover-dashboard-basics}
 
 Este artículo le guiará a través de las funcionalidades básicas de la interfaz rediseñada, lo que garantiza que pueda acceder e interpretar sus datos sin esfuerzo. Explore la dinámica del panel de filtros y descubra las complejidades de nuestras funcionalidades de creación de informes mejoradas, como las funciones de taladro, el filtrado cruzado y la información sobre herramientas.

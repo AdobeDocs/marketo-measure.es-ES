@@ -3,14 +3,18 @@ description: Guía de configuración personalizada de canales en línea para usu
 title: Configuración de canales personalizados en línea
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 89%
-
+ht-degree: 94%
 ---
-
 # Configuración de canales personalizados en línea {#online-custom-channel-setup}
 
 Para disponer de un sistema de informes preciso, se deben configurar canales de marketing para que reflejen la estrategia de UTM de su organización. Esta guía le orienta acerca de la mejor manera de configurar sus reglas de canales personalizados.
@@ -32,7 +36,7 @@ Cosas que hay que tener en cuenta:
 
 El primer paso es descargar la hoja de cálculo de canales personalizados desde la aplicación [!DNL Marketo Measure]. Vaya a **Configuración** en la pestaña **Mi cuenta** y seleccione **En línea**. Puede seleccionar **Descargar plantilla original** o **Descargar reglas actuales**.
 
-![El primer paso es descargar la hoja de cálculo de canal personalizada desde &#x200B;](assets/online-channels-1.png)
+![El primer paso es descargar la hoja de cálculo de canal personalizada desde ](assets/online-channels-1.png)
 
 La hoja de cálculo tiene siete columnas:
 
@@ -46,7 +50,7 @@ La hoja de cálculo tiene siete columnas:
 * **Página de destino:** agregue la página de destino aquí
 * **Sitio web de referencia:** las direcciones URL de los sitios web que hacen referencia al tráfico de sus páginas o la lógica integrada de [!DNL Marketo Measure] (indicada entre corchetes)
 
-La octava columna indica qué reglas no se pueden eliminar de la hoja de cálculo con “No eliminar”. La parte superior de la hoja de cálculo tiene reglas de canal predeterminadas que [!DNL Marketo Measure] recomienda no cambiar ni quitar aunque no utilice estos canales. [!DNL Marketo Measure] tiene integraciones profundas con estas plataformas, por lo que se incluyen de forma predeterminada.
+La octava columna indica qué reglas no se pueden eliminar de la hoja de cálculo con “No eliminar”. La parte superior de la hoja de cálculo tiene reglas de canal predeterminadas que [!DNL Marketo Measure] recomienda no cambiar ni eliminar aunque no utilice estos canales. [!DNL Marketo Measure] tiene integraciones profundas con estas plataformas, por lo que se incluyen de forma predeterminada.
 
 Las filas representan reglas y el orden en el que [!DNL Marketo Measure] da prioridad a los datos. La primera fila tiene prioridad sobre la segunda fila, la segunda tiene prioridad sobre la tercera y así sucesivamente. Al determinar en qué canal y subcanal de marketing se incluirán los puntos de contacto, [!DNL Marketo Measure] lee de arriba a abajo, de izquierda a derecha, hasta que encuentra una fila que cumple los criterios del punto de contacto. (Si un punto de contacto tiene un elemento `utm_source=Facebook`, el punto de contacto se incluye en el canal Social.Facebook debido a la regla 15 de la captura de pantalla).
 

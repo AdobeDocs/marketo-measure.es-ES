@@ -3,13 +3,21 @@ description: Informes sobre oportunidades con o sin puntos de contacto de atribu
 title: Informes sobre oportunidades con o sin puntos de contacto de atribución de comprador
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 24%
-
 ---
-
 # Informes sobre oportunidades con o sin puntos de contacto de atribución de comprador {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
 
 >[!NOTE]
@@ -40,4 +48,4 @@ Crea un nuevo tipo de informe para incluir todas las oportunidades con o sin pun
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriales: Informes adicionales de SFDC](https://experienceleague.adobe.com/es/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutoriales: Informes adicionales de SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

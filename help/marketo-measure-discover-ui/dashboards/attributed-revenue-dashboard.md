@@ -3,19 +3,23 @@ description: Tablero de ingresos atribuidos - [!DNL Marketo Measure] - Producto
 title: Panel de control de ingresos atribuidos
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-TQID: https://experienceleague.adobe.com/2g72TnGfMAnxT86K1VUm7Vn73xiU8Y2l-ROYB7AUVJE
+TQID: 'https://experienceleague.adobe.com/2g72TnGfMAnxT86K1VUm7Vn73xiU8Y2l-ROYB7AUVJE'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '387'
 ht-degree: 3%
-
 ---
-
 # Panel de control de ingresos atribuidos {#attributed-revenue-dashboard}
 
 El panel de control de ingresos atribuidos ofrece una perspectiva centrada en los ingresos directamente vinculados a sus iniciativas de marketing. Explore cómo sus estrategias de marketing han sido fundamentales para sellar acuerdos.

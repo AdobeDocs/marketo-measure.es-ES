@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874722
-description: 'Prácticas recomendadas para pruebas:  [!DNL Marketo Measure]'
+description: 'Prácticas recomendadas para pruebas: [!DNL Marketo Measure]'
 title: Prácticas recomendadas para pruebas
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-TQID: https://experienceleague.adobe.com/RH2rV7k3KuYd1I8s5e96wCWJ1z7Q8CYVoxu7YWV7Kq8
+TQID: 'https://experienceleague.adobe.com/RH2rV7k3KuYd1I8s5e96wCWJ1z7Q8CYVoxu7YWV7Kq8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 182
+source-wordcount: '182'
 ht-degree: 19%
-
 ---
-
 # Prácticas recomendadas para pruebas {#best-practices-for-testing}
 
 Debe probar todos los tipos de formularios que tiene para asegurarse de que el JavaScript [!DNL Marketo Measure] funciona correctamente.
