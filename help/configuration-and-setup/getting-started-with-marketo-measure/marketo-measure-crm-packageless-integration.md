@@ -1,23 +1,28 @@
 ---
 unique-page-id: 37356027
-description: '[!DNL Marketo Measure] integración sin paquetes CRM - [!DNL Marketo Measure]'
+description: Integración sin paquetes de CRM [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Integración sin paquetes CRM de [!DNL Marketo Measure]
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
-TQID: https://experienceleague.adobe.com/j6O5OYfDAcSSTe9JWDODFN7kbXYjOxwPNL3uU5dSDHI
+TQID: 'https://experienceleague.adobe.com/j6O5OYfDAcSSTe9JWDODFN7kbXYjOxwPNL3uU5dSDHI'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 311
+source-wordcount: '311'
 ht-degree: 4%
-
 ---
-
 # Integración sin paquetes CRM de [!DNL Marketo Measure] {#marketo-measure-crm-packageless-integration}
 
 No todos los equipos de marketing desean (o tienen acceso) ejecutar informes de marketing desde CRM, ya sea debido a un acceso limitado, a la propiedad de CRM, a un tiempo de respuesta más largo o a implicaciones legales. Al seguir la ruta de Inicio rápido de [!DNL Marketo Measure], podrá implementar y ejecutar [!DNL Marketo Measure] de forma eficaz con la menor dependencia posible del CRM.

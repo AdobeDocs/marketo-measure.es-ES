@@ -3,13 +3,17 @@ description: Plantilla de informe [!DNL Marketo Measure] - Power BI - [!DNL Mark
 title: 'Plantilla de informe de [!DNL Marketo Measure]: Power BI'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 91%
-
 ---
-
 # Plantilla de informe de [!DNL Marketo Measure]: Power BI {#marketo-measure-report-template-power-bi}
 
 ## Introducción {#getting-started}
@@ -99,15 +103,15 @@ Se ha cambiado el nombre de ![Tablas y columnas para hacerlas más descriptivas 
 
 ### Segmentos renombrados {#renamed-segments}
 
-Dado que los nombres de segmentos se pueden personalizar, tienen nombres de columna genéricos en Snowflake Data Warehouse. [!DNL BIZ_SEGMENT_NAMES] es una tabla de asignación que enumera el nombre de segmento genérico y su nombre de segmento personalizado asignado, definidos en la sección de segmentos de la interfaz de usuario de [!DNL Marketo Measure]. La tabla Nombre del segmento se utiliza para cambiar el nombre de las columnas del segmento en las tablas Touchpoint de posible cliente y de atribución. Si no existe ningún segmento personalizado, se mantiene el nombre del segmento genérico.
+Dado que los nombres de segmentos se pueden personalizar, tienen nombres de columna genéricos en Data Warehouse de Snowflake. [!DNL BIZ_SEGMENT_NAMES] es una tabla de asignación que enumera el nombre del segmento genérico y su nombre de segmento personalizado asignado, definido en la sección de segmento en la interfaz de usuario de [!DNL Marketo Measure]. La tabla Nombre del segmento se utiliza para cambiar el nombre de las columnas del segmento en las tablas Touchpoint de posible cliente y de atribución. Si no existe ningún segmento personalizado, se mantiene el nombre del segmento genérico.
 
 ![Dado que los nombres de segmento se pueden personalizar, tienen nombres de columna genéricos en](assets/marketo-bi-4.png)
 
 ### Conversión de ID que distingue entre mayúsculas y minúsculas {#case-sensitive-id-conversion}
 
 Los datos de [!DNL Marketo Measure] tienen un par de tablas en las que los valores de clave principal (ID) distinguen entre mayúsculas y minúsculas, concretamente Touchpoint y Campaign. El motor de datos que impulsa la capa de modelado de Power BI no distingue entre mayúsculas y minúsculas, lo que da como resultado valores de ID “duplicados”. Para preservar la distinción entre mayúsculas y minúsculas en estos valores clave, hemos implementado pasos de transformación que adjuntan caracteres invisibles a caracteres en minúsculas, preservando la exclusividad del ID cuando se evalúa en la capa del motor de datos. Encontrará más detalles sobre el problema y los pasos detallados del método que hemos empleado [aquí] (https://blog.crossjoin.co.uk/2019
-/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Estos valores de ID con distinción de mayúsculas y minúsculas están etiquetados como “ID de unión” y se utilizan como claves de unión en la capa de relación. Hemos ocultado los ID de unión de la capa de creación de informes, manteniendo los valores de ID originales visibles para su uso en la creación de informes, ya que los caracteres invisibles pueden interferir con las funciones 
-de cortar/pegar y el filtrado.
+/10/06/power-bi-and-case-sibility/){target="_blank"}. Estos valores de ID con distinción de mayúsculas y minúsculas están etiquetados como “ID de unión” y se utilizan como claves de unión en la capa de relación. Hemos ocultado los ID de unión de la capa de creación de informes, manteniendo los valores de ID originales visibles para su uso en la creación de informes, ya que los caracteres invisibles pueden interferir con el corte
+Funciones y filtrado /paste.
 
 ![/pegar funciones y filtrado.](assets/marketo-bi-8.png)
 

@@ -1,15 +1,22 @@
 ---
-description: Prácticas recomendadas para  [!DNL Marketo Measure] Guía de paquetes CRM para usuarios de Marketo Measure
-title: 'Prácticas recomendadas para el paquete CRM de  [!DNL Marketo Measure] '
+description: Prácticas recomendadas para [!DNL Marketo Measure] Paquete de CRM para usuarios de Marketo Measure
+title: Prácticas recomendadas para el paquete CRM [!DNL Marketo Measure]
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 8%
-
 ---
-
 
 # Prácticas recomendadas para el paquete CRM [!DNL Marketo Measure] {#best-practices-for-marketo-measure-crm-package}
 
@@ -32,9 +39,9 @@ Estos paquetes permiten a los usuarios de [!DNL Marketo Measure] acceder fácilm
 Al implementar y administrar el paquete [!DNL Marketo Measure] [!DNL Salesforce], tenga en cuenta las siguientes prácticas recomendadas.
 
 * Confirme que todos los integrantes del equipo necesarios tengan acceso a las carpetas de informes [!DNL Marketo Measure]. Debe haber entre 1 y 3 carpetas [!DNL Marketo Measure] (explicadas a continuación). Para abrir el acceso, la persona que instaló los paquetes debe compartir las carpetas de informes con los usuarios o roles correspondientes.
-   * **Informes de Buyer Touchpoint** - disponibles para todos
-   * **[!DNL Marketo Measure]informes de marketing basado en cuentas**: los informes solo se rellenarán para los clientes de nivel 2 o superior
-   * **Paneles de Buyer Touchpoint**: disponible para todos, aunque este paquete es opcional.
+  * **Informes de Buyer Touchpoint** - disponibles para todos
+  * **[!DNL Marketo Measure]informes de marketing basado en cuentas**: los informes solo se rellenarán para los clientes de nivel 2 o superior
+  * **Paneles de Buyer Touchpoint**: disponible para todos, aunque este paquete es opcional.
 
 ## Práctica recomendada para el mantenimiento {#best-practice-for-maintenance}
 
@@ -54,5 +61,5 @@ Otras razones que podrían déclencheur una revisión...
 >[!MORELIKETHIS]
 > [Actualizar paquete de Buyer Touchpoint](/help/configuration-and-setup/install-set-up.md)
 > [[!DNL Marketo Measure] Conjuntos de permisos](/help/configuration-and-setup/marketo-measure-permission-sets.md)
-> [Compartiendo carpeta de informes y paneles](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Compartir la carpeta de informes y paneles](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 > [Conectar Marketo Measure a Salesforce](/help/configuration-and-setup/connect-marketo-measure-to-salesforce.md)

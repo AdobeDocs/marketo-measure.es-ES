@@ -3,13 +3,19 @@ description: Guía de gasto en marketing de informes para usuarios de Marketo Me
 title: Informe de gastos de marketing
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
-
 ---
-
 # Informe de gastos de marketing {#report-marketing-spend}
 
 ## Tabla de gasto de marketing {#marketing-spend-table}
@@ -20,7 +26,7 @@ La tabla contiene una combinación de distintas monedas. Consulte el panel Gasto
 
 ## Cargar costes {#upload-costs}
 
-Cuando un usuario descarga el archivo de coste, el archivo también contiene una nueva columna con la moneda de cada fila. Las únicas monedas aceptables son las que se han establecido y almacenado en CRM. Necesita conocer el código abreviado de 3 letras para su moneda (USD, CAD, JPY, EUR) y si se carga un archivo con una moneda no reconocida, la carga del archivo falla.
+Cuando un usuario descarga el archivo de coste, el archivo también contiene una nueva columna con la moneda de cada fila. Las únicas monedas aceptables son las que se han establecido y almacenado en CRM. Necesita conocer el código abreviado de 3 letras correspondiente a su divisa (USD, CAD, JPY, EUR) y, si se carga un archivo con una divisa no reconocida, se produce un error en la carga del archivo.
 
 ## Costos de las integraciones de publicidad {#costs-from-ad-integrations}
 
@@ -30,9 +36,9 @@ Si la moneda del proveedor de publicidad no coincide con una moneda extraída de
 
 ## Migrar a gasto de marketing convertido {#migrate-to-converted-marketing-spend}
 
-Debido a que históricamente el gasto en marketing solo se ha realizado en una sola moneda (USD), se necesita una pequeña cantidad de trabajo para cambiar todos los gastos notificados a la nueva moneda. Incluso si su cuenta no tiene habilitada la opción Varias monedas, si tiene una sola moneda corporativa distinta del USD, deberá realizar esta migración.
+Debido a que históricamente el gasto en marketing solo se ha realizado en una sola moneda (USD), se necesita una pequeña cantidad de trabajo para cambiar todos los gastos notificados a la nueva moneda. Incluso si su cuenta no tiene habilitada la opción Varias monedas, si tiene una sola moneda corporativa distinta de USD, deberá realizar esta migración.
 
 1. Descargar el archivo de gasto actual en un CSV
-1. La columna de moneda muestra &quot;[!UICONTROL USD]&quot; como la moneda supuesta. Puede reemplazar manualmente todas las instancias de &quot;[!UICONTROL USD]&quot; o usar Buscar+Reemplazar para cambiar todas las instancias de &quot;[!UICONTROL USD]&quot; a su propia moneda corporativa, como &quot;[!UICONTROL EUR]&quot; o &quot;[!UICONTROL GBP]&quot;.
+1. La columna de moneda muestra &quot;[!UICONTROL USD]&quot; como la moneda supuesta. Puede reemplazar manualmente todas las instancias de &quot;[!UICONTROL USD]&quot; o usar Buscar+Reemplazar para cambiar todas las instancias de &quot;[!UICONTROL USD]&quot; a su propia divisa corporativa, como &quot;[!UICONTROL EUR]&quot; o &quot;[!UICONTROL GBP]&quot;.
 1. Guarde el archivo y vuelva a cargarlo en [!DNL Marketo Measure].
 1. Todos los costes notificados se mostrarán ahora como la nueva moneda.

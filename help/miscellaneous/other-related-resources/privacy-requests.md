@@ -1,22 +1,25 @@
 ---
-description: Solicitudes de privacidad - [!DNL Marketo Measure]
+description: 'Solicitudes de privacidad: [!DNL Marketo Measure]'
 title: Solicitudes de privacidad
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
+TQID: 'https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: '284'
 ht-degree: 26%
-
 ---
-
 # Solicitudes de privacidad {#privacy-requests}
 
 Este documento proporciona información general sobre la administración de solicitudes de privacidad de datos individuales que puede enviar a [!DNL Marketo Measure] a través de la interfaz de usuario de [!DNL Privacy Service] y la API de **[!DNL Privacy Service]**.
@@ -55,9 +58,9 @@ Para realizar solicitudes de acceso y eliminación de datos para [!DNL Marketo M
 
 * &quot;acción&quot;: [!UICONTROL acceder] o eliminar
 * &quot;userID&quot;:
-   * &quot;namespace&quot;: email
-   * &quot;tipo&quot;: estándar
-   * &quot;valor&quot;: `<Data Subject's Email Address>`
+  * &quot;namespace&quot;: email
+  * &quot;tipo&quot;: estándar
+  * &quot;valor&quot;: `<Data Subject's Email Address>`
 
 &quot;incluir&quot;:
 

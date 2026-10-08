@@ -2,13 +2,14 @@
 description: Guía de inicio de sesión único para usuarios de Marketo Measure
 title: Inicio de sesión único
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 54%
-
 ---
-
 # Inicio de sesión único {#single-sign-on}
 
 El lenguaje de marcado para confirmaciones de seguridad (SAML) para el inicio de sesión único (SSO) permite autenticarse a través del proveedor de identidad de una compañía cuando se inicia sesión en la aplicación de [!DNL Marketo Measure]. SSO permite a un usuario autenticarse una vez, sin necesidad de autenticar aplicaciones independientes. SAML es una necesidad para los clientes empresariales, ya que no todos los usuarios tienen una cuenta de [!DNL Salesforce] o [!DNL Google] en su organización. Para escalar, [!DNL Marketo Measure] ha desarrollado una solución SAML compatible con los proveedores de identidad de la empresa.

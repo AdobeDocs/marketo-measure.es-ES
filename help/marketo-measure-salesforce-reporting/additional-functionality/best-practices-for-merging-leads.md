@@ -4,19 +4,23 @@ description: Prácticas recomendadas para combinar posibles clientes - [!DNL Mar
 title: Prácticas recomendadas para combinar posibles clientes
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-TQID: https://experienceleague.adobe.com/VonT7Suvlt5VjzPqZ9UWoVe3ZTpPsk4c-7q-0wLplA0
+TQID: 'https://experienceleague.adobe.com/VonT7Suvlt5VjzPqZ9UWoVe3ZTpPsk4c-7q-0wLplA0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 200
+source-wordcount: '200'
 ht-degree: 8%
-
 ---
-
 # Prácticas recomendadas para combinar posibles clientes {#best-practices-for-merging-leads}
 
 Al combinar posibles clientes en [!DNL Salesforce], siempre es mejor tener cuidado de no perder datos.

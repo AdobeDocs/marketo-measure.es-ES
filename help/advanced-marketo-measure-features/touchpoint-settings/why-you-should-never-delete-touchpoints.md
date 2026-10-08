@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874560
-description: 'Por qué nunca debe eliminar los puntos de contacto:  [!DNL Marketo Measure]'
+description: 'Por qué nunca debe eliminar los puntos de contacto: [!DNL Marketo Measure]'
 title: Por qué nunca se deben eliminar los puntos de contacto
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/HeJr54wYsCH2Ic4dZ-Ds24c5-kC-Joq0uIZhXL5zE-o
+TQID: 'https://experienceleague.adobe.com/HeJr54wYsCH2Ic4dZ-Ds24c5-kC-Joq0uIZhXL5zE-o'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: '228'
 ht-degree: 8%
-
 ---
-
 # Por qué nunca se deben eliminar los puntos de contacto {#why-you-should-never-delete-touchpoints}
 
 Si descubre que hay un punto de contacto en una oportunidad a la que se le está asignando crédito de atribución incorrectamente, póngase en contacto con su administrador de cuentas para determinar los pasos siguientes. En estas situaciones, recomendamos utilizar la función de supresión de puntos de contacto del comprador para eliminar el punto de contacto de SFDC y el panel de ROI. El administrador de cuentas puede ayudar a crear estas reglas. No elimine manualmente estos puntos de contacto.

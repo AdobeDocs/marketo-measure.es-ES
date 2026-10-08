@@ -3,13 +3,17 @@ description: Describe cómo configurar y utilizar una cuenta de Reader para acce
 title: 'Acceso a Data Warehouse: Cuenta de Reader'
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
-
 ---
-
 # Acceso a Data Warehouse: Cuenta de Reader {#data-warehouse-access-reader-account}
 
 ## Vínculo de acceso de Snowflake {#snowflake-access-link}
@@ -66,14 +70,14 @@ Debe introducir algunos datos para conectar el almacén de datos de Snowflake a 
 >Cada herramienta tiene diferentes requisitos de conexión; se recomienda consultar la documentación de la herramienta específica que está intentando conectar.
 
 * **URI** (siempre obligatorio)
-   * Es el nombre de dominio de la cuenta de Snowflake. Se encuentra dentro de una parte del vínculo de inicio de sesión de Snowflake.
+  * Es el nombre de dominio de la cuenta de Snowflake. Se encuentra dentro de una parte del vínculo de inicio de sesión de Snowflake.
 * **Nombre de usuario** (siempre obligatorio)
-   * El nombre de usuario aparece en la página de información de Data Warehouse en [!DNL Marketo Measure].
+  * El nombre de usuario aparece en la página de información de Data Warehouse en [!DNL Marketo Measure].
 * **Contraseña** (siempre requerida)
-   * Esta es la contraseña que configuró la primera vez que inició sesión en su cuenta de Snowflake. Para restablecer la contraseña, consulte los pasos descritos anteriormente.
+  * Esta es la contraseña que configuró la primera vez que inició sesión en su cuenta de Snowflake. Para restablecer la contraseña, consulte los pasos descritos anteriormente.
 * **Nombre de base de datos** (no siempre es obligatorio)
-   * La base de datos es la que almacena los datos en Snowflake. Es el recurso de almacenamiento. El nombre de la base de datos aparece en la página de información de Data Warehouse en [!DNL Marketo Measure].
+  * La base de datos es la que almacena los datos en Snowflake. Es el recurso de almacenamiento. El nombre de la base de datos aparece en la página de información de Data Warehouse en [!DNL Marketo Measure].
 * **Nombre de almacén** (no siempre es obligatorio)
-   * El almacén es lo que ejecuta consultas en Snowflake. Es el recurso calculado. El nombre del almacén aparece en la página de información de Data Warehouse en [!DNL Marketo Measure].
+  * El almacén es lo que ejecuta consultas en Snowflake. Es el recurso calculado. El nombre del almacén aparece en la página de información de Data Warehouse en [!DNL Marketo Measure].
 
   ![El almacén es el que ejecuta las consultas en Snowflake. Es el elemento calculado &#x200B;](assets/data-account-2.png)

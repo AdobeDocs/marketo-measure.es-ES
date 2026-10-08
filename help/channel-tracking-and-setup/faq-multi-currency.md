@@ -3,13 +3,17 @@ description: Guía de preguntas frecuentes (en varias monedas) para los usuarios
 title: Preguntas frecuentes (multidivisa)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 # Preguntas frecuentes (multidivisa) {#faq-multi-currency}
 
 **¿Cómo sé qué bit de característica habilitar?**
@@ -52,7 +56,7 @@ Para los clientes de [!DNL Dynamics] y [!DNL Salesforce] que solo usan la admini
 
 Desafortunadamente, hay algunos matices en la forma en que esto funciona para los usuarios de [!DNL Salesforce] Advanced Currency Management, debido a una antigua limitación de [!DNL Salesforce]. La respuesta corta a &quot;qué hacemos en este caso&quot; es que convertimos los importes de los ingresos utilizando las tarifas planas definidas en la pestaña básica (es decir, no avanzada) &quot;Administrar monedas&quot;. En otras palabras, ignoramos por completo los tipos de cambio con fecha a pesar del hecho de que el cliente ha definido tipos de cambio con fecha.
 
-Para el lector interesado, he aquí la razón por la que funciona de esta manera. Nuestros puntos de contacto utilizan campos de fórmula para calcular los ingresos (derivados de la cantidad de oportunidad asociada). [!DNL Salesforce] Admite de forma nativa la conversión de moneda para estos cálculos de fórmula, pero solo por su sabor básico de compatibilidad con moneda. Es imposible para nosotros definir un campo de fórmula que haga referencia a los tipos de cambio antiguos. [!DNL Salesforce] simplemente no admite esa capacidad, por lo que no tenemos forma de hacer referencia a las tasas con fecha en nuestros cálculos de ingresos a pesar del hecho de que esas tasas con fecha existen en [!DNL Salesforce] (suena loco, pero así es como funciona).
+Para el lector interesado, he aquí la razón por la que funciona de esta manera. Nuestros puntos de contacto utilizan campos de fórmula para calcular los ingresos (derivados de la cantidad de oportunidad asociada). [!DNL Salesforce] admite de forma nativa la conversión de moneda para estos cálculos de fórmula, pero solo por su sabor básico de compatibilidad con moneda. Es imposible para nosotros definir un campo de fórmula que haga referencia a los tipos de cambio antiguos. [!DNL Salesforce] simplemente no admite esa capacidad, por lo que no tenemos forma de hacer referencia a las tasas con fecha en nuestros cálculos de ingresos a pesar de que esas tasas con fecha existen en [!DNL Salesforce] (suena loco, pero así es como funciona).
 
 **Si mi cliente utilizó un flujo de trabajo para rellenar un campo convertido, ¿cómo debería utilizarlo en adelante?**
 

@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874732
-description: Prácticas recomendadas para configurar parámetros UTM de  [!DNL Marketo Measure]
+description: 'Prácticas recomendadas para configurar parámetros de UTM: [!DNL Marketo Measure]'
 title: Prácticas recomendadas para configurar parámetros UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-TQID: https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM
+TQID: 'https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 83%
-
+source-wordcount: '459'
+ht-degree: 82%
 ---
-
 # Prácticas recomendadas para configurar parámetros UTM {#best-practices-for-setting-up-utm-parameters}
 
 Los parámetros de UTM son una buena manera de cortar y fragmentar los datos de marketing. [!DNL Marketo Measure] utiliza y captura todos los parámetros UTM para rellenar campos en Salesforce y en la aplicación de [!DNL Marketo Measure]. Con esta información, podrá obtener una comprensión granular de dónde provienen sus posibles clientes, oportunidades y operaciones cerradas/ganadas.

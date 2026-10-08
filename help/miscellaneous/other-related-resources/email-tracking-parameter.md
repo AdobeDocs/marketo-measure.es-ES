@@ -4,16 +4,18 @@ description: Parámetro de seguimiento de correo electrónico - [!DNL Marketo Me
 title: Parámetro de seguimiento de correo electrónico
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-TQID: https://experienceleague.adobe.com/IC3sOBtb9A4EUwhhtD4s7JBTx2gT07y9DtKtM5F1qRQ
+TQID: 'https://experienceleague.adobe.com/IC3sOBtb9A4EUwhhtD4s7JBTx2gT07y9DtKtM5F1qRQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: '463'
 ht-degree: 3%
-
 ---
-
 # Parámetro de seguimiento de correo electrónico {#email-tracking-parameter}
 
 El parámetro de seguimiento de correo electrónico [!DNL Marketo Measure] permite a los especialistas en marketing tratar los clics en correos electrónicos como envíos de formularios, de modo que se generen puntos de contacto para esas acciones. Sin utilizar un parámetro de seguimiento de correo electrónico, las pulsaciones de un correo electrónico solo se tratan como &quot;visitas web&quot; hasta que el usuario interactúa con el sitio a través de un envío de formulario o un chat web.
@@ -63,13 +65,13 @@ Marketo Measure acepta los siguientes valores: Dirección de correo electrónico
   <tr> 
    <td><p>Hubspot</p></td> 
    <td><p>(insertado mediante el editor)</p></td> 
-   <td><p>n/a</p></td> 
+   <td><p>N/A</p></td> 
    <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td> 
   </tr> 
   <tr> 
    <td><p>Act-On</p></td> 
    <td><p>(insertado a través del Compositor de mensajes)</p></td> 
-   <td><p>n/a</p></td> 
+   <td><p>N/A</p></td> 
    <td><p>https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data</p></td> 
   </tr> 
  </tbody> 

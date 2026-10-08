@@ -3,13 +3,22 @@ description: Guía de atribución de actividades de Salesforce para usuarios de 
 title: Atribución de actividades de Salesforce
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
-
 ---
-
 # Atribución de actividades de Salesforce {#salesforce-activities-attribution}
 
 La integración de actividades de Salesforce [!DNL Marketo Measure] incorpora registros de tareas y eventos específicos en el modelo de atribución. Empiece a realizar el seguimiento de elementos como correos electrónicos de ventas o llamadas telefónicas de ventas que no recibían el crédito debido. Para configurar la regla de actividades, ve a [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Desde allí, ve a la ficha **[!UICONTROL Configuración]** y haz clic en la ficha **[!UICONTROL Actividades]**.
@@ -23,11 +32,11 @@ Va a usar este nombre de campaña de [!DNL Marketo Measure] para indicarnos a qu
 Familiarícese con esta jerarquía:
 
 * Canal
-   * Subcanal
-      * Campaña
-      * Campaña
-   * Subcanal
-      * Campaña
+  * Subcanal
+    * Campaña
+    * Campaña
+  * Subcanal
+    * Campaña
 
 >[!TIP]
 >
@@ -45,7 +54,7 @@ Las reglas actúan como un filtro para decirnos qué registros son aptos para la
 >
 >Los campos de fórmula no se pueden utilizar dentro de las reglas y no aparecerán en la lista de selección. Dado que las fórmulas calculan en segundo plano y no modifican un registro, [!DNL Marketo Measure] no puede detectar si un registro se ajusta o no a una regla.
 >
->Asegúrese de utilizar valores correctos para campos de ID como CrmEvent.CreatedById. [!DNL Salesforce IDs] tienen 18 caracteres de longitud ( 0054H000007WmrfQAC).
+>Asegúrese de utilizar valores correctos para campos de ID como CrmEvent.CreatedById. [!DNL Salesforce IDs] tiene 18 caracteres ( 0054H000007WmrfQAC).
 
 Por último, elija uno de los campos de fecha y hora para utilizarlo como Buyer Touchpoint Date. Se pueden seleccionar los campos estándar y personalizados.
 

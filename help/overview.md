@@ -3,23 +3,31 @@ description: '''[!DNL Marketo Measure] Información general de Ultimate - [!DNL 
 title: Información general sobre [!DNL Marketo Measure] Ultimate
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 81%
-
+ht-degree: 88%
 ---
-
 # Información general sobre [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-overview}
 
-[!DNL Marketo Measure] (anteriormente Bizible) proporciona a los especialistas en mercadotecnia insight, en el cual los esfuerzos de mercadotecnia son los más eficaces para generar ingresos y maximizar el retorno de la inversión para su compañía. [!DNL Marketo Measure] es una solución de atribución de marketing que realiza automáticamente un seguimiento e informa sobre el rendimiento del canal, lo que proporciona visibilidad sobre los canales que generan la mayor participación de los clientes y le permite optimizar el gasto de marketing en consecuencia.
+[!DNL Marketo Measure] (anteriormente Bizible) ofrece a los especialistas en marketing una perspectiva detallada de las medidas de marketing más eficaces para generar ingresos y maximizar el retorno de la inversión para su compañía. [!DNL Marketo Measure] es una solución de atribución de marketing que realiza automáticamente un seguimiento del rendimiento del canal y genera informes al respecto, lo que proporciona visibilidad sobre los canales que generan la mayor participación de los clientes y le permite optimizar el gasto de marketing en consecuencia.
 
 [!DNL Marketo Measure Ultimate] contiene las siguientes funciones adicionales:
 
 * Realiza la ingesta desde casi cualquier fuente de datos y desde varias fuentes de datos del mismo tipo para incorporar todos los datos para la atribución.
-   * Se utiliza con casi cualquier CRM, no solo con Salesforce y Dynamics.
-   * Conecta varias instancias de CRM y/o instancias de MAP a una instancia de [!DNL Marketo Measure].
-   * Incluya datos de participación y registro de seminarios web de terceros.
+  * Se utiliza con casi cualquier CRM, no solo con Salesforce y Dynamics.
+  * Conecta varias instancias de CRM y/o instancias de MAP a una instancia de [!DNL Marketo Measure].
+  * Incluya datos de participación y registro de seminarios web de terceros.
 
 * Transforme sus datos con gran flexibilidad a través de las capacidades de asignación de campos y transformación para garantizar la forma de datos correcta.
 
@@ -90,7 +98,7 @@ Se deben asignar cuatro fases integradas con reglas (las reglas de asignación p
 
 Las condiciones de la regla son específicas del conjunto de datos. Las reglas de asignación de fases deben crearse para todos los conjuntos de datos y todas las fases, excepto para los Clientes potenciales perdidos y los Clientes potenciales convertidos.
 
-No hay selección para el modelo de canal frente a búmeran o personalizado. Todas las fases se seleccionan para el modelo de canal, búmeran y personalizado. Hay un límite de cuántas fases admitimos: 15 fases personalizadas más 6 fases integradas.
+No hay selección para el modelo de embudo frente a búmeran o personalizado. Todas las fases se seleccionan para el modelo de embudo, búmeran y personalizado. Hay un límite de cuántas fases admitimos: 15 fases personalizadas más 6 fases integradas.
 
 ![No hay selección para funnel frente a boomerang frente a modelo personalizado. Todas las etapas son &#x200B;](assets/marketo-overview-4.png)
 

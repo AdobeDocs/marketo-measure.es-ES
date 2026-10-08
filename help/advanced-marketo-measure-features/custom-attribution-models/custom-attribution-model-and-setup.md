@@ -1,21 +1,26 @@
 ---
 unique-page-id: 18874779
-description: Configuración y modelo de atribución personalizados - [!DNL Marketo Measure]
+description: 'Configuración y modelo de atribución personalizado: [!DNL Marketo Measure]'
 title: Modelo de atribución personalizado y configuración
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-TQID: https://experienceleague.adobe.com/Bqvp26IvjPnXom9rfkB2cWtrnrM3Jsz6SQKqDYKp-cc
+TQID: 'https://experienceleague.adobe.com/Bqvp26IvjPnXom9rfkB2cWtrnrM3Jsz6SQKqDYKp-cc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: '849'
 ht-degree: 1%
-
 ---
-
 # Modelo de atribución personalizado y configuración {#custom-attribution-model-and-setup}
 
 Vea a continuación una descripción general del modelo de atribución personalizado [!DNL Marketo Measure] y cómo configurarlo.

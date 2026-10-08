@@ -3,13 +3,17 @@ description: Guía de costes de CRM Campaign para usuarios de Marketo Measure
 title: Costes de campañas de CRM
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 1%
-
+source-wordcount: '1220'
+ht-degree: 2%
 ---
-
 # Costes de campañas de CRM {#crm-campaign-costs}
 
 La mayoría de los clientes [!DNL Marketo Measure] utilizan campañas CRM para rastrear actividades de marketing sin conexión. Los especialistas en marketing que utilizan estas campañas también supervisan los costes dentro de CRM. Esta característica facilita las cosas a los especialistas en marketing, ya que permite que [!DNL Marketo Measure] lea esos costos y los aplique al gasto en marketing notificado en [!DNL Marketo Measure]. Hasta la fecha, los clientes han tenido que ingresar manualmente los costos de cada campaña por mes, pero con la información necesaria proporcionada a [!DNL Marketo Measure], los usuarios pueden automatizar este proceso para que los especialistas en marketing puedan dedicar más tiempo a analizar su gasto y el retorno de la inversión.

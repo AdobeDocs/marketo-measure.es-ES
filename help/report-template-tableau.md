@@ -3,13 +3,17 @@ description: Plantilla de informe [!DNL Marketo Measure] - Tableau - [!DNL Marke
 title: 'Plantilla de informe de [!DNL Marketo Measure]: Tableau'
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2485'
-ht-degree: 89%
-
+ht-degree: 91%
 ---
-
 # Plantilla de informe de [!DNL Marketo Measure]: Tableau {#marketo-measure-report-template-tableau}
 
 ## Introducción {#getting-started}
@@ -92,7 +96,7 @@ Hay algunos lugares donde dos tablas de [!DNL Snowflake] se han combinado con un
 
 ### Nombres de los segmentos {#segment-names}
 
-Dado que los nombres de segmentos se pueden personalizar, tienen nombres de columna genéricos en Snowflake Data Warehouse. [!DNL BIZ_SEGMENT_NAMES] es una tabla de asignación que enumera el nombre del segmento genérico con el nombre de segmento personalizado al que está asignado, tal como se define en la sección de segmentos de la interfaz de usuario de [!DNL Marketo Measure]. Si utiliza nombres de segmento personalizados y desea actualizar su modelo de [!DNL Tableau] para incorporarlos, utilice esta tabla y cambie el nombre manualmente de las columnas dentro del modelo Tableau. Las columnas del segmento se encuentran en la tabla de puntos de contacto de posible cliente y atribución, y solo será necesario cambiar el nombre una vez.
+Dado que los nombres de segmentos se pueden personalizar, tienen nombres de columna genéricos en Data Warehouse de Snowflake. [!DNL BIZ_SEGMENT_NAMES] es una tabla de asignación que enumera el nombre del segmento genérico con el nombre de segmento personalizado al que está asignado, tal como se define en la sección de segmentos en la interfaz de usuario de [!DNL Marketo Measure]. Si utiliza nombres de segmento personalizados y desea actualizar su modelo de [!DNL Tableau] para incorporarlos, utilice esta tabla y cambie el nombre manualmente de las columnas dentro del modelo Tableau. Las columnas del segmento se encuentran en la tabla de puntos de contacto de posible cliente y atribución, y solo será necesario cambiar el nombre una vez.
 
 La columna [!UICONTROL CATEGORÍA] muestra el número de categoría, y la columna SEGMENT_NAME tiene el nombre de segmento personalizado al que se asigna.
 

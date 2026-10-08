@@ -1,15 +1,19 @@
 ---
-description: Agregando  [!DNL Marketo Measure] JavaScript a [!DNL Pardot] instrucciones para usuarios de Marketo Measure
+description: Agregando el JavaScript [!DNL Marketo Measure] a la guía [!DNL Pardot] para usuarios de Marketo Measure
 title: Agregando [!DNL Marketo Measure] JavaScript a [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '247'
 ht-degree: 1%
-
 ---
-
 # Agregando [!DNL Marketo Measure] JavaScript a [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
 Los formularios de [!DNL Pardot] requieren un control adicional dentro de la plantilla de formulario, además de colocar el script en el sitio para que [!DNL Marketo Measure] reconozca los envíos de formularios. El proceso es sencillo; solo es necesario colocar el script de seguimiento [!DNL Marketo Measure] en la plantilla de formulario [!DNL Pardot].

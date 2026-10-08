@@ -3,14 +3,18 @@ description: Abarca el panel Oportunidad atribuida que muestra las cantidades y 
 title: Panel de control de oportunidades atribuidas
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
-
 ---
-
 # Panel de control de oportunidades atribuidas {#attributed-opportunity-dashboard}
 
 El Tablero de oportunidades atribuidas proporciona una vista completa de cómo los esfuerzos de marketing contribuyen a las oportunidades de canalización nacientes y maduras. Profundice en los detalles de cada oportunidad abierta y cerrada atribuible a sus estrategias, con la flexibilidad de filtrar por etapa de oportunidad, subrayando el alcance completo de la influencia del marketing más allá de los acuerdos cerrados.
@@ -72,7 +76,7 @@ Este tablero está equipado con los siguientes ajustes y filtros:
 
 * Fecha (basada en la fecha de creación de la oportunidad)
 * Modelo de atribución
-   * Para las oportunidades abiertas, los modelos de atribución &quot;ruta completa&quot; y &quot;personalizada&quot; ofrecen vistas puntuales y no representan resultados de atribución finales.
+  * Para las oportunidades abiertas, los modelos de atribución &quot;ruta completa&quot; y &quot;personalizada&quot; ofrecen vistas puntuales y no representan resultados de atribución finales.
 * Fase de oportunidad (según la fase actual)
 * Canal, Subcanal
 * Campaña

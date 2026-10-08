@@ -1,21 +1,25 @@
 ---
-description: Tablero de velocidad del posible cliente -  [!DNL Marketo Measure]  - Producto
+description: Tablero de velocidad del posible cliente - [!DNL Marketo Measure] - Producto
 title: Panel de control de velocidad del posible cliente
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-TQID: https://experienceleague.adobe.com/uuQ2MDoDrYfOEPFs5hNpW6upYZQ3Vs2-4sciJOWV74s
+TQID: 'https://experienceleague.adobe.com/uuQ2MDoDrYfOEPFs5hNpW6upYZQ3Vs2-4sciJOWV74s'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '364'
 ht-degree: 3%
-
 ---
-
 # Panel de control de velocidad del posible cliente {#lead-velocity-dashboard}
 
 El tablero de Velocity ofrece una vista dinámica del ritmo al que los posibles clientes se mueven a través de funnel de ventas, lo que proporciona a los especialistas en marketing y a los equipos de ventas una perspectiva esencial de los tiempos de conversión en varios canales. Esta herramienta es muy valiosa para responder a preguntas clave sobre las duraciones de conversión de posibles clientes y la eficacia de la progresión a través de las fases de ventas, lo que le permite optimizar sus estrategias de participación para un crecimiento y conversiones acelerados.
@@ -72,7 +76,7 @@ Preguntas que responde el gráfico:
 Este tablero está equipado con los siguientes ajustes y filtros:
 
 * Fecha
-   * Basado en: Transición en fecha
+  * Basado en: Transición en fecha
 * Fase
 * Canal
 * Subcanal

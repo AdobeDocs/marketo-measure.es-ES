@@ -1,22 +1,26 @@
 ---
 unique-page-id: 18874795
-description: Agregando  [!DNL Marketo Measure] script - [!DNL Marketo Measure]
-title: 'Adición del script de  [!DNL Marketo Measure] '
+description: Agregando script [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: Adición del script de [!DNL Marketo Measure]
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
+TQID: 'https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: '1293'
 ht-degree: 53%
-
 ---
-
 # Adición del script de [!DNL Marketo Measure] {#adding-marketo-measure-script}
 
 El JavaScript de [!DNL Marketo Measure] que le gustaría rastrear mediante [!DNL Marketo Measure] debe añadirse a todas las propiedades web lo antes posible. Una vez implementado JavaScript, [!DNL Marketo Measure] comienza a recopilar los datos digitales. Este artículo describe los métodos para implementar [!DNL Marketo Measure] JavaScript y otros aspectos.

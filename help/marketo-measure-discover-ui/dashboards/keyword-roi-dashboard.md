@@ -3,19 +3,23 @@ description: Tablero de ROI de palabras clave - [!DNL Marketo Measure] - Product
 title: Panel de control del retorno de la inversión de palabra clave
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
-TQID: https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw
+TQID: 'https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 3%
-
 ---
-
 # Panel de control del retorno de la inversión de palabra clave {#keyword-roi-dashboard}
 
 El panel ROI de palabras clave proporciona una perspectiva detallada sobre el rendimiento de las campañas de búsqueda de pago. Ofrece un análisis completo de los costes a nivel de palabra clave, los ingresos atribuidos y los nuevos posibles clientes y oportunidades generados, lo que garantiza una comprensión clara del ROI de la palabra clave.
@@ -74,11 +78,11 @@ Desglose por palabras clave específicas para ver las oportunidades influenciada
 Este tablero está equipado con los siguientes ajustes y filtros:
 
 * Fecha
-   * Basado en:
-      * Fecha de creación: Posibles clientes, nuevas oportunidades
-      * Fecha de coste incurrido: coste
-      * Fecha de cierre: ingresos atribuidos (ROI simple), ofertas
-      * Touchpoint date: puntos de contacto de los ingresos atribuidos realizados (ROI realizado)
+  * Basado en:
+    * Fecha de creación: Posibles clientes, nuevas oportunidades
+    * Fecha de coste incurrido: coste
+    * Fecha de cierre: ingresos atribuidos (ROI simple), ofertas
+    * Touchpoint date: puntos de contacto de los ingresos atribuidos realizados (ROI realizado)
 * Modelo de atribución
 * Palabra clave
 * Campaña

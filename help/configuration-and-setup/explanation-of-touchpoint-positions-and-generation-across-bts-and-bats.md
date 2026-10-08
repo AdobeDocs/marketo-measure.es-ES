@@ -1,15 +1,19 @@
 ---
 description: Explicación de las posiciones de los puntos de contacto y la generación entre BT y [!DNL BATs] directrices para usuarios de Marketo Measure
-title: Explicación de las posiciones y la generación de puntos de contacto entre BT y  [!DNL BATs]
+title: Explicación de las posiciones y la generación de puntos de contacto entre BT y [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
-
+source-wordcount: '796'
+ht-degree: 2%
 ---
-
 
 # Explicación de las posiciones y la generación de puntos de contacto entre BT y [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
@@ -112,10 +116,10 @@ El siguiente ejemplo muestra el flujo de datos desde los puntos de contacto del 
 **Los datos de Buyer Attribution Touchpoint de las oportunidades** se leerían de la siguiente manera...
 
 * Primer toque (FT) - Social de pago.Facebook - 26/8/2019
-   * (de **Persona B** porque tiene el verdadero _Primer contacto_ para la cuenta/Opp)
+  * (de **Persona B** porque tiene el verdadero _Primer contacto_ para la cuenta/Opp)
 * Creación de clientes potenciales (LC) - Búsqueda orgánica.Google - 20/11/2019
-   * (de **Persona A** porque tiene la verdadera _Creación de clientes potenciales_ para la cuenta/Opp)
+  * (de **Persona A** porque tiene la verdadera _Creación de clientes potenciales_ para la cuenta/Opp)
 * Creación de oportunidades (OC) - Seminario web - 4/3/2020
-   * (el punto de contacto posterior a la LC de **Persona A** sería el punto de contacto _OC_ porque es la interacción más reciente que tenemos con la oportunidad que se está creando el 7/3/2020)
+  * (el punto de contacto posterior a la LC de **Persona A** sería el punto de contacto _OC_ porque es la interacción más reciente que tenemos con la oportunidad que se está creando el 7/3/2020)
 * Cerrado Won - Correo electrónico - 1/5/2020
-   * (el punto de contacto posterior a la LC de **Persona B** sería el punto de contacto _Cerrado obtenido_ porque es la interacción más reciente que tenemos con la oportunidad que se cierra el 6/5/2020)
+  * (el punto de contacto posterior a la LC de **Persona B** sería el punto de contacto _Cerrado obtenido_ porque es la interacción más reciente que tenemos con la oportunidad que se cierra el 6/5/2020)

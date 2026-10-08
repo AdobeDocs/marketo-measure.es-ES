@@ -3,14 +3,20 @@ description: Guía de costes de canal de marketing para usuarios de Marketo Meas
 title: Costes de canales de marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1333'
 ht-degree: 1%
-
 ---
-
 # Costes de canales de marketing {#marketing-channel-costs}
 
 Una de las ventajas más importantes de usar [!DNL Marketo Measure] es la capacidad de conectar los esfuerzos de marketing directamente con el impacto en los ingresos, con la granularidad que se desee. Es posible ver el retorno de la inversión en el nivel de punto de contacto. Para aprovechar este beneficio, los costos de canal deben cargarse en la aplicación [!DNL Marketo Measure]. Los informes de retorno de la inversión se crean automáticamente y están disponibles en **Panel de retorno de la inversión de marketing** en [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
@@ -87,7 +93,7 @@ Vaya a la derecha de la pantalla y haga clic en **[!UICONTROL Descargar costos a
 
 **Paso 3: Abrir el archivo CSV y realizar cambios**
 
-Puede importar el archivo y abrirlo utilizando Google Sheets, Apple Numbers, Microsoft Excel o el software que prefiera. [!DNL Marketo Measure] recomienda utilizar hojas de Google.
+Puede importar el archivo y abrirlo utilizando Google Sheets, Apple Numbers, Microsoft Excel o el software que prefiera. [!DNL Marketo Measure] recomienda usar hojas de Google.
 
 Después de importar la hoja, realice los cambios que desee, como agregar costos a los canales y subcanales o actualizar la información existente.
 

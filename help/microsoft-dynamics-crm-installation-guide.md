@@ -3,14 +3,23 @@ description: Guía paso a paso para instalar y configurar el paquete de Marketo 
 title: '[!DNL Microsoft Dynamics] Guía de instalación de CRM'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '984'
-ht-degree: 96%
-
+ht-degree: 98%
 ---
-
 # [!DNL Microsoft Dynamics] Guía de instalación de CRM {#microsoft-dynamics-crm-installation-guide}
 
 >[!NOTE]
@@ -71,8 +80,8 @@ Para las entidades estándar de Dynamics, consulte la Documento de esquema de [!
 
 1. Seleccione el objeto (Buyer Attribution Touchpoints o Buyer Touchpoints) que se debe representar en la subcuadrícula y depende de la relación de objeto. Si lo desea, puede cambiar las columnas que se muestran haciendo clic en el botón Editar. La solución administrada establece el diseño predeterminado.
 
-   Subcuadrícula de Buyer Attribution Touchpoint: cuentas, oportunidades y contactos
-Subcuadrícula de Buyer Touchpoint: posibles clientes y contactos
+   Subcuadrícula de Buyer Attribution Touchpoint: cuentas, oportunidades y contacto
+   Subcuadrícula de Buyer Touchpoint - Clientes potenciales y contactos
 
 1. Una vez que haya terminado de actualizar el formulario, publique y guarde los cambios.
 

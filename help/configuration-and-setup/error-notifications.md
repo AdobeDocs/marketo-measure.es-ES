@@ -3,13 +3,17 @@ description: Guía de notificaciones de error para usuarios de Marketo Measure
 title: Notificaciones de errores
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1942'
-ht-degree: 28%
-
+source-wordcount: '1944'
+ht-degree: 26%
 ---
-
 # Notificaciones de errores {#error-notifications}
 
 A continuación se muestra una lista de errores que puede recibir mediante una notificación en la aplicación o por correo electrónico. Si recibe alguno de estos, siga los pasos correspondientes para la resolución de problemas. Si estos pasos no resuelven el problema, póngase en contacto con el [equipo de soporte de Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
@@ -180,11 +184,11 @@ La documentación de Salesforce sobre los déclencheur de flujo <a href="https:/
       <td>Se ha producido un error durante la exportación de CRM: MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Marketo Measure no tiene el permiso para ver/editar posibles clientes convertidos</td>
       <td>Consulte el siguiente documento de Experience League para obtener ayuda sobre cómo habilitar este permiso en su CRM<br/>
-          <a href="/help/marketo-measure-salesforce-reporting/enabling-the-permission-to-edit-converted-leads.md">Habilitación del permiso para editar posibles clientes convertidos</a></td>
+          <a href="/help/marketo-measure-salesforce-reporting/enabling-the-permission-to-edit-converted-leads.md">Habilitando el permiso para editar posibles clientes convertidos</a></td>
     </tr>
     <tr>
       <td>MISSING_FIELD_READ_PERMISSION</td>
-      <td>Se ha producido un error durante la importación de CRM: MISSING_FIELD_READ_PERMISSION: Tipo de entidad 'Event': INVALID_FIELD:<br/>
+      <td>Error durante la importación de Crm: MISSING_FIELD_READ_PERMISSION : Tipo de entidad 'Evento': INVALID_FIELD:<br/>
     SystemModstamp,IsDeleted,WhoId,bizible2__Bizible_Touchpoint_Date__c</td>
       <td>Marketo Measure carece de permisos de lectura en un campo obligatorio.</td>
       <td>Consulte los siguientes artículos de ayuda para obtener ayuda sobre los permisos que requiere Marketo Measure:

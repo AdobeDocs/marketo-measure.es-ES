@@ -1,16 +1,20 @@
 ---
-description: '[!DNL Marketo Measure] cookies:  [!DNL Marketo Measure]'
+description: 'Cookies de [!DNL Marketo Measure]: [!DNL Marketo Measure]'
 title: Cookies de [!DNL Marketo Measure]
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 86%
-
 ---
-
 # Cookies de Marketo Measure {#marketo-measure-cookies}
 
 Obtenga información sobre las distintas cookies de [!DNL Marketo Measure] que se cargan en el sitio al aplicar el JavaScript de [!DNL Marketo Measure] a las páginas de destino. Esta información puede resultar útil para el equipo de desarrollo web durante la implementación.

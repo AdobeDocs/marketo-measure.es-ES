@@ -3,17 +3,23 @@ description: Directrices de administración de dominios para usuarios de Marketo
 title: Administración de dominios
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 1%
-
 ---
-
 # Administración de dominios {#domain-management}
 
-Para los inquilinos habilitados para IMS que ejecutan [!DNL Marketo Measure] en la interfaz de Experience Cloud, [!DNL Marketo Measure] proporciona una interfaz que permite a los usuarios administrar su propia lista de dominios. [!DNL Marketo Measure] los usuarios deben comprobar primero los dominios que desean rastrear en [Adobe Admin Console](https://adminconsole.adobe.com/). Una vez verificados los dominios en Admin Console, los usuarios podrán administrar si [!DNL Marketo Measure] utiliza estos dominios para rastrear el tráfico del sitio web.
+Para los inquilinos habilitados para IMS que ejecutan [!DNL Marketo Measure] en la interfaz de Experience Cloud, [!DNL Marketo Measure] proporciona una interfaz que permite a los usuarios administrar su propia lista de dominios. [!DNL Marketo Measure] usuarios deben comprobar primero los dominios que desean rastrear en [Adobe Admin Console](https://adminconsole.adobe.com/). Una vez verificados los dominios en Admin Console, los usuarios podrán administrar si [!DNL Marketo Measure] utiliza estos dominios para rastrear el tráfico del sitio web.
 
 ## Adición de dominios en Admin Console {#adding-domains-in-admin-console}
 

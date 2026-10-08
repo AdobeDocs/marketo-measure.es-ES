@@ -1,15 +1,19 @@
 ---
-description: '[!DNL Marketo Measure] mantenimiento - [!DNL Marketo Measure]'
+description: Mantenimiento de [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Mantenimiento de [!DNL Marketo Measure]
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 91%
-
+ht-degree: 95%
 ---
-
 
 # Mantenimiento de [!DNL Marketo Measure] {#marketo-measure-maintenance}
 
@@ -42,7 +46,7 @@ Haga referencia a [este artículo](/help/channel-tracking-and-setup/online-custo
 
 **Evalúe la configuración de supresión de Touchpoints (1x/trimestre)**
 
-Si está viendo muchos Touchpoints que preferiría que no se tuvieran en cuenta en la historia de atribución (de un [!DNL Login] o [!DNL Unsubscribe forms], una página Empleo o una aplicación interna, por ejemplo), es posible que desee evaluar la configuración de supresión de Touchpoints existente. Una vez al trimestre, localice cualquier grupo de puntos de contacto que estén creando ruido innecesario y actualice correctamente la lógica de supresión. [Este es un artículo &#x200B;](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) útil con el procedimiento.
+Si está viendo muchos Touchpoints que preferiría que no se tuvieran en cuenta en la historia de atribución (de un [!DNL Login] o [!DNL Unsubscribe forms], una página Empleo o una aplicación interna, por ejemplo), es posible que desee evaluar la configuración de supresión de Touchpoints existente. Una vez al trimestre, localice cualquier grupo de Touchpoints que estén creando ruido innecesario y actualice correctamente la lógica de supresión. [Este es un artículo útil](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md)  con los procedimientos.
 
 **Revise la asignación de etapas personalizada para comprobar su precisión (1 x/trimestre) (si corresponde)**
 

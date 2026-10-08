@@ -1,15 +1,21 @@
 ---
-description: Se está realizando la transición a  [!DNL Marketo Measure] desde la guía de círculo completo para usuarios de Marketo Measure
-title: Transición a  [!DNL Marketo Measure]  desde “Full Circle”
+description: Transición a [!DNL Marketo Measure] desde la guía de círculo completo para usuarios de Marketo Measure
+title: Cambiando a [!DNL Marketo Measure] desde círculo completo
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 0%
-
 ---
-
 # Cambiando a [!DNL Marketo Measure] desde círculo completo {#transitioning-to-marketo-measure-from-full-circle}
 
 ¿Está realizando el cambio de Círculo completo a [!DNL Marketo Measure]? No estás solo... Estas son las consideraciones más importantes que debe tener en cuenta y las lecciones que hemos aprendido de otros clientes que han realizado el cambio.
@@ -30,7 +36,7 @@ Si se siente cómodo con la administración de campañas de CRM y prefiere mante
 
 ## Visibilidad vs. Atribución {#visibility-vs-attribution}
 
-Con la mayoría de las configuraciones de Círculo completo, puede ver cada interacción que una persona tiene con sus esfuerzos de marketing o ventas. Vistas de página, visitas de página repetidas, pertenencia a campañas triplicadas: todas ellas aparecen en Círculo completo. Si ve una página 300 veces, Full Circle crea 300 campañas duplicadas y le da una membresía en cada una de ellas. [!DNL Marketo Measure] no, y eso fue una decisión de diseño consciente por nuestra parte.
+Con la mayoría de las configuraciones de Círculo completo, puede ver cada interacción que una persona tiene con sus esfuerzos de marketing o ventas. Vistas de página, visitas de página repetidas, pertenencia a campañas triplicadas: todas ellas aparecen en Círculo completo. Si ve una página 300 veces, Full Circle crea 300 campañas duplicadas y le da una membresía en cada una de ellas. [!DNL Marketo Measure] no, y esa fue una decisión de diseño consciente por nuestra parte.
 
 [!DNL Marketo Measure] tiene como objetivo proporcionarle una historia de atribución que muestre interacciones significativas y distribuya adecuadamente el peso entre los puntos de contacto más impactantes. Por ejemplo, el marco de trabajo [!DNL Marketo Measure] no mostrará las vistas de página (sin rellenos de formulario) como puntos de contacto de rutina. No es probable que una vista de página independiente afecte al avance de un recorrido de compra, pero creamos un punto de contacto si es la interacción más reciente antes de un hito de CRM designado (como la creación de clientes potenciales o de oportunidades). No queremos mostrarte todo. - ¿Qué? Queremos mostrarles lo que importa, desde el punto de vista de la atribución.
 

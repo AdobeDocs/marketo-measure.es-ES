@@ -1,24 +1,28 @@
 ---
 unique-page-id: 18874594
-description: 'Plataformas de publicidad integradas:  [!DNL Marketo Measure]'
+description: 'Plataformas de publicidad integradas: [!DNL Marketo Measure]'
 title: Plataformas de anuncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-TQID: https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0
+TQID: 'https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1793
+source-wordcount: '1793'
 ht-degree: 1%
-
 ---
-
 # Plataformas de anuncios integradas {#integrated-ad-platforms}
 
 [!DNL Marketo Measure] tiene conexiones de API con Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads y DoubleClick Campaign Manager. A través de estas conexiones API, [!DNL Marketo Measure] puede extraer fácilmente datos y enviarlos a su CRM junto con la aplicación Comprador externa. No es necesario cargar manualmente los costes ni los datos. En su lugar, las cuentas simplemente tienen que estar conectadas y autorizadas a la aplicación [!DNL Marketo Measure]. [!DNL Marketo Measure] descargará automáticamente los costos de mercadotecnia de las plataformas y los cargará en la aplicación [!DNL Marketo Measure]. Si selecciona habilitar el etiquetado automático para anuncios de AdWords, BingAds o [!DNL Facebook], [!DNL Marketo Measure] adjuntará automáticamente sus parámetros a las direcciones URL de sus anuncios.
@@ -53,8 +57,8 @@ La plantilla de seguimiento es una herramienta que proporciona Google para agreg
 * *Opción B*: se encuentra el redireccionamiento de terceros. Si se encuentra una redirección de terceros en la plantilla de seguimiento, [!DNL Marketo Measure] no podrá realizar ninguna acción. Deberá agregar manualmente las etiquetas [!DNL Marketo Measure] al sistema de terceros. Un ejemplo de redireccionamiento de terceros sería una herramienta de gestión de ofertas como Kenshoo o Marin. Más información sobre cómo las [herramientas de administración de ofertas afectan a [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Opción C*: no se encontró ninguna plantilla de seguimiento. [!DNL Marketo Measure] analizará todas sus direcciones URL de destino de anuncios para los parámetros [!DNL Marketo Measure]. En función del análisis, si:
-   * Se han encontrado parámetros: la configuración ha finalizado.
-   * No se encontraron los parámetros: [!DNL Marketo Measure] adjuntará sus parámetros al final de las direcciones URL de destino de la publicidad. [!DNL Marketo Measure] anexa nuevos anuncios en un plazo de dos horas a partir de su creación. Tenga en cuenta que los parámetros no se añaden a una plantilla.
+  * Se han encontrado parámetros: la configuración ha finalizado.
+  * No se encontraron los parámetros: [!DNL Marketo Measure] adjuntará sus parámetros al final de las direcciones URL de destino de la publicidad. [!DNL Marketo Measure] anexa nuevos anuncios en un plazo de dos horas a partir de su creación. Tenga en cuenta que los parámetros no se añaden a una plantilla.
 
 Obtenga más información acerca de nuestra [[!DNL AdWords] funcionalidad de etiquetado automático](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 

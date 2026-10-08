@@ -3,16 +3,20 @@ description: Directrices generales para usuarios de Marketo Measure
 title: Información general
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
 feature: Multi-Currency
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 1%
-
 ---
-
 # Información general {#overview}
 
-En la actualidad, la aplicación [!DNL Marketo Measure] solo admite una sola moneda (se supone que es USD), mientras que sabemos y somos conscientes de que tenemos clientes en todo el mundo que necesitan informar sobre sus propias monedas corporativas y de usuario. Esta característica permite a los usuarios cambiar entre las mismas monedas utilizadas en su CRM al ver los gastos o ingresos de ventas registrados en [!DNL Marketo Measure].
+En la actualidad, la aplicación [!DNL Marketo Measure] solo admite una sola divisa (se supone que es USD), mientras que sabemos y somos conscientes de que tenemos clientes en todo el mundo que necesitan informar sobre sus propias divisas corporativas y de usuario. Esta característica permite a los usuarios cambiar entre las mismas monedas utilizadas en su CRM al ver los gastos o ingresos de ventas registrados en [!DNL Marketo Measure].
 
 ## Disponibilidad {#availability}
 

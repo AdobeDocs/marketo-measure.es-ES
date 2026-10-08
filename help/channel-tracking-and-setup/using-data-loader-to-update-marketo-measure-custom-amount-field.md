@@ -3,13 +3,17 @@ description: Uso del cargador de datos para actualizar la guía del campo de can
 title: Uso del cargador de datos para actualizar el campo de cantidad personalizada de Marketo Measure
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 1%
-
 ---
-
 # Usando el cargador de datos para actualizar el campo de cantidad personalizada [!DNL Marketo Measure] {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
 [!DNL Marketo Measure] recomienda usar el Cargador de datos como una opción conveniente para actualizar los valores de oportunidad al usar un campo de ingresos personalizado (se usa el campo Importe predeterminado) en [!DNL Marketo Measure]. Se prefiere el cargador de datos en lugar de usar el script de actualización [!DNL Marketo Measure], ya que el script requiere que los usuarios deshabiliten todas las reglas de validación de Salesforce mientras se ejecuta el script [!DNL Marketo Measure].

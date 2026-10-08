@@ -3,13 +3,20 @@ description: Guía de migración de zona protegida de Salesforce a producción p
 title: Migración de zona protegida de Salesforce a producción
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 92%
-
 ---
-
 # Migración de zona protegida de Salesforce a producción {#salesforce-sandbox-to-production-migration}
 
 Si eligió realizar la prueba de [!DNL Marketo Measure] en un entorno de zona protegida de [!DNL Salesforce], siga estas instrucciones para migrar a la producción una vez que esté listo. Las siguientes instrucciones suponen que ya ha descargado el paquete de [!DNL Marketo Measure] en su organización de zona protegida, ha realizado las pruebas necesarias y está listo para enviar [!DNL Marketo Measure] a producción.
@@ -18,7 +25,7 @@ Si eligió realizar la prueba de [!DNL Marketo Measure] en un entorno de zona p
 
 * Instale el paquete de [!DNL Marketo Measure] en producción con la configuración “[!UICONTROL Todos los usuarios]”.
 
-   * [Paquete base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+  * [Paquete base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
 * Para obtener más información sobre la relación de [!DNL Marketo Measure] con [!DNL Salesforce], consulte [este artículo](/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md).
 * Es necesario configurar [!DNL Salesforce] un poco. Los elementos de acción específicos se describen a continuación en el [Paso 4 siguiente](#salesforce-configuration)
@@ -32,7 +39,7 @@ Si eligió realizar la prueba de [!DNL Marketo Measure] en un entorno de zona p
 
   ![Se le pedirá que confirme la eliminación. Asegúrese de leer más de &#x200B;](assets/salesforce-migration-1.png)
 
-   * Escriba el nombre de la empresa como se le indica en el modelo de confirmación y haga clic en “Entiendo las consecuencias, eliminar esta conexión”.
+  * Escriba el nombre de la empresa como se le indica en el modelo de confirmación y haga clic en “Entiendo las consecuencias, eliminar esta conexión”.
 * Esto desencadena el proceso de eliminación y tardará algún tiempo en finalizar.
 
 ## Paso 3: Conectar la instancia de producción de CRM en la aplicación de [!DNL Marketo Measure] {#connect-the-production-crm-instance-in-marketo-measure-app}

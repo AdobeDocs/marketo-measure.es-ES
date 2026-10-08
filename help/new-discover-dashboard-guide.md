@@ -3,14 +3,18 @@ description: Asigna los paneles de Discover heredados a las versiones rediseñad
 title: Guía de Discover Dashboard
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1066'
 ht-degree: 3%
-
 ---
-
 # Guía de Discover Dashboard {#new-discover-dashboard-guide}
 
 Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuestro objetivo principal es ofrecerle una experiencia más ágil e intuitiva. Con imágenes más limpias y una navegación más sencilla, esta renovación no solo conserva la mayoría de las métricas existentes, sino que también introduce perspectivas nuevas. Sumérjase y descubra la claridad mejorada y el valor añadido.
@@ -241,7 +245,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
           <li>
             <strong>URL de formulario por canal</strong>
             <strong>:</strong>
-            <strong></strong>Tablero de tráfico web (filtre el mosaico Forms del sitio por canal)</li>
+            <strong></strong>Tablero de tráfico web (filtrar mosaico de Forms del sitio por canal)</li>
           <li>
             <strong>Páginas de destino por ingresos: </strong>Obsoleto (ver más abajo)</li>
           <li>
@@ -345,7 +349,7 @@ Estamos encantados de presentar nuestro rediseño de tableros de Discover. Nuest
   <tbody>
     <tr>
       <th scope="col">Métricas obsoletas</th>
-      <th scope="col">Razonar</th>
+      <th scope="col">Razonamiento</th>
     </tr>
     <tr>
       <td>

@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874600
-description: 'Sincronizando campañas sin conexión:  [!DNL Marketo Measure]'
+description: 'Sincronizando campañas sin conexión: [!DNL Marketo Measure]'
 title: Sincronización de campañas sin conexión
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-TQID: https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo
+TQID: 'https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: '752'
 ht-degree: 9%
-
 ---
-
 # Sincronización de campañas sin conexión {#syncing-offline-campaigns}
 
 Puede resultar difícil rastrear con precisión las campañas sin conexión y comprender cómo se comparan con sus esfuerzos de marketing digital. [!DNL Marketo Measure] le permite rastrear y atribuir puntos de contacto a sus campañas sin conexión en [!DNL Salesforce], incluso en situaciones en las que no se crea una campaña de [!DNL Salesforce] hasta unas semanas después del evento.

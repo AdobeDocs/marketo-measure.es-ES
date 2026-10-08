@@ -3,13 +3,17 @@ description: Guía de preguntas frecuentes sobre atribución de actividades para
 title: Preguntas frecuentes sobre la atribución de actividades
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '755'
 ht-degree: 3%
-
 ---
-
 # Preguntas frecuentes sobre la atribución de actividades {#activities-attribution-faq}
 
 [!DNL Marketo Measure] actividades importa todos sus registros de actividad y genera puntos de contacto para ellos, lo que permite que estas actividades reciban crédito de atribución. El caso de uso más común es rastrear Actividades del equipo de ventas, ya que comúnmente crean un registro de llamadas telefónicas o correos electrónicos que se envían a los posibles clientes. Otras cosas únicas de las que se puede realizar un seguimiento son las interacciones de contenido, como las descargas de recursos o las vistas de vídeos.
@@ -68,6 +72,6 @@ Encontrará instrucciones sobre cómo configurar actividades en la aplicación d
 
 **¿En qué canal se incluyen estas actividades?**
 
-Cuando se creen la regla de actividad y su correspondiente nombre de campaña [!DNL Marketo Measure], use las definiciones de canales en línea para colocar esas campañas en el canal de marketing correcto. [!DNL Marketo Measure] Puede definir canales utilizando no solo el medio y la fuente, sino también la campaña.
+Cuando se creen la regla de actividad y su correspondiente nombre de campaña [!DNL Marketo Measure], use las definiciones de canales en línea para colocar esas campañas en el canal de marketing correcto. [!DNL Marketo Measure] puede definir canales no solo mediante el medio y el origen, sino también mediante la campaña.
 
 En el ejemplo anterior, para asignar la campaña &quot;Llamada saliente {Assigned To}&quot; al canal BDR, inserte una fila en el CSV de canales en línea para el canal BDR con una definición de campaña de &quot;Llamada saliente&#42;&quot;: el asterisco denota un valor comodín, de modo que todas las campañas que comiencen con &quot;Llamada saliente&quot; caerán bajo el canal BDR, en lugar de tener que crear una fila independiente para cada nombre de campaña.

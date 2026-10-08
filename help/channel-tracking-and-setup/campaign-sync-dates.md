@@ -3,13 +3,17 @@ description: Guía de fechas de sincronización de Campaign para usuarios de Mar
 title: Fechas de sincronización de campañas
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 6%
-
 ---
-
 # Fechas de sincronización de campañas {#campaign-sync-dates}
 
 Descubra lo que hace la función Fechas de sincronización de Campaign, así como algunos casos de uso para esta función.
@@ -25,7 +29,7 @@ Esta característica consta de dos campos de fecha simples en el objeto de campa
 * Fecha de inicio de Touchpoint
 * Fecha de finalización de Touchpoint
 
-Una vez que los puntos de contacto del comprador están activados en una campaña en particular, las fechas de sincronización de campaña le permiten establecer los parámetros de fecha de punto de contacto en la campaña individual. Por lo tanto, si agregara una fecha de finalización de punto de contacto del 1 de marzo de 2017, [!DNL Marketo Measure] solo creará puntos de contacto en los miembros de la campaña que se agregaron a la campaña antes de esa fecha. [!DNL Marketo Measure] no creará puntos de contacto para los miembros de la campaña que se añadieron después del 1 de marzo de 2017.
+Una vez que los puntos de contacto del comprador están activados en una campaña en particular, las fechas de sincronización de campaña le permiten establecer los parámetros de fecha de punto de contacto en la campaña individual. Por lo tanto, si agregara una fecha de finalización de punto de contacto del 1 de marzo de 2017, [!DNL Marketo Measure] solo creará puntos de contacto en los miembros de la campaña que se agregaron a la campaña antes de esa fecha. [!DNL Marketo Measure] no creará puntos de contacto para los miembros de la campaña que se agregaron después del 1 de marzo de 2017.
 
 ![Una vez que los puntos de contacto del comprador estén habilitados en una campaña en particular, las fechas de sincronización de campañas](assets/legacy-processes-3.gif)
 

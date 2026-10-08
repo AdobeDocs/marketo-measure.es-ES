@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874588
-description: Sincronización personalizada de campaña - [!DNL Marketo Measure]
+description: Sincronización de campañas personalizada - [!DNL Marketo Measure]
 title: Sincronización de campañas personalizadas
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-TQID: https://experienceleague.adobe.com/Sjq6LW7276xADXbs8qEZc-J2spPrhDwPIGLP7-MsePk
+TQID: 'https://experienceleague.adobe.com/Sjq6LW7276xADXbs8qEZc-J2spPrhDwPIGLP7-MsePk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '660'
 ht-degree: 1%
-
 ---
-
 # Sincronización de campañas personalizadas {#custom-campaign-sync}
 
 Hoy, con el paquete [!DNL Marketo Measure] instalado, puede indicar qué campañas incluir como punto de contacto elegible. Existen múltiples obstáculos a esto, tal como existía anteriormente. Una vez que el paquete [!DNL Marketo Measure] esté instalado en CRM, su equipo de seguridad puede tardar un tiempo en aprobarlo. Además, no hay flexibilidad para utilizar una sola lista de selección en el objeto de campaña. Con esta nueva función, no es necesario instalar el paquete para empezar a utilizar los registros de Campaign y de los miembros de Campaign. Se pueden crear reglas para definir exactamente qué registros se pueden crear para definir exactamente qué registros son aptos.

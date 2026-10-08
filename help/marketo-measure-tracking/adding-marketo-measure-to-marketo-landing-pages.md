@@ -1,15 +1,19 @@
 ---
-description: Agregando  [!DNL Marketo Measure] a la guía de páginas de aterrizaje de Marketo para usuarios de Marketo Measure
-title: Adición de  [!DNL Marketo Measure]  a las páginas de destino de Marketo
+description: Agregando [!DNL Marketo Measure] a la guía de páginas de destino de Marketo para usuarios de Marketo Measure
+title: Agregando [!DNL Marketo Measure] a las páginas de aterrizaje de Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 3%
-
+source-wordcount: '241'
+ht-degree: 2%
 ---
-
 # Agregando [!DNL Marketo Measure] a las páginas de aterrizaje de Marketo {#adding-marketo-measure-to-marketo-landing-pages}
 
 Aprenda a agregar el seguimiento a [!DNL Marketo Engage] páginas de aterrizaje, ya que requieren una administración adicional. [!DNL Marketo Measure] JavaScript debe estar configurado tanto en la página de aterrizaje como en el propio formulario [!DNL Marketo Engage]. Para ello, debe cargar el JavaScript [!DNL Marketo Measure] en [!DNL Marketo Engage], tal como se explica en las siguientes instrucciones.

@@ -1,15 +1,19 @@
 ---
-description: Registros duplicados y [!DNL Marketo Measure] instrucciones para usuarios de Marketo Measure
-title: Duplicar registros y  [!DNL Marketo Measure]
+description: Registros duplicados e instrucciones [!DNL Marketo Measure] para usuarios de Marketo Measure
+title: Registros duplicados y [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 11%
-
+source-wordcount: '294'
+ht-degree: 10%
 ---
-
 # Registros duplicados y [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
@@ -28,5 +32,5 @@ Puede ver para el ID de persona [!DNL Marketo Measure] de kelsey@adobe.com que e
 
 **Recomendación**
 
-* Para maximizar el retorno de los informes, se recomienda utilizar una herramienta de desduplicación dentro de su CRM para garantizar que solo está creando registros nuevos y únicos. Esto se puede hacer con la herramienta de automatización de marketing o con un software independiente instalado en el CRM. [!DNL Marketo Measure] no desduplica registros automáticamente y no ofrece este servicio a través de nuestro software.
+* Para maximizar el retorno de los informes, se recomienda utilizar una herramienta de desduplicación dentro de su CRM para garantizar que solo está creando registros nuevos y únicos. Esto se puede hacer con la herramienta de automatización de marketing o con un software independiente instalado dentro de su CRM. [!DNL Marketo Measure] no desduplica registros automáticamente y no ofrece este servicio a través de nuestro software.
 * Una opción alternativa sería combinar manualmente los registros a medida que identifique duplicados. Este proceso puede llevar mucho tiempo y ser tedioso, pero el resultado de generar informes precisos merece la pena invertir tiempo.

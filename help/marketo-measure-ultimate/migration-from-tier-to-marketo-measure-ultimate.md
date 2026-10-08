@@ -1,24 +1,33 @@
 ---
-description: Obtenga información acerca del proceso de migración al pasar de la  [!DNL Marketo Measure] suscripción por niveles a [!DNL Marketo Measure] Ultimate.
-title: Migración de nivel a  [!DNL Marketo Measure] Ultimate
+description: Obtenga información acerca del proceso de migración al pasar de la suscripción en niveles [!DNL Marketo Measure] a [!DNL Marketo Measure] Ultimate.
+title: Migración de nivel a [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 828c9bba-3835-484a-bd80-84b5a6b67e22
-TQID: https://experienceleague.adobe.com/Q-VV8-RWaGb-lk-vr3y9KK9SjTlsugPJ-N4HrSH5uxA
+TQID: 'https://experienceleague.adobe.com/Q-VV8-RWaGb-lk-vr3y9KK9SjTlsugPJ-N4HrSH5uxA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Data collection
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 283
+source-wordcount: '286'
 ht-degree: 1%
-
 ---
-
 # Migración de nivel 1-2 a [!DNL Marketo Measure] Ultimate {#migration-from-tier-to-marketo-measure-ultimate}
 
 Este artículo describe el proceso de migración de los usuarios que pasan de la suscripción de nivel 1 o 2 a [!DNL Marketo Measure] Ultimate.
@@ -51,16 +60,16 @@ Vuelva a implementar todas las conexiones de datos de origen en AEP, incluidas l
 
 * Las funciones de Account-Based Marketing, incluida la coincidencia de cliente potencial con cuenta y las puntuaciones de participación predictiva, no están disponibles en Ultimate.
 
-   * Sin embargo, puede importar los resultados coincidentes del posible cliente con la cuenta a través de AEP y utilizarlos dentro de la plataforma.
+  * Sin embargo, puede importar los resultados coincidentes del posible cliente con la cuenta a través de AEP y utilizarlos dentro de la plataforma.
 
 * En Ultimate, las transiciones de fase históricas de CRM se infieren en lugar de leerse directamente, ya que no hay conexión directa de CRM.
 
-   * Leemos registros de oportunidades y marcas de tiempo y vemos la etapa actual, luego deducimos las etapas históricas.
+  * Leemos registros de oportunidades y marcas de tiempo y vemos la etapa actual, luego deducimos las etapas históricas.
 
 ## Sistema de informes {#reporting}
 
 * Ultimate no devuelve los datos a los CRM.
 
-   * Si desea volver a insertar datos en el CRM, se requiere una canalización de ETL personalizada para extraer datos de Marketo Measure Snowflake al CRM. Debe configurar un modelo de datos personalizado en su CRM.
+  * Si desea volver a insertar datos en el CRM, se requiere una canalización de ETL personalizada para extraer datos de Marketo Measure Snowflake al CRM. Debe configurar un modelo de datos personalizado en su CRM.
 
 * Todos los paneles de Discover son los mismos que los de la solución por niveles, con la adición de paneles de Attribution AI.
