@@ -52,7 +52,7 @@ El posible cliente 1 se convierte en un contacto con una oportunidad, que se con
 
 Este escenario utiliza los mismos criterios que el escenario 2. Un cliente solo ha elegido rastrear la fase SQL con puntos de contacto boomerang. Se sigue realizando el seguimiento de MQL y SAL, pero con la función de fase personalizada [!DNL Marketo Measure].
 
-![Este escenario usa los mismos criterios que el escenario 2. Un cliente tiene ](assets/boomerang-stages-20.png)
+![Este escenario usa los mismos criterios que el escenario 2. Un cliente tiene &#x200B;](assets/boomerang-stages-20.png)
 
 En este escenario, el posible cliente nunca pasa realmente a la fase de SAL. Se convierte en un Contacto antes de que llegue a la fase de SAL, esencialmente &quot;saltándose&quot; la fase de SAL. En este caso, [!DNL Marketo Measure] supone que la SAL se produce con el punto de contacto OC, y que tanto la posición SAL como la OC aparecerán en el mismo punto de contacto.
 

@@ -87,4 +87,4 @@ Si se selecciona un valor o una etiqueta de eje en una visualización, se filtra
 
 La información sobre herramientas ofrece detalles adicionales acerca de los datos mostrados. Pase el ratón sobre un elemento visual y aparecerá una información sobre herramientas contextual que proporciona perspectivas o explicaciones relacionadas con ese punto de datos específico.
 
-![La información sobre herramientas ofrece detalles adicionales acerca de los datos mostrados. Pase el ratón sobre una imagen ](assets/discover-basics-4.gif)
+![La información sobre herramientas ofrece detalles adicionales acerca de los datos mostrados. Pase el ratón sobre una imagen &#x200B;](assets/discover-basics-4.gif)

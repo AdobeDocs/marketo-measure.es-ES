@@ -31,7 +31,7 @@ Una vez finalizada la instalación y comenzado a usar los informes, su organizac
 
 1. Haga clic en los informes marcados a continuación con una X naranja para que la lista de informes tenga el mismo aspecto que la imagen siguiente.
 
-   ![1. Haga clic en los informes marcados a continuación con una X naranja para hacer ](assets/bizible-full-1.png)
+   ![1. Haga clic en los informes marcados a continuación con una X naranja para hacer &#x200B;](assets/bizible-full-1.png)
 
 >[!MORELIKETHIS]
 >
