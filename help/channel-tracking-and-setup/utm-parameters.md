@@ -25,11 +25,11 @@ Los parámetros UTM se pueden agregar manualmente a las URL o agregar mediante e
 
 Para comprender cómo funcionan los parámetros UTM, veamos una URL típica sin UTM:
 
-`http://www.adobe.com`
+`http://www.adobe.com/es`
 
 Ahora, veamos una URL con UTM:
 
-`http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
+`http://www.adobe.com/es?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
 El segundo vínculo contiene más texto. Los parámetros UTM siempre van después del dominio de nivel superior (.com en este ejemplo) y comienzan con un signo de interrogación. Después de esto, el orden de los parámetros no importa, pero se recomienda seguir una convención de nomenclatura coherente. Los símbolos de unión deben colocarse entre cada parámetro para separar cada UTM. Ahora podemos entrar en más detalles sobre lo que representa cada parámetro.
 
