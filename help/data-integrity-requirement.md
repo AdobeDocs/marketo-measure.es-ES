@@ -37,7 +37,7 @@ ht-degree: 76%
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>Cuenta</strong> (cuenta de Salesforce, compañía y/o cuenta con nombre para Marketo)</td>
+      <td colspan="7"><strong>Cuenta</strong> (cuenta de Salesforce, compañía y/o cuenta nombrada para Marketo)</td>
     </tr>
     <tr>
       <td rowspan="6">Cuenta empresarial de XDM</td>
@@ -1118,7 +1118,7 @@ ht-degree: 76%
       <td>Se utiliza para capturar datos cuando cambia el estado de un posible cliente en una campaña</td>
     </tr>
     <tr>
-      <td>Añadir al programa de participación (añadir a Nurture)</td>
+      <td>Añadir al programa de participación (añadir a Fidelización)</td>
       <td>leadOperation.addToCampaign</td>
       <td>Se utiliza para añadir una persona a la campaña específica.</td>
     </tr>
