@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
+source-git-commit: 85b421a896fb78f5469a41c8d11131802d08910c
 workflow-type: tm+mt
-source-wordcount: '21775'
+source-wordcount: '21772'
 ht-degree: 99%
 ---
 # Esquema de Data Warehouse {#data-warehouse-schema}
@@ -5804,7 +5804,7 @@ Agrupa Impresiones, Vistas de página, Visitas, Envíos de formularios, Puntos d
 
 >[!IMPORTANT]
 >
->Marketo Measure dejará de utilizar esta tabla a mediados de 2024. Si desea crearla por su cuenta, ejecute [esta consulta SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure dejó de utilizar esta tabla en 2024. Si desea crearla por su cuenta, ejecute [esta consulta SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.txt).
 
 <table>
   <tbody>
